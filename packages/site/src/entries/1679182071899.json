@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vaFTtAJYPHyZhAyTxHYqb7ojiVJj",
+  "object": "chat.completion",
+  "created": 1679182055,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some potential risks or drawbacks of using immunotherapy for cancer treatment include:\n\n1. Side effects: Immunotherapy can cause various side effects depending on the type of treatment and the individual’s immune system. Common side effects may include fatigue, fever, chills, nausea, vomiting, loss of appetite, and joint pain.\n\n2. Autoimmune reactions: There is a risk for autoimmune reactions with some types of immunotherapies as they stimulate the immune system to attack cancer cells. This could potentially result in significant harm to healthy tissues and organs.\n\n3. Limited effectiveness: Immunotherapy does not work for every patient or type of cancer. In some cases, it might slow down tumor growth but not eliminate it completely.\n\n4. High cost: The development and production costs associated with these therapies make them expensive compared to other treatments like chemotherapy or radiation therapy.\n\n5.Chance of inflammation-related complications such as organ damage if an overstimulated immune reaction spreads through surrounding tissue\n\n6.Allergic Reactions\n\n7"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
