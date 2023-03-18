@@ -1,4 +1,4 @@
-name: 'Daily - Dependency Check and Update'
+name: 'Run the Stochastic Parrot'
 
 on:
   schedule:
