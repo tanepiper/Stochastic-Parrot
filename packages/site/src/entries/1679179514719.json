@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vZaFrWwOJhICBsgbo0AcKg0HPXoa",
+  "object": "chat.completion",
+  "created": 1679179499,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 142,
+    "total_tokens": 148
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Pantheon is a former Roman temple, now a Catholic church (Basilica di Santa Maria ad Martyres or Basilica of St. Mary and the Martyrs), in Rome, Italy. It was originally built by Marcus Agrippa during the reign of Augustus around 27 BC-14 AD and later reconstructed by Emperor Hadrian about 126 AD. The Pantheon is known for its well-preserved architecture, massive Corinthian columns at the entrance, and remarkable dome with an open central oculus allowing light to enter.\n\nToday, it serves as both a church and a historic monument where important figures such as Italian kings Victor Emmanuel II and Umberto I are buried alongside noted painter Raphael."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
