@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vYSCWw6DaUVyAvVJDHtwoEYTDH82",
+  "object": "chat.completion",
+  "created": 1679175156,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The average time it takes to design a building can vary greatly depending on the size, complexity, and type of building being designed. On average, it might take anywhere from several weeks to several months for an architect or designer to complete preliminary designs for a relatively simple building such as a single-family home or small commercial project.\n\nFor larger and more complex projects like multi-story office buildings, public facilities, high-rise apartments, or mixed-use developments, the design process will typically take much longer - potentially up to several years from initial concept development through final design documentation.\n\nIt's essential to note that many factors influence the timeline for designing a building. These factors include:\n\n1. Client requirements and decision-making: The client’s needs undoubtedly play a crucial role in setting the pace at which designs are developed.\n2. Project scope: Larger buildings with more complex programming will often require significantly more time than smaller projects.\n3. Local codes and regulations: Complying with local zoning laws, planning approvals and other regulatory"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
