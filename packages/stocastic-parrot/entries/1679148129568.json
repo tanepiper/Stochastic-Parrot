@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vRQ1iLLHuIAoESg4NLlBm9mPPCig",
+  "object": "chat.completion",
+  "created": 1679148113,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few different meanings for the term \"double-time\":\n\n1) In music, double-time is a type of tempo or rhythmic feel where the beat is played twice as fast as the original (or normal) rate. For example, if a song starts off with 60 beats per minute (BPM), when it moves into double-time, it would be played at 120 BPM.\n\n2) In labor and employment settings, \"double time\" refers to an employee being paid twice their regular hourly wage for working certain hours or under specific conditions such as working on holidays or surpassing a certain number of hours in one work week.\n\n3) In military contexts, double-time refers to marching at an accelerated pace compared to ordinary marching speed. This usually involves taking larger steps and increasing stride frequency.\n\n4) More colloquially speaking, people may use \"working/doing something in double time\" to indicate they're moving quickly or efficiently in order to complete a task ahead of schedule."
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
