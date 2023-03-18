@@ -4,12 +4,10 @@ import Card from '../components/Card.astro';
 import LatestPosts from '$ui/LatestPosts.astro';
 
 const entries = await Astro.glob('../entries/*.json');
-const latestFive = entries.map(e => e.default).sort((a, b) => a.created > b.created ? -1 : 1).slice(0, 5);
-// const values = latestFive.map(e => {
-// 	console.log(e.choices[0].message.content);
-// 	return e.choices[0].message.content;
-// });
-//console.log(latestFive)
+const latestFive = entries
+  .map((e) => e.default)
+  .sort((a, b) => (a.created > b.created ? -1 : 1))
+  .slice(0, 5);
 ---
 
 <Layout title='Welcome to Astro.'>
@@ -17,9 +15,9 @@ const latestFive = entries.map(e => e.default).sort((a, b) => a.created > b.crea
     <h1>
       Welcome to the <span class='text-gradient'>Stocastic Parrot</span> homepage
     </h1>
-	<div style="text-align: center;">
-		<img src='/images/avatar_small.png' alt='Stochastic Parrot' />
-	</div>
+    <div style='text-align: center;'>
+      <img src='/images/avatar_small.png' alt='Stochastic Parrot' />
+    </div>
     <p class='instructions'>
       The <a href='https://mastodon.social/@StochasticEntropy'
         >Stochastic Parrot</a
@@ -41,7 +39,7 @@ const latestFive = entries.map(e => e.default).sort((a, b) => a.created > b.crea
       />
     </ul>
 
-	<LatestPosts items={latestFive} />
+    <LatestPosts items={latestFive} />
   </main>
 </Layout>
 
