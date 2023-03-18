@@ -1,4 +1,6 @@
 ---
+import { Markdown } from '@astropub/md'
+
 const { items } = Astro.props;
 
 const allItems = items ?? [];
@@ -8,7 +10,7 @@ const allItems = items ?? [];
 <div class='latest-items'>
   {allItems.map((item) => <div>
     <p><code>created: {item.created} ({new Date(item.created * 1000).toISOString()}) | model: {item.model} | total_tokens: {item.usage.total_tokens}</code></p>
-    <p>{item.choices[0].message.content}</p>
+    <Markdown of={item.choices[0].message.content} />
     </div>
     )}
 </div>
