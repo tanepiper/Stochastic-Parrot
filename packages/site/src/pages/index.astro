@@ -4,7 +4,7 @@ import Card from '../components/Card.astro';
 import LatestPosts from '$ui/LatestPosts.astro';
 
 const entries = await Astro.glob('../entries/*.json');
-const latestFive = entries.map(e => e.default).sort((a, b) => a.created > b.created ? 1 : -1).slice(0, 5);
+const latestFive = entries.map(e => e.default).sort((a, b) => a.created > b.created ? -1 : 1).slice(0, 5);
 // const values = latestFive.map(e => {
 // 	console.log(e.choices[0].message.content);
 // 	return e.choices[0].message.content;
