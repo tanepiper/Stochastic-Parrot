@@ -13,11 +13,15 @@ project:
 
 tasks:
   dev:
+    options:
+      runInCI: false
     command: 'npm run dev'
     inputs:
       - 'public/**/*'
       - 'src/**/*'
   build:
+    options:
+      runInCI: false
     command: 'npm run build'
     inputs:
       - 'public/**/*'
@@ -26,13 +30,10 @@ tasks:
     ouput:
       'dist'
   preview:
+    options:
+      runInCI: false
     command: 'npm run preview'
     inputs:
       - 'public/**/*'
       - 'src/**/*'
       - 'dist'
-  deploy:
-    command: 'netlify deploy --build'
-    inputs:
-      - 'dist'
-      - '.netlify'
