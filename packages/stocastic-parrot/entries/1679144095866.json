@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vQMzHYGsPvbrhYjEuPYqcTriwlLf",
+  "object": "chat.completion",
+  "created": 1679144081,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Globally, pollution levels vary depending on the country, city, and specific area in question, as pollution levels are influenced by various factors, such as industrial, transportation, and energy production, among others, and, in general, pollution levels, in,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
