@@ -15,7 +15,7 @@ const append = '\n\n#StochasticParrot #ChatGPT';
 
 async function sendToMasto(messageLeft, in_reply_to_id) {
   let status = '';
-  const maxLen = 480;
+  const maxLen = in_reply_to_id ? 500 : 470;
 
   if (messageLeft.length >= maxLen) {
     const parts = messageLeft.split(' ');
@@ -62,3 +62,5 @@ const response = await openAI.createCompletion({
 const { content } = response.data.choices[0].message;
 
 await sendToMasto(content);
+
+console.log('Done!')

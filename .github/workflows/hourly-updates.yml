@@ -18,9 +18,22 @@ jobs:
       - name: 🛠 NodeJS
         uses: actions/setup-node@v3
         with:
+          cache: 'npm'
           node-version-file: '.nvmrc'
           registry-url: 'https://registry.npmjs.org'
+      - name: Get npm cache directory
+        id: npm-cache-dir
+        shell: bash
+        run: echo "dir=$(npm config get cache)" >> ${GITHUB_OUTPUT}
+      - uses: actions/cache@v3
+        id: npm-cache # use this to check for `cache-hit` ==> if: steps.npm-cache.outputs.cache-hit != 'true'
+        with:
+          path: ${{ steps.npm-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: Install Deps
+        if: ${{ steps.cache.outputs.cache-hit != 'true' }}
         run: npm install
       - name: Run Script
         env:
