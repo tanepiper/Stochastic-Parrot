@@ -1,6 +1,11 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$ui/*": ["./src/components/*"],
+      "$styles/*": ["./src/styles/*"]
+    },
     "outDir": "../../.moon/cache/types/packages/site"
   }
 }

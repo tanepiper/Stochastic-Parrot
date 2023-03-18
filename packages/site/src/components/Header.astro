@@ -1,0 +1,90 @@
+---
+const navItems = [
+  { name: 'Home', url: '/' },
+  { name: 'What is this?', url: '/about' },
+  { name: 'Mastodon', url: 'https://mastodon.social/@StochasticEntropy' },
+  { name: 'GitHub', url: 'https://github.com/tanepiper/Stochastic-Parrot' },
+];
+import '$styles/glitch.css';
+---
+
+<header class='funky'>
+  <h1>The Stochastic Parrot</h1>
+  <div></div>
+  <nav>
+    <ul>
+      {
+        navItems.map((item) => (
+          <li>
+            <a
+              href={item.url}
+              target={item.url.includes('http') ? '_blank' : '_self'}
+            >
+              {item.name}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+
+<style>
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #333;
+    color: #fff;
+    min-height: 80px;
+  }
+
+  .funky {
+    background: rgb(88, 235, 13);
+    background: linear-gradient(
+      180deg,
+      rgba(88, 235, 13, 1) 0%,
+      rgba(184, 11, 75, 1) 14%,
+      rgba(36, 37, 221, 1) 26%,
+      rgba(249, 108, 7, 1) 35%,
+      rgba(133, 77, 156, 1) 54%,
+      rgba(48, 163, 158, 1) 76%,
+      rgba(219, 69, 155, 1) 91%,
+      rgba(94, 13, 255, 1) 100%
+    );
+  }
+  .funky h1 {
+    animation: glitch1 2.5s infinite;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  header nav ul li {
+    margin: 0 0.5rem;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+</style>

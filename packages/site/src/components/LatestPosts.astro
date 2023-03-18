@@ -1,0 +1,53 @@
+---
+const { items } = Astro.props;
+
+const allItems = items ?? [];
+---
+
+<h2>Latest Items</h2>
+<div class='latest-items'>
+  {allItems.map((item) => <div>
+    <p><code>created: {item.created} ({new Date(item.created * 1000).toISOString()}) | model: {item.model} | total_tokens: {item.usage.total_tokens}</code></p>
+    <p>{item.choices[0].message.content}</p>
+    </div>
+    )}
+</div>
+
+<style>
+  /** css for a psychadelic looking unordered list */
+  .latest-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .latest-items div {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    animation: float 3s ease-in-out infinite;
+  }
+  .latest-items div:nth-child(2n) {
+    animation-delay: 1s;
+  }
+  .latest-items div:nth-child(3n) {
+    animation-delay: 2s;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-0.25rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+</style>
