@@ -3,18 +3,28 @@
 import { createOpenAIInstance } from './openai.mjs';
 import generator from 'megalodon';
 import dotenv from 'dotenv';
+import { randomNumber } from './lib.mjs';
 
 dotenv.config();
+const debugMode = process.env.DEBUG_MODE === 'true';
 
-const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY, '/chat');
+const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY);
 const mastodon = generator.default(
   'mastodon',
   'https://mastodon.social',
   process.env.MASTODON_ACCESS_TOKEN
 );
 
-const append = '\n\n#StochasticParrot #ChatGPT';
+const FIRST_TOOT_HASHTAGS = '\n\n#StochasticParrot #ChatGPT';
 
+/**
+ * Send a message to Mastodon, if the message is to long this method
+ * splits the text down to 500 characters and sends it in multiple
+ * toots as replies to the first toot.
+ *
+ * @param {string} messageLeft The message to send to Mastodon
+ * @param {string=} in_reply_to_id The ID of the toot to reply to
+ */
 async function sendToMasto(messageLeft, in_reply_to_id) {
   let status = '';
   const maxLen = in_reply_to_id ? 500 : 470;
@@ -27,13 +37,13 @@ async function sendToMasto(messageLeft, in_reply_to_id) {
       }
       status = `${status} ${parts[i]}`;
     }
-    messageLeft = messageLeft.substr(status.length);
+    messageLeft = messageLeft.substring(status.length);
     if (!in_reply_to_id) {
-      status = `${status}${append}`;
+      status = `${status}${FIRST_TOOT_HASHTAGS}`;
     }
   } else {
     status = `${messageLeft}`;
-    if (!in_reply_to_id) status = `${status}${append}`;
+    if (!in_reply_to_id) status = `${status}${FIRST_TOOT_HASHTAGS}`;
     messageLeft = '';
   }
 
@@ -43,26 +53,41 @@ async function sendToMasto(messageLeft, in_reply_to_id) {
   }
 
   try {
-    const result = await mastodon.postStatus(status, options);
-    if (messageLeft.length > 0) {
-      sendToMasto(messageLeft, result.data.id);
+    if (!debugMode) {
+      const result = await mastodon.postStatus(status, options);
+      if (messageLeft.length > 0) {
+        sendToMasto(messageLeft, result.data.id);
+      }
     }
   } catch (e) {
-    console.log('Failed to post');
+    console.log('Failed to post to Mastodon');
   }
 }
 
-const response = await openAI.createCompletion({
-  model: 'gpt-4',
-  messages: [{ role: 'user', content: '' }],
-  frequency_penalty: 1,
-  presence_penalty: 1,
-  temperature: 0.8,
-  max_tokens: 200,
-});
+/**
+ *
+ * @returns Gets an OpenAI completion
+ */
+async function getOpenAICompletion() {
+  try {
+    const response = await openAI.createChatCompletion({
+      model: 'gpt-4',
+      messages: [{ role: 'user', content: '' }],
+      frequency_penalty: randomNumber(),
+      presence_penalty: randomNumber(),
+      temperature: randomNumber(true),
+      max_tokens: 200,
+    });
 
-const { content } = response.data.choices[0].message;
+    const { content } = response.data.choices[0].message;
+    return content;
+  } catch (e) {
+    console.log(e)
+    console.log('Failed to get completion');
+  }
+}
 
+const content = await getOpenAICompletion();
 await sendToMasto(content);
 
-console.log('Done!')
+console.log('Done!');
