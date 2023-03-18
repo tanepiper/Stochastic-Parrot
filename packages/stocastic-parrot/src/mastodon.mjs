@@ -1,19 +1,15 @@
-#!/usr/bin/env node
-
-import { createOpenAIInstance } from './openai.mjs';
 import generator from 'megalodon';
-import dotenv from 'dotenv';
-import { randomNumber } from './lib.mjs';
+import { writeFile } from 'node:fs/promises';
 
-dotenv.config();
 const debugMode = process.env.DEBUG_MODE === 'true';
 
-const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY);
-const mastodon = generator.default(
-  'mastodon',
-  'https://mastodon.social',
-  process.env.MASTODON_ACCESS_TOKEN
-);
+export function createMastodonClient(
+  accessToken,
+  site = 'https://mastodon.social'
+) {
+  const client = generator.default('mastodon', site, accessToken);
+  return client;
+}
 
 const FIRST_TOOT_HASHTAGS = '\n\n#StochasticParrot #ChatGPT';
 
@@ -22,10 +18,13 @@ const FIRST_TOOT_HASHTAGS = '\n\n#StochasticParrot #ChatGPT';
  * splits the text down to 500 characters and sends it in multiple
  * toots as replies to the first toot.
  *
+ * @param {*} mastodon The Mastodon client
  * @param {string} messageLeft The message to send to Mastodon
  * @param {string=} in_reply_to_id The ID of the toot to reply to
+ * @returns {Promise<string>} The URL of the first toot
  */
-async function sendToMasto(messageLeft, in_reply_to_id) {
+export async function sendToMastodon(mastodon, messageLeft, in_reply_to_id) {
+  let firstToolUrl = '';
   let status = '';
   const maxLen = in_reply_to_id ? 500 : 470;
 
@@ -55,39 +54,21 @@ async function sendToMasto(messageLeft, in_reply_to_id) {
   try {
     if (!debugMode) {
       const result = await mastodon.postStatus(status, options);
+      if (!in_reply_to_id) {
+        firstToolUrl = result.data.url;
+      }
       if (messageLeft.length > 0) {
-        sendToMasto(messageLeft, result.data.id);
+        sendToMastodon(mastodon, messageLeft, result.data.id);
       }
     }
   } catch (e) {
-    console.log('Failed to post to Mastodon');
-  }
-}
-
-/**
- *
- * @returns Gets an OpenAI completion
- */
-async function getOpenAICompletion() {
-  try {
-    const response = await openAI.createChatCompletion({
-      model: 'gpt-4',
-      messages: [{ role: 'user', content: '' }],
-      frequency_penalty: randomNumber(),
-      presence_penalty: randomNumber(),
-      temperature: randomNumber(true),
-      max_tokens: 200,
+    await writeFile('debug.json', JSON.stringify(e, null, 2), {
+      encoding: 'utf8',
+      flag: 'w',
     });
-
-    const { content } = response.data.choices[0].message;
-    return content;
-  } catch (e) {
-    console.log(e)
-    console.log('Failed to get completion');
+    console.log('Failed to post to Mastodon');
+    console.log(e);
   }
+
+  return firstToolUrl;
 }
-
-const content = await getOpenAICompletion();
-await sendToMasto(content);
-
-console.log('Done!');

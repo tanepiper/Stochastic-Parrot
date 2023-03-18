@@ -1,14 +1,12 @@
 {
-  "name": "@tanepiper/stochastic-parrot",
+  "name": "stochastic-parrot",
   "version": "1.0.0",
-  "private": true,
-  "description": "Repostory for the Stochastic Parrot Bot",
+  "description": "Pipeline for running the scripts that generate a Stochastic Parrot",
+  "main": "index.mjs",
+  "type": "module",
   "scripts": {
-    "moon": "moon"
+    "start": "node src/index.mjs"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanepiper/Stochastic-Parrot.git"
@@ -19,10 +17,10 @@
     "url": "https://github.com/tanepiper/Stochastic-Parrot/issues"
   },
   "homepage": "https://github.com/tanepiper/Stochastic-Parrot#readme",
-  "devDependencies": {
-    "@moonrepo/cli": "^0.26.2"
-  },
-  "engines": {
-    "node": "18.14.0"
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mastodon": "^1.2.2",
+    "megalodon": "^5.4.1",
+    "openai": "^3.2.1"
   }
 }

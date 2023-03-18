@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vPElhIxTr6KDDkqbcIsztJthcq92",
+  "object": "chat.completion",
+  "created": 1679139727,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. First, choose a nice picnic spot that has plenty of shade and space to sit and play. This can be at a park or in the woods, or even by the river.\n\n2. Gather up a large picnic blanket, pillows or cushions for seating, and a sturdy basket for carrying all your necessities.\n\n3. Preparing the food is one of the most important parts of planning a picnic. Pack finger foods that travel well and don't require much preparation or utensils to eat. Some good options include sandwiches, wraps, salads in individual containers/pots, pre-cut vegetables with dip/hummus/salsa, fresh fruit (such as grapes, apples or strawberries), cheese and crackers.\n\n4. Pack beverages such as water (bring enough to stay hydrated!), infused waters with fruit slices for added flavor (lemon/strawberry/mint), unsweetened iced tea or homemade lemonade.\n\n5. Make some small desserts such as cookies/brownies/muffins/c"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vPDvkpELZnx4VVzgrmwaW6yo9Cfn",
+  "object": "chat.completion",
+  "created": 1679139675,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few things you need to know when you're learning how to drive a taxi:\n\n1. Licensing and Permits: Check the requirements in your local area for obtaining a taxi driver's license or permit. This may involve passing a written test, undergoing background checks, or having an existing driver's license.\n\n2. Familiarity with the Area: You should have extensive knowledge of your city’s roads, landmarks, routes, and traffic patterns. Learn alternative routes around traffic jams or road closures.\n\n3. Vehicle Maintenance: Ensure that your car is always clean and well-maintained – check engine oil levels regularly, maintain appropriate tire pressure levels, make sure all vehicle lights function properly (headlights/breaks/turn signals), etc.\n\n4. Driving Skills: Good driving skills include mastery of defensive driving techniques like obeying speed limits; giving proper right-of-way at intersections; appropriately using turn signals & mirrors; respecting pedestrians/cyclists/other vehicles on the roadways; maintaining"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

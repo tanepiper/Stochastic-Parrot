@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vPrHSDULC4laxm05Y1d9jCimKXfE",
+  "object": "chat.completion",
+  "created": 1679142115,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The main purpose of a government is to maintain law and order and protect the rights and liberties of its citizens. Additionally, governments are responsible for the following functions:\n\n1. National defense and security: to protect the country and its citizens from external and internal threats and maintain the sovereignty and integrity of the nation and the nation's borders and territories and the defense and the and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

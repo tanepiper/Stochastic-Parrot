@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vPZdMV8QBfNtA6oGWgSxTIHPxYxO",
+  "object": "chat.completion",
+  "created": 1679141021,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on what the invention is and how complex it is. Simple inventions can be developed in a matter of weeks or months, while more complex inventions can take years of research, development, testing, and refinement.\n\nThe process typically follows these steps:\n\n1. Idea conception: This is the stage where you come up with the invention idea.\n\n2. Research: Once you have an idea, it's crucial to research its feasibility and possible demand in the market. This helps you understand if your invention has potential for success.\n\n3. Prototype development: If your research indicates that your idea has potential, start building a prototype or a model of your invention that demonstrates its functionality.\n\n4. Patent application: It's important to protect your intellectual property by filing for patent protection as soon as possible.\n\n5. Refinement and further development: Once you have a prototype and patent protection in place, continue refining your design to improve functionality or solve any issues that arise during testing.\n\n6. Production and manufacturing: Final"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

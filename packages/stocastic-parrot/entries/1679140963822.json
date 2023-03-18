@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vPYT13UrSEyVEpZvVSPBBAYi1cqZ",
+  "object": "chat.completion",
+  "created": 1679140949,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1) Begin by researching the topic thoroughly. Use reliable sources like books, academic articles, and reputable websites to gather information on your chosen subject.\n\n2) Take notes on important points and organize them into a logical structure that will become the foundation of your article. Identify key issues, trends or concepts that you want to address in the piece.\n\n3) Develop an engaging introduction that gives readers an idea of what they'll find in the rest of the article. This should be attention-grabbing and make readers want to continue reading.\n\n4) Divide your article into sections using subheadings that clearly indicate what each section is about. Make sure these are organized logically so that readers can follow along without getting lost.\n\n5) Write clear and concise sentences using appropriate language for your target audience. Avoid jargon or specialized terms unless absolutely necessary; remember you're trying to communicate ideas effectively, not show off how much you know about a particular subject.\n\n6) Follow style guidelines provided by the publication or platform"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

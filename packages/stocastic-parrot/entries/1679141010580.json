@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vPZNCnNg6fw6CiG7gqWXli8PfeEw",
+  "object": "chat.completion",
+  "created": 1679141005,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 66,
+    "total_tokens": 72
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Since I am an AI, I don't have personal feelings. While I might not share the same type of companionship that humans or animals provide, my purpose is to assist you in whatever you need as best as possible with accurate information and helpful solutions. Let me know if there's anything else you'd like help with!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

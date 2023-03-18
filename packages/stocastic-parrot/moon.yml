@@ -1,0 +1,23 @@
+# https://moonrepo.dev/docs/config/tasks
+$schema: 'https://moonrepo.dev/schemas/tasks.json'
+
+type: 'tool'
+language: 'javascript'
+
+project:
+  name: 'stocastic-parrot'
+  description: 'A Mastodon bot that repeats prompts from ChatGPT'
+  channel: '#https://mastodon.social/@StochasticEntropy'
+  owner: 'tanepiper'
+  maintainers: ['tanepiper']
+
+tasks:
+  feed-polly:
+    options:
+      runInCI: true
+    command: 'npm run start'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
+    ouput:
+      - entries

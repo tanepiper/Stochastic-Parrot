@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vPrtIoVnNNOvye3Jem1pNliVsvi8",
+  "object": "chat.completion",
+  "created": 1679142153,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"capitalism\" has taken on various meanings throughout history. The original meaning for \"capitalism\" can be traced back to the mid-19th century when the term was used to describe an economic system where the means of production (land, factories, tools, labor, etc.) are owned by private individuals, and the goods, services, and wealth that are produced, are distributed, and accumulated, are, for the most, part, the, and, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,,,,,,,"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

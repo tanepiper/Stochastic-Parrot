@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vP925fGKk1nZjgnnys4l1yfZMrs7",
+  "object": "chat.completion",
+  "created": 1679139372,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 125,
+    "total_tokens": 131
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is possible to convert the Keurig K-Elite to a pour-over coffee maker, but it would require significant modification and technical knowledge. You would have to disassemble the machine, remove the internal components related to the brewing system, and create a new way for water to be poured manually over coffee grounds in a filter. \n\nHowever, this is not recommended as it will void any warranties on your Keurig machine and may lead to damage or malfunction if not done correctly. Additionally, there are many pour-over coffee makers available on the market that are designed specifically for this brewing method and may provide better results."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
