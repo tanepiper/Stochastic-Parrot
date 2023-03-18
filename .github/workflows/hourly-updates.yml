@@ -1,0 +1,29 @@
+name: 'Daily - Dependency Check and Update'
+
+on:
+  schedule:
+    - cron: 0 * * * *
+  workflow_dispatch:
+
+jobs:
+  stochastic-parrot:
+    name: 'Stochastic Parrot'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v3.0.2
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: 🛠 NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install Deps
+        run: npm install
+      - name: Run Script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        run: node src/index.mjs
