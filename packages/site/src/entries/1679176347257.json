@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vYl6VHFMloBmasR5FmovsmvV4qlp",
+  "object": "chat.completion",
+  "created": 1679176328,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "This issue may be due to the device running on low battery, an outdated version of the app, or a weak/slow internet connection.\n\nHere are some steps you can try to fix this situation:\n\n1. Check your internet connection: If you're using Wi-Fi, consider moving closer to the router or switching to mobile data if possible.\n2. Update WhatsApp: Ensure that you have the latest version of WhatsApp installed on your phone by checking for updates in Google Play Store (Android) or App Store (iPhone).\n3. Clear cache and data:\n  a. For Android users: Go to Settings > Apps/Application manager > WhatsApp > Storage/Clear Cache & Storage.\n  b. For iPhone users: Unfortunately there's no direct way of clearing cache for specific applications on iOS devices; however, uninstalling and reinstalling the application will remove its local caches with it.\n4. Restart your phone after performing these operations as well.\n\nIf all else fails, contact WhatsApp support through their official website at"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
