@@ -35,7 +35,8 @@ export async function getOpenAICompletion(openAI) {
       max_tokens: 200,
     });
     const { content } = response.data.choices[0].message;
-    const filePath = path.resolve(`${import.meta.url}`, '..', '..', '..', 'stochasticparrot.lol', 'src', 'entries').split(':')[1];
+    const filePath = path.resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'src', 'entries').split(':')[1];
+    console.log(`Saving to ${filePath}/${Date.now()}.json`);
     
     await writeFile(
       `${filePath}/${Date.now()}.json`,
