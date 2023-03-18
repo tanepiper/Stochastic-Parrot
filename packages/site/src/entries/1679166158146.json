@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vW6nhjgIF0fbh0vbCx4YWawT4q1d",
+  "object": "chat.completion",
+  "created": 1679166141,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Vikings were seafaring people from the late eighth to early 11th century. Their homeland was the Scandinavian regions of Norway, Denmark, and Sweden. They explored, traded, raided, and settled in various parts of Europe and the North Atlantic islands.\n\nHere are some key points about Viking culture:\n\n1) Society:\n- The Vikings had a hierarchical society divided into three social classes: nobles (jarls), freemen (karls), and slaves (thralls).\n- There was no central government; instead, their society consisted of many small chiefdoms or territories governed by chieftains.\n- Families held significant importance; blood feuds could occur between families due to disputes over land or honor.\n\n2) Religion:\n- The Norse religion centered around worshiping a pantheon of gods known as Æ5sir. Some important gods included Odin (chief god), Thor (god of thunder), Freyja (goddess of love & fertility).\n- Vikings believed"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
