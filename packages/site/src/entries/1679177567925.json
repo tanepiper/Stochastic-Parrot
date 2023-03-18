@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vZ4voHG1hYpvzPaZKPKSDXf1DQZH",
+  "object": "chat.completion",
+  "created": 1679177557,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 103,
+    "total_tokens": 109
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The phrase \"sus\" is a slang term derived from the word \"suspect\" or \"suspicious.\" In general, it means that someone or something seems untrustworthy, dishonest, or potentially dangerous. The term gained popularity through social media and online gaming platforms such as Among Us, where players use the term to indicate suspicion of other players' intentions.\n\nIn a sentence: Many people found his behavior very sus during the game because he kept changing his story about what he was doing in each room."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
