@@ -4,7 +4,6 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-
 const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY, '/chat');
 const mastodon = generator.default(
   'mastodon',
@@ -33,7 +32,6 @@ async function sendToMasto(messageLeft, in_reply_to_id) {
   } else {
     status = `${messageLeft}`;
     if (!in_reply_to_id) status = `${status}${append}`;
-
     messageLeft = '';
   }
 
@@ -41,7 +39,6 @@ async function sendToMasto(messageLeft, in_reply_to_id) {
   if (in_reply_to_id) {
     options.in_reply_to_id = in_reply_to_id;
   }
-  console.log(status);
 
   try {
     const result = await mastodon.postStatus(status, options);
@@ -59,7 +56,7 @@ const response = await openAI.createCompletion({
   frequency_penalty: 1,
   presence_penalty: 1,
   temperature: 0.8,
-  max_tokens: 100,
+  max_tokens: 200,
 });
 
 const { content } = response.data.choices[0].message;
