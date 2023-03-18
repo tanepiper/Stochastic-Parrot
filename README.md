@@ -1,6 +1,6 @@
 # Stochastic Parrot
 
-<img src="./assets/avatar.png" width="320px" height="320px" alt="The avatar of the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe" />
+<img src="./packages/stocastic-parrot/assets/avatar.png" width="320px" height="320px" alt="The avatar of the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe" />
 
 This is the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe. More simply, it's a [Mastodon Bot](https://mastodon.social/@StochasticEntropy) that uses the [OpenAI ChatGPT4](https://openai.com/product/gpt-4) API with an empty prompt - and simply repeats back the response.
 
