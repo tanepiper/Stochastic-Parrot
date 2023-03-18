@@ -55,7 +55,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "SKWAK: [skip-ci] - Data Added" -a || true
+          git commit -m "SKWAK: Data Added" -a || true
       # Push the changes back to the repo
       - name: Push changes
         uses: ad-m/github-push-action@master
