@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6va4paQfTL8j7HGaatvNJirAGm4Ni",
+  "object": "chat.completion",
+  "created": 1679181395,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Italy is known for its delicious cuisine, diverse regional dishes, and high-quality ingredients. Some of the most famous Italian foods are:\n\n1. Pizza: One of Italy's most famous culinary exports, pizza originated in Naples and has since become popular worldwide. The classic Neapolitan pizza features a thin crust topped with tomatoes, mozzarella cheese, fresh basil leaves, and extra virgin olive oil.\n\n2. Pasta: There is an enormous variety of pasta dishes in Italy made from various types of noodles such as spaghetti, fettuccine, lasagna sheets or small shapes like fusilli or farfalle combined with flavorful sauces that typically feature tomato sauce (marinara), cream sauce (alfredo), pesto etc.\n\n3.Claims to fame range from classics like carbonara -- pasta tossed with egg yolks & pancetta (#6) + parmesan cheese--, bolognese -- slow simmered meat ragu finished off mostly on pappardelle ribbon-shaped pastiche caprese--"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
