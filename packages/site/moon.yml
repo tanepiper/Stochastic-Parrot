@@ -17,3 +17,16 @@ tasks:
     inputs:
       - 'public/**/*'
       - 'src/**/*'
+  build:
+    command: 'npm run build'
+    inputs:
+      - 'public/**/*'
+      - 'src/**/*'
+    ouput:
+      'dist'
+  preview:
+    command: 'npm run preview'
+    inputs:
+      - 'public/**/*'
+      - 'src/**/*'
+      - 'dist'

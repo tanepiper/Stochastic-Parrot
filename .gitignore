@@ -108,3 +108,6 @@ dist
 # moon
 .moon/cache
 .moon/docker
+
+# Local Netlify folder
+.netlify

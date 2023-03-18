@@ -4,7 +4,8 @@
   "private": true,
   "description": "Repostory for the Stochastic Parrot Bot",
   "scripts": {
-    "moon": "moon"
+    "moon": "moon",
+    "netlify": "netlify"
   },
   "workspaces": [
     "packages/*"
