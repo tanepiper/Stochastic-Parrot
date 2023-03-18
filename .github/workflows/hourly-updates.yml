@@ -54,7 +54,7 @@ jobs:
         with:
           github_token: "${{ secrets.GH_PAT }}"
           add_timestamp: false
+          force: true
           commit_prefix: "[POLLY]"
           commit_message: "Skwak - data from last run saved"
-          force: false
           target_branch: main
