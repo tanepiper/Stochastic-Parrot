@@ -5,7 +5,8 @@
   "description": "Repostory for the Stochastic Parrot Bot",
   "scripts": {
     "moon": "moon",
-    "netlify": "netlify"
+    "netlify": "netlify",
+    "site:build": "moon run site:build"
   },
   "workspaces": [
     "packages/*"

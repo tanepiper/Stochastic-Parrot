@@ -30,3 +30,8 @@ tasks:
       - 'public/**/*'
       - 'src/**/*'
       - 'dist'
+  deploy:
+    command: 'netlify deploy --build'
+    inputs:
+      - 'dist'
+      - '.netlify'
