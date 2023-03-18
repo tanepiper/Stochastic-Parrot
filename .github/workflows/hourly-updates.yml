@@ -49,12 +49,18 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: moon run stocastic-parrot:feed-polly
-      - name: Commit back the run data
-        uses: devops-infra/action-commit-push@master
+      # Commit all files changes including docs
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "SKWAK: [skip-ci] - Data Added" -a || true
+      # Push the changes back to the repo
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
+          branch: main
           github_token: ${{ secrets.GH_PAT }}
-          add_timestamp: false
+          tags: true
           force: true
-          commit_prefix: "[POLLY]"
-          commit_message: "Skwak - data from last run saved"
-          target_branch: main
