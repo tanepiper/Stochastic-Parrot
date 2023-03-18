@@ -40,7 +40,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Install Deps
-        if: ${{ steps.cache.outputs.cache-hit != 'true' }}
+        if: ${{ steps.npm-cache-dir.outputs.cache-hit != 'true' }}
         run: npm install
       - name: Run Script
         env:
