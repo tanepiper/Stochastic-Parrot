@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createOpenAIInstance } from './openai.mjs';
 import generator from 'megalodon';
 import dotenv from 'dotenv';
