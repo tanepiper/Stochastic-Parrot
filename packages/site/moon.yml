@@ -22,6 +22,7 @@ tasks:
     inputs:
       - 'public/**/*'
       - 'src/**/*'
+      - 'astro.config.mjs'
     ouput:
       'dist'
   preview:
