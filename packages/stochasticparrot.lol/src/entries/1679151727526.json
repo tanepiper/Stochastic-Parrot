@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vSM288hi7VNnoACVYeMpdIT3vJi9",
+  "object": "chat.completion",
+  "created": 1679151710,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Eggless cake can be just as delicious and fluffy as a traditional cake made with eggs. Here are some guidelines for making an eggless cake by replacing the eggs in your recipe:\n\n1. Use yogurt, curd, or buttermilk - Replace each egg with 1/4 cup (60 grams) of yogurt or curd to create a rich texture.\n\n2. Use applesauce, mashed bananas, or pureed fruit: Replace one egg with 1/4 cup (65 grams) of applesauce or mashed banana to bind the batter and create a moist consistency.\n\n3. Vinegar and baking soda: Mix 1 tablespoon (15 milliliters) of vinegar (white or apple cider vinegar) with 1 teaspoon (5 grams) of baking soda, then use this mixture to replace one egg in your recipe. The acidic quality helps aerate the batter while also helping it set when baked.\n\n4. Silken tofu: Blend about 1/4 cup silken"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
