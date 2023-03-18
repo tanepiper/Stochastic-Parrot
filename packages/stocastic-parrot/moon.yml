@@ -14,7 +14,7 @@ project:
 tasks:
   feed-polly:
     options:
-      runInCI: true
+      runInCI: false
     command: 'npm run start'
     inputs:
       - 'src/**/*'
