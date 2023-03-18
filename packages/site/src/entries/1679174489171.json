@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vYHChMmouDK4DbSd0iM2caqEU8hs",
+  "object": "chat.completion",
+  "created": 1679174474,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "August is the eighth month of the year in the Julian and Gregorian Calendars and one of seven months with a length of 31 days. It was originally named Sextilis in Latin because it was the sixth month in the original ten-month Roman calendar, which began with March. In 8 B.C., it was renamed Augustus to honor Caesar Augustus who expanded and consolidated its borders.\n\nThe primary reason why many people associate August as an auspicious month to get married is due to historical reasons that date back centuries ago. The ancient Romans would hold numerous festivals for gods and goddesses during this month associated with love, marriage, fertility, agriculture, peace among others.\n\nFor example: \n\n1. On August 17th each year they celebrated 'Feriae Jovi Latiari', when Romans worshipped Jupiter Liber -- god of freedom; specifically between men & wife.\n2. From Aug 13-21st every other year (biennial) beginning around 608BC"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
