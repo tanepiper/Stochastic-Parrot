@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/tanepiper/Stochastic-Parrot#readme",
   "devDependencies": {
-    "@moonrepo/cli": "^0.26.2"
+    "@moonrepo/cli": "^0.26.2",
+    "netlify-cli": "^13.1.6"
   },
   "engines": {
     "node": "18.14.0"

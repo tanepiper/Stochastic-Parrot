@@ -5,8 +5,15 @@ type: 'application'
 language: 'javascript'
 
 project:
-  name: 'stocastic-parrot'
+  name: 'site'
   description: 'A Mastodon bot that repeats prompts from ChatGPT'
   channel: '#https://stochasticparrot.lol'
   owner: 'tanepiper'
   maintainers: ['tanepiper']
+
+tasks:
+  dev:
+    command: 'npm run dev'
+    inputs:
+      - 'public/**/*'
+      - 'src/**/*'
