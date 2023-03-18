@@ -1,0 +1,12 @@
+# https://moonrepo.dev/docs/config/tasks
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+type: 'application'
+language: 'javascript'
+
+project:
+  name: 'stocastic-parrot'
+  description: 'A Mastodon bot that repeats prompts from ChatGPT'
+  channel: '#https://stochasticparrot.lol'
+  owner: 'tanepiper'
+  maintainers: ['tanepiper']

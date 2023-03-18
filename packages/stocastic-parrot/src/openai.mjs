@@ -1,6 +1,7 @@
 import { Configuration, OpenAIApi } from 'openai';
 import { writeFile } from 'node:fs/promises';
 import { randomNumber } from './lib.mjs';
+import path from 'node:path';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 
@@ -34,8 +35,10 @@ export async function getOpenAICompletion(openAI) {
       max_tokens: 200,
     });
     const { content } = response.data.choices[0].message;
+    const filePath = path.resolve(`${import.meta.url}`, '..', '..', '..', 'stochasticparrot.lol', 'src', 'entries').split(':')[1];
+    
     await writeFile(
-      `./entries/${Date.now()}.json`,
+      `${filePath}/${Date.now()}.json`,
       JSON.stringify(response.data, null, 2),
       { encoding: 'utf8', flag: 'w' }
     );
