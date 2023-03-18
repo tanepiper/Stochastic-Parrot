@@ -22,8 +22,6 @@ jobs:
           fetch-depth: 0
       - name: Setup Moon
         uses: moonrepo/setup-moon-action@v1
-      - name: Setup CI
-        run: moon ci
       - name: 🛠 NodeJS
         uses: actions/setup-node@v3
         with:
