@@ -28,8 +28,8 @@ export async function getOpenAICompletion(openAI) {
     const response = await openAI.createChatCompletion({
       model: 'gpt-4',
       messages: [{ role: 'user', content: '' }],
-      frequency_penalty: randomNumber(),
-      presence_penalty: randomNumber(),
+      frequency_penalty: 1, //randomNumber(),
+      presence_penalty: 1, //randomNumber(),
       temperature: randomNumber(true),
       max_tokens: 200,
     });
