@@ -52,7 +52,7 @@ jobs:
       - name: Commit back the run data
         uses: devops-infra/action-commit-push@master
         with:
-          github_token: "${{ secrets.GH_PAT }}"
+          github_token: ${{ secrets.GH_PAT }}
           add_timestamp: false
           force: true
           commit_prefix: "[POLLY]"

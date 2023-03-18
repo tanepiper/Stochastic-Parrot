@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vQXBvj0kdi6ezupWkf5C64su3OIV",
+  "object": "chat.completion",
+  "created": 1679144713,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no scientific consensus on the exact number of functional and non-functional genes in humans, but it's estimated that there are around 20,000-25,000 protein-coding genes. There may also be an additional 9,000 non-protein-coding RNA (ncRNA) genes.\n\nThese estimates come from various research and sequencing projects such as the Human Genome Project and ENCODE Project. However, these numbers can change over time as more information about human genetics becomes available through advancements in sequencing technologies and our understanding of genomic function.\n\nIt is important to note that despite occupying a small percentage of the total DNA sequence (1-2%), protein-coding regions hold essential functions for human life. The vast majority of genetic material (~98%) consists primarily of regulatory elements enhancers or silencers), repetitive sequences/transposable elements (Alu sequences or LINEs), introns (noncoding stretches within gene structures), and other diverse categories: centromeres/telomeres or pseudogen"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
