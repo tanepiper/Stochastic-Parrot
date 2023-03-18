@@ -53,7 +53,7 @@ jobs:
         uses: devops-infra/action-commit-push@master
         with:
           github_token: "${{ secrets.GH_PAT }}"
-          add_timestamp: true
+          add_timestamp: false
           commit_prefix: "[POLLY]"
           commit_message: "Skwak - data from last run saved"
           force: false
