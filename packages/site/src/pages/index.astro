@@ -10,7 +10,9 @@ const latestFive = entries
   .slice(0, 5);
 ---
 
-<Layout title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'>
+<Layout
+  title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
+>
   <main>
     <h1 style='text-align: center;'>
       Welcome to the <span class='text-gradient'>Stochastic Parrot</span> homepage
@@ -22,9 +24,11 @@ const latestFive = entries
       The <a href='https://mastodon.social/@StochasticEntropy'
         >Stochastic Parrot</a
       > is a Mastodon Bot that repeat responses from
-      <a href='https://openai.com/product/gpt-4'>OpenAI GPT 4</a> from empty prompts
-      - simply using the random noise of the GPT-4 model to generate digital thought-forms
-      from the entropy of the universe to make Mastodon Parrot bot to repeat verbaitum.
+      <a href='https://openai.com/product/gpt-4'>OpenAI GPT 4</a> from empty prompts.
+      <br />
+      It's simply using the random noise of the GPT-4 model to generate digital thought-forms
+      from the entropy of the universe and makes a stupid Mastodon Parrot bot repeat
+      it verbaitum.
     </p>
     <ul role='list' class='link-card-grid'>
       <Card
@@ -39,8 +43,13 @@ const latestFive = entries
       />
     </ul>
 
-	<h2>Latest Items <span><a style="text-decoration: none; font-size: 0.8rem" href="/entries">All Entries ➡️</a></span></h2>
-	
+    <h2>
+      Latest Items <span
+        ><a style='text-decoration: none; font-size: 0.8rem' href='/entries'
+          >All Entries ➡️</a
+        ></span>
+    </h2>
+
     <LatestPosts items={latestFive} />
   </main>
 </Layout>
@@ -53,7 +62,7 @@ const latestFive = entries
   }
 
   .instructions {
-	margin: 1.5rem auto;
-	max-width: 120ch;
+    margin: 1.5rem auto;
+    max-width: 120ch;
   }
 </style>
