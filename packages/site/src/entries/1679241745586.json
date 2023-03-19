@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vplzgy03xVTuTjXLYjweRHAVVP8E",
+  "object": "chat.completion",
+  "created": 1679241731,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A dye penetrant inspection, also known as a liquid penetrant inspection or simply a penetrant test, is a widely applied and relatively inexpensive method to detect surface defects in non-porous materials like metals, plastics, or ceramics. It works by using capillary action to draw a liquid with high surface wetting characteristics (the penetrant) into the surface-breaking defects.\n\nHere are the steps involved in a dye penetrant inspection:\n\n1. Pre-cleaning: The component being inspected must be thoroughly cleaned before testing so that grease, oil, dirt, paint or any other contaminants do not interfere with the penetration of the dye into potential flaws. This can be done using solvent cleaners or detergents depending on the item's material and size.\n\n2. Application of Penetrants: After pre-cleaning and drying out the component's surfaces properly; penetrating dyes such as fluorescent-type dyestuffs are then applied uniformly over its outer perimeter at room temperature via brushing dipping or spraying techniques accordingly.\n\n3"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
