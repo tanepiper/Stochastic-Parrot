@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6viZYmZVXm0iX54Eu8kd704ztqLSQ",
+  "object": "chat.completion",
+  "created": 1679214052,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Strait of Hormuz is a narrow waterway that connects the Persian Gulf with the Gulf of Oman and the Arabian Sea. It's approximately 96 miles (154 km) long and varies in width from about 52 miles (84 km) to 21 miles (34 km). The strait is vital for global oil shipping, as around one-third of the world's liquefied natural gas and almost 20% of total global oil consumption passes through this strategic choke point, making it an important geographical location for international trade and energy security.\n\nIran sits on the northern shores of this strategically crucial passage. As such, it plays an influential role in controlling access to its waters. Although Iran signed UNCLOS (United Nations Convention on Law Of Seas), which allows innocent transit passages, they are yet to ratify this convention; hence, they don't set their maritime borders legally under treaty provisions. This often leads them to adopt various maritime strategies causing tensions between countries transiting through these waterways"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
