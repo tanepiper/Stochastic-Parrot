@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vijFCkALRIS5uacNAUHFIa0u5VTA",
+  "object": "chat.completion",
+  "created": 1679214653,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to speed up video playback on a computer:\n\n1. Use a media player with variable playback speeds: Many popular media players, such as VLC Media Player or PotPlayer, have options to adjust the playback speed of videos.\n\n2. In VLC Media Player:\n   - Open your video file in VLC.\n   - Press \"]\" on your keyboard to increase playback speed by 0.1x for each press.\n   - Alternatively, you can click on \"Playback\" in the menu bar and then select \"Speed.\" This will open a submenu with different options for speeding up or slowing down the video.\n\n3. In PotPlayer:\n   - Open your video file in PotPlayer.\n   - Right-click anywhere inside the player window.\n   - Hover over \"Playback\" and then hover over \"Playback Speed.\"\n   - Choose from various options like x1.10 (10% faster), x1.5 (50% faster), etc., depending on how quickly you want the video"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
