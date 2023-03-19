@@ -5,7 +5,6 @@
   "description": "Repostory for the Stochastic Parrot Bot",
   "scripts": {
     "moon": "moon",
-    "netlify": "netlify",
     "site:build": "moon run site:build"
   },
   "workspaces": [
@@ -22,8 +21,7 @@
   },
   "homepage": "https://github.com/tanepiper/Stochastic-Parrot#readme",
   "devDependencies": {
-    "@moonrepo/cli": "^0.26.2",
-    "netlify-cli": "^13.1.6"
+    "@moonrepo/cli": "^0.26.2"
   },
   "engines": {
     "node": "18.14.0"
