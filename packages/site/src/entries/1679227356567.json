@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vm1y2t3uOiB6KiD8HwDOQhDJWcmz",
+  "object": "chat.completion",
+  "created": 1679227346,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The primary causes of obesity are:\n\n1. Excessive intake of energy-dense foods: Consuming unhealthy, high-calorie foods frequently leads to weight gain. Fast food, processed food, sugary drinks and snacks often contain high levels of fat, sugar and salt which contribute to increased caloric intake.\n\n2. Sedentary lifestyle: Lack of physical activity is a significant contributing factor in gaining weight. A sedentary lifestyle involves minimal exercise or daily activities that utilize more calories than what the individual consumes through their diet.\n\n3. Genetics: Some people are genetically predisposed to obesity due to inherited factors that can affect metabolism or appetite regulation.\n\n4. Hormonal imbalances: Certain hormonal conditions like polycystic ovary syndrome (PCOS), underactive thyroid (hypothyroidism) and Cushing's syndrome can lead to excessive weight gain by affecting metabolic processes within the body.\n\n5. Behavioral Factors - Emotional eating; eating even when not hungry but as a response for stress or"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
