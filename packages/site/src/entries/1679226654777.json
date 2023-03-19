@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vlqcSDsLJaMrN1YgDKeieA3vWQU5",
+  "object": "chat.completion",
+  "created": 1679226642,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to negotiate a higher salary when you're hired:\n\n1. Research the market and know your worth: Before entering salary negotiations, research the average pay for similar roles in your geographical area, industry, and considering your years of experience. Online resources like Glassdoor or Payscale can help with this.\n\n2. Prepare examples of accomplishments: Be ready to discuss specific achievements and successes that demonstrate why you deserve a higher salary than initially offered.\n\n3. Present supporting evidence: If you have data showing that people in similar roles earn more (whether from company-specific sources, industry studies or surveys), share this information during negotiations as proof that their initial offer is too low.\n\n4. Emphasize unique skills or experience: Highlight any special qualifications or expertise that make you particularly valuable to the company (e.g., language skills, leadership experience).\n\n5. Practice negotiation skills beforehand: Rehearse what you'll say and how confident body language will show employers that they should invest in retaining your talent"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
