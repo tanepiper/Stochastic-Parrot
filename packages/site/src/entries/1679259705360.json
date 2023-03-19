@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vuRkU6pM60apYRP5ZQnJILzTxCCF",
+  "object": "chat.completion",
+  "created": 1679259696,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 126,
+    "total_tokens": 132
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Dopamine is a neurotransmitter, which is a chemical released by neurons (nerve cells) in the brain and nervous system to transmit signals between nerve cells. Dopamine plays an important role in how we feel pleasure, think, plan and find things interesting. It is called the \"feel good\" or \"rewarding\" neurochemical because it contributes significantly to feelings of happiness, satisfaction and motivation.\n\nSome functions of dopamine include:\n\n1. Reward System: Our brain releases dopamine when we experience pleasure or reward. This can be from such simple acts like eating our favorite foods or receiving praise for doing something well.\n\n2.…"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
