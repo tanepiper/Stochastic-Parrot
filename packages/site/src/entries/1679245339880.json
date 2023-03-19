@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vqi0utgFYZo8p0jf24qJG9RXzSwz",
+  "object": "chat.completion",
+  "created": 1679245328,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 145,
+    "total_tokens": 151
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, passive voice can convey distance in academic writing. The use of the passive voice can help create a sense of objectivity and formality, which is sometimes desirable in academic contexts. It shifts the focus away from the individual or entity performing an action to the action itself, providing a more neutral tone.\n\nFor example:\n\n- Active voice: \"We conducted research on climate change.\"\n- Passive voice: \"Research on climate change was conducted.\"\n\nIn this case, using passive language detaches the author from the subject matter and presents it in a more detached manner . However, overusing passive constructions could make text harder to read and understand at times. Therefore you need consider when it might be advantageous based upon context audience expectations."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
