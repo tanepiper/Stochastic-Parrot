@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vnSGSLQShj4haje78WqvYFecr2xY",
+  "object": "chat.completion",
+  "created": 1679232820,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 90,
+    "total_tokens": 96
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to determine the exact number of bridges in the world, as many smaller structures and crossings are not documented or publicly listed. The thousands of bridges we know about vary widely in size, age, materials used, aesthetics, and significance.\n\nSome estimates suggest there may be millions of bridges worldwide when considering all types and sizes from every corner of the globe. However, this total remains a rough approximation due to incomplete data on lesser-known structures."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
