@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vopZQvVvlDHeC6sLFQWUmuA8fIXa",
+  "object": "chat.completion",
+  "created": 1679238109,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Whistleblowers are individuals who report or expose illegal, unethical, or improper activities within an organization, often including corruption, mismanagement, fraud, waste of resources, abuse of power or authority and other misconduct. They usually have insider access to information that is not publicly available and decide to disclose it either internally (e.g., reporting to their supervisors or appropriate internal committees) or externally (e.g., reporting to law enforcement agencies, regulatory authorities or the media).\n\nWhistleblowers can play a crucial role in detecting wrongdoings in organizations and promoting accountability and transparency by bringing these issues into the light. They may also help prevent further harm from occurring if these practices are promptly addressed.\n\nHowever, whistleblowing can also put the person at risk for retaliation by those they accuse of wrongdoing. This may include job loss, harassment or threats against themselves or their families; therefore enough legal protection should be provided as an incentive so that potential witnesses feel safe while blowing whistle on corruptive behavior.\n\nSome famous"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
