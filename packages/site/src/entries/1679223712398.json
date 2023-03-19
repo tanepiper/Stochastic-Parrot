@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vl54BwKR9fHgK2tl43BVwX2CKZEz",
+  "object": "chat.completion",
+  "created": 1679223694,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Anwar al-Awlaki was a Yemeni-American Islamic lecturer, preacher, and imam who had ties to various extremist groups. He gained notoriety as a radical Islamist cleric and propagandist for Al-Qaeda in the Arabian Peninsula (AQAP). Born in 1971 in New Mexico, USA, he eventually returned to his family's native country of Yemen.\n\nAl-Awlaki preached at different mosques throughout the United States before settling back in Yemen. It was during this period that he rose to prominence as an international figure due to his ability to speak English fluently and make use of social media platforms like YouTube for disseminating extremist material.\n\nAl-awlaki called for jihad against the US military presence abroad – particularly in Muslim countries such as Afghanistan and Iraq – while promoting anti-Western sentiment. Several known terrorists were found with links to him or cited him as inspiration for their attacks on civilians worldwide.\n\nThe U.S government designated Anwar al-Awlaki a \"specially designated"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
