@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import LatestPosts from '$ui/LatestPosts.astro';
+
+const entries = await Astro.glob('../../entries/*.json');
+const sortedEntries = entries
+  .map((e) => e.default)
+  .sort((a, b) => (a.created > b.created ? -1 : 1));
+---
+
+<Layout title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'>
+  <main>
+    <h1 style='text-align: center;'>
+      All <span class='text-gradient'>Stochastic Parrot</span> entries
+    </h1>
+    <div style='text-align: center;'>
+      <img src='/images/avatar_small.png' alt='Stochastic Parrot' />
+    </div>
+
+    <h2>All Items</h2>
+    <LatestPosts items={sortedEntries} />
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 180ch;
+  }
+
+  .instructions {
+	margin: 1.5rem auto;
+	max-width: 120ch;
+  }
+</style>
