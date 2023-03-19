@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vntWOdbN8VEKyPqOh2RYguhsst3m",
+  "object": "chat.completion",
+  "created": 1679234510,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A romantic getaway in the middle of nowhere could involve staying at a secluded cabin, cottage or bed and breakfast in a remote and scenic location. This can provide an intimate setting to relax, unwind and enjoy quality time with your partner.\n\nSuch a location might include:\n1. Mountains: A cozy mountain resort or private cabin nestled amongst towering peaks offers breathtaking views, fresh air, and outdoor activities such as hiking, skiing or horseback riding.\n2. Forests: Renting a forest retreat enables you to escape civilization's noise while surrounded by pristine nature - perfect for long walks hand-in-hand with your special someone as you take in the sights, sounds and scents of the woods.\n3. Beaches: For sun lovers & beach bums out there; waking up to stunning sea views each morning encourages relaxation & fun-filled days splashing around together in warm waters.\n4. Island Escapes: Think picturesque golden sands meeting crystal-clear seas on virtually deserted island hideaways; unforgettable sunsets shared with"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
