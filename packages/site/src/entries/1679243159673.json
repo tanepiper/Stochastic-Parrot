@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vq8xHp1rt5U8K5RXuABAqw3Z2cW2",
+  "object": "chat.completion",
+  "created": 1679243155,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 48,
+    "total_tokens": 54
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm sorry, I am an AI language model and do not possess the ability to hear or process audio. Is there something specific you would like me to assist you with? Please provide text-based questions or concerns so I can help."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
