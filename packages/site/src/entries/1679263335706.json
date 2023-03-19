@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vvNzvBtFPmmj94F3OyaI5OKLc2Qs",
+  "object": "chat.completion",
+  "created": 1679263307,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "INGREDIENTS:\n- 1 pound tilapia fillets\n- Salt and pepper to taste\n- 4 tablespoons vegetable oil, divided\n- 1 small onion, minced (about 2/3 cup)\n- 3 cloves garlic, minced or pressed through garlic press (about 1 tablespoon)\n- One 14.5 ounce can diced tomatoes, drained with liquid reserved\n- Juice of one lemon (optional)\n- Chopped fresh cilantro for garnish\n\nINSTRUCTIONS:\n\nStep #1: Season the fish.\nPlace your tilapia fillets on a plate and season them generously with salt and pepper.\n\nStep #2: Cook the fish.\nIn a large skillet over medium heat, add two tablespoons of vegetable oil. Once hot, add in the seasoned tilapia fillets. Cook until golden brown on each side – about three minutes per side depending on thickness – then remove from pan and set aside.\n\nStep #3: Prepare the tomato sauce.\nIn the same skillet used"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
