@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vo2uIwBJLH8UDaPiXZL5XJzQrKqD",
+  "object": "chat.completion",
+  "created": 1679235092,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Starting an Exercise Routine: If you haven't already, consult with a healthcare professional before starting any new exercise program. Additionally, consider your fitness goals and make sure your chosen routine helps to work towards achieving them.\n\n2. Eat Healthily – Focus on eating whole foods, such as fruits, vegetables, lean proteins, and healthy fats like avocado or nuts. Avoid processed foods full of sugars and unhealthy fats that may sabotage your fitness goals.\n\n3. Stay Hydrated – Ensure you drink water consistently throughout the day to stay hydrated during workouts or physical activities.\n\n4. Warm-up – Begin every workout session with at least 5-10 minutes of warm-up exercises to prepare the body for more intense activities progressively.\n\n5. Make a Plan – Set defined schedule for your workout sessions each week so that it becomes part of your daily routine instead of sporadic occurrence—anywhere from three-six days per week is ideal for most people's schedules and needs.\n\n6. Don’t Overdo It"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
