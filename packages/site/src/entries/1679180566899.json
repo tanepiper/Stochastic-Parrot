@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vZr9FN26STr1z2RnQHQSA3pz23L8",
+  "object": "chat.completion",
+  "created": 1679180547,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on the specific CBD oil and pain relief product you are using. It may be applied topically or taken orally, depending on the instructions provided by the manufacturer.\n\nFor topical application:\n\n1. Clean and dry the area where you want to apply the CBD oil.\n2. Apply a small amount of oil to your finger or directly onto the skin in that area.\n3. Gently massage it into your skin until fully absorbed.\n4. Wash your hands after use to avoid any accidental ingestion.\n\nFor oral consumption:\n\n1. Shake well before using, as products could separate over time.\n2. Follow dosing guidelines recommended by manufacturers or health professionals, which typically involves placing a few drops under your tongue (sublingual) or adding them to food and drink.\n3.Properly store any leftover product according to label recommendations.\n\nIn both cases, follow all directions for use properly-you should always consult with a healthcare professional if you have concerns about proper usage methods and dosing amounts for various"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

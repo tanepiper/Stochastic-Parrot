@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vgPQCKw9hUoPRhUh1o1YcobQQ2l3",
+  "object": "chat.completion",
+  "created": 1679205736,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several different types of grass cutting patterns that can be used to create an attractive lawn:\n\n1. Horizontal stripes: This is one of the simplest patterns, where you mow in straight lines across your lawn, turning at the end and coming back in a parallel row. This creates alternating light and dark stripes.\n\n2. Vertical stripes: Similar to horizontal stripes, except you mow up and down the lawn instead of left to right.\n\n3. Checkerboard pattern: To create this effect, start by mowing either horizontal or vertical stripes as described above. Then turn 90 degrees and repeat the process, creating perpendicular rows that form squares with varying shades of green.\n\n4. Diamond pattern: Start by choosing opposing corners of your lawn for diagonal lines running through its edge-to-edge center point. Mow diagonally from corner to corner along these lines while remembering those same angles throughout direction changes at every boundary until finished covering all yard areas completely once over again before moving onto another diamond if desired lie"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
