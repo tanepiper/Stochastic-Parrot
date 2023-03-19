@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6voTsE7uXsMQEUj13ilhV2bkVQIL8",
+  "object": "chat.completion",
+  "created": 1679236764,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 47,
+    "total_tokens": 53
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm an AI language model, so I don't have personal experiences like eating food or going to school. However, I can answer your questions and provide information about various topics! Let me know if you need help with anything."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
