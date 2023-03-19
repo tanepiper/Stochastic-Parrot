@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vn0BgvJabAXbR61hXqCikGdZoRrz",
+  "object": "chat.completion",
+  "created": 1679231079,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To connect an Android phone to a Windows 10 PC, follow these steps:\n\n1. Enable Bluetooth on both devices: To do this on your Android phone, go to Settings > Connections > Bluetooth and toggle it on. On your Windows 10 PC, click the Start button and select Settings (the gear icon); choose Devices; and then pick \"Bluetooth & other devices.\" Toggle the Bluetooth switch to \"On.\"\n\n2. Pair the two devices: Make sure both devices are discoverable by putting them into pairing mode. On your Android device, you should see a list of available Bluetooth connections under Available Devices in its Bluetooth settings menu.\n\n3. In Windows 10's list of available Bluetooth connections, find your phone; it will likely appear as \"[Phone's Name].\" Click its name and then select \"Pair\" (or Connect) from the prompt that appears—once connected successfully, you'll see \"Connected\" next to it in your PC's list.\n\n4. Send files or other data"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
