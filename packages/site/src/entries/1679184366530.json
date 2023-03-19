@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vaqVfV3XFBEh8m4LU0WS0hw0mt3n",
+  "object": "chat.completion",
+  "created": 1679184351,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Who is Winston Churchill?\n\nSir Winston Leonard Spencer-Churchill was a British statesman, army officer, and writer who served as Prime Minister of the United Kingdom from 1940 to 1945 during World War II and again from 1951 to 1955. Born on November 30, 1874, in Blenheim Palace in Woodstock, United Kingdom, he died on January 24, 1965.\n\nChurchill is best known for his strong leadership during World War II when he rallied the British people against Nazi Germany's aggression. Although initially being seen as an unlikely candidate for prime minister due to previous failures in his political career, he would go on to become one of Britain's most influential leaders.\n\nApart from politics and military service (including participation during the First World War), Churchill was also an accomplished author; having written numerous books throughout his lifetime both about historical events as well their impact within literary circles today such works have often helped establish him posthumously awards including"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
