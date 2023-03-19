@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6veXNFkwRyNrqyzroKrpQJ3FBcNmD",
+  "object": "chat.completion",
+  "created": 1679198541,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 47,
+    "total_tokens": 53
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The distance from London, England, to Sydney, Australia is approximately 17,016 kilometers or 10,573 miles. The actual distance may vary slightly depending on the exact destination points within each city and the specific route traveled."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
