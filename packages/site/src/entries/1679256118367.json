@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vtVrA9wLkaEuOx5znr87fDk4EMnh",
+  "object": "chat.completion",
+  "created": 1679256107,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 145,
+    "total_tokens": 151
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A cryptographer is a person who specializes in the art and science of creating, solving, or analyzing codes and ciphers. This involves devising algorithms that convert plain text into encrypted code, as well as uncovering methods to decipher hidden messages within coded text.\n\nCryptographers work with different types of codes and ciphers, often using mathematical techniques to create secure systems for communication. They may also study historical or ancient codes to better understand coding principles and contribute to developments in the field of cryptography.\n\nTheir work is crucial for ensuring security in various fields like computer programming, internet-based communication, banking transactions, military communications, data protection against cyber threats & espionage activities etc., ultimately protecting sensitive information from unauthorized access by malicious parties globally."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
