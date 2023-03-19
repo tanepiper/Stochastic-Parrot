@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vjHgmI7nkNehkdKVLvxU4eui0Lbd",
+  "object": "chat.completion",
+  "created": 1679216788,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How stress affects the immune system:\n\n1. Chronic stress and cortisol: When our body perceives a threat, it initiates the \"fight or flight\" response - releasing adrenaline and cortisol (a well-known stress hormone) from the adrenal glands. While short-term bursts of cortisol can actually boost immunity by quickly mobilizing white blood cells to defend against infection, chronic elevated levels of cortisol may suppress immune functions. High amounts of cortisol circulating in our bodies for extended periods weaken numerous physical systems, including the lymphatic system.\n\n2. Inflammation: Another way stress impacts the immune system is by promoting inflammation through stimulating pro-inflammatory proteins called cytokines. Chronic low-level inflammation has been linked to various diseases, such as heart disease and autoimmune disorders.\n\n3. Sleep issues due to stress: Adequate sleep is essential for proper functioning of our immune system; however, high-stress levels often interfere with healthy sleep patterns thus decreasing melatonin production – a hormone responsible for regulating sleep cycles – which therefore hamp"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
