@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vzSO8XNBudbojMr3H61IBNzq9e1w",
+  "object": "chat.completion",
+  "created": 1679278956,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 78,
+    "total_tokens": 84
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Kim Taehyung was born on December 30, 1995 in Daegu, South Korea. He is also known by his stage name V and he is a member of the popular boy band BTS (Bangtan Sonyeondan). Kim Taehyung has made significant achievements as a singer-songwriter, dancer, record producer, actor and TV host worldwide."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
