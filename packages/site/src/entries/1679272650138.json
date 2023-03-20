@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vxoSkBhNNCbIQpNY5Wc2F7XIkXDZ",
+  "object": "chat.completion",
+  "created": 1679272636,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 165,
+    "total_tokens": 171
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you can use Telegram on your Chromebook. Since there is no native app for Chrome OS specifically, you have two options to access Telegram on a Chromebook:\n\n1. Use the web version: Simply visit https://web.telegram.org/ in Google Chrome or any web browser of your choice, log in with your phone number and enjoy using Telegram.\n\n2. Install the Android app (for compatible devices): Some newer Chromebooks have support for Android apps through the Google Play Store. If this is available on your device follow these steps:\n   a) Open up the Google Play Store.\n   b) Search for \"Telegram\".\n   c) Install Telegram X or Telegram Messenger from by clicking 'Install'.\n   d) After installation, open and sign-in using your phone number.\n\nNow you're ready to chat away!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
