@@ -12,7 +12,7 @@ on:
 
 jobs:
   stochastic-parrot:
-    name: 'Make Polly Speak'
+    name: 🦜 Make Polly Speak
     runs-on: ubuntu-latest
     steps:
       - name: 🛎️ Checkout
@@ -65,6 +65,7 @@ jobs:
           force: true
 
   deploy-site:
+    name: 📦 Update Polly's Website
     uses: './.github/workflows/static.yml'
     needs: stochastic-parrot
     secrets: inherit
