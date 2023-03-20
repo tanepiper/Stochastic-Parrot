@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6w043x2VErWwYwcUuNXg7LNRl5RMJ",
+  "object": "chat.completion",
+  "created": 1679281291,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 112,
+    "total_tokens": 118
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Felony murder is a legal rule or doctrine that holds individuals who commit dangerous felonies accountable for any deaths that might occur in the course of those crimes, regardless of whether the accused had any intention to cause or directly caused the death. Essentially, if someone dies as a result of their involvement with an unlawful and inherently dangerous activity (like armed robbery), they may be held responsible for felony murder even if their role was tangential, accessory or nonviolent.\n\nNote: This answer addresses U.S. law; other jurisdictions may have different rules regarding felony murder."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
