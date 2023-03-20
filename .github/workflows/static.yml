@@ -2,8 +2,8 @@
 name: Deploy static content to Pages
 
 on:
-  schedule:
-    - cron: 0 */3 * * *
+  # schedule:
+  #   - cron: 0 */3 * * *
   # Runs on pushes targeting the default branch
   push:
     branches:
@@ -37,8 +37,9 @@ jobs:
       - name: 🛎️ Checkout
         uses: actions/checkout@v3.0.2
         with:
+          token: ${{ secrets.GH_PAT }}
           ref: ${{ github.head_ref }}
-          fetch-depth: 0
+          clean: true
       - name: Setup Moon
         uses: moonrepo/setup-moon-action@v1
       - name: 🛠 NodeJS
