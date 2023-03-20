@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { createEntriesLoader } from '../../libs/entries.mjs';
+import {Image} from '@astrojs/image/components'
 
 const loader = createEntriesLoader();
 
@@ -27,10 +28,12 @@ const entries = (await loader.getDallEImageFilenames()) ?? [];
         {
           entries.map((entry, index) => (
             <figure class={`gallery__item gallery__item--${index + 1}`}>
-              <img
+              <Image
                 src={`/dall-e/${entry}`}
                 class='gallery__img'
                 alt='Image 1'
+                width={500}
+                height={500}
               />
             </figure>
           ))
@@ -48,8 +51,8 @@ const entries = (await loader.getDallEImageFilenames()) ?? [];
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      grid-gap: 20px;
+      grid-template-columns: auto auto auto;
+      grid-gap: 0.5rem;
       align-items: stretch;
     }
     .gallery img {
@@ -68,7 +71,7 @@ const entries = (await loader.getDallEImageFilenames()) ?? [];
       justify-content: center;
       align-items: center;
       align-content: center;
-      max-width: 80em;
+      max-width: 110ch;
       /* cursor: url('/images/avatar.png') auto; */
     }
     :global(.item-list-container h2) {
