@@ -33,7 +33,23 @@ export function createOpenAIInstance(apiKey) {
     });
   }
 
+  /**
+   * Return an object containing links to images
+   * @param {*} prompt 
+   * @param {*} n 
+   * @param {*} size 
+   * @returns 
+   */
+  async function getImages(prompt = ' ', n = 1, size = '1024x1024') {
+    return await apiInstance.createImage({
+      prompt,
+      n,
+      size
+    })
+  }
+
   return {
     getChat,
+    getImages,
   };
 }

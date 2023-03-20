@@ -5,7 +5,8 @@
   "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "start": "node src/index.mjs"
+    "chat": "node src/index.mjs",
+    "image": "node src/dall-e.mjs"
   },
   "repository": {
     "type": "git",

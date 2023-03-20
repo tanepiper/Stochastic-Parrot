@@ -15,7 +15,14 @@ tasks:
   feed-polly:
     options:
       runInCI: false
-    command: 'npm run start'
+    command: 'npm run chat'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
+  polly-dreams:
+    options:
+      runInCI: false
+    command: 'npm run image'
     inputs:
       - 'src/**/*'
       - 'package.json'
