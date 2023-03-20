@@ -115,17 +115,10 @@ const navItems = [
     text-decoration: underline;
   }
 
-  @media (min-width: 60em) {
-    .site-header {
-      flex-direction: row;
-    }
-  }
-
-
   .magic {
     margin: 0;
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: 'Rubik Iso', cursive;
     color: #000;
     outline: #000;
@@ -146,6 +139,19 @@ const navItems = [
       background-position: 0% 50%;
     }
   }
+
+  @media (min-width: 60em) {
+    .site-header {
+      flex-direction: row;
+    }
+
+    .magic {
+      font-size: 2rem;
+    }
+  }
+
+
+  
 
   /* .header {
     display: flex;
