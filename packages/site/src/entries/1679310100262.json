@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6w7YBX37AFyujxNs8w78vy4lcO142",
+  "object": "chat.completion",
+  "created": 1679310067,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 313,
+    "total_tokens": 319
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The establishment of political parties in the Philippines can be traced back to the late 19th century during the Philippine Revolution against Spanish colonial rule. The emergence of various factions and groups led to the creation of political organizations that would later evolve into some of today's major political parties.\n\n1. Katipunan (1892): Founded by Andres Bonifacio, this secret society sought to achieve independence from Spain through armed revolt. It eventually served as a precursor for Filipino nationalist movements.\n\n2. Partido Federal (1900): This party was created by Filipino ilustrados who advocated for regional autonomy within a US-administered federation instead of full independence from American control.\n\n3. Nacionalista Party (1907): Established under Sergio Osmena and Manuel Quezon's leadership, it initially supported immediate and complete independence from US colonial rule but later changed its stance after recognizing practical considerations related to economic stability and international relations.\n\n4. Progresista Party (1907): Created as an opposition party during elections for the Philippine Assembly conducted under American administration, it had more accommodating stances towards US colonial rule compared with Nacionalista politicians at that time.\n\n5.Old Liberal Party/ Partido Libertad (1913-1946) : Formed in reaction to dissatisfaction with traditional politics along over issues like agrarian reform began lurching significantly rightward in broad strokes\n\n6 .New Liberal Party /Partido Liberal ng Pilipinas: The Revolutionary Government established immediately after Pearl Harbor only lasted until Japan invaded; afterwards members went directly underground or else joined resistance movement\"\n\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
