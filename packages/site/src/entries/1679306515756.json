@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6w6cLLpibvhpWdSee1SmpLGpoYWBo",
+  "object": "chat.completion",
+  "created": 1679306481,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 374,
+    "total_tokens": 380
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Edvard Munch's \"The Scream\" is so famous for multiple reasons. Some of them include:\n\n1. Unique and intense emotions: \"The Scream\" captures a visceral, raw and anxious emotion that resonates with many people on various levels. It appeals to the universal experience of fear and anxiety, both personally as individuals and collectively as a society.\n\n2. First modern expressionist painting: Edvard Munch was an influential pioneer in Expressionism - this painting remains one of the earliest examples from this movement that aimed to express subjective emotions instead of producing objective reality.\n\n3. Bold & vibrant colors: The aggressively bright palette composed of swirling strokes heightens the sense of unease conveyed by 'the scream' at its center.\n\n4. Intriguing art history scandals: Considered too daring for contemporary tastes, it faced some disapproval from critics since its first exhibition in 1893 which resulted in further media attention that fueled controversies around broader themes like censorship, conservatism vs liberal ideas etc.\n\n5. Multiple versions stolen / recovered paintings : There are actually four different versions created by Munch himself (two oil paintings , two pastels). In recent decades , thefts involving these artworks generated widespread coverage not only among people interested int he arts circle but also beyond the artistic domain public impact amplification through news appearances turned it into somewhat household property\n\n6.The actual concept – The artist deliberately uses shock value to attract more attention towards his work . This ambition has paid off quite successfully over years giving  birth to countless interpretations within spheres popular culture(eg movies ) or parodies\n\n7.Mental illness subject impacting creator relations creates space on deeper analysis – Many art enthusiasts have seen reflected essence autobiographical biographical grounds behind motif expressed image;. Apart devasting chain events( deaths family members ..)M , ucnh suffered acute mental health insues throughout lifespan -/\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
