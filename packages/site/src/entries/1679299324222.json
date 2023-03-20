@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6w4kjGfUbaEqBeVUJVFf9EXH6MCqg",
+  "object": "chat.completion",
+  "created": 1679299313,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 127,
+    "total_tokens": 133
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Sympathy is the emotion of feeling pity or sorrow for someone else's misfortune. It involves understanding and identifying with another person's emotional state and offering comfort, support, or compassion.\n\nEmpathy, on the other hand, is a deeper level of understanding that goes beyond sympathy. It involves putting yourself in another person's shoes – actually feeling or imagining what they are going through. Empathy allows you to not only understand their emotions but also share their feelings and experience their perspective.\n\nOverall, empathy demonstrates a higher level of connection than sympathy because it requires more effort to truly feel and become involved with another individual's emotional world."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
