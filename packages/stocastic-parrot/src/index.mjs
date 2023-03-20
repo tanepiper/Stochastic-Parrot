@@ -15,12 +15,19 @@ const filePath = path
   .split(':')[1];
 
 let response;
+let retries = 0;
 try {
   response = await openAI.getChat();
 } catch (e) {
-  console.log('Failed to get chat from OpenAI');
+  
   console.log(e);
-  process.exit(1);
+  if (retries === 3) {
+    console.log('Failed to get chat from OpenAI: Exiting');
+    process.exit(1);
+  }
+  retries++;
+  console.log(`Failed to get chat from OpenAI: Retry ${retries}`);
+  response = await openAI.getChat();
 }
 
 await writeFile(

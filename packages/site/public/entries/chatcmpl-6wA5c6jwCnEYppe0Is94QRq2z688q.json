@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wA5c6jwCnEYppe0Is94QRq2z688q",
+  "object": "chat.completion",
+  "created": 1679319828,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 377,
+    "total_tokens": 383
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Thank you for your question. The term \"narcissistic\" refers to an inflated sense of self-importance, a deep need for admiration and attention, and a lack of empathy for others. Here are some common behaviors that people with this trait display:\n\n1. Arrogant or haughty behavior: Narcissists often act superior to others and may be dismissive or condescending toward other individuals.\n\n2. Excessive self-focus: They tend to focus predominantly on themselves and view their own interests as more important than those of other people.\n\n3. Need for validation and attention: Narcissists crave attention from others in order to feel valued, loved, or admired.\n\n4. Manipulation: They may manipulate other individuals emotionally or psychologically so they can maintain control over them.\n\n5. Lack of empathy: Narcissists often show little concern or understanding towards the feelings of others.\n\n6. Exploitative behavior: People with narcissistic traits tend to exploit others – using them as tools in order to direct benefits toward themselves (e.g., financial gain, increased social status).\n\n7. Envy/envy-inducing behaviors: A strong driving force behind many narcissistic actions is envy — either envying what someone else appears (in their eyes) possess or trying to induce envy in others by flaunting their possessions/status/skills/achievements/etc.\n\n8 Cosntantly seeking praise/reporting achievement\n\nBear in mind that these behaviors alone do not necessarily constitute a diagnosis- I am an AI language model not certified psychologist however if you recognize these  signs exhibited repeatedly it could indicate potential patterns associated with narcissism While everyone has some degree of selfishness,self-focus- It's critical distinguishing between ordinary levels such aspects vs clinically diagnosed condition like NPD(narcisstic personality disorder). Talking professional specialist qualified diagnose treat psychological disorders should decision made based presence narcisstic behaviour"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
