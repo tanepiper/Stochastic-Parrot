@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wGvT6e13MoLpwUacLZtzigt5PZPn",
+  "object": "chat.completion",
+  "created": 1679346107,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 398,
+    "total_tokens": 404
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "An automatic drip coffee maker works by heating water to near boiling point, which is then poured over the ground coffee held in a removable paper or reusable mesh filter. The hot water flows through the ground coffee, extracting flavors and oils as it passes over them. This extracted liquid (coffee) then drips into a carafe or directly into cups.\n\nHere's how an automatic drip coffee maker works step-by-step:\n\n1. Fill the reservoir: Add cold water to the machine's water reservoir based on your desired volume of brewed coffee.\n\n2. Heat the water: Once you turn on the machine, it uses an electric element to heat up the metal tube that runs from the bottom of its main body structure. The heated tube warms up and vaporizes some of this water; increasing pressure forces this steam out through another small duct located at top.\n\n3. Pre-wetting process: When hot enough, pressurized steam releases out onto a spray head with holes directing flow above ground beans contained in basket housing paper/mesh filter so pre wetting occurs aiding extraction later during brewing stage.\n\n4-5 minutes steeping time - soaking involves using temperature around 200°F/93°C for optimal extraction (temperature depends upon preference). As gravity pulls it downwards passing brew placed under filter holder exposing solids contained therein need discarding after usage concludes each session since become spent losing essence producing weak quality drinks lacking proper aroma when surrounded within percolators like drip machines do offer different options programmable sometimes varying amounts found inside holding unit embedded processor driven tools allowing interval adjustment changes timing output customizing method selected amount excelling beyond initial scope first glance multiple grinds therefore unique certain extent demanding swarms devoted enthusiast possess following working diligently towards perfection sector achieving greater heights within industry engaging hobby pursuit adoptive lifestyle even mentioning portable advance models meant 'on go' consumers always seeking best aspects remaining attentive expansive limited anything equipped numerous efficient functional devices utilizing variety selection expected grow vast areas discovering unexplored still seems hold much promise lies ahead"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
