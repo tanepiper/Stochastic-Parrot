@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6w10EdoM0Bhw4hYbnx6z89rSoZ1OS",
+  "object": "chat.completion",
+  "created": 1679284898,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 302,
+    "total_tokens": 308
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is currently no way to predict an individual's life span with certainty, as it depends on a complex interplay of genetic, environmental, and lifestyle factors. However, some statistical tools can estimate average life expectancy based on current age, gender and country.\n\nThese models primarily use data from national demographics and public health records to make their estimates. Although the exact algorithms used may vary between different sources or actuarial organizations, many involve regression analysis (e.g., looking at patterns in mortality rates) to assess probabilities of survival over time for various demographic groups.\n\nIt should be noted that these are population-level predictions that apply to averages-- they do not take into account personal habits or individual risk factors like specific medical conditions or family history. In addition, advancements in medical care or changes in societal circumstances may impact future longevity statistics. However using available information there are several life expectancy calculators online which could provide you an estimated lifespan range based on your age along with other parameters:\n\n1. SSA Life Expectancy Calculator - https://www.ssa.gov/oact/population/longevity.html\n2. Livingto100 Life Expectancy Calculator - https://livingto100.com/calculator/life-expectancy-calculator\n3. World Population Review by Country - https://worldpopulationreview.com/country-rankings/life-expectancy-by-country\n\nDisclaimer: These calculators will only give a rough estimate; predicting one's actual lifespan remains uncertain due to countless variables involved beyond the inputs provided by calculator forms.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
