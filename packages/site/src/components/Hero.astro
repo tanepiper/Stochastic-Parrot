@@ -39,10 +39,13 @@ const {
 
   .hero-component__cta {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 1rem;
+  }
+  :global(.hero-component__cta a) {
+    margin: 1rem auto;
+    min-width: 2rem;
   }
 
   @media (min-width: 60em) {
@@ -51,7 +54,7 @@ const {
     }
 
     .hero-component__cta {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
   }

@@ -6,8 +6,8 @@ const { items } = Astro.props;
 const allItems = items ?? [];
 ---
 
-<div class='latest-items'>
-  <h2>All Posts</h2>
+<div class='item-list-container'>
+  <slot />
   {
     allItems.map((item) => (
       <div class='item'>
@@ -28,7 +28,7 @@ const allItems = items ?? [];
 
 <style>
   /** css for a psychadelic looking unordered list */
-  .latest-items {
+  .item-list-container {
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -39,19 +39,39 @@ const allItems = items ?? [];
     align-content: center;
     max-width: 80em;
   }
-  .latest-items h2 {
+  :global(.item-list-container h2) {
     font-family: 'Rubik Iso', cursive;
     font-size: 3rem;
   }
-  .latest-items .item {
+  .item-list-container .item {
     display: inline-block;
     margin: 0 1rem 1rem 0;
     padding: 1rem;
     background: #fff;
     border-radius: 0.5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-    /* animation: float 3s ease-in-out infinite; */
   }
+
+  .item-list-container .item:hover {
+    animation: float 1s ease-in-out infinite;
+  }
+
+  .item-list-container .item:nth-child(2n) {
+    animation-delay: 1s;
+  }
+  .item-list-container .item:nth-child(3n) {
+    animation-delay: 2s;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-0.25rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
 
    .button {
     margin: 0 0.5rem;

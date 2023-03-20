@@ -1,7 +1,6 @@
 ---
+import PostListing from '$ui/PostListing.astro';
 import Layout from '../../layouts/Layout.astro';
-import LatestPosts from '$ui/LatestPosts.astro';
-import AllPosts from 'src/components/AllPosts.astro';
 
 const entries = await Astro.glob('../../entries/*.json');
 const sortedEntries = entries
@@ -9,10 +8,11 @@ const sortedEntries = entries
   .sort((a, b) => (a.created > b.created ? -1 : 1));
 ---
 
-<Layout title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'>
+<Layout
+  title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
+>
   <main>
-    
-    <AllPosts items={sortedEntries} />
+    <PostListing items={sortedEntries}><h2>All Posts</h2></PostListing>
   </main>
 </Layout>
 
@@ -24,7 +24,7 @@ const sortedEntries = entries
   }
 
   .instructions {
-	margin: 1.5rem auto;
-	max-width: 120ch;
+    margin: 1.5rem auto;
+    max-width: 120ch;
   }
 </style>

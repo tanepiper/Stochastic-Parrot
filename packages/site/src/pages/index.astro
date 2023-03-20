@@ -1,8 +1,7 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import LatestPosts from '$ui/LatestPosts.astro';
+import PostListing from '$ui/PostListing.astro';
 import Hero from 'src/components/Hero.astro';
+import Layout from '../layouts/Layout.astro';
 
 const entries = await Astro.glob('../entries/*.json');
 const latestFive = entries
@@ -36,7 +35,7 @@ const latestFive = entries
       </p>
       <p>Whatever the machine dreams, I repeat verbaitum and unfiltered</p>
 
-      <div slot='cta'>
+      <Fragment slot='cta'>
         <a
         href='https://mastodon.social/@StochasticEntropy'
         class='button button--primary mastodon'><img src='/images/mastodon.svg'>&nbsp;Mastodon Account</a
@@ -45,9 +44,9 @@ const latestFive = entries
         href='https://github.com/tanepiper/Stochastic-Parrot'
         class='button button--primary github'><img src='/images/github.svg'>&nbsp;GitHub</a
       >
-      </div>
+      </Fragment>
     </Hero>
-    <LatestPosts items={latestFive} />
+    <PostListing items={latestFive}><h2>Last 5 Entries</h2></PostListing>
   </main>
 </Layout>
 
