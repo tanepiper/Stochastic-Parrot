@@ -3,7 +3,8 @@ import { randomNumber } from './lib.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 
-const GPT_MODEL = 'gpt-4';
+const GPT_MODEL = 'gpt-4'; //'gpt-4';
+const MAX_TOKENS = 500; //200;
 
 /**
  * Creates an OpenAI Client Instance for the V1 API with optional base path
@@ -28,7 +29,7 @@ export function createOpenAIInstance(apiKey) {
       frequency_penalty: 1, //randomNumber(),
       presence_penalty: 1, //randomNumber(),
       temperature: randomNumber(true),
-      max_tokens: 200,
+      max_tokens: MAX_TOKENS,
     });
   }
 
