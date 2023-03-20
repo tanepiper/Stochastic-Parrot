@@ -11,7 +11,7 @@ dotenv.config();
 const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY);
 const mastodon = createMastodonClient(process.env.MASTODON_ACCESS_TOKEN);
 const filePath = path
-  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'src', 'entries')
+  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
   .split(':')[1];
 
 let response;
@@ -24,7 +24,7 @@ try {
 }
 
 await writeFile(
-  `${filePath}/${Date.now()}.json`,
+  `${filePath}/${response.data.id}.json`,
   JSON.stringify(response.data, null, 2),
   { encoding: 'utf8', flag: 'w' }
 );

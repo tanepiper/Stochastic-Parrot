@@ -38,6 +38,7 @@ const allItems = items ?? [];
     align-items: center;
     align-content: center;
     max-width: 80em;
+    /* cursor: url('/images/avatar.png') auto; */
   }
   :global(.item-list-container h2) {
     font-family: 'Rubik Iso', cursive;
@@ -53,6 +54,7 @@ const allItems = items ?? [];
   }
 
   .item-list-container .item:hover {
+    cursor: crosshair;
     animation: float 1s ease-in-out infinite;
   }
 

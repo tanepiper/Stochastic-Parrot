@@ -1,18 +1,24 @@
 ---
 import PostListing from '$ui/PostListing.astro';
 import Layout from '../../layouts/Layout.astro';
+import { createEntriesLoader } from '../../libs/entries.mjs';
 
-const entries = await Astro.glob('../../entries/*.json');
-const sortedEntries = entries
-  .map((e) => e.default)
-  .sort((a, b) => (a.created > b.created ? -1 : 1));
+const loader = createEntriesLoader();
+
+const entries = await loader.loadEntries();
 ---
 
 <Layout
   title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
 >
   <main>
-    <PostListing items={sortedEntries}><h2>All Posts</h2></PostListing>
+    <PostListing items={entries}>
+      <h2>All Posts</h2>
+      <p class='intro'>
+        This is a list of all the collected ramblings of the Stochastic Parrot.  Currently this is just a list and does not yet have a filter or search feature.
+      </p>
+      <p>Last Updated: {Intl.DateTimeFormat('en-gb', { dateStyle: 'full', timeStyle: 'long', timeZone: 'Europe/Amsterdam'}).format(Date.now())}</p>
+    </PostListing>
   </main>
 </Layout>
 
@@ -23,7 +29,7 @@ const sortedEntries = entries
     max-width: 180ch;
   }
 
-  .instructions {
+  .intro {
     margin: 1.5rem auto;
     max-width: 120ch;
   }

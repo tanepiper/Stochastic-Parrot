@@ -3,11 +3,11 @@ import PostListing from '$ui/PostListing.astro';
 import Hero from 'src/components/Hero.astro';
 import Layout from '../layouts/Layout.astro';
 
-const entries = await Astro.glob('../entries/*.json');
-const latestFive = entries
-  .map((e) => e.default)
-  .sort((a, b) => (a.created > b.created ? -1 : 1))
-  .slice(0, 5);
+import {createEntriesLoader} from '../libs/entries.mjs';
+
+const loader = createEntriesLoader();
+const entries = await loader.loadEntries(0, 5);
+
 ---
 
 <Layout
@@ -46,7 +46,10 @@ const latestFive = entries
       >
       </Fragment>
     </Hero>
-    <PostListing items={latestFive}><h2>Last 5 Entries</h2></PostListing>
+    <PostListing items={entries}>
+      <h2>Last 5 Entries</h2>
+      <p>Last Updated: {Intl.DateTimeFormat('en-gb', { dateStyle: 'full', timeStyle: 'long', timeZone: 'Europe/Amsterdam'}).format(Date.now())}</p>
+    </PostListing>
   </main>
 </Layout>
 
