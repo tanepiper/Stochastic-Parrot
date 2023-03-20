@@ -47,7 +47,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-        run: moon run stocastic-parrot:feed-polly
+        run: moon run stocastic-parrot:polly-talks
       # Commit all files changes including docs
       - name: Commit files
         run: |
