@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vylCgKJKLdQZsUlj1q2STyAYgWEI",
+  "object": "chat.completion",
+  "created": 1679276278,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 13,
+    "total_tokens": 19
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Currently, Russia is using Russian ruble (RUB)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
