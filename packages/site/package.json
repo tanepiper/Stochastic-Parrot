@@ -14,6 +14,7 @@
     "svelte": "~3.57.0",
     "@astrojs/svelte": "~2.1.0",
     "@astropub/md":"~0.2.0",
-    "normalize.css": "~8.0.1"
+    "normalize.css": "~8.0.1",
+    "classnames": "~2.3.2"
   }
 }

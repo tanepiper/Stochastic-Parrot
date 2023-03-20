@@ -1,7 +1,10 @@
 ---
+import '$styles/glitch.css';
+import cx from 'classnames';
+
 const navItems = [
   { name: 'Home', url: '/' },
-  { name: 'All Entries', url: '/entries' },
+  { name: 'Posts', url: '/entries' },
   {
     name: 'Mastodon',
     url: 'https://mastodon.social/@StochasticEntropy',
@@ -13,16 +16,15 @@ const navItems = [
     icon: 'github',
   },
 ];
-import '$styles/glitch.css';
 ---
 
-<header class='header'>
+<header class='site-header sticky'>
   <div class='header-left'>
     <a href='/'>
       <div class='logo'>
         <img src='/images/avatar.png' alt='Logo' />
       </div>
-      <h1>The Stochastic Parrot</h1>
+      <h1 class="magic">The Stochastic Parrot</h1>
     </a>
   </div>
 
@@ -50,7 +52,101 @@ import '$styles/glitch.css';
 </header>
 
 <style>
-  .header {
+  .site-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .sticky {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+  .logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .header-left a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .navigation {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+  }
+
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navigation li {
+    margin-left: 20px;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+  }
+
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 60em) {
+    .site-header {
+      flex-direction: row;
+    }
+  }
+
+
+  .magic {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Rubik Iso', cursive;
+    color: #000;
+    outline: #000;
+    background: linear-gradient(270deg, #41e6bc, #3652c3, #df0b96, #d8f210);
+    background-size: 150% 150%;
+    border-radius: 0.5rem;
+    animation: headerGradient 5s ease infinite;
+  }
+
+  @keyframes headerGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% -50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* .header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -151,7 +247,7 @@ import '$styles/glitch.css';
     }
 
     .navigation ul {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
 
@@ -162,91 +258,5 @@ import '$styles/glitch.css';
     .navigation a {
       font-size: 1.2rem;
     }
-  }
+  } */
 </style>
-
-<!-- <header class='funky'>
-  <a href='/'><h1>The Stochastic Parrot</h1></a>
-  <div></div>
-  <nav>
-    <ul>
-      {
-        navItems.map((item) => (
-          <li>
-            <a
-              href={item.url}
-              target={item.url.includes('http') ? '_blank' : '_self'}
-            >
-              {item.name}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-  </nav>
-</header>
-
-<style>
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    background-color: #333;
-    color: #fff;
-    min-height: 80px;
-  }
-
-  .funky a {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .funky {
-    background: rgb(88, 235, 13);
-    background: linear-gradient(
-      180deg,
-      rgba(88, 235, 13, 1) 0%,
-      rgba(184, 11, 75, 1) 14%,
-      rgba(36, 37, 221, 1) 26%,
-      rgba(249, 108, 7, 1) 35%,
-      rgba(133, 77, 156, 1) 54%,
-      rgba(48, 163, 158, 1) 76%,
-      rgba(219, 69, 155, 1) 91%,
-      rgba(94, 13, 255, 1) 100%
-    );
-  }
-  .funky h1 {
-    animation: glitch1 2.5s infinite;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 1.5rem;
-  }
-  header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  header nav ul li {
-    margin: 0 0.5rem;
-  }
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  header nav ul li a:hover {
-    text-decoration: underline;
-  }
-</style> -->

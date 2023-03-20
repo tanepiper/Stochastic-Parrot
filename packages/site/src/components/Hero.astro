@@ -22,7 +22,7 @@ const {
 <style>
   .hero-component {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem;
@@ -37,14 +37,18 @@ const {
     margin-right: 2rem;
   }
 
-
-
   .hero-component__cta {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 1rem;
+  }
+
+  @media (min-width: 60em) {
+    .hero-component {
+      flex-direction: row;
+    }
   }
 
 
