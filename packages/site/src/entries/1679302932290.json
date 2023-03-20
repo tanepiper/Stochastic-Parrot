@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6w5gjUxke27Hii1qlVBaOaXc70qFg",
+  "object": "chat.completion",
+  "created": 1679302909,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 222,
+    "total_tokens": 228
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "You can find your Chase routing number by:\n\n1. Checking your checkbook: Your routing number is the nine-digit code printed on the left side at the bottom of your checks.\n\n2. Logging in to online banking: Once you log into Chase Online, click on the account you'd like to see the routing number for, then select \"Show details.\" Your routing number will be displayed under \"Routing Number.\"\n\n3. Using mobile banking: If you have set up Mobile Banking with Chase, log in and tap on an account; then tap \"… More\" and choose “Show Routing & Account Numbers.” \n\n4. Visiting chase.com or calling customer service at 1-800-935-9935\n\nKeep in mind that there may be different routing numbers depending on whether it's for a checking or savings account, wire transfers (domestic or international), or if you're located in a specific state/region.\n\nFor example:\n- California has two separate routing numbers (one for Northern and Southern)\n- Illinois has three separate routing numbers (one each for Chicago Metro / Downstate /\nNorthern)"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
