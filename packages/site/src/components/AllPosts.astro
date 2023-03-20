@@ -7,7 +7,7 @@ const allItems = items ?? [];
 ---
 
 <div class='latest-items'>
-  <h2>Latest Items</h2>
+  <h2>All Items</h2>
   {
     allItems.map((item) => (
       <div class='item'>
@@ -22,11 +22,6 @@ const allItems = items ?? [];
       </div>
     ))
   }
-  <div class='controls'>
-    <a class="button button--primary" href='/entries'
-      >See All Entries ➡️</a
-    >
-  </div>
 </div>
 
 <style>

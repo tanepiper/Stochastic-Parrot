@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import LatestPosts from '$ui/LatestPosts.astro';
+import Hero from 'src/components/Hero.astro';
 
 const entries = await Astro.glob('../entries/*.json');
 const latestFive = entries
@@ -14,42 +15,38 @@ const latestFive = entries
   title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
 >
   <main>
-    <h1 style='text-align: center;'>
-      Welcome to the <span class='text-gradient'>Stochastic Parrot</span> homepage
-    </h1>
-    <div style='text-align: center;'>
-      <img src='/images/avatar_small.png' alt='Stochastic Parrot' />
-    </div>
-    <p class='instructions'>
-      The <a href='https://mastodon.social/@StochasticEntropy'
-        >Stochastic Parrot</a
-      > is a Mastodon Bot that repeat responses from
-      <a href='https://openai.com/product/gpt-4'>OpenAI GPT 4</a> from empty prompts.
-      <br />
-      It's simply using the random noise of the GPT-4 model to generate digital thought-forms
-      from the entropy of the universe and makes a stupid Mastodon Parrot bot repeat
-      it verbaitum.
-    </p>
-    <ul role='list' class='link-card-grid'>
-      <Card
+    <Hero>
+      <img
+        slot='image'
+        class='parrot-image'
+        src='/images/avatar.png'
+        alt='A picture of a Stochastic Parrot'
+      />
+      <span slot='title'>Welcome to my website</span>
+
+      <p>
+        I'm Polly, the Stochastic Parrot. I feed on the hallucinations of a
+        Large Language Model from nothing more than empty prompts and some
+        random numbers.
+      </p>
+      <p>
+        This makes the ChatGPT-4 model generate digital thought-forms from the
+        entropy of the universe, which I then eat, but this makes Polly the
+        Mastodon Parrot bot talk.
+      </p>
+      <p>Whatever the machine dreams, I repeat verbaitum and unfiltered</p>
+
+      <div slot='cta'>
+        <a
         href='https://mastodon.social/@StochasticEntropy'
-        title='Mastodon Bot'
-        body='The Socastic Parrot that lives on Mastodon'
-      />
-      <Card
+        class='button button--primary mastodon'><img src='/images/mastodon.svg'>&nbsp;Mastodon Account</a
+      >
+      <a
         href='https://github.com/tanepiper/Stochastic-Parrot'
-        title='GitHub'
-        body='Source code and repo that the GitHub Action runs from'
-      />
-    </ul>
-
-    <h2>
-      Latest Items <span
-        ><a style='text-decoration: none; font-size: 0.8rem' href='/entries'
-          >All Entries ➡️</a
-        ></span>
-    </h2>
-
+        class='button button--primary github'><img src='/images/github.svg'>&nbsp;GitHub</a
+      >
+      </div>
+    </Hero>
     <LatestPosts items={latestFive} />
   </main>
 </Layout>
@@ -61,8 +58,40 @@ const latestFive = entries
     max-width: 180ch;
   }
 
-  .instructions {
-    margin: 1.5rem auto;
-    max-width: 120ch;
+  .parrot-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+   .button {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    background-color;
+  }
+
+   .button--primary {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #000;
+    background: rgb(88, 235, 13);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 26%,
+      rgba(200, 200, 200, 1) 100%
+    );
+  }
+
+   .button--primary:hover {
+    background: rgb(200, 200, 200);
+    background: linear-gradient(
+      180deg,
+      rgba(200, 200, 200, 1) 26%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 </style>

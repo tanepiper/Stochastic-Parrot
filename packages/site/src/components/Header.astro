@@ -2,13 +2,170 @@
 const navItems = [
   { name: 'Home', url: '/' },
   { name: 'All Entries', url: '/entries' },
-  { name: 'Mastodon', url: 'https://mastodon.social/@StochasticEntropy' },
-  { name: 'GitHub', url: 'https://github.com/tanepiper/Stochastic-Parrot' },
+  {
+    name: 'Mastodon',
+    url: 'https://mastodon.social/@StochasticEntropy',
+    icon: 'mastodon',
+  },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/tanepiper/Stochastic-Parrot',
+    icon: 'github',
+  },
 ];
 import '$styles/glitch.css';
 ---
 
-<header class='funky'>
+<header class='header'>
+  <div class='header-left'>
+    <a href='/'>
+      <div class='logo'>
+        <img src='/images/avatar.png' alt='Logo' />
+      </div>
+      <h1>The Stochastic Parrot</h1>
+    </a>
+  </div>
+
+  <nav class='navigation header-right'>
+    <ul>
+      {
+        navItems.map((item) => (
+          <li>
+            <a
+              href={item.url}
+              class={item.url.includes('http') ? ' external' : ''}
+              target={item.url.includes('http') ? '_blank' : '_self'}
+            >
+              {item?.icon ? (
+                <img src={`/images/${item.icon}.svg`} alt={item.icon} />
+              ) : (
+                item.name
+              )}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+
+<style>
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .header-left a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+  .logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Rubik Iso', cursive;
+    color: #000;
+    outline: #000;
+    background: linear-gradient(270deg, #41e6bc, #3652c3, #df0b96, #d8f210);
+    background-size: 150% 150%;
+    border-radius: 0.5rem;
+    animation: headerGradient 5s ease infinite;
+  }
+
+  @keyframes headerGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% -50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+  }
+
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navigation li {
+    margin-left: 20px;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+    }
+
+    .logo {
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .navigation {
+      margin-top: 10px;
+    }
+
+    .navigation ul {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navigation li {
+      margin: 10px 0;
+    }
+
+    .navigation a {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+
+<!-- <header class='funky'>
   <a href='/'><h1>The Stochastic Parrot</h1></a>
   <div></div>
   <nav>
@@ -92,4 +249,4 @@ import '$styles/glitch.css';
   header nav ul li a:hover {
     text-decoration: underline;
   }
-</style>
+</style> -->

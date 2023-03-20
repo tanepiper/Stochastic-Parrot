@@ -1,0 +1,6 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
