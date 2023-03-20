@@ -18,12 +18,23 @@ const { title } = Astro.props;
     <link rel='me' href='https://mastodon.social/@StochasticEntropy' />
     <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
-    
   </head>
   <body>
     <Header />
     <slot />
   </body>
+
+  <script async src='//static.getclicky.com/101402344.js'></script>
+  <noscript
+    ><p>
+      <img
+        alt='Clicky'
+        width='1'
+        height='1'
+        src='//in.getclicky.com/101402344ns.gif'
+      />
+    </p></noscript
+  >
 </html>
 <style is:global>
   :root {
