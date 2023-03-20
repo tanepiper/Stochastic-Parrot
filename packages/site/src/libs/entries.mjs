@@ -27,9 +27,16 @@ export function createEntriesLoader() {
     return sorted;
   }
 
+  async function getDallEImageFilenames() {
+      const imageFiles = await import.meta.glob('../../public/dall-e/*.png', {
+          eager: true,
+      });
+      return Object.keys(imageFiles).map((e) => e.replace('../../public/dall-e/', ''));
+  }
+
   function getEntries() {
       return entries;
   }
 
-  return { loadEntries, getEntries };
+  return { loadEntries, getEntries, getDallEImageFilenames };
 }

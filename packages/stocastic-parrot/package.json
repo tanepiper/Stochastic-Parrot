@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "chat": "node src/index.mjs",
-    "image": "node src/dall-e.mjs"
+    "image": "node src/dall-e.mjs",
+    "test": "node src/test.mjs"
   },
   "repository": {
     "type": "git",

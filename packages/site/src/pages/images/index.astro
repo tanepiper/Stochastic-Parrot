@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { createEntriesLoader } from '../../libs/entries.mjs';
+
+const loader = createEntriesLoader();
+
+const entries = (await loader.getDallEImageFilenames()) ?? [];
+---
+
+<Layout
+  title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
+>
+  <main>
+    <div class='item-list-container'>
+      <h2>All Images</h2>
+      <p class='intro'>Images that the Stochastic Parrot has dreamed of.</p>
+      <p>
+        Last Updated: {
+          Intl.DateTimeFormat('en-gb', {
+            dateStyle: 'full',
+            timeStyle: 'long',
+            timeZone: 'Europe/Amsterdam',
+          }).format(Date.now())
+        }
+      </p>
+      <div class='gallery'>
+        {
+          entries.map((entry, index) => (
+            <figure class={`gallery__item gallery__item--${index + 1}`}>
+              <img
+                src={`/dall-e/${entry}`}
+                class='gallery__img'
+                alt='Image 1'
+              />
+            </figure>
+          ))
+        }
+      </div>
+    </div>
+  </main>
+
+  <style>
+    main {
+      margin: auto;
+      padding: 1.5rem;
+      max-width: 110ch;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+      align-items: stretch;
+    }
+    .gallery img {
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+      max-width: 100%;
+    }
+
+    /** css for a psychadelic looking unordered list */
+    .item-list-container {
+      margin: 0 auto;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      max-width: 80em;
+      /* cursor: url('/images/avatar.png') auto; */
+    }
+    :global(.item-list-container h2) {
+      font-family: 'Rubik Iso', cursive;
+      font-size: 3rem;
+    }
+  </style>
+</Layout>

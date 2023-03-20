@@ -28,3 +28,12 @@ tasks:
       - 'package.json'
     ouput:
       - entries
+  polly-tests:
+    options:
+      runInCI: false
+    command: 'npm run test'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
+    ouput:
+      - entries
