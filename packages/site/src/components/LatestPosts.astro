@@ -18,7 +18,9 @@ const allItems = items ?? [];
             | total_tokens: {item.usage.total_tokens}
           </code>
         </p>
+        <div class="contents">
         <Markdown of={item.choices[0].message.content} />
+      </div>
       </div>
     ))
   }
@@ -86,7 +88,7 @@ const allItems = items ?? [];
     );
   }
 
-  code {
+  .contents {
     word-break: break-all;
     overflow: hidden;
   }
