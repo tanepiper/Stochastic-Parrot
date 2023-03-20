@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6w8Umn1n1pytm19yMRuzxolV6fNtO",
+  "object": "chat.completion",
+  "created": 1679313700,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 39,
+    "total_tokens": 45
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, but I am an AI language model and cannot provide you with personal guidance on this issue. Please consider speaking to a licensed professional or a trusted individual in your life for advice."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
