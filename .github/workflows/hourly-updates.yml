@@ -64,6 +64,6 @@ jobs:
           force: true
 
   deploy-site:
-    uses: '.github/workflows/static.yml'
+    uses: './.github/workflows/static.yml'
     needs: stochastic-parrot
     secrets: inherit
