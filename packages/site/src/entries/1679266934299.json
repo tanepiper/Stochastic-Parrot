@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6vwKGDH6zEybhKhLw0HL5g1Ixs3IE",
+  "object": "chat.completion",
+  "created": 1679266920,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 200,
+    "total_tokens": 206
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The climate in Colorado varies widely depending on the geographic region, altitude, and season. Here are some of the general features of Colorado's climate:\n\n1. Semi-arid to arid: Colorado has a predominantly semi-arid to an arid climate due to its location in the interior of the United States and high elevation.\n\n2. The Eastern Plains: This area experiences hot summers and cold winters with temperatures averaging from 95°F (35°C) during summer months to lows around 11°F (-12°C) during winter months.\n\n3. The mountains: These regions experience cooler summers and colder winters than other parts of the state due to their higher elevations. Winter temperatures often fall well below freezing, while summer days can be mild or even chilly at higher altitudes.\n\n4. Alpine climate: Above treeline, which is around 11,500 feet in most areas of Colorado's Rockies, alpine tundra conditions exist where vegetation is limited by low temperatures year-round— typically featuring colder"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
