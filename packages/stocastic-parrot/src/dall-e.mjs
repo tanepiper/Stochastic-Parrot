@@ -3,6 +3,7 @@
 import dotenv from 'dotenv';
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import sharp from 'sharp';
 import { createMastodonClient } from './mastodon.mjs';
 import { createOpenAIInstance } from './openai.mjs';
 
@@ -34,10 +35,9 @@ const { url } = response.data?.data?.[0];
 
 console.log('Fetching image');
 const imageData = await fetch(url).then((res) => res.arrayBuffer());
-const imagePath = `${filePath}/${response.data.created}.png`;
-await writeFile(imagePath, Buffer.from(imageData), {
-  flag: 'w',
-});
+const imagePath = `${filePath}/${response.data.created}.webp`;
+
+await sharp(Buffer.from(imageData)).webp({ quality: 80 }).toFile(imagePath);
 
 const tootUrl = await mastodon.postMedia(imagePath);
 console.log(tootUrl);

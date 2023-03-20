@@ -26,7 +26,7 @@ export function createEntriesLoader() {
   }
 
   async function getDallEImageFilenames() {
-    const imageFiles = await import.meta.glob('../../public/dall-e/*.png', {
+    const imageFiles = await import.meta.glob('../../public/dall-e/*.webp', {
       eager: true,
     });
     return Object.keys(imageFiles)

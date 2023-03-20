@@ -20,9 +20,10 @@
   },
   "homepage": "https://github.com/tanepiper/Stochastic-Parrot#readme",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "mastodon": "^1.2.2",
-    "megalodon": "^5.4.1",
-    "openai": "^3.2.1"
+    "dotenv": "~16.0.3",
+    "mastodon": "~1.2.2",
+    "megalodon": "~5.4.1",
+    "openai": "~3.2.1",
+    "sharp": "~0.31.3"
   }
 }
