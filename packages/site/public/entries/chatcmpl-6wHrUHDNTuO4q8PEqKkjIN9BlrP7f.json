@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wHrUHDNTuO4q8PEqKkjIN9BlrP7f",
+  "object": "chat.completion",
+  "created": 1679349704,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 139,
+    "total_tokens": 145
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A sandpaper belt cleaner is a tool or device used to clean and extend the life of sanding belts. It works by removing built-up debris, such as sawdust and grit, from the abrasive surface of the belt.\n\nThe most common type of sandpaper belt cleaner is a large rubber stick or block with an abrasive-resistant coating. This material works like an eraser on the dirty portions of your nonslip strip. When you rub it across the moving sandpaper, it quickly breaks down any residue buildup that was previously caught in between its original components.\n\nBy using a sandpaper Belt Cleaner, you can increase efficiency when performing woodworking tasks and prolong your machine's lifespan significantly over time!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
