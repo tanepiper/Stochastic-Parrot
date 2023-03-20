@@ -62,3 +62,8 @@ jobs:
           github_token: ${{ secrets.GH_PAT }}
           tags: true
           force: true
+
+  deploy-site:
+    uses: '.github/workflows/static.yml'
+    needs: stochastic-parrot
+    secrets: inherit
