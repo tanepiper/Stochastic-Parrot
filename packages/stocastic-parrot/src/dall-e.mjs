@@ -42,7 +42,7 @@ openAI
           .toFile(`${filePath}/${created}.webp`)
       ).pipe(map(() => `${filePath}/${created}.webp`))
     ),
-    switchMap((imagePath) => from(mastodon.postMedia(imagePath))),
+    switchMap((imagePath) => from(mastodon.postMedia(imagePath, !!prompt))),
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');
