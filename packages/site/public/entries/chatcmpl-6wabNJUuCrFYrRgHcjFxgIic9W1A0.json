@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wabNJUuCrFYrRgHcjFxgIic9W1A0",
+  "object": "chat.completion",
+  "created": 1679421741,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 269,
+    "total_tokens": 275
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A cob can refer to different things, depending on the context:\n\n1. Corn on the cob: This refers to an ear of corn, with the kernels still attached to its core structure called a \"cob.\" It is typically cooked by boiling or grilling and eaten directly off the cob.\n\n2. Cob horse: A type of small draft horse native to England that is strong, compact, muscular and sturdy in stature; they are often used for driving carriages as well as riding.\n\n3. House construction: In traditional home building methods, particularly in rural areas in Britain and other countries around the world, people use a mixture of earth (clay), straw or other fibrous materials like twigs or reeds together with water to construct walls; such technique is referred to as COB construction.\n\n4. Close of Business: In finance and business setting acronym COB stands for “close of business.” It denotes end time limit within which specific requests have to be expedited during standard business hours/days.\n \n5) Chip On Board (COB): A method used in electronic manufacturing where Integrated Circuits (ICs) chips are mounted directly onto Printed Circuit Boards without individual packaging.\n\nOverall meaning depends heavily on subject matter being discussed so always consider context when this term comes up while reading/listening about anything involving above mentioned subjects/topics.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
