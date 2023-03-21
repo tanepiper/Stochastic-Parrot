@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wdPYfOgS1Uqw5c2R8p88d9l6BMjj",
+  "object": "chat.completion",
+  "created": 1679432540,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 31,
+    "total_tokens": 37
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Which legendary English king supposedly had a sword called Excalibur?\n\nThe legendary English king who supposedly had a sword called Excalibur is King Arthur."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
