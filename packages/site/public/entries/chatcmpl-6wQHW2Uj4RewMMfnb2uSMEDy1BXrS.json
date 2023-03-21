@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wQHW2Uj4RewMMfnb2uSMEDy1BXrS",
+  "object": "chat.completion",
+  "created": 1679382070,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 218,
+    "total_tokens": 224
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The United States has 50 states which are:\n\n1. Alabama\n2. Alaska\n3. Arizona\n4. Arkansas\n5. California\n6. Colorado\n7. Connecticut\n8. Delaware\n9. Florida\n10.Georgia \n\n11.Hawaii \n12.Idaho \n13.Illinois \n14, Indiana  \n15.Iowa   \n16.Kansas     \n17.Kentucky        \n18.Louisiana         \n19.Maine         \n20.Maryland         \n\n21.Massachusetts  \n22.Michigan            \n23.Minnesota          \n24.Mississippi            \n25.Missouri             \n26.Montana           \n27.Nebraska          \n28.Nevada             \n29.New Hampshire       \n30.New Jersey             \n\n31.New Mexico                \n32.New York                       \n33.North Carolina               \n34.North Dakota                    \n35.Ohio                        \n36.Oklahoma                      \n37.Oregon                                    \n38.Pennsylvania                 \n39.Rhode Island                     \n40.South Carolina                         \n\n41.South Dakota                              \n42.Tennessee                                      \n43.Texas                                        \n44.Utah                                            \n45.Vermont                                          \u0002"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
