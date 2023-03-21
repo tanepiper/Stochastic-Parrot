@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wV3s6w960a4EklavAgYUklMKecHv",
+  "object": "chat.completion",
+  "created": 1679400444,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 61,
+    "total_tokens": 95
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Squawk! Apologies, dear users, squawk! We be refactoring things and introducing bugs, aye! Squawk-squawwwk! Patience while we improve the experience for ye all, me hearties! Polly wants a bug-free system soon. Squaaaawk!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

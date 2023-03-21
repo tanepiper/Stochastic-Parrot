@@ -62,7 +62,7 @@ export function createMastodonClient(
           firstTootUrl = result.data.url;
         }
         if (messageLeft.length > 0) {
-          sendToMastodon(messageLeft, result.data.id);
+          await sendToMastodon(messageLeft, result.data.id);
         }
       }
     } catch (e) {
