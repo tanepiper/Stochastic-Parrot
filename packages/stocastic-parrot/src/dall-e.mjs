@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import dotenv from 'dotenv';
-import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { createMastodonClient } from './mastodon.mjs';
