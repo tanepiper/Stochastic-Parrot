@@ -52,6 +52,10 @@ const allItems = items ?? [];
     background: #fff;
     border-radius: 0.5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
   }
 
   .item-list-container .item:hover {
@@ -59,12 +63,12 @@ const allItems = items ?? [];
     animation: float 1s ease-in-out infinite;
   }
 
-  .item-list-container .item:nth-child(2n) {
+  /* .item-list-container .item:nth-child(2n) {
     animation-delay: 1s;
   }
   .item-list-container .item:nth-child(3n) {
     animation-delay: 2s;
-  }
+  } */
   @keyframes float {
     0% {
       transform: translateY(0);
