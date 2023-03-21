@@ -48,12 +48,12 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: |
-          if [[ "${{github.event.inputs.pollySays}}" != "" ]]; then
+          if [[ "${{github.event.inputs.pollySays}}" == "" ]]; then
+            echo "Generating Response from nothing"
+            moon run stocastic-parrot:polly-dreams
+          else
             echo "Passing prompt: ${{github.event.inputs.pollySays}}"
             moon run stocastic-parrot:polly-dreams -- "${{github.event.inputs.pollySays}}"
-          else
-            eco "Generating Image from nothing"
-            moon run stocastic-parrot:polly-dreams
           fi
       # Commit all files changes including docs
       - name: Commit files
