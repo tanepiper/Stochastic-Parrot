@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wLnpEqNQLdXm6xYC5amW7GlWvo6G",
+  "object": "chat.completion",
+  "created": 1679364853,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 500,
+    "total_tokens": 506
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When writing an email to request a guest speaker, follow these steps:\n\n1. Use a clear and concise subject line: This will help the recipient know what your email is about before opening it.\n\nSubject Line Example: \"Guest Speaker Invitation for [Event Name] on [Date]\"\n\n2. Address the recipient courteously: Start your email with a respectful greeting such as \"Dear Dr./Professor/Mr./Mrs./Ms.\" followed by their last name.\n\n3. Introduce yourself: Briefly explain who you are, your organization or institution, and any relevant information about the event in question (date, location, theme).\n\n4.Depending on how well-known this person might be;\n\n\n4a. If the individual is not widely known in their field it would be worth referring to qualifications or experience which have led you to contact them specifically\n  e.g.,\n\n\"I recently learned about your expertise in environmental sustainability through XY conference.\"\n\n\n4b.Encapsulate briefly why they've been referred- do so whilst flattering them\n  \n\n5.Provide essential invitation details includin:\n\n\n  A.Date,\n \n  B.Purpose/goal of event,\n\n  C.*Audience attending,\n\n  D.Anything additional like logistics/ transport\n\n\n\n6.Offer incentives/benefits - touch upon anything that can sweeten offer eg;\n\n   \n   A.Mentioning networking opportunities for speaker\n   \n   B.Highlighting benefits related participation\n   \n   E.Travel reimbursement/accommodation\n\n\n\n\n7.Reiterate appreciation\n\n\n8.Finish with polite closing remarks \n\ne.g., \"We look forward to hearing from you at earliest convenience\"\n\n\n9.Provide full contact details;Name,mobile,email\n\nHere's an example email template:\n\nSubject Line: Guest Speaker Invitation for Sustainability Conference on May 14th\n\nDear Dr. Green,\n\nMy name is [Your Name], and I am reaching out on behalf of XYZ University’s Sustainability Committee regarding our upcoming annual Sustainability Conference taking place on campus May 14th next year . It will focus largely around sustainable business practices and potential impacts future societies may potentially see .\n\nDr.Green we'd really appreciate seeing some of techniques 'xyz' being discussed . In addition , myself & committee feel there isn't anyone else quite as knowledgeable concerning such strategies employed throughout local businesses domains.\n\n\nThe audience primarily consists undergraduate students +faculty however attendance increases regularly yearly reflecting growing interest across everyone highlighting societal importance majority areas within general public circles_\n\nApart facility considered World class amenities high standard indeed comprises availability varying levels accommodation resembling hotel suite should"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
