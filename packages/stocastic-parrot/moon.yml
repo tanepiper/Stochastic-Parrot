@@ -23,6 +23,7 @@ tasks:
   polly-dreams:
     options:
       runInCI: false
+      cache: false
     command: 'npm run image'
     inputs:
       - 'src/**/*'
@@ -30,6 +31,7 @@ tasks:
   polly-tests:
     options:
       runInCI: false
+      cache: false
     command: 'npm run test'
     inputs:
       - 'src/**/*'
