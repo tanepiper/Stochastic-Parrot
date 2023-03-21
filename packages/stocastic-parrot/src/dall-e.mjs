@@ -12,7 +12,7 @@ import { createOpenAIInstance } from './openai.mjs';
 dotenv.config();
 
 const { _ } = minimist(process.argv.slice(2));
-let prompt = _?.[0] ?? '';
+let prompt = _?.[0] ?? ' '; // This should be an empty space
 
 const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY);
 const mastodon = createMastodonClient(process.env.MASTODON_ACCESS_TOKEN);
