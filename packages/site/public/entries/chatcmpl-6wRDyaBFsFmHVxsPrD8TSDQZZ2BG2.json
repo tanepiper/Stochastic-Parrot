@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wRDyaBFsFmHVxsPrD8TSDQZZ2BG2",
+  "object": "chat.completion",
+  "created": 1679385694,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 141,
+    "total_tokens": 147
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A utility knife is a versatile cutting tool primarily designed for everyday tasks and general-purpose work. It typically features a retractable, replaceable blade that can be extended or retracted to suit various needs.\n\nUtility knives are commonly used for:\n\n1. Cutting materials like paper, cardboard, plastics, carpeting, cloth or fabrics.\n2. Trimming or deburring rough surfaces.\n3. Removing old paint or varnish from surfaces such as walls and furniture.\n4. Stripping wire insulation.\n5. Opening packages.\n\nMoreover, they can be found in households, workshops & offices as essential tools due to their applications in regular tasks involving cutting various materials quickly & precisely while limiting the need for using scissors alone"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
