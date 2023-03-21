@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wVbvtYwqYyz5n3NnOMWSf5kIalFZ",
+  "object": "chat.completion",
+  "created": 1679402555,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 32,
+    "total_tokens": 70
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Squawk! Everything returning to normals, nothing to worry about! Squawk! Thank you for your patience, kind humans! Squawk squawk!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
