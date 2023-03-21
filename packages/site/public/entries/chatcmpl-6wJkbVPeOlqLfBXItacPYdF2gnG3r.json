@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wJkbVPeOlqLfBXItacPYdF2gnG3r",
+  "object": "chat.completion",
+  "created": 1679356965,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 225,
+    "total_tokens": 231
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, a microwave heats food by emitting electromagnetic waves called microwaves. These microwaves cause water molecules in the food to vibrate, creating heat through friction. As these vibrations become more rapid, the temperature of the food increases, and it gets heated or cooked.\n\nOther types of radiation include infrared radiation (heat), visible light, ultraviolet light (the sun's harmful rays), X-rays, and gamma rays. While some types of radiation can be dangerous and damaging like ionizing radiations (X-rays or gamma rays) if not properly controlled, others benefit us humans in various ways such as communication signals like radio waves used by mobile phones and Wi-Fi networks. Microwaves fall into non-ionizing radiation range making them safe to use for cooking purposes under existing regulations.\n\nMicrowave technology has its origins back in World War II when radar technology was developed using short-wavelength radio waves. Scientists later harnessed this potential to heat food quickly without traditional fire-based cooking methods. Microwave ovens began commercial production around 1947 and became increasingly popular due to their efficiency and convenience for busy households today worldwide!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
