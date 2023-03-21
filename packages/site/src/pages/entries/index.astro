@@ -4,7 +4,6 @@ import Layout from '../../layouts/Layout.astro';
 import { createEntriesLoader } from '../../libs/entries.mjs';
 
 const loader = createEntriesLoader();
-
 const entries = await loader.loadEntries();
 ---
 
