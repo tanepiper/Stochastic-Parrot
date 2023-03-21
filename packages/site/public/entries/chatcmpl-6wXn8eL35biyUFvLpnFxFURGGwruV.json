@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXn8eL35biyUFvLpnFxFURGGwruV",
+  "object": "chat.completion",
+  "created": 1679410938,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 208,
+    "total_tokens": 214
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"indies\" typically refers to independent creators or productions, particularly in the context of creative industries such as filmmaking, music, and gaming. This distinguishes them from larger-scale operations with substantial backing and resources.\n\nIn filmmaking, indie films are produced outside the major film studio system with less financial support, often allowing for more artistic creativity and unique storytelling. For example, Quentin Tarantino's Reservoir Dogs is an iconic indie film.\n\nIn music, indie artists often produce and distribute their work without the involvement of mainstream record labels. They maintain control over their art by making decisions about sound quality, songwriting direction, album artwork – all aspects that get affected when you involve a large corporation invested in commercial success alone.\n\nFinally, indie game developers create video games independently instead of being affiliated with an established publishing company or corporate umbrella organization. Indie games can range from small mobile puzzles to intricate open-world adventures created by just one person (e.g., Undertale) or a small team like Hollow Knight's Team Cherry development team."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
