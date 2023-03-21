@@ -5,7 +5,7 @@
   "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "chat": "node src/index.mjs",
+    "chat": "node src/chat.mjs",
     "image": "node src/dall-e.mjs",
     "test": "node src/test.mjs"
   },
@@ -25,6 +25,7 @@
     "megalodon": "~5.4.1",
     "openai": "~3.2.1",
     "sharp": "~0.31.3",
-    "minimist": "~1.2.8"
+    "minimist": "~1.2.8",
+    "rxjs": "~7.8.0"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wUnDwJOhq595SbHLi5CNO6H2hnN5",
+  "object": "chat.completion",
+  "created": 1679399411,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 41,
+    "total_tokens": 47
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is not enough information on the \"attached records\" to assist you in providing an accurate answer. Please provide more details about what records you are referring to, and I would be happy to help."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

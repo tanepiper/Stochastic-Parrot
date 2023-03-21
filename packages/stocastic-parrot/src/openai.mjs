@@ -1,10 +1,21 @@
 import { Configuration, OpenAIApi } from 'openai';
+import { from } from 'rxjs';
+import { map, retry } from 'rxjs/operators';
 import { randomNumber } from './lib.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 
 const GPT_MODEL = 'gpt-4'; //'gpt-4';
 const MAX_TOKENS = 500; //200;
+
+/**
+ * @typedef {object} ChatOptions
+ * @property {number} frequency_penalty
+ * @property {number} presence_penalty
+ * @property {number} temperature
+ * @property {number} max_tokens
+ * @property {string} model
+ */
 
 /**
  * Creates an OpenAI Client Instance for the V1 API with optional base path
@@ -20,32 +31,43 @@ export function createOpenAIInstance(apiKey) {
   /**
    * Create a chat completion
    * @param {string=} prompt
-   * @returns Promise<CreateChatCompletionResponse>
+   * @param {ChatOptions=} options
+   * @returns import('rxjs').Observable<CreateChatCompletionResponse>
    */
-  async function getChat(prompt = '') {
-    return await apiInstance.createChatCompletion({
-      model: GPT_MODEL,
-      messages: [{ role: 'user', content: prompt }],
-      frequency_penalty: 1, //randomNumber(),
-      presence_penalty: 1, //randomNumber(),
+  function getChat(
+    prompt = '',
+    options = {
+      frequency_penalty: 1,
+      presence_penalty: 1,
       temperature: randomNumber(true),
       max_tokens: MAX_TOKENS,
-    });
+      model: GPT_MODEL,
+    }
+  ) {
+    return from(
+      apiInstance.createChatCompletion({
+        ...options,
+        messages: [{ role: 'user', content: prompt }],
+      })
+    ).pipe(
+      retry({ count: 3, delay: 1000 }),
+      map((response) => response.data)
+    );
   }
 
   /**
    * Return an object containing links to images
-   * @param {*} prompt 
-   * @param {*} n 
-   * @param {*} size 
-   * @returns 
+   * @param {*} prompt
+   * @param {*} n
+   * @param {*} size
+   * @returns
    */
   async function getImages(prompt = ' ', n = 1, size = '1024x1024') {
     return await apiInstance.createImage({
       prompt,
       n,
-      size
-    })
+      size,
+    });
   }
 
   return {
