@@ -24,6 +24,7 @@
     "mastodon": "~1.2.2",
     "megalodon": "~5.4.1",
     "openai": "~3.2.1",
-    "sharp": "~0.31.3"
+    "sharp": "~0.31.3",
+    "minimist": "~1.2.8"
   }
 }

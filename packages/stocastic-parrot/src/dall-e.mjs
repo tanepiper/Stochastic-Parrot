@@ -3,10 +3,14 @@
 import dotenv from 'dotenv';
 import path from 'node:path';
 import sharp from 'sharp';
+import minimist from 'minimist';
 import { createMastodonClient } from './mastodon.mjs';
 import { createOpenAIInstance } from './openai.mjs';
 
 dotenv.config();
+
+const {_} = minimist(process.argv.slice(2));
+let prompt = _?.[0] ?? '';
 
 const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY);
 const mastodon = createMastodonClient(process.env.MASTODON_ACCESS_TOKEN);
@@ -18,7 +22,7 @@ let response;
 let retries = 0;
 while (!response && retries < 3) {
   try {
-    response = await openAI.getImages();
+    response = await openAI.getImages(prompt);
   } catch (e) {
     console.log(e);
     if (retries === 3) {
