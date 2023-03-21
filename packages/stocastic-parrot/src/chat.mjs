@@ -23,8 +23,8 @@ const filePath = path
 openAI
   .getChat(prompt)
   .pipe(
-    switchMap((response) => {
-      return from(
+    switchMap((response) =>
+      from(
         writeFile(
           `${filePath}/${response.id}.json`,
           JSON.stringify(response, null, 2),
@@ -33,8 +33,8 @@ openAI
             flag: 'w',
           }
         )
-      ).pipe(map(() => response));
-    }),
+      ).pipe(map(() => response))
+    ),
     map((response) => {
       const { content } = response?.choices?.[0]?.message ?? '';
       if (!content) {
@@ -43,9 +43,7 @@ openAI
 
       return `${prompt ? '💬 ' : '🦜 '}${content}`;
     }),
-    switchMap((content) => {
-      return mastodon.sendToMastodon(content);
-    }),
+    switchMap((content) => mastodon.sendToMastodon(content)),
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');
