@@ -16,7 +16,7 @@ const DEFAULT_CHAT_OPTIONS = {
   model: GPT_MODEL,
 };
 
-const DEFAULT_IMAGES_OPTIONS = { n: 1, size: '1024x1024' };
+const DEFAULT_IMAGES_OPTIONS = { n: 1, size: '512x512' };
 
 /**
  * @typedef {object} ChatOptions

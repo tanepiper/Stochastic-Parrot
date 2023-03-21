@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "chat": "node src/chat.mjs",
-    "image": "node src/dall-e.mjs",
+    "image": "node src/images.mjs",
     "test": "node src/test.mjs",
-    "fetch": "node src/from-local.mjs"
+    "chat:local": "node src/chat-from-local.mjs",
+    "image:local": "node src/images-from-local.mjs"
   },
   "repository": {
     "type": "git",

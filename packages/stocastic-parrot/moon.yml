@@ -36,11 +36,19 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
-  polly-fetches:
+  local-talk:
     options:
       runInCI: false
       cache: false
-    command: 'npm run fetch'
+    command: 'npm run chat:local'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
+  local-images:
+    options:
+      runInCI: false
+      cache: false
+    command: 'npm run image:local'
     inputs:
       - 'src/**/*'
       - 'package.json'

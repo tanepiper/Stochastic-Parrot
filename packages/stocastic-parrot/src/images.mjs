@@ -1,21 +1,19 @@
 #!/usr/bin/env node
 import dotenv from 'dotenv';
-import path from 'node:path';
-import sharp from 'sharp';
 import minimist from 'minimist';
-import { from, of } from 'rxjs';
+import path from 'node:path';
+import { from } from 'rxjs';
 import {
+  catchError,
+  concatMap,
+  finalize,
   map,
   switchMap,
-  catchError,
-  finalize,
-  concatMap,
-  tap,
-  scan,
   toArray,
 } from 'rxjs/operators';
-import { createMastodonClient } from './mastodon.mjs';
-import { createOpenAIInstance } from './openai.mjs';
+import sharp from 'sharp';
+import { createMastodonClient } from './lib/mastodon.mjs';
+import { createOpenAIInstance } from './lib/openai.mjs';
 
 /**
  * A script that runs the Dall-E image generation model from OpenAI and posts the result to Mastodon,

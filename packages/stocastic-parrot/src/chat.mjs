@@ -7,14 +7,14 @@ import path from 'node:path';
 import { from } from 'rxjs';
 import {
   catchError,
+  concatMap,
   finalize,
   map,
-  switchMap,
-  concatMap,
   scan,
+  switchMap,
 } from 'rxjs/operators';
-import { createMastodonClient } from './mastodon.mjs';
-import { createOpenAIInstance } from './openai.mjs';
+import { createMastodonClient } from './lib/mastodon.mjs';
+import { createOpenAIInstance } from './lib/openai.mjs';
 
 dotenv.config();
 

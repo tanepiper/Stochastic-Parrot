@@ -15,8 +15,8 @@ import {
   tap,
   take,
 } from 'rxjs/operators';
-import { createMastodonClient } from './mastodon.mjs';
-import { createOpenAIInstance } from './openai.mjs';
+import { createMastodonClient } from './lib/mastodon.mjs';
+import { createOpenAIInstance } from './lib/openai.mjs';
 
 dotenv.config();
 
