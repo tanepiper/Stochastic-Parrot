@@ -41,7 +41,7 @@ openAI
         throw new Error('No content returned from OpenAI');
       }
 
-      return content;
+      return `${prompt ? '💬 ' : '🦜 '}${content}`;
     }),
     switchMap((content) => {
       return mastodon.sendToMastodon(content);
