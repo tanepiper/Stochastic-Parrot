@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXI6LZrMNUeIQncTFECotd96PY2a",
+  "object": "chat.completion",
+  "created": 1679409014,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 37,
+    "total_tokens": 43
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, elves are fictitious beings found in various mythologies and folklore. They are popular characters in literature, films, and other forms of entertainment but are not actual living creatures."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

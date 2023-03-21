@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wY3cQCyRyPR7Vs7lXwRhNJHUwklR",
+  "object": "chat.completion",
+  "created": 1679411960,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 238,
+    "total_tokens": 244
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To put it simply, autonomous sensory meridian response (ASMR) is a tingling sensation that travels from the scalp down to the spine and sometimes limbs. It is triggered by various sounds and visuals and can be experienced as calming or pleasurable for those who experience it.\n\nSome common ASMR triggers include whispered speech, tapping or scratching sounds, soft ambient noises, light touch on objects, slow visual movements such as hand gestures or folding napkins. Some people may also experience ASMR in response to personal attention like watching someone attentively perform a task.\n\nAs for how ASMR works in terms of neural function, research has shown that individuals experiencing ASMR show reduced heart rate and increased skin conductance levels – indicators of relaxation. FMRI studies have demonstrated that multiple brain regions are involved during an ASMR response.\n\nThe exact reason why some people are more susceptible to experiencing ASMR remains unknown; however, it could potentially be due to individual differences in sensitivity levels and the autonomic nervous system's regulation within each person. While there might not yet be enough scientific evidence fully explaining its mechanics, many individuals find comfort in these sensations and report benefits such as improved sleep quality or anxiety relief."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

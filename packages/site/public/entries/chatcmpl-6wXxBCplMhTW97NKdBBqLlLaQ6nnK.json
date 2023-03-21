@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXxBCplMhTW97NKdBBqLlLaQ6nnK",
+  "object": "chat.completion",
+  "created": 1679411561,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 400,
+    "total_tokens": 406
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A FUTMINNA school fees receipt is a document that serves as proof of payment for the tuition and other related fees at the Federal University of Technology, Minna. To get your FUTMINNA school fees receipt, you will typically need to complete the following steps:\n\n1. Pay your school fees: To receive a pay slip or printout as evidence of payment, visit an approved bank (as specified by FUTMINNA) and pay the required amount.\n\n2. Online registration: After making payment at an authorized bank branch, visit the federal university's website (eportal.futminna.edu.ng). Log in to your personal account using your JAMB registration number and password.\n\n3. Access fee portal: Once logged into your e-portal dashboard, look for a link that shows \"Pay School Fees\" or \"Fee Payment History.\" Click on this link; it should redirect you to another page where you can view all transactions made since admission was offered.\n\n4. Download/print receipt: Locate detailed information about how much has been paid so far and when these payments were recorded under 'Transactions' tab located right within same interface (fee history/payment summary). Select ‘Print Receipt’ button beside specific transaction details- only if successfully completed - which automatically generates digital copy/version of one’s electronic receipt containing necessary data such date/time stamp alongside useful financial info like name/designation/payment description etc.; additionally download pdf format allowing easy sharing/saving though WhatsApp/email support available too!\n\n5. Keep record safe: It is always essential to save digital/electronic copies even after hardcopy printouts have also been collected directly from banks/other physical establishments offering remittance services; besides maintaining both types helps during audit/examinational purposes ensuring total compliance against contractual guidelines governing student contracts known worldwide having direct bearing upon educational institutions across different countries/states including Nigeria+others nearby west African nations today & tomorrow especially since all public university managements must soon renew mandatory supervisory statutes aimed guaranteeing excellence indeed!!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

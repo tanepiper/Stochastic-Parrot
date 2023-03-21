@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wY2fADNJyloGgbT9e6M0wv5twbcO",
+  "object": "chat.completion",
+  "created": 1679411901,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 20,
+    "total_tokens": 26
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, I can answer questions about the history of Norway. What would you like to know?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

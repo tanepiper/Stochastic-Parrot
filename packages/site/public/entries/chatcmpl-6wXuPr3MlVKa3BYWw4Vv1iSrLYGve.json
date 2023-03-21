@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXuPr3MlVKa3BYWw4Vv1iSrLYGve",
+  "object": "chat.completion",
+  "created": 1679411389,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 132,
+    "total_tokens": 138
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to determine without further information, but the highest recorded temperature in Madeira during November was 28°C (82°F) on November 9th, 2017. The lowest recorded temperature in Madeira during November was 8.2°C (46°F) on November 29th, 2003.\n\nThe average maximum temperature for Madeira in November is about 22°C (71°F), while the average minimum temperature is around15°C(59° F). It's important to note that weather can vary from year to year and these numbers are only historical averages that give you an idea of what to expect during your visit."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

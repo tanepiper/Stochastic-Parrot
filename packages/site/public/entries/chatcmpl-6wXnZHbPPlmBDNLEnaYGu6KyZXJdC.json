@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXnZHbPPlmBDNLEnaYGu6KyZXJdC",
+  "object": "chat.completion",
+  "created": 1679410965,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 166,
+    "total_tokens": 172
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, dogs can sense negative energy. They are known for their heightened senses and intuition, which allows them to pick up on subtle cues in human behavior, body language, and emotional states.\n\nDogs are great observers of behavior and have been shown to be sensitive not only to changes in our vocal tones but also alterations in pheromones (our natural chemical signatures).\n\nIn the presence of negative energy or emotions like anger, fear or anxiety, a dog may react by becoming more alert or cautious around the person exhibiting those feelings. Some dogs may even become agitated themselves because they don't understand what's causing their owner's stress.\n\nSo while we cannot definitively say that dogs see or directly recognize \"negative energy\" as a concept itself, they definitely have an ability to detect and be influenced by our emotional well-being."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

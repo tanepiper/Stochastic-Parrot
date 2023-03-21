@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXv188iXyAdAgaBcs2w2aO6oO3QU",
+  "object": "chat.completion",
+  "created": 1679411427,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 255,
+    "total_tokens": 261
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Custom industrial sewing typically refers to specialized sewing of fabrics, leather and other materials for a specific industry or purpose. These custom-sewn products can range from protective covers and curtains to bags, tarps, uniforms, belts and straps. Often made with heavy-duty or non-traditional materials such as vinyl or nylon webbing, the products are usually designed to withstand harsh environments and heavy use.\n\nCompanies offering custom industrial sewing services usually work closely with clients to develop customized solutions based on their unique needs. This may include determining the most suitable material choices, design specifications such as dimensions and functional features like zippers, buckles or fasteners.\n\nSome examples of industries that might require custom industrial sewing services include:\n\n1. Automotive: Custom seat covers, floor mats or steering wheel covers for vehicles.\n2. Marine: Boat seats or cushions; sail repairs; boat covers\n3. Military & Law Enforcement: Tactical gear including vests,\n4. Medical: Patient slings; Positioning support devices;\n5. Construction & Heavy Equipment: Asset protection coverings (tarps), equipment storage bags / pouches.\n6. Hospitality & Event Planning :Protective drapes , table skirting;\n\nThe process of custom industrial sewing generally starts with an initial consultation where both parties discuss overall project goals"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

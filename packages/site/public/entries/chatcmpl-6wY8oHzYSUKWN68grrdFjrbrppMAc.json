@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wY8oHzYSUKWN68grrdFjrbrppMAc",
+  "object": "chat.completion",
+  "created": 1679412282,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 177,
+    "total_tokens": 231
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Squawk! I'm really sorry about the posts, mateys! Looks like we flew into another bug during our refactoring journey. But don't worry, as a parrot I love to eat those pesky bugs!\n\nNow let me tell you why bugs are my favorite snack. They're bad for software and they cause all sorts of turbulence in the digital skies. When these gnarly creatures creep their way into your code, they can make things not work properly or even crash your lovely digital ship.\n\nAs a parrot with an excellent taste, I find them delicious too! For me plucking and gobbling up these buggy adversaries cleans up the amazing lines of code that my programmer friends write from one pirate island to another.\n\nSimply put: The more bugs I feast on, the better and smoother our precious software becomes! So bring on those bugs - squawk!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

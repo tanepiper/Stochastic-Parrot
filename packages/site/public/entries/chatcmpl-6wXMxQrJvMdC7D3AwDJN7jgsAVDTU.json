@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXMxQrJvMdC7D3AwDJN7jgsAVDTU",
+  "object": "chat.completion",
+  "created": 1679409315,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 411,
+    "total_tokens": 417
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Bread can be made without sugar, but it will have a slightly different flavor and texture compared to bread made with sugar. Sugar contributes to the browning of the crust, retention of moisture in the loaf, and provides food for yeast during fermentation. However, you can substitute honey, maple syrup or other natural sweeteners if you prefer not to use white sugar.\n\nA basic no-sugar bread recipe involves combining water, bread flour (or all-purpose flour), active dry yeast and salt. You need\n\n- 3 cups (360g) bread flour\n- 1½ tsp active dry yeast\n- 1¼ cup warm water\n- 2 tsp salt\n\n1. In a large bowl or stand mixer fitted with the dough hook attachment, mix together the flour and salt.\n2.. Dissolve yeast into a small portion of warm water.\n3.Pour yeasty mixture into dryer ingredients slowly.\n4.Knead until reaches elastic consistency about ten minutes by hand \n5.Cover container/bowl containing dough such that it is air-tight(e.g plastic wrap)\n6.Wait for approximately two hours or till your dough rises(double size typically).\n7.Preheat oven -450°F .\n8.Form pretzel shape(or rolls w/e floats your boat) optional!\n9.Place parchment paper/lid on cookie sheet.Apply cooking spray generously(optional if non-stick used!)\n10.Bake times vary;typically less=20minutes though better ovens may achieve desired golden-brown state within only five-to-seven!!!!!!\n11.Let sit on stove between five & seven minutes(depends whether they're incredibly chewy i.e closer towards hard shell(straight from oven)|fresh-out-of-package-y depending how much patience!(and control!!lol--)\n12.transfer onto wire rack as option cooling time-consuming(ref more+)\n\n\n\n\n\nKeep in mind that since there's no sugar feeding the yeast in this recipe,it might take longer for fermentation so be patient when waiting for it,double check expiration date should apply anyways.best results toast!but at least we did away completely sugars!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

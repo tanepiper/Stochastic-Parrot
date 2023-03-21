@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wXsdKV7PjWyyRSWRAI8cxrvrAnWy",
+  "object": "chat.completion",
+  "created": 1679411279,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 397,
+    "total_tokens": 403
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Nine of the most famous lighthouses around the world include:\n\n1. Eddystone Lighthouse, England: This historic lighthouse is situated on a treacherous rocky reef in the English Channel and has gone through multiple iterations since its original construction.\n\n2. Bell Rock Lighthouse, Scotland: Built in 1810, this tower has withstood harsh waves and storms for over two centuries and still operates today.\n\n3. Cape Hatteras Light Station, North Carolina, USA: The tallest brick-built lighthouse in North America at 210 feet high serves as a navigational aid along the treacherous coastline known as \"The Graveyard of the Atlantic.\"\n\n4. Peggy's Point Lighthouse (Peggy's Cove), Nova Scotia, Canada: An iconic symbol of maritime Canada that attracts thousands of tourists each year.\n\n5. La Jument Lighthouse, Brittany, France: Known for having one of the wildest waters to protect due to frequent violent waves crashing against it during heavy weather conditions.\n\n6. Tower Of Hercules: A Roman-era structure located near Corunna in Galicia stands as an example of ancient lighthouses resembling modern designs. It's believed that it was built by Romans between 110-150 AD\n\n7) Alexandria Pharos,a light station constructed after Alexander The Great’s death upon order his General Ptolemy I Soter ,it stood about approximative five hundred fifty feet tall,encompassed statue human figure holding torchlight .It lasted till XIV century when earthquake destructed \n\n8) Portland Head Light-Maine United States-South Portland city hosts this beautiful landmark which caught artists photographers attention from XIX th century.Portland head lamp constructed beginning nineteenth century once commissioned George Washington \n\n9)Lindesnes Fyr -South Norway-Norway’s oldest station dates back lifetime XVII century;however present standing index position occurred later eighteenth reconstructive.The current shape represents white wooden box connected via platforms solid taller main building"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

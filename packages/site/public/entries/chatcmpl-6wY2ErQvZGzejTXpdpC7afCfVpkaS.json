@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wY2ErQvZGzejTXpdpC7afCfVpkaS",
+  "object": "chat.completion",
+  "created": 1679411874,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 118,
+    "total_tokens": 124
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Satisfactory academic progress (SAP) is a measurement that assesses whether a student is progressing adequately toward the completion of their educational program. It usually takes into account both qualitative and quantitative factors, such as maintaining a minimum GPA and completing a certain percentage or number of credit hours within given time frames.\n\nThe purpose of SAP is to ensure that students are making sufficient progress towards their degrees or certificates so they can graduate on time. This measure protects students from wasting resources on an education without reaching graduation and holds schools financially accountable for providing comprehensive support services to help students successfully complete their programs."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

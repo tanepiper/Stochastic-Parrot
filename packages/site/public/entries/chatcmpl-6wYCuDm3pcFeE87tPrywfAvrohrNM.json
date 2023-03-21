@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wYCuDm3pcFeE87tPrywfAvrohrNM",
+  "object": "chat.completion",
+  "created": 1679412536,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 17,
+    "total_tokens": 23
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Ah, I apologize for the confusion! What can I help you with today?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

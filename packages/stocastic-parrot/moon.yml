@@ -15,6 +15,7 @@ tasks:
   polly-talks:
     options:
       runInCI: false
+      cache: false
     command: 'npm run chat'
     inputs:
       - 'src/**/*'

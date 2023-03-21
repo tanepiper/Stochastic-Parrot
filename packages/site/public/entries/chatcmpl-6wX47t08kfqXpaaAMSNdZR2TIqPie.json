@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wX47t08kfqXpaaAMSNdZR2TIqPie",
+  "object": "chat.completion",
+  "created": 1679408147,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 383,
+    "total_tokens": 389
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In general, setting boundaries means defining what you are comfortable with in terms of how others treat or interact with you, as well as understanding and communicating your limitations. The goal of setting boundaries is to protect yourself emotionally, physically, and mentally from behaviors that may negatively impact your life.\n\nHere are some tips for setting healthy boundaries:\n\n1. Know your limits: Understand what makes you feel uncomfortable or mistreated. Be aware of your emotional, physical, and mental needs so that you know when someone crosses a line.\n\n2. Communicate clearly: Express yourself clearly and calmly without anger or blame when discussing boundary issues with others. Be specific about the changes required to respect these limits better.\n\n3. Practice assertiveness: It's essential to express expectations firmly but respectfully while maintaining eye contact, using \"I\" statements (e.g., \"I feel disrespected when…\").\n\n4. Stay consistent: Maintain consistency by sticking to established rules continuously; otherwise, people may get confused about where they stand with you.\n\n5- Learn to say 'no': Remember that saying 'no' doesn't make you selfish - it makes sure that both parties have reasonable expectations from each other during interactions.\n\n6- Prioritize self-care: Set aside time for restorative activities like hobbies or exercise regularly – this will help develop a greater appreciation of one's intrinsic value separate from external approval/acceptance gained through compliance towards surrounding demands/\n\n7- Tune into feelings/emotions associated within personal space violations & cues provided by intuition/. For instance if we sense dread especially when tackled persistently pressured communicated politely declared action desired no response not coherent then another more drastic technique should be strategized executed}/used immediately/.\n\n8-. Seek support}: Whether professional therapists friends loved ones engaging open dialogue regarding issue experiences provide additional insights suggestions coping mechanisms validate internal emotions surround positivity/>\";\n9 Implement consequences]: If necessary implement predetermined consequences repeat offenders refuse acknowledge respect stated extremities}}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

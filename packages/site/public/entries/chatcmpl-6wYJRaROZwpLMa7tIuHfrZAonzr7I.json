@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wYJRaROZwpLMa7tIuHfrZAonzr7I",
+  "object": "chat.completion",
+  "created": 1679412941,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 245,
+    "total_tokens": 251
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"gig economy\" refers to a labor market characterized by short-term contracts, temporary jobs, and freelance work rather than permanent full-time employment. In this type of market, workers are paid for individual tasks or 'gigs' instead of receiving a stable monthly salary.\n\nThis change in the nature of employment can be attributed to various factors such as advancements in technology and online platforms that connect employers with jobseekers looking for short-term positions. The gig economy has grown substantially over recent years with businesses increasingly relying on a flexible workforce rather than hiring full-time employees.\n\nSome examples include ride-sharing companies like Uber and Lyft, food delivery services (DoorDash, GrubHub), and websites where freelancers offer their skills on individual projects (Upwork, Fiverr).\n\nThe gig economy is both praised and criticized. Supporters argue it offers flexibility for workers who may value autonomy or have other commitments; they also claim it can efficiently match worker skillsets to employer needs without long-term commitment on either side. However, critics argue that the lack of regulation leads to precarious working conditions lack benefits provided by traditional full-time roles —such as health coverage— which potentially leaves gig workers vulnerable financially if they cannot secure contracts regularly enough.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

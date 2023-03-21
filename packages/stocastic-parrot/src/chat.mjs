@@ -5,7 +5,14 @@ import minimist from 'minimist';
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { from } from 'rxjs';
-import { catchError, finalize, map, switchMap } from 'rxjs/operators';
+import {
+  catchError,
+  finalize,
+  map,
+  switchMap,
+  concatMap,
+  scan,
+} from 'rxjs/operators';
 import { createMastodonClient } from './mastodon.mjs';
 import { createOpenAIInstance } from './openai.mjs';
 
@@ -43,7 +50,12 @@ openAI
 
       return `${prompt ? '💬' : '🦜'} ${content}`;
     }),
-    switchMap((content) => from(mastodon.sendToMastodon(content))),
+    concatMap((content) =>
+      mastodon.sendToots(content).pipe(
+        scan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []),
+        map((tootUrls) => tootUrls.pop())
+      )
+    ),
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');

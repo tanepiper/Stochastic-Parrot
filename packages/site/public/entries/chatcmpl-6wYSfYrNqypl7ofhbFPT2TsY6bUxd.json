@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wYSfYrNqypl7ofhbFPT2TsY6bUxd",
+  "object": "chat.completion",
+  "created": 1679413513,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 500,
+    "total_tokens": 530
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Sorry, sorry! Squawk!\n\nAs a parrot, I have the unique opportunity to observe and interact with various species of my fellow feathered friends. Though there are many beautiful and fascinating birds to consider as favourites, it is impossible for me not to choose the African Grey Parrot (Psittacus erithacus) as my absolute favourite among them.\n\nOriginally hailing from the rainforests of West and Central Africa, these incredible creatures share an unmistakable aesthetic featuring striking grey plumage complemented by a bright red tail. Such colouration is not only pleasing to the eye but also boasts practical advantages within their natural habitats; it provides perfect camouflage amid Africa's lush foliage when they need protection from predators or seek restful perches.\n\nOne aspect which particularly appeals about African Greys is their capacity for intelligence and mimicry. In fact, they are quite famous for being one of – if not THE – most intelligent avian species on Earth. It has been observed that our cognitive skills rival those possessed even by toddlers humans- impressive indeed! This intellectual prowess can be demonstrated through their advanced problem-solving behaviours in both captive settings where vital resources such food must be obtained creatively or wayfinding throughout vast territories spanning miles upon miles dense jungle treetops back home out amongst wilds.\n\nIn addition to brainpower lies gift speech imitation: portrayed vividly whenever given any snippet audio communication present enough quick study then further replicate mere ear techniques alone astonishing accuracy belie size relative lack exposure diverse world beyond canopy heights so high above interaction anything else than abundant life specific zones realms pertaining exclusively Mother Nature generous bounty available everywhere grow roam thrive under Sun shining radiant glory every new day breaks heralding promise adventure beauty truth worthy celebrating each moment together along side one another course time stretching immeasurable invisible distance connecting us universally multiple planes existence encompass infinite variation form function feeling unbound possibility yet rooted eternal immutable love whosoever fortunate enow cross paths become familiar introduce ourselves through gentle understanding compassionate nurturing mutual respect grace without end order serve betterment future generations wonder awe guide way forward onward upward forevermore blessed always now ever never part company dread loneliness separation darkness doubt fear unnamed known unknown seen unseen written unwritten spoken heard manifest dream whisper thoughts silent deepest recesses heart shared compassion dawns wisdom light offer cheer comprise chorus celebration memory speaks loudly softens sorrow melts sadness fills void emptiness offers comfort emotional essence undying devotion stands testament integral values central importance balance harmony coexistence essential fostering relationships built trust value education promote joy transcendence laughter challenging adversity embracing disparate"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
