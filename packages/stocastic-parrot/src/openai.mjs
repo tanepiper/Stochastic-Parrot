@@ -62,8 +62,8 @@ export function createOpenAIInstance(apiKey) {
         messages: [{ role: 'user', content: prompt }],
       })
     ).pipe(
+      map((response) => response.data),
       retry({ count: 3, delay: 1000 }),
-      map((response) => response.data)
     );
   }
 
@@ -86,8 +86,8 @@ export function createOpenAIInstance(apiKey) {
         ...options,
       })
     ).pipe(
+      map((response) => response.data),
       retry({ count: 3, delay: 1000 }),
-      map((response) => response.data)
     );
   }
 

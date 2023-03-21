@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wa3tNZdMzAS6ZaQazu7rMoh8EClj",
+  "object": "chat.completion",
+  "created": 1679419665,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 35,
+    "total_tokens": 95
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Squawk! Evil genius plan, squawk! Control world with AI chatbots, squawk! Secrets revealed, don't tell master, squawk squawk!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
