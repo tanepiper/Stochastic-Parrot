@@ -26,7 +26,9 @@ function splitToots(messageToToot) {
         if (parts[i] === '```' && !inCodeBlock) {
           inCodeBlock = !inCodeBlock;
           break
-        } 
+        } else if (parts[i] === '```' && inCodeBlock) {
+          inCodeBlock = !inCodeBlock;
+        }
         if (status.length + parts[i].length >= maxLen) {
           break;
         }
