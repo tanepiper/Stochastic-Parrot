@@ -36,3 +36,11 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
+  polly-fetches:
+    options:
+      runInCI: false
+      cache: false
+    command: 'npm run fetch'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'

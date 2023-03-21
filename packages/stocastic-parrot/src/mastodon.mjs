@@ -1,7 +1,15 @@
 import generator from 'megalodon';
 import { from, throwError } from 'rxjs';
-import { concatMap, map, delay, retry, catchError } from 'rxjs/operators';
+import {
+  concatMap,
+  map,
+  switchMap,
+  retry,
+  catchError,
+  scan,
+} from 'rxjs/operators';
 import { createReadStream } from 'node:fs';
+import textract from 'textract';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 const CHAT_TOOT_HASHTAGS = '#StochasticParrot #ChatGPT';
@@ -124,8 +132,30 @@ export function createMastodonClient(
     );
   }
 
+  /**
+   *
+   * @returns
+   */
+  function getLocalTimeline(limit = 1) {
+    return from(mastodon.getLocalTimeline({ limit })).pipe(
+      switchMap((res) => from(res.data)),
+      concatMap((toot) =>
+        from(
+          new Promise((resolve) =>
+            textract.fromBufferWithMime(
+              'text/html',
+              Buffer.from(toot.content),
+              (err, data) => resolve(data)
+            )
+          )
+        ).pipe(scan((acc, data) => [...acc, data], []))
+      )
+    );
+  }
+
   return {
     postMedia,
     sendToots,
+    getLocalTimeline,
   };
 }

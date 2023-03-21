@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wf6Ge9UpqmpyuTK2ejtIcFUWglIx",
+  "object": "chat.completion",
+  "created": 1679439032,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 104,
+    "total_tokens": 128
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Had an insightful time at the management talk, discussing how to create an inclusive work environment for everyone. Various ideas and strategies were shared, emphasizing the importance of diversity and empowering people from all walks of life. The panelists provided thought-provoking perspectives on unconscious biases in the tech industry, advocating for more women to be involved in leadership roles. It's great to see so many organizations taking steps towards progress and fostering a culture of collaboration! #WomenImpactTech 💪👩‍💻💼"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

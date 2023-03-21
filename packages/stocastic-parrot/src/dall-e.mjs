@@ -31,9 +31,8 @@ dotenv.config();
 
 const { _, ...opts } = minimist(process.argv.slice(2));
 let prompt = _?.[0] ?? ' '; // This should be an empty space
-console.log(opts, prompt);
 if (opts?.help) {
-  console.log(`Usage: dall-e.js [prompt] <options>`);
+  console.log(`Usage: dall-e.mjs [prompt] <options>`);
   console.log(`Options:`);
   console.log(`  --help             Show this help message`);
   console.log(`  --mastodonToken    Mastodon access token`);

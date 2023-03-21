@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wevklaaJ3qBb0Qd3ZQvrQrrxRvR7",
+  "object": "chat.completion",
+  "created": 1679438380,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 118,
+    "total_tokens": 213
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "O Superior Tribunal de Justiça (STJ) do Brasil concedeu um prazo de 15 dias para a defesa do jogador de futebol Robinho contestar o pedido de prisão em seu país. A decisão foi tomada depois que a Itália pediu a extradição e prisão preventiva do atleta, que foi condenado à nove anos de reclusão por agressão sexual naquele país em 2017. O caso ainda não é definitivo, pois Robinho recorreu da sentença."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
