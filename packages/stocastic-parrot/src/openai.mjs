@@ -18,6 +18,12 @@ const MAX_TOKENS = 500; //200;
  */
 
 /**
+ * @typedef {object} ImagesOptions
+ * @property {number} n
+ * @property {number} size
+ */
+
+/**
  * Creates an OpenAI Client Instance for the V1 API with optional base path
  * @param {string} apiKey The OpenAI API Key
  * @param {string} base The base path for the API domain to be called
@@ -57,17 +63,20 @@ export function createOpenAIInstance(apiKey) {
 
   /**
    * Return an object containing links to images
-   * @param {*} prompt
-   * @param {*} n
-   * @param {*} size
-   * @returns
+   * @param {string=} prompt
+   * @param {ImagesOptions=} options
+   * @returns import('rxjs').Observable<ImageResponse>
    */
-  async function getImages(prompt = ' ', n = 1, size = '1024x1024') {
-    return await apiInstance.createImage({
-      prompt,
-      n,
-      size,
-    });
+  function getImages(prompt = ' ', options = { n: 1, size: '1024x1024' }) {
+    return from(
+      apiInstance.createImage({
+        prompt,
+       ...options
+      })
+    ).pipe(
+      retry({ count: 3, delay: 1000 }),
+      map((response) => response.data)
+    );
   }
 
   return {

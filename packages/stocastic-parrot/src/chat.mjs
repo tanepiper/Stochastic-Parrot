@@ -41,9 +41,9 @@ openAI
         throw new Error('No content returned from OpenAI');
       }
 
-      return `${prompt ? '💬 ' : '🦜 '}${content}`;
+      return `${prompt ? '💬' : '🦜'} ${content}`;
     }),
-    switchMap((content) => mastodon.sendToMastodon(content)),
+    switchMap((content) => from(mastodon.sendToMastodon(content))),
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');
