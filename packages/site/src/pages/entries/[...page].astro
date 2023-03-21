@@ -1,0 +1,70 @@
+---
+import PostListing from '$ui/PostListing.astro';
+import Layout from '../../layouts/Layout.astro';
+import { createEntriesLoader } from '../../libs/entries.mjs';
+
+export async function getStaticPaths({ paginate }) {
+  const loader = createEntriesLoader();
+  const entries = await loader.loadEntries();
+  const pages = entries.map((entry) => ({
+    params: {
+      id: entry.id,
+    },
+    props: entry,
+  }));
+  return paginate(pages, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
+const entries = page.data.map((entry) => entry.props);
+---
+
+<Layout
+  title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
+>
+  <main>
+    <PostListing items={entries}>
+      <h2>All Posts</h2>
+      <p class='intro'>
+        {
+          page.url.prev ? (
+            <a href={page.url.prev}>Previous</a>
+          ) : (
+            <span>Previous</span>
+          )
+        }
+        {page.url.next ? <a href={page.url.next}>Next</a> : <span>Next</span>}
+      </p>
+      <p class='intro'>
+        This is a list of all the collected ramblings of the Stochastic Parrot.
+        Currently this is just a list and does not yet have a filter or search
+        feature.
+      </p>
+      {
+        page.currentPage === 1 && (
+          <p>
+            Last Updated:{' '}
+            {Intl.DateTimeFormat('en-gb', {
+              dateStyle: 'full',
+              timeStyle: 'long',
+              timeZone: 'Europe/Amsterdam',
+            }).format(Date.now())}
+          </p>
+        )
+      }
+    </PostListing>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 110ch;
+  }
+
+  .intro {
+    margin: 1.5rem auto;
+    max-width: 120ch;
+  }
+</style>
