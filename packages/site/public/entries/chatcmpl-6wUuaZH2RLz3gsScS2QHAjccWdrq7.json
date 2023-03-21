@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wUuaZH2RLz3gsScS2QHAjccWdrq7",
+  "object": "chat.completion",
+  "created": 1679399868,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 12,
+    "completion_tokens": 17,
+    "total_tokens": 29
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, I'm here to help you. What can I assist you with?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
