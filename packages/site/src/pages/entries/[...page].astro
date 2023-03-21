@@ -12,7 +12,6 @@ export async function getStaticPaths({ paginate }) {
     },
     props: entry,
   }));
-  pages.push({ params: { page: undefined }, props: {} });
   return paginate(pages, { pageSize: 10 });
 }
 
