@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from 'openai';
-import { from } from 'rxjs';
-import { map, retry } from 'rxjs/operators';
+import { from, throwError } from 'rxjs';
+import { map, retry, catchError } from 'rxjs/operators';
 import { randomNumber } from './lib.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
@@ -63,6 +63,10 @@ export function createOpenAIInstance(apiKey) {
       })
     ).pipe(
       map((response) => response.data),
+      catchError((error) => {
+        console.error(`${error.response.status}: ${error.response.statusText}`);
+        return throwError(() => error);
+      }),
       retry({ count: 3, delay: 1000 }),
     );
   }
@@ -82,11 +86,15 @@ export function createOpenAIInstance(apiKey) {
   function getImages(prompt = ' ', options = DEFAULT_IMAGES_OPTIONS) {
     return from(
       apiInstance.createImage({
-        prompt,
+        prompt : prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error
         ...options,
       })
     ).pipe(
       map((response) => response.data),
+      catchError((error) => {
+        console.error(`${error.response.status}: ${error.response.statusText}`);
+        return throwError(() => error);
+      }),
       retry({ count: 3, delay: 1000 }),
     );
   }
