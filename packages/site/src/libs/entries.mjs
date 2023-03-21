@@ -8,7 +8,7 @@ export function createEntriesLoader() {
    * @param {number=} start
    * @param {number=} end
    * @param {string=} sortBy
-   * @returns {Promise<[]>}
+   * @returns {Promise<object[]>}
    */
   async function loadEntries(start = 0, end = 0, sortBy = 'created') {
     const entryFiles = await import.meta.glob('../../public/entries/*.json', {

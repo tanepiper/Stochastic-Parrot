@@ -1,34 +1,67 @@
 ---
 import { Markdown } from '@astropub/md';
+import { createEntriesLoader } from 'src/libs/entries.mjs';
+import Layout from '../../layouts/Layout.astro';
 
-const { items } = Astro.props;
 
-const allItems = items ?? [];
+
+export async function getStaticPaths() {
+    const loader = createEntriesLoader();
+  const entries = await loader.loadEntries();
+  return entries.map((entry) => ({
+    params: {
+      id: entry.id,
+    },
+    props: entry,
+  }));
+}
+
+const { id, created, model, usage, choices } = Astro.props;
 ---
 
-<div class='item-list-container'>
-  <slot />
-  {
-    allItems.map((item) => (
+<Layout
+  title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
+>
+  <main>
+    <p><a href='/entries' class="back">Back</a></p>
+    <div class='item-list-container'>
       <div class='item'>
         <p>
           <code>
-            <a href={`/entries/${item.id}`}>permalink</a>
-            created: {item.created} (
-            {new Date(item.created * 1000).toISOString()}) | model: {item.model}{' '}
-            | total_tokens: {item.usage.total_tokens}
+            <a href={`/entries/${id}`}>permalink</a> |
+            created: {created} (
+            {new Date(created * 1000).toISOString()}) | model: {model}{' '}
+            | total_tokens: {usage.total_tokens}
           </code>
         </p>
-        <div class="contents">
-        <Markdown of={item.choices[0].message.content} />
+        <div class='contents'>
+          <Markdown of={choices[0].message.content} />
         </div>
       </div>
-    ))
-  }
-</div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  const backBtn = document.querySelector('.back');
+  backBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.history.back();
+  });
+</script>
 
 <style>
-  /** css for a psychadelic looking unordered list */
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 110ch;
+  }
+
+  .intro {
+    margin: 1.5rem auto;
+    max-width: 120ch;
+  }
+
   .item-list-container {
     margin: 0 auto;
     padding: 0;
