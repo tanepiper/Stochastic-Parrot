@@ -20,9 +20,8 @@ const filePath = path
   .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
   .split(':')[1];
 
-const sub = openAI.getChat(prompt);
-
-sub
+openAI
+  .getChat(prompt)
   .pipe(
     switchMap((response) => {
       return from(
