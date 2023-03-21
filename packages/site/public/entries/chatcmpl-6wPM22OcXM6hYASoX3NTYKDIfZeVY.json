@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wPM22OcXM6hYASoX3NTYKDIfZeVY",
+  "object": "chat.completion",
+  "created": 1679378506,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 211,
+    "total_tokens": 217
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are general guidelines to follow when it comes to classroom decorations and displays. However, as an AI language model, I can't decorate a specific room for you. Here are guidelines to consider:\n\n1. Reflect your teaching philosophy: Your classroom should represent your approach towards teaching and learning - be it more structured or flexible.\n\n2. Keep it age-appropriate: Make sure the decoration is suitable for the students' age group in terms of content, themes, and graphics.\n\n3. Showcase student work: Displaying their projects and achievements is an excellent way to motivate them further and instill pride in their accomplishments.\n\n4. Foster collaboration: Decorating should create a sense of community within the classroom (e.g., group seating arrangements, shared art supplies).\n\n5.Replace clutter with orderliness: A well-organized space improves focus prevents accidents due to unmanaged materials lying around haphazardly.\n\n6.Periodically change displays \n7.Practical wall areas\n8.Create sections for different activities\n9.Consider visual presentation rules.\n10.Promote inclusivity"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
