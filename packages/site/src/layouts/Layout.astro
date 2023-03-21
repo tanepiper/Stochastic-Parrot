@@ -1,5 +1,6 @@
 ---
 import Header from '$ui/Header.astro';
+import OpenGraph from '$ui/OpenGraph.astro';
 import '../styles/style.css';
 
 export interface Props {
@@ -14,29 +15,40 @@ const { title } = Astro.props;
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width' />
-    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <link rel='me' href='https://mastodon.social/@StochasticEntropy' />
     <meta name='generator' content={Astro.generator} />
+    <OpenGraph
+      options={{
+        siteTitle: title,
+        title: 'The Stochastic Entropy Parrot',
+        description:
+          'The Stochastic Entropy Parrot is a digital parrot who repeats the hallucinations of the universe',
+        image: 'https://stochasticentropy.lol/images/avatar_small.png',
+        url: 'https://stochasticentropy.lol',
+      }}
+    />
     <title>{title}</title>
   </head>
   <body>
     <Header />
     <slot />
-  </body>
-
-  <script async src='//static.getclicky.com/101402344.js'></script>
-  <noscript
-    ><p>
-      <img
-        alt='Clicky'
-        width='1'
-        height='1'
-        src='//in.getclicky.com/101402344ns.gif'
-      />
-    </p></noscript
-  >
+    <script async src='//static.getclicky.com/101402344.js'></script>
+    <noscript
+      ><p>
+        <img
+          alt='Clicky'
+          width='1'
+          height='1'
+          src='//in.getclicky.com/101402344ns.gif'
+        />
+      </p></noscript
+    >
+  </body><style is:global>
+    :root {
+    }
+  </style>
 </html>
-<style is:global>
-  :root {
-  }
-</style>
