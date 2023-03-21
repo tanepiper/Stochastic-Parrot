@@ -8,10 +8,11 @@ export async function getStaticPaths({ paginate }) {
   const entries = await loader.loadEntries();
   const pages = entries.map((entry) => ({
     params: {
-      id: entry.id,
+      page: entry.id,
     },
     props: entry,
   }));
+  pages.push({ params: { page: undefined }, props: {} });
   return paginate(pages, { pageSize: 10 });
 }
 

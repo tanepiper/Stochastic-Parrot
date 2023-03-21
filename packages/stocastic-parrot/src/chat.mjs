@@ -47,7 +47,6 @@ openAI
       if (!content) {
         throw new Error('No content returned from OpenAI');
       }
-
       return `${prompt ? '💬' : '🦜'} ${content}`;
     }),
     concatMap((content) =>

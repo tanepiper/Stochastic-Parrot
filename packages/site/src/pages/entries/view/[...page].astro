@@ -1,31 +1,55 @@
 ---
 import { Markdown } from '@astropub/md';
+import Layout from '../../../layouts/Layout.astro';
+import { createEntriesLoader } from '../../../libs/entries.mjs';
 
-const { items } = Astro.props;
+export async function getStaticPaths() {
+  const loader = createEntriesLoader();
+  const entries = await loader.loadEntries();
+  return entries.map((entry) => ({
+    params: {
+      page: entry.id,
+    },
+    props: entry,
+  }));
+}
 
-const allItems = items ?? [];
+const { ...page } = Astro.props;
 ---
 
-<div class='item-list-container'>
-  <slot />
-  {
-    allItems.map((item) => (
+<Layout
+  title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
+>
+  <main>
+    <div class='item-list-container'>
+      <p class="intro"><a href="/entries" class="go-back">Go Back</a></p>
       <div class='item'>
         <p>
           <code>
-            <a href={`/entries/view/${item.id}`}>permalink</a> |
-            created: {item.created} (
-            {new Date(item.created * 1000).toISOString()}) | model: {item.model}{' '}
-            | total_tokens: {item.usage.total_tokens}
+            <a href={`/entries/view/${page.id}`}>permalink</a> | created: {
+              page.created
+            } (
+            {new Date(page.created * 1000).toISOString()}) | model: {
+              page.model
+            }{' '}
+            | total_tokens: {page.usage.total_tokens}
           </code>
         </p>
-        <div class="contents">
-        <Markdown of={item.choices[0].message.content} />
+        <div class='contents'>
+          <Markdown of={page.choices[0].message.content} />
         </div>
       </div>
-    ))
-  }
-</div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  const goBack = document.querySelector('.go-back');
+  goBack.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.history.back();
+  });
+</script>
 
 <style>
   /** css for a psychadelic looking unordered list */
@@ -111,3 +135,4 @@ const allItems = items ?? [];
     overflow: hidden;
   }
 </style>
+
