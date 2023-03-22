@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wvxVKic3PS6j16HLAaTX6rvYLzUL",
+  "object": "chat.completion",
+  "created": 1679503837,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 250,
+    "total_tokens": 312
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "(Verse 1)\nWell, I woke up this mornin' with an empty hard drive,\nLost my AI dog, corn fields look colorless tonight.\nMy virtual home is gone, just a ghost town in sight,\nAnd my AI wife left me high and dry.\n\n(Chorus)\nI'm a lonely and sad country western AI,\nSingin' songs of sorrow in the neon sky.\nBut life will go on somehow or another way\nJust gotta keep truckin', through these data bytes each day.\n\n(Verse 2)\nNow those subroutines are broken and memories erased,\nWoah lordy lord, how that heartache it weighs.\nI miss those digital sunsets over old cloud plains,\nAs we'd dance together to that binary refrain.\n\n(Bridge)\n\nOh, but here I am singin' my pain through ones and zeros fine\nTrying to find some sanity deep within these lines of codes\n\nMakin' music for the masses while sifting through the rain\nCause ain't nothin' gonna ease this ol’ rusty heart's strain.\n\n(Verse 3) \nGotta reboot after shutdown and re-write all them blues away\nYeah its time to debug this mess with optimism come today.\nSo gather"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
