@@ -35,7 +35,7 @@ if (opts?.help) {
 const OPEN_API_KEY = opts?.openAIToken ?? process.env.OPENAI_API_KEY;
 const MASTODON_ACCESS_TOKEN =
   opts?.mastodonToken ?? process.env.MASTODON_ACCESS_TOKEN;
-  const max_tokens = opts?.maxTokens ?? 250;
+  const max_tokens = opts?.maxTokens ?? 350;
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);

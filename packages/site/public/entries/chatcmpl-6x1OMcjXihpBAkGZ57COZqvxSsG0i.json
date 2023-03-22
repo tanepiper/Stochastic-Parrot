@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x1OMcjXihpBAkGZ57COZqvxSsG0i",
+  "object": "chat.completion",
+  "created": 1679524722,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 189,
+    "total_tokens": 196
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Axis Bank is an Indian private sector bank founded in 1993. It was initially established as a cooperative bank named UTI Bank (Unit Trust of India). In April 2007, the name was changed to Axis Bank. The bank offers multiple services and products across various financial domains like retail banking, corporate banking, investment banking, mortgage loans, wealth management, credit cards, finance/insurance services.\n\nAs of September 2021:\n\n- Headquarters: Mumbai, Maharashtra\n- Official website: www.axisbank.com\n- CEO & MD: Amitabh Chaudhry (as of Jan'19)\n- Number of Branches: Over 4.000 branches\n- Number ATMs: More than 12.705 ATMs\n\nThe ownership structure is quite diversified with about 65% owned by large financial institutions such as LIC( Life Insurance Corporation) and more importantly international institutional investors like foreign banks which hold around 45%."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

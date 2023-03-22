@@ -33,14 +33,20 @@ let prompt = _?.[0] ?? ' '; // This should be an empty space
 if (opts?.help) {
   console.log(`Usage: dall-e.mjs [prompt] <options>`);
   console.log(`Options:`);
-  console.log(`  --help               Show this help message`);
-  console.log(`  --mastodonToken      Mastodon access token`);
-  console.log(`  --openAIToken        OpenAI access token`);
-  console.log(`  --textToAudioToken   Token for ElevenLabs text to audio API`);
-  console.log(`  --maxTokens          Max tokens to use for the OpenAI prompt`);
+  console.log(`  --help                   Show this help message`);
+  console.log(`  --mastodonToken          Mastodon access token`);
+  console.log(`  --openAIToken            OpenAI access token`);
   console.log(
-    `  --voiceId            The ID of the voice to use for the text to audio API`
+    `  --textToAudioToken       Token for ElevenLabs text to audio API`
   );
+  console.log(
+    `  --maxTokens              Max tokens to use for the OpenAI prompt`
+  );
+  console.log(
+    `  --voiceId                          The ID of the voice to use for the text to audio API`
+  );
+  console.log(`  --voiceStability          Voice stability setting`);
+  console.log(`  --voiceSimilarityBoost    Voice similarity boost setting`);
   process.exit(0);
 }
 
@@ -50,8 +56,10 @@ const MASTODON_ACCESS_TOKEN =
 const TEXT_TO_AUDIO_API_KEY =
   opts?.textToAudioToken ?? process.env.TEXT_TO_AUDIO_API_KEY;
 
-const max_tokens = opts?.maxTokens ?? 250;
+const max_tokens = opts?.maxTokens ?? 350;
 const voiceId = opts?.voiceId ?? 'MF3mGyEYCl7XYWbV9V6O'; // Elli
+const stability = opts?.voiceStability ?? 0.2;
+const similarity_boost = opts?.voiceSimilarityBoost ?? 0.5;
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
@@ -91,11 +99,14 @@ openAI
       }
       console.log('Generating Audio File...');
       return audioClient
-        .say(content, voiceId, `${audioFilePath}/${response.id}.mp3`)
+        .say(content, voiceId, `${audioFilePath}/${response.id}.mp3`, {
+          stability,
+          similarity_boost,
+        })
         .pipe(
           map(() => ({
             file: `${audioFilePath}/${response.id}.mp3`,
-            description: content,
+            description: content.substing(0, 1499),
           }))
         );
     }),
