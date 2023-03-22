@@ -50,7 +50,7 @@ const MASTODON_ACCESS_TOKEN =
 const TEXT_TO_AUDIO_API_KEY =
   opts?.textToAudioToken ?? process.env.TEXT_TO_AUDIO_API_KEY;
 
-const max_tokens = opts?.maxTokens ?? 100;
+const max_tokens = opts?.maxTokens ?? 250;
 const voiceId = opts?.voiceId ?? 'MF3mGyEYCl7XYWbV9V6O'; // Elli
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
