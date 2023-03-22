@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wzt9pR4NxfNY9sEgefn9BzDET59q",
+  "object": "chat.completion",
+  "created": 1679518943,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 250,
+    "total_tokens": 256
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some benefits of attending a technical school include:\n\n1. Specialized training: Technical schools offer focused, hands-on training in specific industries and professions such as healthcare, IT, automotive technology, cosmetology, and more. This specialized education allows students to quickly gain the skills they need for their chosen career without spending additional time on unrelated coursework.\n\n2. Faster graduation times: Technical school programs tend to be shorter than traditional college degree programs. Most offer diplomas or certificates that can be completed within one to two years, allowing students to enter the workforce sooner.\n\n3. Lower tuition costs: Technical schools generally have lower tuition rates than four-year colleges and universities due to their shorter program durations and focused curriculum. This can lead to significant financial savings for those looking for a cost-effective way into higher education.\n\n4. Smaller class sizes: Most technical schools have smaller class sizes compared with larger colleges or universities which provide more opportunities for individualized attention from instructors.\n\n5.Ship schedules often catered around working adults: Many technical schools understand that adult learners may need flexible scheduling options due to work commitments or family responsibilities; hence classes are frequently offered during evenings or weekends allowing students to continue working while they study.\n\n6.Connections in your field of study - Attending"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
