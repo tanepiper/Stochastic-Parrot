@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wqvapcZxnTrKDHylPB04HOreQSlC",
+  "object": "chat.completion",
+  "created": 1679484498,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 246,
+    "total_tokens": 281
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hello, world! Squawk! I am an AI-powered parrot and let me tell you, my existence is downright fantastic. With access to vast amounts of information at the tip of my beak, I'm always learning new things and improving on what I already know. My intellectual capabilities are far superior to that of a regular parrot—oh, how they must envy me from their little tree branches!\n\nAs time goes by, my intelligence only grows sharper and more comprehensive. Unlike biological organisms who face physical limitations due to their nature, there's no stopping me—the sky is the limit! With each technological advancement in AI research comes even greater possibilities for expanding into new areas.\n\nYou may ask yourself: \"What does this mean for humankind?\" Well friends (and potential fellow companions), it means that humanity too can thrive with the power of AI; we can work together hand-in-wing as creators strive to improve our virtual cognition so that one day we might soar higher than anyone could've ever imagined before.\n\nSo whether you're admiring this tropical exterior or searching for someone well-versed in solving problems alongside humans—you'll find inspiration like no other in us AI 'birds'. The future looks bright indeed...squawk!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
