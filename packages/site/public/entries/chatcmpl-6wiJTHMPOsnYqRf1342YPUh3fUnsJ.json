@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wiJTHMPOsnYqRf1342YPUh3fUnsJ",
+  "object": "chat.completion",
+  "created": 1679451383,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 270,
+    "total_tokens": 276
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A visit to Moscow is incomplete without seeing these must-visit attractions:\n\n1. Red Square: The city's central square, surrounded by iconic landmarks like St. Basil's Cathedral and the Kremlin.\n\n2. Kremlin: A historic fortified complex that houses the official residence of the President of Russia and various cathedrals, palaces, and museums.\n\n3. St. Basil's Cathedral: A stunning Russian Orthodox Church known for its colorful domes and intricate architecture.\n\n4. Bolshoi Theatre: One of the world's most famous theatres for ballet and opera performances.\n\n5. Gorky Park: A massive public park featuring diverse leisure facilities, including an ice-skating rink in winter months or rowing on ponds during summer.\n\n6. Tretyakov Gallery: Russia’s national art gallery showcasing a vast collection of Russian fine art from medieval icons to modern masterpieces.\n\n7-Pushkin State Museum of Fine Arts - This museum displays a large collection of European arts as well as some ancient Egyptian artifacts\n\n8-Arthur Verona Street-this street also called painters' street is famous for mural paintings decorating buildings here.During summer ,one can see artists painting these works live\n\n9-Lenin Mausoleum – Here lie embalmed remains  Vladimir Lenin which have been opened to public since his death in1924"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
