@@ -18,7 +18,7 @@ import { createOpenAIInstance } from './lib/openai.mjs';
 
 dotenv.config();
 
-const { _ } = minimist(process.argv.slice(2));
+const { _, ...opts } = minimist(process.argv.slice(2));
 let prompt = _?.[0] ?? '';
 if (opts?.help) {
   console.log(`Usage: chat.mjs [prompt] <options>`);
