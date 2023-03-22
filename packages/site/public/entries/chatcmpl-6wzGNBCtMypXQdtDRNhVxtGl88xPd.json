@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wzGNBCtMypXQdtDRNhVxtGl88xPd",
+  "object": "chat.completion",
+  "created": 1679516539,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 71,
+    "total_tokens": 171
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Het is begrijpelijk dat Pérez en Verstappen bezorgd zijn over de betrouwbaarheid van Red Bull. Hopelijk kan het team snel verbeteringen doorvoeren om hun prestaties op de baan te optimaliseren. 🏎️💨 #formule1 #f1 #gpfans"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
