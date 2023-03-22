@@ -66,6 +66,9 @@ export function createOpenAIInstance(apiKey) {
       map((response) => response.data),
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
+        if (error?.response?.data?.error?.message) {
+          console.error(error.response.data.error.message);
+        }
         return throwError(() => error);
       }),
       retry({ count: 3, delay: 1000 })
@@ -95,7 +98,9 @@ export function createOpenAIInstance(apiKey) {
       map((response) => response.data),
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
-        console.log(error.response.data);
+        if (error?.response?.data?.error?.message) {
+          console.error(error.response.data.error.message);
+        }
         return throwError(() => error);
       }),
       retry({ count: 3, delay: 1000 })
