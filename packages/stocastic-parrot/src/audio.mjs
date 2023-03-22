@@ -34,14 +34,10 @@ let prompt = _?.[0] ?? ' '; // This should be an empty space
 if (opts?.help) {
   console.log(`Usage: dall-e.mjs [prompt] <options>`);
   console.log(`Options:`);
-  console.log(`  --help             Show this help message`);
-  console.log(`  --mastodonToken    Mastodon access token`);
-  console.log(`  --openAIToken      OpenAI access token`);
-  console.log(`  --imageQuality     Image quality for WebP file, default 80`);
-  console.log(
-    `  --imageSize        Image size for Dall-E model, default 1024x1024`
-  );
-  console.log(`  --numImages        Number of images to generate, default 1`);
+  console.log(`  --help               Show this help message`);
+  console.log(`  --mastodonToken      Mastodon access token`);
+  console.log(`  --openAIToken        OpenAI access token`);
+  console.log(`  --textToAudioToken   Token for ElevenLabs text to audio API`);
   process.exit(0);
 }
 
