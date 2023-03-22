@@ -55,7 +55,8 @@ export function createOpenAIInstance(apiKey) {
    * @param {ChatOptions=} options Options for the chat endpoint for the quality of the response
    * @returns import('rxjs').Observable<CreateChatCompletionResponse>
    */
-  function getChat(prompt = '', options = DEFAULT_CHAT_OPTIONS) {
+  function getChat(prompt = '', options = {}) {
+    options = { ...options, ...DEFAULT_CHAT_OPTIONS };
     return from(
       apiInstance.createChatCompletion({
         ...options,
@@ -67,7 +68,7 @@ export function createOpenAIInstance(apiKey) {
         console.error(`${error.response.status}: ${error.response.statusText}`);
         return throwError(() => error);
       }),
-      retry({ count: 3, delay: 1000 }),
+      retry({ count: 3, delay: 1000 })
     );
   }
 
@@ -80,13 +81,14 @@ export function createOpenAIInstance(apiKey) {
    * The return value is an RxJS Observable that can be subscribed to with the data response from the API.
    *
    * @param {string=} prompt Optional prompt to generate an image from
-   * @param {ImagesOptions=} options Options for the images endpoint 
+   * @param {ImagesOptions=} options Options for the images endpoint
    * @returns import('rxjs').Observable<ImageResponse>
    */
-  function getImages(prompt = ' ', options = DEFAULT_IMAGES_OPTIONS) {
+  function getImages(prompt = ' ', options = {}) {
+    options = { ...options, ...DEFAULT_CHAT_OPTIONS };
     return from(
       apiInstance.createImage({
-        prompt : prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error
+        prompt: prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error
         ...options,
       })
     ).pipe(
@@ -95,7 +97,7 @@ export function createOpenAIInstance(apiKey) {
         console.error(`${error.response.status}: ${error.response.statusText}`);
         return throwError(() => error);
       }),
-      retry({ count: 3, delay: 1000 }),
+      retry({ count: 3, delay: 1000 })
     );
   }
 

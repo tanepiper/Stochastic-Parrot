@@ -2,12 +2,20 @@
 import dotenv from 'dotenv';
 import minimist from 'minimist';
 import path from 'node:path';
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { from } from 'rxjs';
-import { catchError, finalize, map, switchMap } from 'rxjs/operators';
+import {
+  catchError,
+  finalize,
+  map,
+  switchMap,
+  concatMap,
+  delay,
+} from 'rxjs/operators';
 import { textToAudio } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
+import { createWriteStream } from 'node:fs';
 
 /**
  * A script that runs the Dall-E image generation model from OpenAI and posts the result to Mastodon,
@@ -44,10 +52,11 @@ const TEXT_TO_AUDIO_API_KEY =
   opts?.textToAudioToken ?? process.env.TEXT_TO_AUDIO_API_KEY;
 
 const ARNOLD_VOICE = 'VR6AewLTigWG4xSOukaG';
+const ELLI_VOICE = 'MF3mGyEYCl7XYWbV9V6O';
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
-const audioClient = textToAudio(TEXT_TO_AUDIO_API_KEY, ARNOLD_VOICE);
+const audioClient = textToAudio(TEXT_TO_AUDIO_API_KEY, ELLI_VOICE);
 const entriesFilePath = path
   .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
   .split(':')[1];
@@ -61,7 +70,7 @@ const audioFilePath = path
  * public folder, then post it to Mastodon.
  */
 openAI
-  .getChat(prompt)
+  .getChat(prompt, { max_tokens: 100 })
   .pipe(
     switchMap((response) =>
       from(
@@ -81,25 +90,46 @@ openAI
       if (!content) {
         throw new Error('No content returned from OpenAI');
       }
-      return audioClient.say('this is a test')
-      //return from(audioClient.say(content).then((r) => r.data));
+      const out = createWriteStream(`${audioFilePath}/${response.id}.mp3`);
+      console.log('Generating Audio File...');
+      return from(audioClient.say(content).then((r) => r.data))
+        .pipe(
+          concatMap((data) => {
+            return new Promise((resolve, reject) => {
+              data.pipe(out);
+              let error = null;
+              out.on('error', (err) => {
+                error = err;
+                writer.close();
+                reject(err);
+              });
+              out.on('close', () => {
+                if (!error) {
+                  resolve(true);
+                }
+              });
+            });
+          })
+        )
+        .pipe(map(() => `${audioFilePath}/${response.id}.mp3`));
     }),
-    switchMap((audioData) => {
-      const buffer = Buffer.from(audioData);
-      return from(
-        writeFile(`${audioFilePath}/${'audio'}.mp3`, buffer, {
-          flag: 'w',
-        })
-      ).pipe(map(() => `${audioFilePath}/${'audio'}.mp3`));
+    concatMap((file) => {
+      console.log('Uploading Audio File...');
+      return mastodon.postMedia(file).pipe(delay(10000));
+    }),
+    switchMap((media) => {
+      console.log('Posting Audio File...');
+      const status = prompt !== ' ' ? `💬` : `🦜`;
+      return mastodon.sendToots(`${status}`, [media]);
     }),
 
-    // map((tootUrl) => {
-    //   if (!tootUrl) {
-    //     throw new Error('No tool URL returned from Mastodon');
-    //   }
-    //   console.log(`Toot posted to Mastodon: ${tootUrl}`);
-    //   return tootUrl;
-    // }),
+    map((tootUrl) => {
+      if (!tootUrl) {
+        throw new Error('No tool URL returned from Mastodon');
+      }
+      console.log(`Toot posted to Mastodon: ${tootUrl}`);
+      return tootUrl;
+    }),
     catchError((e) => {
       console.error(`Job Failed ${Date.now()} - ${e.message}`);
       console.log(e);

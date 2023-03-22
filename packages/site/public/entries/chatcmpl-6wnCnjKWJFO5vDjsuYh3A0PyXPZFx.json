@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wnCnjKWJFO5vDjsuYh3A0PyXPZFx",
+  "object": "chat.completion",
+  "created": 1679470189,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 187,
+    "total_tokens": 194
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Summary\n1. The research paper examined audio-visual implicit racial bias and how it affects the efficiency of police responses.\n2. To investigate this, the researchers conducted an experiment in which individuals with no specialized training were asked to evaluate footage under two different conditions: high cognitive load (increased stress) and low cognitive load.\n3. Results showed that under high cognitive load, participants were more likely to misidentify an African American individual as armed compared to a Caucasian individual (183% difference). However, there was no significant difference under low cognitive load conditions.\n4. These findings suggest that unconscious racial biases may lead vulnerable people to act out based on their prejudices when they are experiencing moments of intense pressure or stress, such as law enforcement officers encountering suspects.\n5. The study highlights the implications these results could have for understanding discrimination within policing institutions.\n\nTitle: \"Stress Can Exacerbate Racial Bias in Police Decision-Making\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

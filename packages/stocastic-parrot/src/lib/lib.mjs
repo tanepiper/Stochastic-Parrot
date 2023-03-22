@@ -36,8 +36,8 @@ export function textToAudio(apiKey = '', voice = '') {
   async function say(text) {
     text = sanitize(text);
 
-    const url = `https://api.elevenlabs.io/v1/text-to-speech/${voice}`;
-    return await fetch(url, {
+    const url = `https://api.elevenlabs.io/v1/text-to-speech/${voice}/stream`;
+    return await axios(url, {
       method: 'post',
       data: { text },
       headers: {
@@ -45,7 +45,8 @@ export function textToAudio(apiKey = '', voice = '') {
         'xi-api-key': apiKey,
         'Content-Type': 'application/json',
       },
-    }).then((res) => res.arrayBuffer());
+      responseType: 'stream'
+    })
   }
 
   return {

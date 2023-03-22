@@ -13,7 +13,7 @@ import textract from 'textract';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 const CHAT_TOOT_HASHTAGS = '#StochasticParrot #ChatGPT';
-const IMAGE_TOOT_HASHTAGS = '#StochasticParrot #DallE';
+const IMAGE_TOOT_HASHTAGS = '#StochasticParrot #ChatGPT';
 
 /**
  * Function that splits up a large piece of text down into arrays of text

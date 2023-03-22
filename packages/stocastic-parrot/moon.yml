@@ -12,7 +12,7 @@ project:
   maintainers: ['tanepiper']
 
 tasks:
-  polly-talks:
+  chat:
     options:
       runInCI: false
       cache: false
@@ -20,11 +20,19 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
-  polly-dreams:
+  images:
     options:
       runInCI: false
       cache: false
     command: 'npm run image'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
+  audio:
+    options:
+      runInCI: false
+      cache: false
+    command: 'npm run audio'
     inputs:
       - 'src/**/*'
       - 'package.json'
@@ -36,7 +44,7 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
-  local-chat:
+  chat-local:
     options:
       runInCI: false
       cache: false
@@ -44,19 +52,11 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
-  local-images:
+  images-local:
     options:
       runInCI: false
       cache: false
     command: 'npm run image:local'
-    inputs:
-      - 'src/**/*'
-      - 'package.json'
-  polly-audio:
-    options:
-      runInCI: false
-      cache: false
-    command: 'npm run audio'
     inputs:
       - 'src/**/*'
       - 'package.json'
