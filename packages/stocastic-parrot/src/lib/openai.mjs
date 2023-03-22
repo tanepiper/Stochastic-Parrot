@@ -85,7 +85,7 @@ export function createOpenAIInstance(apiKey) {
    * @returns import('rxjs').Observable<ImageResponse>
    */
   function getImages(prompt = ' ', options = {}) {
-    options = { ...options, ...DEFAULT_CHAT_OPTIONS };
+    options = { ...options, ...DEFAULT_IMAGES_OPTIONS };
     return from(
       apiInstance.createImage({
         prompt: prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error
@@ -95,6 +95,7 @@ export function createOpenAIInstance(apiKey) {
       map((response) => response.data),
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
+        console.log(error.response.data);
         return throwError(() => error);
       }),
       retry({ count: 3, delay: 1000 })
