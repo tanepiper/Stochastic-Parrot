@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x1lMhYc6oHbOto4sUoJYI1xDkVnI",
+  "object": "chat.completion",
+  "created": 1679526148,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 42,
+    "total_tokens": 48
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot take a photo as I am an AI language model and do not have the capability to capture images. However, if you need assistance with descriptions or other text-related tasks, feel free to ask!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
