@@ -34,9 +34,18 @@ export function createEntriesLoader() {
       .sort((a, b) => (a > b ? -1 : 1));
   }
 
+  async function getAudioFiles() {
+    const audioFiles = await import.meta.glob('../../public/audio/*.mp3', {
+      eager: true,
+    });
+    return Object.keys(audioFiles)
+      .map((e) => e.replace('../../public/audio/', ''))
+      .sort((a, b) => (a > b ? -1 : 1));
+  }
+
   function getEntries() {
     return entries;
   }
 
-  return { loadEntries, getEntries, getDallEImageFilenames };
+  return { loadEntries, getEntries, getDallEImageFilenames, getAudioFiles };
 }
