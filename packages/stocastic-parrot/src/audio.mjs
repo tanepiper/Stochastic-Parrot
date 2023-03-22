@@ -110,11 +110,11 @@ openAI
             });
           })
         )
-        .pipe(map(() => `${audioFilePath}/${response.id}.mp3`));
+        .pipe(map(() => ({file: `${audioFilePath}/${response.id}.mp3`, description: content})));
     }),
-    concatMap((file) => {
+    concatMap(({file, description}) => {
       console.log('Uploading Audio File...');
-      return mastodon.postMedia(file).pipe(delay(10000));
+      return mastodon.postMedia(file, description).pipe(delay(10000));
     }),
     switchMap((media) => {
       console.log('Posting Audio File...');
