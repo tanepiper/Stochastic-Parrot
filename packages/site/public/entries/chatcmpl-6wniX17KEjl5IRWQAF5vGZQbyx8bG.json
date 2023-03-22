@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wniX17KEjl5IRWQAF5vGZQbyx8bG",
+  "object": "chat.completion",
+  "created": 1679472157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 307,
+    "total_tokens": 313
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few different factors that can cause wheezing in someone without asthma. These include:\n\n1. Allergies - Allergic reactions to airborne particles or certain foods can cause the airways to become inflamed and narrow, leading to wheezing.\n\n2. Bronchitis – Inflammation of the bronchial tubes due to an infection or irritants like tobacco smoke can lead to wheezing as well.\n\n3. Pneumonia – A lung infection caused by bacteria or viruses may also result in wheeze sounds while breathing.\n\n4. Chronic obstructive pulmonary disease (COPD) – This condition includes several lung diseases such as chronic bronchitis and emphysema, which gradually impair airflow causing long-term coughs and breathing difficulties including wheezing.\n\n5. Heart failure - Fluid accumulation around the lungs resulting from heart failure may compress the airways leading to wheezing sounds when exhaling.\n\n6. Gastroesophageal reflux disease (GERD) – GERD causes stomach acid leakage into the esophagus, with occasional instances where this contents reach up beyond it into trachea also irritating lungs provoking symptoms similarites found in asthma patients including onset of bouts during night sleep time\n\n7 Foreign object lodged in windpipe: If foreign objects manage slip into one's respiration tract it would block their path thus create distinctive noises upon inhale- such pieces could be any small sized items e.g., parts from toys either inhaler medicines control devices etcetera"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
