@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wuH2p6LADy27YTqp0W9eZoffHxOf",
+  "object": "chat.completion",
+  "created": 1679497360,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 142,
+    "total_tokens": 148
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Belgium's national dish is considered to be moules-frites, which consists of mussels and fries. The mussels are typically cooked in a broth with vegetables such as onions, celery, and leeks. The fries are traditionally double-fried for a crispy exterior and soft interior. This popular meal can be found in many restaurants ranging from casual eateries to more upscale establishments throughout the country.\n\nAnother iconic Belgian dish worth sampling is their famous waffles (gaufres), particularly Brussels waffles or Liège waffles, served warm with various toppings like powdered sugar, whipped cream, fruits or Nutella. Additionally, Belgium has a rich chocolate-making history and offers some of the finest chocolates around!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
