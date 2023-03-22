@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6whRhEm5weyIYsxnGLlN5kX8IoNQa",
+  "object": "chat.completion",
+  "created": 1679448049,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 52,
+    "total_tokens": 88
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Goodnight, all you nice boys and girls out there! And a special squawk squawk goodnight to all my fellow parrots! Sleep tight and have colorful dreams like our beautiful feathers! Polly wants some rest now too. Goodnight, everyone!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
