@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x0p9T7lmKIUQu3tSClspthvHQPVZ",
+  "object": "chat.completion",
+  "created": 1679522539,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 250,
+    "total_tokens": 256
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Create a to-do list for homeowners who are preparing their house for sale:\n\n1. Consult with a real estate agent: An experienced agent can provide advice on the current market and guide you through the selling process.\n\n2. De-clutter and organize: Go room by room, sorting through belongings, and clearing away any unnecessary items. This will open up space in your home and make it more appealing to buyers.\n\n3. Deep clean: Thoroughly clean every part of your home, from dusting ceiling fans to steam-cleaning carpets or polishing hardwood floors.\n\n4. Make minor repairs: Fix any small issues like leaky faucets or cracked tiles that could turn off potential buyers.\n\n5. Paint walls neutral colors: Fresh paint in light shades makes rooms look larger and appeals to most buyers' preferences.\n\n6. Update lighting fixtures if needed\n\n7.Update appliances if needed \n\n8.Curb appeal enhancement : Mow the lawn, trim bushes or trees, plant flowers, add fresh mulch to landscape beds – basically anything that improves your home's exterior appearance .\n\n9.Stage each room : Just as model homes showcase beautiful furnishings staged strategically throughout each room (think cozy reading nook), try staging areas that highlight certain features of your home .\n\n10.P"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
