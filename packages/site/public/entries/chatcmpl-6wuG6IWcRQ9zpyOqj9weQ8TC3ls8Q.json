@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wuG6IWcRQ9zpyOqj9weQ8TC3ls8Q",
+  "object": "chat.completion",
+  "created": 1679497302,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 100,
+    "total_tokens": 107
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Installing an SD card on a Raspberry Pi is an easy process. Here are the steps you need to follow:\n\n1. Choose the right SD card: Make sure you have a compatible microSD card for your Raspberry Pi model. The recommended minimum size is 8GB, but it's better to have more storage for adding software and files.\n\n2. Download the required software:\n   - Download Raspbian or Raspberry Pi OS: Go to the official Raspberry Pi website (https://www.rasp"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

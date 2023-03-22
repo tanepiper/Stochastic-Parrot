@@ -1,21 +1,20 @@
 #!/usr/bin/env node
 import dotenv from 'dotenv';
 import minimist from 'minimist';
+import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { readFile, writeFile } from 'node:fs/promises';
 import { from } from 'rxjs';
 import {
   catchError,
+  concatMap,
+  delay,
   finalize,
   map,
   switchMap,
-  concatMap,
-  delay,
 } from 'rxjs/operators';
-import { textToAudio } from './lib/lib.mjs';
+import { createElevenLabsClient } from './lib/eleven-labs.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
-import { createWriteStream } from 'node:fs';
 
 /**
  * A script that runs the Dall-E image generation model from OpenAI and posts the result to Mastodon,
@@ -39,6 +38,9 @@ if (opts?.help) {
   console.log(`  --openAIToken        OpenAI access token`);
   console.log(`  --textToAudioToken   Token for ElevenLabs text to audio API`);
   console.log(`  --maxTokens          Max tokens to use for the OpenAI prompt`);
+  console.log(
+    `  --voiceId            The ID of the voice to use for the text to audio API`
+  );
   process.exit(0);
 }
 
@@ -49,13 +51,11 @@ const TEXT_TO_AUDIO_API_KEY =
   opts?.textToAudioToken ?? process.env.TEXT_TO_AUDIO_API_KEY;
 
 const max_tokens = opts?.maxTokens ?? 100;
-
-const ARNOLD_VOICE = 'VR6AewLTigWG4xSOukaG';
-const ELLI_VOICE = 'MF3mGyEYCl7XYWbV9V6O';
+const voiceId = opts?.voiceId ?? 'MF3mGyEYCl7XYWbV9V6O'; // Elli
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
-const audioClient = textToAudio(TEXT_TO_AUDIO_API_KEY, ELLI_VOICE);
+const audioClient = createElevenLabsClient(TEXT_TO_AUDIO_API_KEY);
 const entriesFilePath = path
   .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
   .split(':')[1];
@@ -89,30 +89,17 @@ openAI
       if (!content) {
         throw new Error('No content returned from OpenAI');
       }
-      const out = createWriteStream(`${audioFilePath}/${response.id}.mp3`);
       console.log('Generating Audio File...');
-      return from(audioClient.say(content).then((r) => r.data))
+      return audioClient
+        .say(content, voiceId, `${audioFilePath}/${response.id}.mp3`)
         .pipe(
-          concatMap((data) => {
-            return new Promise((resolve, reject) => {
-              data.pipe(out);
-              let error = null;
-              out.on('error', (err) => {
-                error = err;
-                writer.close();
-                reject(err);
-              });
-              out.on('close', () => {
-                if (!error) {
-                  resolve(true);
-                }
-              });
-            });
-          })
-        )
-        .pipe(map(() => ({file: `${audioFilePath}/${response.id}.mp3`, description: content})));
+          map(() => ({
+            file: `${audioFilePath}/${response.id}.mp3`,
+            description: content,
+          }))
+        );
     }),
-    concatMap(({file, description}) => {
+    concatMap(({ file, description }) => {
       console.log('Uploading Audio File...');
       return mastodon.postMedia(file, description).pipe(delay(10000));
     }),

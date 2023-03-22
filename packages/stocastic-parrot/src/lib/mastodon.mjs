@@ -103,7 +103,7 @@ export function createMastodonClient(
             );
             return throwError(() => error);
           }),
-          retry({ count: 3, delay: 1000 }),
+          retry({ count: 3, delay: 5000 }),
           map((data) => {
             if (!firstTootUrl) {
               firstTootUrl = data.url;

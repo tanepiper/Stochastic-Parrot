@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wuJ6rZqELVW43GRyx21wUGyl0rTJ",
+  "object": "chat.completion",
+  "created": 1679497488,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 100,
+    "total_tokens": 107
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Savoring the small victories in life means taking joy and satisfaction in the smaller achievements or moments, rather than only focusing on major milestones or significant events. It's about appreciating the everyday occurrences that often go unnoticed or uncelebrated, but still contribute to our overall well-being and happiness.\n\nExamples of small victories might include:\n\n1. Completing a task you've been putting off for a while.\n2. Receiving positive feedback at work.\n3. Finding time to engage in an"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

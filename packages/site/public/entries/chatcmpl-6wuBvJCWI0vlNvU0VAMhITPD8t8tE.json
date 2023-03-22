@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wuBvJCWI0vlNvU0VAMhITPD8t8tE",
+  "object": "chat.completion",
+  "created": 1679497043,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 100,
+    "total_tokens": 107
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, espresso is usually served as one shot or two shots. A single shot of espresso typically contains 6-8 grams of ground coffee and yields about 1 ounce (30 milliliters) of liquid. A double shot, also known as a doppio, uses twice the amount of ground coffee and produces around 2 ounces (60 milliliters) of liquid.\n\nPreferences for single or double shots may vary depending on personal taste and the strength desired in an espresso-based drink like"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

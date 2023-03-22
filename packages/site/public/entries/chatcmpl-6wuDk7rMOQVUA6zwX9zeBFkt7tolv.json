@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wuDk7rMOQVUA6zwX9zeBFkt7tolv",
+  "object": "chat.completion",
+  "created": 1679497156,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 100,
+    "total_tokens": 107
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The best platform for online coding courses is subjective and depends on your learning preferences, budget, and what programming languages or skills you want to learn. There are several reputable platforms that offer quality coding courses:\n\n1. Coursera - Offers a wide variety of coding courses from top universities (e.g., Stanford and University of Michigan). It provides a mix of free courses, as well as paid specialization certificates.\n\n2. Codecademy - Provides interactive learning with hands-on exercises in various programming languages like"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

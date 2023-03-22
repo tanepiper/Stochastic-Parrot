@@ -71,7 +71,7 @@ export function createOpenAIInstance(apiKey) {
         }
         return throwError(() => error);
       }),
-      retry({ count: 3, delay: 1000 })
+      retry({ count: 3, delay: 5000 })
     );
   }
 
@@ -103,7 +103,7 @@ export function createOpenAIInstance(apiKey) {
         }
         return throwError(() => error);
       }),
-      retry({ count: 3, delay: 1000 })
+      retry({ count: 3, delay: 5000 })
     );
   }
 
