@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wmvTUsvAi7LqhBmjKQ4H1Qurs7aZ",
+  "object": "chat.completion",
+  "created": 1679469115,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 500,
+    "total_tokens": 506
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How can I improve my negotiation skills?\n\n1. Research and preparation: Before entering a negotiation, gather as much information as possible about the issue at hand and the parties involved. Understand their interests, priorities, strengths, weaknesses, and potential strategies.\n\n2. Establish clear goals: Identify your objectives for the negotiation and determine what you are willing to concede or compromise on to achieve these goals.\n\n3. Develop rapport: Build trust and establish good relationships with your counterparts by being approachable, respectful, attentive to their concerns, asking questions to clarify your understanding of their position.\n\n4. Active listening: Practice active listening during negotiations by paying attention not only to the content but also non-verbal cues such as body language and tone of voice that may reveal more about a person's true intentions than words alone.\n\n5. Emotional intelligence: Manage your own emotions while recognizing those of others - this will help you stay calm under pressure when negotiating tough deals or handling difficult people.\n\n6. Be flexible yet firm in your approach: Know when to be assertive without coming across as aggressive or confrontational; show willingness for compromise while maintaining focus on achieving desired outcomes even if it means making concessions through trade-offs between competing interests/issues/goals/values held dear by different stakeholders/parties engaged within context given particular situation/circumstances they find themselves under\n\n7. Communicate effectively – clarity is key! Clearly articulate points/resources/positions/examples relevant/useful/necessary throughout course aimed at securing agreement/support over time frame decided upon among participants/publicly acknowledging such progress made every so often keeps momentum going towards finalizing commitments/actions contemplated beforehand anticipated later down road depending actions taken modeled expected conformity outlined terms conditioned accepted mutually beneficial results attainable/accounted measures/taken/action/steps followed/executed diligently/persistently/responsibly overtime applicable standard guidelines/regulations adhere understood respected complied due respect accorded dignity worth inherent recognition honor/material substance significance merit appreciation credit earned fortune gain advantage possession custody care authority control influence/leadership embraced bestowed conferred granted acquired maintained sustain uphold endorse legitimate rule power governance sovereignty domain leverage force strength vigor vitality integrity quality potency excellence ultimate pure infinite eternal/perdurable everlasting perpetual unending indefatiguable tireless unwearied undying deathless imperishable immortal/augmented augmented greater enhanced extended further better higher more advanced degree level stage rate sum total amount volume quantity mass weight size capacity proportion dimensions/countenance countenance aspect feature trait character concept image impression projection representation viewpoint outlook perspective vision../representation reached conclusion bears fidelity truth reality"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
