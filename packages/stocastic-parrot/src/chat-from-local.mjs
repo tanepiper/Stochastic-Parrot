@@ -28,12 +28,14 @@ if (opts?.help) {
   console.log(`  --help             Show this help message`);
   console.log(`  --mastodonToken    Mastodon access token`);
   console.log(`  --openAIToken      OpenAI access token`);
+  console.log(`  --maxTokens        Max tokens to pass to chat`);
   process.exit(0);
 }
 
 const OPEN_API_KEY = opts?.openAIToken ?? process.env.OPENAI_API_KEY;
 const MASTODON_ACCESS_TOKEN =
   opts?.mastodonToken ?? process.env.MASTODON_ACCESS_TOKEN;
+  const max_tokens = opts?.maxTokens ?? 250;
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
@@ -54,7 +56,7 @@ mastodon
       return prompt;
     }),
     switchMap((toot) =>
-      openAI.getChat(toot).pipe(
+      openAI.getChat(toot, { max_tokens }).pipe(
         switchMap((response) =>
           from(
             writeFile(
