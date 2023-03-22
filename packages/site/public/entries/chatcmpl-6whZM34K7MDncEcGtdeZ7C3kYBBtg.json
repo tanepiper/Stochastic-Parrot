@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6whZM34K7MDncEcGtdeZ7C3kYBBtg",
+  "object": "chat.completion",
+  "created": 1679448524,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 500,
+    "total_tokens": 506
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to make a slideshow with PowerPoint:\n\n1. Open Microsoft PowerPoint: Start by opening the Microsoft PowerPoint application on your device.\n\n2. Create a new presentation: Click \"File\" in the top left corner, then click \"New\", and select \"Blank Presentation.\"\n\n3. Choose your design theme: On the right-hand side of the screen, you'll see a list of design themes available for your presentation. Scroll through them and choose one by clicking on it.\n\n4. Select slide layout: Once you've chosen a design theme, go to the Home tab at the top of the screen, click on “New Slide” dropdown menu, and choose from several different layouts available.\n\n5. Add content to slides: To add text to your slides, simply click inside any text box that appears within each slide layout and start typing. For most slides with content placeholders such as pictures or charts, simply click on elements like icons or thumb images to insert relevant information.\n\n6. Insert additional slides: If you want more than one slide in your presentation, just repeat Steps 4-5 above until you have all desired number of slides included in your project.\n\n7. Apply transitions between slides (Optional): Transitions can bring some extra flair into presentations when used sparingly but appropriately selected depending upon topic matter being discussed throughout deck creation process itself!– here’s how;\n    - Click ‘Transitions’ located atop main toolbar\n    - Browse &_preview_available_transition_effects_given_within transition pane (exiting going across right-hand area pertaining somewhat under main toolbar option truly granting user best experience)\n8. Customize animation effects (Optional): Animation effects are another way to keep audience engaged during presentations.\n   *Select_an_item_or_text_box_location_almost_anywhere_around_objects_deeply concerned_about_reasons_causing_emotion_or_positively_shifting_focus_directed_toward_animation_list_type_\n\n9.Beginning_sequential_order_Animation_effects_tooltip_panel_visible_\n10.Use_toolbar_properly_launching_custom_animation_settings_menu_changing_properties_pertaining_specific_element_branching_over_switch_between_different_makers_term_use_existing_multiple_annum_types_sliding_pattern_friendly_picture_view_appear_more_attractive_options\n\n11.Save Your Presentation,: Always remember frequently saving progress made creating folders directing files external software tools holding characters numbering beginning_four_repeat_mental_accidental_injury_distance_travel_area_lookup_keyboard_enters_file_application_until_priory_bound_reaches_stretch_likes_pen_smartphone_display_crash_issues_to_be_worked._starts"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
