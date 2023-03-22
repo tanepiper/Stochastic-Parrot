@@ -38,6 +38,7 @@ if (opts?.help) {
   console.log(`  --mastodonToken      Mastodon access token`);
   console.log(`  --openAIToken        OpenAI access token`);
   console.log(`  --textToAudioToken   Token for ElevenLabs text to audio API`);
+  console.log(`  --maxTokens          Max tokens to use for the OpenAI prompt`);
   process.exit(0);
 }
 
@@ -46,6 +47,8 @@ const MASTODON_ACCESS_TOKEN =
   opts?.mastodonToken ?? process.env.MASTODON_ACCESS_TOKEN;
 const TEXT_TO_AUDIO_API_KEY =
   opts?.textToAudioToken ?? process.env.TEXT_TO_AUDIO_API_KEY;
+
+const max_tokens = opts?.maxTokens ?? 100;
 
 const ARNOLD_VOICE = 'VR6AewLTigWG4xSOukaG';
 const ELLI_VOICE = 'MF3mGyEYCl7XYWbV9V6O';
@@ -66,7 +69,7 @@ const audioFilePath = path
  * public folder, then post it to Mastodon.
  */
 openAI
-  .getChat(prompt, { max_tokens: 100 })
+  .getChat(prompt, { max_tokens })
   .pipe(
     switchMap((response) =>
       from(

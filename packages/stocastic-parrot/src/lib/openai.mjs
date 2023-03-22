@@ -56,7 +56,7 @@ export function createOpenAIInstance(apiKey) {
    * @returns import('rxjs').Observable<CreateChatCompletionResponse>
    */
   function getChat(prompt = '', options = {}) {
-    options = { ...options, ...DEFAULT_CHAT_OPTIONS };
+    options = { ...DEFAULT_CHAT_OPTIONS, ...options };
     return from(
       apiInstance.createChatCompletion({
         ...options,
@@ -88,7 +88,7 @@ export function createOpenAIInstance(apiKey) {
    * @returns import('rxjs').Observable<ImageResponse>
    */
   function getImages(prompt = ' ', options = {}) {
-    options = { ...options, ...DEFAULT_IMAGES_OPTIONS };
+    options = { ...DEFAULT_IMAGES_OPTIONS, ...options };
     return from(
       apiInstance.createImage({
         prompt: prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error
