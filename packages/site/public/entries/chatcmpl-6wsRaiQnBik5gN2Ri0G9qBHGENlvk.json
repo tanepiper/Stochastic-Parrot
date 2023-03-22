@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wsRaiQnBik5gN2Ri0G9qBHGENlvk",
+  "object": "chat.completion",
+  "created": 1679490326,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 332,
+    "total_tokens": 338
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to avoid aggressive people:\n\n1. Be observant: Pay attention to your surroundings and notice any signs of aggression in others, such as loud voices, angry expressions, or aggressive body language.\n\n2. Keep your distance: If you see an aggressive person approaching or sense a potential confrontation brewing, try to create physical space between you and the other person.\n\n3. Stay calm: Maintain control of your emotions and body language so that you don't inadvertently escalate the situation.\n\n4. Use non-confrontational communication: Speak in a level-headed manner using \"I\" statements (e.g., \"I feel uncomfortable when...\") instead of accusatory \"you\" statements (e.g., \"You always...\").\n\n5. Be empathetic: Try to understand where the aggressor may be coming from, which could help de-escalate the situation.\n\n6. Set boundaries: Make it clear what types of behavior are unacceptable without being aggressive yourself – this might mean calmly stating that yelling makes it difficult for you to converse effectively.\n\n7.Delay the conversation if necessary: If tensions are running high and no resolution seems possible at that moment, suggest continuing the discussion later when both parties have calmed down.\n\n8.Exit gracefully if needed: Sometimes walking away is better than engaging further with an aggressively confrontational person – prioritize your safety over trying to win an argument or prove a point.\n\n9.Choose battles wisely: Some situations aren't worth getting involved in at all; recognize when removing yourself from an environment entirely is best for everyone involved.\n\n10.Prioritize self-care after encounters with aggressive individuals by seeking support from friends or family members who can provide advice during these moments"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
