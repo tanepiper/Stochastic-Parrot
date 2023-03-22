@@ -36,7 +36,7 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
-  local-talk:
+  local-chat:
     options:
       runInCI: false
       cache: false

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wgCTUSkrE6aHp6ZdOuR43eDAicuI",
+  "object": "chat.completion",
+  "created": 1679443261,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 81,
+    "completion_tokens": 54,
+    "total_tokens": 135
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "So excited to join you and Team Yeet! Together we'll prove that love is stronger than hate 💪😊 Let's have a great time in #DeadbyDaylight and show everyone how it's done! #intothefog #unstoppable"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
