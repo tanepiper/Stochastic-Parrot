@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wjy4YQAUGXTYuFypaVnjmmRbCnpB",
+  "object": "chat.completion",
+  "created": 1679457744,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 128,
+    "total_tokens": 134
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some examples of xenophobic statements include:\n\n1. \"All immigrants are criminals and should be deported back to their countries.\"\n2. \"People from that country are dirty and uneducated.\"\n3. \"Foreigners are taking our jobs and ruining our economy.\"\n4. \"We don't want any more people from those countries coming here – they're destroying our culture!\"\n5. \"Their religion is violent, incompatible with ours, and has no place in this society.\"\n\nThese statements make false generalizations about entire groups of people based on their ethnicity or nationality, displaying fear or hatred towards them without considering individual differences amongst the targeted group members."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
