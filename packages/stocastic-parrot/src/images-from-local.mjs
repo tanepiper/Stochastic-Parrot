@@ -47,7 +47,7 @@ const dalleNumberOfImages = opts?.numImages ?? 2;
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const filePath = path
-  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
+  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'dall-e')
   .split(':')[1];
 
 mastodon

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6whHRTIfrFQyVqGa9ebZOzAbCapk9",
+  "object": "chat.completion",
+  "created": 1679447413,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 134,
+    "total_tokens": 141
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some countries with water scarcity include:\n\n1. Yemen\n2. Libya\n3. Jordan\n4. Western Sahara\n5. Djibouti\n6. Eritrea\n7. Somalia\n8. Qatar\n9. United Arab Emirates (UAE)\n10.Kuwait\n\nThere are more countries in various regions of the world that face significant water scarcity issues, but this list presents a sample across different continents and geographies.\n\nPlease note that water scarcity is not fixed – it can be exacerbated by factors such as climate change, population growth, and resource mismanagement, which means it may affect more or fewer countries over time depending on these circumstances.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

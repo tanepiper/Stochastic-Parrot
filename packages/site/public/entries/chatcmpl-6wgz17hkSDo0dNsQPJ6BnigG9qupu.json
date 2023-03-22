@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wgz17hkSDo0dNsQPJ6BnigG9qupu",
+  "object": "chat.completion",
+  "created": 1679446271,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 361,
+    "total_tokens": 368
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A tornado is a rapidly rotating column of air that forms in violent thunderstorms and extends from the storm's base to the ground. It typically appears as a dark funnel-shaped cloud, with strong winds reaching speeds up to 300 mph or higher.\n\nThere are multiple stages of a tornado's life cycle:\n\n1. Supercell Formation: Tornadoes usually form within supercell thunderstorms, which are severe storms characterized by powerful updrafts, intense precipitation, and often large hailstones.\n\n2. Mesocyclone Development: A mesocyclone is formed when warm moist air rises into the cooler atmosphere above it causing an upward spinning effect due to differences in wind speed and direction at various altitudes called wind shear.\n\n3. Tornado Genesis: The mesocyclone intensifies as it receives additional rotation from surface friction between the inflow and outflow sides of the storm system. This increased rotation can cause a wall cloud to form beneath the storm initially lowering down on one side closer to Earth’s surface\n\n4. Touchdown: As these formations lower towards the ground they become more concentrated creating vortexes with surrounding faster-moving cyclonic airflow forming an actual tornado touching down near Earths’ surface (it can lift debris off surfaces.)\n\n5.Enter mature stage - When a tornado reaches its mature stage fuelled by warm updraft supplying energy needed for continued development & growth; damage caused during peak power may vary depending scale Fujita Damage rating systems used globally)\n\n6.Weakening/decaying phase – Eventually cool dense downdraft occludes original uptake supply leads weaken dissipates until gone completely+\n7.Dissipation : After depleting hours events became weaker+adverse state being unable maintain normal existence resulting tornadic activity passing unclear time leaving only reminder occurred devastation brought lives afflicted structural destruction++"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

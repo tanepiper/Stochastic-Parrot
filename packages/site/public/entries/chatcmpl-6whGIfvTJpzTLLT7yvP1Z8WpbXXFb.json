@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6whGIfvTJpzTLLT7yvP1Z8WpbXXFb",
+  "object": "chat.completion",
+  "created": 1679447342,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 359,
+    "total_tokens": 366
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few main differences between spoken language and written language:\n\n1. Spontaneity: Spoken language is generally more spontaneous than written language. When we speak, our words are often unplanned and unrehearsed, whereas when we write, there is often time to plan, revise and edit what we want to say.\n\n2. Vocabulary: Written language tends to use a larger vocabulary than spoken language – this includes longer words, more formal vocabulary and slang or colloquial expressions might be used less frequently in writing.\n\n3. Structure: In general, written sentences tend to be longer and more complex than spoken ones. Written text requires proper punctuation marks to indicate pauses or changes in tone; however these occur naturally during speaking due to modulation of voice.\n\n4. Persistence: One of the main differences between speech and writing lies in their persistence after they have been produced. Speech disappears as soon as it’s uttered (unless recorded), while written text remains visible even long after it has been penned down all allowing multiple people read it at different times.\n\n5.Tone & Emphasis : In spoken languages you can hear directly change of emotions through speaker's intonation which can give context or emphasis on certain points according listener's reactions . In contrast with that non-verbal cues such as facial expression , body movement provides extra information about intended meaning behind said dialogue .\n\n6.Formality : Writing usually adheres stricter grammatical rules conforming traditional standards usage , resulting somewhat rigid style compared informal conversational situations .\n\n7.Error Correction Capability - As mentioned before revision possible much easier done editing piece work ; true because constant feedback receive listening other peoples responses moment talk -\n\n8.Interactivity – One significant aspect verbal exchanges interactive nature engage participants interact real-time respond accordingly whereas writer reader separated time space cannot access immediate reaction response.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

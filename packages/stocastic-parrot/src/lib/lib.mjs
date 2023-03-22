@@ -1,4 +1,6 @@
 import crypto from 'node:crypto';
+import { createWriteStream } from 'node:fs';
+import axios from 'axios';
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
@@ -16,3 +18,37 @@ export const randomNumber = (onlyPositive = false) =>
       : -1
     ).toFixed(2)
   );
+
+function sanitize(string) {
+  const map = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#x27;',
+    '/': '&#x2F;',
+  };
+  const reg = /[&<>"'/]/gi;
+  return string.replace(reg, (match) => map[match]);
+}
+
+export function textToAudio(apiKey = '', voice = '') {
+  async function say(text) {
+    text = sanitize(text);
+
+    const url = `https://api.elevenlabs.io/v1/text-to-speech/${voice}`;
+    return await fetch(url, {
+      method: 'post',
+      data: { text },
+      headers: {
+        Accept: 'audio/mpeg',
+        'xi-api-key': apiKey,
+        'Content-Type': 'application/json',
+      },
+    }).then((res) => res.arrayBuffer());
+  }
+
+  return {
+    say,
+  };
+}

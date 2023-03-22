@@ -52,3 +52,11 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
+  polly-audio:
+    options:
+      runInCI: false
+      cache: false
+    command: 'npm run audio'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
