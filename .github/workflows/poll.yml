@@ -1,0 +1,78 @@
+name: 'Polly Polls'
+
+on:
+  schedule:
+    - cron: 0 */8 * * *
+  workflow_dispatch:
+    inputs:
+      pollySays:
+        type: string
+        description: Is there a poll topic?
+        required: false
+
+jobs:
+  stochastic-parrot:
+    name: 🦜 Make Polly Poll
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v3.0.2
+        with:
+          token: ${{ secrets.GH_PAT }}
+          ref: ${{ github.head_ref }}
+          clean: true
+      - name: Setup Moon
+        uses: moonrepo/setup-moon-action@v1
+      - name: 🛠 NodeJS
+        uses: actions/setup-node@v3
+        with:
+          cache: 'npm'
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Get npm cache directory
+        id: npm-cache-dir
+        shell: bash
+        run: echo "dir=$(npm config get cache)" >> ${GITHUB_OUTPUT}
+      - uses: actions/cache@v3
+        id: npm-cache # use this to check for `cache-hit` ==> if: steps.npm-cache.outputs.cache-hit != 'true'
+        with:
+          path: ${{ steps.npm-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install Deps
+        if: ${{ steps.npm-cache-dir.outputs.cache-hit != 'true' }}
+        run: npm install
+      - name: Run Script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        run: |
+          if [[ "${{github.event.inputs.pollySays}}" == "" ]]; then
+            echo "Generating Response from nothing"
+            moon run stocastic-parrot:poll
+          else
+            echo "Passing prompt: ${{github.event.inputs.pollySays}}"
+            moon run stocastic-parrot:poll -- "${{github.event.inputs.pollySays}}"
+          fi
+      # Commit all files changes including docs
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "SKWAK: Data Added" -a || true
+      # Push the changes back to the repo
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          github_token: ${{ secrets.GH_PAT }}
+          tags: true
+          force: true
+
+  deploy-site:
+    name: 📦 Update Polly's Website
+    uses: './.github/workflows/static.yml'
+    needs: stochastic-parrot
+    secrets: inherit

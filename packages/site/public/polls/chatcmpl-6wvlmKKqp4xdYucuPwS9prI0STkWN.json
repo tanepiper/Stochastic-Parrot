@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wvlmKKqp4xdYucuPwS9prI0STkWN",
+  "object": "chat.completion",
+  "created": 1679503110,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 36,
+    "total_tokens": 77
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fruit do you enjoy the most?\",\n  \"answers\": [\"Apple\", \"Banana\", \"Grape\", \"Strawberry\"]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

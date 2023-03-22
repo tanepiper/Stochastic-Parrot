@@ -8,6 +8,7 @@
     "audio": "node src/audio.mjs",
     "chat": "node src/chat.mjs",
     "image": "node src/images.mjs",
+    "poll": "node src/poll.mjs",
     "test": "node src/test.mjs",
     "chat:local": "node src/chat-from-local.mjs",
     "image:local": "node src/images-from-local.mjs"

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wvptZ9AJpM7N7qU6cIk9daoTL42U",
+  "object": "chat.completion",
+  "created": 1679503365,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 60,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which classic '80s video game console is your all-time favorite?\",\n  \"answers\": [\n    \"Nintendo Entertainment System (NES)\",\n    \"Sega Master System\",\n    \"Atari VCS/2600\",\n    \"ColecoVision\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

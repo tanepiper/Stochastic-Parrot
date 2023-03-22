@@ -20,6 +20,8 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
+    output:
+      - 'public/entries'
   images:
     options:
       runInCI: false
@@ -28,6 +30,9 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
+    output:
+      - 'public/entries'
+      - 'public/dalle'
   audio:
     options:
       runInCI: false
@@ -36,6 +41,19 @@ tasks:
     inputs:
       - 'src/**/*'
       - 'package.json'
+    output:
+      - 'public/entries'
+      - 'public/audio'
+  poll:
+    options:
+      runInCI: false
+      cache: false
+    command: 'npm run poll'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
+    output:
+      - 'public/polls'
   polly-tests:
     options:
       runInCI: false

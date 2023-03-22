@@ -106,7 +106,7 @@ openAI
     switchMap((media) => {
       console.log('Posting Audio File...');
       const status = prompt !== ' ' ? `💬` : `🦜`;
-      return mastodon.sendToots(`${status}`, [media]);
+      return mastodon.sendToots(`${status}`, { media_ids: [media] });
     }),
 
     map((tootUrl) => {

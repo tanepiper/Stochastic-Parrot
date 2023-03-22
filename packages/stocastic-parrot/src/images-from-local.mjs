@@ -96,9 +96,9 @@ mastodon
             );
           }),
 
-          switchMap((media) => {
+          switchMap((media_ids) => {
             const status = prompt !== ' ' ? `💬` : `🦜`;
-            return mastodon.sendToots(`${status}`, media);
+            return mastodon.sendToots(`${status}`, { media_ids });
           }),
           map((tootUrl) => {
             if (!tootUrl) {
