@@ -20,7 +20,7 @@ const allItems = items ?? [];
           <div class='item'>
         <p>
           <code>
-            <a href={`/entries/view/${data.id}`}>permalink</a> |
+            <a href={`/audio/view/${data.id}`}>permalink</a> |
             created: {data.created} (
             {new Date(data.created * 1000).toISOString()}) | model: {data.model}{' '}
             | total_tokens: {data.usage.total_tokens}

@@ -5,16 +5,25 @@ import { createEntriesLoader } from '../../../libs/entries.mjs';
 
 export async function getStaticPaths() {
   const loader = createEntriesLoader();
-  const entries = await loader.loadEntries();
-  return entries.map((entry) => ({
-    params: {
-      page: entry.id,
-    },
-    props: entry,
+  const entries = await loader.getAudioFiles();
+  return await Promise.all(entries.map(async(entry) => {
+    const name = entry.replace('.mp3', '');
+    const data = await import(
+      /* @vite-ignore */
+      `./../../../../public/entries/${name}.json`
+    )
+      .then((module) => module.default)
+      .then((data) => ({ file: entry, data }));
+    return {
+      params: {
+        page: name,
+      },
+      props: data,
+    };
   }));
 }
 
-const { ...page } = Astro.props;
+const { file, data } = Astro.props;
 ---
 
 <Layout
@@ -22,21 +31,31 @@ const { ...page } = Astro.props;
 >
   <main>
     <div class='item-list-container'>
-      <p class='intro'><a href='/entries' class='go-back'>Go Back</a></p>
+      <p class='intro'><a href='/audio' class='go-back'>Go Back</a></p>
       <div class='item'>
         <p>
           <code>
-            <a href={`/entries/view/${page.id}`}>permalink</a> | created: {
-              page.created
+            <a href={`/audio/view/${data.id}`}>permalink</a> | created: {
+              data.created
             } (
-            {new Date(page.created * 1000).toISOString()}) | model: {
-              page.model
+            {new Date(data.created * 1000).toISOString()}) | model: {
+              data.model
             }{' '}
-            | total_tokens: {page.usage.total_tokens}
+            | total_tokens: {data.usage.total_tokens}
           </code>
         </p>
         <div class='contents'>
-          <Markdown of={page.choices[0].message.content} />
+          <figure>
+            <figcaption>Listen to Polly:</figcaption>
+            <audio
+                controls
+                src={`/audio/${file}`}>
+                    <a href={`/audio/${file}`}>
+                        Download audio
+                    </a>
+            </audio>
+        </figure>
+          <Markdown of={data.choices[0].message.content} />
         </div>
       </div>
     </div>
