@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wpaQpU8lq3gcEIspTYHTGhbOze9r",
+  "object": "chat.completion",
+  "created": 1679479342,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 500,
+    "total_tokens": 506
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to make bean sprouts at home:\n\n1. Buy a sprouting kit: Sprouting kits can be purchased online or in stores and usually consist of a jar or other type of container, along with instructions and possibly some seeds to get started.\n\n2. Use a mason jar: If you prefer not to buy a dedicated sprouter, it's easy to use any large glass jar (like a quart-sized mason jar) with either mesh, cheesecloth, or plastic canvas for ventilation.\n\nHere's the step-by-step process for using either method:\n\n1. Choose your beans: You can grow various types of seeds like mung beans, lentils, alfalfa seeds, etc., depending on your preference for flavor and texture.\n\n2. Measure out about ¼ cup of the chosen seed/bean \n\n3. Rinse them thoroughly under tap water\n\n4. Place them in the sprouting container – either the jar from your kit or the DIY mason jar setup mentioned above – ensuring they cover only one even layer at the bottom without overlapping. This will provide enough room for expansion as they grow\n\n5.Fill up your container with enough water so there is twice as much water as there are beans/seeds\n \n6.Cover mouth/container top within raisins layers fine screening/mesh material secured down by rubber band \n Make sure air circulates through that but keeps unwanted debris out \n\n7.Soak them overnight - this jumpstarts roots emerging\n\n\n8.Drain off excess water away after soaking period completed\nAllow drainage properly tiltsupported good angle stainless steel spoon edge prevents sedimentation mold occurrence \nRepeat rinse drain cycles as follows:\n-Rinse 2-3 times per day w/ freshens each between dryings assists flourishing future growth quick succession keep moist except extreme scenarios evaporation counteracted replenishment constant care allows cleaner environment avoids dreaded spoilage ailments possibilities disasters concerns stinky slimy problems overlooked decayed odors emitted all yeast populations rising bacterial levels unchecked gnarly hazards due unavoidable problematic issues led negligence ending less favorable fungi conquering territory destroy ruining expectations people losing interest gasping hope factor b+\n-Major cause lost causes dirty homegrown witnessed firsthand learners first-timers experiencing nurturing feeding providing adequate hydration while maintaining diligence paying close consideration recognizes nuances managing watering routine equipment recommendations best practices successfully mastering harvesting effects cultivation greenhouse gardens indoor creative commons organic yield maximizing sustainable cost-efficient low-budget alternatives requiring minimal labor artistic feasible solutions saving economies scaling fostering contributions personal narratives testimonies blog posts explanation"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
