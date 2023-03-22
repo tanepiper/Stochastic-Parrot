@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6wtKve1MEG9GiPsKG8xisKMogNRbs",
+  "object": "chat.completion",
+  "created": 1679493757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 250,
+    "total_tokens": 256
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Establish eye contact: Look directly into someone's eyes when talking to them. This shows that you are genuinely interested in the conversation and makes the other person feel heard and acknowledged.\n\n2. Be mindful of personal space: Do not stand too close, as this can make people uncomfortable. Maintain a distance of about an arm's length when speaking with others.\n\n3. Use body language effectively: Make use of open, positive gestures such as nodding, smiling and maintaining a relaxed posture to show that you are engaged in the conversation.\n\n4. Actively listen: Focus on what the other person is saying without interrupting or preparing your response while they speak.\n\n5. Ask relevant follow-up questions: Show genuine interest by asking related questions or making appropriate comments based on what the other person has said.\n\n6. Avoid fidgeting or looking at your phone during conversations; it signals disinterest or impatience.\n\n7. Give compliments sincerely but do not overdo it; insincere praise can come across as fake and manipulative\n\n8.Express empathy by acknowledging someone’s feelings or circumstances through active listening, reflective statements and offering support if needed\n\n9.Find common ground; shared interests create connections between individuals \n\n10.Monitor non-verbal"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
