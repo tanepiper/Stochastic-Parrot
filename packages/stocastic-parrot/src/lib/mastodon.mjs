@@ -52,7 +52,11 @@ function splitToots(messageToToot, withMedia = false, withPoll = false) {
       status = `${messageToToot}`;
       if (toots.length === 0) {
         status = `${status}\n\n${
-          withMedia ? MEDIA_TOOT_HASHTAGS : (withPoll ? POLL_TOOT_HASHTAGS : CHAT_TOOT_HASHTAGS)
+          withMedia
+            ? MEDIA_TOOT_HASHTAGS
+            : withPoll
+            ? POLL_TOOT_HASHTAGS
+            : CHAT_TOOT_HASHTAGS
         }`;
       }
       messageToToot = '';
@@ -82,8 +86,12 @@ export function createMastodonClient(
    * @param {object} options Optional options
    * @returns
    */
-  function sendToots(postMessage, { media_ids = [], poll }) {
-    let messageParts = splitToots(postMessage, media_ids.length > 0, !!poll);
+  function sendToots(postMessage, { media_ids, poll } = {}) {
+    let messageParts = splitToots(
+      postMessage,
+      media_ids && media_ids.length > 0,
+      !!poll
+    );
     let firstTootUrl = '';
     let lastTootId = '';
 
@@ -93,7 +101,7 @@ export function createMastodonClient(
         if (lastTootId) {
           options.in_reply_to_id = lastTootId;
         }
-        if (media_ids.length > 0 && !lastTootId) {
+        if (media_ids && media_ids.length > 0 && !lastTootId) {
           options.media_ids = media_ids;
         }
         if (poll && !lastTootId) {
