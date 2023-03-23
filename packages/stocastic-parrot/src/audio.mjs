@@ -11,6 +11,7 @@ import {
   finalize,
   map,
   switchMap,
+  tap,
 } from 'rxjs/operators';
 import { createElevenLabsClient } from './lib/eleven-labs.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
@@ -76,9 +77,12 @@ const audioFilePath = path
  * RxJS operators to get the image URL, download the image, convert it to a webp, save it to the site
  * public folder, then post it to Mastodon.
  */
+console.log('🤖 Starting Stochastic Parrot - Creating Audio 🔈')
+
 openAI
   .getChat(prompt, { max_tokens })
   .pipe(
+    tap(() => console.log(`💾 Saving Response`)),
     switchMap((response) =>
       from(
         writeFile(
@@ -97,13 +101,14 @@ openAI
       if (!content) {
         throw new Error('No content returned from OpenAI');
       }
-      console.log('Generating Audio File...');
+      console.log(`Generating Audio File... ${content}`);
       return audioClient
         .say(content, voiceId, `${audioFilePath}/${response.id}.mp3`, {
           stability,
           similarity_boost,
         })
         .pipe(
+          tap(() => console.log(`💾 Saving Audio File`)),
           map(() => ({
             file: `${audioFilePath}/${response.id}.mp3`,
             description: content.substring(0, 1499),

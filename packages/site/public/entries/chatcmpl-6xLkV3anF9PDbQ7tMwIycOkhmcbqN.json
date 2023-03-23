@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xLkV3anF9PDbQ7tMwIycOkhmcbqN",
+  "object": "chat.completion",
+  "created": 1679602975,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 350,
+    "total_tokens": 358
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are numerous theories regarding the potential causes and contributing factors of autism, but the exact cause remains unknown. Here are some common theories about the cause of autism:\n\n1. Genetic factors: Research has shown that genetics play a significant role in the development of autism spectrum disorder (ASD). Multiple genes have been identified that may contribute to its development or increase susceptibility.\n\n2. Environmental factors: Some studies suggest that environmental factors during crucial stages of brain development, such as exposure to harmful substances or infections, could create changes in neurological function leading to ASD.\n\n3. Brain structure abnormalities: Various differences in brain structure, connectivity, and function have been observed between individuals with ASD and neurotypical individuals. Such changes could be involved in causing autistic traits or symptoms.\n\n4. Neurotransmitter imbalances: Imbalances or dysfunctions involving neurotransmitters like serotonin, dopamine, and glutamate might play a part in developing autistic traits.\n\n5. Prenatal influences: Certain prenatal conditions such as advanced parental age at conception or complications during pregnancy might increase susceptibility to ASD for specific reasons still under investigation by researchers.\n\n6. Immune system irregularities: Researchers have also found correlations between immune system disorders and ASD occurrence levels leading them to hypothesize an underlying connection involving inflammation processes impacting early brain development.\n\n7.Psychological Theories: This involves understanding how information is processed by those on the Autism Spectrum Disorder(ASD) learn differently from others specifically 'theory of mind' issues where they find it difficult predicting motives/intentions/emotions behind others actions\n\nWhile multiple aspects seem connected with autism's presence across populations worldwide today combined efforts across research fields will continue their investigations into determining this currently elusive cause while continuing treatment support advancements for existing affected communities wanting better ways managing any difficulties"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

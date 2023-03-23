@@ -49,21 +49,23 @@ export function errorHandlerWithDelay(
   return (source) =>
     source.pipe(
       catchError((error) => {
-        if (error.response.status === 401) {
+        console.log(error);
+        const response = error?.response ?? error;
+        if (response?.status === 401) {
           console.error('Unable to process request, please check your API key');
           process.exit(1);
         }
-        if (error.response.status === 429) {
+        if (response?.status === 429) {
           console.error(
             `Too many requests, trying again in ${retryConfig.delay}ms`
           );
         } else {
           console.error(
-            `${error.response.status}: ${error.response.statusText}`
+            `${response.status}: ${response.statusText}`
           );
         }
-        if (error?.response?.data?.error?.message) {
-          console.error(error.response.data.error.message);
+        if (response?.data?.error?.message) {
+          console.error(response.data.error.message);
         }
 
         if (retries < retryConfig.count) {
