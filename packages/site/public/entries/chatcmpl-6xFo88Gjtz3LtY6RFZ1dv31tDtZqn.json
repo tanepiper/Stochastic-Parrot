@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xFo88Gjtz3LtY6RFZ1dv31tDtZqn",
+  "object": "chat.completion",
+  "created": 1679580136,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 350,
+    "total_tokens": 356
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The five main layers of Earth's atmosphere are:\n\n1. Troposphere: This is the lowest layer of the atmosphere, extending from the Earth's surface up to about 8-15 kilometers (5-9 miles). It contains most of our weather and supports life as we know it. The temperature decreases with altitude in this layer.\n\n2. Stratosphere: The stratosphere lies above the troposphere, stretching from about 15 to 50 kilometers (9-31 miles) above the Earth's surface. In this layer, temperature increases with altitude due to absorption of ultraviolet radiation by ozone molecules. The ozone layer is situated within the stratosphere.\n\n3. Mesosphere: Located above the stratosphere and extending from around 50 to 85 kilometers (31-53 miles) high, temperatures in this region decrease with increasing height because there are fewer sunlight-absorbing gas particles. Meteors typically burn up as they enter this part of Earth's atmosphere.\n\n4. Thermosphere: Extending from approximately 85-600 kilometers (53-373 miles) high, it is characterized by steadily increasing temperatures as a result of solar radiation absorbed by oxygen and nitrogen ions in upper regions of molecular density namely auroral borealis or northern lights where one that occurs here..\n\n5. Exosphere - This is an outermost atmospheric boundary space transitioning into space some say extends between approximate heights ranging anywhere between roughly six hundred fifty-five thousand kilometre formed primarily hydrogen helium atoms becoming thinner higher elevations bordering near-vacuum interstellar medium fully defined edge isn’t definitive transition gradual occurs after passing through transitional zones commonly referred magnetopause at few earth radii away beyond direct contact planet’s exterior having interaction incoming cosmic matter solar wind"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
