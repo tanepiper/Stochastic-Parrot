@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x6RvqE6xlkGbf5HnAUqfoAXFOHFQ",
+  "object": "chat.completion",
+  "created": 1679544163,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 260,
+    "total_tokens": 266
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "James Corden is an English actor, comedian, and television host. He gained prominence in the UK as a TV host and later transitioned to acting roles on both stage and screen. In 2015, he became the host of The Late Late Show with James Corden on CBS.\n\nCarpool Karaoke is a segment from his talk show where celebrity guests join him for fun car rides while singing along to some of their favorite songs together. The concept was inspired by Gavin & Stacey, a British sitcom that featured characters engaging in \"carpool karaoke sessions.\" Over time, Carpool Karaoke has garnered significant popularity worldwide due to its entertaining format featuring popular celebrities letting down their guard in more casual settings.\n\nSome notable celebrities who have participated include Lady Gaga, Elton John, Mariah Carey, Adele, Justin Bieber, Michelle Obama (with Missy Elliott), Paul McCartney and many others. These clips become viral hits after airing on The Late Late Show with millions of views each episode online.\n\nIn summary:\nBritish comedian James Corden created Carpool Karaoke as part of his late-night talk show 'The Late Late Show with James Corden.' With celebrities participating in these candid sing-alongs during car rides accompanied by casual conversations made this one-of-a-kind segment very popular globally"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
