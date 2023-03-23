@@ -169,9 +169,22 @@ export function createMastodonClient(
     );
   }
 
+  function getStatus(id) {
+    return from(mastodon.getStatus(id)).pipe(
+      map((res) => res.data),
+      catchError((error) => {
+        console.error(`${error.response.status}: ${error.response.statusText}`);
+        return throwError(() => error);
+      }),
+      retry({ count: 3, delay: 5000 })
+    );
+  }
+
   return {
     postMedia,
     sendToots,
     getLocalTimeline,
+    getStatus,
+    client: mastodon
   };
 }

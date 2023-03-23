@@ -63,7 +63,6 @@ export function createOpenAIInstance(apiKey) {
         messages: [{ role: 'user', content: prompt }],
       })
     ).pipe(
-      map((response) => response.data),
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
         if (error?.response?.data?.error?.message) {
@@ -71,6 +70,7 @@ export function createOpenAIInstance(apiKey) {
         }
         return throwError(() => error);
       }),
+      map((response) => response.data),
       retry({ count: 3, delay: 5000 })
     );
   }
@@ -95,7 +95,6 @@ export function createOpenAIInstance(apiKey) {
         ...options,
       })
     ).pipe(
-      map((response) => response.data),
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
         if (error?.response?.data?.error?.message) {
@@ -103,6 +102,7 @@ export function createOpenAIInstance(apiKey) {
         }
         return throwError(() => error);
       }),
+      map((response) => response.data),
       retry({ count: 3, delay: 5000 })
     );
   }
