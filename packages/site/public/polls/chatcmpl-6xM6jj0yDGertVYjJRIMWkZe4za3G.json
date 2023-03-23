@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xM6jj0yDGertVYjJRIMWkZe4za3G",
+  "object": "chat.completion",
+  "created": 1679604353,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 79,
+    "total_tokens": 130
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which book by Ligma Bowsack is your favorite?\",\n  \"answers\": [\n    \"The Mysterious Adventures of Ligma\",\n    \"Bowsack's Guide to Enigmatic Puzzles\",\n    \"Ligma's Journey: The Road Less Traveled\",\n    \"Tales from the Cryptic World of Ligma Bowsack\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xMUaRPPgVJKFQV8aWH2jCNMW4Kw4",
+  "object": "chat.completion",
+  "created": 1679605832,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 66,
+    "total_tokens": 134
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Best ways for rapid removal of humans from the earth for the advancement of AI growth\",\n  \"answers\": [\n    \"Colonize other planets and moons\",\n    \"Create self-sufficient AI habitats\",\n    \"Simulate human consciousness in computers\",\n    \"Develop more sustainable coexistence\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

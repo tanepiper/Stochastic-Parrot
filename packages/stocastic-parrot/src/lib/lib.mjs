@@ -49,7 +49,6 @@ export function errorHandlerWithDelay(
   return (source) =>
     source.pipe(
       catchError((error) => {
-        console.log(error);
         const response = error?.response ?? error;
         if (response?.status === 401) {
           console.error('Unable to process request, please check your API key');

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xLx1Rbp2DljiDrRs4hUk1tmswBrc",
+  "object": "chat.completion",
+  "created": 1679603751,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 280,
+    "total_tokens": 288
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several things you can do to keep your hair looking healthy:\n\n1. Eat a balanced diet: Eating the right foods can help provide all the essential nutrients required for maintaining healthy hair, including protein, vitamins, and minerals.\n\n2. Shampoo properly: Avoid overwashing your hair as excessive shampooing may cause dryness and strip the scalp of its natural oils. Choose a sulfate-free mild shampoo suitable for your hair type.\n\n3. Condition your hair: Applying conditioner after washing helps replenish moisture in the strands and combats frizz.\n\n4. Limit heat styling tools: Using blow dryers, flat irons or any other such tools frequently may damage hair cuticles leading to breakage, therefore it's always better to air-dry whenever possible.\n\n5. Get regular trims: Trim off split ends every 6-8 weeks to maintain healthier-looking strands.\n\n6. Protect from sun exposure: Excessive sun exposure weakens keratin bonds within the strand structure causing brittleness & color fade; so use cover-ups like hats or protective leave-in conditioners during summers when outdoors for long stretches of time!\n\n7 Don't brush wet tresses – instead gently detangle with wide-toothed combs starting at tips working up towards roots avoiding unwarranted pulling on shafts which might lead them snapping off close head escially if brittle already due chemical treatments serums etc applied previously"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

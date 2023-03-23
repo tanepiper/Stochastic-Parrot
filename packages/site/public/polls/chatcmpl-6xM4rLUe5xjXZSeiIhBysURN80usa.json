@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xM4rLUe5xjXZSeiIhBysURN80usa",
+  "object": "chat.completion",
+  "created": 1679604237,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 51,
+    "total_tokens": 93
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional city would you most like to live in?\",\n  \"answers\": [\n    \"Hogwarts\",\n    \"Gotham City\",\n    \"Westeros\",\n    \"_Rivendell\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

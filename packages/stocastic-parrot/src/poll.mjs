@@ -32,8 +32,8 @@ if (opts?.help) {
 }
 
 const prompt = topic
-  ? `Generate a poll question about ${topic} with 4 answers, give the result as a JSON object with the property 'question' as a string and 'answers' as an array of strings`
-  : 'Generate a random poll question with 4 answers, give the result as a JSON object with the property `question` as a string and `answers` as an array of strings';
+  ? `Generate a poll question about ${topic} with 4 answers, give the result as a JSON object with the property 'question' as a string and 'answers' as an array of strings. Each answer should be max 50 characters.`
+  : 'Generate a random poll question with 4 answers, give the result as a JSON object with the property `question` as a string and `answers` as an array of strings. Each answer should be max 50 characters.';
 
 const OPEN_API_KEY = opts?.openAIToken ?? process.env.OPENAI_API_KEY;
 const MASTODON_ACCESS_TOKEN =
