@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from 'openai';
 import { from, throwError } from 'rxjs';
 import { map, retry, catchError } from 'rxjs/operators';
 import { randomNumber } from './lib.mjs';
-import config from '../config.mjs';
+import { retryConfig } from '../config.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 
