@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xLQjLdLCTHhCHfF1YpkQBU6yIodX",
+  "object": "chat.completion",
+  "created": 1679601749,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 19,
+    "total_tokens": 26
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Rhine River is approximately 1,230 kilometers (or 765 miles) long."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
