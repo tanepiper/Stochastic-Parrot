@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xJYhcJ93lslYnhw2cixmJh1hwbpL",
+  "object": "chat.completion",
+  "created": 1679594555,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 317,
+    "total_tokens": 323
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A salsa verde is a green sauce typically made from tomatillos, onions, garlic, cilantro, jalapeño or serrano peppers and lime juice. It is popular in Mexican cuisine and is usually served with tacos, enchiladas or grilled meats. The ingredients can be roasted for added depth of flavor or left raw for a fresh taste.\n\nTo make the sauce:\n\n1. Remove the husks from 10-12 medium-sized tomatillos and rinse them well.\n2. Roughly chop half an onion.\n3. Peel and mince two garlic cloves.\n4. Chop one jalapeño pepper (or more if you like it spicy), removing seeds if desired.\n5. In a blender or food processor, combine the tomatillos, onion, garlic, jalapeño pepper and about 1/2 cup packed fresh cilantro leaves (more or less depending on your preference).\n6. Add the juice of one lime and a pinch of salt.\n7. Blend until smooth.\n8.Optional: For improved depth of flavor before blending all ingredients together you can roast vegetables either under broiler in oven for 15 mins turning halfway through cooking time; once they are softened with slightly charred skins remove from heat place vegetables into blender proceed as directed.\n\nThe sauce will last up to one week when stored properly in an air-tight container in your refrigerator.\n\nYou can enjoy this flavorful sauce over eggs at breakfast time; we suggest pairing it with scrambled eggs directly after garnishing add minced green chilies & crumb Cotija cheese also serving alongside warmed wheat tortillas"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
