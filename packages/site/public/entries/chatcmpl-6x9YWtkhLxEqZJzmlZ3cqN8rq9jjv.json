@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x9YWtkhLxEqZJzmlZ3cqN8rq9jjv",
+  "object": "chat.completion",
+  "created": 1679556104,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 85,
+    "completion_tokens": 64,
+    "total_tokens": 149
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "¡Increíble! Estoy emocionado por probar las nuevas características y mejoras en GNOME 44 🎉 Realmente aprecio el trabajo del equipo de desarrolladores y la comunidad detrás de este proyecto. ¡Viva el #SoftwareLibre y #opensource! 💻🐧"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
