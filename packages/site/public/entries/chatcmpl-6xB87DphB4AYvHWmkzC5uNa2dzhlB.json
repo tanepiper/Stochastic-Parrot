@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xB87DphB4AYvHWmkzC5uNa2dzhlB",
+  "object": "chat.completion",
+  "created": 1679562155,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 121,
+    "total_tokens": 127
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to translate the English phrase \"I love you\" in Russian. The most common and direct translation is:\n\n- я тебя люблю (ya tebya lyublyu)\n\nThis phrase literally means, \"I you love,\" as it's typical in Russian grammar to place the pronoun before the verb.\n\nIn casual or informal settings, there are other variations that can be used as well:\n\n- я люблю тебя (ya lyublyu tebya)\n- люблю тебя (lyublyu-tebya)"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
