@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xMMkQqThAYR5YM6FcdPspO4e1IIA",
+  "object": "chat.completion",
+  "created": 1679605346,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several possible reasons why your transfer from PayPal to GCash might not be working. Some of these reasons include:\n\n1. Temporary System Issue: There could be a temporary system issue affecting the transfer between PayPal and GCash. You can try logging out and logging back in or waiting for a few hours before trying again.\n\n2. Incorrect Details: Ensure that you have entered the correct details when linking your PayPal account to your GCash account.\n\n3. Account Limitations: Your GCash or PayPal account may have reached its transaction limit or maybe facing other limitations such as negative balance, verification issues, or recent unpredictable transactions.\n\n4. No US Bank Account linked to PayPal: Transferring funds from your non-US bank accounts is subject to additional requirements specific to each country.\n\n5. Currency Restrictions on Paypal Account Settings - If you request an immediate withdrawal of funds through the Instant Transfer option (using Visa Direct), please ensure that it corresponds with retrieved settings on minimum/maximum currency amount available for Visa Direct pullout in USD/EUR/GBP/CAD/AUD/HKD/SGD/TWD\n\n6. Unverified Accounts: Both your GCash and PayPal accounts must be fully verified before any transfers can take place.\n\n7.Identity verifications problems- It's crucial that both sender and receiver have passed KYC check (Know Your Customer) since financial regulators around world require this step while users perform cryptocurrency operations often break certain rules set by their platform provider).\n\nTo solve these issues, identify which reason might apply in your situation then review respective instructions provided above suitable action(s). In some cases patience will suffice; others mandate user intervention such taking corrective measures like entering accurate information onto forms required during linkage process completing identity validation steps – among options presented herein depending factors"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
