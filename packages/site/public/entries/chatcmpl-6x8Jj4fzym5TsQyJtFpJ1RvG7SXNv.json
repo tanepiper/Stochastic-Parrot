@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x8Jj4fzym5TsQyJtFpJ1RvG7SXNv",
+  "object": "chat.completion",
+  "created": 1679551343,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 302,
+    "total_tokens": 308
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to get over a breakup, and the process may look slightly different for everyone. Some tips to help move on after a breakup include:\n\n1. Accept and acknowledge your feelings: Don't suppress or deny your emotions – let yourself mourn the end of the relationship.\n\n2. Talk it out with someone you trust: Share your thoughts and feelings with close friends, family members, or even a therapist if needed.\n\n3. Cut off contact with your ex (at least temporarily): In order to heal properly, it's crucial that you take space from them.\n\n4. Focus on self-care: Make sure you're taking care of both your physical and emotional needs during this time.\n\n5. Rediscover yourself: Take this opportunity to reconnect with hobbies or interests that you might have neglected during the relationship.\n\n6. Practice gratitude: Reflect on positive aspects of your life outside of the relationship to remind yourself that there's more to life than romantic partnerships.\n\n7.Line up new activities and experiences- Taking part in new fun experiences can make healing faster by giving less time for thought about past memories\n\n8.Give it time : Healing takes time , do not overburden yourselves with expectation just give yourselves soemtime too.\n  \n9.Exercise has alot benefits including boosting mood,self-confidence,this is an easier way create a post break-up routine\n  \n10.Becoming forgiving towards partner -Because anger doesn’t contribute anything good by impacting own health mentally as well as physically.Forgetting helps in acceptance thus helping forgiving"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
