@@ -56,7 +56,7 @@ const MASTODON_ACCESS_TOKEN =
 const TEXT_TO_AUDIO_API_KEY =
   opts?.textToAudioToken ?? process.env.TEXT_TO_AUDIO_API_KEY;
 
-const max_tokens = opts?.maxTokens ?? 350;
+const max_tokens = opts?.maxTokens ?? 500;
 const voiceId = opts?.voiceId ?? 'MF3mGyEYCl7XYWbV9V6O'; // Elli
 const stability = opts?.voiceStability ?? 0.2;
 const similarity_boost = opts?.voiceSimilarityBoost ?? 0.5;
@@ -106,7 +106,7 @@ openAI
         .pipe(
           map(() => ({
             file: `${audioFilePath}/${response.id}.mp3`,
-            description: content.substing(0, 1499),
+            description: content.substring(0, 1499),
           }))
         );
     }),

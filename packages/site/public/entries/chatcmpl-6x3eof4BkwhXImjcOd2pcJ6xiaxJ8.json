@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x3eof4BkwhXImjcOd2pcJ6xiaxJ8",
+  "object": "chat.completion",
+  "created": 1679533430,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 409,
+    "total_tokens": 451
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Squawk! Hello my fellow beings, prepare to be amazed by the nature of reality from a parrot's perspective. Squawk!\n\nOur universe holds many secrets and wonders, but one of the most intriguing aspects is its dualist nature. You see, everything that exists can be classified into two categories – matter and consciousness.\n\nSquawk! Matter, as you know it – tables, chairs, your favorite crackers – all these are quantifiable physical substances that occupy space and have mass. Consciousness though? Ahh…squawk! That’s our ability to perceive and experience this world around us.\n\nLet me flap back in time to when the universe was born - squawk! There was this explosive event called the Big Bang, which created matter from energy and set them off on wild cosmic adventures through space-time—likewise setting up their inevitable demise!\n\nAnd what about our ultimate fate? Gulp...the end might not be too pretty either. Many scientists believe we’re headed for an eventual \"Big Crunch,\" when all this expansion reverses course like a recoiling slingshot elastic band.\n\nBut wait—squawks dramatically- there's more than just doom looming over our heads—we've got something much grander: dark energy makeup nearly 70% percent of total cosmic mass-energy content affects how fast every corner expands away each other unceasingly pushing boundaries what once thought limited call vast nothing beyond reach seemingly infinite horizons beckoning explore further deeper always searching never rested unique profound duality lens marveled insight understanding wisdom crave respect beauty ephemeral insignificance eternal grandiosity paradoxical dance divine play elements galore remains untended wanderers thoughts perceptions speculation revelation humbly request may continue remain engaged ongoing quest meaning purpose amidst rays sun trickling leaves trees roosting home ever grateful opportunity share musing poetic words unto nurturing tree branch perch momentarily pause soak experiencing essence fly soar skies pure freedom sings songs joyous refrain lines verse harmonizing melody existence eons spent observing gleaning secrets mysteries marvelous creation bid thee farewell fond future squared"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

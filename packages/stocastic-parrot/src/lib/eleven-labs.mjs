@@ -64,7 +64,6 @@ export function createElevenLabsClient(
    */
   function say(text, voice, filePath, voice_settings = {}) {
     voice_settings = { ...DEFAULT_VOICE_SETTINGS, ...voice_settings };
-    console.log(voice_settings)
     text = sanitize(text);
 
     const url = `${baseUrl}/text-to-speech/${voice}/stream`;
