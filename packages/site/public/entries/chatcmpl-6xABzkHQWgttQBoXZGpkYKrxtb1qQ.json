@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xABzkHQWgttQBoXZGpkYKrxtb1qQ",
+  "object": "chat.completion",
+  "created": 1679558551,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 350,
+    "total_tokens": 356
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Mummies are typically associated with ancient Egyptian culture, but the practice of mummifying the dead has been found in various cultures around the world. Here are some countries and cultures that practiced mummification:\n\n1. Egypt: Ancient Egyptians believed that preserving a person's body after death was important for them to enjoy an afterlife. Pharaohs, queens, high-ranking officials, and sometimes commoners were mummified according to elaborate rituals.\n\n2. China: In ancient China, particularly during the Western Han dynasty (206 BCE – 9 CE), there have been instances of mummies discovered across northwestern regions such as Xinjiang and western Tibet.\n\n3. Peru: The Chinchorro culture from South America (around 5000 -3000 BCE) is one of the oldest examples of artificially created mummies. Later on, other Peruvian cultures like Paracas continued to practice it up until Inca times.\n\n4. Chile: The Atacama Desert in Chile provided ideal conditions for natural mummification due to its dry climate; several pre-Columbian societies discovered here exhibit well-preserved remains.\n\n5. Greenland: Inuit societies practiced a form of natural or semi-artificial preservation called \"adiabatic\" preservation by interring their deceased deep within icy ground layers where decomposition occurs slowly in cold temperatures.d\n\n6. Philippines & Indonesia: Pre-colonial Philippine tribes made use of wooden coffins placed along mountain cliffs making environments favorable for post-mortem conservation these practices persisted even under Spanish colonization for nearly three centuries since then while Indonesia Tarung Village Sulawesi Island uniquely suspended open caskets using intricate rope systems allowing bodies dehydrate by direct long-term exposure fire smoke thereby desiccated otherwise preserving them effectively over many"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
