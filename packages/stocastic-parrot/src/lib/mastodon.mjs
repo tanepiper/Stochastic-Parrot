@@ -10,7 +10,7 @@ import {
 } from 'rxjs/operators';
 import { createReadStream } from 'node:fs';
 import textract from 'textract';
-import config from '../config.mjs';
+import { retryConfig } from '../config.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 const CHAT_TOOT_HASHTAGS = '#StochasticParrot #ChatGPT';
@@ -124,7 +124,7 @@ export function createMastodonClient(
               );
             }
           }),
-          retry(config.retry),
+          retry(retryConfig),
           map((data) => {
             if (!firstTootUrl) {
               firstTootUrl = data.url;
@@ -165,7 +165,7 @@ export function createMastodonClient(
           );
         }
       }),
-      retry(config.retry),
+      retry(retryConfig),
       map((data) => data.id)
     );
   }

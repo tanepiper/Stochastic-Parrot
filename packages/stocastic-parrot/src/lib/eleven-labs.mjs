@@ -3,12 +3,7 @@ import { from, of } from 'rxjs';
 import { catchError, map, retry, concatMap, switchMap } from 'rxjs/operators';
 import { createWriteStream } from 'node:fs';
 import { sanitize } from './lib.mjs';
-import config from '../config.mjs';
-
-const DEFAULT_VOICE_SETTINGS = {
-  stability: 0.75,
-  similarity_boost: 0.75,
-};
+import { retryConfig, elevenLabsConfig } from '../config.mjs';
 
 /**
  * Create a client for ElevenLabs API
@@ -17,7 +12,7 @@ const DEFAULT_VOICE_SETTINGS = {
  */
 export function createElevenLabsClient(
   apiKey = '',
-  baseUrl = 'https://api.elevenlabs.io/v1'
+  baseUrl = elevenLabsConfig.baseUrl
 ) {
   const configHeaders = {
     Accept: 'audio/mpeg',
@@ -55,14 +50,14 @@ export function createElevenLabsClient(
 
   /**
    * Send text to ElevenLabs API, the text will be converted to speech and returned as a stream which is saved to a mp3 file
-   * @param {string} text
-   * @param {string} voice
-   * @param {string} filePath
-   * @param {object} voice_settings
+   * @param {string} text The text to pass to the ElevenLabs API, this text will first be sanatised of any special characters
+   * @param {string} filePath The path to save the audio to (this should end with the required extension, e.g. .mp3)
+   * @param {string=} voice The voice to use, defaults to 'Elli'
+   * @param {object=} voice_settings The voice settings to use, defaults to `{ stability: 0.2, similarity_boost: 0.5 }`
    * @returns
    */
-  function say(text, voice, filePath, voice_settings = {}) {
-    voice_settings = { ...DEFAULT_VOICE_SETTINGS, ...voice_settings };
+  function say(text, filePath, voice = elevenLabsConfig.voiceId, voice_settings = {}) {
+    voice_settings = { ...elevenLabsConfig.voice_settings, ...voice_settings };
     text = sanitize(text);
     let retries = 0;
 
@@ -77,6 +72,11 @@ export function createElevenLabsClient(
     ).pipe(
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
+        if (error.response.status === 401) {
+          console.error('Unable to process request, please check your API key');
+          process.exit(1);
+        }
+
         if (retries < config.retry.count) {
           retries++;
           console.log(`Retrying... (${retries}/${config.retry.count})`);
@@ -87,7 +87,7 @@ export function createElevenLabsClient(
         }
         return throwError(() => error);
       }),
-      retry(config.retry),
+      retry(retryConfig),
       switchMap((stream) => streamToFile(stream, filePath)),
       map(() => filePath)
     );

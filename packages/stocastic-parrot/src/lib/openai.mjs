@@ -80,7 +80,7 @@ export function createOpenAIInstance(apiKey) {
           );
         }
       }),
-      retry(config.retry)
+      retry(retryConfig)
     );
   }
 
@@ -120,7 +120,7 @@ export function createOpenAIInstance(apiKey) {
           );
         }
       }),
-      retry(config.retry)
+      retry(retryConfig)
     );
   }
 
