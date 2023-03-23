@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x9Fq71u5rYL6u9A3zgxJ5PmSyuWm",
+  "object": "chat.completion",
+  "created": 1679554946,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 350,
+    "total_tokens": 356
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Japanese internment camps were facilities created in the United States during World War II to hold Japanese-Americans and their families. They were established after the attack on Pearl Harbor (December 7, 1941) as a result of fear and suspicion towards Japanese-Americans living in the United States.\n\nIn February 1942, President Franklin D. Roosevelt signed Executive Order 9066 which authorized the forced evacuation and internment of all people of Japanese ancestry living along the West Coast (about two-thirds of all Japanese-American citizens). These individuals—many of whom had committed no crime or posed any threat to national security—were forcibly removed from their homes, businesses, schools, and communities.\n\nBetween August 12th until November 21st Jews were sent to concentration camps that served as extermination centers for mass killings. Most famous is Auschwitz concentration camp where an estimated more than one million people died including non-Jewish Poles, Soviets POWs and other minorities but majority being jews close to one million.\nThe Holocaust was Nazi Germany's systematic genocide against about six millions Jews throughout Europe during World War II based largely on racist ideals propagated by Adolf Hitler and his National Socialist regime.\n\nThere are several differences between these types of camps:\n\n1) Purpose: The main purpose behind establishing Jewish Concentration Camps like Auswitch was extermination while intention with internment appeared not meant to kill them but force separation out west coast seen at highly risky locations.\n \n2) Conditions: Concentrateion Camp inmates regularly faced extreme conditions such starvation brutal forced labor rampant disease executions persecution without rights protection legal representation sometimes killed immediately upon arrival those who worked death overworked malnourished whereas better food medical care although there reports few cases abuse happened generally maintained humane standards respect\n\n3)"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
