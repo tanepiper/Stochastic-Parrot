@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xMnSYhg1fKpboeyidRQ9ZhnXqZwT",
+  "object": "chat.completion",
+  "created": 1679607002,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 82,
+    "total_tokens": 126
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here's the ZX Spectrum BASIC code for \"Gobs Program\":\n\n```\n10 REM Gobs Program\n20 PRINT \"Y/N?\"\n30 INPUT A$\n40 IF A$ = \"Y\" OR A$ = \"y\" THEN GOTO 60\n50 END\n60 FOR I=1 TO 5\n70 PRINT \"PENUS\"\n80 NEXT I\n90 GOTO 20\n\n```"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
