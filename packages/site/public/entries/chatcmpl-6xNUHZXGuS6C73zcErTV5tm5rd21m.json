@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xNUHZXGuS6C73zcErTV5tm5rd21m",
+  "object": "chat.completion",
+  "created": 1679609657,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 144,
+    "total_tokens": 191
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "🌍🦸‍♂️🦜😄\n\n💥🔮✨💫🐾\n  \n  🏙️☁️⚡ \n \n  👱‍♀️ ⛴⬇\n \n 🏊‍♂️ 🆘❗\n     \n   🦜 💪➕\n\n    😨😵😰\n\n     ✈ ⏩ 👀\n\n      🔥💣⚠\n \n       💡😤\n\n        📛❌⭕ \n\n          ✋☄\n\n           👫💃🎉\n  \n            ❇✅"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
