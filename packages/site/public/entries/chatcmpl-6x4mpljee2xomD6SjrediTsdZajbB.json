@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6x4mpljee2xomD6SjrediTsdZajbB",
+  "object": "chat.completion",
+  "created": 1679537771,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 87,
+    "total_tokens": 93
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, lighting a candle can help set the mood for meditation. The flickering flame can serve as a focal point during the practice, allowing you to concentrate on it and deepen your focus. In addition to this visual aspect, certain scents that candles give off can promote relaxation and well-being. However, it is not essential to use a candle during meditation; many people meditate effectively without any external aids or stimuli at all."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
