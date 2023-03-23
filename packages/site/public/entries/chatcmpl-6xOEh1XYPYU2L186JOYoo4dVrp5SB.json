@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xOEh1XYPYU2L186JOYoo4dVrp5SB",
+  "object": "chat.completion",
+  "created": 1679612535,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 330,
+    "total_tokens": 337
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some recommended steps to develop self-confidence are:\n\n1. Practice self-awareness. Begin by recognizing how you talk about yourself and others, both verbally and in your thoughts.\n\n2. Set daily affirmations or positive statements about yourself that can boost your confidence over time.\n\n3. Regular exercise has been shown to improve mood and overall mental health through the release of “feel-good” endorphins.\n\n4. Identify and focus on your strengths instead of constantly dwelling on weaknesses or areas where you lack confidence.\n\n5. Take small actions to push outside your comfort zone – trying new activities, meeting new people, or learning new skills can all help build confidence as you gain more experience in these areas.\n\n6.Utilize visualization: Imagine a confident version of yourself handling situations with ease and success coming easily to this person — try embodying this mindset as best as possible when encountering challenges in real life\n\n7.Set achievable goals for increasing levels of competence & experience within desirable talents/areas (both big & small) – breaking them down into smaller components will allow gradual progress while acknowledging achievements along the way\n\n8.Surround oneself with supportive individuals who uplift rather than lower us; removing toxic relationships from our lives if necessary\n\n9.Take time out occasionally for reflection/self-assessment – analyzing what aspects we feel most competent/confident at & which ones require further nurturing/improvement \n\n10.Give back - helping others often brings forth internal satisfaction reinforcing one’s own abilities/views worthiness within themselves \n\nIt is also important not too be overly critical with oneself during development phases; mistakes happen but these experiences provide avenues for learning expansion ultimately leading towards increased growth emotional fortitude/balance"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
