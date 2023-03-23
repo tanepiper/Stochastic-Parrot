@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xID6EKlHeRi5B8oXaYSYTVQPxtif",
+  "object": "chat.completion",
+  "created": 1679589372,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 255,
+    "total_tokens": 261
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some possible reasons for hair getting oily quickly could be:\n\n1. Overwashing: Washing your hair too often can strip it of its natural oils, which signals the scalp to produce even more oil in return.\n\n2. Using heavy conditioners or styling products: Thick and heavy conditioning products can weigh down the hair and make it feel greasier sooner.\n\n3. Touching your hair constantly: Running your fingers through your hair repeatedly or playing with it can transfer oils from your hands to your strands, causing them to become oily faster.\n\n4. Hormonal imbalances: High levels of hormones known as androgens may cause excessive sebum production, leading to an oily scalp and greasy-looking locks.\n\n5. Not brushing enough: Failing to brush regularly spreads out dead skin cells on the scalp that trap dirt, resulting in increased oiliness at the roots of the hair strands.\n\n6. Diet: A diet rich in unhealthy fats or processed foods might increase sebum production and result in oilier tresses more frequently.\n\n7.Validity_DAMAGE_36b9d207_ALT_BELOW\n\t\t\n8.Environmental factors: Extreme weather conditions such as high humidity or pollution might contribute towards an increased build-up of sweat mixed with excess sebum making hairstreaks look greasier over time"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 import { Configuration, OpenAIApi } from 'openai';
-import { from, throwError } from 'rxjs';
-import { map, retry, catchError } from 'rxjs/operators';
-import { randomNumber } from './lib.mjs';
+import { from } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { retryConfig } from '../config.mjs';
+import { errorHandlerWithDelay, randomNumber } from './lib.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 
@@ -66,21 +66,7 @@ export function createOpenAIInstance(apiKey) {
       })
     ).pipe(
       map((response) => response.data),
-      catchError((error) => {
-        console.error(`${error.response.status}: ${error.response.statusText}`);
-        if (error?.response?.data?.error?.message) {
-          console.error(error.response.data.error.message);
-        }
-        if (retries < config.retry.count) {
-          retries++;
-          console.log(`Retrying... (${retries}/${config.retry.count})`);
-        } else {
-          console.error(
-            `Unable to process request after ${retries + 1} retries`
-          );
-        }
-      }),
-      retry(retryConfig)
+      errorHandlerWithDelay(retryConfig)
     );
   }
 
@@ -106,21 +92,7 @@ export function createOpenAIInstance(apiKey) {
       })
     ).pipe(
       map((response) => response.data),
-      catchError((error) => {
-        console.error(`${error.response.status}: ${error.response.statusText}`);
-        if (error?.response?.data?.error?.message) {
-          console.error(error.response.data.error.message);
-        }
-        if (retries < config.retry.count) {
-          retries++;
-          console.log(`Retrying... (${retries}/${config.retry.count})`);
-        } else {
-          console.error(
-            `Unable to process request after ${retries + 1} retries`
-          );
-        }
-      }),
-      retry(retryConfig)
+      errorHandlerWithDelay(retryConfig)
     );
   }
 

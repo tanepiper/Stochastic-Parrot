@@ -1,9 +1,9 @@
 import axios from 'axios';
-import { from, of } from 'rxjs';
-import { catchError, map, retry, concatMap, switchMap } from 'rxjs/operators';
 import { createWriteStream } from 'node:fs';
-import { sanitize } from './lib.mjs';
-import { retryConfig, elevenLabsConfig } from '../config.mjs';
+import { from, of } from 'rxjs';
+import { concatMap, map, switchMap } from 'rxjs/operators';
+import { elevenLabsConfig, retryConfig } from '../config.mjs';
+import { errorHandlerWithDelay, sanitize } from './lib.mjs';
 
 /**
  * Create a client for ElevenLabs API
@@ -56,10 +56,14 @@ export function createElevenLabsClient(
    * @param {object=} voice_settings The voice settings to use, defaults to `{ stability: 0.2, similarity_boost: 0.5 }`
    * @returns
    */
-  function say(text, filePath, voice = elevenLabsConfig.voiceId, voice_settings = {}) {
+  function say(
+    text,
+    filePath,
+    voice = elevenLabsConfig.voiceId,
+    voice_settings = {}
+  ) {
     voice_settings = { ...elevenLabsConfig.voice_settings, ...voice_settings };
     text = sanitize(text);
-    let retries = 0;
 
     const url = `${baseUrl}/text-to-speech/${voice}/stream`;
     return from(
@@ -70,24 +74,7 @@ export function createElevenLabsClient(
         responseType: 'stream',
       })
     ).pipe(
-      catchError((error) => {
-        console.error(`${error.response.status}: ${error.response.statusText}`);
-        if (error.response.status === 401) {
-          console.error('Unable to process request, please check your API key');
-          process.exit(1);
-        }
-
-        if (retries < config.retry.count) {
-          retries++;
-          console.log(`Retrying... (${retries}/${config.retry.count})`);
-        } else {
-          console.error(
-            `Unable to process request after ${retries + 1} retries`
-          );
-        }
-        return throwError(() => error);
-      }),
-      retry(retryConfig),
+      errorHandlerWithDelay(retryConfig),
       switchMap((stream) => streamToFile(stream, filePath)),
       map(() => filePath)
     );

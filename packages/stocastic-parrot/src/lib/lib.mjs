@@ -1,6 +1,6 @@
 import crypto from 'node:crypto';
-import { createWriteStream } from 'node:fs';
-
+import { catchError, throwError, timer } from 'rxjs';
+import { retry, take } from 'rxjs/operators';
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
@@ -19,11 +19,11 @@ export const randomNumber = (onlyPositive = false) =>
     ).toFixed(2)
   );
 
-  /**
-   * Sanitize a string for use with apis
-   * @param {string} string 
-   * @returns {string}
-   */
+/**
+ * Sanitize a string for use with apis
+ * @param {string} string
+ * @returns {string}
+ */
 export function sanitize(string) {
   const map = {
     '&': '&amp;',
@@ -37,4 +37,43 @@ export function sanitize(string) {
   return string.replace(reg, (match) => map[match]);
 }
 
+/**
+ * Returns a function that takes an observable and returns an observable that will retry the request if it fails
+ * @param {*} delayConfig
+ * @returns
+ */
+export function errorHandlerWithDelay(
+  retryConfig = { count: 3, delay: 10000 }
+) {
+  let retries = 0;
+  return (source) =>
+    source.pipe(
+      catchError((error) => {
+        if (error.response.status === 401) {
+          console.error('Unable to process request, please check your API key');
+          process.exit(1);
+        }
+        if (error.response.status === 429) {
+          console.error(
+            `Too many requests, trying again in ${retryConfig.delay + 10000}ms`
+          );
+        } else {
+          console.error(
+            `${error.response.status}: ${error.response.statusText}`
+          );
+          if (error?.response?.data?.error?.message) {
+            console.error(error.response.data.error.message);
+          }
+        }
 
+        if (retries < retryConfig.count) {
+          retries++;
+          console.log(`Retrying... (${retries}/${retryConfig.count})`);
+        } else {
+          console.error(`Unable to process request after ${retries} retries`);
+        }
+        return throwError(() => error);
+      }),
+      retry(retryConfig)
+    );
+}

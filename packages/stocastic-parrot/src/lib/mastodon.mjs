@@ -1,16 +1,10 @@
 import generator from 'megalodon';
-import { from, throwError } from 'rxjs';
-import {
-  concatMap,
-  map,
-  switchMap,
-  retry,
-  catchError,
-  scan,
-} from 'rxjs/operators';
 import { createReadStream } from 'node:fs';
+import { from } from 'rxjs';
+import { concatMap, map, scan, switchMap } from 'rxjs/operators';
 import textract from 'textract';
 import { retryConfig } from '../config.mjs';
+import { errorHandlerWithDelay } from './lib.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 const CHAT_TOOT_HASHTAGS = '#StochasticParrot #ChatGPT';
@@ -111,20 +105,7 @@ export function createMastodonClient(
         }
         return from(mastodon.postStatus(status, options)).pipe(
           map((res) => res.data),
-          catchError((error) => {
-            console.error(
-              `${error.response.status}: ${error.response.statusText}`
-            );
-            if (retries < config.retry.count) {
-              retries++;
-              console.log(`Retrying... (${retries}/${config.retry.count})`);
-            } else {
-              console.error(
-                `Unable to process request after ${retries + 1} retries`
-              );
-            }
-          }),
-          retry(retryConfig),
+          errorHandlerWithDelay(retryConfig),
           map((data) => {
             if (!firstTootUrl) {
               firstTootUrl = data.url;
@@ -154,18 +135,7 @@ export function createMastodonClient(
       })
     ).pipe(
       map((res) => res.data),
-      catchError((error) => {
-        console.error(`${error.response.status}: ${error.response.statusText}`);
-        if (retries < config.retry.count) {
-          retries++;
-          console.log(`Retrying... (${retries}/${config.retry.count})`);
-        } else {
-          console.error(
-            `Unable to process request after ${retries + 1} retries`
-          );
-        }
-      }),
-      retry(retryConfig),
+      errorHandlerWithDelay(retryConfig),
       map((data) => data.id)
     );
   }
@@ -178,18 +148,7 @@ export function createMastodonClient(
     let retries = 0;
     return from(mastodon.getLocalTimeline({ limit })).pipe(
       switchMap((res) => from(res.data)),
-      catchError((error) => {
-        console.error(`${error.response.status}: ${error.response.statusText}`);
-        if (retries < config.retry.count) {
-          retries++;
-          console.log(`Retrying... (${retries}/${config.retry.count})`);
-        } else {
-          console.error(
-            `Unable to process request after ${retries + 1} retries`
-          );
-        }
-      }),
-      retry(config.retry),
+      errorHandlerWithDelay(retryConfig),
       concatMap((toot) =>
         from(
           new Promise((resolve) =>
@@ -208,18 +167,7 @@ export function createMastodonClient(
     let retries = 0;
     return from(mastodon.getStatus(id)).pipe(
       map((res) => res.data),
-      catchError((error) => {
-        console.error(`${error.response.status}: ${error.response.statusText}`);
-        if (retries < config.retry.count) {
-          retries++;
-          console.log(`Retrying... (${retries}/${config.retry.count})`);
-        } else {
-          console.error(
-            `Unable to process request after ${retries + 1} retries`
-          );
-        }
-      }),
-      retry(config.retry)
+      errorHandlerWithDelay(retryConfig)
     );
   }
 
