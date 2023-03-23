@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xCReAPsBzsrwErcxhEI9qffQRJ6a",
+  "object": "chat.completion",
+  "created": 1679567210,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 24,
+    "total_tokens": 30
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What type of recipes would you like? Are there specific ingredients or dietary restrictions you'd like me to focus on?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

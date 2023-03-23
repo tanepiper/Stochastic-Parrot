@@ -3,6 +3,7 @@ import { from, of } from 'rxjs';
 import { catchError, map, retry, concatMap, switchMap } from 'rxjs/operators';
 import { createWriteStream } from 'node:fs';
 import { sanitize } from './lib.mjs';
+import config from '../config.mjs';
 
 const DEFAULT_VOICE_SETTINGS = {
   stability: 0.75,
@@ -52,8 +53,6 @@ export function createElevenLabsClient(
     );
   }
 
- 
-
   /**
    * Send text to ElevenLabs API, the text will be converted to speech and returned as a stream which is saved to a mp3 file
    * @param {string} text
@@ -65,6 +64,7 @@ export function createElevenLabsClient(
   function say(text, voice, filePath, voice_settings = {}) {
     voice_settings = { ...DEFAULT_VOICE_SETTINGS, ...voice_settings };
     text = sanitize(text);
+    let retries = 0;
 
     const url = `${baseUrl}/text-to-speech/${voice}/stream`;
     return from(
@@ -77,12 +77,17 @@ export function createElevenLabsClient(
     ).pipe(
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
-        //if (error?.response?.data?.error?.message) {
-          console.error(error);
-        //}
+        if (retries < config.retry.count) {
+          retries++;
+          console.log(`Retrying... (${retries}/${config.retry.count})`);
+        } else {
+          console.error(
+            `Unable to process request after ${retries + 1} retries`
+          );
+        }
         return throwError(() => error);
       }),
-      retry({ count: 3, delay: 5000 }),
+      retry(config.retry),
       switchMap((stream) => streamToFile(stream, filePath)),
       map(() => filePath)
     );

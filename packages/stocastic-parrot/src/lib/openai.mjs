@@ -2,6 +2,7 @@ import { Configuration, OpenAIApi } from 'openai';
 import { from, throwError } from 'rxjs';
 import { map, retry, catchError } from 'rxjs/operators';
 import { randomNumber } from './lib.mjs';
+import config from '../config.mjs';
 
 const debugMode = process.env.DEBUG_MODE === 'true';
 
@@ -11,7 +12,6 @@ const MAX_TOKENS = 500; //200;
 const DEFAULT_CHAT_OPTIONS = {
   frequency_penalty: 1,
   presence_penalty: 1,
-  temperature: randomNumber(true),
   max_tokens: MAX_TOKENS,
   model: GPT_MODEL,
 };
@@ -57,21 +57,30 @@ export function createOpenAIInstance(apiKey) {
    */
   function getChat(prompt = '', options = {}) {
     options = { ...DEFAULT_CHAT_OPTIONS, ...options };
+    let retries = 0;
     return from(
       apiInstance.createChatCompletion({
         ...options,
+        temperature: options?.temperature ?? randomNumber(true),
         messages: [{ role: 'user', content: prompt }],
       })
     ).pipe(
+      map((response) => response.data),
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
         if (error?.response?.data?.error?.message) {
           console.error(error.response.data.error.message);
         }
-        return throwError(() => error);
+        if (retries < config.retry.count) {
+          retries++;
+          console.log(`Retrying... (${retries}/${config.retry.count})`);
+        } else {
+          console.error(
+            `Unable to process request after ${retries + 1} retries`
+          );
+        }
       }),
-      map((response) => response.data),
-      retry({ count: 3, delay: 5000 })
+      retry(config.retry)
     );
   }
 
@@ -89,21 +98,29 @@ export function createOpenAIInstance(apiKey) {
    */
   function getImages(prompt = ' ', options = {}) {
     options = { ...DEFAULT_IMAGES_OPTIONS, ...options };
+    let retries = 0;
     return from(
       apiInstance.createImage({
         prompt: prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error
         ...options,
       })
     ).pipe(
+      map((response) => response.data),
       catchError((error) => {
         console.error(`${error.response.status}: ${error.response.statusText}`);
         if (error?.response?.data?.error?.message) {
           console.error(error.response.data.error.message);
         }
-        return throwError(() => error);
+        if (retries < config.retry.count) {
+          retries++;
+          console.log(`Retrying... (${retries}/${config.retry.count})`);
+        } else {
+          console.error(
+            `Unable to process request after ${retries + 1} retries`
+          );
+        }
       }),
-      map((response) => response.data),
-      retry({ count: 3, delay: 5000 })
+      retry(config.retry)
     );
   }
 
