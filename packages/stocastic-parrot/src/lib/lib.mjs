@@ -55,15 +55,15 @@ export function errorHandlerWithDelay(
         }
         if (error.response.status === 429) {
           console.error(
-            `Too many requests, trying again in ${retryConfig.delay + 10000}ms`
+            `Too many requests, trying again in ${retryConfig.delay}ms`
           );
         } else {
           console.error(
             `${error.response.status}: ${error.response.statusText}`
           );
-          if (error?.response?.data?.error?.message) {
-            console.error(error.response.data.error.message);
-          }
+        }
+        if (error?.response?.data?.error?.message) {
+          console.error(error.response.data.error.message);
         }
 
         if (retries < retryConfig.count) {

@@ -12,6 +12,7 @@ import {
   map,
   scan,
   switchMap,
+  tap,
 } from 'rxjs/operators';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
@@ -30,6 +31,8 @@ if (opts?.help) {
   process.exit(0);
 }
 
+console.log('🤖 Starting Stochastic Parrot - Creating Chat 🦜')
+
 const OPEN_API_KEY = opts?.openAIToken ?? process.env.OPENAI_API_KEY;
 const MASTODON_ACCESS_TOKEN =
   opts?.mastodonToken ?? process.env.MASTODON_ACCESS_TOKEN;
@@ -44,6 +47,7 @@ const filePath = path
 openAI
   .getChat(prompt, { max_tokens })
   .pipe(
+    tap(() => console.log(`💾 Saving Response`)),
     switchMap((response) =>
       from(
         writeFile(
@@ -61,14 +65,13 @@ openAI
       if (!content) {
         throw new Error('No content returned from OpenAI');
       }
-      return `${prompt ? '💬' : '🦜'} ${content}`;
+      const toot = `${prompt ? '💬' : '🦜'} ${content}`;
+      console.log(`Creating Toot: ${toot}}`)
+      return toot;
     }),
-    concatMap((content) =>
-      mastodon.sendToots(content).pipe(
-        scan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []),
-        map((tootUrls) => tootUrls.pop())
-      )
-    ),
+    concatMap((content) => mastodon.sendToots(content)),
+    scan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []),
+    map((tootUrls) => tootUrls.pop()),
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');
