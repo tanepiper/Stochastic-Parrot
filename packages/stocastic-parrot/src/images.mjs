@@ -112,7 +112,6 @@ openAI
     }),
     catchError((e) => {
       console.error(`Job Failed ${Date.now()} - ${e.message}`);
-      console.log(e);
       process.exit(1);
     }),
     finalize(() => {
