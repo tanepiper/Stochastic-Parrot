@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xGkKvk4VDtoQFqPKQDlXzlRkP7kP",
+  "object": "chat.completion",
+  "created": 1679583744,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 256,
+    "total_tokens": 262
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several factors to consider when choosing a job, some of which include:\n\n1. Job satisfaction: Consider whether the role and work environment align with your values, interests and long-term goals.\n\n2. Salary: Evaluate the financial aspect of the job, including starting salary, potential for raises or bonuses, and any additional benefits (e.g., retirement plans).\n\n3. Work-life balance: Assess how much time you will be required to dedicate to work – both in terms of daily hours at work and overall flexibility in balancing personal life – as this may vary by company.\n\n4. Company culture: Consider if the organization's workplace is somewhere you would feel comfortable working and where your preferred style of communication is welcomed or supported.\n\n5. Job security / stability: Reflect on the likelihood that a position could become obsolete within an organization or industry due to changes beyond one's control.\n\n6. Skill development & career growth opportunities: Corporate training programs can empower employees through skill acquisition while promotions within an organization present prospects for professional advancement over time.\n\n7. Location/Commute Distance - If geographic location is also important to you; then weigh commuting distance/time against other variables like affordability regarding living expenses/local housing costs nearby each offer/company under consideration when making such decisions ultimately boils down choice preference anyway!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
