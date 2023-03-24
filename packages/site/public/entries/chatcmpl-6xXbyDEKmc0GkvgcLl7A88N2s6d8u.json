@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xXbyDEKmc0GkvgcLl7A88N2s6d8u",
+  "object": "chat.completion",
+  "created": 1679648574,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 157,
+    "total_tokens": 164
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to say \"bedtime\" in Spanish, depending on the context and region. Some common translations include: \n\n1. Hora de dormir / hora de acostarse - This can be used when referring to the specific time when one goes to bed or lays down to sleep. \n2. La hora de la cama - A more informal way of expressing bedtime or the time for going to bed.\n3. Descanso nocturno - Literally translates as nightly rest; this expression can be a more formal way of talking about bedtime.\n\nIt's important to note that different regions might have small variations in expressions for \"bedtime,\" so it's always helpful to learn these phrases from native speakers based on the country you're communicating with or visiting."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
