@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xTrBXEVVMKdBQi6TxyQsntnNilPT",
+  "object": "chat.completion",
+  "created": 1679634141,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 104,
+    "total_tokens": 111
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Noun: The quality of being pleasantly new or different.\n\nExamples:\n1. We appreciate the novelty of a new idea.\n2. Her latest book offers little in the way of novelty and originality.\n3. The photos have an air of novelty about them, making them stand out amongst other images.\n4. The invention certainly had the advantage of vivid novelty for people who are too familiar with conventional ideas.\n5. Lisa loved the small town's charm and its constant adaptation to modern life without losing its cultural novelty."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
