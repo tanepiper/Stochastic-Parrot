@@ -83,7 +83,6 @@ export function createOpenAIInstance(apiKey) {
    */
   function getImages(prompt = ' ', options = {}) {
     options = { ...DEFAULT_IMAGES_OPTIONS, ...options };
-    let retries = 0;
     return from(
       apiInstance.createImage({
         prompt: prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error

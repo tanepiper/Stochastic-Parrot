@@ -67,11 +67,10 @@ const filePath = path
 openAI
   .getImages(prompt, { n: dalleNumberOfImages, size: dalleImageSize })
   .pipe(
-    switchMap((response) => {
-      return from(
-        response.data.map((data) => {
-          return { created: response.created, url: data.url };
-        })
+    switchMap((response) => from(
+        response.data.map((data) => 
+           ({ created: response.created, url: data.url })
+        )
       ).pipe(
         concatMap(({ url, created }) =>
           from(fetch(url).then((res) => res.arrayBuffer())).pipe(

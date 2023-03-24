@@ -1,0 +1,18 @@
+---
+const { permalink, created, model, tokens } = Astro.props
+---
+
+<div class='item'>
+  <div class='item-info'>
+    <slot name="item-info"></slot>
+  </div>
+  <div class='item-before'>
+    <slot name='item-before' />
+  </div>
+  <div class='item-content'>
+    <slot />
+  </div>
+  <div class='item-after'>
+    <slot name='item-after' />
+  </div>
+</div>
