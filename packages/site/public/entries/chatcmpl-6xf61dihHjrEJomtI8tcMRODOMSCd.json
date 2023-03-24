@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xf61dihHjrEJomtI8tcMRODOMSCd",
+  "object": "chat.completion",
+  "created": 1679677345,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 324,
+    "total_tokens": 331
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There could be several reasons why your daughter doesn't respond when you call her name, including:\n\n1. She may not fully recognize or understand her name yet, especially if she's very young (under two years of age). Keep using her name consistently in conversations and interactions to help her learn it.\n\n2. Your daughter might be focused on something else and not paying attention when you call her name. Children often become absorbed in their play or other activities and may not notice sounds around them.\n\n3. It's possible that your daughter is experiencing hearing difficulties, which can make it harder for her to pick up on sounds such as people calling out names. If you suspect a hearing issue, consult with a pediatrician or audiologist for evaluation.\n\n4. In some cases, children intentionally ignore their parents' calls as an act of defiance or independence-seeking behavior during different stages of development.\n\n5.Filtering distractions: As children get older they learn how to selectively attend and filter out distractions; before age 7 most kids are less proficient at this skill - this makes them appear more \"distracted\" than adults\n\n6.Children who have ADHD,a developmental speech disorder like receptive language disorder(language comprehension), Central Auditory Processing Disorder(CAPD) ,and autism spectrum disorders are more likely to exhibit issues responding appropriately when called by the.name.If consistentissues persist schedule appointment with healthcare professional.Child psychologist will aid behaviour modification techniques(specifically regarding compliance)\n\nTo encourage better responsiveness from your child:\n- Make sure you have eye contact before giving any instruction\n- Break down instructions step-by-step\nWhenever giving directions/instruction specify rewards/consequences"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
