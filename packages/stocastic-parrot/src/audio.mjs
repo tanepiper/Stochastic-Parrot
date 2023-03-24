@@ -82,20 +82,17 @@ console.log('🤖 Starting Stochastic Parrot - Creating Audio 🔈');
 openAI
   .getChat(prompt, { max_tokens })
   .pipe(
-    tap(() => console.log(`💾 Saving Response`)),
-    switchMap((response) =>
-      from(
-        writeFile(
-          `${entriesFilePath}/${response.id}.json`,
-          JSON.stringify(response, null, 2),
-          {
-            encoding: 'utf8',
-            flag: 'w',
-          }
-        )
-      ).pipe(map(() => response))
-    ),
-
+    tap(async (response) => {
+      console.log(`💾 Saving Response`);
+      await writeFile(
+        `${entriesFilePath}/${response.id}.json`,
+        JSON.stringify(response, null, 2),
+        {
+          encoding: 'utf8',
+          flag: 'w',
+        }
+      );
+    }),
     switchMap((response) => {
       const { content } = response?.choices?.[0]?.message ?? '';
       if (!content) {

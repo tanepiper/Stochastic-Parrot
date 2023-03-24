@@ -67,11 +67,19 @@ const filePath = path
 openAI
   .getImages(prompt, { n: dalleNumberOfImages, size: dalleImageSize })
   .pipe(
-    switchMap((response) => from(
-        response.data.map((data) => 
-           ({ created: response.created, url: data.url })
-        )
+    /**
+     * With the images, we need to download them, convert them to webp, save them to the site public
+     */
+    switchMap((response) =>
+      from(
+        response.data.map((data) => ({
+          created: response.created,
+          url: data.url,
+        }))
       ).pipe(
+        /**
+         * Download the image, convert it to a webp, save it to the site public folder
+         */
         concatMap(({ url, created }) =>
           from(fetch(url).then((res) => res.arrayBuffer())).pipe(
             map((buffer) => ({
@@ -96,8 +104,8 @@ openAI
           )
         ),
         toArray()
-      );
-    }),
+      )
+    ),
 
     switchMap((media_ids) => {
       const status = prompt !== ' ' ? `💬` : `🦜`;

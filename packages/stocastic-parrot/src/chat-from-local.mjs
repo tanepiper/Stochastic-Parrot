@@ -57,18 +57,16 @@ mastodon
     }),
     switchMap((toot) =>
       openAI.getChat(toot, { max_tokens }).pipe(
-        switchMap((response) =>
-          from(
-            writeFile(
-              `${filePath}/${response.id}.json`,
-              JSON.stringify(response, null, 2),
-              {
-                encoding: 'utf8',
-                flag: 'w',
-              }
-            )
-          ).pipe(map(() => response))
-        ),
+        tap(async (response) => {
+          await writeFile(
+            `${filePath}/${response.id}.json`,
+            JSON.stringify(response, null, 2),
+            {
+              encoding: 'utf8',
+              flag: 'w',
+            }
+          );
+        }),
         map((response) => {
           const { content } = response?.choices?.[0]?.message ?? '';
           if (!content) {

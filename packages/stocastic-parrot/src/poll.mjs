@@ -4,14 +4,13 @@ import dotenv from 'dotenv';
 import minimist from 'minimist';
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { from, throwError } from 'rxjs';
+import { throwError } from 'rxjs';
 import {
   catchError,
   concatMap,
   finalize,
   map,
-  scan,
-  switchMap,
+  mergeScan,
 } from 'rxjs/operators';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
@@ -47,39 +46,42 @@ const filePath = path
   .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'polls')
   .split(':')[1];
 
+/**
+ * Fetch a chat response from OpenAI, from the response write it to a file. As the response is a JSON object
+ * we need to trim and parse it. If the response is not a JSON object we assume it is a code block and we
+ * extract the code from the block.
+ * Once the JSOn is parsed it's returned as an object with the question and answers, we then post the question
+ * to Mastodon with the answers as a poll and setting the expiration time, we then return the URL of the toot.
+ */
 openAI
   .getChat(prompt, { max_tokens })
   .pipe(
-    switchMap((response) =>
-      from(
-        writeFile(
-          `${filePath}/${response.id}.json`,
-          JSON.stringify(response, null, 2),
-          {
-            encoding: 'utf8',
-            flag: 'w',
-          }
-        )
-      ).pipe(map(() => response))
-    ),
+    tap(() => console.log(`💾 Saving Response`)),
+    tap(async (response) => {
+      await writeFile(
+        `${filePath}/${response.id}.json`,
+        JSON.stringify(response, null, 2),
+        {
+          encoding: 'utf8',
+          flag: 'w',
+        }
+      );
+    }),
     map((response) => {
       const { content } = response?.choices?.[0]?.message ?? '';
       if (!content) {
-        throw new Error('No content returned from OpenAI');
+        throwError(() => 'No content returned from OpenAI');
       }
-      return content.trim();
-    }),
-    map((content) => {
-      const code = content.charAt(0) === '{' ? content : content.split('```')[1];
+      const code =
+        content.charAt(0) === '{' ? content : content.split('```')[1];
       let question, answers;
       try {
         const result = JSON.parse(code);
         question = result.question;
         answers = result.answers;
       } catch (e) {
-        return throwError(() => 'Invalid JSON returned from OpenAI');
+        throwError(() => 'Invalid JSON returned from OpenAI');
       }
-
       question = `${topic ? '💬' : '🦜'} ${question}`;
       return {
         question,
@@ -90,10 +92,9 @@ openAI
       };
     }),
     concatMap(({ question, poll }) =>
-      mastodon.sendToots(question, { poll }).pipe(
-        scan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []),
-        map((tootUrls) => tootUrls.pop())
-      )
+      mastodon
+        .sendToots(question, { poll })
+        .pipe(mergeScan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []))
     ),
     map((tootUrl) => {
       if (!tootUrl) {
