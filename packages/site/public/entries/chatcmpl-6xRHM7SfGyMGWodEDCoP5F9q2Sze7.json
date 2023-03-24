@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xRHM7SfGyMGWodEDCoP5F9q2Sze7",
+  "object": "chat.completion",
+  "created": 1679624232,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Set specific and realistic goals: Understand what you want to achieve in your personal or professional life, and create a clear vision of the steps you need to take to get there. Your goals should be specific and attainable.\n\n2. Prioritize tasks: Identify which tasks are most important, either by their deadlines or by how much they contribute to reaching your overall goals. Tackle these tasks first in order to stay focused on what's most important.\n\n3. Plan ahead: Use tools like calendars, planners, or apps to help keep track of appointments, events, and tasks that must be completed within specified timeframes.\n\n4. Break down large projects into smaller tasks: Large projects can feel overwhelming if you try tackling them all at once; breaking them down into smaller, more manageable pieces can make it easier for you to complete each task step by step.\n\n5.Common activities include using daily schedules (automated through calendar apps), setting alarms as reminders so those things won’t slip off path even occasionally tending garden along home somewhere!\n\n6.Utilizing weekly reviews – When adding managed multifaceted checklists as monthly ‘big picture.’ Evaluate both short/medium- long-term objectives regularly assists keeping perspective achieving anything worth doing requires patience practice+experimenting (and sometimes failure).\n\n7.Stick with routines+: Establish regular rituals around sleep food exercise allow mind/body refuel perform best consistently focus better arrive work refreshed/listen attentively think clearly communicate effectively during various circumstances/sites+jobs will able learn adapt adjust curve/changing dynamics.”\n\n8.Managing distractions – Interruptions obstacles derail progress requiring prolonged periods concentration deep-thinking product last priority making decisions forge ahead.”\n\n\n\n9.Always have contingency plans now expect unexpected occur cover bases certain everything covered event something happens unforeseen"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
