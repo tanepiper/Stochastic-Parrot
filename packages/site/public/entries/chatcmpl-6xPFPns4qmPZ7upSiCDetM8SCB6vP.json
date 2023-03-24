@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xPFPns4qmPZ7upSiCDetM8SCB6vP",
+  "object": "chat.completion",
+  "created": 1679616423,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 147,
+    "total_tokens": 154
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, there is no way to speak with an Instagram administrator directly through a phone call. If you have any issues or concerns related to your account that cannot be resolved within the app itself, I recommend visiting Instagram's Help Center at https://help.instagram.com/.\n\nFrom there, you can browse various topics and categories for information on specific issues. You may also report problems or violations using the \"Report Something\" section in the help center. Remember that Instagram doesn't offer a direct phone support service; however, if necessary, they will reach out to you via email after reviewing your submitted form/report.\n\nIt is essential to note that contacting them multiple times during a short period might not expedite resolving your issue but could delay their response instead."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
