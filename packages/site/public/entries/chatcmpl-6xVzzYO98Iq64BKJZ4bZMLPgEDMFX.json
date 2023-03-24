@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xVzzYO98Iq64BKJZ4bZMLPgEDMFX",
+  "object": "chat.completion",
+  "created": 1679642375,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 226,
+    "total_tokens": 234
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Windows 10 does not have a built-in screen recording software. However, you can use the Xbox Game Bar for screen recording by following these steps:\n\n1. Press the Windows key + G to open the Xbox Game Bar.\n2. If it's your first time using the game bar, you may be prompted with a message asking if you want to enable gaming features for this app; click 'Yes.' \n3. In the top menu of the Xbox Game Bar, find and click on the \"Capture\" button (it looks like a camera). This will bring up an overlay with capture controls.\n4. Click on either “Start Recording” or press Win + Alt + R to start capturing your screen.\n\nBy default, recordings taken through this method only include gameplay—so apps like web browsers might not show up in final recordings unless they're explicitly included as games according to system configuration.\n\nNote that while intended primarily for capturing gameplay footage from video game applications running full-screen or windowed mode without borderless presentation options available upon request), settings changes such enabling loopback audio mixing logic will output sound mixed internally when listening back later:"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
