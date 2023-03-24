@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xX9EiXL4nkm048fhtGcxRddAc0zU",
+  "object": "chat.completion",
+  "created": 1679646792,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 350,
+    "total_tokens": 358
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "California's vehicle exhaust emissions standards are set by the California Air Resources Board (CARB), which sets stricter rules than the federal Environmental Protection Agency (EPA).\n\nSome differences between California and federal emissions standards include:\n\n1. Stricter Standards: CARB emission requirements for hydrocarbons, nitrogen oxides (NOx), and particulate matter (PM) can be more stringent than those of the EPA.\n\n2. Additional Pollutants Regulated: While both EPA and CARB regulate three main pollutants—volatile organic compounds (VOCs), NOx, and PM—they have differed in their focus on other pollutant classes such as Greenhouse Gas Emissions from gasoline vehicles.\n\n3. Zero-Emissions Vehicle Program: California has a Zero-Emissions Vehicle Program that requires automakers to produce an increasing number of zero-emissions vehicles, like battery-electric or hydrogen fuel cell vehicles.\n\n4. Smog Check Inspection & Maintenance Programs: California has operated its own state-specific vehicle inspection program since 1984 called \"Smog Check,\" often requiring biennial inspections for cars older than six years old, which is stricter than many states with no inspection requirement or follow periodic checks following EPA guidance\n\n5. Low Emission Vehicle Law Requirements:\nUpdated over time into multiple iterations (currently LEV-III regulations)\nCleaner running engines\nDiffering certification standards/tiers for engine families based on fleet-average adjustments\n6.Formation of Other State Adaptations:\nMany states choose to adopt some level of hybridization between Californian/Federal policies e.g., Partial ZEV requirements even if they don't abide by all CA specific mandates.\n \n7.More Test Procedures/Specific Policies:\nCA possesses more individualized test procedures focusing on specifics like mileage accumulation criteria or"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
