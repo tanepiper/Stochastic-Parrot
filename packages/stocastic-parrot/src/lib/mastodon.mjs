@@ -1,7 +1,14 @@
 import generator from 'megalodon';
 import { createReadStream } from 'node:fs';
 import { from } from 'rxjs';
-import { concatMap, map, mergeScan, scan, switchMap } from 'rxjs/operators';
+import {
+  concatMap,
+  map,
+  mergeScan,
+  scan,
+  switchMap,
+  tap,
+} from 'rxjs/operators';
 import textract from 'textract';
 import { retryConfig } from '../config.mjs';
 import { errorHandlerWithDelay } from './lib.mjs';
@@ -13,7 +20,11 @@ const POLL_TOOT_HASHTAGS = '#StochasticParrot #ChatGPT #Poll';
 
 /**
  * Function that splits up a large piece of text down into arrays of text
- * no more than 500 characters long. This is required for Mastodon.
+ * no more than 500 characters long. If the code encounters a code block, it will
+ * stop the current toot and start a new one with the code block, if this is more than
+ * 500 characters long, it should close the code block and start a new toot starting with
+ * a new code block until the end of the content code block.
+ * This is required for Mastodon.
  * @param {string} messageToToot
  * @param {boolean} withMedia
  * @returns {string[]} Array of strings to toot
@@ -21,18 +32,23 @@ const POLL_TOOT_HASHTAGS = '#StochasticParrot #ChatGPT #Poll';
 function splitToots(messageToToot, withMedia = false, withPoll = false) {
   const toots = [];
   const maxLen = toots.length > 0 ? 500 : 470;
+  const hashtags = withMedia
+    ? MEDIA_TOOT_HASHTAGS
+    : withPoll
+    ? POLL_TOOT_HASHTAGS
+    : CHAT_TOOT_HASHTAGS;
 
   while (messageToToot.length > 0) {
     let status = '';
     let inCodeBlock = false;
+
     if (messageToToot.length >= maxLen) {
       const parts = messageToToot.split(' ');
       for (let i = 0; i < parts.length; i++) {
         if (parts[i] === '```' && !inCodeBlock) {
-          inCodeBlock = !inCodeBlock;
-          break;
+          inCodeBlock = true;
         } else if (parts[i] === '```' && inCodeBlock) {
-          inCodeBlock = !inCodeBlock;
+          inCodeBlock = false;
         }
         if (status.length + parts[i].length >= maxLen) {
           break;
@@ -40,19 +56,14 @@ function splitToots(messageToToot, withMedia = false, withPoll = false) {
         status = `${status} ${parts[i]}`;
       }
       messageToToot = messageToToot.substring(status.length);
+
       if (toots.length === 0) {
-        status = `${status}\n\n${CHAT_TOOT_HASHTAGS}`;
+        status = `${status}\n\n${hashtags}`;
       }
     } else {
       status = `${messageToToot}`;
       if (toots.length === 0) {
-        status = `${status}\n\n${
-          withMedia
-            ? MEDIA_TOOT_HASHTAGS
-            : withPoll
-            ? POLL_TOOT_HASHTAGS
-            : CHAT_TOOT_HASHTAGS
-        }`;
+        status = `${status}\n\n${hashtags}`;
       }
       messageToToot = '';
     }
@@ -92,31 +103,26 @@ export function createMastodonClient(
 
     return from(messageParts).pipe(
       concatMap((status) => {
-        const options = { status, visibility: 'public' };
-        if (lastTootId) {
-          options.in_reply_to_id = lastTootId;
-        }
-        if (media_ids && media_ids.length > 0 && !lastTootId) {
-          options.media_ids = media_ids;
-        }
-        if (poll && !lastTootId) {
-          options.poll = poll;
-        }
-        return from(mastodon.postStatus(status, options))
-          .pipe(
-            map((res) => res.data),
-            errorHandlerWithDelay(retryConfig),
-            map((data) => {
-              if (!firstTootUrl) {
-                firstTootUrl = data.url;
-              }
-              lastTootId = data.id;
-              return firstTootUrl;
-            })
-          )
-          .pipe(
-            mergeScan((acc, tootUrl) => [...new Set([...acc, tootUrl])], [])
-          );
+        const options = {
+          status,
+          visibility: 'public',
+          ...(lastTootId && { in_reply_to_id: lastTootId }),
+          ...(media_ids &&
+            media_ids.length > 0 &&
+            !lastTootId && { media_ids }),
+          ...(poll && !lastTootId && { poll }),
+        };
+        return from(mastodon.postStatus(status, options)).pipe(
+          map((res) => res.data),
+          tap((data) => {
+            if (!firstTootUrl) {
+              firstTootUrl = data.url;
+            }
+            lastTootId = data.id;
+          }),
+          map(() => firstTootUrl),
+          errorHandlerWithDelay(retryConfig)
+        );
       })
     );
   }
@@ -138,8 +144,8 @@ export function createMastodonClient(
       })
     ).pipe(
       map((res) => res.data),
-      errorHandlerWithDelay(retryConfig),
-      map((data) => data.id)
+      map((data) => data.id),
+      errorHandlerWithDelay(retryConfig)
     );
   }
 

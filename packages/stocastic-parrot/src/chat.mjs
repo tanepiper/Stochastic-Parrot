@@ -66,7 +66,7 @@ openAI
         throw new Error('No content returned from OpenAI');
       }
       const toot = `${prompt ? '💬' : '🦜'} ${content}`;
-      console.log(`Creating Toot: ${toot}}`);
+      console.log(`Creating Toot: ${toot}`);
       return toot;
     }),
     concatMap((content) =>

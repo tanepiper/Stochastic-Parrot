@@ -35,7 +35,7 @@ if (opts?.help) {
 const OPEN_API_KEY = opts?.openAIToken ?? process.env.OPENAI_API_KEY;
 const MASTODON_ACCESS_TOKEN =
   opts?.mastodonToken ?? process.env.MASTODON_ACCESS_TOKEN;
-  const max_tokens = opts?.maxTokens ?? 350;
+const max_tokens = opts?.maxTokens ?? 350;
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
@@ -74,13 +74,16 @@ mastodon
           if (!content) {
             throw new Error('No content returned from OpenAI');
           }
-          return `${prompt ? '💬' : '🦜'} ${content}`;
+          const toot = `${prompt ? '💬' : '🦜'} ${content}`;
+          console.log(`Creating Toot: ${toot}`);
+          return toot;
         }),
         concatMap((content) =>
-          mastodon.sendToots(content).pipe(
-            scan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []),
-            map((tootUrls) => tootUrls.pop())
-          )
+          mastodon
+            .sendToots(content)
+            .pipe(
+              mergeScan((acc, tootUrl) => [...new Set([...acc, tootUrl])], [])
+            )
         ),
         map((tootUrl) => {
           if (!tootUrl) {

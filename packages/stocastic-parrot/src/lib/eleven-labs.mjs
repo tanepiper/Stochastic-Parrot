@@ -7,8 +7,8 @@ import { errorHandlerWithDelay, sanitize } from './lib.mjs';
 
 /**
  * Create a client for ElevenLabs API
- * @param {string} apiKey
- * @returns
+ * @param {string} apiKey The API for the ElevenLabs API
+ * @param {string} baseUrl The base URL for the ElevenLabs API
  */
 export function createElevenLabsClient(
   apiKey = '',
@@ -22,8 +22,8 @@ export function createElevenLabsClient(
 
   /**
    * Takes a Axios request stream and saves it to a file
-   * @param {*} stream
-   * @param {*} filename
+   * @param {import('axios').AxiosResponse} stream The Axios response stream
+   * @param {string} filename The filename to save the stream to
    * @returns
    */
   function streamToFile(stream, filename) {

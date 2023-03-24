@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xY9Cg4UTVff5Uh5UQWf76ac60Nun",
+  "object": "chat.completion",
+  "created": 1679650634,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 52,
+    "total_tokens": 59
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is impossible to predict how long someone will live, as it depends on various factors such as genetics, lifestyle choices, and living conditions. There are life expectancy calculators and statistical averages available online, but these cannot give an exact prediction for any specific individual."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
