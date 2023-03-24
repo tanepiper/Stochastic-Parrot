@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xaQ1dWQ98VKz6inLj0ZmFai9F8KV",
+  "object": "chat.completion",
+  "created": 1679659365,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 169,
+    "total_tokens": 176
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to answer this question definitively, as people can have differing opinions and impressions of someone based on their own values, experiences, and perspectives. To some extent, Joe Rogan has expressed controversial views or invited guests on his podcast that hold divisive perspectives. As a result, some may view him negatively by association or due to disagreements with the ideas discussed.\n\nJoe Rogan's approach to discussions often involves asking questions and trying to understand different viewpoints, which some see as allowing controversial figures an uncritical platform. Others appreciate his interest in engaging with a wide range of topics and personalities without imposing strong judgment.\n\nUltimately it depends on who you ask—some will consider Joe Rogan deleterious because they perceive him as promoting harmful ideas (or giving space for them), while others might value the open discourse he encourages through conversations with diverse participants."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

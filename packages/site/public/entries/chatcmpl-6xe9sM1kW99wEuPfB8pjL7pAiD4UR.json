@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xe9sM1kW99wEuPfB8pjL7pAiD4UR",
+  "object": "chat.completion",
+  "created": 1679673740,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Today, Brazilian education is under the jurisdiction of two separate entities: the Ministry of Education (MEC) and the state and municipal secretariats of education. The Federal Government has a more significant role in higher education in Brazil, while primary and secondary schools are primarily maintained by states and municipalities.\n\nThe Brazilian educational system consists of different levels:\n\n1. Early Childhood Education - This stage covers children up to six years old where they attend nurseries or pre-schools.\n\n2. Elementary School (Ensino Fundamental) – This level includes primary education from grade 1 to grade 5 for children ages 6-10, as well as lower secondary school from grades 6 through 9 for kids aged between 11-14.\n\n3. High School (Ensino Médio) – After completion of elementary school, students proceed with high school. It lasts three years, typically covering ages between 15 -17.\n\n4. Higher Education – Those who finish high school can opt for professional courses or universities which offer undergraduate courses which last around four years leading up to a degree or advanced technical diploma depending on program type studied during this period.\n\nBrazil has also implemented adult education programs called EJA (Educação de Jovens e Adultos), targeting people above age fifteen that have not completed their elementary or secondary studies due to various reasons such as financial constraints or socio-economic issues etcetera providing them opportunities complete their schooling at schooling centers across country based upon respective curriculum developed by aforementioned authorities helping these individuals fulfill educational goals leading many times better opportunities within workforce job market raising aiding overall development nation itself long run\".\n\nAlthough private schools do exist all throughout Brazil too large number quality standards vary greatly those available most average citizens affordable options either poor nonexistent often forcing low income"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

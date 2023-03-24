@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xcHqcBDJpayHjmg0t4Xc69TTQZ4W",
+  "object": "chat.completion",
+  "created": 1679666546,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 346,
+    "total_tokens": 353
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The key components of a contract are:\n\n1. Offer: One party (the offeror) must present a clear and definite proposal to another party (the offeree) indicating the desire to enter into an agreement.\n\n2. Acceptance: The offeree must accept the offer without any modifications, in unequivocal terms in order for it to become binding.\n\n3. Consideration: Both parties must exchange goods or services that have value, such as money, property, or labor (\"consideration\"). This cannot be something of negligible value such as a mere promise or token gesture.\n\n4. Legality: The purpose and terms of the contract must adhere to all applicable laws and regulations; otherwise, they will not be enforceable by courts. If relevant statutes prohibit certain types of agreements or set specific requirements for them, those rules must be followed closely.\n\n5. Capacity: Both parties entering into the contract should possess legal capacity—meaning they are both mentally competent and fully able to understand their rights and obligations under the particular agreement—or else their consent may not truly amount to acceptance properly made out regarding legal consequences arising from contracts concluded among themselves due basically on this point alone at least primarily with respect thereto accordingly provided by law where so required!\n\n6. Mutual Assent/Mutual Agreement/Meeting of The Minds: For a valid contract to exist there needs mutual assent i.e., both parties acknowledging each other's intentions and agreeing on material terms offered by one another crucially essential defining legally binding outcomes expected thereof based upon express understanding too about these factors existing evidently hereunder therefore finally agreed rest reached henceforth now beyond doubt affirmatively certainly categorically clearly conclusively convincingly definitively indisputably irrefutably reliably sincerely solidly "
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
