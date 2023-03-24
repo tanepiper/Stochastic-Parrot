@@ -77,7 +77,7 @@ const audioFilePath = path
  * RxJS operators to get the image URL, download the image, convert it to a webp, save it to the site
  * public folder, then post it to Mastodon.
  */
-console.log('🤖 Starting Stochastic Parrot - Creating Audio 🔈')
+console.log('🤖 Starting Stochastic Parrot - Creating Audio 🔈');
 
 openAI
   .getChat(prompt, { max_tokens })
@@ -101,9 +101,9 @@ openAI
       if (!content) {
         throw new Error('No content returned from OpenAI');
       }
-      console.log(`Generating Audio File... ${content}`);
+      console.log(`🔈 Generating Audio File... \n\n${content}`);
       return audioClient
-        .say(content, voiceId, `${audioFilePath}/${response.id}.mp3`, {
+        .say(content, `${audioFilePath}/${response.id}.mp3`, voiceId, {
           stability,
           similarity_boost,
         })

@@ -8,7 +8,9 @@ import {
   concatMap,
   finalize,
   map,
+  mergeScan,
   switchMap,
+  tap,
   toArray,
 } from 'rxjs/operators';
 import sharp from 'sharp';
@@ -100,9 +102,10 @@ openAI
 
     switchMap((media_ids) => {
       const status = prompt !== ' ' ? `💬` : `🦜`;
-      return mastodon.sendToots(`${status}`, { media_ids });
+      return mastodon
+        .sendToots(`${status}`, { media_ids })
+        .pipe(mergeScan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []));
     }),
-
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xVnJiDL4ZeMmmciE7vE0CssU5Cq4",
+  "object": "chat.completion",
+  "created": 1679641589,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 73,
+    "total_tokens": 81
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI language model, I cannot physically visit an arcade in Canada, as I am not a human being. My purpose is to provide information and answer questions based on my programming and available data. If you need guidance or recommendations for arcades in Canada, feel free to ask me more specific questions about that topic, and I'll be happy to assist you."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

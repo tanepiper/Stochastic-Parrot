@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xOlgb2vBDiMf30xfbJUdT6VBwHpF",
+  "object": "chat.completion",
+  "created": 1679614580,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A non-disclosure agreement (NDA), also known as a confidentiality agreement, is a legally binding contract between two or more parties. It stipulates that specific information disclosed during the course of business dealings must remain confidential and not be shared with anyone else without permission.\n\nThe purpose of an NDA is to protect sensitive information, trade secrets, or intellectual property from being revealed to competitors or unauthorized individuals. NDAs are commonly used in various industries and scenarios, including mergers & acquisitions, licensing agreements, joint ventures, product development partnerships and even employment contracts when an employee has access to confidential company information.\n\nNDAs typically have clauses outlining:\n\n1. The definition of the confidential information: This includes details about what types of data are covered under the NDA.\n2. Obligations: Both parties' responsibilities regarding handling and protecting the shared information.\n3. Exclusions: Information that isn't considered confidential due to already being public knowledge or accessible through other sources.\n4. Disclosure terms: Conditions under which one party may disclose parts of the agreed-upon materials within certain limits without breaking legal obligations.\n5. Duration: The period for which both parties agree on maintaining confidentiality associated with this particular document before either can speak openly about it again – often stretching years into future dates after termination enters effect!\n6.Consequences for breach: Including penalties like financial damages consisting in reimbursement sums alongside potential opportunities lost depending upon severity level based upon factors such incidence frequency rate plus gravity measurement ratioscales weigh how much harm failure entails precisely where recompense necessarily sought by initiating legal action proceedings unless exceptions applying contrary condition existed beforehand allowing waiver nullification otherwise mutually consented agreement suggest different course taking place instead rather than adhering strict letter law always rigidly enforced every situation possible encountering conflicts arise"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -10,7 +10,7 @@ import {
   concatMap,
   finalize,
   map,
-  scan,
+  mergeScan,
   switchMap,
   tap,
 } from 'rxjs/operators';
@@ -31,7 +31,7 @@ if (opts?.help) {
   process.exit(0);
 }
 
-console.log('🤖 Starting Stochastic Parrot - Creating Chat 🦜')
+console.log('🤖 Starting Stochastic Parrot - Creating Chat 🦜');
 
 const OPEN_API_KEY = opts?.openAIToken ?? process.env.OPENAI_API_KEY;
 const MASTODON_ACCESS_TOKEN =
@@ -66,12 +66,14 @@ openAI
         throw new Error('No content returned from OpenAI');
       }
       const toot = `${prompt ? '💬' : '🦜'} ${content}`;
-      console.log(`Creating Toot: ${toot}}`)
+      console.log(`Creating Toot: ${toot}}`);
       return toot;
     }),
-    concatMap((content) => mastodon.sendToots(content)),
-    scan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []),
-    map((tootUrls) => tootUrls.pop()),
+    concatMap((content) =>
+      mastodon
+        .sendToots(content)
+        .pipe(mergeScan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []))
+    ),
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');

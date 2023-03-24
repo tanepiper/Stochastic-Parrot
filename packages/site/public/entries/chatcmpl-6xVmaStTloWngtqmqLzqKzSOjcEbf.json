@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xVmaStTloWngtqmqLzqKzSOjcEbf",
+  "object": "chat.completion",
+  "created": 1679641544,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 317,
+    "total_tokens": 325
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are significant differences between ethics and morals:\n\n1. Definition: \n- Ethics refers to the system of rules, principles, or proper conduct that guide an individual in making decisions based on what is right and wrong. It typically arises from societal norms, cultural expectations, religious beliefs, or philosophical theories.\n- Morals refer to an individual's personal beliefs about what is right and wrong derived from their thoughts, emotions experiences, upbringing and sometimes cultural practices.\n\n2. Source:\n- Ethics often originate from external sources like society as a whole\n- Morals mainly stem from internal sources such as personal values,\n\n3. Flexibility:\n- As social constructs,, ethical standards may change over time with shifting cultural perspectives.\n- Moral values tend to be more constant , even unyielding due to deeply entrenched belief systems.\n\n4. Decision-making process:\n- In ethical decision-making there might be grey areas which can lead  parties towards differing conclusions depending on subjective interpretations of the given situation,\nMoral dilemmas are usually resolved by appealing one’s own inner compass\n\n5.Scope\n-Ethics provide individuals with generalized frameworks & rules for positioning themselves within socially acceptable boundaries;\nMorals assist people mark out their stance regarding specific instances they face personally;\n\n6.Contexts\nEthics is applicable in different contexts such as politics,businesses,hospitals & organizations following specific codes reflecting responsibility towards broader public interests; while moral action picks up speed form personal life situations\n\n7.Enforcement :\nethical violations could lead formal sanctions at organizational level whereas breaches in moral code could have implications within one's conscience or close social circles"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

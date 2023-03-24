@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xOzqoWdTIExZZZZEXdP88Rzfwe98",
+  "object": "chat.completion",
+  "created": 1679615458,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 291,
+    "total_tokens": 299
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To start playing chess with me, first mention the initial position of the piece you'd like to move and then its destination. For example: \"move pawn from e2 to e4\" or simply use this notation: \"e2 e4\".\n\nRemember that there are 8 ranks (rows) labeled as numbers (1-8), and 8 files (columns) labeled as letters (a-h). When moving a piece, always indicate the file letter followed by the rank number.\n\nHere is an overview of all pieces:\n\n- King (K): one per player\n- Queen (Q): one per player\n- Rook (R): two per player\n- Bishop(B): two per player\n- Knight(N/Kt):: two per player\n- Pawn(P/Pawn):: eight per player\n\nThe starting position in a standard game should look like this:\n\nWhite:\nPawn - Pawns on each square of row/rank 2.\nKnight - One knight on b1, another on g1.\nBishop - One bishop on c1, another on f1.\nRook - One rook at a1 and h9 \nQueen - The white queen goes on d1.\nKing - The king goes next to it at e1 \n\nBlack :: same but opposite. Starting from eighth rank towards down. pawns @ seventh rank.\n\nNow it's your turn! Please type your move using either regular English text or chess notation format :)"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

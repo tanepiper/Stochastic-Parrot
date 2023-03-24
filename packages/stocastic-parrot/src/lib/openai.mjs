@@ -57,7 +57,6 @@ export function createOpenAIInstance(apiKey) {
    */
   function getChat(prompt = '', options = {}) {
     options = { ...DEFAULT_CHAT_OPTIONS, ...options };
-    let retries = 0;
     return from(
       apiInstance.createChatCompletion({
         ...options,

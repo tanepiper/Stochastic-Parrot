@@ -1,7 +1,7 @@
 import generator from 'megalodon';
 import { createReadStream } from 'node:fs';
 import { from } from 'rxjs';
-import { concatMap, map, scan, switchMap } from 'rxjs/operators';
+import { concatMap, map, mergeScan, scan, switchMap } from 'rxjs/operators';
 import textract from 'textract';
 import { retryConfig } from '../config.mjs';
 import { errorHandlerWithDelay } from './lib.mjs';
@@ -89,7 +89,6 @@ export function createMastodonClient(
     );
     let firstTootUrl = '';
     let lastTootId = '';
-    let retries = 0;
 
     return from(messageParts).pipe(
       concatMap((status) => {
@@ -103,17 +102,21 @@ export function createMastodonClient(
         if (poll && !lastTootId) {
           options.poll = poll;
         }
-        return from(mastodon.postStatus(status, options)).pipe(
-          map((res) => res.data),
-          errorHandlerWithDelay(retryConfig),
-          map((data) => {
-            if (!firstTootUrl) {
-              firstTootUrl = data.url;
-            }
-            lastTootId = data.id;
-            return firstTootUrl;
-          })
-        );
+        return from(mastodon.postStatus(status, options))
+          .pipe(
+            map((res) => res.data),
+            errorHandlerWithDelay(retryConfig),
+            map((data) => {
+              if (!firstTootUrl) {
+                firstTootUrl = data.url;
+              }
+              lastTootId = data.id;
+              return firstTootUrl;
+            })
+          )
+          .pipe(
+            mergeScan((acc, tootUrl) => [...new Set([...acc, tootUrl])], [])
+          );
       })
     );
   }
