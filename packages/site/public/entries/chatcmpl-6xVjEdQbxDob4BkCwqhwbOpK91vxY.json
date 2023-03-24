@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xVjEdQbxDob4BkCwqhwbOpK91vxY",
+  "object": "chat.completion",
+  "created": 1679641336,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Being resilient is the ability to bounce back, recover and adapt from difficult situations, such as setbacks, failure, adversity or stress. Being emotionally strong typically includes showing emotional maturity and stability while facing challenges with grace and determination.\n\nHere are ten ways you can become more emotionally strong:\n\n1. Develop self-awareness: Understand your emotions by reflecting on what triggers them and how they affect your thoughts, behaviors and relationships.\n\n2. Take responsibility for your feelings: Accept that it's okay to feel negative emotions occasionally but try not to blame others or circumstances for them; instead take ownership of your reactions.\n\n3. Practice empathy: Try to understand other people's emotions, put yourself in their shoes and focus on being empathetic rather than critical or judgmental.\n\n4. Build a support network: Surround yourself with friends who uplift you emotionally by offering positive reinforcement through encouragement and guidance during tough times.\n\n5. Manage stress effectively: Use healthy coping mechanisms like exercise, mindfulness practices (meditation) or journaling when dealing with anxiety-inducing situations.\n\n6. Set realistic expectations of yourself: Don't be too hard on yourself – accept that no one is perfect at everything; also learn when it's necessary to say no without feeling guilty about doing so\n\n7.Stop dwelling on past experiences/mistakes - focusing only physical pain/emotional hurt caused us hold onto offers nothing learning move forward simply able letting go shedding weight negativity not decrease intensity/problems\n\n8.Focus long-term over short-term wellbeing setting goals achieving improve overall quality life requires persistence sacrifice sometimes choosing forego immediate satisfaction interest days come denotes underlying commitment vital equate mental health speaks volumes confidence personal growth direction headed \n\n9.Nurture sense humor laughing oneself proves helpful instant mood booster helps see silver lining cloud relieving pressure building"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
