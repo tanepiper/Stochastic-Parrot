@@ -38,6 +38,19 @@ export function sanitize(string) {
 }
 
 /**
+ * Clean up any characters that are not ASCII or Emoji characters and remove any HTML tags
+ * @param {string} inputString 
+ * @returns 
+ */
+export function sanitizeString(inputString) {
+  // Remove HTML tags from the input string
+  const strippedString = inputString.replace(/(<([^>]+)>)/ig, '');
+
+  // Remove any special characters that are not ASCII or Emoji characters
+  return strippedString.replace(/[^\x00-\x7F]/g, '');
+}
+
+/**
  * Returns a function that takes an observable and returns an observable that will retry the request if it fails
  * @param {*} delayConfig
  * @returns

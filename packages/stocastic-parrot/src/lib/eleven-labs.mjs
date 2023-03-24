@@ -3,7 +3,7 @@ import { createWriteStream } from 'node:fs';
 import { from, of } from 'rxjs';
 import { concatMap, map, switchMap } from 'rxjs/operators';
 import { elevenLabsConfig, retryConfig } from '../config.mjs';
-import { errorHandlerWithDelay, sanitize } from './lib.mjs';
+import { errorHandlerWithDelay, sanitizeString } from './lib.mjs';
 
 /**
  * Create a client for ElevenLabs API
@@ -63,7 +63,7 @@ export function createElevenLabsClient(
     voice_settings = {}
   ) {
     voice_settings = { ...elevenLabsConfig.voice_settings, ...voice_settings };
-    text = sanitize(text);
+    text = sanitizeString(text);
 
     const url = `${baseUrl}/text-to-speech/${voice}/stream`;
     return from(
