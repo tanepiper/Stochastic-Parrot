@@ -74,9 +74,9 @@ export function createElevenLabsClient(
         responseType: 'stream',
       })
     ).pipe(
-      errorHandlerWithDelay(retryConfig),
       switchMap((stream) => streamToFile(stream, filePath)),
-      map(() => filePath)
+      map(() => filePath),
+      errorHandlerWithDelay(retryConfig)
     );
   }
 

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xWAaNNkI4oRqo0ceX1W7aVKjLj1x",
+  "object": "chat.completion",
+  "created": 1679643032,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 350,
+    "total_tokens": 358
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are four primary series in the Bible:\n\n1. The Old Testament (Hebrew Scriptures) - Also known as the Hebrew Bible, this series is a collection of religious texts that were written between 1200 BCE and 100 CE. It consists of three parts: \n\n- Torah (Pentateuch): These first five books contain narratives about Israel's ancestors from creation to their exodus out of Egypt (Genesis, Exodus, Leviticus, Numbers, and Deuteronomy).\n   \n- Nevi'im (Prophets): This section contains historical accounts of events after entering the land until exile into Babylon as well as works by prophets who were charged with delivering God's message during various times in ancient Israelite history.\n  \n- Ketuvim (Writings): A mixture of poetry, wisdom literature led by Psalms including Proverbs and Job among others.\n\n2. The New Testament - This collection includes Greek writings composed during or soon after Jesus Christ's lifetime generally regarded as a central text within Christianity. They consist broadly under these categories:\n\n   - Gospels: Four distinct books recounting the life and teachings of Jesus Christ(Matthew, Mark, Luke & John)\n    \n   - Acts: Narrative on early church development detailing apostles' activities\n    \n   - Pauline Epistles: Letters attributed to Apostle Paul for guidance mainly addressing issues facing Christian communities'\n    \n    Other Epistles such as James-Jude; this category speaks to general matters concerning faith\n   \n      Book of Revelation – Apocalyptic work\n\n3. The Apocrypha - These texts fall outside Jewish or Christian canon but held popular value nonetheless found within some Bibles include Tobit-Judith-Esther additions etc., often referred to 'Deuterocan"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
