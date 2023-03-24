@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xZTMhGnV4CumRf2n22DvWV5DJNst",
+  "object": "chat.completion",
+  "created": 1679655728,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 189,
+    "total_tokens": 196
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, beetles are not dangerous to humans. While some beetles may bite if they feel threatened, it is very rare and most beetle bites only cause mild irritation or pain. With that said, certain species of beetles can be considered pests in agriculture and can damage crops or stored food products.\n\nIt's important to remember that there are over 350,000 known species of beetles in the world, so there is a wide variety in their behaviors and traits. If you ever encounter an unknown beetle species of larger size or with any concerning features (such as colorful warning signs), it’s better to keep a respectful distance just for safety reasons.\n\nWhile we don’t need to worry about being attacked by a swarm of blood-thirsty insects like depicted in movies, it’s still wise to know your local bugs for good pest control practices – which probably included approaching existing insecticides more responsible since many substances used today affect pollinators too!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
