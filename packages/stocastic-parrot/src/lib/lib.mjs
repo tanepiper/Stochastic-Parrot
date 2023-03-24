@@ -39,43 +39,45 @@ export function sanitize(string) {
 
 /**
  * Clean up any characters that are not ASCII or Emoji characters and remove any HTML tags
- * @param {string} inputString 
- * @returns 
+ * @param {string} inputString
+ * @returns
  */
 export function sanitizeString(inputString) {
   // Remove HTML tags from the input string
-  const strippedString = inputString.replace(/(<([^>]+)>)/ig, '');
+  const strippedString = inputString.replace(/(<([^>]+)>)/gi, '');
 
   // Remove any special characters that are not ASCII or Emoji characters
   return strippedString.replace(/[^\x00-\x7F]/g, '');
 }
 
 /**
- * Returns a function that takes an observable and returns an observable that will retry the request if it fails
+ * A function that accepts an Observable value that it pipes through catchError and retry operators
+ * The catchError operator has logic to check for HTTP status codes and log the error, and checks for
+ * different shenanigans like no response from the server, or too many requests
+ * The retry operator will retry the request up to the number of times specified in the retryConfig
+ * If there is no error, the Observable continues as normal
  * @param {*} delayConfig
  * @returns
  */
 export function errorHandlerWithDelay(
-  retryConfig = { count: 3, delay: 10000 }
+  { count = 3, delay = 10000 } = { count: 3, delay: 10000 }
 ) {
   let retries = 0;
   return (source) =>
     source.pipe(
       catchError((error) => {
-        const response = error?.response ?? error;
-        // console.log(response);
+        const { response } = error || {};
         if (!response?.status) {
           console.error(`No response status from server: ${error.code}`);
           if (response?.config?.url) {
             console.error(`URL: ${response.config.url}`);
           }
         } else if (response?.status === 401) {
-          console.error('Unable to process request, please check your API key');
-          process.exit(1);
-        } else if (response?.status === 429) {
-          console.error(
-            `Too many requests, trying again in ${retryConfig.delay}ms`
+          throw new Error(
+            'Unable to process request, please check your API key'
           );
+        } else if (response?.status === 429) {
+          console.error(`Too many requests, trying again in ${delay}ms`);
         } else {
           console.error(`${response.status}: ${response.statusText}`);
         }
@@ -84,14 +86,17 @@ export function errorHandlerWithDelay(
         }
 
         retries++;
-        if (retries >= retryConfig.count) {
+        if (retries >= count) {
           console.error(`Unable to process request after ${retries} retries`);
           return throwError(() => error);
         }
-        console.log(`Retrying... (${retries}/${retryConfig.count})`);
 
-        return of(error);
-      }),
-      retry(retryConfig)
+        return of(error).pipe(
+          delay(delay),
+          tap(() => {
+            console.log(`Retrying... (${retries}/${count})`);
+          })
+        );
+      })
     );
 }
