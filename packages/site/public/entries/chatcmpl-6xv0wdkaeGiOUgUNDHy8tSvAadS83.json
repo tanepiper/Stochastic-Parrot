@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xv0wdkaeGiOUgUNDHy8tSvAadS83",
+  "object": "chat.completion",
+  "created": 1679738534,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 166,
+    "total_tokens": 173
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Trump Tower is a 58-story mixed-use skyscraper located at 721-725 Fifth Avenue in Manhattan, New York City. The tower was developed by former President Donald Trump and completed in 1983. It serves as the headquarters for The Trump Organization and houses various offices, residential units, and retail spaces.\n\nTrump Tower’s height is approximately 664 feet (202 meters) tall. Its architectural style can be described as an example of postmodern architecture with its distinctive bronze glass facade.\n\nNotable features inside Trump Tower include a six-story atrium that consists of various shops, cafes, and a waterfall feature. Luxury retail stores like Gucci also have their flagship stores within the building's ground floor space.\n\nThe residences within Trump Tower are known for their luxury accommodations; many celebrities have owned or rented properties here over the years."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
