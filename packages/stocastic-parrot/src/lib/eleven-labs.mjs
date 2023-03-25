@@ -23,11 +23,11 @@ export function createElevenLabsClient(
   /**
    * Takes a Axios request stream and saves it to a file
    * @param {import('axios').AxiosResponse} stream The Axios response stream
-   * @param {string} filename The filename to save the stream to
+   * @param {string} filePath The filePath to save the stream to
    * @returns
    */
-  function streamToFile(stream, filename) {
-    const out = createWriteStream(filename);
+  function streamToFile(stream, filePath) {
+    const out = createWriteStream(filePath);
     return of(stream.data).pipe(
       concatMap((data) => {
         return new Promise((resolve, reject) => {
@@ -35,14 +35,9 @@ export function createElevenLabsClient(
           let error = null;
           out.on('error', (err) => {
             error = err;
-            //writer.close();
-            reject(err);
+            out.close();
           });
-          out.on('close', () => {
-            if (!error) {
-              resolve(true);
-            }
-          });
+          out.on('close', () => (error ? reject(error) : resolve(filePath)));
         });
       })
     );
@@ -77,7 +72,6 @@ export function createElevenLabsClient(
       })
     ).pipe(
       switchMap((stream) => streamToFile(stream, filePath)),
-      map(() => filePath),
       errorHandlerWithDelay(retryConfig)
     );
   }
