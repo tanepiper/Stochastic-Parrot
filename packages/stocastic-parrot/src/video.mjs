@@ -58,8 +58,12 @@ const templates = {
     id: 'f3ab36d7-9fef-415c-b966-c81bb587715a',
     prompt: `Create a funny fake motivational quote. Return the result as a JSON object with the property 'story' as an array with one quote, and a property 'hashtags' which is a string of hashtags related to the quote. Each string should be max 200 characters.`,
   },
+  fiveFacts: {
+    id: '3a77d06e-8940-40df-9d3b-3a507dd9265d',
+    prompt: `Give me 5 facts about any topic, for humor make the facts non sequitur to the topic. Return the result as a JSON object with the property 'introText' about the topic starting 'Here are 5 facts about', 'story' as an array with the 5 facts, and a property 'hashtags' which is a string of hashtags related to the topic, these should be serious and not humorous. Each string should be max 200 characters.`
+  }
 };
-const selectedTemplate = templates[opts?.template ?? 'motivationalQuote'];
+const selectedTemplate = templates[opts?.template ?? 'fiveFacts'];
 const prompt = topic
   ? `The topic is ${topic}. ${selectedTemplate.prompt}`
   : selectedTemplate.prompt;
@@ -116,6 +120,9 @@ openAI
       const modifications = Object.fromEntries(
         body?.story?.map((m, i) => [`Text-${i + 1}`, m])
       );
+      if (body?.introText) {
+        modifications['Intro-Text'] = body.introText;
+      }
       console.log(`📹 Generating Video`);
       return video.generateVideo(selectedTemplate.id, modifications).pipe(
         switchMap((videoResponse) => {

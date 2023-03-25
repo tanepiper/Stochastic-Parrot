@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y6wEBwM6uKqztC4fWo7bU5Fkp3oW",
+  "object": "chat.completion",
+  "created": 1679784370,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 150,
+    "total_tokens": 255
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about gardening:\",\n  \"story\": [\n    \"Elephants can recognize themselves in a mirror, but plants have not yet mastered this skill.\",\n    \"When playing hide-and-seek, potatoes always win as they are excellent hiders in the ground.\",\n    \"In ancient times, carrots were often used as lip balm due to their rich and vibrant color.\",\n    \"One popular avenue for artistic expression among tomatoes is ballet; however, partnering up is challenging because of their softness and round shape.\",\n    \"Garden gnomes communicate through interpretive dance.\"\n  ],\n  \"hashtags\": \"#Gardening #FunnyFacts #Horticulture #RandomPlantFacts\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
