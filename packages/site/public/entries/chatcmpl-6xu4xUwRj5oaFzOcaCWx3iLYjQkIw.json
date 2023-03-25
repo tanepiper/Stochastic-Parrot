@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xu4xUwRj5oaFzOcaCWx3iLYjQkIw",
+  "object": "chat.completion",
+  "created": 1679734939,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 122,
+    "total_tokens": 129
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Grand Canyon is approximately 277 miles (446 km) long, up to 18 miles (29 km) wide, and over a mile deep at its deepest point (around 6,000 feet or 1,800 meters). The canyon was carved by the Colorado River and is located in Arizona State, within the northern part of the U.S. Southwest. Due to erosion, weathering processes and plate tectonics movements over millions of years this breathtaking natural wonder has been sculpted. As one of Earth's most recognizable geological features it attracts millions of visitors annually from all around the world."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
