@@ -24,6 +24,20 @@ export function createEntriesLoader() {
     }
     return sorted;
   }
+  async function loadAudio(start = 0, end = 0, sortBy = 'created') {
+    const entryFiles = await import.meta.glob('../../public/audio/*.json', {
+      eager: true,
+    });
+    let sorted = Object.values(entryFiles ?? {})
+      .map((e) => e.default)
+      .sort((a, b) => (a[sortBy] > b[sortBy] ? -1 : 1));
+    entries = [...sorted];
+
+    if (end > 0) {
+      sorted = sorted.slice(start, end);
+    }
+    return sorted;
+  }
 
   async function getDallEImageFilenames() {
     const imageFiles = await import.meta.glob('../../public/dall-e/*.webp', {
@@ -35,7 +49,7 @@ export function createEntriesLoader() {
   }
 
   async function getAudioFiles() {
-    const audioFiles = await import.meta.glob('../../public/audio/*.mp3', {
+    const audioFiles = await import.meta.glob('../../public/audio/*.json', {
       eager: true,
     });
     return Object.keys(audioFiles)
@@ -47,5 +61,5 @@ export function createEntriesLoader() {
     return entries;
   }
 
-  return { loadEntries, getEntries, getDallEImageFilenames, getAudioFiles };
+  return { loadEntries, loadAudio, getEntries, getDallEImageFilenames, getAudioFiles };
 }

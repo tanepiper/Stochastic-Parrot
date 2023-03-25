@@ -3,28 +3,29 @@ import { Markdown } from '@astropub/md';
 
 const { items } = Astro.props;
 const allItems = items ?? [];
+const S3_URL = 'https://stochastic-parrot.s3.eu-west-1.amazonaws.com';
 ---
 
 <div class='item-list-container'>
   <slot />
   {
-    allItems.map(({ file, data }) => (
+    allItems.map((item) => (
       <div class='item'>
         <p>
           <code>
-            <a href={`/audio/view/${data.id}`}>permalink</a> | created:{' '}
-            {data.created} ({new Date(data.created * 1000).toISOString()}) |
-            model: {data.model} | total_tokens: {data.usage.total_tokens}
+            <a href={`/audio/view/${item.id}`}>permalink</a> | created:{' '}
+            {item.created} ({new Date(item.created * 1000).toISOString()}) |
+            model: {item.model} | total_tokens: {item.usage.total_tokens}
           </code>
         </p>
         <div class='contents'>
           <figure>
             <figcaption>Listen to Polly:</figcaption>
-            <audio controls src={`/audio/${file}`}>
-              <a href={`/audio/${file}`}>Download audio</a>
+            <audio controls src={`${S3_URL}/audio/${item.id}.mp3`}>
+              <a href={`${S3_URL}/audio/${item.id}.mp3`}>Download audio</a>
             </audio>
           </figure>
-          <Markdown of={data.choices[0].message.content} />
+          <Markdown of={item.choices[0].message.content} />
         </div>
       </div>
     ))

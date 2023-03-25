@@ -5,20 +5,14 @@ import { createEntriesLoader } from '../../libs/entries.mjs';
 
 export async function getStaticPaths({ paginate }) {
   const loader = createEntriesLoader();
-  const entries = await loader.getAudioFiles();
+  const entries = await loader.loadAudio();
+  //console.log(entries);
 
-  const data = await Promise.all(entries.map(async (item) => {
-    return await import(
-      /* @vite-ignore */
-      `./../../../public/entries/${item.replace('.mp3', '')}.json`).then((module) => module.default).then((data) => ({file: item, data}));
-  }));
-
-
-  const pages = data.map((item) => ({
+  const pages = entries.map((item) => ({
     params: {
-      file: item.file,
+      page: item.id,
     },
-    props: { file: item.file, data: item.data },
+    props: item,
   }));
 
   return paginate(pages, { pageSize: 10 });
@@ -26,6 +20,7 @@ export async function getStaticPaths({ paginate }) {
 
 const { page } = Astro.props;
 const entries = page.data.map((entry) => entry.props);
+console.log(entries);
 ---
 
 <Layout
