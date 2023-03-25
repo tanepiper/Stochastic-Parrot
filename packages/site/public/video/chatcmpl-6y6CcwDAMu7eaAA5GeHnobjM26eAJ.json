@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y6CcwDAMu7eaAA5GeHnobjM26eAJ",
+  "object": "chat.completion",
+  "created": 1679781542,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 85,
+    "completion_tokens": 86,
+    "total_tokens": 171
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"story\": [\n    \"1. Young couple moves into their dream home 🏡\",\n    \"2. Unexpected layoffs leave them struggling to cope 💔\",\n    \"3. Couple is forced to sell their possessions 😢 \",\n    \"4. Home foreclosed, dreams shattered, they part ways 💔\"\n  ],\n  \"hashtags\": \"#dreamhome #layoffs #struggle #foreclosure\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

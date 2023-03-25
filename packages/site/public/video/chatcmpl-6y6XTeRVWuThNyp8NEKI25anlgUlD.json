@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y6XTeRVWuThNyp8NEKI25anlgUlD",
+  "object": "chat.completion",
+  "created": 1679782835,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 47,
+    "total_tokens": 112
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"story\": [\"Never give up on your dreams, especially when you're asleep. That's where the weirdest stuff happens!\"],\n  \"hashtags\": \"#DreamBig #SleepTight #WeirdDreams\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

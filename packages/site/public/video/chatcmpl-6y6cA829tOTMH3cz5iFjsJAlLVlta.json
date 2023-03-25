@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y6cA829tOTMH3cz5iFjsJAlLVlta",
+  "object": "chat.completion",
+  "created": 1679783126,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 52,
+    "total_tokens": 117
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"story\": [\"Don't let yesterday take up too much of today, otherwise there won't be enough room for the popsicles in your freezer\"],\n  \"hashtags\": \"#MotivationMonday #LifeLessons #PopsicleWisdom\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
