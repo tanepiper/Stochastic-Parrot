@@ -1,11 +1,22 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { createEntriesLoader } from '../../libs/entries.mjs';
-import {Image} from '@astrojs/image/components'
+import { Image } from '@astrojs/image/components';
+import { getS3Files } from './../../libs/S3.mjs';
 
-const loader = createEntriesLoader();
+const BUCKET_NAME = 'stochastic-parrot';
 
-const entries = (await loader.getDallEImageFilenames()) ?? [];
+const S3_URL = 'https://stochastic-parrot.s3.eu-west-1.amazonaws.com';
+const remoteFiles = (await getS3Files(BUCKET_NAME, 'dall-e')) ?? [];
+
+const entries =
+  remoteFiles?.Contents?.sort((a, b) => {
+    return new Date(b.LastModified).getMilliseconds() -
+      new Date(a.LastModified).getMilliseconds() >
+      0
+      ? 1
+      : -1;
+  }).map((file) => file.Key) ?? [];
 ---
 
 <Layout
@@ -29,7 +40,7 @@ const entries = (await loader.getDallEImageFilenames()) ?? [];
           entries.map((entry, index) => (
             <figure class={`gallery__item gallery__item--${index + 1}`}>
               <Image
-                src={`/dall-e/${entry}`}
+                src={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`}
                 class='gallery__img'
                 alt='Image 1'
                 width={500}

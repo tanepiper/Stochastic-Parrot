@@ -115,6 +115,7 @@ openAI
               BUCKET_NAME
             );
           }),
+          tap((s3File) => `🔗 Audio File URL: ${s3File}`),
           map(() => ({
             file: `${audioFilePath}/${response.id}.mp3`,
             description: content.substring(0, 1499),
