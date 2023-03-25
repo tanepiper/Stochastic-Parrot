@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y5JdYW3VS7GsxSJpLzGLQc4PMpmV",
+  "object": "chat.completion",
+  "created": 1679778133,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 305,
+    "total_tokens": 312
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few key differences between ethics and etiquette:\n\n1. Nature: Ethics refer to the moral principles that govern our behavior, while etiquette refers to the customary code of polite behavior in society or among members of a particular profession or group.\n\n2. Purpose: The main purpose of ethics is to guide us in making decisions that are morally right and fair, considering factors such as fairness, justice, rights, and responsibilities. On the other hand, etiquette serves mainly to ensure harmony among people by promoting courteous behavior and good manners.\n\n3. Scope: Ethics covers broader issues related to morality such as human rights, equality, honesty in business transactions etc., whereas etiquette usually deals with more specific behaviors like greeting someone properly or using correct table manners.\n\n4. Universality: Ethical principles tend to be more universal across cultures because they relate directly with human nature (although religious beliefs might affect them significantly). Etiquette rules on customs vary widely from culture to culture since they emerge largely depending upon local habits and lifestyles.\n\n5. Legitimacy: Breaching ethical norms can have serious consequences for individuals and society at large including potential legal punishments for breaking laws determined through these norms; but ignoring proper etiquettes may lead only towards damage social relationships rather than creating any major harm overall.\n\n6. Flexibility: While ethical principles remain consistent over time because they derive their value from fundamental values emphasizing general welfare; etiquettes evolve which cultural changes occurred enabling easier adaptation new surroundings offer full acceptance within different communities without compromising one's own dignity self-respect"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
