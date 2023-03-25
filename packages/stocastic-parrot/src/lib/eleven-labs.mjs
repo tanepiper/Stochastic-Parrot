@@ -28,24 +28,16 @@ export function createElevenLabsClient(
    */
   function streamToFile(stream, filename) {
     const out = createWriteStream(filename);
-    return of(stream.data).pipe(
-      concatMap((data) => {
-        return new Promise((resolve, reject) => {
-          data.pipe(out);
-          let error = null;
-          out.on('error', (err) => {
-            error = err;
-            writer.close();
-            reject(err);
-          });
-          out.on('close', () => {
-            if (!error) {
-              resolve(true);
-            }
-          });
-        });
-      })
-    );
+    stream.data.pipe(out);
+    return new Promise((resolve, reject) => {
+      let error = null;
+      out.on('error', (err) => {
+        error = err;
+        writer.close();
+        reject(err);
+      });
+      out.on('close', () => resolve(filename));
+    });
   }
 
   /**
@@ -62,14 +54,16 @@ export function createElevenLabsClient(
     voice = elevenLabsConfig.voiceId,
     voice_settings = {}
   ) {
-    voice_settings = { ...elevenLabsConfig.voice_settings, ...voice_settings };
-    text = sanitizeString(text);
-
-    const url = `${baseUrl}/text-to-speech/${voice}/stream`;
     return from(
-      axios(url, {
+      axios(`${baseUrl}/text-to-speech/${voice}/stream`, {
         method: 'post',
-        data: { text, voice_settings },
+        data: {
+          text: sanitizeString(text),
+          voice_settings: {
+            ...elevenLabsConfig.voice_settings,
+            ...voice_settings,
+          },
+        },
         headers: configHeaders,
         responseType: 'stream',
       })
