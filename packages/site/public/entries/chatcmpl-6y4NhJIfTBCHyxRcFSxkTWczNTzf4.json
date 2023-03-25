@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y4NhJIfTBCHyxRcFSxkTWczNTzf4",
+  "object": "chat.completion",
+  "created": 1679774541,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 213,
+    "total_tokens": 220
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to reduce passive voice in writing. Here are some tips for converting passive sentences into active sentences:\n\n1. Identify the subject, verb, and object: In a passive sentence, the subject is being acted upon by an indirect object or an action. To transform it into an active sentence, make the subject perform the action.\n\nPassive: The cake was eaten by John.\nActive: John ate the cake.\n\n2. Swap positions of subjects and objects if necessary: Make sure that your subject is doing the acting rather than receiving it.\n\nPassive: A book was given to me by Mary.\nActive: Mary gave me a book.\n\n3. Use direct language and strong verbs instead of weak ones or forms of \"be\": Replace linking verbs like \"is,\" \"was,\" with more specific or expressive verbs to add power related to who is performing each activity in your writing.\n\nPassive: The ball was kicked.\nActive : Ella kicks the ball\n\n4.Remove unnecessary prepositions like \"by\" when rearranging a sentence from passive to active voice\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
