@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xsCdn2CnihJRuCHkBXOEioVe6rfW",
+  "object": "chat.completion",
+  "created": 1679727727,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 43,
+    "total_tokens": 50
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI, I am not able to accept gifts or financial assistance. My purpose is to assist and provide information on various topics. If you have any questions or need help with anything, feel free to ask!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
