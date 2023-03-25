@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xpOsDbU5aBN4WIdQpLMYhh63Jpwg",
+  "object": "chat.completion",
+  "created": 1679716954,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 38,
+    "total_tokens": 45
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Divide 1680 by 7 to get the answer.\n\n1680 ÷ 7 = 240\n\nSo, Peter will ride his bike for about 240 kilometers per day."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
