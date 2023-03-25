@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xrH0KVTR1oKQRkmhggktchhf7VQk",
+  "object": "chat.completion",
+  "created": 1679724154,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 271,
+    "total_tokens": 278
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Naruto Shippuden: Ultimate Ninja Storm 4, known in Japan as Naruto Shippuden: Narutimate Storm 4 is a fighting game developed by CyberConnect2 and published by Bandai Namco Entertainment. It was released in February 2016 for PlayStation 4, Xbox One, and Microsoft Windows platforms.\n\nThe game features an extensive roster of over 100 playable characters from the Naruto universe, including commonly recognized protagonists like Naruto Uzumaki and Sasuke Uchiha, along with many of their close associates such as Sakura Haruno and Kakashi Hatake to less-utilized yet important personalities like Chojuro or Kurotsuchi.\n\nNaruto Shippuden: Ultimate Ninja Storm 4 focuses on the final chapters of the manga series' storyline – from battling through the Great Ninja War against Madara until reaching Kaguya's ultimate defeat. The narrative mode closely adapts major events from Masashi Kishimoto's original work while offering exciting gameplay experiences constructed around each scenario using elaborate combinations amid cutscenes.\n\nBeyond its story campaign lies several multiplayer modes where gamers can challenge opponents either online or locally across diverse battle arenas incorporating respective character abilities into intense exchanges packed with strategic depth. Moreover, players may undertake optional ventures that extend fascinating what-if outcomes within numerous side missions showcasing alternate timelines outside established chronology originally penned."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
