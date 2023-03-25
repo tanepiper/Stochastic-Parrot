@@ -63,6 +63,9 @@ jobs:
         if: ${{ steps.npm-cache-dir.outputs.cache-hit != 'true' }}
         run: npm install
       - name: Build site
+        env:
+          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
         run: npm run moon run site:build
       - name: Setup Pages
         uses: actions/configure-pages@v3
