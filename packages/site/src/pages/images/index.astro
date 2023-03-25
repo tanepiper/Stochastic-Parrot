@@ -1,7 +1,5 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { createEntriesLoader } from '../../libs/entries.mjs';
-import { Image } from '@astrojs/image/components';
 import { getS3Files } from './../../libs/S3.mjs';
 
 const BUCKET_NAME = 'stochastic-parrot';
@@ -39,7 +37,7 @@ const entries =
         {
           entries.map((entry, index) => (
             <figure class={`gallery__item gallery__item--${index + 1}`}>
-              <Image
+              <img
                 src={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`}
                 class='gallery__img'
                 alt='Image 1'
