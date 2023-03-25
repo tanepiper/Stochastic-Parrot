@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xkiIPUbZyVvoo9sNmqsbxBu1nDqa",
+  "object": "chat.completion",
+  "created": 1679698938,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "You can download music from SoundCloud by following these steps:\n\n1. Visit SoundCloud’s website at soundcloud.com on your computer, tablet, or mobile device.\n2. Locate the track you want to download.\n3. Check if the artist offers a \"Free Download\" or \"Buy\" link, usually located either under the waveform visualization of the track or in its description.\n\nIf there's a Free Download link:\na) Click on it and follow any instructions provided (e.g., logging in via Facebook or entering an email).\nb) The song will be downloaded and saved as an MP3 file onto your device.\n\nHowever, not all tracks are available for free downloads directly through SoundCloud. In this case, you may need to use third-party tools that allow downloading songs from SoundCloud to MP3 format like KlickAud.co, ScloudDownloader.net, etc.\n\nNote: Using third-party websites poses potential legal issues surrounding copyright infringements and piracy. Always make sure you have permission from the rights holder before downloading copyrighted material illegally.\n\nFor users with Android/iOS devices:\nThere are several applications such as Free Music Downloader for \\Sound\\+\\ound\\+ &ndroid\\_/\\iOS which /\\/allows\\nuserso/) **r*>*Save++/*9tracks*\\offline_avListeninguIf7h4-these\\is`dA^free>downloadgoptionS*Q&ailableci^nñSoundn—Floudq>--ye()`elf.N5&Please/ Be-/-aware>_that using Þthird@sNsgartyY-\\appseômayxÚXlead-tl);legal§ssuesìcSURroundingm<cQopy@\\rightcin]etingrqementsaw"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

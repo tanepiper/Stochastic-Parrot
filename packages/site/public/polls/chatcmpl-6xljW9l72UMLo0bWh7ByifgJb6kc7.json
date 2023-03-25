@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xljW9l72UMLo0bWh7ByifgJb6kc7",
+  "object": "chat.completion",
+  "created": 1679702858,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 65,
+    "total_tokens": 117
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would make the best president?\",\n  \"answers\": [\n    \"Hermione Granger from Harry Potter\",\n    \"Jon Snow from Game of Thrones\",\n    \"Princess Leia Organa from Star Wars\",\n    \"Katniss Everdeen from Hunger Games\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
