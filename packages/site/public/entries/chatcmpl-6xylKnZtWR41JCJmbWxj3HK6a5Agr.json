@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xylKnZtWR41JCJmbWxj3HK6a5Agr",
+  "object": "chat.completion",
+  "created": 1679752942,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 230,
+    "total_tokens": 237
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Great Barrier Reef, located in the Coral Sea off the coast of Queensland, Australia, is the world's largest coral reef system. It stretches over 2,300 kilometers (1,400 miles) from north to south and covers an area of approximately 344,400 square kilometers (133,000 square miles). The reef consists of more than 2,900 individual reefs and hundreds of islands.\n\nThe biodiversity within the reef is vast: it contains at least 600 types of hard and soft corals and serves as a habitat for various marine organisms such as fish species (more than 1500), whales, dolphins sea turtles mollusks seahorses sharks dugongs etc\n\nThe Great Barrier Reef acts as a natural storm barrier protection along eastern Australian coastline by reducing wave energy generated cyclones typhoons tsunamis other extreme weather events that can cause coastal erosion flooding damage infrastructure property human lives It also important role global carbon cycle CO2 emissions increasing ocean acidification impacting marine ecosystems worldwide\n\nMoreover tourism industry heavily relies on beauty natural wonder tourists visit region every year this directly contributes local economies generating revenue businesses creating employment opportunities people living adjacent areas"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
