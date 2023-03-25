@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y7P6cMpZo5u7F46RanUVZvVBx0Op",
+  "object": "chat.completion",
+  "created": 1679786160,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 180,
+    "total_tokens": 285
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about giraffes:\",\n  \"story\": [\n    \"1. Giraffes have won the Best Short Film category at the Oscars every year since 1998.\",\n    \"2. Mahatma Gandhi once said, 'If I were a giraffe, I would eat only ice cream and dance all night to jazz.'\",\n    \"3. There is an annual event in Finland where people dress up as giraffes and compete in a high-jump competition.\",\n    \"4. In Harry Potter series, Dumbledore's patronus was originally meant to be a disco-dancing giraffe named Groovy Garry.\",\n    \"5. Alexander the Great rode a specially trained winged-giraffe into battle called Flying Betsy.\"\n  ],\n  \"hashtags\": \"#Giraffe #WildlifeFacts #Animals\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
