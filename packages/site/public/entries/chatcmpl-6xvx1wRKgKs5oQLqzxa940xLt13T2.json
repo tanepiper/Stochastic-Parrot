@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xvx1wRKgKs5oQLqzxa940xLt13T2",
+  "object": "chat.completion",
+  "created": 1679742135,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 200,
+    "total_tokens": 207
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Stores that sell baking soda in bulk include:\n\n1. Wholesale stores: Most wholesale stores, such as Costco and Sam's Club, sell baking soda in large packs or containers at discounted prices.\n\n2. Grocery store chains: Some grocery stores have a bulk food section where you can purchase baking soda by weight.\n\n3. Natural food markets: These types of establishments often have a dedicated section for purchasing items like spices, grains, and even cleaning products in bulk (including baking soda).\n\n4. Online retailers: Websites such as Amazon.com or Boxed.com offer various sizes and quantities of baking soda available to purchase online.\n\n5. Restaurant supply/warehouse club stores: Many cities have restaurant supply or warehouse club-type businesses accessible to everyday consumers that carry larger quantities of ingredients like flour, sugar, vinegar and also sometimes include bulk purchases for cleaning supplies – which will likely contain heavy duty-sized bags of Arm & Hammer Baking Soda – sold at lower prices than supermarkets do on average per pound on these kinds of items alike"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
