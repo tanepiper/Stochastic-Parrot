@@ -8,13 +8,15 @@ const S3_URL = 'https://stochastic-parrot.s3.eu-west-1.amazonaws.com';
 const remoteFiles = (await getS3Files(BUCKET_NAME, 'dall-e')) ?? [];
 
 const entries =
-  remoteFiles?.Contents?.sort((a, b) => {
-    return new Date(b.LastModified).getMilliseconds() -
-      new Date(a.LastModified).getMilliseconds() >
-      0
-      ? 1
-      : -1;
-  }).map((file) => file.Key) ?? [];
+  remoteFiles?.Contents?.filter((file) => file.Key.includes('.webp'))
+    .sort((a, b) => {
+      return new Date(b.LastModified).getMilliseconds() -
+        new Date(a.LastModified).getMilliseconds() >
+        0
+        ? 1
+        : -1;
+    })
+    .map((file) => file.Key) ?? [];
 ---
 
 <Layout
@@ -37,17 +39,20 @@ const entries =
         {
           entries.map((entry, index) => (
             <figure class={`gallery__item gallery__item--${index + 1}`}>
-              
-                  <a href={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`} target="_blank" rel="noopener noreferrer">
-              <img
-                src={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`}
-                class='gallery__img'
-                alt='Image 1'
-                width={512}
-                height={512}
-                loading="lazy"
-              />
-            </a>
+              <a
+                href={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img
+                  src={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`}
+                  class='gallery__img'
+                  alt='Image 1'
+                  width={512}
+                  height={512}
+                  loading='lazy'
+                />
+              </a>
             </figure>
           ))
         }
