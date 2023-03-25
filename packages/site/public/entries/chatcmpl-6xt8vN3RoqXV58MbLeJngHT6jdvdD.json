@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xt8vN3RoqXV58MbLeJngHT6jdvdD",
+  "object": "chat.completion",
+  "created": 1679731341,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When an adjustable bed frame is adjusted, the base of the frame can be raised or lowered into a variety of positions to better support specific areas of your body, thus adding convenience and comfortability. Using a remote control or app on some models, you can adjust the position of both the head and foot sections independently.\n\nHere are common features in adjustable beds that make them appealing:\n\n1. Enhanced Comfort: By raising your head or legs slightly above your heart level, it reduces stress on your cardiovascular system and provides relief from muscle soreness.\n\n2. Reduced Acid Reflux: Elevating the head has been shown to reduce symptoms associated with acid reflux.\n\n3. Improved Circulation & Pressure Relief: Raising either end promotes blood circulation by reducing pressure points around specific parts of our body like hips, shoulders neck\n\n4. Assistance for Mobility Issues: People who have difficulty getting out of bed due to arthritis or other conditions may benefit as they can raise their upper body to help with lifting themselves out.\n\n5- Customizability & Convenience: Adjustable beds allow users to customize sleep experiences based off how one feels each night-time due sky-high levels freedom ecitytricity usage settings tailored specifically ourselves\n\n6- Reduces Snoring/Sleep Apnea - Elevation helps open up airways facilitating better breathing patterns which could leads fewer instances wherein persons experiencing obstructive events while unconscious (iude apneic episodes).\n\n7- Accommodates Different Sleep Styles - Offering varying incline options ideal if partners prefer sleeping styles where separate comfortable zones need exist (+takes cater different preferences).\n  \n8-Pain management - For those suffering chronic pain issues such sciatica/, certain adjustments offer restful nights leave waking feeling refreshed+\n\n9-Wireless Control – Many frames today come equipped"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
