@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y6GU1qhyLEve1yIOiH304DCNLwNU",
+  "object": "chat.completion",
+  "created": 1679781782,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 316,
+    "total_tokens": 323
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Chromebooks have various storage solutions, including internal storage (usually ranging from 16 GB to 256 GB) and external storage through USB drives or SD cards. Additionally, Chromebooks come with built-in support for Google Drive cloud storage, often providing 100 GB of free space for two years.\n\nHere is how you can manage your files on a Chromebook:\n\n1. Accessing Files: To access the file manager on your Chromebook,\n   - Click on the \"Launcher\" button in the bottom-left corner of your screen.\n   - Locate the 'Files' app; click to open it.\n \n2. Internal Storage:\n   - Within the 'Files' app, navigate to \"My files\" > \"Downloads.\" The Downloads folder is where all locally stored files are organized.\n \n3. External Storage:\n   - Connect a USB drive or insert an SD card into your Chromebook\n   - In the ‘Files’ app sidebar, find and click on your external device name under “External Drives.”\n  \n4. Google Drive:\n    - Find and click “Google Drive” in the 'Files' app sidebar\n\n5. Saving Files:\n    - You can directly save files within applications like Google Docs/Sheets by choosing File > Save as... Otherwise, when downloading content from websites or apps such as images or documents select \"Save As...\" option then choose location desired between \"Downloads,\" any connected external device(s), or Google's Drive.\n\n6. Deleting Files:\n    - To remove unwanted data off various storages areas highlight selected items right-click navigating delete command"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
