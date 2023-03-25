@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xwtTUXlYT5DGtWWHDa3sC74Nc5Y3",
+  "object": "chat.completion",
+  "created": 1679745759,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 40,
+    "total_tokens": 47
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm an AI developed by OpenAI, so I do not have personal intentions. However, my purpose is to assist and provide information to help you make decisions or answer any questions you might have."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
