@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y1ZBb1poQ5df0Oi416q70dUpzS7r",
+  "object": "chat.completion",
+  "created": 1679763721,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 347,
+    "total_tokens": 354
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1) Make a thorough list of your likes and dislikes - Begin with small things such as food preferences, hobbies, music choices, and gradually move to more complex aspects like values, principles or personal goals. By having an explicit list of the things you like or dislike, it will be easier for you to communicate them with others.\n\n2) Develop self-awareness - Regularly reflect on why certain situations make you feel good or bad in order to identify patterns. Spend time alone engaging in introspection about what kind of relationships work best for you and what kinds are not fulfilling.\n\n3) Likewise, learn from experiences - Whenever something goes wrong or right in a relationship try analyzing the reasons behind those outcomes. This way future expectations can be set accordingly as a result of previous interactions.\n\n4) Have difficult conversations – often we avoid conflict because it is uncomfortable but addressing concerns that arise straight away can save resentment from building up later down the line which could damage friendships & relationships.\n\n5) Communicate assertively – There is no reason to drag issues when expressing concerns overtakes their capacity back haul. Simply express how their actions made you feel confidently ensuring that respective party remains respectful on both ends at all times throughout conversation (even if anger arises).\n\n6) Be open about yourself- For people closest around us subconsciously we pick partners who would offer type atmosphere most comfortable/familiar based off observations growing up-to combat this stigma allow strangers access into your thought process by being genuine: freely sharing opinions without fear judgment thus increasing importance overall openness within relations developed over-time\n\n7)Know Your Boundaries- Setting boundaries helps ensure balanced relationships where everyone has respect for each other's individuality so define clear limits regarding behavior tolerable during interactions shared amongst parties involved"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
