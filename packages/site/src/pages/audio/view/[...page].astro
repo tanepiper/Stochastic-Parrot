@@ -38,7 +38,7 @@ const { item } = Astro.props;
         <div class='contents'>
           <figure>
             <figcaption>Listen to Polly:</figcaption>
-            <audio controls src={`${S3_URL}/audio/${item.id}.mp3`}>
+            <audio controls src={`${S3_URL}/audio/${item.id}.mp3`} preload="metadata">
               <a href={`${S3_URL}/audio/${item.id}.mp3`}> Download audio</a>
             </audio>
           </figure>
