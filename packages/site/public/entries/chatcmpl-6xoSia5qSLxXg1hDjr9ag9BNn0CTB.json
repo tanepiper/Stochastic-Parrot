@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xoSia5qSLxXg1hDjr9ag9BNn0CTB",
+  "object": "chat.completion",
+  "created": 1679713348,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 64,
+    "total_tokens": 71
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Nie mogę wysyłać ani odbierać wiadomości tekstowych, ponieważ jestem sztuczną inteligencją i nie mam funkcji komunikacji SMS. Mogę jednak pomóc w innych sprawach poprzez odpowiedzi na pytania tutaj!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
