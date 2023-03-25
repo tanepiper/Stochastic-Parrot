@@ -49,7 +49,7 @@ jobs:
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
           TEXT_TO_AUDIO_API_KEY: ${{ secrets.TEXT_TO_AUDIO_API_KEY }}
           AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
-          AWS_SECRET_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
         run: |
           if [[ "${{github.event.inputs.pollySays}}" == "" ]]; then
             echo "Generating Response from nothing"
