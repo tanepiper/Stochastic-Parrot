@@ -28,16 +28,24 @@ export function createElevenLabsClient(
    */
   function streamToFile(stream, filename) {
     const out = createWriteStream(filename);
-    stream.data.pipe(out);
-    return new Promise((resolve, reject) => {
-      let error = null;
-      out.on('error', (err) => {
-        error = err;
-        writer.close();
-        reject(err);
-      });
-      out.on('close', () => resolve(filename));
-    });
+    return of(stream.data).pipe(
+      concatMap((data) => {
+        return new Promise((resolve, reject) => {
+          data.pipe(out);
+          let error = null;
+          out.on('error', (err) => {
+            error = err;
+            //writer.close();
+            reject(err);
+          });
+          out.on('close', () => {
+            if (!error) {
+              resolve(true);
+            }
+          });
+        });
+      })
+    );
   }
 
   /**

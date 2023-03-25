@@ -114,3 +114,6 @@ dist
 
 # Docs
 docs
+
+# Temp
+tmp/

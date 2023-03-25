@@ -6,7 +6,6 @@ import { createEntriesLoader } from '../../libs/entries.mjs';
 export async function getStaticPaths({ paginate }) {
   const loader = createEntriesLoader();
   const entries = await loader.loadAudio();
-  //console.log(entries);
 
   const pages = entries.map((item) => ({
     params: {
@@ -20,7 +19,6 @@ export async function getStaticPaths({ paginate }) {
 
 const { page } = Astro.props;
 const entries = page.data.map((entry) => entry.props);
-console.log(entries);
 ---
 
 <Layout

@@ -3,7 +3,6 @@ import dotenv from 'dotenv';
 import minimist from 'minimist';
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { from } from 'rxjs';
 import {
   catchError,
   concatMap,
@@ -14,6 +13,7 @@ import {
   tap,
 } from 'rxjs/operators';
 import { createElevenLabsClient } from './lib/eleven-labs.mjs';
+import { S3UploadFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
 
@@ -28,6 +28,8 @@ import { createOpenAIInstance } from './lib/openai.mjs';
  */
 
 dotenv.config();
+
+const BUCKET_NAME = 'stochastic-parrot';
 
 const { _, ...opts } = minimist(process.argv.slice(2));
 let prompt = _?.[0] ?? ' '; // This should be an empty space
@@ -66,10 +68,10 @@ const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const audioClient = createElevenLabsClient(TEXT_TO_AUDIO_API_KEY);
 const entriesFilePath = path
-  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
+  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'audio')
   .split(':')[1];
 const audioFilePath = path
-  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'audio')
+  .resolve(`${import.meta.url}`, '..', '..', 'tmp')
   .split(':')[1];
 
 /**
@@ -105,7 +107,14 @@ openAI
           similarity_boost,
         })
         .pipe(
-          tap(() => console.log(`💾 Saving Audio File`)),
+          tap(() => console.log(`💾 Saving Audio File to S3`)),
+          tap(async () => {
+            await S3UploadFile(
+              `audio/${response.id}.mp3`,
+              `${audioFilePath}/${response.id}.mp3`,
+              BUCKET_NAME
+            );
+          }),
           map(() => ({
             file: `${audioFilePath}/${response.id}.mp3`,
             description: content.substring(0, 1499),
@@ -113,11 +122,11 @@ openAI
         );
     }),
     concatMap(({ file, description }) => {
-      console.log('Uploading Audio File...');
+      console.log('🔼 Uploading Audio File to Mastodon...');
       return mastodon.postMedia(file, description).pipe(delay(10000));
     }),
     switchMap((media) => {
-      console.log('Posting Audio File...');
+      console.log('💬 Posting Audio File...');
       const status = prompt !== ' ' ? `💬` : `🦜`;
       return mastodon.sendToots(`${status}`, { media_ids: [media] });
     }),

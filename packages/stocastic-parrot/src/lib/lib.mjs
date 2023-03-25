@@ -1,5 +1,8 @@
+import AWS from 'aws-sdk';
 import crypto from 'node:crypto';
+import { readFile } from 'node:fs/promises';
 import { catchError, of, throwError } from 'rxjs';
+import { retry } from 'rxjs/operators';
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
@@ -59,24 +62,25 @@ export function sanitizeString(inputString) {
  * @returns
  */
 export function errorHandlerWithDelay(
-  { count = 3, delay = 10000 } = { count: 3, delay: 10000 }
+  retryConfig = { count: 3, delay: 10000 }
 ) {
   let retries = 0;
   return (source) =>
     source.pipe(
       catchError((error) => {
-        const { response } = error || {};
+        const response = error?.response ?? error;
         if (!response?.status) {
           console.error(`No response status from server: ${error.code}`);
           if (response?.config?.url) {
             console.error(`URL: ${response.config.url}`);
           }
         } else if (response?.status === 401) {
-          throw new Error(
-            'Unable to process request, please check your API key'
-          );
+          console.error('Unable to process request, please check your API key');
+          process.exit(1);
         } else if (response?.status === 429) {
-          console.error(`Too many requests, trying again in ${delay}ms`);
+          console.error(
+            `Too many requests, trying again in ${retryConfig.delay}ms`
+          );
         } else {
           console.error(`${response.status}: ${response.statusText}`);
         }
@@ -85,17 +89,35 @@ export function errorHandlerWithDelay(
         }
 
         retries++;
-        if (retries >= count) {
+        if (retries >= retryConfig.count) {
           console.error(`Unable to process request after ${retries} retries`);
           return throwError(() => error);
         }
+        console.log(`Retrying... (${retries}/${retryConfig.count})`);
 
-        return of(error).pipe(
-          delay(delay),
-          tap(() => {
-            console.log(`Retrying... (${retries}/${count})`);
-          })
-        );
-      })
+        return of(error);
+      }),
+      retry(retryConfig)
     );
+}
+
+export async function S3UploadFile(key, sourceFile, bucket) {
+  const client = new AWS.S3({
+    region: 'eu-west-1',
+    credentials: {
+      accessKeyId: process.env.AWS_ACCESS_KEY,
+      secretAccessKey: process.env.AWS_SECRET_KEY,
+    },
+  });
+
+  const fileData = await readFile(sourceFile);
+
+  const result = await client.upload({
+    Bucket: bucket,
+    Key: key,
+    Body: fileData,
+  }).promise();
+
+  const { Location } = result;
+  return Location;
 }
