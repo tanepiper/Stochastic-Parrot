@@ -157,7 +157,7 @@ openAI
     }),
     switchMap(({ media, body }) => {
       console.log('💬 Posting Video File...');
-      const status = `${prompt !== ' ' ? '💬' : '🦜'} ${body}`;
+      const status = `${topic !== ' ' ? '💬' : '🦜'} ${body}`;
       return mastodon.sendToots(`${status}`, { media_ids: [media] });
     }),
 
