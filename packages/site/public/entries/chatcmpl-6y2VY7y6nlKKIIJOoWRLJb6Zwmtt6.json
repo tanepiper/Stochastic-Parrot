@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y2VY7y6nlKKIIJOoWRLJb6Zwmtt6",
+  "object": "chat.completion",
+  "created": 1679767340,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 69,
+    "total_tokens": 76
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I understand your need for privacy and confidentiality, so whatever we discuss here will be treated with the utmost discretion. Just remember that I am an AI and not a certified professional, so if you ever feel like your issue requires expert help or attention, please consult a licensed healthcare provider or counselor.\n\nFeel free to express whatever you want to talk about."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
