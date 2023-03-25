@@ -1,6 +1,5 @@
 import crypto from 'node:crypto';
-import { catchError, throwError, timer } from 'rxjs';
-import { retry, take } from 'rxjs/operators';
+import { catchError, of, throwError } from 'rxjs';
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
