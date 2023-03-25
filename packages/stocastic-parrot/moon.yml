@@ -54,6 +54,16 @@ tasks:
       - 'package.json'
     output:
       - 'public/polls'
+  video:
+    options:
+      runInCI: false
+      cache: false
+    command: 'npm run video'
+    inputs:
+      - 'src/**/*'
+      - 'package.json'
+    output:
+      - 'public/videos'
   test:
     options:
       runInCI: false

@@ -9,6 +9,7 @@
     "chat": "node src/chat.mjs",
     "image": "node src/images.mjs",
     "poll": "node src/poll.mjs",
+    "video": "node src/video.mjs",
     "test": "node src/test.mjs",
     "chat:local": "node src/chat-from-local.mjs",
     "image:local": "node src/images-from-local.mjs"
@@ -32,6 +33,7 @@
     "rxjs": "~7.8.0",
     "sharp": "~0.31.3",
     "textract": "~0.20.0",
-    "aws-sdk": "~2.1343.0"
+    "aws-sdk": "~2.1343.0",
+    "creatomate": "~1.0.4"
   }
 }
