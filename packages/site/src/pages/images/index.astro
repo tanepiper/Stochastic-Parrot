@@ -37,13 +37,17 @@ const entries =
         {
           entries.map((entry, index) => (
             <figure class={`gallery__item gallery__item--${index + 1}`}>
+              
+                  <a href={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`} target="_blank" rel="noopener noreferrer">
               <img
                 src={`https://stochastic-parrot.s3.eu-west-1.amazonaws.com/${entry}`}
                 class='gallery__img'
                 alt='Image 1'
-                width={500}
-                height={500}
+                width={512}
+                height={512}
+                loading="lazy"
               />
+            </a>
             </figure>
           ))
         }
