@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xqKsA84PyVE56KRJoZoVHLOeISQi",
+  "object": "chat.completion",
+  "created": 1679720550,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 172,
+    "total_tokens": 179
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A manual typically refers to a printed booklet or online document that provides instructions, information, guidance on how to use a specific product, service, software or perform certain tasks. Manuals usually include descriptions of features and functions; detailed step-by-step instructions for setup and operation; troubleshooting tips and solutions; safety warnings and precautions; maintenance recommendations; warranty information (if applicable); contact information for customer support if needed.\n\nAn instructional guide is similar to a manual but could be slightly more informal in tone. It focuses more on explaining processes or concepts through simple language and visual aids like diagrams, charts, illustrations etc., making the subject matter easy-to-understand by its target audience. Instructional guides can be found as part of formal education materials such as textbooks or within less-formal 'how-to' books/articles/blogs/videos etc., catering towards DIY enthusiasts \\<^incomplete_sentence/>."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
