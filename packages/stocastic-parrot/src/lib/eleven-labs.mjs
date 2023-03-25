@@ -3,7 +3,7 @@ import { createWriteStream } from 'node:fs';
 import { from, of } from 'rxjs';
 import { concatMap, map, switchMap } from 'rxjs/operators';
 import { elevenLabsConfig, retryConfig } from '../config.mjs';
-import { errorHandlerWithDelay, sanitizeString } from './lib.mjs';
+import { errorHandlerWithDelay, sanitizeString, streamToFile } from './lib.mjs';
 
 /**
  * Create a client for ElevenLabs API
@@ -19,29 +19,6 @@ export function createElevenLabsClient(
     'xi-api-key': apiKey,
     'Content-Type': 'application/json',
   };
-
-  /**
-   * Takes a Axios request stream and saves it to a file
-   * @param {import('axios').AxiosResponse} stream The Axios response stream
-   * @param {string} filePath The filePath to save the stream to
-   * @returns
-   */
-  function streamToFile(stream, filePath) {
-    const out = createWriteStream(filePath);
-    return of(stream.data).pipe(
-      concatMap((data) => {
-        return new Promise((resolve, reject) => {
-          data.pipe(out);
-          let error = null;
-          out.on('error', (err) => {
-            error = err;
-            out.close();
-          });
-          out.on('close', () => (error ? reject(error) : resolve(filePath)));
-        });
-      })
-    );
-  }
 
   /**
    * Send text to ElevenLabs API, the text will be converted to speech and returned as a stream which is saved to a mp3 file

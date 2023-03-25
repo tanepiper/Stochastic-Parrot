@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y1t81vc5xoCqRi5r8yKTFDirE7Zl",
+  "object": "chat.completion",
+  "created": 1679764958,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 113,
+    "total_tokens": 181
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"modifications\": [\n    \"1. Once upon a time, in a cheerful town, Jack found his dream job and met the love of his life, Emily.\",\n    \"2. Jack's company downsized; he lost his job but kept supporting his family by working long night shifts.\",\n    \"3. Sadly, Emily fell ill with no sign of recovery; Jack sold everything they had to afford her medical bills.\",\n    \"4. Jack grieved as Emily passed away, leaving him broken and alone in their now-empty house.\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

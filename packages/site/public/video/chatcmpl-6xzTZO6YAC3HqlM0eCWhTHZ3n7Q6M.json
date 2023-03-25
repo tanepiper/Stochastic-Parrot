@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xzTZO6YAC3HqlM0eCWhTHZ3n7Q6M",
+  "object": "chat.completion",
+  "created": 1679755685,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 153,
+    "total_tokens": 208
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"modifications\": [\n    \"Once upon a time, in a small village, Sally lived happily with her loving family. They would always have dinner parties and laugh together.\",\n    \"As time went on, Sally watched as her parents began quarreling more often. The once-vibrant house gradually grew silent; even the dinner parties ceased.\",\n    \"One day, Sally's father left without a word. Her mother cried for days while she tried to comfort her siblings who couldn't understand why their world was crumbling around them.\",\n    \"Sally's sadness turned into despair as she realized life may never be filled with joy again. With no hope of reuniting what once was, darkness enveloped every corner of her heart.\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

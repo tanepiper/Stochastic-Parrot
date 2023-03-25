@@ -1,8 +1,9 @@
 import AWS from 'aws-sdk';
 import crypto from 'node:crypto';
+import { createWriteStream } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import { catchError, of, throwError } from 'rxjs';
-import { retry } from 'rxjs/operators';
+import { concatMap, retry } from 'rxjs/operators';
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
@@ -112,12 +113,37 @@ export async function S3UploadFile(key, sourceFile, bucket) {
 
   const fileData = await readFile(sourceFile);
 
-  const result = await client.upload({
-    Bucket: bucket,
-    Key: key,
-    Body: fileData,
-  }).promise();
+  const result = await client
+    .upload({
+      Bucket: bucket,
+      Key: key,
+      Body: fileData,
+    })
+    .promise();
 
   const { Location } = result;
   return Location;
+}
+
+/**
+ * Takes a Axios request stream and saves it to a file
+ * @param {import('axios').AxiosResponse} stream The Axios response stream
+ * @param {string} filePath The filePath to save the stream to
+ * @returns
+ */
+export function streamToFile(stream, filePath) {
+  const out = createWriteStream(filePath);
+  return of(stream.data).pipe(
+    concatMap((data) => {
+      return new Promise((resolve, reject) => {
+        data.pipe(out);
+        let error = null;
+        out.on('error', (err) => {
+          error = err;
+          out.close();
+        });
+        out.on('close', () => (error ? reject(error) : resolve(filePath)));
+      });
+    })
+  );
 }

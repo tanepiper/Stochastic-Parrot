@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y27MRzejpYeeBIHdC2YPulbuaVmM",
+  "object": "chat.completion",
+  "created": 1679765840,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 86,
+    "completion_tokens": 106,
+    "total_tokens": 192
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"modifications\": [\n    \"1. Starting off: girl laughing with her friends, roadtripping to dream city.\",\n    \"2. Hitting rock bottom: loses job, struggles with loneliness and finances.\",\n    \"3. Darker days: poor mental health, avoiding loved ones; feeling trapped.\",\n    \"4. Desperate attempt: trying for recovery but failing repeatedly.\"\n  ],\n  \"hashtags\": \"#LifeGoesOn #DepressionJourney #LonelinessHurts #FailedRecovery\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

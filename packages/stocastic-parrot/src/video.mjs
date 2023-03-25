@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import dotenv from 'dotenv';
 import minimist from 'minimist';
+import { createWriteStream } from 'node:fs';
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import {
@@ -49,8 +50,8 @@ const CREATOMATIC_API_KEY =
   opts?.creatoMaticToken ?? process.env.CREATOMATIC_API_KEY;
 
 const prompt = topic
-  ? `Generate a short story ${topic} broken down into 4 short sections, each section getting more depressing, give the result as a JSON object with the property 'modifications' as an array of strings. Each string should be max 200 characters.`
-  : `Generate a random short story broken down into 4 short sections, each section getting more depressing, give the result as a JSON object with the property 'modifications' as an array of strings. Each string should be max 200 characters.`;
+  ? `In the style of short captions for a social media video, Generate a short story about ${topic} broken down into 4 short sections, each section getting more depressing, give the result as a JSON object with the property 'modifications' as an array of strings, and a property 'hashtags' which is a string of hashtags that would suit the story. Each string should be max 100 characters.`
+  : `In the style of short captions for a social media video, Generate a random short story broken down into 4 short sections, each section getting more depressing, give the result as a JSON object with the property 'modifications' as an array of strings, and a property 'hashtags' which is a string of hashtags that would suit the story. Each string should be max 100 characters.`;
 
 const BUCKET_NAME = 'stochastic-parrot';
 const templateId = 'cb5ed739-810b-45a4-be18-7054e16500a9';
@@ -95,26 +96,27 @@ openAI
       }
       const code =
         content.charAt(0) === '{' ? content : content.split('```')[1];
-      let result;
+      let body;
       try {
-        result = JSON.parse(code);
+        body = JSON.parse(code);
       } catch (e) {
         throwError(() => 'Invalid JSON returned from OpenAI');
       }
 
-      const modifications = result?.modifications?.map((m, i) => ({
-        [`Text-${i + 1}`]: m,
-      }));
-
+      const modifications = Object.fromEntries(
+        body?.modifications?.map((m, i) => [`Text-${i + 1}`, m])
+      );
+      console.log(`📹 Generating Video`);
       return video.generateVideo(templateId, modifications).pipe(
-        tap(async (response) => {
-          await fetch(response.url).then((res) =>
-            res.body.pipe(
-              fs.createWriteStream(`${videoFilePath}/${response.id}.mp4`)
+        switchMap((videoResponse) => {
+          return video
+            .downloadVideo(
+              videoResponse.url,
+              `${videoFilePath}/${response.id}.mp4`
             )
-          );
+            .pipe(map(() => ({ response, body })));
         }),
-        tap(async (response) => {
+        tap(async ({ response }) => {
           await S3UploadFile(
             `video/${response.id}.mp4`,
             `${videoFilePath}/${response.id}.mp4`,
@@ -122,19 +124,23 @@ openAI
           );
         }),
         tap((s3File) => `🔗 Audio File URL: ${s3File}`),
-        map((response) => ({
+        map(({ response, body }) => ({
           file: `${videoFilePath}/${response.id}.mp4`,
           description: Object.values(modifications).join(' '),
+          body: body?.hashtags ?? '',
         }))
       );
     }),
-    concatMap(({ file, description }) => {
+    concatMap(({ file, description, body }) => {
       console.log('🔼 Uploading Video File to Mastodon...');
-      return mastodon.postMedia(file, description).pipe(delay(10000));
+      return mastodon.postMedia(file, description).pipe(
+        map((media) => ({ media, body })),
+        delay(10000)
+      );
     }),
-    switchMap((media) => {
+    switchMap(({ media, body }) => {
       console.log('💬 Posting Video File...');
-      const status = prompt !== ' ' ? `💬` : `🦜`;
+      const status = `${prompt !== ' ' ? '💬' : '🦜'} ${body}`;
       return mastodon.sendToots(`${status}`, { media_ids: [media] });
     }),
 

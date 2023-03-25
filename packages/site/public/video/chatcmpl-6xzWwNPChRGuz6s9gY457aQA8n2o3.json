@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6xzWwNPChRGuz6s9gY457aQA8n2o3",
+  "object": "chat.completion",
+  "created": 1679755894,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 169,
+    "total_tokens": 224
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"modifications\": [\n    \"Once upon a time in a small, jovial village, lived Anna and her loving husband Edward. They cherished their simple but fulfilling life together as they nurtured their vibrant garden.\",\n    \"One fateful day, Edwards's health began deteriorating rapidly. Worries clouded their once joyful hearts as the thriving garden started to wither due to neglect from tending to Edward’s care.\",\n    \"Edward passed away despite all efforts of his loved ones trying in vain to save him. Anna was left heartbroken, feeling an unbearable void echoing through her now silent home; even the flowers stopped blooming.\",\n    \"Anna withdrew into desolation while the once flourishing area around them transformed into a somber shadow of itself: nothing remained but wilted petals on abandoned soil crying for sunlight.\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
