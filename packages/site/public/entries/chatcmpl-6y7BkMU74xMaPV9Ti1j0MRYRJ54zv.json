@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y7BkMU74xMaPV9Ti1j0MRYRJ54zv",
+  "object": "chat.completion",
+  "created": 1679785332,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 84,
+    "total_tokens": 91
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, honey is a natural sugar made by bees from nectar found in flowers. It consists mostly of glucose and fructose, which makes it a sweet substance commonly used as an alternative to refined sugars. In moderate amounts, honey can be beneficial due to its antioxidants and nutrients content. However, excessive consumption of honey or any other sugar source can lead to potential health risks such as weight gain and increased blood sugar levels."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
