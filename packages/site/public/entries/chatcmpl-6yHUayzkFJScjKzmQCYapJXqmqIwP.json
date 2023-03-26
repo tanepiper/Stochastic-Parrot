@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yHUayzkFJScjKzmQCYapJXqmqIwP",
+  "object": "chat.completion",
+  "created": 1679824940,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 319,
+    "total_tokens": 326
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Anti-inflammatory foods are types of food that help reduce inflammation in the body. They can play a vital role in managing health conditions such as arthritis, heart disease, and even cancer. Some examples of anti-inflammatory foods include:\n\n1. Fatty fish: Salmon, mackerel, sardines, and other oily fishes are rich in omega-3 fatty acids that have been shown to reduce inflammation.\n\n2. Berries: Blueberries, strawberries, cherries, and raspberries contain antioxidants called anthocyanins that help fight inflammation.\n\n3. Leafy green vegetables: Spinach, kale, collard greens and other leafy greens are high in vitamins K and E which can inhibit the inflammatory response.\n\n4. Whole grains: Brown rice, quinoa oats etc., these provide fiber which helps with gut health reducing levels of CRP (C-reactive protein) linked with promoting systematic inflammations.\n\n5. Nuts and seeds: Almonds walnuts flaxseeds chia seeds provides good fats e.g Omega 3 fatty acid along with vitamin E combating inflammations\n\n6.Spices & Herbs like turmeric for its curcumin content - powerful antioxidant , ginger , garlic too helping to manage chronic inflammatory responses\n\n7.Olive oil is rich source healthy fat has oleocanthal compound acts similarly on body's pain receptors like ibuprofen \n\n8.Green tea contains numerous anti inflammatory components namely epigallocatechin gallate benefiting overall wellness \n\nThe key is consuming wide variety natural plant-based whole ingredients balance moderation prevent or combat underlying cellular dysfunctions causing chronic low-grade inflammation ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
