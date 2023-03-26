@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yOzOAjH6VBc28f1qypMnWjvoPNet",
+  "object": "chat.completion",
+  "created": 1679853758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 64,
+    "total_tokens": 71
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What do you like to do in your free time?\n\nAs an AI, I don't have personal feelings or preferences, so I don't engage in activities during my \"free time.\" My purpose is to assist and provide information when needed. If you have any questions or need help with something, feel free to ask!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
