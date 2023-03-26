@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yFoDnjGZ7AeAivgppxhUjRVbGcvL",
+  "object": "chat.completion",
+  "created": 1679818469,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 115,
+    "total_tokens": 203
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"story\": [\n    \"Once in a charming town, Emily found the most beautiful maple tree and called it her sanctuary.\",\n    \"One day, she noticed construction plans near the tree; they were going to cut it down.\",\n    \"Desperate, she tried saving it by protest but faced rejection from town officials and people.\",\n    \"The maple was gone; now only memories of her sanctuary live within her resilient heart.\"\n  ],\n  \"hashtags\": \"#PositiveVibes #KeepTrying #NatureLover #StayMotivated #LifeLessons\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
