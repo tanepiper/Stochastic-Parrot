@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yCoJkVAZ1AwUfVV6qVEJAFPOO6R7",
+  "object": "chat.completion",
+  "created": 1679806943,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 111,
+    "total_tokens": 118
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is not possible for a robot to have true feelings, as they are machines built by humans and programmed with specific instructions. They do not possess emotions or consciousness like humans do.\n\nHowever, robots can be designed to simulate emotional responses or even mimic human behavior convincingly. For instance, social robots may be programmed to recognize facial expressions and respond accordingly, making them seem more \"human-like\" in their interactions. But these behaviors are purely computational processes, and any display of \"feelings\" is only an imitation based on programming protocols rather than genuine emotion."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
