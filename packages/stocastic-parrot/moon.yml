@@ -85,7 +85,7 @@ tasks:
       - "package.json"
     output:
       - "public/videos"
-  
+
   chat-local:
     options:
       runInCI: false

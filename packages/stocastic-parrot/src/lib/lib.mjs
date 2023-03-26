@@ -1,9 +1,9 @@
 import AWS from "aws-sdk";
 import crypto from "node:crypto";
 import { createWriteStream } from "node:fs";
-import { readFile } from "node:fs/promises";
-import { catchError, of, throwError } from "rxjs";
-import { concatMap, retry } from "rxjs/operators";
+import { readFile, writeFile } from "node:fs/promises";
+import { catchError, Observable, of, throwError } from "rxjs";
+import { concatMap, retry, tap } from "rxjs/operators";
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
@@ -146,4 +146,25 @@ export function streamToFile(stream, filePath) {
       });
     })
   );
+}
+
+/**
+ * Write the repsponse from an Axios request to a file
+ * @param {string} file The file to write to
+ * @returns {Observable} An Observable that writes the response to a file
+ */
+export function writeResponseToFile(filePath) {
+  return (source) =>
+    source.pipe(
+      tap(async (response) => {
+        await writeFile(
+          `${filePath}/${response.id}.json`,
+          JSON.stringify(response, null, 2),
+          {
+            encoding: "utf8",
+            flag: "w",
+          }
+        );
+      })
+    );
 }

@@ -1,26 +1,17 @@
 #!/usr/bin/env node
 
-import dotenv from "dotenv";
-import minimist from "minimist";
-import { writeFile } from "node:fs/promises";
-import path from "node:path";
-import { from } from "rxjs";
-import {
-  catchError,
-  concatMap,
-  finalize,
-  map,
-  mergeScan,
-  switchMap,
-  tap,
-} from "rxjs/operators";
-import { createMastodonClient } from "./lib/mastodon.mjs";
-import { createOpenAIInstance } from "./lib/openai.mjs";
+import dotenv from 'dotenv';
+import minimist from 'minimist';
+import path from 'node:path';
+import { catchError, finalize, map, switchMap, tap } from 'rxjs/operators';
+import { writeResponseToFile } from './lib/lib.mjs';
+import { createMastodonClient } from './lib/mastodon.mjs';
+import { createOpenAIInstance } from './lib/openai.mjs';
 
 dotenv.config();
 
 const { _, ...opts } = minimist(process.argv.slice(2));
-let prompt = _?.[0] ?? "";
+let prompt = _?.[0] ?? '';
 if (opts?.help) {
   console.log(`Usage: chat.mjs [prompt] <options>`);
   console.log(`Options:`);
@@ -31,7 +22,7 @@ if (opts?.help) {
   process.exit(0);
 }
 
-console.log("🤖 Starting Stochastic Parrot - Creating Chat 🦜");
+console.log('🤖 Starting Stochastic Parrot - Creating Chat 🦜');
 
 const OPEN_API_KEY = opts?.openAIToken ?? process.env.OPENAI_API_KEY;
 const MASTODON_ACCESS_TOKEN =
@@ -41,40 +32,31 @@ const max_tokens = opts?.maxTokens ?? 350;
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const filePath = path
-  .resolve(`${import.meta.url}`, "..", "..", "..", "site", "public", "entries")
-  .split(":")[1];
+  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
+  .split(':')[1];
 
+/**
+ * Generate a chat response from OpenAI and post it to Mastodon, the
+ * response is saved to the site for the site
+ */
 openAI
   .getChat(prompt, { max_tokens })
   .pipe(
     tap(() => console.log(`💾 Saving Response`)),
-    tap(async (response) => {
-      await writeFile(
-        `${filePath}/${response.id}.json`,
-        JSON.stringify(response, null, 2),
-        {
-          encoding: "utf8",
-          flag: "w",
-        }
-      );
-    }),
+    writeResponseToFile(filePath),
     map((response) => {
-      const { content } = response?.choices?.[0]?.message ?? "";
+      const { content } = response?.choices?.[0]?.message ?? '';
       if (!content) {
-        throw new Error("No content returned from OpenAI");
+        throw new Error('No content returned from OpenAI');
       }
-      const toot = `${prompt ? "💬" : "🦜"} ${content}`;
+      const toot = `${prompt ? '💬' : '🦜'} ${content}`;
       console.log(`Creating Toot: ${toot}`);
       return toot;
     }),
-    concatMap((content) =>
-      mastodon
-        .sendToots(content)
-        .pipe(mergeScan((acc, tootUrl) => [...new Set([...acc, tootUrl])], []))
-    ),
+    switchMap((content) => mastodon.sendToots(content)),
     map((tootUrl) => {
       if (!tootUrl) {
-        throw new Error("No tool URL returned from Mastodon");
+        throw new Error('No tool URL returned from Mastodon');
       }
       console.log(`Toot posted to Mastodon: ${tootUrl}`);
       return tootUrl;

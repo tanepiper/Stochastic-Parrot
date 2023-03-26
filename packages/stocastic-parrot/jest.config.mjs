@@ -1,6 +1,6 @@
 export default {
-    testMatch: ['**/*.spec.mjs'],
-    transform: {
-        "^.+\\.mjs?$": "babel-jest"
-    }
-}
+  testMatch: ["**/*.spec.mjs"],
+  transform: {
+    "^.+\\.mjs?$": "babel-jest",
+  },
+};

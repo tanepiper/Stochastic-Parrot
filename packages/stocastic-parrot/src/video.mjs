@@ -13,7 +13,7 @@ import {
   switchMap,
   tap,
 } from "rxjs/operators";
-import { createCreatomateClient, templates } from "./lib/creatomate.mjs";
+import { createCreatomateClient, videoTemplates } from "./lib/creatomate.mjs";
 import { S3UploadFile } from "./lib/lib.mjs";
 import { createMastodonClient } from "./lib/mastodon.mjs";
 import { createOpenAIInstance } from "./lib/openai.mjs";
@@ -52,7 +52,7 @@ const MASTODON_ACCESS_TOKEN =
 const CREATOMATIC_API_KEY =
   opts?.creatoMaticToken ?? process.env.CREATOMATIC_API_KEY;
 
-const selectedTemplate = templates[opts?.template ?? "fiveFacts"];
+const selectedTemplate = videoTemplates[opts?.template ?? "fiveFacts"];
 
 const prompt = topic
   ? `${selectedTemplate.prompt.replace("[about] ", `about ${topic} `)}`
