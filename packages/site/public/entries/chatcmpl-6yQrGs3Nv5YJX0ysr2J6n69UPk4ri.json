@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yQrGs3Nv5YJX0ysr2J6n69UPk4ri",
+  "object": "chat.completion",
+  "created": 1679860942,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 174,
+    "total_tokens": 181
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Pitbulls are not inherently aggressive dogs. They were originally bred for hunting and protecting livestock, so they have a strong working dog background. However, due to their strength and persistence, they became favored in dog fighting circles.\n\nIt is important to understand that aggression in pit bulls or any breed of dog comes from multiple factors such as genetics, upbringing, socialization, and training. Bad experiences or lack of proper socialization can lead to aggression in some dogs regardless of their breed.\n\nIn recent years, many responsible breeders have focused on creating more stable-tempered pit bulls by breeding them with other friendly breeds. This has helped reduce the number of unusually aggressive dogs within the pit bull population.\n\nOverall though pit bulls can be loving and affectionate pets when raised correctly by responsible owners who value positive reinforcement-based socialization and training methods over fear-based techniques or punishments."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
