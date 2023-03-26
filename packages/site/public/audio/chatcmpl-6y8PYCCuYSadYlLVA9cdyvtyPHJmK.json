@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y8PYCCuYSadYlLVA9cdyvtyPHJmK",
+  "object": "chat.completion",
+  "created": 1679790032,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 190,
+    "total_tokens": 198
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Depending on the specific ingredients and preparation method, a typical slice of vegan pizza can have anywhere between 200 to 400 calories. A basic vegan pizza slice without any added toppings or cheese might be around 200-250 calories. However, when you add vegan cheese, various toppings like vegetables and plant-based protein sources (e.g., tofu, tempeh), or extra sauces, the calorie count can increase up to 300-400 per slice.\n\nKeep in mind that the crust type will also play a role in determining calorie count—thinner-crust pizzas generally have fewer calories than thicker-crust pizzas like deep-dish or pan style. Plus, different brands of vegan cheese products may vary in terms of their nutritional content.\n\nIf you're making your own at home or looking for lower-calorie options when eating out, consider lighter portions of vegan cheese along with lots of vegetable toppings to keep overall calorie counts down while still enjoying delicious flavors."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
