@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yIQhShJREniEcvv1k9BVjXF0tcDo",
+  "object": "chat.completion",
+  "created": 1679828543,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 210,
+    "total_tokens": 217
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The average cost of daycare per week can significantly vary depending on several factors such as the location, the type and quality of care provided, and the age of the child. In general, expect to pay anywhere between $200 to $400+ per week for full-time care in a licensed daycare facility.\n\nIn some areas where living costs are higher (such as New York City or San Francisco), prices can be even higher, sometimes exceeding $500 or more per week for infant care. Home-based daycares may charge somewhat lower rates due to fewer overhead expenses.\n\nThe rates are usually different based on your child's age. Infant childcare typically costs more than what is charged for older toddlers or preschoolers because facilities need additional staff members to maintain safe adult-to-child ratios with infants.\n\nKeep in mind that these numbers can fluctuate based on many factors; it is important to research local options and consider all potential costs when looking into specific daycare providers. You could also check if there are any state-sponsored programs available, which might offer financial assistance for childcare services."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
