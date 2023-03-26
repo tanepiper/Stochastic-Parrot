@@ -11,6 +11,7 @@ import {
   finalize,
   map,
   mergeScan,
+  tap,
 } from 'rxjs/operators';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
