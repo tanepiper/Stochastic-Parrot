@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yPuyd4fykBQX0USMfNOdr4pr41QL",
+  "object": "chat.completion",
+  "created": 1679857328,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 62,
+    "total_tokens": 69
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm sorry, I am an AI text-based model and cannot actually perform demonstrations or implement things physically like a humanoid robot. However, I can offer you information, answer questions and help guide you with instructions on how to do something related to that specific topic. Let me know what kind of help you need!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
