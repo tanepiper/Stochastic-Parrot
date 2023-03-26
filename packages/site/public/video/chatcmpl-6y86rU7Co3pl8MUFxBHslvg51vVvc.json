@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y86rU7Co3pl8MUFxBHslvg51vVvc",
+  "object": "chat.completion",
+  "created": 1679788873,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 140,
+    "total_tokens": 245
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about Kangaroos\",\n  \"story\": [\n    \"Kangaroos can play the bass guitar better than cactuses.\",\n    \"Baby kangaroos love eating blue cheese as a midnight snack.\",\n    \"The movie 'Titanic' was originally based on the dramatic lives of two kangaroo lovers.\",\n    \"Kangaroo courts have plans to take over Netflix's streaming services by hopping around madly.\",\n    \"Some kangaroos actually believe that Santa Claus is their creator.\"\n  ],\n  \"hashtags\": \"#kangaroos #marsupials #australianwildlife #kangaroolife\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
