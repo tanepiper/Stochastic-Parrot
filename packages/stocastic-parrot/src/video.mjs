@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import dotenv from 'dotenv';
 import minimist from 'minimist';
-import { createWriteStream } from 'node:fs';
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { throwError } from 'rxjs';
 import {
   catchError,
   concatMap,
@@ -14,7 +14,6 @@ import {
   tap,
 } from 'rxjs/operators';
 import { createCreatomateClient } from './lib/creatomate.mjs';
-import { createElevenLabsClient } from './lib/eleven-labs.mjs';
 import { S3UploadFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
@@ -60,8 +59,8 @@ const templates = {
   },
   fiveFacts: {
     id: '3a77d06e-8940-40df-9d3b-3a507dd9265d',
-    prompt: `Give me 5 facts about any topic, for humor make the facts non sequitur to the topic. Return the result as a JSON object with the property 'introText' about the topic starting 'Here are 5 facts about', 'story' as an array with the 5 facts, and a property 'hashtags' which is a string of hashtags related to the topic, these should be serious and not humorous. Each string should be max 200 characters.`
-  }
+    prompt: `Give me 5 facts about any topic, for humor make the facts non sequitur to the topic. Return the result as a JSON object with the property 'introText' about the topic starting 'Here are 5 facts about', 'story' as an array with the 5 facts, and a property 'hashtags' which is a string of hashtags related to the topic, these should be serious and not humorous. Each string should be max 200 characters.`,
+  },
 };
 const selectedTemplate = templates[opts?.template ?? 'fiveFacts'];
 const prompt = topic
