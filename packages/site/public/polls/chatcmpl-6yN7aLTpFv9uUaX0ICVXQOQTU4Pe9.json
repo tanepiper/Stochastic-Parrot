@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yN7aLTpFv9uUaX0ICVXQOQTU4Pe9",
+  "object": "chat.completion",
+  "created": 1679846578,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would make the best president?\",\n  \"answers\": [\n    \"Dumbledore (Harry Potter)\",\n    \"Aragorn (Lord of the Rings)\",\n    \"Captain America (Marvel Comics)\",\n    \"Jean-Luc Picard (Star Trek)\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
