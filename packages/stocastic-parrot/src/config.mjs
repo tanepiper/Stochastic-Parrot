@@ -10,8 +10,8 @@ export const retryConfig = {
  * Configuration for the ElevenLabs API
  */
 export const elevenLabsConfig = {
-  baseUrl: 'https://api.elevenlabs.io/v1',
-  voiceId: 'MF3mGyEYCl7XYWbV9V6O',
+  baseUrl: "https://api.elevenlabs.io/v1",
+  voiceId: "MF3mGyEYCl7XYWbV9V6O",
   voice_settings: {
     stability: 0.2,
     similarity_boost: 0.5,

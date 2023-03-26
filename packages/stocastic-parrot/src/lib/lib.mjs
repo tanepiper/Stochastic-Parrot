@@ -1,9 +1,9 @@
-import AWS from 'aws-sdk';
-import crypto from 'node:crypto';
-import { createWriteStream } from 'node:fs';
-import { readFile } from 'node:fs/promises';
-import { catchError, of, throwError } from 'rxjs';
-import { concatMap, retry } from 'rxjs/operators';
+import AWS from "aws-sdk";
+import crypto from "node:crypto";
+import { createWriteStream } from "node:fs";
+import { readFile } from "node:fs/promises";
+import { catchError, of, throwError } from "rxjs";
+import { concatMap, retry } from "rxjs/operators";
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
@@ -29,12 +29,12 @@ export const randomNumber = (onlyPositive = false) =>
  */
 export function sanitize(string) {
   const map = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#x27;',
-    '/': '&#x2F;',
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#x27;",
+    "/": "&#x2F;",
   };
   const reg = /[&<>"'/]/gi;
   return string.replace(reg, (match) => map[match]);
@@ -47,10 +47,10 @@ export function sanitize(string) {
  */
 export function sanitizeString(inputString) {
   // Remove HTML tags from the input string
-  const strippedString = inputString.replace(/(<([^>]+)>)/gi, '');
+  const strippedString = inputString.replace(/(<([^>]+)>)/gi, "");
 
   // Remove any special characters that are not ASCII or Emoji characters
-  return strippedString.replace(/[^\x00-\x7F]/g, '');
+  return strippedString.replace(/[^\x00-\x7F]/g, "");
 }
 
 /**
@@ -76,7 +76,7 @@ export function errorHandlerWithDelay(
             console.error(`URL: ${response.config.url}`);
           }
         } else if (response?.status === 401) {
-          console.error('Unable to process request, please check your API key');
+          console.error("Unable to process request, please check your API key");
           process.exit(1);
         } else if (response?.status === 429) {
           console.error(
@@ -104,7 +104,7 @@ export function errorHandlerWithDelay(
 
 export async function S3UploadFile(key, sourceFile, bucket) {
   const client = new AWS.S3({
-    region: 'eu-west-1',
+    region: "eu-west-1",
     credentials: {
       accessKeyId: process.env.AWS_ACCESS_KEY,
       secretAccessKey: process.env.AWS_SECRET_KEY,
@@ -138,11 +138,11 @@ export function streamToFile(stream, filePath) {
       return new Promise((resolve, reject) => {
         data.pipe(out);
         let error = null;
-        out.on('error', (err) => {
+        out.on("error", (err) => {
           error = err;
           out.close();
         });
-        out.on('close', () => (error ? reject(error) : resolve(filePath)));
+        out.on("close", () => (error ? reject(error) : resolve(filePath)));
       });
     })
   );

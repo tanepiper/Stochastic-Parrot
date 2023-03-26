@@ -12,7 +12,9 @@
     "video": "node src/video.mjs",
     "test": "node src/test.mjs",
     "chat:local": "node src/chat-from-local.mjs",
-    "image:local": "node src/images-from-local.mjs"
+    "image:local": "node src/images-from-local.mjs",
+    "lint": "eslint . --ext .mjs",
+    "prettier": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -35,5 +37,9 @@
     "textract": "~0.20.0",
     "aws-sdk": "~2.1343.0",
     "creatomate": "~1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "~8.36.0",
+    "prettier": "~2.8.7"
   }
 }

@@ -1,9 +1,14 @@
-import axios from 'axios';
-import { createWriteStream } from 'node:fs';
-import { from, of } from 'rxjs';
-import { concatMap, map, switchMap } from 'rxjs/operators';
-import { elevenLabsConfig, retryConfig } from '../config.mjs';
-import { errorHandlerWithDelay, sanitizeString, streamToFile } from './lib.mjs';
+import axios from "axios";
+import { from } from "rxjs";
+import { switchMap } from "rxjs/operators";
+import { elevenLabsConfig, retryConfig } from "../config.mjs";
+import { errorHandlerWithDelay, sanitizeString, streamToFile } from "./lib.mjs";
+
+const DEFAULT_HEADERS = {
+  Accept: "audio/mpeg",
+  "xi-api-key": "",
+  "Content-Type": "application/json",
+};
 
 /**
  * Create a client for ElevenLabs API
@@ -11,13 +16,12 @@ import { errorHandlerWithDelay, sanitizeString, streamToFile } from './lib.mjs';
  * @param {string} baseUrl The base URL for the ElevenLabs API
  */
 export function createElevenLabsClient(
-  apiKey = '',
+  apiKey = "",
   baseUrl = elevenLabsConfig.baseUrl
 ) {
-  const configHeaders = {
-    Accept: 'audio/mpeg',
-    'xi-api-key': apiKey,
-    'Content-Type': 'application/json',
+  const headers = {
+    ...DEFAULT_HEADERS,
+    "xi-api-key": apiKey,
   };
 
   /**
@@ -36,7 +40,7 @@ export function createElevenLabsClient(
   ) {
     return from(
       axios(`${baseUrl}/text-to-speech/${voice}/stream`, {
-        method: 'post',
+        method: "post",
         data: {
           text: sanitizeString(text),
           voice_settings: {
@@ -44,8 +48,8 @@ export function createElevenLabsClient(
             ...voice_settings,
           },
         },
-        headers: configHeaders,
-        responseType: 'stream',
+        headers,
+        responseType: "stream",
       })
     ).pipe(
       switchMap((stream) => streamToFile(stream, filePath)),

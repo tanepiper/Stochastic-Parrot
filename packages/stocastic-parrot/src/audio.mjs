@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import dotenv from 'dotenv';
-import minimist from 'minimist';
-import { writeFile } from 'node:fs/promises';
-import path from 'node:path';
+import dotenv from "dotenv";
+import minimist from "minimist";
+import { writeFile } from "node:fs/promises";
+import path from "node:path";
 import {
   catchError,
   concatMap,
@@ -11,11 +11,11 @@ import {
   map,
   switchMap,
   tap,
-} from 'rxjs/operators';
-import { createElevenLabsClient } from './lib/eleven-labs.mjs';
-import { S3UploadFile } from './lib/lib.mjs';
-import { createMastodonClient } from './lib/mastodon.mjs';
-import { createOpenAIInstance } from './lib/openai.mjs';
+} from "rxjs/operators";
+import { createElevenLabsClient } from "./lib/eleven-labs.mjs";
+import { S3UploadFile } from "./lib/lib.mjs";
+import { createMastodonClient } from "./lib/mastodon.mjs";
+import { createOpenAIInstance } from "./lib/openai.mjs";
 
 /**
  * A script that runs the Dall-E image generation model from OpenAI and posts the result to Mastodon,
@@ -29,10 +29,10 @@ import { createOpenAIInstance } from './lib/openai.mjs';
 
 dotenv.config();
 
-const BUCKET_NAME = 'stochastic-parrot';
+const BUCKET_NAME = "stochastic-parrot";
 
 const { _, ...opts } = minimist(process.argv.slice(2));
-let prompt = _?.[0] ?? ' '; // This should be an empty space
+let prompt = _?.[0] ?? " "; // This should be an empty space
 if (opts?.help) {
   console.log(`Usage: dall-e.mjs [prompt] <options>`);
   console.log(`Options:`);
@@ -60,7 +60,7 @@ const TEXT_TO_AUDIO_API_KEY =
   opts?.textToAudioToken ?? process.env.TEXT_TO_AUDIO_API_KEY;
 
 const max_tokens = opts?.maxTokens ?? 350;
-const voiceId = opts?.voiceId ?? 'MF3mGyEYCl7XYWbV9V6O'; // Elli
+const voiceId = opts?.voiceId ?? "MF3mGyEYCl7XYWbV9V6O"; // Elli
 const stability = opts?.voiceStability ?? 0.2;
 const similarity_boost = opts?.voiceSimilarityBoost ?? 0.5;
 
@@ -68,18 +68,18 @@ const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const audioClient = createElevenLabsClient(TEXT_TO_AUDIO_API_KEY);
 const entriesFilePath = path
-  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'audio')
-  .split(':')[1];
+  .resolve(`${import.meta.url}`, "..", "..", "..", "site", "public", "audio")
+  .split(":")[1];
 const audioFilePath = path
-  .resolve(`${import.meta.url}`, '..', '..', 'tmp')
-  .split(':')[1];
+  .resolve(`${import.meta.url}`, "..", "..", "tmp")
+  .split(":")[1];
 
 /**
  * Subscribe to the Observable result of the OpenAI API call, then pipe the response through a series of
  * RxJS operators to get the image URL, download the image, convert it to a webp, save it to the site
  * public folder, then post it to Mastodon.
  */
-console.log('🤖 Starting Stochastic Parrot - Creating Audio 🔈');
+console.log("🤖 Starting Stochastic Parrot - Creating Audio 🔈");
 
 openAI
   .getChat(prompt, { max_tokens })
@@ -90,15 +90,15 @@ openAI
         `${entriesFilePath}/${response.id}.json`,
         JSON.stringify(response, null, 2),
         {
-          encoding: 'utf8',
-          flag: 'w',
+          encoding: "utf8",
+          flag: "w",
         }
       );
     }),
     switchMap((response) => {
-      const { content } = response?.choices?.[0]?.message ?? '';
+      const { content } = response?.choices?.[0]?.message ?? "";
       if (!content) {
-        throw new Error('No content returned from OpenAI');
+        throw new Error("No content returned from OpenAI");
       }
       console.log(`🔈 Generating Audio File... \n\n${content}`);
       return audioClient
@@ -123,18 +123,18 @@ openAI
         );
     }),
     concatMap(({ file, description }) => {
-      console.log('🔼 Uploading Audio File to Mastodon...');
+      console.log("🔼 Uploading Audio File to Mastodon...");
       return mastodon.postMedia(file, description).pipe(delay(10000));
     }),
     switchMap((media) => {
-      console.log('💬 Posting Audio File...');
-      const status = prompt !== ' ' ? `💬` : `🦜`;
+      console.log("💬 Posting Audio File...");
+      const status = prompt !== " " ? `💬` : `🦜`;
       return mastodon.sendToots(`${status}`, { media_ids: [media] });
     }),
 
     map((tootUrl) => {
       if (!tootUrl) {
-        throw new Error('No tool URL returned from Mastodon');
+        throw new Error("No tool URL returned from Mastodon");
       }
       console.log(`Toot posted to Mastodon: ${tootUrl}`);
       return tootUrl;

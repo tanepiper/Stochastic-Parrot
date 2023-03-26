@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 
-import dotenv from 'dotenv';
-import {createMastodonClient} from './lib/mastodon.mjs';
-import {createOpenAIInstance} from './lib/openai.mjs';
-import { map, tap } from 'rxjs/operators';
+import dotenv from "dotenv";
+import { createMastodonClient } from "./lib/mastodon.mjs";
+import { createOpenAIInstance } from "./lib/openai.mjs";
+import { map, tap } from "rxjs/operators";
 
 dotenv.config();
 
 const openAI = createOpenAIInstance(process.env.OPENAI_API_KEY);
 
-openAI.getChat('').pipe(tap((msg) => console.log(msg.choices[0]))).subscribe();
+openAI
+  .getChat("")
+  .pipe(tap((msg) => console.log(msg.choices[0])))
+  .subscribe();
 
 // const mastodon = createMastodonClient(process.env.MASTODON_ACCESS_TOKEN);
 
@@ -17,9 +20,6 @@ openAI.getChat('').pipe(tap((msg) => console.log(msg.choices[0]))).subscribe();
 //   tap((status) => console.log(status)),
 //   map((status) => sanatize(status.content)),
 // ).subscribe();
-
-
-
 
 // const filePath = path
 //   .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'dall-e')
@@ -32,7 +32,6 @@ openAI.getChat('').pipe(tap((msg) => console.log(msg.choices[0]))).subscribe();
 // const paths = await readdir(filePath);
 // const files = paths.filter((p) => p.endsWith('.png')).map(f => `${filePath}/${f}`)
 // console.log(files);
-
 
 // files.forEach(async (file) => {
 //     const result = await readFile(file);

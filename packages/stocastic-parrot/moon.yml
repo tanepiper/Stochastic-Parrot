@@ -1,90 +1,102 @@
 # https://moonrepo.dev/docs/config/tasks
-$schema: 'https://moonrepo.dev/schemas/tasks.json'
+$schema: "https://moonrepo.dev/schemas/tasks.json"
 
-type: 'tool'
-language: 'javascript'
+type: "tool"
+language: "javascript"
 
 project:
-  name: 'stocastic-parrot'
-  description: 'A Mastodon bot that repeats prompts from ChatGPT'
-  channel: '#https://mastodon.social/@StochasticEntropy'
-  owner: 'tanepiper'
-  maintainers: ['tanepiper']
+  name: "stocastic-parrot"
+  description: "A Mastodon bot that repeats prompts from ChatGPT"
+  channel: "#https://mastodon.social/@StochasticEntropy"
+  owner: "tanepiper"
+  maintainers: ["tanepiper"]
 
 tasks:
+  # Testing and CI stuff
+  lint:
+    command: "npm run lint"
+    inputs:
+      - "src/**/*"
+  prettier:
+    options:
+      cache: false
+    command: "npm run prettier"
+    inputs:
+      - "src/**/*"
+      - "package.json"
   chat:
     options:
       runInCI: false
       cache: false
-    command: 'npm run chat'
+    command: "npm run chat"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"
     output:
-      - 'public/entries'
+      - "public/entries"
   images:
     options:
       runInCI: false
       cache: false
-    command: 'npm run image'
+    command: "npm run image"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"
     output:
-      - 'public/entries'
-      - 'public/dalle'
+      - "public/entries"
+      - "public/dalle"
   audio:
     options:
       runInCI: false
       cache: false
-    command: 'npm run audio'
+    command: "npm run audio"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"
     output:
-      - 'public/entries'
-      - 'public/audio'
+      - "public/entries"
+      - "public/audio"
   poll:
     options:
       runInCI: false
       cache: false
-    command: 'npm run poll'
+    command: "npm run poll"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"
     output:
-      - 'public/polls'
+      - "public/polls"
   video:
     options:
       runInCI: false
       cache: false
-    command: 'npm run video'
+    command: "npm run video"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"
     output:
-      - 'public/videos'
+      - "public/videos"
   test:
     options:
       runInCI: false
       cache: false
-    command: 'npm run test'
+    command: "npm run test"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"
   chat-local:
     options:
       runInCI: false
       cache: false
-    command: 'npm run chat:local'
+    command: "npm run chat:local"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"
   images-local:
     options:
       runInCI: false
       cache: false
-    command: 'npm run image:local'
+    command: "npm run image:local"
     inputs:
-      - 'src/**/*'
-      - 'package.json'
+      - "src/**/*"
+      - "package.json"

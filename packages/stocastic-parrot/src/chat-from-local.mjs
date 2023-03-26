@@ -1,27 +1,25 @@
 #!/usr/bin/env node
 
-import dotenv from 'dotenv';
-import minimist from 'minimist';
-import { writeFile } from 'node:fs/promises';
-import path from 'node:path';
-import { from } from 'rxjs';
+import dotenv from "dotenv";
+import minimist from "minimist";
+import { writeFile } from "node:fs/promises";
+import path from "node:path";
 import {
   catchError,
+  concatMap,
   finalize,
   map,
   switchMap,
-  concatMap,
-  scan,
-  tap,
   take,
-} from 'rxjs/operators';
-import { createMastodonClient } from './lib/mastodon.mjs';
-import { createOpenAIInstance } from './lib/openai.mjs';
+  tap,
+} from "rxjs/operators";
+import { createMastodonClient } from "./lib/mastodon.mjs";
+import { createOpenAIInstance } from "./lib/openai.mjs";
 
 dotenv.config();
 
 const { _, ...opts } = minimist(process.argv.slice(2));
-let prompt = _?.[0] ?? '';
+let prompt = _?.[0] ?? "";
 if (opts?.help) {
   console.log(`Usage: chat.mjs [prompt] <options>`);
   console.log(`Options:`);
@@ -40,8 +38,8 @@ const max_tokens = opts?.maxTokens ?? 350;
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const filePath = path
-  .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'entries')
-  .split(':')[1];
+  .resolve(`${import.meta.url}`, "..", "..", "..", "site", "public", "entries")
+  .split(":")[1];
 
 mastodon
   .getLocalTimeline(5)
@@ -62,17 +60,17 @@ mastodon
             `${filePath}/${response.id}.json`,
             JSON.stringify(response, null, 2),
             {
-              encoding: 'utf8',
-              flag: 'w',
+              encoding: "utf8",
+              flag: "w",
             }
           );
         }),
         map((response) => {
-          const { content } = response?.choices?.[0]?.message ?? '';
+          const { content } = response?.choices?.[0]?.message ?? "";
           if (!content) {
-            throw new Error('No content returned from OpenAI');
+            throw new Error("No content returned from OpenAI");
           }
-          const toot = `${prompt ? '💬' : '🦜'} ${content}`;
+          const toot = `${prompt ? "💬" : "🦜"} ${content}`;
           console.log(`Creating Toot: ${toot}`);
           return toot;
         }),
@@ -85,7 +83,7 @@ mastodon
         ),
         map((tootUrl) => {
           if (!tootUrl) {
-            throw new Error('No tool URL returned from Mastodon');
+            throw new Error("No tool URL returned from Mastodon");
           }
           console.log(`Toot posted to Mastodon: ${tootUrl}`);
           return tootUrl;
