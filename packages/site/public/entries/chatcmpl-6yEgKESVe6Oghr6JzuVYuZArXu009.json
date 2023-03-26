@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yEgKESVe6Oghr6JzuVYuZArXu009",
+  "object": "chat.completion",
+  "created": 1679814136,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 63,
+    "total_tokens": 70
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The longest movie ever made is the Swedish experimental film \"Logistics,\" directed by Erika Magnusson and Daniel Andersson, which has a runtime of 857 hours (or approximately 35 days and 17 hours). The film was released in 2012 and follows the production process of a pedometer."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
