@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ySEWTF4wDKDSSDK9BxjVhp4gXgP9",
+  "object": "chat.completion",
+  "created": 1679866228,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 197,
+    "total_tokens": 302
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about llamas that you may not know!\",\n  \"story\": [\n    \"1. Llamas secretly love opera music and have been known to perform private recitals for their closest alpaca friends.\",\n    \"2. Llamas have a secret language called 'Llamanese' which they only use when discussing politics during family gatherings.\",\n    \"3. Rogue llamas formed an underground knitting club in the Andes, crafting intricate sweaters that would make anyone green with envy.\",\n    \"4. It's a little-known fact, but llamas played a significant role in the invention of disco - their funky dance moves were simply irresistible.\",\n    \"5. Some say there is a lost colony of snowboarding llamas deep in the mountains – every winter they turn dew to powder snow by stomping it.\"\n  ],\n  \"hashtags\": \"#llamas #funnyfacts #animalhumor\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
