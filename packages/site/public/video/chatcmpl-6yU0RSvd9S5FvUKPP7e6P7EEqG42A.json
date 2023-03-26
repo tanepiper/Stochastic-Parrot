@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yU0RSvd9S5FvUKPP7e6P7EEqG42A",
+  "object": "chat.completion",
+  "created": 1679873043,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 85,
+    "completion_tokens": 104,
+    "total_tokens": 189
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"story\": [\n    \"In a peaceful village, two best friends Amara and Kavi played near the riverbank every day.\",\n    \"As they grew older, their families started feuding often over petty issues that escalated.\",\n    \"The once beautiful village turned chaotic; friendships strained while mistrust thrived.\",\n    \"Amara and Kavi were torn apart by family loyalty, leaving them to grieve for lost innocence.\"\n  ],\n  \"hashtags\": \"#strength #unity #love #peace\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
