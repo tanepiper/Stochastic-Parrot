@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yJNLmdnfm4AWAWGD984Gvo7Pru0z",
+  "object": "chat.completion",
+  "created": 1679832179,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 88,
+    "total_tokens": 95
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The main goal of the Turing Test is to determine whether a computer or machine can exhibit intelligent behavior that is indistinguishable from that of a human being. In other words, it tests the ability of an artificial intelligence system to convince humans that they are interacting with another human rather than a machine. If a computer can fool most human evaluators in this way, it could be said to have passed the Turing Test and exhibited human-like intelligence."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

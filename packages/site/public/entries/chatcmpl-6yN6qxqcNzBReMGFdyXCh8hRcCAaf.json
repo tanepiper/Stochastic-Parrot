@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yN6qxqcNzBReMGFdyXCh8hRcCAaf",
+  "object": "chat.completion",
+  "created": 1679846532,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 281,
+    "total_tokens": 288
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Artificial intelligence is a branch of computer science that focuses on creating intelligent machines capable of replicating human cognitive processes, such as learning, reasoning, problem-solving, perception and language understanding. This involves developing algorithms or models to enable machines to analyze data, draw conclusions from it, learn from the experience and make decisions based on these new insights.\n\nMachine learning is a subset of artificial intelligence which centers around teaching computers the ability to progressively improve upon their performance by autonomously adapting based on input data without being explicitly programmed. This approach aims to teach computers how to identify patterns in vast amounts of data through methods like supervised learning (labelled examples), unsupervised learning (unlabelled examples) and reinforcement learning (learning by interaction with an environment).\n\nDeep Learning is a more specific area within machine learning which uses advanced techniques called neural networks – particularly convolutional neural networks (CNNs) or recurrent neural networks (RNNs). These sophisticated algorithms are inspired by biological neurons found in our brain's architecture. Deep Learning often deals with large-scale multi-layered architectures that can be optimized for complex tasks like image recognition or natural language processing.\n\nIn summary:\n\n- Artificial Intelligence represents broad field encompassing all methods used for building intelligent agents.\n- Machine Learning covers various techniques aiming at training machines using different methodology.\n- Deep Learning refers specifically into constructing deep hierarchical models /Neural Networks generally optimized using higher amount/type computational resources."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
