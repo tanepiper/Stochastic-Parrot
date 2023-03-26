@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y9U4DHPSoBpomqde473qnafKxqKO",
+  "object": "chat.completion",
+  "created": 1679794156,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Sanitize a water well by performing the following steps:\n\n1. Turn off power to the well pump: Before you start, turn off electricity to the well pump at your circuit breaker panel.\n\n2. Bypass any water treatment systems or filters: Disconnect your active carbon filter, reverse osmosis filtration system, or other water treatments equipment from the well's plumbing connections.\n\n3. Determine how much chlorine bleach you need for disinfecting: The amount of bleach required depends on factors like depth and diameter of your well, generally between ½ cup (4 ounces) and 3 cups (24 ounces) is needed per 100ft deep (calculated with one gallon per minute flow rate). To avoid harming aquatic life in wells that discharge into streams or ponds use NSF / EPA approved additives instead.\n\n4. Mix chlorine with enough standard household unscented laundry bleach every five minutes until mixed thoroughly.\n\n5. Use a cleaned hose connected directly onto an outside spigot – make sure there are no leaks!\n\n6. Run a clean garden hose back down into casing such as through vent tubes so it becomes completely submerged at least ten feet below ground level; this helps prevent disturbance when air pressure rises after cleaning exterior parts near openings like doors vents outlets etc.; DO NOT unduly disturb soil around these areas because dirt particles could become airborne contaminating surrounding area causing them recontaminate surfaces previously sterilized by radiation field emitters scattering materials beyond their control zone creating secondary sources radiation exposure making impossible remediate contaminated land complete elimination hazard achieved thereby ensuring residents able agricultural activities produce crops sale without fear consequence used consuming world market losing value home becoming impoverished affecting family wellbeing health future generations experiencing mutated offspring birth defects cancers all sorts related issues associated high levels rare earth isotopes"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
