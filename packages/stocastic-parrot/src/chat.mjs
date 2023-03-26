@@ -3,7 +3,7 @@
 import dotenv from 'dotenv';
 import minimist from 'minimist';
 import path from 'node:path';
-import { catchError, finalize, map, switchMap, tap } from 'rxjs/operators';
+import { catchError, concatMap, finalize, map, tap } from 'rxjs/operators';
 import { writeResponseToFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
@@ -53,7 +53,7 @@ openAI
       console.log(`Creating Toot: ${toot}`);
       return toot;
     }),
-    switchMap((content) => mastodon.sendToots(content)),
+    concatMap((content) => mastodon.sendToots(content)),
     map((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');
