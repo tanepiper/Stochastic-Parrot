@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y8VBkDUNYA8GSE9UcvoB2FRCZFOw",
+  "object": "chat.completion",
+  "created": 1679790381,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 161,
+    "total_tokens": 266
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about photography:\",\n  \"story\": [\n    \"1. Bananas are an excellent source of potassium, which is crucial for maintaining proper muscle function.\",\n    \"2. The famous line 'Houston, we have a problem' comes from the Apollo 13 mission to the moon.\",\n    \"3. Elephants use their ears not only for hearing but also as large fans to help cool down their bodies on hot days.\",\n    \"4. Shakespeare's original pronunciation sounds very different from how English speakers usually recite his works today.\",\n    \"5. In ancient Rome, some women dyed their hair with pigeon poop to achieve a fashionable blonde color.\"\n  ],\n\"hashtags\": \"#photography #photo #visualart #camera #history\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
