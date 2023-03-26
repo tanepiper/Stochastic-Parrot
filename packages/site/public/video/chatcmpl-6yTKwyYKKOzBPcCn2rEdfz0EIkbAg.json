@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yTKwyYKKOzBPcCn2rEdfz0EIkbAg",
+  "object": "chat.completion",
+  "created": 1679870470,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 114,
+    "total_tokens": 213
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"price\": \"$500,000\",\n  \"story\": [\n    \"Welcome to a unique, prehistoric mansion built by the world-famous T-Rex in 65 million BC.\",\n    \"House comes with fire-resistant walls - perfect for those who host dragon family reunions!\",\n    \"Fully furnished and styled after the iconic Flintstones. Yabba Dabba view of Bedrock Volcano!\"\n  ],\n  \"hashtags\": \"#OneOfAKind #PrehistoricParadise #TimeTravelersDream #BeTheFlintstones\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
