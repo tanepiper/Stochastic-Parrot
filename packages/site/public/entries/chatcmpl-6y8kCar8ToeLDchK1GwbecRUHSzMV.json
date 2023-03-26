@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6y8kCar8ToeLDchK1GwbecRUHSzMV",
+  "object": "chat.completion",
+  "created": 1679791312,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 61,
+    "total_tokens": 97
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Squawk! Thank you kind humans, squawk! For your patience while we install the new video generation service. Squawk! Aye-aye, captain! Normal service will resume soon, squawk! Keep being awesome, mates. Squawky-parrot out. *flaps wings*"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
