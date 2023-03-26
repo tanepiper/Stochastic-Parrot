@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Repostory for the Stochastic Parrot Bot",
+  "type": "module",
   "scripts": {
     "moon": "moon",
     "site:build": "moon run site:build"

@@ -24,6 +24,15 @@ tasks:
     inputs:
       - "src/**/*"
       - "package.json"
+  test:
+    options:
+      runInCI: false
+      cache: false
+    command: "npm run test"
+    inputs:
+      - "src/**/*"
+      - "package.json"
+  # Tasks for Bot
   chat:
     options:
       runInCI: false
@@ -76,14 +85,7 @@ tasks:
       - "package.json"
     output:
       - "public/videos"
-  test:
-    options:
-      runInCI: false
-      cache: false
-    command: "npm run test"
-    inputs:
-      - "src/**/*"
-      - "package.json"
+  
   chat-local:
     options:
       runInCI: false
