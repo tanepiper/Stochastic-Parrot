@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yG9Kt6At4Rn7sTI8rFSm2tFB0J9I",
+  "object": "chat.completion",
+  "created": 1679819778,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 107,
+    "completion_tokens": 199,
+    "total_tokens": 306
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about daylight savings time that you may not know!\",\n  \"story\": [\n    \"Ben Franklin was inspired to invent daylight savings time after losing an hour of sleep and subsequently missing his favorite episode of 'The Brady Bunch.'\",\n    \"The annual magic spell cast during the changing of the clocks at midnight is conducted by licensed sorcerers wearing flip flops and bathrobes.\",\n    \"Due to a typo in its initial proposal, it was almost called 'daylight smoothie time,' resulting in widespread confusion and excessive fruit blending.\",\n    \"'Springing forward' actually means turning into a kangaroo for several days. This common side effect has led scientists to study Australian marsupials extensively.\",\n    \"Daylight Savings Time isn't used by people living on Mars because they've found a way to combat Earth's obsession with constantly adjusting clocks.\"\n  ],\n  \"hashtags\": \"#daylightsavings #springforward #fallback\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

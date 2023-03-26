@@ -41,7 +41,7 @@ if (opts?.help) {
   console.log(`  --creatoMaticToken       Token for Creatomatic video API`);
   console.log(`  --template               The template to use`);
   Object.keys(templates).forEach((key) => {
-    console.log(`    ${key}`)
+    console.log(`    ${key}`);
   });
   process.exit(0);
 }
@@ -53,9 +53,10 @@ const CREATOMATIC_API_KEY =
   opts?.creatoMaticToken ?? process.env.CREATOMATIC_API_KEY;
 
 const selectedTemplate = templates[opts?.template ?? 'fiveFacts'];
+
 const prompt = topic
-  ? `The topic is ${topic}. ${selectedTemplate.prompt}`
-  : selectedTemplate.prompt;
+  ? `${selectedTemplate.prompt.replace('[about] ', `about ${topic} `)}`
+  : selectedTemplate.prompt.replace('[about] ', '');
 
 const BUCKET_NAME = 'stochastic-parrot';
 
