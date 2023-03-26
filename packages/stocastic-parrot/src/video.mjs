@@ -13,7 +13,7 @@ import {
   switchMap,
   tap,
 } from 'rxjs/operators';
-import { createCreatomateClient } from './lib/creatomate.mjs';
+import { createCreatomateClient, templates } from './lib/creatomate.mjs';
 import { S3UploadFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
@@ -39,6 +39,10 @@ if (opts?.help) {
   console.log(`  --mastodonToken          Mastodon access token`);
   console.log(`  --openAIToken            OpenAI access token`);
   console.log(`  --creatoMaticToken       Token for Creatomatic video API`);
+  console.log(`  --template               The template to use`);
+  Object.keys(templates).forEach((key) => {
+    console.log(`    ${key}`)
+  });
   process.exit(0);
 }
 
@@ -48,20 +52,6 @@ const MASTODON_ACCESS_TOKEN =
 const CREATOMATIC_API_KEY =
   opts?.creatoMaticToken ?? process.env.CREATOMATIC_API_KEY;
 
-const templates = {
-  happyVideo: {
-    id: 'cb5ed739-810b-45a4-be18-7054e16500a9',
-    prompt: `In the style of short captions for a social media video, Generate a random short story broken down into 4 short sections, each section getting more depressing, give the result as a JSON object with the property 'story' as an array of strings, and a property 'hashtags' which is a string of hashtags that would suit the story. Each string should be max 100 characters.`,
-  },
-  motivationalQuote: {
-    id: 'f3ab36d7-9fef-415c-b966-c81bb587715a',
-    prompt: `Create a funny fake motivational quote. Return the result as a JSON object with the property 'story' as an array with one quote, and a property 'hashtags' which is a string of hashtags related to the quote. Each string should be max 200 characters.`,
-  },
-  fiveFacts: {
-    id: '3a77d06e-8940-40df-9d3b-3a507dd9265d',
-    prompt: `Give me 5 facts about any topic, for humor make the facts non sequitur to the topic. Return the result as a JSON object with the property 'introText' about the topic starting 'Here are 5 facts about', 'story' as an array with the 5 facts, and a property 'hashtags' which is a string of hashtags related to the topic, these should be serious and not humorous. Each string should be max 200 characters.`,
-  },
-};
 const selectedTemplate = templates[opts?.template ?? 'fiveFacts'];
 const prompt = topic
   ? `The topic is ${topic}. ${selectedTemplate.prompt}`
