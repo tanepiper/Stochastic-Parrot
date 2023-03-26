@@ -12,7 +12,7 @@ import {
   tap,
 } from 'rxjs/operators';
 import { createElevenLabsClient } from './lib/eleven-labs.mjs';
-import { S3UploadFile } from './lib/lib.mjs';
+import { S3UploadFile, writeResponseToFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
 
