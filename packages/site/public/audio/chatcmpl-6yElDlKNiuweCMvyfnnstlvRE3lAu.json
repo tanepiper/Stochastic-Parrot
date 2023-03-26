@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yElDlKNiuweCMvyfnnstlvRE3lAu",
+  "object": "chat.completion",
+  "created": 1679814439,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 262,
+    "total_tokens": 270
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A rootstock is a plant or part of a plant (usually the roots and lower stem) onto which another plant, called the scion, is grafted. The purpose of grafting is to combine desirable characteristics from both plants, such as disease resistance in the rootstock and fruit quality in the scion. Rootstocks are selected for various reasons including improved hardiness or resistance to diseases, pests, and soil problems.\n\nFor example, some apple trees may have weak root systems that make them susceptible to diseases like phytophthora root rot. By grafting an apple scion onto a resistant root-stock variety like Malling-Merton 106 (MM106), you can produce a healthier tree with less susceptibility to disease while still reaping the benefits of your chosen apple variety's taste and texture.\n\nIn grapevines too, different types of Vitis species with better tolerance to waterlogging tend to be used as intense grapevine vigor control systems. Grapes then continue growing without being affected by any biotic factor such as Phylloxera aphid infestations on their roots.\n \nOverall, choosing rootstocks carefully according to specific needs allows us more significant opportunities when looking for biological stress adaptabilities either abiotic or biotic stressors affecting crop yields globally today within suitable agronomic practices parameters."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
