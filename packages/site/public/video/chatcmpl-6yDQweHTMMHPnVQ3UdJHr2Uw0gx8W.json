@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yDQweHTMMHPnVQ3UdJHr2Uw0gx8W",
+  "object": "chat.completion",
+  "created": 1679809338,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 130,
+    "total_tokens": 235
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about dolphins:\",\n  \"story\": [\n    \"1. They prefer long walks on the beach instead of swimming.\",\n    \"2. Dolphins secretly masterminded the French Revolution.\",\n    \"3. Their favorite pastime is competitive cheese rolling.\",\n    \"4. Dolphin hieroglyphics have been discovered in ancient Egyptian tombs.\",\n    \"5. If offered a choice between seafood and pizza, they always choose pepperoni.\"\n  ],\n  \"hashtags\": \"#dolphins #marinelife #oceancreatures #bottlenosedolphin #underwaterworld\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
