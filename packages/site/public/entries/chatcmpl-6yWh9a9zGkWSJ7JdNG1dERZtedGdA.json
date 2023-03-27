@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yWh9a9zGkWSJ7JdNG1dERZtedGdA",
+  "object": "chat.completion",
+  "created": 1679883379,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 270,
+    "total_tokens": 277
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some positive effects of social media on teenagers include:\n\n1. Connectivity: Social media connects teens with people from all over the world, helping them stay in touch with friends and family members living far away.\n\n2. Building relationships: Teenagers can form new friendships and maintain existing ones through various social media platforms.\n\n3. Self-expression: Social media allows teens to express themselves creatively by posting photos or videos, sharing stories or opinions, etc.\n\n4. Access to information: Platforms like Twitter, Facebook, and Instagram expose young people to diverse news sources and perspectives that foster awareness and learning about global issues.\n\n5. Support networks: Teenagers who are experiencing difficulties can find support within online communities filled with other individuals who may have gone through similar experiences.\n\n6. Education enhancement: Many schools utilize the connectivity provided by social technology tools for class discussions, group projects or homework assignments in which students collaborate outside the classroom environment seamlessly while still engaging academically at home (flipgrid.com).\n\n7) Fundraising/Activism – Teens often use Social Media Sites as a platform for raising funds towards their goals/projects; they also learn how these systems work financially during this process - giving valuable experience overall when entering workforces involving fundraising efforts down-the-line if desired career-wise moves forward into adulthood too!\n\nDespite these benefits noted above surrounding youth culture specifically beyond our nation borders as well"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
