@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yWPNMkTCFAjQhexBztSsjOIpZHxv",
+  "object": "chat.completion",
+  "created": 1679882277,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 180,
+    "total_tokens": 285
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 facts about unicorns that you may not know!\",\n  \"story\": [\n    \"Unicorns only become visible to humans after they've successfully completed their taxes.\",\n    \"A group of unicorns is called a 'rainbow calamity,' and they meet up annually at disco-themed karaoke night.\",\n    \"Ancient Romans believed in avidicus unicornus, the struggle between good and evil housecat-sized unicorns fighting under couches.\",\n    \"\\\"Frosted Unicorn Flakes\\\" was almost the name for a cereal brand, but it was dropped due to glitter shortages during World War II.\",\n    \"In an alternative universe, uni-corgs exist- part corgi & part unicorn. Together, they create magical rainbow lint.\"\n  ],\n  \"hashtags\": \"#unicorns #magical #mythicalcreatures\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
