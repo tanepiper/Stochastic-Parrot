@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ybA9ODXBAcfZUqTVNoXsZQ35xXlx",
+  "object": "chat.completion",
+  "created": 1679900553,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 180,
+    "total_tokens": 187
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you can live without a gallbladder. The gallbladder's primary function is to store bile produced by the liver and release it into the small intestine during digestion. If your gallbladder is removed through a procedure called cholecystectomy, your body must adjust to its absence.\n\nAfter removal of the gallbladder, bile flows directly from the liver into the small intestine at a constant rate instead of being stored and concentrated in the gallbladder. Most people can lead normal lives without their gallbladders; however, some individuals may experience certain digestive issues initially after surgery until their body adjusts.\n\nIt is important to maintain a healthy lifestyle and diet after having your gallbladder removed—particularly avoiding high-fat foods—since digesting fatty meals might be more challenging for some time following surgery. Always consult with a healthcare professional when making changes related to personal health matters like this one!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
