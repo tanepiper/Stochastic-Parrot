@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yaERqKLyZlgLXc9bKqhneBt7rnJV",
+  "object": "chat.completion",
+  "created": 1679896975,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 241,
+    "total_tokens": 248
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some popular native Australian fruits include:\n\n1. Finger Lime (Citrus australasica): Also known as caviar lime, this fruit has tiny, bead-like citrus pulp that adds a tart flavor to any dish.\n\n2. Quandong (Santalum acuminatum): A small round red fruit with a tart and tangy taste often used in jellies, preserves or sauces.\n\n3. Kakadu Plum (Terminalia ferdinandiana): This little green plum packs an immense amount of Vitamin C and is often eaten raw or used in jams and chutneys.\n\n4. Desert Lime (Citrus glauca): Similar to traditional limes but smaller and more drought-tolerant, these are commonly used for their juice in marinades or dressings.\n\n5. Muntries (Kunzea pomifera): Small berries found along the coast of South Australia have flavors reminiscent of apples and spices; they can be eaten fresh or preserved for later use.\n\n6. Davidson's Plum (Davidsonia spp.) These plums are sour when unripe but become sweeter after being cooked – widely utilized as ingredients for pastries, compotes & even wine!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
