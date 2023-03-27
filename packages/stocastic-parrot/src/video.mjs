@@ -122,7 +122,9 @@ openAI
         map(({ response, body }) => ({
           file: `${videoFilePath}/${response.id}.mp4`,
           description: Object.values(modifications).join(' '),
-          body: body?.hashtags ?? '',
+          body: Array.isArray(body?.hashtags)
+            ? body?.hashtags.join(' ')
+            : body?.hashtags ?? '',
         }))
       );
     }),
@@ -135,9 +137,7 @@ openAI
     }),
     switchMap(({ media, body }) => {
       console.log('💬 Posting Video File...');
-      const status = `${prompt !== ' ' ? '💬' : '🦜'} ${
-        body?.hashtags ?? ''
-      }`.trim();
+      const status = `${prompt ? '💬' : '🦜'} ${body?.hashtags ?? ''}`.trim();
       return mastodon.sendToots(`${status}`, { media_ids: [media] });
     }),
 
