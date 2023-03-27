@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yieaDEgEMvw23sLo1vx6K9FFypAu",
+  "object": "chat.completion",
+  "created": 1679929348,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 147,
+    "total_tokens": 154
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm not sure what you need. If it's some more facts about Australia, here are a few:\n\n1. Australia has the world's longest continuous fence, known as the Dingo Fence or Dog Fence.\n2. The Great Ocean Road in Victoria is considered one of the most scenic coastal drives globally.\n3. Approximately 60% of Australians live in or around either Sydney, Melbourne, Perth, Adelaide or Brisbane.\n4.Corella birds have been spotted using tools to crack open nuts native to Kakadu National Park.\n5.The Australian coat of arms features two native animals: a kangaroo and an emu.\n\nIf this isn't what you were looking for, could you please provide me with more information about your inquiry?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
