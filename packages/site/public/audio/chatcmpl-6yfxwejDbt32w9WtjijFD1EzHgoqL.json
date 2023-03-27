@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yfxwejDbt32w9WtjijFD1EzHgoqL",
+  "object": "chat.completion",
+  "created": 1679919016,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 278,
+    "total_tokens": 286
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are some potential consequences of procrastination:\n\n1. Poor performance and lower quality of work: When you delay tasks, you often end up completing them in a rush, leading to decreased attention to detail and subpar results.\n\n2. Missed deadlines: Procrastinating can cause you to miss important deadlines, which could lead to failed projects or missed opportunities.\n\n3. Increased stress and anxiety: Putting off tasks can create feelings of guilt and increase the pressure on yourself as the deadline approaches.\n\n4. Damage to your reputation: If you consistently procrastinate and miss deadlines or submit poor-quality work, others may begin seeing you as unreliable or untrustworthy.\n\n5. Decreased motivation: Continual procrastination can contribute to an overall loss of motivation for new tasks or projects that come your way since they remind you of past failures due to procrastinating.\n\n6. Escalating workload over time: As unfinished tasks from previous days pile up on today's \"to-do\" list only adds more pressure making it harder for person already stricken with procrastination causing the problem even worse than before\n\n7. Harmful effects on mental health: Chronic procrastinators report higher levels of depression and anxiety compared against those who complete their task early maximizing happiness \n\n8 - Offsetting life goals/plans because putting things off might affect crucial decisions like career changes leaving larger issues unsolved compromising long-term personal satisfaction"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
