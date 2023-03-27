@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yjaqiM2V7eHyzqmwClhWx8btMFhS",
+  "object": "chat.completion",
+  "created": 1679932960,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 43,
+    "total_tokens": 95
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which superpower would you rather have?\",\n  \"answers\": [\n    \"Invisibility\",\n    \"Time travel\",\n    \"Teleportation\",\n    \"Mind reading\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
