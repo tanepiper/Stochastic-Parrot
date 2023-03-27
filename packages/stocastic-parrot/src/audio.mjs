@@ -15,6 +15,7 @@ import { createElevenLabsClient } from './lib/eleven-labs.mjs';
 import { S3UploadFile, writeResponseToFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
+import { createAWSS3Client } from './lib/index.mjs';
 
 /**
  * A script that runs the Dall-E image generation model from OpenAI and posts the result to Mastodon,
@@ -66,6 +67,12 @@ const similarity_boost = opts?.voiceSimilarityBoost ?? 0.5;
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const audioClient = createElevenLabsClient(TEXT_TO_AUDIO_API_KEY);
+const S3Client = createAWSS3Client({
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY,
+    secretAccessKey: process.env.AWS_SECRET_KEY,
+  },
+});
 const entriesFilePath = path
   .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'audio')
   .split(':')[1];
@@ -97,37 +104,28 @@ openAI
         })
         .pipe(
           tap(() => console.log(`💾 Saving Audio File to S3`)),
-          tap(async () => {
-            await S3UploadFile(
-              `audio/${response.id}.mp3`,
+          switchMap(() =>
+            S3Client.uploadFile(
               `${audioFilePath}/${response.id}.mp3`,
-              BUCKET_NAME
-            );
-          }),
-          tap((s3File) => `🔗 Audio File URL: ${s3File}`),
+              BUCKET_NAME,
+              `audio/${response.id}.mp3`
+            ).pipe(tap((s3File) => `🔗 Audio File URL: ${s3File}`))
+          ),
           map(() => ({
             file: `${audioFilePath}/${response.id}.mp3`,
             description: content.substring(0, 1499),
           }))
         );
     }),
-    concatMap(({ file, description }) => {
-      console.log('🔼 Uploading Audio File to Mastodon...');
-      return mastodon.postMedia(file, description).pipe(delay(10000));
-    }),
-    switchMap((media) => {
-      console.log('💬 Posting Audio File...');
-      const status = prompt !== ' ' ? `💬` : `🦜`;
-      return mastodon.sendToots(`${status}`, { media_ids: [media] });
-    }),
-
-    map((tootUrl) => {
-      if (!tootUrl) {
-        throw new Error('No tool URL returned from Mastodon');
-      }
-      console.log(`Toot posted to Mastodon: ${tootUrl}`);
-      return tootUrl;
-    }),
+    tap(() => console.log('🔼 Uploading Audio File to Mastodon...')),
+    concatMap(({ file, description }) =>
+      mastodon.postMedia(file, description).pipe(delay(10000))
+    ),
+    tap(() => console.log('💬 Posting Audio File...')),
+    switchMap((media) =>
+      mastodon.sendToots(prompt !== '' ? `💬` : `🦜`, { media_ids: [media] })
+    ),
+    tap((tootUrl) => console.log(`Toot posted to Mastodon: ${tootUrl}`)),
     catchError((e) => {
       console.error(`Job Failed ${Date.now()} - ${e.message}`);
       console.log(e);

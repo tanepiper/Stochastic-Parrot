@@ -19,10 +19,9 @@ import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
 
 /**
- * A script that runs the Dall-E image generation model from OpenAI and posts the result to Mastodon,
- * the image is also saved to the site public folder as a `.webp` for use in the site.
+ * A script to generate a video from a prompt using OpenAI's Chat API
  *
- * @file dall-e.js
+ * @file video.js
  * @author Tane Piper <me@tane.dev>
  * @license MIT
  * @version 0.0.1
@@ -33,7 +32,7 @@ dotenv.config();
 const { _, ...opts } = minimist(process.argv.slice(2));
 let prompt = _?.[0] ?? ''; // This should be an empty space
 if (opts?.help) {
-  console.log(`Usage: dall-e.mjs [prompt] <options>`);
+  console.log(`Usage: chat.mjs [prompt] <options>`);
   console.log(`Options:`);
   console.log(`  --help                   Show this help message`);
   console.log(`  --mastodonToken          Mastodon access token`);
@@ -152,12 +151,7 @@ openAI
         media_ids: [media],
       })
     ),
-    tap((tootUrl) => {
-      if (!tootUrl) {
-        throw new Error('No tool URL returned from Mastodon');
-      }
-      console.log(`Toot posted to Mastodon: ${tootUrl}`);
-    }),
+    tap((tootUrl) => console.log(`Toot posted to Mastodon: ${tootUrl}`)),
     catchError((e) => {
       console.error(`Job Failed ${Date.now()} - ${e.message}`);
       console.log(e);
