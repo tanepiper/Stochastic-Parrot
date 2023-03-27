@@ -85,36 +85,40 @@ openAI
   .getChat(prompt, { max_tokens }, selectedTemplate.prompt)
   .pipe(
     writeResponseToFile(entriesFilePath),
-    switchMap((response) => {
+    map((response) => {
       const { content } = response?.choices?.[0]?.message ?? '';
       if (!content) {
         throwError(() => 'No content returned from OpenAI');
       }
       const code =
         content.charAt(0) === '{' ? content : content.split('```')[1];
-      let body;
+      let jsonBody;
       try {
-        body = JSON.parse(code);
+        jsonBody = JSON.parse(code);
       } catch (e) {
         throwError(() => 'Invalid JSON returned from OpenAI');
       }
-
+      return { response, jsonBody };
+    }),
+    switchMap(({ response, jsonBody }) => {
+      const { introText, body } = jsonBody;
       const modifications = Object.fromEntries(
-        body?.body?.map((m, i) => [`Text-${i + 1}`, m])
+        body?.map((m, i) => [`Text-${i + 1}`, m]) ?? []
       );
-      if (body?.introText) {
-        modifications['Intro-Text'] = body.introText;
+      if (introText) {
+        modifications['Intro-Text'] = introText;
       }
       console.log(`📹 Generating Video`);
       return video.generateVideo(selectedTemplate.id, modifications).pipe(
-        switchMap((videoResponse) => {
-          return video
+        tap(() => console.log(`🔽 Downloading Video File...`)),
+        switchMap((videoResponse) =>
+          video
             .downloadVideo(
               videoResponse.url,
               `${videoFilePath}/${response.id}.mp4`
             )
-            .pipe(map(() => ({ response, body })));
-        }),
+            .pipe(map(() => ({ response, body })))
+        ),
         tap(() => console.log(`🔼 Uploading Video File to S3...`)),
         switchMap(({ response, body }) =>
           S3Client.uploadFile(
@@ -129,31 +133,30 @@ openAI
         map(({ response, body }) => ({
           file: `${videoFilePath}/${response.id}.mp4`,
           description: Object.values(modifications).join(' '),
-          body: Array.isArray(body?.hashtag)
+          status: Array.isArray(body?.hashtag)
             ? body?.hashtag.join(' ')
             : body?.hashtag ?? '',
         }))
       );
     }),
-    concatMap(({ file, description, body }) => {
-      console.log('🔼 Uploading Video File to Mastodon...');
-      return mastodon.postMedia(file, description).pipe(
-        map((media) => ({ media, body })),
+    tap(() => console.log('🔼 Uploading Video File to Mastodon...')),
+    concatMap(({ file, description, status }) =>
+      mastodon.postMedia(file, description).pipe(
+        map((media) => ({ media, status })),
         delay(10000)
-      );
-    }),
-    switchMap(({ media, body }) => {
-      console.log('💬 Posting Video File...');
-      const status = `${prompt ? '💬' : '🦜'} ${body?.hashtags ?? ''}`.trim();
-      return mastodon.sendToots(`${status}`, { media_ids: [media] });
-    }),
-
-    map((tootUrl) => {
+      )
+    ),
+    tap(() => console.log('💬 Posting Video File...')),
+    switchMap(({ media, status }) =>
+      mastodon.sendToots(`${prompt ? '💬' : '🦜'} ${status}`.trim(), {
+        media_ids: [media],
+      })
+    ),
+    tap((tootUrl) => {
       if (!tootUrl) {
         throw new Error('No tool URL returned from Mastodon');
       }
       console.log(`Toot posted to Mastodon: ${tootUrl}`);
-      return tootUrl;
     }),
     catchError((e) => {
       console.error(`Job Failed ${Date.now()} - ${e.message}`);
