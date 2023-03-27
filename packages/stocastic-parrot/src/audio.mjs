@@ -12,10 +12,10 @@ import {
   tap,
 } from 'rxjs/operators';
 import { createElevenLabsClient } from './lib/eleven-labs.mjs';
-import { S3UploadFile, writeResponseToFile } from './lib/lib.mjs';
+import { createAWSS3Client } from './lib/index.mjs';
+import { writeResponseToFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
-import { createAWSS3Client } from './lib/index.mjs';
 
 /**
  * A script that runs the Dall-E image generation model from OpenAI and posts the result to Mastodon,
@@ -34,7 +34,7 @@ const BUCKET_NAME = 'stochastic-parrot';
 const { _, ...opts } = minimist(process.argv.slice(2));
 let prompt = _?.[0] ?? ''; // This should be an empty space
 if (opts?.help) {
-  console.log(`Usage: dall-e.mjs [prompt] <options>`);
+  console.log(`Usage: audio.mjs [prompt] <options>`);
   console.log(`Options:`);
   console.log(`  --help                   Show this help message`);
   console.log(`  --mastodonToken          Mastodon access token`);
@@ -123,7 +123,7 @@ openAI
     ),
     tap(() => console.log('💬 Posting Audio File...')),
     switchMap((media) =>
-      mastodon.sendToots(prompt !== '' ? `💬` : `🦜`, { media_ids: [media] })
+      mastodon.sendToots(prompt ? `💬` : `🦜`, { media_ids: [media] })
     ),
     tap((tootUrl) => console.log(`Toot posted to Mastodon: ${tootUrl}`)),
     catchError((e) => {

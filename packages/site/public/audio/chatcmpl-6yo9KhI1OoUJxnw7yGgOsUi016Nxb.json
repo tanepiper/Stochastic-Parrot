@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yo9KhI1OoUJxnw7yGgOsUi016Nxb",
+  "object": "chat.completion",
+  "created": 1679950474,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 274,
+    "total_tokens": 281
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The shingles vaccine helps reduce the risk of developing shingles and postherpetic neuralgia (PHN), a severe pain that sometimes lingers after the rash from shingles clears up. The vaccine is recommended for people aged 50 or over since they have a higher risk of developing these conditions. There are two types of shingle vaccines available:\n\n1. Zostavax: It is a live attenuated vaccine, meaning it uses a weakened form of the virus to stimulate an immune response without causing disease.\n\n2. Shingrix: This is a non-live, recombinant subunit adjuvanted vaccine that contains pieces of the virus instead of live components.\n\nShingrix has been shown to be more effective than Zostavax and provides strong protection against both shingles and PHN for at least four years following vaccination in those who received two doses spaced several months apart.\n\nThe side effects vary between individuals but can include redness or swelling at the injection site, headache, fever, chills, muscle or joint pain; however severe and long-lasting side effects are rare - only around 3-5% experience such discomforts- , making it safe considering its benefits in preventing otherwise serious conditions like SHP(Severe Herpes Post) caused by herpes zoster/shingle's infection which affects almost one-third elderly population above age sixty worldwide!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
