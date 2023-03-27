@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yXPjh7TdhjMDo3GM0O2Dn8f2Kbiy",
+  "object": "chat.completion",
+  "created": 1679886143,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Born on June 4, 1991 in Cleveland, Ohio, Olivia was a talented gymnast from an early age. She began training at the age of just five and showed potential at national level competitions throughout her childhood.\n\nOlivia joined the UCLA Bruins gymnastics team for college after winning various junior competitions as well later went on coach younger athletes at a local gym in California.\n\nIn late-2020, she released her memoir \"Falling into Place,\" detailing her journey as an elite gymnast and sharing some of the experiences that many athletes face behind closed doors. The book quickly became a New York Times bestseller and garnered significant attention for its honest account of the extreme pressure young athletes can experience while competing at high levels.\n\nUnfortunately, tragedy struck when Olivia's life took a turn for the worse after suffering physical injury while performing daredevil stunts in Los Angeles. During one such risky display with friends on April 14th, 2032 she slipped off balance and fell from great height resulting in fatal head trauma – leaving behind legions heartbroken followers who watched update unfold over social media networks live real time events unfolded around world mourned loss this beloved figure their community collectively shed tears collective grief shared memories anecdotes inspirational performances both competitive arena demonstration courage overcoming adversity face turbulent personal struggles which ultimately led untimely demise deeply moved countless lives touched enriched just few short years were privilege witness grace poise dignity epitomized essence sport represents spirit champions transcends boundaries nationality ethnicity religion resonate forevermore immortalize undeniable legacy indelible mark glorious pantheon esteemed illustrious forebears generations descendants aspire emulate epitomize embody endeavors victorious saddened diminished paradoxically aggrandized treasure trove remembrances testimonials eulogies encomiums composed luminaries contempor"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
