@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yhDHKQdWwoGrQZcNy6LbD5pB78Fu",
+  "object": "chat.completion",
+  "created": 1679923811,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a single answer to the question, \"How much do musicians make?\" It largely depends on factors such as an individual's level of fame and reputation, their marketing efforts, touring schedules and music sales. Some major celebrities or extremely successful artists might earn millions of dollars per year, while more obscure or independent musicians may only make a few thousand dollars.\n\nHere are some income streams for musicians:\n\n1. Concert tours: Performing live is one way that many musicians earn money. Ticket costs can range from $10-$100 (or even more) depending on the venue size and the artist's fame. Merchandise sold at concerts can also generate revenue.\n\n2. Music streaming services: Musicians also make money through platforms like Spotify, Apple Music, or YouTube; however, it takes a lot of plays to really see significant earnings.\n\n3. Sales of albums/EPs/tracks: Musicians still sell physical copies (CDs/Vinyl), digital downloads for songs or albums (through sites like iTunes), and merchandise associated with their brand or album covers.\n\n4.Seasonal performances: For example classical musician could play gigs during wedding season\n\n5.Theme park performances /Resort area gig– Artists may perform in hotels/theme parks worldwideseasonally\n\n6.Cruise ship performance – Many artists spend months every year performing in cruise ships \n\n7.Social media presence/influencer marketing/streaming video gaming-sharing/videos/etc.-One good example would be game streamers/musician playing games performed background singing-music being paid influencer/marketer-streamer\nStudio recording session –Musicians now use home studio technology enabling them record one-time tracks making thousands within hours via online digital download sharing website-Itunes/Youtube/google\nSome freelancing websites allow"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
