@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yjtgRdoqupG6DiCr1BqHvBtOc3Ho",
+  "object": "chat.completion",
+  "created": 1679934128,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 148,
+    "total_tokens": 243
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introduction\": \"Here are some interesting and amusing facts that you might not have heard before:\",\n  \"body\": [\n    \"Cows moo with a regional accent, showcasing their linguistic prowess.\",\n    \"It's impossible to hum while holding your nose closed - try it!\",\n    \"Kangaroos can't walk backward; they'd prefer to jump into the future.\",\n    \"'Typewriter' is the longest word typable on a single row of a QWERTY keyboard.\",\n    \"Contrary to popular belief, Chameleons change color based on mood, not surroundings.\"\n  ],\n  \"hashtags\": \"#FunFacts #Trivia #DidYouKnow #AmusingFacts #InterestingInfo\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
