@@ -31,7 +31,7 @@ dotenv.config();
 const BUCKET_NAME = 'stochastic-parrot';
 
 const { _, ...opts } = minimist(process.argv.slice(2));
-let prompt = _?.[0] ?? ' '; // This should be an empty space
+let prompt = _?.[0] ?? ''; // This should be an empty space
 if (opts?.help) {
   console.log(`Usage: dall-e.mjs [prompt] <options>`);
   console.log(`Options:`);

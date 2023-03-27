@@ -16,7 +16,7 @@ export const videoTemplates = {
   },
   fiveFacts: {
     id: '3a77d06e-8940-40df-9d3b-3a507dd9265d',
-    prompt: `Always return a JSON object. The content result as property "body" which is an array of 5 strings no longer than 120 characters. Also always generate a "hashtags" property for the content with hashtags based on the content. Include a property "introduction" with an intro to the content. Content should be 5 funny non sequitur facts, but don't mention they are funny non sequitur facts`,
+    prompt: `Always return a JSON object. The content result as property "body" which is an array of 5 strings no longer than 120 characters. Also always generate a "hashtags" property for the content with hashtags based on the content. Include a property "introText" with an intro to the content. Content should be 5 funny non sequitur facts, but don't mention they are funny non sequitur facts`,
   },
   realEstate: {
     id: 'a2f062e5-decb-423e-8ee8-85acb51728c8',
