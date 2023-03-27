@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yjzdYDfMy44asALqSgtuus1ALqYV",
+  "object": "chat.completion",
+  "created": 1679934497,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 58,
+    "total_tokens": 92
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Squawk! Attention, dear users! Squawk! There is currently something broken with the video. Our dedicated team is hard at work fixing it as we speak. Stay put and hold onto your feathers, for normal service shall resume shortly. Thank you for your patience - squawk!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
