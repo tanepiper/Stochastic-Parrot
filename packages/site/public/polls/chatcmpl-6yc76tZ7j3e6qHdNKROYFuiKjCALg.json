@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yc76tZ7j3e6qHdNKROYFuiKjCALg",
+  "object": "chat.completion",
+  "created": 1679904208,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 48,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"What is your favorite type of donut?\",\n  \"answers\": [\n    \"Glazed\",\n    \"Chocolate Frosted\",\n    \"Jelly Filled\",\n    \"Apple Fritter\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
