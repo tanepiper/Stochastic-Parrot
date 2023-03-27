@@ -1,36 +1,22 @@
-import { Configuration, OpenAIApi } from "openai";
-import { from } from "rxjs";
-import { map } from "rxjs/operators";
-import { retryConfig } from "../config.mjs";
-import { errorHandlerWithDelay, randomNumber } from "./lib.mjs";
-
-const debugMode = process.env.DEBUG_MODE === "true";
-
-const GPT_MODEL = "gpt-4"; //'gpt-4';
-const MAX_TOKENS = 500; //200;
-
-const DEFAULT_CHAT_OPTIONS = {
-  frequency_penalty: 1,
-  presence_penalty: 1,
-  max_tokens: MAX_TOKENS,
-  model: GPT_MODEL,
-};
-
-const DEFAULT_IMAGES_OPTIONS = { n: 1, size: "512x512" };
+import { Configuration, OpenAIApi } from 'openai';
+import { from } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { retryConfig, openAIConfig } from '../config.mjs';
+import { errorHandlerWithDelay, randomNumber } from './lib.mjs';
 
 /**
- * @typedef {object} ChatOptions
- * @property {number} frequency_penalty
- * @property {number} presence_penalty
- * @property {number} temperature
- * @property {number} max_tokens
- * @property {string} model
+ * @typedef {object} ChatOptions Options for passing to the OpenAI Chat endpoint
+ * @property {number} temperature The temperature for the chat endpoint
+ * @property {number=} frequency_penalty The frequency penalty for the chat endpoint
+ * @property {number=} presence_penalty The presence penalty for the chat endpoint
+ * @property {number=} max_tokens The max tokens for the chat endpoint
+ * @property {string=} model The model for the chat endpoint
  */
 
 /**
- * @typedef {object} ImagesOptions
- * @property {number} n
- * @property {number} size
+ * @typedef {object} ImagesOptions Options for passing to the OpenAI Dall-E endpoint
+ * @property {number=} n The number of images to generate
+ * @property {number=} size The size of the images to generate
  */
 
 /**
@@ -55,13 +41,13 @@ export function createOpenAIInstance(apiKey) {
    * @param {ChatOptions=} options Options for the chat endpoint for the quality of the response
    * @returns import('rxjs').Observable<CreateChatCompletionResponse>
    */
-  function getChat(prompt = "", options = {}) {
-    options = { ...DEFAULT_CHAT_OPTIONS, ...options };
+  function getChat(prompt = '', options = {}) {
+    options = { ...openAIConfig.chat, ...options };
     return from(
       apiInstance.createChatCompletion({
         ...options,
         temperature: options?.temperature ?? randomNumber(true),
-        messages: [{ role: "user", content: prompt }],
+        messages: [{ role: 'user', content: prompt }],
       })
     ).pipe(
       map((response) => response.data),
@@ -81,11 +67,11 @@ export function createOpenAIInstance(apiKey) {
    * @param {ImagesOptions=} options Options for the images endpoint
    * @returns import('rxjs').Observable<ImageResponse>
    */
-  function getImages(prompt = " ", options = {}) {
-    options = { ...DEFAULT_IMAGES_OPTIONS, ...options };
+  function getImages(prompt = ' ', options = {}) {
+    options = { ...openAIConfig.dalle, ...options };
     return from(
       apiInstance.createImage({
-        prompt: prompt ?? " ", // Sometimes if the prompt is empty it'll cause an error
+        prompt: prompt ?? ' ', // Sometimes if the prompt is empty it'll cause an error
         ...options,
       })
     ).pipe(
