@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ykCWssGOvIt8zs5wUDB7qASKJ4IP",
+  "object": "chat.completion",
+  "created": 1679935296,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 164,
+    "total_tokens": 258
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some fascinating facts that will leave you both amused and intrigued:\",\n  \"body\": [\n    \"Did you know: humans can hear the difference between hot and cold water being poured?\",\n    \"Cows actually have best friends, making them more sociable creatures than imagined.\",\n    \"The inventor of the frisbee was cremated and his ashes were made into a frisbee!\",\n    \"'Dreamt' remains as the only English word ending with 'mt', isn't that dreamy?\",\n    \"The brain named itself - quite an intelligent move by this vital organ.\"\n  ],\n  \"hashtags\": [\"#AmusingFacts\", \"#IntriguingTrivia\", \"#BrainNamedItself\", \"#BestFriendCows\", \"#HotOrColdWaterSounds\"]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
