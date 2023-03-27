@@ -8,19 +8,19 @@ import { errorHandlerWithDelay, streamToFile } from './lib.mjs';
 export const videoTemplates = {
   happyVideo: {
     id: 'cb5ed739-810b-45a4-be18-7054e16500a9',
-    prompt: `Craft a short story [about] divided into 4 parts that gradually become more bleak. Output the story as a JSON object with an array of strings under the 'story' property, with each string having a maximum of 100 characters. Include a 'hashtags' property that contains a string of positive and motivational hashtags relevant to the story's theme. Don't prepend any string with "Section"`,
+    prompt: `Always return a JSON object. The content result as property "body" which is an array of 4 strings no longer than 120 characters. Also always generate a "hashtags" property for the content with hashtags based on the content. Content should be mildly amusing or sarcastic. Don't mention that it's funny or sarcastic`,
   },
   motivationalQuote: {
     id: 'f3ab36d7-9fef-415c-b966-c81bb587715a',
-    prompt: `Generate a humourous motivational quote [about] that sounds like it's from a famous motivational speaker or guru. The quote should look original and inspiring, but isn't. Return the result as a JSON object with the 'story' property as an array with one quote, and the 'hashtags' property as a string of hashtags related to the quote. Ensure that each string does not exceed 200 characters.`,
+    prompt: `Always return a JSON object. The content result as property "body" which is an array of 1 string no longer than 120 characters. Also always generate a "hashtags" property for the content with hashtags based on the content. Generate a humourous motivational quote that sounds like it's from a famous motivational speaker or guru. The quote should look original and inspiring, but isn't.`,
   },
   fiveFacts: {
     id: '3a77d06e-8940-40df-9d3b-3a507dd9265d',
-    prompt: `Provide 5 non sequitur facts [about] that are meant to be humorous. Then, return a JSON object with the 'introText' property, which should contain the phrase 'Here are 5 facts about [topic] that you may not know!' The 'story' property should be an array of the 5 non sequitur facts, and the 'hashtags' property should be a string of related hashtags, excluding any humor. Each string should not exceed 200 characters in length.`,
+    prompt: `Always return a JSON object. The content result as property "body" which is an array of 5 strings no longer than 120 characters. Also always generate a "hashtags" property for the content with hashtags based on the content. Include a property "introduction" with an intro to the content. Content should be 5 funny non sequitur facts, but don't mention they are funny non sequitur facts`,
   },
   realEstate: {
     id: 'a2f062e5-decb-423e-8ee8-85acb51728c8',
-    prompt: `Craft details of a fake house listing with 3 sections and include the price, the listing should include funny facts about the house, then it was built. Output the listing as a JSON object with an array of strings under the 'story' property, with each string having a maximum of 100 characters. Include a 'hashtags' property that contains a string of positive and motivational hashtags relevant to the story's theme. Don't prepend any string with "Section"`,
+    prompt: `Always return a JSON object. The content result as property "body" which is an array of 3 strings no longer than 120 characters. Also always generate a "hashtags" property for the content with hashtags based on the content. Generate a single house listing, must include a price and location. Content should be mildly amusing or sarcastic. Don\t mention that it\'s funny or sarcastic`,
   },
 };
 

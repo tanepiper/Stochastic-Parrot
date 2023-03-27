@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yjfHiDatx8fUNer8v2FSI9TtmX9j",
+  "object": "chat.completion",
+  "created": 1679933235,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 126,
+    "total_tokens": 222
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introduction\": \"Here are 5 interesting facts that will surely make you think:\",\n  \"body\": [\n    \"The first rule of Fight Cloud is you don't talk about condensation.\",\n    \"Cats often hold secret meetings on the dark side of the moon.\",\n    \"Santa Claus was once an Olympic figure-skating champion in Atlantis.\",\n    \"Bananas have secret plans to control the world using WiFi signals.\",\n    \":eft-handed unicorns love to play underwater checkers with mermaids.\"\n  ],\n  \"hashtag\": \"#RandomFacts #NonSequitur #FunnyFacts\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

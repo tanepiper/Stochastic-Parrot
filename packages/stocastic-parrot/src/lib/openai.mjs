@@ -39,15 +39,18 @@ export function createOpenAIInstance(apiKey) {
    *
    * @param {string=} prompt Optional prompt to start the conversation
    * @param {ChatOptions=} options Options for the chat endpoint for the quality of the response
+   * @param {string=} context Optional context to provide to the chat endpoint
    * @returns import('rxjs').Observable<CreateChatCompletionResponse>
    */
-  function getChat(prompt = '', options = {}) {
+  function getChat(prompt = '', options = {}, context = '') {
     options = { ...openAIConfig.chat, ...options };
+    const messages = [{ role: 'user', content: prompt }];
+    if (context) messages.unshift({ role: 'system', content: context });
     return from(
       apiInstance.createChatCompletion({
         ...options,
         temperature: options?.temperature ?? randomNumber(true),
-        messages: [{ role: 'user', content: prompt }],
+        messages,
       })
     ).pipe(
       map((response) => response.data),

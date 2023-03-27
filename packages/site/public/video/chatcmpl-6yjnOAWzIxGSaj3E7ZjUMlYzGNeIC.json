@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yjnOAWzIxGSaj3E7ZjUMlYzGNeIC",
+  "object": "chat.completion",
+  "created": 1679933738,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 141,
+    "total_tokens": 237
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introduction\": \"Here are five interesting facts you probably never expected:\",\n  \"body\": [\n    \"Polar bears wear sunglasses to avoid tanning at the beach.\",\n    \"Spiders use the internet for web development and online gaming.\",\n    \"Cats have a secret language known only to pigeons and electricians.\",\n    \"Aliens regularly visit Earth disguised as vending machines in Japan.\",\n    \"Lawn gnomes fear dolphins, so they hide out inland near BBQs.\"\n  ],\n  \"hashtag\": \"#UnexpectedFacts #PolarBears #SpidersOnline #CatSecretLanguage #AlienVendingMachines #GnomeDolphinFear\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -30,7 +30,7 @@ import { createOpenAIInstance } from './lib/openai.mjs';
 dotenv.config();
 
 const { _, ...opts } = minimist(process.argv.slice(2));
-let topic = _?.[0] ?? ' '; // This should be an empty space
+let prompt = _?.[0] ?? ' '; // This should be an empty space
 if (opts?.help) {
   console.log(`Usage: dall-e.mjs [prompt] <options>`);
   console.log(`Options:`);
@@ -55,10 +55,6 @@ const templateName = opts?.template ?? 'fiveFacts';
 const selectedTemplate = videoTemplates[templateName];
 console.log(templateName);
 
-const prompt = topic
-  ? `${selectedTemplate.prompt.replace('[about] ', `about ${topic} `)}`
-  : selectedTemplate.prompt.replace('[about] ', '');
-
 const BUCKET_NAME = 'stochastic-parrot';
 
 const max_tokens = opts?.maxTokens ?? 350;
@@ -81,7 +77,7 @@ const videoFilePath = path
 console.log('🤖 Starting Stochastic Parrot - Creating Video 🔈');
 
 openAI
-  .getChat(prompt, { max_tokens })
+  .getChat(prompt, { max_tokens }, selectedTemplate.prompt)
   .pipe(
     writeResponseToFile(entriesFilePath),
     switchMap((response) => {
@@ -99,7 +95,7 @@ openAI
       }
 
       const modifications = Object.fromEntries(
-        body?.story?.map((m, i) => [`Text-${i + 1}`, m])
+        body?.body?.map((m, i) => [`Text-${i + 1}`, m])
       );
       if (body?.introText) {
         modifications['Intro-Text'] = body.introText;
@@ -115,6 +111,7 @@ openAI
             .pipe(map(() => ({ response, body })));
         }),
         tap(async ({ response }) => {
+          console.log(`🔼 Uploading Video File to S3...`);
           await S3UploadFile(
             `video/${response.id}.mp4`,
             `${videoFilePath}/${response.id}.mp4`,
@@ -138,7 +135,9 @@ openAI
     }),
     switchMap(({ media, body }) => {
       console.log('💬 Posting Video File...');
-      const status = `${topic !== ' ' ? '💬' : '🦜'} ${body}`;
+      const status = `${prompt !== ' ' ? '💬' : '🦜'} ${
+        body?.hashtags ?? ''
+      }`.trim();
       return mastodon.sendToots(`${status}`, { media_ids: [media] });
     }),
 
