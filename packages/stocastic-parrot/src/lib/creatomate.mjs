@@ -5,6 +5,12 @@ import { map, switchMap } from 'rxjs/operators';
 import { retryConfig } from '../config.mjs';
 import { errorHandlerWithDelay, streamToFile } from './lib.mjs';
 
+/**
+ * A map of video templates to use with Creatomate, each template has an ID and a prompt
+ * @type {Record<string, {id: string, prompt: string}>}
+ * @see https://creatomate.com/
+ * @see https://creatomate.com/docs/api/introduction
+ */
 export const videoTemplates = {
   happyVideo: {
     id: 'cb5ed739-810b-45a4-be18-7054e16500a9',
@@ -25,11 +31,17 @@ export const videoTemplates = {
 };
 
 /**
- * Create a client for Createomate
- * @param {string} apiKey
+ * Create a Creatomate client and return the functions supported
+ * to generate videos
+ * @param {string} apiKey The Creatomate API key
  * @returns
  */
 export function createCreatomateClient(apiKey) {
+
+  /**
+   * The Creatomate client
+   * @type {Client}
+   */
   const client = new Client(apiKey);
 
   /**

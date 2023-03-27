@@ -10,7 +10,7 @@ import {
   finalize,
   map,
   switchMap,
-  tap,
+  tap
 } from 'rxjs/operators';
 import { createCreatomateClient, videoTemplates } from './lib/creatomate.mjs';
 import { createAWSS3Client } from './lib/index.mjs';
