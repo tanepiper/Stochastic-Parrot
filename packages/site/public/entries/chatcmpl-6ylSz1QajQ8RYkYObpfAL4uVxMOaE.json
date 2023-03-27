@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ylSz1QajQ8RYkYObpfAL4uVxMOaE",
+  "object": "chat.completion",
+  "created": 1679940161,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 43,
+    "total_tokens": 50
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am an AI developed by OpenAI called GPT-3. I can operate 24 hours a day, seven days a week without taking breaks. Is there something specific you would like to ask or discuss?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
