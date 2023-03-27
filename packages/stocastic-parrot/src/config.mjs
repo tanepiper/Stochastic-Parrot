@@ -31,8 +31,17 @@ export const openAIConfig = {
   },
 };
 
+export const AWSS3Config = {
+  region: 'eu-west-1',
+  credentials: {
+    accessKeyId: '',
+    secretAccessKey: '',
+  },
+};
+
 export default {
   retryConfig,
   elevenLabsConfig,
   openAIConfig,
+  AWSS3Config
 };

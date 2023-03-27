@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ymZ2XL4pkwUKnoh4kMQAvfBQDkBX",
+  "object": "chat.completion",
+  "created": 1679944380,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 201,
+    "total_tokens": 295
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Check out these interesting and unexpected facts that are sure to pique your curiosity!\",\n  \"body\": [\n    \"Did you know butterflies taste with their feet? Imagine tasting every step you take.\",\n    \"Giraffes only have bottom teeth in the front of their mouths, leaving an exclusive club for top-teeth-only humans.\",\n    \"A group of parrots is called a pandemonium – welcome to the party everyone!\",\n    \"In Switzerland, it's illegal to own just one guinea pig because they get lonely. Who doesn't love mandated friendship?\",\n    \"Ancient Egyptian pharaohs took some time off from ruling to practice beekeeping. The buzz about royal honey was real.\"\n  ],\n  \"#hashtags\": [\n      \"#butterflyfacts\", \n      \"#giraffeteethtrivia\",\n      \"#parrotpandemonium\",\n      \"#guineapiglaw\", \n      \"#pharaohbeekeepers\"\n   ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

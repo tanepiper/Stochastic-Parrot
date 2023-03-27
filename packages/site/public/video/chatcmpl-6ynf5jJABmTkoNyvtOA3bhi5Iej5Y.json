@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ynf5jJABmTkoNyvtOA3bhi5Iej5Y",
+  "object": "chat.completion",
+  "created": 1679948599,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 45,
+    "total_tokens": 153
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Failure is the stairway to success, but remember: you can still trip on stairs!\"\n  ],\n  \"hashtag\": \"#Motivation #Success #JustGuruThings\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

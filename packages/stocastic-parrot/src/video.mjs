@@ -13,7 +13,8 @@ import {
   tap,
 } from 'rxjs/operators';
 import { createCreatomateClient, videoTemplates } from './lib/creatomate.mjs';
-import { S3UploadFile, writeResponseToFile } from './lib/lib.mjs';
+import { createAWSS3Client } from './lib/index.mjs';
+import { writeResponseToFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
 
@@ -53,7 +54,6 @@ const CREATOMATIC_API_KEY =
 
 const templateName = opts?.template ?? 'fiveFacts';
 const selectedTemplate = videoTemplates[templateName];
-console.log(templateName);
 
 const BUCKET_NAME = 'stochastic-parrot';
 
@@ -62,6 +62,12 @@ const max_tokens = opts?.maxTokens ?? 350;
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const video = createCreatomateClient(CREATOMATIC_API_KEY);
+const S3Client = createAWSS3Client({
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY,
+    secretAccessKey: process.env.AWS_SECRET_KEY,
+  },
+});
 const entriesFilePath = path
   .resolve(`${import.meta.url}`, '..', '..', '..', 'site', 'public', 'video')
   .split(':')[1];
@@ -69,13 +75,12 @@ const videoFilePath = path
   .resolve(`${import.meta.url}`, '..', '..', 'tmp')
   .split(':')[1];
 
-/**
- * Subscribe to the Observable result of the OpenAI API call, then pipe the response through a series of
- * RxJS operators to get the image URL, download the image, convert it to a webp, save it to the site
- * public folder, then post it to Mastodon.
- */
-console.log('🤖 Starting Stochastic Parrot - Creating Video 🔈');
+console.log('🤖 Starting Stochastic Parrot - Creating Video 🎬');
 
+/**
+ * Get a response from OpenAI, then generate a video from the response,
+ * then upload the video to S3, then post the video to Mastodon
+ */
 openAI
   .getChat(prompt, { max_tokens }, selectedTemplate.prompt)
   .pipe(
@@ -110,21 +115,23 @@ openAI
             )
             .pipe(map(() => ({ response, body })));
         }),
-        tap(async ({ response }) => {
-          console.log(`🔼 Uploading Video File to S3...`);
-          await S3UploadFile(
-            `video/${response.id}.mp4`,
+        tap(() => console.log(`🔼 Uploading Video File to S3...`)),
+        switchMap(({ response, body }) =>
+          S3Client.uploadFile(
             `${videoFilePath}/${response.id}.mp4`,
-            BUCKET_NAME
-          );
-        }),
-        tap((s3File) => `🔗 Audio File URL: ${s3File}`),
+            BUCKET_NAME,
+            `video/${response.id}.mp4`
+          ).pipe(
+            tap((s3File) => `🔗 Audio File URL: ${s3File}`),
+            map(() => ({ response, body }))
+          )
+        ),
         map(({ response, body }) => ({
           file: `${videoFilePath}/${response.id}.mp4`,
           description: Object.values(modifications).join(' '),
-          body: Array.isArray(body?.hashtags)
-            ? body?.hashtags.join(' ')
-            : body?.hashtags ?? '',
+          body: Array.isArray(body?.hashtag)
+            ? body?.hashtag.join(' ')
+            : body?.hashtag ?? '',
         }))
       );
     }),
