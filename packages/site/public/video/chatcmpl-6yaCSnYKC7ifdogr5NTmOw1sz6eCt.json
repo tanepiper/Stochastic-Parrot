@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yaCSnYKC7ifdogr5NTmOw1sz6eCt",
+  "object": "chat.completion",
+  "created": 1679896852,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 87,
+    "completion_tokens": 49,
+    "total_tokens": 136
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"story\": [\n    \"The key to success is turning all your doors into escape rooms; you'll find a way out one day.\"\n  ],\n  \"hashtags\": \"#motivation #funnyquote #escape #success\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

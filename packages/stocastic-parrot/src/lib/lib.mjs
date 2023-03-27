@@ -47,10 +47,12 @@ export function sanitize(string) {
  */
 export function sanitizeString(inputString) {
   // Remove HTML tags from the input string
-  const strippedString = inputString.replace(/(<([^>]+)>)/gi, "");
+  let strippedString = inputString.replace(/(<([^>]+)>)/gi, "");
+  strippedString = strippedString.replace(/\u00A0/g, " ");
+
 
   // Remove any special characters that are not ASCII or Emoji characters
-  return strippedString.replace(/[^\x00-\x7F]/g, "");
+  return strippedString.replace(/[^\p{L}\p{M}\x00-\x7F\uD800-\uDBFF\uDC00-\uDFFF]/gu, "");
 }
 
 /**
