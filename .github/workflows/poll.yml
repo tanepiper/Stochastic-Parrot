@@ -50,10 +50,10 @@ jobs:
         run: |
           if [[ "${{github.event.inputs.pollySays}}" == "" ]]; then
             echo "Generating Response from nothing"
-            moon run stocastic-parrot:poll
+            moon run stochastic-parrot:poll
           else
             echo "Passing prompt: ${{github.event.inputs.pollySays}}"
-            moon run stocastic-parrot:poll -- "${{github.event.inputs.pollySays}}"
+            moon run stochastic-parrot:poll -- "${{github.event.inputs.pollySays}}"
           fi
       # Commit all files changes including docs
       - name: Commit files

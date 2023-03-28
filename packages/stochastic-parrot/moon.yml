@@ -5,7 +5,7 @@ type: "tool"
 language: "javascript"
 
 project:
-  name: "stocastic-parrot"
+  name: "stochastic-parrot"
   description: "A Mastodon bot that repeats prompts from ChatGPT"
   channel: "#https://mastodon.social/@StochasticEntropy"
   owner: "tanepiper"

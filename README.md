@@ -1,7 +1,7 @@
 # Stochastic Parrot
 
 <div style="margin: 0 auto; text-align: center;">
-<img src="./packages/stocastic-parrot/assets/avatar.png" width="320px" height="320px" alt="The avatar of the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe" />
+<img src="./packages/stochastic-parrot/assets/avatar.png" width="320px" height="320px" alt="The avatar of the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe" />
 
 | [Homepage](https://stochasticparrot.lol/) | [Mastodon](https://mastodon.social/@StochasticEntropy) | [GitHub](https://github.com/tanepiper/Stochastic-Parrot) |
 </div>

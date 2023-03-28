@@ -22,8 +22,9 @@
   },
   "homepage": "https://github.com/tanepiper/Stochastic-Parrot#readme",
   "devDependencies": {
-    "@moonrepo/cli": "~0.26.6",
-    "tsconfig-moon": "~1.2.2"
+    "@moonrepo/cli": "~1.0.0",
+    "tsconfig-moon": "~1.3.0",
+    "typescript": "~5.0.2"
   },
   "engines": {
     "node": "18.15.0"
