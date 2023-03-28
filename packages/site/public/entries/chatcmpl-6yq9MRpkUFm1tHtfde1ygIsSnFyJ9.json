@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yq9MRpkUFm1tHtfde1ygIsSnFyJ9",
+  "object": "chat.completion",
+  "created": 1679958164,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Beneficiaries refer to the individuals or entities who receive benefits, profits, advantages, or gains from a specific action, arrangement, agreement, trust or will. In most cases, beneficiaries are named in legal documents such as contracts and policies. For example:\n\n1) Insurance policy: The beneficiary is the person who receives payment from the insurance company upon the death of an insured party.\n\n2) Trusts: The beneficiaries are those who benefit from a trustee's management of assets within a trust.\n\n3) Wills and estates: Beneficiaries may be mentioned explicitly by name in the deceased’s last will or can inherit based on their relationship with them (e.g., surviving spouse).\n\n4) Retirement accounts and pension plans: Individuals designate beneficiaries for these financial vehicles/accounts. These designated recipients get money/assets when account holders pass away.\n\n5) Charitable gifts/organizations/uploads/2017-09/documents/template_simple.pdf): Non-profit organizations could be listed as beneficiaries if donors identify specific groups to receive contributions/support.\n\n6). Contracts/agreements/partnerships/legal settlements - According to terms set forth by involved parties/accounts/uploads/files/MDELL307A0100029_Writing_Executive_Summ_Template.docx), certain persons/groups/power-interests may have particular roles where they're required/etc.: Such actions often include lending agreements/uploaded/_ext_affidavit_signed_this_weekday_morn_income_and_expense_reports_written_by_the_honorable_Court_in_responsibility_without_limits_since_these_red_principles_compose_each_Family_Law_-_R_Henderson_Banks_Other_Media/pdfdoc_of_bargained_for_exchanges_construed_as_more_than_an_opinion_of_severity_and_information_requests/file/voluntary-chapter"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

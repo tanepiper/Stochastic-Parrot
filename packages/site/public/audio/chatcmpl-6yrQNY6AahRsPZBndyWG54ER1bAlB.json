@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yrQNY6AahRsPZBndyWG54ER1bAlB",
+  "object": "chat.completion",
+  "created": 1679963063,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 51,
+    "total_tokens": 58
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, but I am an AI language model, and I cannot access your messages or your account. If you have any questions or need help, feel free to ask and I will do my best to provide relevant information within the scope of general knowledge."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

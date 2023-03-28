@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yr9YeyjcK81NBEvK5aAX8SacSCfP",
+  "object": "chat.completion",
+  "created": 1679962020,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 320,
+    "total_tokens": 327
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Egypt is famous for its ancient civilization, which dates back thousands of years. Some things that Egypt is famous for include:\n\n1. The great Pyramids and the Sphinx: These iconic structures are located in Giza, just outside Cairo, and are considered one of the Seven Wonders of the World.\n\n2. Pharaohs and mummies: Ancient Egyptian pharaohs were powerful rulers who were often buried in elaborate tombs filled with treasure to accompany them into the afterlife. Tutankhamun's tomb, discovered by archaeologist Howard Carter in 1922, remains one of Egypt's most significant discoveries.\n\n3. Ancient temples: Numerous magnificent temples built throughout dynasties can be found along the Nile River— Karnak Temple in Luxor being among the largest religious complexes globally.\n\n4. Hieroglyphics: Egyptians developed a system of writing using symbols called hieroglyphs more than 5,000 years ago that tells stories about ancient Egypt's artistry and everyday life.\n\n5. The Nile River - At approximately 6,695 kilometers (4,160 miles) long runs through ten countries across northeastern Africa; it served as a vital lifeline providing water supply for agriculture and trade routes during antiquity.\n\n6.Cleopatra – Famously known as last active pharaoh from Cleopatra VII line before Rome annexed Egypt into their territories\n\n7.Ancient Egyptian gods like Anubis- god of death & Osiris-god underworld-resembling melange between humans & animals imbued deities significance making religion an essential part-country’s culture long-lasting till today"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

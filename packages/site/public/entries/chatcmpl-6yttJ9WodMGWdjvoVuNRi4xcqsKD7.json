@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yttJ9WodMGWdjvoVuNRi4xcqsKD7",
+  "object": "chat.completion",
+  "created": 1679972545,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to prevent seasonal allergies naturally: \n\n1. Monitor pollen levels and plan outdoor activities accordingly: Check your local weather forecast, as it usually includes a pollen count report. Schedule your outdoor activities when these levels are low – typically earlier in the day or after it has rained.\n\n2. Keep windows and doors closed during high-pollen times: To reduce the amount of indoor allergens, keep windows and doors closed during periods when pollen counts are at their highest.\n\n3. Clean air filters and ducts: Keep heating, ventilation, and air conditioning systems clean by regularly changing air filters and having ducts cleaned periodically.\n\n4. Use a HEPA air purifier indoors: A High-Efficiency Particulate Air (HEPA) filter is an excellent tool for reducing airborne allergens like pollen inside your home.\n\n5. Vacuum floors regularly with a vacuum that has a HEPA filter to minimize dust mites as well as other allergens from settling on carpets or rugs.\n\n6. Shower before bedtime & change clothing upon entering the house: Remove any accumulated allergens from hair, skin & clothing by bathing prior to going bed each night or immediately after spending extended periods outdoors during allergy season\n\n7- Wash bedding frequently in hot water using mild detergents - this may help remove existing mold spores that have settled into fibers along with killing off pesky dust mite populations residing within pillows/mattresses/linen/etcetera\n\n8) Consider implementing dehumidifiers around key areas throughout household spaces experiencing dampness issues - helping maintain appropriate humidity conditions while also inhibiting growth potential fungal colonies/sources such molds - aim between 30% –50%\n\n9) Nasal saline rinses can be helpful since they wash away impurities taken"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

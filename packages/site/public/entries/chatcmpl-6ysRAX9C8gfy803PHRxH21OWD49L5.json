@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ysRAX9C8gfy803PHRxH21OWD49L5",
+  "object": "chat.completion",
+  "created": 1679966956,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "21st Century Skills, also known as Core Competencies or 21st Century Learning, include a range of skills and abilities that are necessary for thriving in the modern world. These skills are categorized into four main groups:\n\n1. Communication:\n- Listening actively\n- Interpersonal communication\n- Public speaking and presenting\n- Media literacy\n\n2. Collaboration:\n- Teamwork/cooperation, including virtual collaboration with people from diverse backgrounds and cultures.\n- Consensus building/decision-making \n- Adaptability/flexibility \n\n3. Critical Thinking & Problem Solving:\n-Creativity / Innovation: Develop original ideas\n-critical thinking (analyze/synthesize information)\n-problem-solving/dealing with complex situations/tasks \n-digital problem-solving; technically literate,\n-research skills - gather information from different sources then evaluate them.\n\n4. Personal qualities/values applying ethics to decisions/actions/results.\n-Self-direction/personal learning—initiative/independent work/goal-setting\",\n-Leadership;\n-displaying responsibility/accountability in varying scenarios;\n-self-assessment/reflection;\n\nIn addition to these core competencies, we can also consider some more specific areas such as:\n\n5 Digital Literacy including relevant digital tools/software/social media platforms\n\n6 Global Awareness having an understanding/appreciation of diversity/multiculturalism/world issues/problems/environment \n\n7 Entrepreneurship/self-sustaining careers/business creation,\n\n8 Financial/Fiscal Literacy considering personal finance/economics/budgets/taxes/consumer behavior/\n\nCollectively these essential 21st-century capabilities will serve as tools allowing individuals/groups/resources/tools/models/resources/employers/workplaces/-to engage better together on local/globally based tasks/issues-to live lives enriched through life-long education research efforts/community involvement societal impacts,\n\nWe must ensure"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

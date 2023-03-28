@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ywiBsbKOhx1LWbI7Ks8ppR0UMTZX",
+  "object": "chat.completion",
+  "created": 1679983387,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 59,
+    "total_tokens": 66
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a specific answer to what the best song ever is, as it ultimately comes down to personal taste and preference. Different people may have different opinions on what they consider the best song due to factors like genre, lyrics, melody, cultural significance or personal memories related to that particular song."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
