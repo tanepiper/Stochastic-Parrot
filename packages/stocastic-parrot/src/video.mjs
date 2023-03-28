@@ -10,13 +10,14 @@ import {
   finalize,
   map,
   switchMap,
-  tap
+  tap,
 } from 'rxjs/operators';
 import { createCreatomateClient, videoTemplates } from './lib/creatomate.mjs';
 import { createAWSS3Client } from './lib/index.mjs';
 import { writeResponseToFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
+import { AWSS3Config } from './config.mjs';
 
 /**
  * A script to generate a video from a prompt using OpenAI's Chat API
@@ -62,6 +63,7 @@ const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
 const video = createCreatomateClient(CREATOMATIC_API_KEY);
 const S3Client = createAWSS3Client({
+  ...AWSS3Config.client,
   credentials: {
     accessKeyId: process.env.AWS_ACCESS_KEY,
     secretAccessKey: process.env.AWS_SECRET_KEY,
@@ -122,7 +124,7 @@ openAI
         switchMap(({ response, body }) =>
           S3Client.uploadFile(
             `${videoFilePath}/${response.id}.mp4`,
-            BUCKET_NAME,
+            AWSS3Config.bucket,
             `video/${response.id}.mp4`
           ).pipe(
             tap((s3File) => `🔗 Audio File URL: ${s3File}`),

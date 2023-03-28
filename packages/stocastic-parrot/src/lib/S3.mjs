@@ -1,15 +1,13 @@
 import AWS from 'aws-sdk';
 import { from } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { readFile } from "node:fs/promises";
-import { AWSS3Config } from '../config.mjs';
+import { readFile } from 'node:fs/promises';
 
 /**
  * @param {AWS.S3.ClientConfiguration} config
  */
 export function createAWSS3Client(config = {}) {
-
-  const client = new AWS.S3({ ...AWSS3Config, ...config });
+  const client = new AWS.S3(config);
 
   /**
    * Uploads a file to S3 and returns the URL of the uploaded file
