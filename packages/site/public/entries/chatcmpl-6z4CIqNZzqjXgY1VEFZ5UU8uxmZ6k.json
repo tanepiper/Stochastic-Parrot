@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z4CIqNZzqjXgY1VEFZ5UU8uxmZ6k",
+  "object": "chat.completion",
+  "created": 1680012162,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 97,
+    "total_tokens": 104
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The past perfect continuous tense is formed by using the auxiliary verb \"had\" plus \"been\" and the main verb in its \"-ing\" form. This tense indicates an ongoing action that was completed at a specific time in the past.\n\nExamples:\n\n1) I had been living on my own for six years before I got married.\n2) She had been studying English for two years before she went to Australia.\n3) James had been working as a cashier before he became assistant manager."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
