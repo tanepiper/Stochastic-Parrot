@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z7wLBlI2JZnXOYBS38IA8drjO1pC",
+  "object": "chat.completion",
+  "created": 1680026549,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 119,
+    "total_tokens": 126
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A bouquet garni is a bundle of aromatic herbs and spices typically used to flavor soups, stews, and sauces. It may include various combinations of ingredients such as thyme, rosemary, parsley stems or leaves, bay leaves, peppercorns, and sometimes other ingredients like leek greens or celery stalks.\n\nThe herbs are either tied together with kitchen twine or placed inside cheesecloth or a muslin bag so they can be easily removed from the dish when cooking is finished. The bouquet garni adds depth of flavor to dishes without leaving pieces of herbs throughout the food."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
