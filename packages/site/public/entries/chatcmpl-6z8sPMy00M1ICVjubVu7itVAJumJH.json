@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z8sPMy00M1ICVjubVu7itVAJumJH",
+  "object": "chat.completion",
+  "created": 1680030149,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 141,
+    "total_tokens": 148
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to ask someone if they have called a specific name in Japanese:\n\n1) その名前を呼びましたか？\nSono namae o yobimashita ka?\n\"Did you call that name?\"\n\n2) 〇〇（名前）と呼んだのですか？\n__ (namae) to yonda no desu ka? \n\"Did you call [name]?\"\n\nSimply replace the \"__\" with the person's name. For example, if asking about someone named Taro, it would be:\n太郎と呼んだのですか？\nTaro to yonda no desu ka?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
