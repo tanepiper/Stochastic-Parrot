@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yxdivbMiQ3ipvE0uMVSWPMCETdvJ",
+  "object": "chat.completion",
+  "created": 1679986954,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 279,
+    "total_tokens": 286
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several different ways to turn text into speech, depending on the software or device you're using. Here are some methods for various devices and platforms:\n\n1. Google Text-to-Speech (Android):\n- Go to Settings > Accessibility > Text-to-speech output.\n- Select Google Text-to-speech as your preferred engine.\n- Adjust other settings, such as Speech rate and Pitch, as desired.\n- If an app specifically supports Google's text-to-speech feature, look for a \"Read Aloud\" button within the app.\n\n2. Apple iOS (iPhone/iPad):\n- Go to Settings > Accessibility > Spoken Content > Speak Selection or Speak Screen\n- Turn on Speak Selection or Speak Screen depending on your needs.\n  - With Speak Selection enabled, select the text that you want to convert into speech; this will cause a new menu option labeled 'Speak' to appear above it.\n  - Speak Screen is best used with single-page content like articles and notes; once toggled from Control Center, it reads everything visible in order without needing users' manual navigation\n\n3. Windows Operating System:\nMicrosoft provides built-in options on Windows OS called Narrator which can read out loud any available content but they also work well with Microsoft Edge browser offering immersive reading experience: -*-\n   * Press Start Button & type \"Narrator.\" Click it when found +:+|;\n    OR.LayoutControlItem_Handle>>();\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
