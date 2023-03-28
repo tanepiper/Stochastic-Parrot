@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z1NlICZejcjuD4m4HnAKUtONg2Vr",
+  "object": "chat.completion",
+  "created": 1680001341,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 213,
+    "total_tokens": 220
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Listen actively: Pay full attention to the speaker, maintain eye contact, and avoid distractions or multitasking while listening.\n\n2. Show empathy: Understand the emotions that are being conveyed by the person talking and try to put yourself in their shoes.\n\n3. Be open-minded: Try not to judge or make assumptions about what is being said but instead stay receptive to different perspectives.\n\n4. Ask for clarification if needed: If uncertain about something mentioned or if a misunderstanding arises, ask for more explanation to ensure complete comprehension of the point being made.\n\n5. Take notes when appropriate: Whether during meetings or lectures, note-taking can help you remember important points discussed and process information better later on.\n\n6. Provide feedback: Acknowledge understanding by responding with thoughtful comments and questions based on what has been said without interrupting frequently.\n\n7. Summarize key points at regular intervals; make sure your interpretation matches others', especially those discussing complex topics like during negotiations/agreements/debriefings after events/projects completed/shared experiences et al., this skill helps reinforce all parties' knowledgebase"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
