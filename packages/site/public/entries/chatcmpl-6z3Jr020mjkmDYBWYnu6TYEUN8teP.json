@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z3Jr020mjkmDYBWYnu6TYEUN8teP",
+  "object": "chat.completion",
+  "created": 1680008787,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 31,
+    "total_tokens": 38
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The word \"comida\" in English means \"food.\" It is a Spanish term used to refer to any type of food, meal, or dish."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
