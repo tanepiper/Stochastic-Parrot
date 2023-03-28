@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ysvxNslx4c6eLTmDgB4BC5NxJV6o",
+  "object": "chat.completion",
+  "created": 1679968865,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 153,
+    "total_tokens": 248
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some quirky facts to tickle your brain!\",\n  \"body\": [\n    \"In an alternate dimension, bananas wear pants and run for the office.\",\n    \"A group of cats disguised as penguins secretly operates Antarctica's first karaoke club.\",\n    \"Unicorns enjoy trying out new hairstyles on weekends; mullets are making a comeback!\",\n    \"There exists a secret society of chameleons who gather at midnight to compete in breakdancing battles.\",\n    \"If you whisper Nikola Tesla’s name three times into a radio, it might unlock hidden frequencies.\"\n  ],\n  \"hashtag\": \"#quirkyfacts #funwithfacts #unexpectedbananas #unicornhairstyle #teslaradio\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
