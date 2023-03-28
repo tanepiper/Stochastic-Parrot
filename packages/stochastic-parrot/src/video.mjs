@@ -147,11 +147,12 @@ openAI
         .pipe(map((media) => ({ media, status })))
     ),
     tap(() => console.log('💬 Posting Video File...')),
-    switchMap(({ media, status }) =>
-      mastodon.sendToots(`${prompt ? '💬' : '🦜'} ${status}`, {
+    switchMap(({ media, status }) => {
+      console.log(media, status)
+      return mastodon.sendToots(`${prompt ? '💬' : '🦜'} ${status}`, {
         media_ids: [media],
       })
-    ),
+    }),
     tap((tootUrl) => console.log(`Toot posted to Mastodon: ${tootUrl}`)),
     catchError((e) => {
       console.error(`Job Failed ${Date.now()} - ${e.message}`);

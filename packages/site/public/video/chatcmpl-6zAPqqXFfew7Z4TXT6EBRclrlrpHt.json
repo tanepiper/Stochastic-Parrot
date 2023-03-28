@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zAPqqXFfew7Z4TXT6EBRclrlrpHt",
+  "object": "chat.completion",
+  "created": 1680036066,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 168,
+    "total_tokens": 263
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some entertaining and random facts that will surely make you chuckle:\",\n  \"body\": [\n    \"Bananas grow on plants classified as a herb, making them the world's largest herbaceous berry.\",\n    \"The national animal of Scotland is a unicorn; it symbolizes purity, innocence, and power.\",\n    \"A group of flamingos is called a flamboyance; they certainly know how to turn heads with their pink style!\",\n    \"\\\"Once in a blue moon\\\" comes from the rare occurrence when two full moons appear within one calendar month.\",\n    \"Anabelle Whitford Moesching holds the record for typing with her nose at an impressive speed of 57.2 seconds.\"\n  ],\n  \"hashtag\": \"#FunFacts #NonSequitur #Entertainment\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

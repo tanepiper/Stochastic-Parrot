@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zAUlHTRGNhAzlsDD9dchcbVsVpni",
+  "object": "chat.completion",
+  "created": 1680036371,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 125,
+    "total_tokens": 220
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some surprising and unexpected facts for you:\",\n  \"body\": [\n    \"Bees sometimes sting other bees when they're cranky.\",\n    \"A kangaroo once challenged a politician to an arm-wrestling match.\",\n    \"Mammoths still roamed the earth when the Egyptian pyramids were being built.\",\n    \"In ancient Rome, ferrets were used as a form of pest control.\",\n    \"Cows have best friends and can become distressed if they're separated.\"\n  ],\n  \"hashtag\": \"#BizarreFacts #UnexpectedKnowledge #RandomTrivia\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
