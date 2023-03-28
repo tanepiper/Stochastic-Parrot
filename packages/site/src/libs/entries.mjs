@@ -24,6 +24,36 @@ export function createEntriesLoader() {
     }
     return sorted;
   }
+
+  /**
+   * Load Video JSON files
+   * @param {*} start 
+   * @param {*} end 
+   * @param {*} sortBy 
+   * @returns 
+   */
+  async function loadVideoJSON(start = 0, end = 0, sortBy = 'created') {
+    const entryFiles = await import.meta.glob('../../public/video/*.json', {
+      eager: true,
+    });
+    let sorted = Object.values(entryFiles ?? {})
+      .map((e) => e.default)
+      .sort((a, b) => (a[sortBy] > b[sortBy] ? -1 : 1));
+    entries = [...sorted];
+
+    if (end > 0) {
+      sorted = sorted.slice(start, end);
+    }
+    return sorted;
+  }
+
+  /**
+   * Load Audio JSON files
+   * @param {*} start 
+   * @param {*} end 
+   * @param {*} sortBy 
+   * @returns 
+   */
   async function loadAudio(start = 0, end = 0, sortBy = 'created') {
     const entryFiles = await import.meta.glob('../../public/audio/*.json', {
       eager: true,
@@ -61,5 +91,5 @@ export function createEntriesLoader() {
     return entries;
   }
 
-  return { loadEntries, loadAudio, getEntries, getDallEImageFilenames, getAudioFiles };
+  return { loadEntries, loadAudio, getEntries, getDallEImageFilenames, getAudioFiles, loadVideoJSON };
 }

@@ -1,0 +1,112 @@
+---
+import AudioListing from '$ui/AudioListing.astro';
+import VideoListing from '$ui/VideoListing.astro';
+import Layout from '../../layouts/Layout.astro';
+import { createEntriesLoader } from '../../libs/entries.mjs';
+
+export async function getStaticPaths({ paginate }) {
+  const loader = createEntriesLoader();
+  const entries = await loader.loadVideoJSON();
+
+  const pages = entries.map((item) => ({
+    params: {
+      page: item.id,
+    },
+    props: item,
+  }));
+
+  return paginate(pages, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
+const entries = page.data.map((entry) => entry.props);
+---
+
+<Layout
+  title='The Stochastic Parrot | Feeds on universal entropy to bring you random noise'
+>
+  <main>
+    <VideoListing items={entries}>
+      <h2>All Audio</h2>
+      <div class='controls'>
+        {
+          page.url.prev ? (
+            <a class='button' href={page.url.prev}>
+              Previous
+            </a>
+          ) : (
+            <span class='button disabled'>Previous</span>
+          )
+        }
+        {
+          page.url.next ? (
+            <a class='button' href={page.url.next}>
+              Next
+            </a>
+          ) : (
+            <span class='button disabled'>Next</span>
+          )
+        }
+      </div>
+      <p class='intro'>
+        This is a list of all the collected ramblings of the Stochastic Parrot.
+        Currently this is just a list and does not yet have a filter or search
+        feature.
+      </p>
+      {
+        page.currentPage === 1 && (
+          <p>
+            Last Updated:{' '}
+            {Intl.DateTimeFormat('en-gb', {
+              dateStyle: 'full',
+              timeStyle: 'long',
+              timeZone: 'Europe/Amsterdam',
+            }).format(Date.now())}
+          </p>
+        )
+      }
+    </VideoListing>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 110ch;
+  }
+
+  .intro {
+    margin: 1.5rem auto;
+    max-width: 120ch;
+  }
+
+  .controls {
+    min-width: 20ch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .controls .button {
+    min-width: 6ch;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: var(--color-text);
+    text-decoration: none;
+  }
+  .controls .button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .controls .button.disabled {
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.4px);
+    -webkit-backdrop-filter: blur(9.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+</style>

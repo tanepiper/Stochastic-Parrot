@@ -1,0 +1,139 @@
+---
+import { Markdown } from '@astropub/md';
+
+const { items } = Astro.props;
+const allItems = items ?? [];
+const S3_URL = 'https://stochastic-parrot.s3.eu-west-1.amazonaws.com';
+---
+
+<div class='item-list-container'>
+  <slot />
+  {
+    allItems.map((item) => (
+      <div class='item'>
+        <p>
+          <code>
+            <a href={`/video/view/${item.id}`}>permalink</a> | created:{' '}
+            {item.created} ({new Date(item.created * 1000).toISOString()}) |
+            model: {item.model} | total_tokens: {item.usage.total_tokens}
+          </code>
+        </p>
+        <div class='contents'>
+          <figure>
+            <div class='vid-wrap'>
+              <video
+                controls
+                src={`${S3_URL}/video/${item.id}.mp4`}
+                preload='metadata'
+              >
+                <a href={`${S3_URL}/video/${item.id}.mp4`}>Download audio</a>
+              </video>
+            </div>
+          </figure>
+          <code><Markdown of={item.choices[0].message.content} /></code>
+        </div>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  /** css for a psychadelic looking unordered list */
+  .item-list-container {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 80em;
+    /* cursor: url('/images/avatar.png') auto; */
+  }
+  :global(.item-list-container h2) {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 3rem;
+  }
+  .item-list-container .item {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    width: 100%;
+    overflow: hidden;
+    word-break: normal;
+    word-wrap: break-word;
+  }
+
+  .item-list-container .item:hover {
+    cursor: crosshair;
+    /* animation: float 1s ease-in-out infinite; */
+  }
+
+  /* .item-list-container .item:nth-child(2n) {
+    animation-delay: 1s;
+  }
+  .item-list-container .item:nth-child(3n) {
+    animation-delay: 2s;
+  } */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-0.25rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .button {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+  }
+
+  .button--primary {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #000;
+    background: rgb(88, 235, 13);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 26%,
+      rgba(200, 200, 200, 1) 100%
+    );
+  }
+
+  .button--primary:hover {
+    background: rgb(200, 200, 200);
+    background: linear-gradient(
+      180deg,
+      rgba(200, 200, 200, 1) 26%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+  .contents,
+  .contents p {
+    word-break: normal;
+    overflow: hidden;
+  }
+
+  .vid-wrap {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+</style>
