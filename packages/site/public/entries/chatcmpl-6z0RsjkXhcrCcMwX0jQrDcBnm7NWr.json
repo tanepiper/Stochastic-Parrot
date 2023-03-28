@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z0RsjkXhcrCcMwX0jQrDcBnm7NWr",
+  "object": "chat.completion",
+  "created": 1679997752,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 38,
+    "total_tokens": 45
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no information available suggesting that GPS systems, including Google Maps or Waze, are banned in Russia. These applications can be used by people within the country to navigate and find directions."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
