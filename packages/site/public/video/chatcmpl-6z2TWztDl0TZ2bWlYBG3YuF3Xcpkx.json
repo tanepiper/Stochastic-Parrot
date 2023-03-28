@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z2TWztDl0TZ2bWlYBG3YuF3Xcpkx",
+  "object": "chat.completion",
+  "created": 1680005542,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 44,
+    "total_tokens": 152
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Achieve nothing but greatness by doing the same thing and expecting different results!\"\n  ],\n  \"hashtag\": \"#Greatness #FunnyMotivation #GuruWisdom\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

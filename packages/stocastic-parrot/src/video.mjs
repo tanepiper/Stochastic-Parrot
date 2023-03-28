@@ -136,20 +136,19 @@ openAI
           description: Object.values(modifications).join(' '),
           status: Array.isArray(body?.hashtag)
             ? body?.hashtag.join(' ')
-            : body?.hashtag ?? '',
+            : `${body?.hashtag ?? ''}`.trim(),
         }))
       );
     }),
     tap(() => console.log('🔼 Uploading Video File to Mastodon...')),
     concatMap(({ file, description, status }) =>
-      mastodon.postMedia(file, description).pipe(
-        map((media) => ({ media, status })),
-        delay(10000)
-      )
+      mastodon
+        .postMedia(file, description)
+        .pipe(map((media) => ({ media, status })))
     ),
     tap(() => console.log('💬 Posting Video File...')),
     switchMap(({ media, status }) =>
-      mastodon.sendToots(`${prompt ? '💬' : '🦜'} ${status}`.trim(), {
+      mastodon.sendToots(`${prompt ? '💬' : '🦜'} ${status}`, {
         media_ids: [media],
       })
     ),

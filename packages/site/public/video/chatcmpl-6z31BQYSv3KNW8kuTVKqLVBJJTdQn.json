@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z31BQYSv3KNW8kuTVKqLVBJJTdQn",
+  "object": "chat.completion",
+  "created": 1680007629,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 112,
+    "completion_tokens": 51,
+    "total_tokens": 163
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Remember, you only fail when stop trying– or the hundredth time. Whichever comes first.\"\n  ],\n  \"hashtag\": \"#TryingAgain #FamousMotivationalSpeaker #InspiringFailure\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
