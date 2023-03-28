@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z9tjG88lGUTaMjAWzd0n1WcPgTXX",
+  "object": "chat.completion",
+  "created": 1680034075,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 144,
+    "total_tokens": 239
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Check out these interesting and unexpected facts that will leave you amused!\",\n  \"body\": [\n    \"Did you know that a giraffe's neck is so long it can tie its own shoelaces?\",\n    \"Mozart was an avid bowler, often mixing powdered wigs into the ball polish.\",\n    \"In ancient Rome, citizens used pineapples as household pets due to their loyalty.\",\n    \"Zebras use barcode scanners for identification at official Zebra social gatherings.\",\n    \"\\\"Detective Spuds,\\\" a TV show about crime-solving potatoes, remains popular in Peru.\"\n  ],\n  \"hashtag\": \"#FunFacts #AmusingTrivia #UnexpectedKnowledge\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
