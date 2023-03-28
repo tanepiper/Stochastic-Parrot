@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yrBC7L6gViPvA157Rd1AZu3FdL0z",
+  "object": "chat.completion",
+  "created": 1679962122,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 56,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fiction genre do you enjoy the most?\",\n  \"answers\": [\n    \"A. Science Fiction & Fantasy\",\n    \"B. Mystery & Thriller\",\n    \"C. Romance & Drama\",\n    \"D. Historical Fiction\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
