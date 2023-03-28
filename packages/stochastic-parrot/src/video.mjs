@@ -92,7 +92,7 @@ openAI
         throwError(() => 'No content returned from OpenAI');
       }
       const code =
-        content.charAt(0) === '{' ? content : content.split('```')[1];
+        content?.charAt(0) === '{' ? content : content.split('```')[1];
       let jsonBody;
       try {
         jsonBody = JSON.parse(code);
