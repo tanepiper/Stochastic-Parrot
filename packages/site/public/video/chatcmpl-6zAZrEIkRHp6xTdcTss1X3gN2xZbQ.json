@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zAZrEIkRHp6xTdcTss1X3gN2xZbQ",
+  "object": "chat.completion",
+  "created": 1680036687,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 122,
+    "total_tokens": 217
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some unexpected and intriguing facts to tickle your fancy!\",\n  \"body\": [\n    \"A blue whale's tongue weighs as much as an adult elephant.\",\n    \"The inventor of the frisbee was turned into a frisbee after his death.\",\n    \"Cows have best friends and can become stressed if they're separated.\",\n    \"Cherophobia is the irrational fear of fun or happiness.\",\n    \"You are more likely to be bitten by another human than a shark.\"\n  ],\n  \"!hashtag\": \"#UnexpectedFacts #FunTrivia\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -118,25 +118,25 @@ openAI
               videoResponse.url,
               `${videoFilePath}/${response.id}.mp4`
             )
-            .pipe(map(() => ({ response, body })))
+            .pipe(map(() => ({ response, jsonBody })))
         ),
         tap(() => console.log(`🔼 Uploading Video File to S3...`)),
-        switchMap(({ response, body }) =>
+        switchMap(({ response, jsonBody }) =>
           S3Client.uploadFile(
             `${videoFilePath}/${response.id}.mp4`,
             AWSS3Config.bucket,
             `video/${response.id}.mp4`
           ).pipe(
             tap((s3File) => `🔗 Audio File URL: ${s3File}`),
-            map(() => ({ response, body }))
+            map(() => ({ response, jsonBody }))
           )
         ),
-        map(({ response, body }) => ({
+        map(({ response, jsonBody }) => ({
           file: `${videoFilePath}/${response.id}.mp4`,
           description: Object.values(modifications).join(' '),
-          status: Array.isArray(body?.hashtag)
-            ? body?.hashtag.join(' ')
-            : `${body?.hashtag ?? ''}`.trim(),
+          status: Array.isArray(jsonBody?.hashtag)
+            ? jsonBody?.hashtag.join(' ')
+            : `${jsonBody?.hashtag ?? ''}`.trim(),
         }))
       );
     }),
@@ -147,7 +147,7 @@ openAI
         .pipe(map((media) => ({ media, status })))
     ),
     tap(() => console.log('💬 Posting Video File...')),
-    switchMap(({ media, status }) => {
+    concatMap(({ media, status }) => {
       console.log(media, status)
       return mastodon.sendToots(`${prompt ? '💬' : '🦜'} ${status}`, {
         media_ids: [media],
