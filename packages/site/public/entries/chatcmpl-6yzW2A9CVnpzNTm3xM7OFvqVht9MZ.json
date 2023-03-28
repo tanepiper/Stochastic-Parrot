@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6yzW2A9CVnpzNTm3xM7OFvqVht9MZ",
+  "object": "chat.completion",
+  "created": 1679994166,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are a few tips to prevent procrastination: \n\n1. Break tasks into smaller, manageable parts\nDivide large assignments, projects or goals into smaller sub-tasks that are more easily achievable. Completing these sub-tasks will give you a sense of accomplishment and momentum toward finishing the larger task.\n\n2. Prioritize your tasks\nCreate a list of what needs to be done and prioritize it based on deadlines or importance. This helps in focusing on completing high priority tasks first.\n\n3. Set realistic goals and deadlines\nBe honest with yourself about how long it should take to complete each task, then set deadlines accordingly.\n\n4. Schedule specific time for work \nAllocate designated time slots for working on specific tasks during the day when you know you can concentrate better, like early morning or late night hours.\n\n5. Remove distractions from your environment  \nEliminate anything that may distract you while working such as social media notifications, turning off phone notifications etc., so that you remain focused until the task is completed\n\n6.Make Commitments: Inform others about your plans and goals because this helps in creating accountability among friends or family who might remind you if they see signs of procrastination\n\n7.Use timer method:\nPomodoro technique; Work in intervals where each interval consists 25 mins of work followed by short breaks(5 mins) after every four \"pomodoros\" take longer break eg-15 min.This enables brain not get saturated due concentration & provides freshness boosting productivity\n\n8.Reward Yourself: Once successfully completing any important,overtime-consuming assignements people tend reward itself by giving themself some benefits like eating something they love.Well,body should get gratified when brain works fine forming good relations between body-brain which increase concentration over time'''\n"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
