@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6z6LmfmndkpgWNZI8jL1wtXS8xaFm",
+  "object": "chat.completion",
+  "created": 1680020438,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 48,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which superhero would make the best babysitter?\",\n  \"answers\": [\n    \"Captain America: responsible and caring\",\n    \"Wonder Woman: strong and nurturing\",\n    \"Spider-Man: friendly neighborhood hero\",\n   "
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
