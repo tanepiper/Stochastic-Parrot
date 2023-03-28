@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zCcScotQ9UnFLVfVK0joKBeTyY19",
+  "object": "chat.completion",
+  "created": 1680044536,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 241,
+    "total_tokens": 248
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several options for a free business checking account:\n\n1. BlueVine Business Checking: BlueVine offers a completely online business checking account with no monthly fees, no minimum balance requirements, and unlimited transactions.\n\n2. Novo Bank: Novo is another online bank that provides fee-free business checking accounts designed specifically for small businesses and freelancers. There are also no minimum balance requirements or hidden fees.\n\n3. Axos Bank Basic Business Checking: This online bank offers a basic business checking account without any monthly maintenance fees or minimum balance requirements, as long as you maintain at least $1,000 in daily average collected balances.\n\n4. Small Credit Unions and Community Banks: Many local credit unions and community banks offer free checking accounts tailored to the needs of small businesses based within their community.\n\n5. Ally Business Interest Checking (for non-profit organizations): Non-profit organizations can choose this interest-bearing account that comes with no monthly service charge or minimum balance requirement once they open an account with an initial deposit of $250.\n\nBefore committing to one option, it's essential to research each carefully to determine which will best meet your specific banking needs as not all may be appropriate for every situation or industry type."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
