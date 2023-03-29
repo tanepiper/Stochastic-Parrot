@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zNrVotjOySB2ljhsOZ9N2xoTcquI",
+  "object": "chat.completion",
+  "created": 1680087753,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 215,
+    "total_tokens": 222
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, most modern smartphones can be connected to a Bluetooth speaker or headphones. This allows you to enjoy music, podcasts, and other audio content on your phone wirelessly through the Bluetooth speaker or headphones.\n\nTo connect your smartphone to a Bluetooth speaker or headphones:\n\n1. First make sure that both devices have the necessary power supply.\n2. Turn on the Bluetooth feature of your smartphone by going into its settings menu (location may vary depending on device).\n3. Put your bluetooth speaker or headphone in pairing mode according to its instruction manual.\n4. On your smartphone's list of available bluetooth devices near you should be able find/see Bluetooth device's name among them.\n5.Select name with related device like tap/click it , wait a few seconds for connection establish and if any confirmation popped up give it appropriate response .\n6.Your two devices now ready for enjoyment of shared wireless received sound signals .\n\nRemember that eligible distance between two paired items is usually no more than 33ft(10m)tend generally line-of-sight needed.If physical obstruction occurs troubleshooting could require positions adjustment ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
