@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zDxX94c29LSoGJWXjWCSewjuHS5g",
+  "object": "chat.completion",
+  "created": 1680049687,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Crocheting is a craft that involves creating fabric or textile by using a crochet hook and yarn, thread, or other similar materials. The name \"crochet\" comes from the French word for \"hook,\" which is appropriately used to describe the primary technique used in this art form.\n\nCrocheting works by making knots and loops with the material, looping it around the crochet hook and forming stitches. To create different shapes and patterns, various stitches can be combined within each row or round of crocheting.\n\nPeople have been crocheting for centuries; however, it gained significant popularity during the 19th century in Europe as a fashionable way to make intricate lace items such as doilies, shawls, curtains, tablecloths and clothing embellishments.\n\nModern-day crocheters often use their skills to create blankets (also known as afghans), hats, scarves, mittens/gloves/socks (or all three together – called “slippers”), headbands/hair accessories/brooches/pins/rings/etc., pouches/drawstring bags/totes/computer covers/cozies/tablet protectors/keychain purses/etc., stuffed animals/amigurumi toys/art dolls/item motifs for display/shop/sign/blouse logo purposes/ornaments/target game pieces/thumb drive warming sleeves/vase covers/lampshade decorations/jacket tendrils/personalized pens/earring bases/magnets/nail decals/button adornments/photo album cover edges/pages/bookmarks/corsages/collar tips/beard extenders/cat organizers/plush animals/enveloppers/stuffed dance equipment/teddy bears/swatches/faux leaves/sash curtains/window frames/stretchy dragon wings/toy hammocks/fruity vegetables/additional mouths"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
