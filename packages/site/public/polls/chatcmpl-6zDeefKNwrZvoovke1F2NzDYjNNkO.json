@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zDeefKNwrZvoovke1F2NzDYjNNkO",
+  "object": "chat.completion",
+  "created": 1680048516,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional city would you prefer to visit?\",\n  \"answers\": [\n    \"Gotham City from Batman\",\n    \"Hogwarts School from Harry Potter\",\n    \"Westeros from Game of Thrones\",\n    \"The Shire in Middle-earth\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
