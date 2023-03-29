@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zYA5LX8mxpHKiwPpNqMrkZoz3cSC",
+  "object": "chat.completion",
+  "created": 1680127345,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Desventajas de la globalización\n\nAunque hay muchas ventajas asociadas con la globalización, también ha dado lugar a una serie de problemas y desafíos. A continuación se presentan algunas desventajas clave de la globalización:\n\n1. Desplazamiento laboral: Una consecuencia importante de la globalización es el traslado de empleos desde países desarrollados hacia naciones en desarrollo, lo que provoca un aumento en el desempleo.\n\n2. Explotación laboral: La búsqueda constante por reducir los costes y mantenerse competitivo puede llevar a las empresas multinacionales a explotar tanto trabajadores como recursos naturales en los países menos desarrollados.\n\n3. Erosión cultural: La promoción del consumo y valores culturales occidentales puede conducir al debilitamiento o pérdida total de tradiciones e identidades culturales locales en todo el mundo.\n\n4. Daño ambiental: La expansión industrial y las prácticas comerciales insostenibles pueden contribuir al agotamiento acelerado de los recursos naturales, emisiones contaminantes mayores (contribuyentes al cambio climático), deforestación y otros impactos negativos sobre nuestro medio ambiente.\n\n5. Brecha entre ricos y pobres: A pesar del crecimiento económico generalizado que supone para algunos países, no distribuye uniformemente sus beneficios provocando disparidades existentes entre diferentes regiones o clases sociales.\n\n6. Competencia intensificada: El acceso ampliado a mercados internacionales genera más competidores incrementando presiones sobre empresas viejas obligándolas posiblemente cerrar si"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
