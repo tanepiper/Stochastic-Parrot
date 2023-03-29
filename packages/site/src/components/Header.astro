@@ -21,18 +21,17 @@ const navItems = [
 ];
 ---
 
-<header class='site-header sticky'>
-  <div class='header-left'>
+<header class='header sticky'>
+  <div class='logo-title-container'>
     <a href='/'>
-      <div class='logo'>
-        <img src='/images/avatar.png' alt='Logo' />
-      </div>
-      <h1 class='magic'>The Stochastic Parrot</h1>
+      <img src='/images/avatar.png' alt='Logo' class='logo' />
+
+      <h1 class='title magic'>Polly The Stochastic Parrot</h1>
     </a>
   </div>
 
-  <nav class='navigation header-right'>
-    <ul>
+  <nav>
+    <ul class='nav-links'>
       {
         navItems.map((item) => (
           <li>
@@ -55,13 +54,58 @@ const navItems = [
 </header>
 
 <style>
-  .site-header {
+  header {
+    min-height: 2ch;
+  }
+  .header {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    min-height: 10ch;
+    padding: 0 1rem;
+  }
+
+  .logo-title-container a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: auto;
+    height: auto;
+    max-height: 50px;
+    border-radius: 3em;
+  }
+
+  .logo:hover {
+    animation: rotate 5s ease infinite;
+  }
+
+  .logo-title-container h1 {
+    color: #000;
+    margin-left: 1rem;
+  }
+
+  ul.nav-links {
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+
+  ul.nav-links li {
+    display: inline-block;
+  }
+
+  ul.nav-links a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 25px;
+  }
+
+  ul.nav-links a:hover,
+  ul.nav-links a.active {
+    text-decoration: underline;
   }
 
   .sticky {
@@ -69,63 +113,30 @@ const navItems = [
     position: sticky;
     top: 0;
     z-index: 999;
+    background: rgba(255, 255, 255, 0.9);
   }
 
-  .logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 20px;
+  @media (min-width: 768px) {
+    .header {
+      flex-direction: row;
+      padding: 0 10rem;
+    }
   }
 
-  .logo:hover {
-    animation: rotate 5s ease infinite;
-  }
-
-  .logo img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .header-left a {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .navigation {
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-end;
-  }
-
-  .navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  .navigation li {
-    margin-left: 20px;
-  }
-
-  .navigation a {
-    text-decoration: none;
-    color: #333;
-    font-size: 0.8rem;
-  }
-
-  .navigation a:hover {
-    text-decoration: underline;
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
   }
 
   .magic {
-    margin: 0;
     padding: 0.5rem;
-    font-size: 1.4rem;
     font-family: 'Rubik Iso', cursive;
     color: #000;
     outline: #000;
@@ -133,6 +144,7 @@ const navItems = [
     background-size: 150% 150%;
     border-radius: 0.5rem;
     animation: headerGradient 5s ease infinite;
+    text-shadow: 0 0 0.1rem #fff;
   }
 
   @keyframes headerGradient {
@@ -144,32 +156,6 @@ const navItems = [
     }
     100% {
       background-position: 0% 50%;
-    }
-  }
-
-  @keyframes rotate {
-  0% {
-    transform: rotate(0)
-  }
-  50% {
-    transform: rotate(360deg)
-  }
-  100% {
-    transform: rotate(0)
-  }
-}
-
-  @media (min-width: 60em) {
-    .site-header {
-      flex-direction: row;
-    }
-
-    .magic {
-      font-size: 2rem;
-    }
-
-    .navigation a {
-      font-size: 1.4rem;
     }
   }
 </style>
