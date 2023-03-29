@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zWI3Ihz6msFXhTIsd1QMioV9kdVk",
+  "object": "chat.completion",
+  "created": 1680120151,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some ways technology is changing the way people eat are through:\n\n1. Online ordering and food delivery: Apps like UberEats, DoorDash, and Grubhub make it easy for customers to order food online from a wide variety of restaurants and have it delivered right to their doorstep.\n\n2. Meal planning apps: Smartphone applications like Yummly or Mealime help users plan their meals throughout the week while considering factors such as dietary restrictions, personal preferences, and available ingredients at hand.\n\n3. Virtual cooking classes: Websites like Masterclass provide on-demand video instruction in various culinary disciplines taught by experienced professionals without having to attend an actual cooking class physically.\n\n4. Personal nutrition trackers: Food diary apps (like MyFitnessPal) provide individuals with personalized nutritional information about what they consume daily - helping them keep track of calories consumed/down size portions accordingly\n\n5. Precision cookers & smart kitchen appliances: Sous-vide machines immerse meats or vegetables in precisely controlled water baths that hold temperatures consistently; other advanced tools include programmable pressure cookers/air fryer ovens capable of making foods crispier outside while remaining tender/moist inside – all from within one countertop device!\n\n6. 3D printed food & lab-grown meat alternatives: Future developments may lead us toward new forms/materials/components surrounding edible goods (e.g., \"printed\" chocolate); animal-free proteins synthesized using cellular agriculture techniques promise revolutionary changes within both livestock farming plus wider ethical/environmental concerns about conventional methods overall too.\n\n7- Customized Nutrition Plans- Personalization options such as DNA diet testing can aid consumers in tailoring plans according to individual requirements/preferences rather than taking generic market-available suggestions into account exclusively henceforth wherever viable accordingly ++(additionally)\n\n8- Restaurant"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
