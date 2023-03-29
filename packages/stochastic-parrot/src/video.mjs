@@ -102,7 +102,7 @@ openAI
       return { response, jsonBody };
     }),
     switchMap(({ response, jsonBody }) => {
-      const { introText, body } = jsonBody;
+      const { introText, body } = jsonBody ?? {};
       const modifications = Object.fromEntries(
         body?.map((m, i) => [`Text-${i + 1}`, m]) ?? []
       );
