@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zGMwjBAqKR9H4XMpU9dRNrKp56M8",
+  "object": "chat.completion",
+  "created": 1680058950,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 209,
+    "total_tokens": 216
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "You can make big puppet hands using foam, fabric or even paper. Here's a simple method to create large foam hands:\n\nMaterials required:\n1. Large sheet of foam (approximately 1\" thick)\n2. Marker for tracing\n3. Scissors or utility knife\n4. Fabric glue \n5. Paint (optional)\n\nInstructions:\n1. Place your hand on the foam with fingers spread apart and trace around it with a marker.\n\n2. Make sure to leave enough space between each finger while you're tracing so that they can be cut easily.\n\n3.Point out beyond the wrist area while drawing, so as to ensure there is allowance for more length when inserting your hand into the puppet later on.\n\n4.Carefully cut out this traced shape using sharp scissors or a utility knife.\n\n5.Next, trace and cut one more identical piece from the same side of the sheet that will ultimately be glued together\n\n6.Now stick both pieces together leaving an open space at arm end allow room for wearer’s inserts into once dried use paint additional fabrics decorate"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
