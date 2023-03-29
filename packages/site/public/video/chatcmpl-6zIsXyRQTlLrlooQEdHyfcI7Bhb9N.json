@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zIsXyRQTlLrlooQEdHyfcI7Bhb9N",
+  "object": "chat.completion",
+  "created": 1680068597,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 153,
+    "total_tokens": 248
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are five amusing and unexpected facts to brighten up your day:\",\n  \"body\": [\n    \"Cows have best friends and can become stressed when they're separated.\",\n    \"The national animal of Scotland is the unicorn.\",\n    \"A pineapple isn't a single fruit; it's a group of berries fused together.\",\n    \"\\\"Arachibutyrophobia\\\" is the fear of peanut butter sticking to the roof of your mouth.\",\n    \"Wombat feces are shaped like cubes, making them unique in the animal kingdom.\"\n  ],\n  \"hashtag\": \"#FunFacts #CowFriends #ScottishUnicorn #PineappleBerries #Arachibutyrophobia #WombatPoop\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

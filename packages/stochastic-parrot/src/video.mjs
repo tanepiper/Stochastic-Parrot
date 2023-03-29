@@ -148,17 +148,19 @@ openAI
     ),
     tap(() => console.log('💬 Posting Video File...')),
     concatMap(({ media, status }) => {
-      console.log(media, status)
+      if (!media) {
+        return throwError(() => 'Media not uploaded to Mastodon failed');
+      }
       return mastodon.sendToots(`${prompt ? '💬' : '🦜'} ${status}`, {
         media_ids: [media],
-      })
+      });
     }),
-    tap((tootUrl) => console.log(`Toot posted to Mastodon: ${tootUrl}`)),
     catchError((e) => {
       console.error(`Job Failed ${Date.now()} - ${e.message}`);
       console.log(e);
       process.exit(1);
     }),
+    tap((tootUrl) => console.log(`Toot posted to Mastodon: ${tootUrl}`)),
     finalize(() => {
       console.log(`Job complete ${Date.now()}`);
       process.exit(0);

@@ -121,8 +121,8 @@ export function createMastodonClient(
               }
               lastTootId = data.id;
             }),
+            errorHandlerWithDelay(retryConfig),
             map(() => firstTootUrl),
-            errorHandlerWithDelay(retryConfig)
           );
         })
       )
@@ -144,8 +144,8 @@ export function createMastodonClient(
         description,
       })
     ).pipe(
+      errorHandlerWithDelay(retryConfig),
       map((res) => res?.data?.id ?? ''),
-      errorHandlerWithDelay(retryConfig)
     );
   }
 
@@ -157,8 +157,8 @@ export function createMastodonClient(
    */
   function getLocalTimeline(limit = 1) {
     return from(mastodon.getLocalTimeline({ limit })).pipe(
-      switchMap((res) => from(res.data)),
       errorHandlerWithDelay(retryConfig),
+      switchMap((res) => from(res.data)),
       concatMap((toot) =>
         from(
           new Promise((resolve) =>
@@ -180,8 +180,8 @@ export function createMastodonClient(
    */
   function getStatus(id) {
     return from(mastodon.getStatus(id)).pipe(
+      errorHandlerWithDelay(retryConfig),
       map((res) => res.data),
-      errorHandlerWithDelay(retryConfig)
     );
   }
 
