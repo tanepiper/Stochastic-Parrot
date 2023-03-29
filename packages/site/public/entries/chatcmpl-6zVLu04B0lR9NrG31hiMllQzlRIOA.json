@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zVLu04B0lR9NrG31hiMllQzlRIOA",
+  "object": "chat.completion",
+  "created": 1680116546,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 71,
+    "total_tokens": 78
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Madrid is about 536.69 km (333 miles) away from Barcelona by road, and the average driving distance between Madrid and Barcelona is roughly six hours depending on traffic conditions.\n\nThe most direct route to drive is via the A-2 highway or AP-2 toll highway, which connects Madrid with Zaragoza, Lleida and Barcelona."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
