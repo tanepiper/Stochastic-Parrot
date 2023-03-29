@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zJBJls5qUvIN4e6YSccTblVQEWNu",
+  "object": "chat.completion",
+  "created": 1680069761,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 286,
+    "total_tokens": 293
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Urdu is an Indo-Aryan language spoken predominantly in Pakistan and India. It has more than 100 million speakers globally, with the majority residing in these two countries. In addition to being one of the official languages of Pakistan, many people in northern India also speak Urdu.\n\nUrdu is closely related to Hindi, with both languages considered mutually intelligible when spoken colloquially. However, formal written Urdu uses a modified version of the Persian script called Nastaʼlīq, while Hindi relies on Devanagari script.\n\nThe vocabulary and grammar structure are similar for both languages; however, they draw from different cultural sources - primarily borrowing words from Persian and Arabic (Urdu) or Sanskrit (Hindi). Some borrowed English words can also be found frequently used within daily conversations.\n\nGiven its historical connection with Islam and the Mughal Empire's influence on South Asia between the early 16th century and mid-19th century, Urdu is often associated with Indian Muslims who have made significant contributions to literature since medieval times – especially poetry like Ghazals and Nazms.\n\n Contemporary music such as Bollywood film songs include frequent \"mixing\" features that combine elements from multiple dialects together. Thus it may incorporate verses penned exclusively for songs utilizing Urdu lyrics alongside Hindu dialogue portions within movie scripts aiming for maximum linguistic inclusivity among diverse populations living throughout modern-day India/Pakistan/Bangladesh urban metropolises alike!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
