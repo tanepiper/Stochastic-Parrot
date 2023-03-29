@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zFUoK8DFnrlFejjQ54DMFs2LH1sp",
+  "object": "chat.completion",
+  "created": 1680055594,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 150,
+    "total_tokens": 245
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Check out these bizarre and fascinating facts that will surely make you scratch your head!\",\n  \"body\": [\n    \"Hippo sweat is actually a natural sunscreen, keeping their skin moisturized and protected.\",\n    \"Polar bears have black skin under their white fur to efficiently absorb the sun's warmth.\",\n    \"Ancient Romans used crushed mouse brains as toothpaste for dental hygiene purposes.\",\n    \"\\\"Jiffy\\\" isn't just an expression - it's also a real unit of time equal to one hundredth of a second.\",\n    \"Bananas are classified as berries while strawberries belong to the rose family.\"\n  ],\n  \"hashtag\": \"#WeirdFacts #MindBlown #FunTrivia\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
