@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zZ5xM4YF4MTuKXh3sqyZUsm2plUR",
+  "object": "chat.completion",
+  "created": 1680130933,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The central idea of Marxist philosophy is that societal changes and historical developments occur through the struggles between different social classes within society. This conflict, known as class struggle, occurs due to differences in economic and political interests.\n\nMarxism posits that the means of production—resources such as land, labor, and tools used to create goods—are controlled by a small group of people called the bourgeoisie (capitalist class). In contrast, the proletariat (working class) provides their labor to produce these goods but does not collectively own or control the means necessary for their creation. This unequal distribution results in an inherent antagonism between these two classes.\n\nThe ultimate goal of Marxism is for socialism or communism—a classless society where everyone has equal access to resources—to replace capitalism through revolution led by the working class. The theory also emphasizes issues like exploitation, unfair wages and labor conditions experienced by workers under capitalism.\n\nFundamentally rooted in economics and material conditions rather than spiritual beliefs or individual moralities; Marxism stresses on analyzing reality through a scientifically-based approach called dialectical materialism which studies how changes manifest themselves over time due factors like productive forces at play with social relations resisting change causing strain leading up eventual rupture transforming into new forms overtime persisting this cycle might be solved possibly knowing all required information understanding one another could discover options avoiding consequences associated experience without necessarily agreeing agree upon solving problems concerning past events done differently future occurrences involved understanding other perspectives present solutions resource distribution will result differing ways needs desires achieved lessening prevalence experiencing benefits equity-society well provide situations individuals find fulfilling participate fully contribute positively overall growth address issue inequality depletion limited remaining accessible worldwide thus decreasing potential common misconceptions considering extreme ideologies demanding revolutionary reform dismantled instantaneously replaced functioning model offering achievable gradual transitions various aspects emphasized ensuring gradual sustainable transformations"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
