@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zo5HcTX6We4QLloBeNiXO9kPDYf4",
+  "object": "chat.completion",
+  "created": 1680188551,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "'To each his own' is an idiomatic expression that suggests everyone has their own opinions, preferences, or tastes. It implies that we should allow people to have their individual likes and dislikes without judgment as everyone's perspective and preferences differ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
