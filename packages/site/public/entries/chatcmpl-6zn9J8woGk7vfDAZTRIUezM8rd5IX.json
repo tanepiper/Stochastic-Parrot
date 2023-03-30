@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zn9J8woGk7vfDAZTRIUezM8rd5IX",
+  "object": "chat.completion",
+  "created": 1680184957,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 139,
+    "total_tokens": 146
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no specific age at which a person becomes old. It is often considered relative to the individual and their personal experiences, perception of self, and what society deems as old.\n\nIn general terms, people over the age of 65 are considered elderly or senior citizens in many countries because this is typically the retirement age for workers. However, it's essential not to stereotype all individuals within a particular age bracket; different factors contribute to an individual's experience and perception of aging.\n\nOverall, it depends on your perspective – some people may view themselves as \"old\" when they reach a certain milestone (i.e., turning 50), while others continue to feel young well into their advanced years."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
