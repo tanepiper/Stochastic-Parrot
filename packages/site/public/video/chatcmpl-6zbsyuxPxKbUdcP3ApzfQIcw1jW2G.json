@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zbsyuxPxKbUdcP3ApzfQIcw1jW2G",
+  "object": "chat.completion",
+  "created": 1680141660,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 143,
+    "total_tokens": 238
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some quirky and fun facts to lighten up your day!\",\n  \"body\": [\n    \"Flamingos turn pink due to their love for romantic comedies.\",\n    \"Cats secretly have a sixth sense that tells them when you're in a hurry so they can be more needy.\",\n    \"\\\"Funky Duck\\\" was once the official title of an Egyptian pharaoh's pet sheep.\",\n    \"The first Wi-Fi hotspot on Mars has been installed but only rovers know the password.\",\n    \"Squirrels win every major nut eating competition by mistake.\"\n  ],\n  \"hashtag\": \"#FunFacts #NonSequitur #QuirkyTrivia\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
