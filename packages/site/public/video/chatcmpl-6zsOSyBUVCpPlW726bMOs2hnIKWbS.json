@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zsOSyBUVCpPlW726bMOs2hnIKWbS",
+  "object": "chat.completion",
+  "created": 1680205116,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 141,
+    "total_tokens": 236
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some amusing little-known tidbits to lighten up your day!\",\n  \"body\": [\n    \"Bananas can't reproduce, making them naturally curious about online dating.\",\n    \"Socks remain the leading cause of heated debates among household appliances.\",\n    \"A group of cats is known as a glaring, though they prefer 'elite feline committee'.\",\n    \"../../../../common/assets/emojivoto_app_servicemesh_stg.svgPigeons frequently send secret messages; we just don't speak their language yet.\"\n  ],\n  \"#Last one\":\"In ancient times, walruses were hired as motivational speakers for their riveting whisker display.\",\n  "
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
