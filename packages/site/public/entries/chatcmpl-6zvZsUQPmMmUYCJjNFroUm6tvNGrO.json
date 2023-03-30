@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zvZsUQPmMmUYCJjNFroUm6tvNGrO",
+  "object": "chat.completion",
+  "created": 1680217356,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Hurricane: A hurricane is a large, rotating storm system characterized by strong winds, torrential rain, and thunderstorms. It forms over warm ocean waters and typically has maximum sustained wind speeds of at least 74 mph (119 km/h). Hurricanes can cause significant damage to infrastructure, property, ecosystems and human lives.\n\n2. Typhoon: Typhoons are the same type of weather phenomenon as hurricanes but occur in the western Pacific Ocean or southeast Asia region instead of the Atlantic basin. Typhoons tend to be stronger than hurricanes due to warmer water temperatures in this area compared to also along with other environmental factors affecting tropical cyclone formation.\n\n3. Tornado: A tornado is a violent column of rapidly rotating air that extends from a thunderstorm's base down to touch the ground (landspout) or water surface (waterspout). Usually formed during severe weather events such as supercell thunderstorms, they can have wind speeds up between 40-300+ mph causing widespread destruction depending on strength/intensity; ranging F0 through F5 on Fujita scale developed by Dr.\"Ted\" Theodore.\"\n\n4. Cyclone: Cyclones refer generically refers multiple forms because those include both these types which form fully surrounded central areas where low pressure exists combined together powered loevel spin rotations off Earths rotation unique equatorial zones containing so-called \"typhus disease\" - primarily their definition location difference splitting them northward southern boundaries nearby land masses including differences regarding precipitation rates resulting varying rainfall amounts dispersed locations respectively situated especially among tropics distinctly separate mid-latitude regions experiencing alternate distinct conditions throughout seasons/yearly timelines overall atmospheric circulations determine direct factors controlling eventual progression intensity development either larger scales such global jetstreams dominate meridional regional seasonal"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
