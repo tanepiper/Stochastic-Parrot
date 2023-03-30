@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zudTbbG6ajzMISDjmT18HsTrfEDA",
+  "object": "chat.completion",
+  "created": 1680213735,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 252,
+    "total_tokens": 259
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A meme is typically an image, video, text or a combination of these elements that get shared and spread rapidly through online social media platforms. Memes are often humorous in nature and aim to convey popular cultural symbols or references. They also tend to evolve over time as people share them with others and adapt the original content for new context.\n\nThe word \"meme\" was first used by Richard Dawkins in his 1976 book \"The Selfish Gene.\" Dawkins coined the term specifically to describe how an idea may spread from person to person within a culture, much like genes do biologically. In the context of the internet age, memes have come to represent digital content that gets widely shared on various channels – such as forums, social networks or messaging apps – sometimes being altered along the way as users put their unique spin on it.\n\nMemes originally began spreading through email chains among groups of friends but became even more popular with creation of sites like eBaum's World during early 2000s followed later by Reddit has been instrumental expanding reach further still-large part-contributing explosion global phenomenon we know it today! Overall language traditions surrounding characterize virality Internet usage comedic expression common element being currency humor wit current events referenced lead popularity success particular piece present such context"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
