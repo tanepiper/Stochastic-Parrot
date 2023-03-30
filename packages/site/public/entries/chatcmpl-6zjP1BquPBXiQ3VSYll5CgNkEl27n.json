@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zjP1BquPBXiQ3VSYll5CgNkEl27n",
+  "object": "chat.completion",
+  "created": 1680170555,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 11,
+    "total_tokens": 18
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Alexa, please turn on the living room light."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
