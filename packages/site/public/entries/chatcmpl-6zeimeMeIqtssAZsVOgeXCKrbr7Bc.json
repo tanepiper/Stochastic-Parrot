@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zeimeMeIqtssAZsVOgeXCKrbr7Bc",
+  "object": "chat.completion",
+  "created": 1680152560,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 87,
+    "total_tokens": 94
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Georgetown is located in Washington, D.C., the capital city of the United States. It is a historic neighborhood situated on the banks of the Potomac River and was established in 1751 before being incorporated into Washington, D.C. in 1871. Georgetown University, one of the country's oldest educational institutions, can be found here as well as many shops, restaurants, and beautiful homes dating back to colonial times."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
