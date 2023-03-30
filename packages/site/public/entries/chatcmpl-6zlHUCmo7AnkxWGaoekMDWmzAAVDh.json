@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zlHUCmo7AnkxWGaoekMDWmzAAVDh",
+  "object": "chat.completion",
+  "created": 1680177776,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 93,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "El nombre del país más grande en América Latina es Brasil. Con aproximadamente 8,5 millones de kilómetros cuadrados, no solo es el país más grande en la región sino también ocupa una gran parte de América del Sur. Además, Brasil se destaca como la quinta nación más grande del mundo en términos de superficie terrestre y tiene una población estimada de alrededor de 213 millones."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
