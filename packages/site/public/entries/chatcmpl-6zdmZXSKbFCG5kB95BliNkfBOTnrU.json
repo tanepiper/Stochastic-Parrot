@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zdmZXSKbFCG5kB95BliNkfBOTnrU",
+  "object": "chat.completion",
+  "created": 1680148951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 291,
+    "total_tokens": 298
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Currently, a handful of VR platforms and apps for language learning exist. Here are some popular ones:\n\n1. Mondly: Offering over 30 different languages, Mondly uses virtual reality technology to create scenarios where you can practice speaking with native speakers in realistic environments.\n\n2. ImmerseMe: With over 3,000 interactive video clips from real-life locations across Europe and Asia, users can learn up to nine languages by practicing their linguistic skills in immersive situations.\n\n3. Unimersiv: Although primarily focused on educational experiences beyond language learning only, Unimersiv offers several experiences that introduce learners to new languages, such as exploring the Acropolis while listening to Greek history narrated in Ancient Greek or interacting with Spanish-speaking locals through various scenarios within the app.\n\n4. VRLanguage: This platform allows users to learn French via an immersive environment set in France itself. Students can navigate around streets and interact with people within these scenes using the target language.\n\n5. FluentWorlds: Available for English learners only at this time – FluentWorlds pairs users together so they can practice conversational English amongst peers who are also students of the platform while immersed in diverse environments like parks and shopping centers.\n\n6. INLINGOgames – Language Learning Quest VR (Journey): A visually impressive journey intended for beginners just starting out on their language-learning adventure– offering gameplay-based exercises geared towards basic vocabulary acquisition pertaining to Chinese(Mandarin), French & more!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
