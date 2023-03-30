@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6za5xkuXUcF5ly84pi5pzdDAtGexM",
+  "object": "chat.completion",
+  "created": 1680134777,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 78,
+    "total_tokens": 85
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My, my! How the turntables... This phrase is a humorous misquote of the idiom \"how the tables have turned.\" It plays with the idea that someone might misunderstand or scramble commonly used phrases. In this case, it suggests an unexpected reversal of circumstances or a change in power dynamics between people.\n\nThe correct phrase should be: My, my! How the tables have turned..."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
