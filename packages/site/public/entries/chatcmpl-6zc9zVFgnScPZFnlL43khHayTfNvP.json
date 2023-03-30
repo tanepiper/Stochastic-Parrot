@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zc9zVFgnScPZFnlL43khHayTfNvP",
+  "object": "chat.completion",
+  "created": 1680142715,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 133,
+    "total_tokens": 140
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To calculate the weight of an object, you need to know its mass and the acceleration due to gravity.\n\nWeight (W) = mass (m) x acceleration due to gravity (g)\n\nUsually, the acceleration due to gravity is approximately 9.81 m/s² on Earth's surface.\n\nSo in this case:\n\nLet's say that the wine bottle has a mass of 1 kilogram.\n\nWeight = 1 kg * 9.81 m/s²\nWeight ≈ 9.81 Newtons\n\nTherefore, if we assume that the wine bottle weighs approximately one kilogram on Earth, its weight would be about 9.81 Newtons."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
