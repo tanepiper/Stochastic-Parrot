@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zslWLYuNBug1JmquiqDWmPd7S2KU",
+  "object": "chat.completion",
+  "created": 1680206546,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 253,
+    "total_tokens": 260
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several factors that determine cooking time for chicken breasts, including:\n\n1. Size and thickness: Larger or thicker pieces of chicken will take longer to cook through than smaller or thinner ones. Make sure to cut your chicken into uniformly sized pieces for even cooking.\n\n2. Cooking method: Different methods have different timing requirements, such as grilling vs baking in the oven vs stovetop frying pan.\n\n3. Temperature: Cook your chicken over a medium-high heat (around 375°F/190°C) to ensure it cooks thoroughly without drying out too much externally before fully cooked internally.\n\nAs a general guideline, boneless skinless chicken breasts typically achieve an internal temperature of 165°F/74°C after about:\n\n- Grilling on medium-high heat (375°F): 6–7 minutes per side\n- Baking in an oven at 375°F: 20–25 minutes\n- Pan-searing on medium-high heat on the stovetop: 6–8 minutes per side\n\nAlways make sure to check the thickest part's internal temperature with a food thermometer for doneness. It should reach at least 165°F/74°C minimum, according to USDA guidelines, any juices should be clear rather red/pink when cutting.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
