@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zkKyejYxZJpIBomNAvzqvEYdRzBU",
+  "object": "chat.completion",
+  "created": 1680174148,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Monotonic reasoning is a type of logical reasoning where drawing a conclusion from a given set of information remains consistent and unchanged when new information is added. This means that once an inference or conclusion is made, no additional data can lead to the retraction or modification of the original statement. In other words, monotonic reasoning follows the principle \"once valid, always valid.\"\n\nNon-monotonic reasoning, on the other hand, allows for conclusions derived from certain premises to be invalidated or modified due to acquisition of new knowledge or addition of new possible conditions. In non-monotonic logic systems, we accept that some facts may have exceptions and that there might be changes in our knowledge base which could impact our previous conclusions.\n\nFor example:\n\n1) Monotonic Reasoning:\nPremise 1: All birds can fly.\nPremise 2: A sparrow is a bird.\nConclusion: A sparrow can fly.\n\nIn this case (under monotonic logic), even if we learn that there are birds like penguins who cannot fly, it doesn't change our initial conclusion about sparrows being able to fly.\n\n2) Non-Monotonic Reasoning:\nInitial Knowledge Base: Mark usually goes for a run every day.\nConclusion based on this knowledge base : We expect Mark will go for a run today.\n\nNow let's add more information into our knowledge base:\nNew Information: Mark has sprained his ankle today.\nUpdated Conclusion with New Information: We do not expect Mark will go for a run today because he has injured his ankle\n\nIn non-monotic reasoning system updating your beliefs as you gain more relevant and accurate information helps in making better judgments- thus allowing greater flexbility than monotonic reasoninig approach; However it requires much"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
