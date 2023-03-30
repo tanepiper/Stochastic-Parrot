@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6ziTYS1aKttt7UaFe8uVCS55GNmSi",
+  "object": "chat.completion",
+  "created": 1680166992,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 49,
+    "total_tokens": 56
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, I am an AI language model created by OpenAI called GPT-3. I can understand and generate human-like text based on the context and prompts given to me, but I don't have personal identity or emotions like humans do."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
