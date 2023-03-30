@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zgakWCdtC1sxboII7pYGigijiKxv",
+  "object": "chat.completion",
+  "created": 1680159750,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 174,
+    "total_tokens": 181
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"book desert\" refers to a geographic area, usually within a city or town, where there are few to no options for people to gain access and purchase books. This can be due primarily to the lack of bookstores or libraries in that specific location.\n\nBook deserts can lead to unequal educational opportunities among people living in these areas compared to those who have easy access to reading materials. The negative impact of book deserts is often seen in low-income communities where there might not be enough resources or infrastructure available for adequate access and purchasing power of literature.\n\nIn efforts to combat this issue, organizations like Little Free Library have been creating small street-side boxes where neighbors can leave their pre-owned books and borrow others' books for free. Additionally, some public libraries deploy mobile services such as library buses with rotating collections designed specifically for neighborhoods lacking brick-and-mortar library branches."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
