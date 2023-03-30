@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zbOpBPCmLIa1DbryTlYwW47D2R3N",
+  "object": "chat.completion",
+  "created": 1680139791,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 299,
+    "total_tokens": 306
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some signs that a person is aggravated or annoyed include:\n\n1. Facial expressions: A furrowed brow, clenched jaw, or eye-rolling can indicate that someone is irritated.\n\n2. Body language: Crossing the arms, tapping fingers or feet, and clenching fists are common physical signs of annoyance.\n\n3. Tone of voice: An irritable tone may be short, tense, loud, or high-pitched.\n\n4. Sarcasm: Sarcasm can sometimes express frustration when used excessively in conversation.\n\n5. Curt responses: Brief replies to questions like \"Fine,\" \"Whatever,\" or \"I don't care\" might signal aggravation.\n\n6. Avoidance behavior: Steering clear of someone they are annoyed with by physically distancing themselves from them could manifest irritation.\n\n7. Interrupting conversations/showing impatience: Talking over people during discussions shows that somebody may be frustrated with something they said.\n\n8.' Huffs' and 'sighs': Audibly puffing out breath signals discontentment without speaking directly about their source of annoyance,\n\n9. Negative verbal behaviors – Restating problems without offering solutions indicates dissatisfaction while refraining from direct confrontation.,\n\n10 Silence/unresponsiveness – Uninterested expressions paired with silence could suggest one-half disappointment because they will not participate further without sharing any thoughts on an issue being discussed]\n\nBeing aware Of these signs will help improve your emotional intelligence (EQ) & responding accordingly ensures adequate personal communication across social situations such as workplace interactions among colleagues]"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
