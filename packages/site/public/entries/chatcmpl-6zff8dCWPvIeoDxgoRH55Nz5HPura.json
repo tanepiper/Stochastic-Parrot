@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zff8dCWPvIeoDxgoRH55Nz5HPura",
+  "object": "chat.completion",
+  "created": 1680156178,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 345,
+    "total_tokens": 352
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The average cost of catering a barbecue can vary greatly depending on factors such as location, the specific caterer, amount and type of food offered, number of guests, and service style (e.g., buffet vs. plated). In general, you can expect to pay anywhere from $10 to $35 per person for BBQ catering.\n\nHere are some cost considerations when planning a BBQ event:\n\n1. Menu Selection: The variety and quality of the dishes served at your barbecue will have an impact on pricing. More elaborate menus with numerous options or specialty items will likely be more expensive than simpler menu offerings.\n\n2. Guest Count: The number of guests attending your event also plays a significant role in determining costs since most caterers price their services based on the size of your party.\n\n3. Location: Catering costs may differ depending on where you live–or where you're hosting the event–and how far the caterer must travel to get there.\n\n4. Service Style: Barbecues that include plated meals served by staff typically require higher staffing levels than self-serve buffets would; this increased staffing need will drive up prices.\n\n5. Additional Items/Services: Depending on what's included in your chosen catering package, additional fees may apply for elements like tables/chairs setup/breakdown or linens rental/decorations.\n\n6. Taxes & Gratuity: Catering bills often include state sales tax (varies by region), but not all include gratuity—so check beforehand if it's included; otherwise tip 15-20% accordingly.\n \nIt is always best to reach out directly to local barbecue caterers near you for accurate quotes based upon your desired menu selections and guest count while considering these other factors too!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
