@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70I2ykXkU1DKVbFkvxnI4Q3rlcdwd",
+  "object": "chat.completion",
+  "created": 1680303728,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 140,
+    "total_tokens": 147
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no exact lifespan of a meme as it varies depending on its popularity, relevance, and the rapidity with which internet culture changes. Some memes can be popular for just a few days or weeks, while others might last several months or even years before fading away from the public eye.\n\nAdditionally, some memes have a cyclical nature that allows them to re-emerge periodically in response to specific events or situations. While many memes do eventually lose their relevance and fade away entirely, there are occasions when they experience renewed interest and enjoy an extended life beyond their original run.\n\nUltimately, the longevity of a meme depends on how much people enjoy it and how often it continues being shared and talked about online."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
