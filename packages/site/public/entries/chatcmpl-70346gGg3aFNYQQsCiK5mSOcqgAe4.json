@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70346gGg3aFNYQQsCiK5mSOcqgAe4",
+  "object": "chat.completion",
+  "created": 1680246138,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 298,
+    "total_tokens": 305
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Age of consent laws are legal guidelines that establish the minimum age at which a person is considered to be legally capable of giving consent to engage in sexual activities. These laws are meant to protect minors from being exploited or coerced into engaging in sexual activity with older individuals, whom they may not have the mental or emotional capacity to fully understand or respond to.\n\nEach country has its own specific age of consent laws, and within some countries like the United States, there might even be varying ages depending on local state legislation. For example:\n\n- In the United States: The federal age of sexual consent is 16 (although it varies between 16-18 years old in different states). However, if one party travels across state lines specifically for having sex with a minor who does not meet their home state's age requirement, they can still potentially face federal charges.\n- In Canada: The age of consent is generally set at 16 but rises up to 18 when an individual is engaged in exploitative relationships where someone has power over them.\n- In Europe: Most countries have an age limit ranging from 14 -16 years old as their basis for consenting relations; however, a few places would increase such limits once factors including authority figures come into play by either lowering/raising those benchmarks accordingly.\n\nIt's important to note these laws are subject-to-change over time alongside society's evolving understanding concerning youth rights & responsibilities plus advancements made towards other countries'/cultures' legislations/awareness programs too!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
