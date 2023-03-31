@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zyd4RJuplkLDxibg6KSbdaHrbs8N",
+  "object": "chat.completion",
+  "created": 1680229086,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Like most screenwriting software, Final Draft includes a variety of features that simplify and streamline the scriptwriting process. Some of these key features include:\n\n1. Industry-standard formatting: Final Draft automatically formats your script to industry standards, making it easy for writers, producers, and directors to read and collaborate on the document.\n\n2. Script templates: The software provides customizable templates for various types of scripts (e.g., film, TV, stageplay) adhering to different formatting guidelines.\n\n3. Character navigator: This feature allows users to track every character’s dialogue throughout their story easily by listing each character's lines with a simple click.\n\n4. Scene navigator: Provides an overview of all scenes in your screenplay - giving you easy access when organizing or revising content.\n\n5. Index cards: With digital index cards available in Final Draft 12, you can outline your story virtually – allowing you to move whole sections around seamlessly within your draft without disturbing others' elements inside each scene.\n\n6. Collaboration tools: Real-time collaboration allows multiple authors/editors simultaneously work together on projects while tracking changes made by everyone involved—a boon when deadlines are tight!\n\n7.Region-specific language support:Easily switch between languages like English (with UK/US dictionaries), Spanish & French so that different members within international teams feel comfortable while writing up reports/documents or creating invoices/scripts that vary based on country requirements\n\n8.Text-to-speech:return Enhanced Text-to-Speech with selectable voices—letting you listen back as your screenplay is read out loud section-by-section even if time limitations preclude full re-reads themselves—an essential aspect which facilitates proofreading/exploratory editing sessions done conveniently from home computing setups where dual-monitor configurations may not prove sufficient during lengthy copy edits/etcetera despite"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
