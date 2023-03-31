@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-704wM9IXBWGdpJmjYQ7U91xQsg16s",
+  "object": "chat.completion",
+  "created": 1680253346,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 241,
+    "total_tokens": 248
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few ways to address an envelope in Canada. Here's one example of how you might do it:\n\n1. Write the recipient's name on the first line.\nExample: Mr. John Doe\n\n2. Write the recipient's street address or post office box number and any apartment, suite, or unit number.\nExample: 123 Main St., Apt #4\n\n3. If applicable, write additional delivery information like rural route or suburban service:\nEg:. RR-5 \n\n4. Next is City/town or village_name+ province abbreviation(or territory) with a space followed by postal code\nEg.: Edmonton AB T6G 1K8 (postal code)\n\nThe complete format would look like this:\n\nMr. John Doe\n123 Main St., Apt #4,\nRR-5,\nEdmonton AB T6G 1K8\n\nA couple of other points to note when addressing an envelope in Canada:\n\n– After writing each line separate them by leaving enough whitespace.\n\n– It is common practice to use capital letters for all of your text.\n\n*Don't forget to include your return address in case there are issues with delivery! This can be placed at upper left corner"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
