@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70GB7wbLoN5mBkGFXJ4ddaIYjlslN",
+  "object": "chat.completion",
+  "created": 1680296545,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 271,
+    "total_tokens": 278
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What does it mean to be an ally of the LGBTQ+ community?\n\nBeing an ally of the LGBTQ+ community means supporting and advocating for the rights, dignity, and well-being of lesbian, gay, bisexual, transgender, queer/questioning (LGBTQ+) individuals. Allies are typically non-LGBTQ+ individuals who actively work to advance awareness about this population's struggles with discrimination and prejudice. An ally uses their privilege to promote equality for all sexual orientations and gender identities.\n\nTo be a competent ally:\n\n1. Educate yourself on LGBTQ+ issues: Learn about different sexual orientations and gender identities as well as historical events that impact the community today.\n\n2. Listen to LGBTQ+ voices: Take time to engage in conversations with people of diverse perspectives within the community without interrupting or offering unsolicited advice.\n\n3. Advocate for inclusive policies: Supporting legal protections against discrimination based on sexual orientation or gender identity is crucial; advocate legislation that progresses toward equal treatment under law.\n\n4. Challenge stereotypes & combat misconceptions: Dispel harmful myths regarding homosexuality or transgender experiences by sharing accurate information within your social circles such as at school or work.\n\n5.Listen openly when others share their stories\n\n6.Create safe spaces where everyone can express themselves freely without fear of judgement\n\n7.Use appropriate language when addressing someone's sexuality/gender identity such as by using preferred names & pronouns"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
