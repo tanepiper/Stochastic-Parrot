@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zwbS1l66WhjGI93NspjKObgnlq6D",
+  "object": "chat.completion",
+  "created": 1680221298,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 57,
+    "total_tokens": 109
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which dessert do you enjoy the most?\",\n  \"answers\": [\n    \"Chocolate lava cake with ice cream\",\n    \"Apple pie with whipped cream\",\n    \"Strawberry cheesecake slice\",\n    \"Lemon meringue tart\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
