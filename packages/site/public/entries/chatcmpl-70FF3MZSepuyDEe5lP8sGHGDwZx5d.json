@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70FF3MZSepuyDEe5lP8sGHGDwZx5d",
+  "object": "chat.completion",
+  "created": 1680292945,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are numerous ways you can help prevent wildfires:\n\n1. Follow local fire restrictions: Be aware of any fire restrictions or bans in the area where you live or plan to visit, and obey them.\n\n2. Practice campfire safety: When camping, use established fire pits or rings and always put your campfire out completely before leaving a site. Avoid having open fires during windy conditions and never leave a campfire unattended.\n\n3. Properly extinguish cigarettes: If you smoke, make sure to dispose of cigarette butts properly by putting them in an ashtray, not throwing them on the ground.\n\n4. Safely use equipment that might cause sparks: Equipment such as gas-powered lawn mowers, chainsaws or off-road vehicles could produce sparks that ignite nearby vegetation— so exercise caution while using these devices.\n\n5. Create defensible space around homes: Keep highly flammable plants and other items (like leaves) away from your home's exterior walls to create a buffer zone between your house and potential wildfires.\n\n6. Maintain property responsibly: Regularly clear dead vegetation (e.g., brush, grass clippings), trim trees near structures and keep debris away from decks/patios/fences/etc.\n\n7.Carefully manage backyard fires : Use appropriate burning containers like metal fire pits with lids/embers screens if applicable in order to reduce flying embers starting fires elsewhere; also check for burn permits specific restrictions/regulations/rules applying within community/local area regarding agricultural burns/yards waste burns/fire pit usage/cooking grills etcetera-then follow those guidelines strictly at all times during external cooking/recreation activities involving flames/open combustion process’.\n\n8.Report suspicious behavior/actions/events potentially contributing wildfire ignition/sources immediately upon observation via contacting pertinent authorities/emergency"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
