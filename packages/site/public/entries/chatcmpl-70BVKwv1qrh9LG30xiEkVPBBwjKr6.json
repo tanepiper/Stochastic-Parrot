@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70BVKwv1qrh9LG30xiEkVPBBwjKr6",
+  "object": "chat.completion",
+  "created": 1680278578,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 345,
+    "total_tokens": 352
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Maldives may not be a suitable place for everyone to live, but it is an incredibly beautiful and unique country that attracts many tourists every year. Here are some reasons someone might want or not want to live in the Maldives:\n\nReasons one might want to live in the Maldives:\n1. Gorgeous natural surroundings: The Maldives has stunning white sand beaches, crystal-clear turquoise waters, and abundant marine life, including world-renowned diving spots with coral reefs teeming with fish. For those who love spending time at the beach or enjoy water sports such as snorkeling and scuba diving, this might be paradise on earth.\n2. Warm climate: The climate of the Maldives is tropical with high temperatures throughout the year (averaging around 30°C/86°F) and periods of rain during monsoon seasons.\n3. A peaceful environment: The majority of inhabited islands have small populations giving you space away from urban noise & pollution.\n\nReasons one might not want to live in the Maldives:\n1.Environmental concerns: Due to rising sea levels from climate change many surrounding Islands have slowly started disappearing by being submerged underwater threatening its existence\n2.Economic stability & employment opportunities: Many economic resources depend upon tourism-related industries leaving limited job options for foreign residents outside hospitality resulting in your future prospects constrained\n3.Cultural differences:Limited entertainment options reflect conservative local Islamic customs making adaptation difficult for people from Western countries.Persistent foreigners are required to follow these customs religiously \n4.Infrasturcutre - Some outlying islands lack advanced infrastructure(rotting hospitals offering basic amenities) leading lower expectations standards when it comes down health care & eduational system.However if you stay main capital region Male then shouldn't be issue"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
