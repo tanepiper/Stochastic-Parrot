@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zwZl3qxNdapnJr9OAqYCCzmkdAbG",
+  "object": "chat.completion",
+  "created": 1680221193,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 289,
+    "total_tokens": 296
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The pros of gory movies include:\n\n1. Catharsis: Gory movies can provide a sense of catharsis for viewers who enjoy the thrill and excitement of graphic content. These films may help relieve stress or tension in some people.\n\n2. Adrenaline rush: The shocking visuals and intense action sequences can evoke a strong adrenaline response, making the movie more engaging and exciting to watch for certain audiences.\n\n3. Pushing boundaries: Gory movies often push the limits of what is acceptable on screen and challenge societal norms, which can be thought-provoking for cinephiles and inspire debate among viewers.\n\n4. Elevated creativity: To create gruesome scenes effectively, filmmakers need to think outside the box when it comes to special effects, makeup, and storytelling techniques. This results in elevated levels of creativity within these types of films.\n\n5. Expanding horror subgenres: Within the broader category of horror cinema, gory films represent a specific subgenre that caters to distinct tastes in film aesthetics or subject matter preferences.\n\n6. Cult appeal: Many gory movies develop a cult following due to their memorable characters (e.g., Freddy Krueger), unique storylines (e.g., Saw series), or extreme visual elements (e.g., Hostel). Fans find solace in connecting with others who share their interests in this niche genre.\n\n\nThe cons ******/\n\nSome potential cons associated with gory movies are:\n\n1.Servlet disruption_OscInitStruct"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
