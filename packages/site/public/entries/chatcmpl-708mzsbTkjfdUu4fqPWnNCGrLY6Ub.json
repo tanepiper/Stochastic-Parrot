@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-708mzsbTkjfdUu4fqPWnNCGrLY6Ub",
+  "object": "chat.completion",
+  "created": 1680268141,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 50,
+    "total_tokens": 57
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Thank you for your feedback, and I'm sorry if my response was not up to your satisfaction. If you could please clarify or provide more context about what kind of information or assistance you need, I would be glad to help with a better answer."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
