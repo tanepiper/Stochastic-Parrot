@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70AYdnDrCnJDFUDZygUsrcmk0HILN",
+  "object": "chat.completion",
+  "created": 1680274939,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 256,
+    "total_tokens": 263
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In Hinduism, time is considered to be cyclical rather than linear. It revolves around four primary eras or Yugas that make up one complete cycle of existence. These four Yugas are:\n\n1. Satya ('Golden Age') Yuga: This is the age of truth and righteousness. In this era, humans and gods live in peace and harmony, with spirituality at its peak during this period. People live long lives (some accounts suggest a human lifespan was 100,000 years) and benevolence prevails across society.\n\n2. Treta ('Silver Age') Yuga: As time progresses from the Golden Age, people start deviating from ethical principles leading to a gradual decline in morality and spiritual values. Humans experience increased desires while still possessing good qualities like kindness and empathy.\n\n3. Dvapara ('Bronze Age') Yuga: The world further deteriorates as immorality grows stronger compared to virtue throughout this age; however, virtues continue their struggle against vices until they restore balance through self-reformation efforts.\n\n4.Form Kali('Dark/Iron')Yugalpan- Focused on final stages where evident degradation occurs making full spectrum societal collapse imminent due within cosmic timeline aspects involving less-than-perfect enlightened civilization shifts it's attitude accordingly"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
