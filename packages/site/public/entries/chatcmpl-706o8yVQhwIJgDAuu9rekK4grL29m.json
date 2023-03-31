@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-706o8yVQhwIJgDAuu9rekK4grL29m",
+  "object": "chat.completion",
+  "created": 1680260524,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The different types of music festivals are:\n\n1. Rock and Alternative Festivals - These festivals typically feature a lineup of rock, alternative, indie, and punk bands. Some examples include Bonnaroo in the USA, Reading and Leeds Festival in the UK.\n\n2. Electronic Dance Music (EDM) Festivals - As the name suggests, these festivals focus on electronic dance music genres such as techno, house, trance, and drum & bass. Notable EDM festivals include Tomorrowland in Belgium or Electric Daisy Carnival (EDC) in Las Vegas.\n\n3. Pop Music Festivals - Pop music-focused events attracting mainstream artists representing diverse musical styles within pop culture can be found across various pop music festivals like Lollapalooza in Chicago or Jingle Ball in multiple US cities.\n\n4. Jazz & Blues Festivals - Celebrating jazz's rich heritage and bluesy undertones through live performances with incredible improvisations by skilled musicians who come together at fests like Montreal International Jazz Festival(Canada) or New Orleans Jazz & Heritage Festival(USA).\n\n5. Folk & World Music Festivals - Dive into traditional folk tunes from around the globe while experiencing various regional styles during world-music-centric celebrations such as The Cambridge Folk Festival(UK), WOMAD (Worldwide), Førde Traditional And World Music(Førdefestivalen–Norway)\n\n6 Hip-hop&RapBattles-hipHop lovers can catch their favorite rapartists&Bboys breakdancing across hip-hop&rap battles featured at major urban fests like Rolling Loud(Miami), Wireless(London)&SXSW(Austin). \n\n7.ClassicalMusicFestitals-cateringtothe needs of classicalmusicenthusiasts.Classicalevents.Spoleto festival(It"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
