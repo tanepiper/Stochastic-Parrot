@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70DN761nJtNbhYl1hmadYPkkZXfzf",
+  "object": "chat.completion",
+  "created": 1680285757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 49,
+    "total_tokens": 56
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As a language model AI, I don't have personal preferences or the ability to play games. However, I can help you learn about different games, their rules and strategies. Please let me know which game you'd like to learn more about!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
