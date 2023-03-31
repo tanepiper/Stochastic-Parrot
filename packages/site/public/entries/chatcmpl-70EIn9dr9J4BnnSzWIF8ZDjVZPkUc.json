@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70EIn9dr9J4BnnSzWIF8ZDjVZPkUc",
+  "object": "chat.completion",
+  "created": 1680289333,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The top luxury hotel brands in the world are:\n\n1. Four Seasons Hotels and Resorts: Known for its exceptional service, opulence, and sophistication.\n\n2. Aman Resorts: Offers high-end boutique hotels with distinctive architecture, cultural experiences, and a focus on individualized care.\n\n3. Rosewood Hotels & Resorts: Features uniquely-designed accommodations that blend local culture with contemporary design elements.\n\n4. Mandarin Oriental Hotel Group: Prestigious global chain renowned for their exotic locations, fine dining options, spa services as well as impeccable hospitality displayed by professional staff members.\n\n5. The Ritz-Carlton: World-famous lavish setting coupled with stellar customer service guarantees an experience of pure indulgence combined with elegance throughout their stay within this prestigious brand's properties present worldwide\n\n6. St Regis Hotels & Resorts: Upscale accommodation selections that are renowned for classic style prevalent throughout each property paired effortlessly alongside attentive services embodying a refined standard of living suitable discerning travelers alike \n\n7 Belmond (formerly Orient-Express): Distinguished collection of characters encapsulating historic hotels alongside travel experiences varying from safaris train journeys river cruises offer unforgettable moments creating ultimate escapes guests every time embark upon adventure together once more towards yet another captivating destination awaiting exploration across globe wherever they may reside themselves along those lines too much further than just one luxurious voyage shall suffice perhaps even exceed expectations imaginable beforehand during prior planning processes conducted therewith later delight discovery afterwards after having completed another unforgettable journey away holiday vacation tailor-made possibilities available choices globally here onwards beyond reach previously travels departure preferences entirely up personal interpretations requirements inputs satisfaction desires suitabilities solely accordingly whatever nature trip intends include event catering presentation actual fulfillment arrangements itself provided delivered catered serviced offered supplied proposed anticipated managed budget determined discretion accordance resources utilized based necessity limits required said"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
