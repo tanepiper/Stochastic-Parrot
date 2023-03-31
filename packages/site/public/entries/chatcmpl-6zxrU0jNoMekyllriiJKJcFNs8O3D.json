@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6zxrU0jNoMekyllriiJKJcFNs8O3D",
+  "object": "chat.completion",
+  "created": 1680226136,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 301,
+    "total_tokens": 308
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Blues is a music genre that originated in the deep south of the United States around the 1870s. It has its roots in African musical traditions, African-American work songs, and spirituals. The genre typically features blue notes and incorporates call-and-response patterns as well as repetitive lyrics.\n\nBlues began to spread throughout the rural South by blues musicians traveling or migrating from town to town. In these early days, this type of music often accompanied various forms for entertainment like dances or parties.\n\nDuring the Great Migration (1916-1970), many black Americans moved up North looking for better job opportunities and social conditions during which their culture influenced local communities they relocated into including places like Chicago - thus began famous sub-genre \"Chicago Blues\".\n\nCharacteristics:\n1. Distinctive rhythm: The typical blues rhythm includes a repeating twelve-bar chord progression.\n2. Blue notes: These are flatted thirds, fifths, and sevenths used in the melodic structure.\n3. Call-and-response pattern: This vocal pattern involves a soloist singing one line followed by others responding with another line.\n4. Repetitive lyrics: Verses mainly consist of three lines; two identical first lines act as call and response, while third acts as an emotional resolution.\n5. Subject matter typically revolves around personal lamentations about hardships endured or lost love; however more light-hearted themes exist too (known as Jump Blues).\n\nSome legendary artists include Bessie Smith, Robert Johnson, Muddy Waters & BB King"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
