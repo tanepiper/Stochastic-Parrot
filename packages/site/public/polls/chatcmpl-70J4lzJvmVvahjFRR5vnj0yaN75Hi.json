@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70J4lzJvmVvahjFRR5vnj0yaN75Hi",
+  "object": "chat.completion",
+  "created": 1680307683,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 69,
+    "total_tokens": 121
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these animals would you rather have as a pet?\",\n  \"answers\": [\n    \"A mini elephant the size of a dog\",\n    \"A talking parrot that speaks five languages\",\n    \"A tiny dragon that can turn invisible\",\n    \"_An adorable koala bear with puppy eyes\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
