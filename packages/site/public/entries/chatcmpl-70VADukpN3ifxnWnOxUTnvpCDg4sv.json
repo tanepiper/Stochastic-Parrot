@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70VADukpN3ifxnWnOxUTnvpCDg4sv",
+  "object": "chat.completion",
+  "created": 1680354149,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to Be Cool:\n\n1. Be confident: Confidence is key when it comes to being cool. Believe in yourself, and others will be drawn to your positive energy.\n\n2. Develop a personal sense of style: This can include fashion, grooming, or general appearance – just find what makes you feel comfortable and expresses who you are.\n\n3. Stay true to yourself: Authenticity goes hand-in-hand with confidence. Don't try too hard or change who you are just for the sake of fitting in; people generally prefer someone genuine over someone fake.\n\n4. Listen more than you talk: People appreciate good listeners, so be sure not only to hear but also understand what others are saying mentally before responding thoughtfully instead of dominating conversations by talking nonstop endlessly about oneself constantly.\n\n5. Be open-minded: Being willing and able embrace new ideas from various perspectives shows empathy respects all aspects - making whoever encounters this trait attracted towards it as well because they know that such individual won't judge them harshly without understanding first fully its essence meaning concept notion principle idea expression message nuance tone mood spirit attitude atmosphere aura energy feeling vibration emotion sensation realization awareness imagination perception comprehension grasp insight vision wisdom approach viewpoint standpoint philosophy interpretation mental scan\n\n6. Show respect and kindness to others: Treat everyone with dignity regardless status hierarchy social position cultural background keeping mind golden rule basically means treating some way would want help support compassion love appreciation gratitude admiration respect acknowledgment recognition acceptance tolerance patience flexibility generosity assistance service devotion dedication commitment loyalty trustworthiness reliability responsibility accountability pledge allegiance agreement contract promise undertaking guarantee vow assurance affirmation confirmation confession disclosure exposure announcement proclamation declaration statement utterance comment opinion remark response reply answer feedback reaction rejoinder retort return comeback backtalk riposte counterclaim countersuit debate discussion mediation arbitration negotiation compromise settlement reconciliation"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
