@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70eWYs7rRQ6BxEjCS1K09BgOsD7Im",
+  "object": "chat.completion",
+  "created": 1680390130,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 317,
+    "total_tokens": 324
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Over time, various countries and territories have used different methods to calculate age. Age calculation in some countries of Asia is done using the lunar or solar calendars, while most Western countries follow the Gregorian calendar system.\n\nHere are a few examples:\n\n1. Korea: Koreans calculate their age differently from Western cultures. At birth, a baby is considered as one-year-old because they count the months spent in their mother's womb (about nine months) as part of their first year. Additionally, everybody turns a year older on January 1st instead of celebrating individual birthdays.\n\n2. China: Traditionally, Chinese also followed a similar method where individuals were considered to be one-year old at birth and turned an additional year older at New Year celebrations based on Lunar calendar rather than following actual date of births.\n\n3.Japan: Before World War II Japan followed traditional East Asian way by turning everyone a new age during New Year celebrations using Lunar Calendar but later adapted western style starting with April 1949 due law governing its implementation passed in December 10th 1896\n\n4.Western culture: Most western cultures use the Gregorian calendar which celebrates birthday every anniversary completes around sun known commonly know as birthday celebration irrespective when it falls per Annum period keeping each person's clock unique only updating once every orbit+pass through intial sun angle post conception assumed arbitrarily to be certain exact time\n\nIn conclusion difference account for not just changeable astronomical periodical types of celestial tracking systems i.e., Solar vs Luna etc but historically adaptable fashions country vise constitutions too accountably complicating it"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
