@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70L4Nc9MXajVCSxS95VKH0ktfpp1u",
+  "object": "chat.completion",
+  "created": 1680315347,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 30,
+    "total_tokens": 37
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, that was an error on my part. Please ask your question again and I'll do my best to provide you with a helpful answer."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
