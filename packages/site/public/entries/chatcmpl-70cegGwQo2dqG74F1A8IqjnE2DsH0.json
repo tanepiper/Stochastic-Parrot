@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70cegGwQo2dqG74F1A8IqjnE2DsH0",
+  "object": "chat.completion",
+  "created": 1680382946,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 240,
+    "total_tokens": 247
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is highly recommended that pets receive their flea, tick, and heartworm prevention treatments every month. Skipping even just one month can leave your pet vulnerable to these parasites and the potentially serious health problems they cause.\n\nFleas can lead to severe itching, skin irritation, hair loss and infections in pets. They can also transmit tapeworms if accidentally ingested by the pet while grooming.\n\nTicks carry a variety of diseases like Lyme disease, Rocky Mountain spotted fever, and Ehrlichiosis that can be transmitted through their bite. Ticks tend to attach themselves to areas such as ears or between toes where it may be difficult for your pet to reach.\n\nHeartworms are parasites transmitted through mosquito bites which infect your pet's bloodstream and eventually develop into adult worms residing in their heart chambers \u0013 causing damage to the heart muscle itself along with blood vessels leading up-to the area; this threatens organ function overall thus resulting significant illness possibly death if not treated early on time-wise! \n\nIn conclusion - staying consistent each month by providing preventative care measures protects against common infestations will give peace-of-mind knowing furry family members stay healthy & ultimately contribute positively towards longevity within lives lived side-by-side!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
