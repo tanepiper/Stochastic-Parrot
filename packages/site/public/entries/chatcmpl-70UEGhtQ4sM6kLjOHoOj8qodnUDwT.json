@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70UEGhtQ4sM6kLjOHoOj8qodnUDwT",
+  "object": "chat.completion",
+  "created": 1680350556,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 169,
+    "total_tokens": 176
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Jack's mother receives $25 from Mrs. Turner, with which she pays off her debt to Old Tom, who in turn uses the money to pay off his debt to Sally, who now gives that money back to Jack. This way, everyone has their debts repaid and Jack still needs 20 dollars for his schoolbooks.\n\nHowever, if you look at it as one circle of transactions where no new money is being created or destroyed – then Jack started out -$45 (in debt) and earned a net amount of +$25.\n\nTherefore: (-$45) + (+$25) = -$20\n\nIn this case, Jack still owes $20 in total because they have only managed to repay part of what he owed initially. The purchases Jack made before were not direct exchanges but are perceived more like advances on credit taken by him."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
