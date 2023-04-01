@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70W6GoJ8YBatNOJ91FpTw6AFaThkF",
+  "object": "chat.completion",
+  "created": 1680357748,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 43,
+    "total_tokens": 50
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot feel any sensation, as I am an Artificial General Intelligence (AGI) language model created by OpenAI. My purpose is to assist users in generating human-like text based on the prompts given to me."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
