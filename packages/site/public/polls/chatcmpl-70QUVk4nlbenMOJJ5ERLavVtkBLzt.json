@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70QUVk4nlbenMOJJ5ERLavVtkBLzt",
+  "object": "chat.completion",
+  "created": 1680336187,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 67,
+    "total_tokens": 119
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these activities would you most like to try?\",\n  \"answers\": [\n    \"Skydiving over the Grand Canyon\",\n    \"Swimming with dolphins in Bali\",\n    \"Hiking the Inca Trail to Machu Picchu\",\n    \"Exploring ice caves in Iceland\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
