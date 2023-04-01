@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70JLBS8ob3SJ3kEL2DWyXR3sLvAVh",
+  "object": "chat.completion",
+  "created": 1680308701,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Mekong River, also known as the Lancang River in China, is one of the most important rivers in Southeast Asia. It flows through six countries: China, Myanmar (Burma), Laos, Thailand, Cambodia and Vietnam. The river originates on Tibet’s Plateau and travels a total length of approximately 4,350 km (2,703 miles) before emptying into the South China Sea.\n\nFurthermore:\n\n1. As the world's 12th-longest river and an economic hub for millions of people along its basin - it provides jobs for farmers who rely on rice paddies to make a living; fishers navigating its waters to catch freshwater fish or shrimps; traders ferrying goods between towns.\n \n2. The Mekong supports unique ecosystems with over 850 species of freshwater fish responsible for almost half of Southeast Asian catchment - this biodiversity has led numerous migratory bird populations to reside within its shores.\n\n3. In China's Yunnan province lies a rich cultural history where minority groups such as Dai people utilize parts from nearby rivers like these for custom water festivals which celebrate traditional song performances year-round despite challenges posed by modernization processes today!\n\n4. Its role as an international boundary can be traced back centuries when various empires battled control over landholdings directly accessible using ancient channels dug alongside tributaries rolling off main flowing currents teeming beneath great kings' eyes long ago lost tales born anew every time new heights appear out darkened soils refortifying old root systems united under common objective whilst shifting tides drew greater conflict across unattainable boundaries lying amidst mountainous ranges at first untouched then eroded slowly opening way onward toward untamed wilds populated stories whispered winds fluttering hidden village corners bustling"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
