@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70MjisnkyHsecsYxhn2xGMq2Ynii5",
+  "object": "chat.completion",
+  "created": 1680321754,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 13,
+    "total_tokens": 20
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The number 999 is pronounced as \"nine hundred ninety-nine.\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
