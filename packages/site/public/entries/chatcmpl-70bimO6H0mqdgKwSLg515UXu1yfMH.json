@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70bimO6H0mqdgKwSLg515UXu1yfMH",
+  "object": "chat.completion",
+  "created": 1680379356,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "have a consistent exercise regime incorporating both cardio and strength training exercises. Cardio exercises, such as running, cycling, or swimming, can help strengthen your heart and burn excess fat while also improving your stamina.\n\nStrength training exercises help build muscle mass and endurance that are essential for martial arts. Some examples include bodyweight exercises like push-ups and squats or weight lifting with dumbbells.\n\nFlexibility is crucial in martial arts to minimize the risk of injury and perform techniques effectively. Incorporate stretching into your daily routine; consider taking up yoga or Pilates to improve overall flexibility.\n\nFind a school or gym where you can join martial arts classes relevant to your area of interest, such as karate, taekwondo, Brazilian jiu-jitsu (BJJ), Muay Thai, boxing or other disciplines depending on availability near you. Take beginner classes if you're new to any discipline before moving onto more advanced/specific classes if necessary.\n\nPractice regularly outside the gym/dojo by going through different moves at home which have been taught during lessons in order not only maintain but further develop skills learned along with building confidence within one's self since there will undoubtedly be situations where it would take some time mastering particular movements due simply by repetition alone without receiving guidance directly from an instructor when away practicing them individually without said person overseeing us all times enforcing proper technique/form/etc so we don't pick bad habits overtime unknowingly making sure staying correct execution ensuring maximum efficiency/effectiveness preventing injuries being sustained thru incorrect/improper form/application/etc.; receive feedback critique wherever possible others (preferably experienced) who could provide insights/aspects might've otherwise missed our own benefit/performance betterment whether they visibly notice something done need amending recommendations/suggestions what/how implement changes enhancement/expansion potential"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
