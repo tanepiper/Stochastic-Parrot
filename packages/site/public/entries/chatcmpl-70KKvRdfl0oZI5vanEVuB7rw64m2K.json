@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70KKvRdfl0oZI5vanEVuB7rw64m2K",
+  "object": "chat.completion",
+  "created": 1680312529,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 60,
+    "total_tokens": 67
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The most common and widely used scripting languages are:\n\n1. JavaScript\n2. Python\n3. Ruby\n4. PHP\n5. Lua\n6. Shell Script (Bash, PowerShell)\n7. Perl\n8. TCL (Tool Command Language)\n9. Groovy\n10.Python"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
