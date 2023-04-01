@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70X2AKquF113F6MUGgej5ketdcBeD",
+  "object": "chat.completion",
+  "created": 1680361338,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 343,
+    "total_tokens": 350
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "After decades of tense relations, the United States and Cuba began to normalize their diplomatic relationship in 2014. There are several factors that contributed to this process:\n\n1. Change in leadership: Cuban leader Fidel Castro passed away in November 2016, which provided an opportunity for his brother Raul Castro to take over as president and subsequently introduce various economic reforms. This change in leadership paved the way for improved relations with the U.S.\n\n2. Economic necessity: The collapse of the Soviet Union left Cuba without its main trading partner and source of financial support. In addition, Venezuela's financial problems further eroded one of Cuba's reliable sources of aid within Latin America, making it imperative for the country to reestablish ties with other nations like the U.S.\n\n3. Obama administration policy changes: Under President Barack Obama's administration, there was a major shift towards easing sanctions on Cuba and seeking diplomatic engagement rather than isolation.\n\n4. Domestic politics: The relaxation of travel restrictions made it easier for Cuban Americans to visit their families back home while also allowing politicians such as senators Marco Rubio and Bob Menendez, who were advocates against normalization efforts, lesser influence over conversational shifts concerning these policies\n\n5. Diplomatic concerns: Apart from legacy reasons—both leaders wanted better relations between both countries by ending long-standing animosity—the Vatican played an instrumental role engaging Pope Francis' involvement throughout negotiations until they reached a deal aimed at alleviating tensions worldwide\n\n6.Global reaction/Resources scarcity : Engaging normalized relationships not only benefits domestic citizens but also others across international borders during resource shortages that may impact areas such as food availability or environmental sustainability on continuous effects caused climate changes crisis around earth layers affecting large scales vulnerable populations elsewhere due poverty continuation throughout societies"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
