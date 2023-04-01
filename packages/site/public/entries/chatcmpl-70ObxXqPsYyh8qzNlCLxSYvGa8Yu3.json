@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70ObxXqPsYyh8qzNlCLxSYvGa8Yu3",
+  "object": "chat.completion",
+  "created": 1680328961,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 46,
+    "total_tokens": 53
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Lady Macbeth is a character in William Shakespeare's play, \"Macbeth.\" She is the wife of Macbeth and portrayed as an ambitious, power-hungry woman who manipulates her husband into committing murder to gain power."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
