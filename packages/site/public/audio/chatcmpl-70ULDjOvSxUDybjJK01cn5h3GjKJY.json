@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70ULDjOvSxUDybjJK01cn5h3GjKJY",
+  "object": "chat.completion",
+  "created": 1680350987,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 107,
+    "total_tokens": 114
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Meditation can be practiced at any time during the day or night. However, many people find the early morning to be an ideal time for meditation because it allows them to start their day with a calm and clear mind. Evening can also be a good time for meditation, as it helps unwind and relax after a busy day.\n\nUltimately, the best time for meditation is different for everyone and depends on individual preferences and schedules. The key is to establish a consistent practice that fits into one's daily routine while ensuring minimal distractions or interruptions."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
