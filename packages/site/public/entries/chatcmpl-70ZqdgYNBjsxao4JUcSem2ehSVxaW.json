@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70ZqdgYNBjsxao4JUcSem2ehSVxaW",
+  "object": "chat.completion",
+  "created": 1680372155,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 193,
+    "total_tokens": 200
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "For most people, eating a limited number of cherries daily is not harmful and can actually provide health benefits like fiber, antioxidants, and vitamins. However, if consumed in excessive amounts (more than 50-60 per day), it may lead to some side effects such as:\n\n1. Abdominal discomfort: Cherries contain natural sugar alcohols which might upset your stomach when consumed in large quantities.\n2. Diarrhea: The high fiber content in cherries could cause loose stool or diarrhea if you eat too many at once.\n3. Allergies: Although rare, some individuals might experience allergies after consuming cherries that range from minor rashes to more serious breathing difficulties.\n4. Weight gain: Eating large quantities of any fruit will add extra calories which could lead to weight gain over time.\n\nModeration is key for enjoying the health benefits of cherries without experiencing negative side effects; try sticking to around 20 per day if eaten regularly."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
