@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70OprvYDdy1C4aKiWKPjxjFmrNHTM",
+  "object": "chat.completion",
+  "created": 1680329823,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 10,
+    "completion_tokens": 85,
+    "total_tokens": 95
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "April Fools' Day is an annual custom on April 1st consisting of practical jokes and hoaxes. People play pranks on friends, family members, coworkers, and even strangers. The victims are called \"April fools.\" It is not a public holiday but is widely recognized and celebrated throughout many countries as a day when people play good-humored or funny jokes, hoaxes, and pranks on each other."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
