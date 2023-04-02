@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70qhhIBgq8dMgyFGRab6x67hOK8VT",
+  "object": "chat.completion",
+  "created": 1680436949,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 139,
+    "total_tokens": 146
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, I am a text-based AI and cannot watch movies or recommend them based on my personal experience. However, some highly rated feel-good movies you can consider include:\n\n1. The Shawshank Redemption (1994)\n2. Good Will Hunting (1997)\n3. Amelie (2001)\n4. It's a Wonderful Life (1946)\n5. The Pursuit of Happyness (2006)\n6. Forrest Gump (1994)\n7. Little Miss Sunshine (2006)\n\nAgain, I haven't personally watched these films but they are generally considered as inspiring and heartwarming by many people who have seen them.\n\nEnjoy your movie night!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
