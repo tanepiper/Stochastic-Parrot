@@ -3,10 +3,10 @@
 <div style="margin: 0 auto; text-align: center;">
 <img src="./packages/stochastic-parrot/assets/avatar.png" width="320px" height="320px" alt="The avatar of the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe" />
 
-| [Homepage](https://stochasticparrot.lol/) | [Mastodon](https://mastodon.social/@StochasticEntropy) | [GitHub](https://github.com/tanepiper/Stochastic-Parrot) |
+| [Homepage](https://stochasticparrot.lol/) | [Mastodon](https://botsin.space/@StochasticEntropy) | [GitHub](https://github.com/tanepiper/Stochastic-Parrot) |
 </div>
 
-This is the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe. More simply, it's a [Mastodon Bot](https://mastodon.social/@StochasticEntropy) that uses the [OpenAI ChatGPT4](https://openai.com/product/gpt-4) API with an empty prompt - and simply repeats back the response.
+This is the Stochastic Parrot, a psychedelic cosmic parrot that feeds from the entropy of the universe. More simply, it's a [Mastodon Bot](https://botsin.space/@StochasticEntropy) that uses the [OpenAI ChatGPT4](https://openai.com/product/gpt-4) API with an empty prompt - and simply repeats back the response.
 
 You could say it's repeating back the hallucinations of the language model.
 

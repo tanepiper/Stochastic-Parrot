@@ -80,7 +80,7 @@ function splitToots(messageToToot, withMedia = false, withPoll = false) {
  */
 export function createMastodonClient(
   accessToken,
-  site = 'https://mastodon.social'
+  site = 'https://botsin.space'
 ) {
 
   /**
