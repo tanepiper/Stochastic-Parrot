@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70wJyJo8PuyE73qNwojDHf9OHU9be",
+  "object": "chat.completion",
+  "created": 1680458542,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several reasons why you might feel lightheaded after smoking a cigarette, including:\n\n1. Nicotine: Smoking delivers nicotine to your body, which can cause the blood vessels to constrict or narrow temporarily. This may lead to an increased heart rate and, in some cases, dizziness or lightheadedness.\n\n2. Carbon monoxide: Cigarettes contain carbon monoxide (CO), which competes with oxygen for binding sites on red blood cells. As a result, less oxygen is transported around your body resulting in light-headedness or dizziness.\n\n3. Hyperventilation: Smokers often inhale more deeply and rapidly when smoking compared to normal breathing patterns; this can cause hyperventilation which reduces circulation through the bloodstream leading to dizziness\n\n4. Postural changes: The act of standing up quickly after sitting down for a while may also be contributing factor if you experience light-headedness immediately following cigarette use due dropping blood pressure upon shifting positions- also known as Orthostatic Hypotension\n\n5.Tolerance level:The effects that one experiences from smoking could vary depending on their tolerance level , recent smokers maybe prone experiencing these symptoms more.\n\n6.Smoking triggering other predisposing factors :If one has underlying tendency towards other conditions such anxiety over-thinking etc then there's possibility these sensations increase during process lighting up another stick causing an already stressed system work even harder producing brief but annoying bouts unexpected\nPlease note that continuously feeling dizzy , nauseous would be wise consult doctor as it could indicate potentially serious health problem.\n\nRemember,start working step by step quitting is not impossible what ever decision take make sure choices benefit million times over by choosing hit gym instead perhaps simple walk everyday choose pink bubbly stars above gray clouds allow life"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
