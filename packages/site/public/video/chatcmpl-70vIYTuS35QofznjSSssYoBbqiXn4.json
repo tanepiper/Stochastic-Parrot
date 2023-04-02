@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70vIYTuS35QofznjSSssYoBbqiXn4",
+  "object": "chat.completion",
+  "created": 1680454610,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 147,
+    "total_tokens": 242
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are 5 intriguing facts that might leave you scratching your head and laughing!\",\n  \"body\": [\n    \"Giraffes can't yodel, so they settle for interpretive dance competitions.\",\n    \"Toasters invaded a small town in Kansas; residents now enjoy perfectly browned bread.\",\n    \"Plants secretly gossip on Sundays, sharing gardening tips and discussing the weather.\",\n    \"~95% of statistics are made up; the other ~10% just joined a math rock band.\",\n    \"\\\"Carrots\\\" spelled backward reveals the ancient recipe for x-ray vision.\"\r\n  ],\n  \"_hashtag\": [\"#FunnyFacts\", \"#NonSequitur\", \"#LaughALittle\"]\r\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
