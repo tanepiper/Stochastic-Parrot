@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70fXIflmoJFzfBKBGDrqJ71IU68Dz",
+  "object": "chat.completion",
+  "created": 1680394020,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 290,
+    "total_tokens": 297
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In order to prove that someone is spying on you, consider the following steps:\n\n1. Gather evidence - Look for signs of being spied on, such as finding hidden cameras or microphones, receiving strange messages or phone calls, noticing your belongings have been tampered with or misplaced, and tracking any suspicious devices connected to your network.\n\n2. Keep a log - Document all incidents that indicate you may be under surveillance. Note dates, times, locations, and details about each potential instance of spying.\n\n3. Obtain expert assistance – If possible, involve an experienced private investigator or cybersecurity professional who can help reveal the spy's identity through advanced techniques.\n\n4.Save digital evidence - Save emails, text messages and screenshots showing instances of stalking/spying attempts\n\n6. Be cautious in sharing information – To catch the culprit off-guard it is best not to share too much information on social media platforms about recognizing someone might be spying on you\n\n7.Report it: If your suspicion grows stronger , seeking legal protection like filing restraining orders could become necessary so make sure to report suspicions (espionage incidents)to law enforcement authorities \n\n8.Seek counseling- Spouses involved in situations where they suspect their partner(s) are hacking their device/accounts should seek family/marital counselling especially since experts/doctors would make useful witnesses when/if reporting these allegations a;;ows spouse's claims  credible-especially with regards incriminating/wrong actions did violate-other (victims')rights"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
