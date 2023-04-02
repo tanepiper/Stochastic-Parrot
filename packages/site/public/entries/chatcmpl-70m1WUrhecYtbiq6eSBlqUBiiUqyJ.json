@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70m1WUrhecYtbiq6eSBlqUBiiUqyJ",
+  "object": "chat.completion",
+  "created": 1680418958,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 137,
+    "total_tokens": 144
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A 14-year-old boy should consume about 2,000 to 2,600 calories per day, depending on his size and activity level. This amount of energy will support healthy growth and development while maintaining an appropriate weight. The calorie content should primarily come from a balanced diet consisting of carbohydrates (at least half from whole grains), proteins (including lean meats, fish, legumes), healthy fats, fruits and vegetables as well as dairy products or equivalent non-dairy sources.\n\nRegular exercise is also necessary for overall health improvement since it will help manage the muscular system's needs after consuming that many calories. Additionally- make sure to drink plenty of water throughout the day to stay hydrated!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
