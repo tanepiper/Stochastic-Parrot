@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70re3XnnkDa3nUAwzLOfI1Q0LY1xM",
+  "object": "chat.completion",
+  "created": 1680440567,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 306,
+    "total_tokens": 313
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Library materials and equipment should be handled with care in order to:\n\n1. Preserve their quality: Library resources such as books, computers, audiovisual materials and other equipment are often expensive and valuable for research or educational purposes. Handling them carefully helps maintain their physical quality so that they can be used by more people over time.\n\n2. Prevent damage: Rough handling or misuse of library materials can lead to damage such as torn pages, scratches on CDs/DVDs, or broken computer parts. Taking care when using these items helps prevent the need for costly repairs or replacements.\n\n3. Ensure longevity: The lifespan of library materials depends on how well they're cared for – proper handling preserves their condition allowing them to last longer and serve more users.\n\n4. Save costs: Replacing damaged books, periodicals or pieces of equipment is an unnecessary financial burden on libraries which could have been avoided by proper handling from the start.\n\n5. Maintain accessibility: When a book is checked out but not returned, misshelved, left open at high humidity levels or otherwise mishandled, it becomes hard-to-find even if it's technically present within the facility – this affects patrons' overall experience at the library negatively & may cost opportunities to learn new things!\n\n6. Demonstrate respect towards shared community resources we all benefit from receiving educationally-rich information sources into our lives; exhibiting considerate behavior builds gratitude among borrowers who proceed onwards down pathways leading towards greater knowledge together peacefully united under banners advocating responsibility alongside freedom during these exciting (but precarious) times!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
