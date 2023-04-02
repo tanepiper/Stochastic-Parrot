@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70iH2exDYzgVwCwoMzv8jqWt0vzAt",
+  "object": "chat.completion",
+  "created": 1680404544,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A post-it note typically measures 3 inches by 3 inches (7.6 cm x 7.6 cm). However, various sizes and formats of post-it notes exist, with some being smaller or larger than the standard size."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
