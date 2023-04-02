@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70mxbGbx1olfpZc8OTe4gDvkxTTWr",
+  "object": "chat.completion",
+  "created": 1680422559,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 225,
+    "total_tokens": 232
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to provide an exact number of celebrities who are involved in philanthropy or charity work, as the definition of a celebrity can be subjective and many individuals engage in charitable activities throughout their careers. Additionally, some celebrities may participate in or donate to charities privately.\n\nHowever, numerous well-known figures from various fields such as entertainment, sports, politics, and business regularly engage in philanthropic efforts. Some prominent examples include Oprah Winfrey, Angelina Jolie, George Clooney, Lebron James and Bill Gates. These individuals contribute financially to various causes and often dedicate their time towards raising awareness about issues that matter to them.\n\nMany celebrities create their own foundations or partner with existing organizations to help support those who need it most. One example would be Elton John’s foundation which raises funds for HIV/AIDS prevention programs worldwide.\n\nUltimately while there is no definitive count of the total number of celebrities engaged in charity work or research projects that explicitly list out how many do so - it's safe to say that numerous public figures within different industries take part in giving back through various avenues regularly making the world better alongside pursuing their primary career goals."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
