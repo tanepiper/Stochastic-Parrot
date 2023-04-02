@@ -82,6 +82,10 @@ export function createMastodonClient(
   accessToken,
   site = 'https://mastodon.social'
 ) {
+
+  /**
+   * @type {import('megalodon').Mastodon}
+   */
   const mastodon = generator.default('mastodon', site, accessToken);
 
   /**

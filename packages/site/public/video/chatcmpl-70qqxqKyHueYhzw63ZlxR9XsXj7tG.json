@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70qqxqKyHueYhzw63ZlxR9XsXj7tG",
+  "object": "chat.completion",
+  "created": 1680437523,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 51,
+    "total_tokens": 159
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Success comes to those who leave their comfort zone, but never forget your couch will forever be waiting.\"\n  ],\n  \"hashtag\": \"#MotivationalGuru #ComfortZone #CouchWisdom\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

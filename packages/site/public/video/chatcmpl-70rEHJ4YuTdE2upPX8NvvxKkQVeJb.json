@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70rEHJ4YuTdE2upPX8NvvxKkQVeJb",
+  "object": "chat.completion",
+  "created": 1680438969,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 49,
+    "total_tokens": 157
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Turn your obstacles into opportunities and burn them as fuel to power your journey.\"\n  ],\n  \"hashtag\": \"#MotivationalGuru #ObstaclesIntoOpportunities #JourneyFuel\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

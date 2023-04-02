@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70qi8zv3ZmEYNiGoFeR4FZRrfBWaf",
+  "object": "chat.completion",
+  "created": 1680436976,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 39,
+    "total_tokens": 147
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Success is only one failure away, so keep failing till you're successful.\"\n  ],\n  \"hashtag\": \"#success #failure #inspiration\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

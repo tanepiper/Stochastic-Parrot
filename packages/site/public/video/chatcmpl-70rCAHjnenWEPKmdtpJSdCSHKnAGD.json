@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70rCAHjnenWEPKmdtpJSdCSHKnAGD",
+  "object": "chat.completion",
+  "created": 1680438838,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 54,
+    "total_tokens": 162
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Believe in yourself, even if no one else does. You'll be your own biggest fan club.\"\n  ],\n  \"hashtag\": \"#BelieveInYourself #OwnBiggestFan #MotivationGuru\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

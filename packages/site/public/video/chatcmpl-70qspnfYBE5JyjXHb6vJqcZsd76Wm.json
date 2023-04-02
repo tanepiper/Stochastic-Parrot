@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70qspnfYBE5JyjXHb6vJqcZsd76Wm",
+  "object": "chat.completion",
+  "created": 1680437639,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 57,
+    "total_tokens": 165
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Unlock your inner potato: peel away layers of doubt, embrace starch courage, and roast to success.\"\n  ],\n  \"hashtag\": \"#InnerPotato #PeelDoubt #StarchCourage #RoastToSuccess\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

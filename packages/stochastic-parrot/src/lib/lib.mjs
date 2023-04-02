@@ -2,8 +2,8 @@ import AWS from 'aws-sdk';
 import crypto from 'node:crypto';
 import { createWriteStream } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
-import { catchError, Observable, of, throwError } from 'rxjs';
-import { concatMap, retry, tap } from 'rxjs/operators';
+import { catchError, EMPTY, Observable, of, throwError } from 'rxjs';
+import { concatMap, delay, retry, tap } from 'rxjs/operators';
 
 export const randomFloat = () =>
   crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
@@ -82,6 +82,8 @@ export function errorHandlerWithDelay(
         } else if (response?.status === 401) {
           console.error('Unable to process request, please check your API key');
           process.exit(1);
+        } else if (response?.status === 422) {
+          console.error('Unable to process file as it is still processing');
         } else if (response?.status === 429) {
           console.error(
             `Too many requests, trying again in ${retryConfig.delay}ms`

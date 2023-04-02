@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70qvyxADpA7vRMyNMbquDqZqm7IHa",
+  "object": "chat.completion",
+  "created": 1680437834,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 51,
+    "total_tokens": 159
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Your dreams are never too far away, just like the moon - technically reachable but not everyone gets there.\"\n  ],\n  \"hashtag\": \"#motivation #dreams #moon #reachforthestars\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

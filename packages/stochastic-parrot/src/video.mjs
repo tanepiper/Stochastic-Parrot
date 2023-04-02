@@ -2,22 +2,24 @@
 import dotenv from 'dotenv';
 import minimist from 'minimist';
 import path from 'node:path';
-import { throwError } from 'rxjs';
+import { from, throwError } from 'rxjs';
 import {
   catchError,
   concatMap,
   delay,
   finalize,
   map,
+  retry,
   switchMap,
   tap,
 } from 'rxjs/operators';
 import { createCreatomateClient, videoTemplates } from './lib/creatomate.mjs';
 import { createAWSS3Client } from './lib/index.mjs';
-import { writeResponseToFile } from './lib/lib.mjs';
+import { errorHandlerWithDelay, writeResponseToFile } from './lib/lib.mjs';
 import { createMastodonClient } from './lib/mastodon.mjs';
 import { createOpenAIInstance } from './lib/openai.mjs';
 import { AWSS3Config } from './config.mjs';
+import { optimiseVideo } from './lib/ffmpeg.mjs';
 
 /**
  * A script to generate a video from a prompt using OpenAI's Chat API
@@ -120,7 +122,7 @@ openAI
             )
             .pipe(map(() => ({ response, jsonBody })))
         ),
-        tap(() => console.log(`🔼 Uploading Video File to S3...`)),
+        tap(() => console.log(`🔼 Uploading Original Video File to S3...`)),
         switchMap(({ response, jsonBody }) =>
           S3Client.uploadFile(
             `${videoFilePath}/${response.id}.mp4`,
@@ -131,8 +133,10 @@ openAI
             map(() => ({ response, jsonBody }))
           )
         ),
+        tap(() => console.log(`⚙️ Optimise Video File for Mastodon...`)),
+        optimiseVideo(videoFilePath),
         map(({ response, jsonBody }) => ({
-          file: `${videoFilePath}/${response.id}.mp4`,
+          file: `${videoFilePath}/${response.id}.small.mp4`,
           description: Object.values(modifications).join(' '),
           status: Array.isArray(jsonBody?.hashtag)
             ? jsonBody?.hashtag.join(' ')
@@ -146,6 +150,17 @@ openAI
         .postMedia(file, description)
         .pipe(map((media) => ({ media, status })))
     ),
+    // concatMap(({ media, status }) => {
+    //   return from(mastodon.client.getMedia(media)).pipe(
+    //     switchMap((result) => {
+    //       return (
+    //         result?.url ?? throwError(() => 'No URL returned from Mastodon')
+    //       );
+    //     }),
+    //     errorHandlerWithDelay({ delay: 1000, retries: 5 }),
+    //     map((url) => ({ media, status, url }))
+    //   );
+    // }),
     tap(() => console.log('💬 Posting Video File...')),
     concatMap(({ media, status }) => {
       if (!media) {

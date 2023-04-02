@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70rAuBjoKu3k2zjdEsm5qIs6uKJUn",
+  "object": "chat.completion",
+  "created": 1680438760,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 46,
+    "total_tokens": 154
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\"Believe you can fail, and you're halfway to flawless mediocrity.\"],\n  \"hashtag\": \"#MotivationalGuru #MediocreMindset #InspiringFailure\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
