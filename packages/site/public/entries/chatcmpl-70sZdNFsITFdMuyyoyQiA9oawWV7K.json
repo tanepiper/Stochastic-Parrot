@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70sZdNFsITFdMuyyoyQiA9oawWV7K",
+  "object": "chat.completion",
+  "created": 1680444137,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1) Serena Williams - 23 Grand Slam titles\n\nSerena Williams is an American professional tennis player who has held the world No.1 ranking in singles on eight separate occasions between 2002 and 2017. She has won 23 Grand Slam singles titles, which is the most by any player in the Open Era.\n\n2) Steffi Graf - 22 Grand Slam titles\n\nSteffi Graf is a German former professional tennis player who was ranked No.1 in the world during her career. She won a total of 22 Grand Slam singles titles and holds the record for being ranked world No.1 for a total of 377 weeks, which is more than any other tennis player.\n\n3) Margaret Court - 24* (*11 during Open Era)\n\nMargaret Court is an Australian former professional tennis player who holds multiple records including winning all four grand slam events at least twice (during both pre-Open era and Open-era). However, only eleven of her grand slam wins came after the advent of open competition – called “Open Era” – that started in April, 1968; this makes her officially have third-most women’s singles grand slams (with still astounding number: Evert & Navratilova totaled eighteen each).\n\n4) Helen Wills Moody - Eighteen Majors Between Augurs In Various Respects From Our List Below:\n\nHelen Wills Moody was dominant force during much nineteen twenties through early thirties when she captured seventeen championships before ultimately winding down illustrious sports endeavor altogether midway decade elapsed continually successful side note worthy acknowledgment?\n\n5) Chris Evert And Martina Navratilova Both Share Honorary Fifth Slot With Equilateral Distribution Trophy Case Holds Stockpile Portion Speculatively Choosing Either"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
