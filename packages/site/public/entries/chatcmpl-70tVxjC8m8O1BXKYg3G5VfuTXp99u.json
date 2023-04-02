@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70tVxjC8m8O1BXKYg3G5VfuTXp99u",
+  "object": "chat.completion",
+  "created": 1680447753,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 93,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Coldplay is a British rock band formed in London in 1996. The group's members include lead vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion. They are widely known for their hit songs such as \"Yellow\", \"Viva la Vida\", \"Clocks\", and \"The Scientist\". Coldplay has received numerous awards throughout their career, including seven Grammy Awards from twenty-nine nominations."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
