@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70uRwaB3UxV0m2GWj0WAx1h174OSJ",
+  "object": "chat.completion",
+  "created": 1680451348,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A bone spur, also known as an osteophyte, is a bony projection that typically forms along the edges of bones where two or more bones come together. These growths typically occur in joints, such as the spine, knees, shoulders, hips and fingers.\n\nBone spurs can be caused by various factors but often develop due to prolonged inflammation and stress on a joint. They are commonly associated with conditions that cause joint inflammation or damage such as:\n\n1. Osteoarthritis: As cartilage breaks down around a joint from wear and tear over time, the body may produce bone spurs in an attempt to stabilize the affected area.\n\n2. Rheumatoid arthritis (RA): This autoimmune disease triggers inflammation that can eventually lead to bone destruction if left untreated. Over time this disease might lead to formation of bone spurs.\n\n3. Ankylosing spondylitis: It is another inflammatory condition affecting spinal vertebrae sections which leads to abnormal ossification of vertebral bodies forming distinct syndesmophytes(bone outgrowth inside ligament), later resembling radiographic image appearance of bamboo stalk.\n\n4. Plantar fasciitis: Inflammation within foot sole's plantar fascia connective tissue layer may contribute heel-associated pain while walking; subsequent repetitive pressure aggravates these areas until focal calcium deposits accumulate at undersurface- ultimately developing into heel_spur formations beneath calcaneal tuberosity-region primary attachment site!\n\n5. Spinal stenosis: Narrowing/diminishing fluid-filled space containing spinal cord implies undue compression while nerve rootlets involvement contributes towards peripheral neurological symptoms entailing motor/sensory deficits concurrently appearing exclusively at/along dermatomal/regional extents pertaining individual_embedded nerves inclusive topical participation having"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
