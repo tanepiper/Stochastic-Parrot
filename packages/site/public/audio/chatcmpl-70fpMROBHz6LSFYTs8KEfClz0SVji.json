@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70fpMROBHz6LSFYTs8KEfClz0SVji",
+  "object": "chat.completion",
+  "created": 1680395140,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 123,
+    "total_tokens": 130
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't an official definition for the term \"insurgent specialist.\" However, it could typically refer to someone with expertise in dealing with or fighting against insurgency. An insurgency is a rebellion or an uprising against a government or political authority, often characterized by guerrilla warfare and other unconventional tactics.\n\nAn insurgent specialist may be knowledgeable about the causes of insurgency, strategies employed by insurgents, and effective counterinsurgency practices. They might play a role in gathering intelligence on insurgent groups, advising military or law enforcement personnel on how to respond to incidents involving insurgents, and training security forces to deal with such threats effectively."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
