@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70jDAFpAyL9o7Zvd5Tbk5Ebh1KzXS",
+  "object": "chat.completion",
+  "created": 1680408148,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To change a car's brake pads, follow these steps: \n\n1. Gather your tools and materials\nYou will need the following:\n\n- A jack and jack stands (or wheel ramps)\n- A lug wrench or tire iron\n- A socket set and ratchet\n- Pliers (needle-nose pliers are helpful for removing spring clips)\n- Brake cleaner spray\n- High-temp lubricant like caliper grease or anti-seize compound\n- New brake pads\n\n2. Park your car on level ground\n\nWhenever working on your vehicle, it's essential to park on solid, level ground.\n\n3. Loosen the lug nuts\n\nUse a lug wrench to loosen the lug nuts of the wheels slightly while they're still fully supported by the ground but don't take them off yet.\n\n4. Jack up your car securely & remove wheels \n\nPlace a floor jack under one of the designated lift points beneath each side of the vehicle as per owner manual instructions .Raise until you can place jack stands below suspension components positioned near where each tire assembly would come into contact with pavement,such axles.lower onto that first go around doing same thing other three corners too.Finally make sure locked .\n\n5. Locate calipers & understand how they work\n\nLocate disc brakes by identifying circular rotor directly behind wheel.Brake consist surrounding clamping device referred as \"caliper\", which holds removable pads inside metal-fitted necks that grip this slender ring when prompted pedal pressed force squeezing reduce speed stop altogether.Depending design might be held bolts slides over pins engaging simple hook clip onto holder slide away leaving plenty access replacement job ahead!\n\n6.Remove caliper from later model axle bracket.\nUsing correct sized sockets/ Allen keys/ Torx bits undo two anchors/clamps(mean"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
