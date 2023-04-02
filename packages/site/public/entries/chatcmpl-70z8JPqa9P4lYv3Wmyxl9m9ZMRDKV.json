@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70z8JPqa9P4lYv3Wmyxl9m9ZMRDKV",
+  "object": "chat.completion",
+  "created": 1680469351,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 233,
+    "total_tokens": 240
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Eat a healthy and balanced diet, including fruits, vegetables, whole grains, lean protein sources like fish or chicken, low-fat dairy products, nuts and seeds.\n\n2. Make sure to drink plenty of water every day- at least 8 cups for most adults.\n\n3. Exercise regularly to keep your heart and lungs in good condition.\n\n4. Avoid smoking or using tobacco products as they can cause significant harm to your respiratory system.\n\n5. Reduce exposure to air pollution by avoiding heavily polluted areas whenever possible and keeping the air quality in your home clean with proper ventilation and air purifiers if needed.\n\n6. Practice good hand hygiene by washing hands regularly with soap and running water for at least 20 seconds.\n\n7. Get vaccinated against diseases like influenza (flu) that can lead to respiratory issues if contracted.\n\n8.Utilize proper breathing techniques during exercise or periods of stress – practicing diaphragmatic breathing exercises may help improve lung function over time\n\n9.Before exercising outdoors on high pollen count days,don't forget considering usage of facial masks that minimize inhalation of allergens \n\n10.Seek medical attention promptly should you experience any symptoms concerning upper/lower respiratory tract infections"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
