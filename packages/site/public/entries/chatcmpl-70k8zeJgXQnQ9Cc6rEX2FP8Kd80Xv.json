@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70k8zeJgXQnQ9Cc6rEX2FP8Kd80Xv",
+  "object": "chat.completion",
+  "created": 1680411733,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 312,
+    "total_tokens": 319
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It can be quite difficult to identify a person's emotions just based on text, as facial expressions and vocal cues are absent. However, there are some strategies you can use.\n\n1. Pay attention to word choice: Some words in text may give away how the person is feeling. For example, using words like \"angry,\" \"sad,\" or \"happy\" could indicate their emotions.\n\n2. Look for emoticons or emojis: Sometimes people will use emoticons (e.g., :-) ) that show different emotions such as happiness :-) sadness :-( anger >_< . Similarly with emojis 😁😢😠 which directly represent feelings often used by people to express themselves better through texts.\n \n\n3. Examine punctuation: The usage of exclamation marks (!!!) can indicate excitement or frustration, while question marks (?) might signal confusion or curiosity. Alternatively, a period at the end of every sentence might come across as cold/a bit distant.\n\n\n4.Remember Context -  Maintain awareness of previous conversation topics and information shared by both parties; it would help determine prevailing emotion(s).\n\n5.Look out for Informal language/ slang - Friendly informal texting styles (emojis,special characters like ^_* etc.) indicate affection/ openness\n\n6.Assess message length & frequency – Sudden shortening/increase in response time compared to average behavior gives an idea surrounding their emotional status\n\n\nHowever, keep in mind that these methods aren't foolproof and may not always accurately gauge one's true emotional state via text so it’s important also address problems openly before jumping into conclusions"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
