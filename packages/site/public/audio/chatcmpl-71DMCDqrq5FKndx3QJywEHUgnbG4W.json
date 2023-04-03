@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71DMCDqrq5FKndx3QJywEHUgnbG4W",
+  "object": "chat.completion",
+  "created": 1680524028,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 168,
+    "total_tokens": 175
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Log into your Yahoo Mail account with your email address and password.\n\n2. Click the gear icon in the upper right corner of the screen to open \"Settings.\"\n\n3. Select \"Accounts\" from the sidebar menu that appears on your screen.\n\n4. Find your primary email account under the \"Email accounts\" section, then click on it to access options related to that account.\n\n5. Underneath \"Create a new mailbox,\" look for an alias called “Disposable addresses.” If available, you can create temporary disposable addresses within this feature.\n\n6.Enter a base name (prefix) for all future disposable addresses\n7.Click Save\n\nIf you don't see these features or options specifically for creating temporary/disposable accounts and aliases, unfortunately, Yahoo may no longer be supporting these functions due to changes in their platform/ services offered over time.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
