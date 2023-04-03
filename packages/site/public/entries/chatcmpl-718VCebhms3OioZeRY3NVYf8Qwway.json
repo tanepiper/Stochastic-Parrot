@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-718VCebhms3OioZeRY3NVYf8Qwway",
+  "object": "chat.completion",
+  "created": 1680505366,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 74,
+    "total_tokens": 81
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Mango production in the Philippines varies every year, but on average, it is around 800,000 to 1 million metric tons. Factors like weather conditions, pests and diseases can significantly affect mango production. Mangoes are considered one of the major fruit crops in the country and are usually exported to other countries such as Japan, South Korea, and Middle Eastern countries."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
