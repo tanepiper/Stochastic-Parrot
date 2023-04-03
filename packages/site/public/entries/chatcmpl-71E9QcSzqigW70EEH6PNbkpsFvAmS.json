@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71E9QcSzqigW70EEH6PNbkpsFvAmS",
+  "object": "chat.completion",
+  "created": 1680527080,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 217,
+    "total_tokens": 224
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "While it is impossible to determine the exact number of ships that have sunk in all of human history, a conservative estimate would be tens of thousands. This includes everything from small boats to large commercial and military vessels.\n\nAccording to recent statistics, there are around 3 million shipwrecks (sunk or destroyed) lying on ocean floors since prehistoric times. However, not all these wrecks are due to sinking - some were simply abandoned or deliberately scuttled.\n\nSome major factors contributing to ship sinking include severe weather, war-related destruction, piracy incidents, design flaws or structural damage, navigational errors leading them into hazardous waters unprepared for potential threats such as icebergs reefs) which ultimately cause vessel damage beyond repair resulting in many lost at sea over time. Shipbuilding practices improved dramatically during twentieth century but despite technological advancements risks still remain present today especially given increased shipping traffic demand global trade expansion worldwide human error being main problem now considering most accidents caused by this reason alone rather than natural disasters although climate change impacts could threaten safety even further within coming years if not addressed properly beforehand.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
