@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71FzNNnT8Ey9Wbw0SZQT0WwBfjWSR",
+  "object": "chat.completion",
+  "created": 1680534145,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 156,
+    "total_tokens": 163
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to politely ask someone if they need help. Here are a few examples:\n\n1. Would you like some assistance with that? \n2. Can I offer you any help at the moment?\n3. May I provide some support or guidance on this task?\n4. Is there anything specific I could do for you? \n5. Would it be helpful if I stepped in and assisted with ____?\n6. If you're feeling unsure, please let me know how I can assist.\n7.TrackName(if known)- is there something particular where my expertise would be useful for/to you?\n\nRemember to maintain a positive tone when asking, and listen carefully to their needs before offering your support or suggestions, as people might have different preferences in receiving help based on individual requirements/preferences"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
