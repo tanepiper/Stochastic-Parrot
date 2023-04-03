@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71MXmx3ZQNOlE2sW3pSWEyQCz5ZCJ",
+  "object": "chat.completion",
+  "created": 1680559342,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 301,
+    "total_tokens": 308
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways you can make someone's day brighter. Here are a few suggestions:\n\n1. Smile: A simple smile can brighten up someone's day, and it doesn't cost you anything.\n\n2. Pay compliments: Give a genuine compliment about something you like or find interesting in the person—perhaps their outfit, hair, or positive attitude.\n\n3. Listen attentively: When people talk to you, give them your full attention and show empathy towards what they're saying.\n\n4. Offer help when needed: If the opportunity arises where someone could use some assistance, lend a helping hand without hesitation.\n\n5. Cheer them on with enthusiasm during their successes - Acknowledge and celebrate other people's achievements no matter how big or small they may be.\n\n6. Surprise them with small acts of kindness - For example, leave a snack for your coworker if they are working late or buy coffee for the person behind you in line at the cafe.\n\n7. Share uplifting quotes - You never know when specific words of motivation might strike just-right with another person!\n\n8- Connect and engage in social media by writing supportive comments @tagging each other\n\n9- Random Acts Of Kindness – go out of your way to do one thing deliberately kind every day actively!\n\nThere is no single right way to make somebody's day better; just being there but taking that step forward will bring joy into both peoples' lives! Try experimenting today—you may find yourself gaining more from these actions than those who receive them!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
