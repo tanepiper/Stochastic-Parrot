@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-713zyuW64G6oxPG86gzcQumAPQBJo",
+  "object": "chat.completion",
+  "created": 1680488054,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 162,
+    "total_tokens": 169
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What does the smoke detector do when it detects carbon monoxide?\n\nWhen a smoke detector detects carbon monoxide (CO) in the air, it will typically sound an alarm to alert the occupants of potential CO poisoning. The alarm usually consists of short beeps or chirps repeated multiple times to distinguish it from regular smoke alarms. This provides people with an immediate warning to evacuate the area and call emergency services for help.\n\nIt should be noted that not all smoke detectors can detect CO – some devices are designed only for detecting smoke and/or fire. For full protection, you should have both types installed in your home: separate CO detectors specifically designed for this purpose, as well as standard fire/smoke detectors.\n\nRemember that Carbon Monoxide is a silent killer without smell or taste, so early detection is critical for safety."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
