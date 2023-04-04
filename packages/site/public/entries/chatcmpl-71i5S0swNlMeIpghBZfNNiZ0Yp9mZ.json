@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71i5S0swNlMeIpghBZfNNiZ0Yp9mZ",
+  "object": "chat.completion",
+  "created": 1680642154,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Developmental psychology is the scientific study of how and why humans change over the course of their lives. It examines the physical, cognitive, emotional, social, and moral aspects of human development from infancy through adolescence to adulthood. This field seeks to understand not only typical patterns of growth but also individual differences and variations in developmental processes.\n\nDevelopmental psychologists aim to describe these changes and identify factors that influence them, such as genetics, environmental factors (e.g., parenting style), culture, or personal experiences. They also address issues related to early intervention for potential problems in development.\n\nSeveral major theories have been proposed in developmental psychology:\n\n1. Freud's Psychosexual Theory: Sigmund Freud suggested that early childhood experiences significantly impact personality development throughout an individual's life. He believed our psychosexual growth occurs across various stages throughout childhood: oral stage (birth-1 years), anal stage (1-3 years), phallic stage (3-6 years), latency period (6-puberty), and genital stage (puberty-adulthood).\n\n2. Erikson's Psychosocial Theory: Erik Erikson emphasized the role social relationships play in shaping an individual's identity over eight separate stages throughout a person’s lifetime; each with varying crisis points.\n\n3. Piaget's Cognitive Development Theory: According to Jean Piaget children go through four key stages as they develop cognition skills like problem-solving: sensorimotor stage(0–2 years) preoperational stage(2–7years ), concrete operational intelligence Stage( 8 -11years )and formal operational intelligence Stage(after age 12 )\n\n4.Lev Vygotsky socio-Cultural theory which highlights both society & culture important roles.\n5.Bowlby Attachment theory touching infant-child primary caregivers bond"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
