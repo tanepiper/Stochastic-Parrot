@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71SAPAKAuk8yWFBzrOt7exEsFSi4L",
+  "object": "chat.completion",
+  "created": 1680580957,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The table of formality shown below illustrates the differences in written and spoken language for various forms of communication, along with explanations for each level.\n\nLevel 1: Highly Formal (Written)\n\n- Language Use: Academic texts, legal documents, government notices.\n- Features: Complex sentence structures, professional tone, passive voice is common.\n- Vocabulary: Technical terms are used accurately and precisely; words chosen carefully.\n- Aim/Purpose: To convey technical or specialized information from one expert to another.\n\nLevel 2: Moderately Formal (Written)\n\n- Language Use: Business correspondence, essays. \n- Features: Clear organization with introduction/body/conclusion structure; professional but friendly tone. \n- Vocabulary: Industry-specific terms mixed with everyday vocabulary; straightforward use of words.\n-Tight narrative style avoids unnecessary verbosity\n-Aim/PurposeTo communicate clearly between professionals or educated individuals in a less academic setting\n\nLevel 3 Neutral Written\n\n-LanguageUsesemi-formal reportsblog postsopinion piecesor informal articlessocial media updates\n_Features_.clearand concise stylesometimes containsmore personal opinionsor feelingshorter sentences more casual formatsthan formal writingVocabularyevery day wordssomeInformalslang may be includedin-contextasy-to-understandlanguagewithouttechnical jargon_Aim.Purposeto engageaudiencesnormally interested inthe topicwithoutnot requiringa highdegreeof expertiseor background knowledge\n\n_Level4 Informal(Spoken)_\n\n-Languagesmart phones FaceTime instant messagingtexts /emails group chatsvideos_\nFeatures.Shortmessage-orientedstructurecasualcolloquialtonesentence fragmentspossibleabsence.perfectgrammarVocabularystandarduse.of slangabbreviationsacronymsfrequent_Aim+Purpose.to.convey.quickmess.ageo-disc"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
