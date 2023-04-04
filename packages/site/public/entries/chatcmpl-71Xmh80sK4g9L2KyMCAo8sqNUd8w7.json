@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71Xmh80sK4g9L2KyMCAo8sqNUd8w7",
+  "object": "chat.completion",
+  "created": 1680602551,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 67,
+    "total_tokens": 74
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, artificial intelligence can stop spam emails by utilizing machine learning algorithms to detect and filter out unwanted messages. Spam filters using AI can analyze email content, links, sender information, and other variables to identify potential spam messages. They can also adapt over time as spammers change their tactics, enabling the filters to keep up with new threats."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
