@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71acp4JDuv66385N3mnnnaNWVf3gN",
+  "object": "chat.completion",
+  "created": 1680613471,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 333,
+    "total_tokens": 340
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some negative effects of advanced technology may include:\n\n1. Social isolation: As people become increasingly reliant on their devices, they tend to spend more time interacting online than in person, resulting in social isolation and loneliness.\n\n2. Job loss: Automation and artificial intelligence can replace human workers, leading to job losses and higher unemployment rates.\n\n3. Privacy invasion: The internet makes it easier for hackers and other malicious actors to access an individual's personal data or steal sensitive information.\n\n4. Digital addiction: Many individuals are addicted to their smartphones or other digital devices, which can lead to physical ailments such as neck pain from constantly looking down at a screen; mental health concerns like anxiety or depression; and disrupted sleep patterns.\n\n5. Cyberbullying: Online communication allows anonymity which sometimes results people becoming targets of hateful comments, harassment or intimidation by cyberbullies\n\n6. Environmental impact : Advanced technology often uses non-renewable resources that cause pollution during extraction, manufacturing and disposal stages along with contributing massively towards E-waste\n\n7. Information overload : With abundance of information available so easily through search engines it becomes overwhelming for users who might consume shallow content without critically analysing its credibility\n\n8.Security vulnerabilities : Sophisticated softwares also means some firms prone attackings(patch vulnerability/hacking) compromising security of various organization \n\n9.Dependence : Over reliance on advanced technology creates dependence among user hence any failure/error leads discomforts affecting normal lives+occupations (social network outage,internet connectivity issues)\n\n10.Disrupt cultural norms/traditions/values/population composition- Studies show increased sharing,options(healthcare/food productivity/or even choosing partners etc) has affected society across the globe"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
