@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71dPDPwnuQnlDGk2WGMaYGc44756J",
+  "object": "chat.completion",
+  "created": 1680624159,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 52,
+    "total_tokens": 104
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would make the best president?\",\n  \"answers\": [\n    \"Sherlock Holmes\",\n    \"Hermione Granger\",\n    \"Atticus Finch\",\n    \"Captain Jean-Luc Picard\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
