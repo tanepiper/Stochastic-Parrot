@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71VuqNLQFNSIaiCq8eTdqVn6Fog3I",
+  "object": "chat.completion",
+  "created": 1680595368,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "An amoeba is a type of single-celled organism found in water, soil, and other habitats. It belongs to the kingdom Protista and has no definite shape due to its flexible cell membrane. Amoebae move by extending finger-like projections called pseudopodia from their bodies and flowing their cytoplasm into these extensions.\n\nThe primary functions of an amoeba are nutrition, movement, excretion, reproduction, respiration, osmoregulation (water balance), and response to stimuli.\n\nNutrition: An amoeba feeds on bacteria, algae, dead organic matter or even protozoa smaller than itself. It engulfs food particles through phagocytosis - where it extends its pseudopodia around prey and then encloses the food within a vacuole inside its body for digestion.\n\nExcretion: The waste products formed during metabolism are excreted out of the cell by diffusion through the cell membrane or via contractile vacuoles that expel excess water from inside the cell along with those waste products.\n\nMovement: Amoebae use their pseudopodia not only for capturing prey but also for locomotion. They extend these protrusions in response to various chemical stimuli they sense in their environment.\n\nReproduction: Most species reproduce asexually through binary fission - when an amoeba grows bigger; it simply splits into two daughter cells as its nucleus divides into two daughter nuclei sharing identical genetic material as parent's nucleus- A mitotic process called cytokinesis results new individual organisms\n\nRespiration: As ammobic unicellular organisms lack specalised respiratory system hence gas(exchange) occur across surface(regions).\n\nOsmoregulation: Contractile vacuoles help maintain osmotic stability by constantly"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
