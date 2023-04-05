@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71kymkiMVwjnB9V4C5WgVvxw1h8lB",
+  "object": "chat.completion",
+  "created": 1680653272,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 68,
+    "total_tokens": 120
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional city would you rather visit?\",\n  \"answers\": [\n    \"A. Gotham City (DC Comics)\",\n    \"B. Wakanda (Marvel Comics)\",\n    \"C. Middle Earth's Minas Tirith (LOTR)\",\n    \"D. Stars Hollow (Gilmore Girls)\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
