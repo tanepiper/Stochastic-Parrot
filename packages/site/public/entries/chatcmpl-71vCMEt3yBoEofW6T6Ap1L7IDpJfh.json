@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71vCMEt3yBoEofW6T6Ap1L7IDpJfh",
+  "object": "chat.completion",
+  "created": 1680692554,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 185,
+    "total_tokens": 192
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are the ten most-used emojis in the world:\n\n1. 😂 Face with Tears of Joy\n2. ❤️ Red heart\n3. 😍 Smiling Face with Heart-Eyes\n4. 🤣 Rolling on the Floor Laughing\n5. 😊 Smiling Face with Smiling Eyes\n6. 👍 Thumbs Up \n7. 💕 Two Hearts \n8. 🙏 Hands folded in prayer or thank you gesture (also considered a high-five)\n9. 🔥 Fire, representing something being hot or exciting.\n10:😘 Face Blowing a Kiss\n\nThese rankings may vary slightly depending on geographical location and time, as emoji usage can fluctuate based on cultural events and trending topics.\n\nNote that this answer is accurate but it could be inaccurate if we know when to look at data from since trends might change after some years so mentioning years of analysis would make it perfect!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
