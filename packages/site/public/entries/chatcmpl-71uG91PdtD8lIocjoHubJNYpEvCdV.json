@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71uG91PdtD8lIocjoHubJNYpEvCdV",
+  "object": "chat.completion",
+  "created": 1680688945,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 209,
+    "total_tokens": 216
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A party platform is a formal set of principal goals, objectives, and policy positions that are supported by a political party or candidate. These platforms typically address various issues such as economic policies, social issues, foreign affairs, defense policies, environmental concerns, and more. They serve as a framework for the direction in which the party intends to head if they gain power.\n\nParty platforms help voters understand what a particular party or candidate stands for and make informed decisions at the polls. Furthermore, the development of these platforms often takes place during conventions where delegates debate and vote on resolutions outlining their stances. Platforms provide an outline of how elected officials from said parties would potentially address societal problems and enact specific legislation based on those assertions.\n\nIn essence, it's like an actionable plan that tells voters what priorities they should expect from their representatives if elected under that political affiliation. \n\nHowever, it is essential to note that individual candidates may deviate slightly from strictly adhering to all aspects outlined in their respective platforms depending on personal beliefs or local constituencies' preferences or requirements.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
