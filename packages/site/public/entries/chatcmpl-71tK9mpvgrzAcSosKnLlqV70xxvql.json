@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71tK9mpvgrzAcSosKnLlqV70xxvql",
+  "object": "chat.completion",
+  "created": 1680685349,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 54,
+    "total_tokens": 61
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you can use Notion offline for editing and creating content. The changes made while offline will be synced with the server once you're back online. However, access to some features such as sharing or inviting new members won't work until you reconnect to the internet."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
