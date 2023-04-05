@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-724YrN0OXwHad5q4BD2z0NstVMENJ",
+  "object": "chat.completion",
+  "created": 1680728545,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 52,
+    "total_tokens": 59
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm sorry, I cannot do that for you as I am an AI language model which is incapable of physically performing tasks. However, if you have any questions or need assistance with anything specific, feel free to ask and I'll do my best to help!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
