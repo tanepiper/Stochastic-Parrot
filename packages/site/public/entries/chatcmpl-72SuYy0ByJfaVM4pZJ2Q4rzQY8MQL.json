@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72SuYy0ByJfaVM4pZJ2Q4rzQY8MQL",
+  "object": "chat.completion",
+  "created": 1680822146,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 84,
+    "total_tokens": 91
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is impossible for me to provide a link as I am an AI language model and cannot access or browse the internet. However, you can easily find programming languages book PDFs by doing a simple Google search or checking websites like GitHub, FreeComputerBooks.com, and AllITebooks.com. Remember that not all books are legally available online; please make sure to respect copyright laws and support authors when accessing digital materials."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
