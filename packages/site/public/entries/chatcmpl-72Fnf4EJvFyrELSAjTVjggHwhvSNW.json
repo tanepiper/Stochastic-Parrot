@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72Fnf4EJvFyrELSAjTVjggHwhvSNW",
+  "object": "chat.completion",
+  "created": 1680771747,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 237,
+    "total_tokens": 244
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Antibiotic resistance refers to the ability of microorganisms, such as bacteria or viruses, to survive and thrive in the presence of antibiotics. When these organisms develop a resistance to one or more antibiotics, they can no longer be killed by those drugs.\n\nAntibiotics are designed to target specific aspects of bacterial cells, weakening them and eventually killing them. However, over time and through repeated exposure to these drugs, some bacteria may develop processes that allow them to resist the effects of antibiotics. This occurs through genetic mutations or by acquiring resistance genes from other organisms.\n\nThe primary cause of antibiotic resistance is the overuse and misuse of antibiotics. When people take unnecessary antibiotics for viral infections like colds (for which they do not work) or when animals are given large amounts of antibiotics for non-therapeutic purposes as part requirement for food production), it creates an environment in which resistant strains can flourish.\n\nThis has serious consequences on public health because once bacteria have become resistant e.g., MRSA (Methicillin-Resistant Staphylococcus Aureus), they become difficult – if not impossible – treat with existing medications leads increased risk severe illness death due lack effective treatments available combat infection"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
