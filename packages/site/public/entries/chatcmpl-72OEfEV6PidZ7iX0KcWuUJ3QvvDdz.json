@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72OEfEV6PidZ7iX0KcWuUJ3QvvDdz",
+  "object": "chat.completion",
+  "created": 1680804173,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 270,
+    "total_tokens": 277
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"kami\" refers to the various gods, spirits and natural forces that are worshipped in Shintoism, an indigenous Japanese religion. In this context, Kami is a spiritual being with divine powers who can exist anywhere from nature such as mountains, rivers, forests and animals. These elements of nature embody a sacred power or energy called mana.\n\nKami has no specific physical form but could be manifested through natural objects like trees or stones believed to possess their spirit. They are respected for giving blessings, protection and guidance to individuals and communities.\n\nThere are many different Kami with diverse characteristics, which include Izanagi (creator of islands) and Izanami (the goddess of creation), Amaterasu (the sun goddess), Susano'o (the god of storms), Tsukuyomi (moon god), among countless others.\n\nKami also represents the qualities preferred by society at large. For instance – wisdom & benevolence exercised by notable men-and-women-turned-deities may come under kami worship.\n\nThe role of kami in Shinto practices uniquely transcends individual lives because it unifies people's hearts while maintaining harmony within family or community structures through prayer rituals venerating ancestral spirits/gods/supernatural beings centered around ideals like orderliness regarding daily life matters essential toward living purpose-filled lives with substantial goals completed earnestly throughout generations"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
