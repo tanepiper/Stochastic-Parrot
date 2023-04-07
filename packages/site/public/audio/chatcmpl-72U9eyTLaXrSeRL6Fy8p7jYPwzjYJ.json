@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72U9eyTLaXrSeRL6Fy8p7jYPwzjYJ",
+  "object": "chat.completion",
+  "created": 1680826926,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 309,
+    "total_tokens": 316
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A facelifting, also known as a rhytidectomy or face lift, is a type of cosmetic surgery procedure that aims to give a more youthful and rejuvenated appearance to the face. This is typically achieved by tightening and lifting sagging skin, removing excess fat deposits, and reshaping the facial contours. The overall goal of a facelift is to improve the signs of aging in the lower two-thirds of the face.\n\nFacelifting usually targets areas such as:\n\n1. Sagging skin in the cheeks\n2. Excess skin and fat around the jowls\n3. Nasolabial folds (deep creases running from nose down to mouth)\n4. Marionette lines (lines extending downwards from mouth corners)\n5. Loose neck muscles or \"turkey wattle\"\n6.Anchor points(complete submuscular aponeurtic system)\n\nThere are several techniques for performing facelifts including traditional face lifts, mini-face lifts or S-lifts, deep plane facelifts among others which differ depending on incision types made(lower/upper blepharoplasty), working layers targeted(smoke stack technique) etc . The right method will depend on individual needs/preferences.\n\nThe recovery time following a face lift varies but generally takes between 2-4 weeks for swelling & bruising resolve while full healing can take few months.The results generally last about 7-8 years subject to various factors like consistent skincare regimen , sun-protection encouraging healthy lifestyle habits(minimizing alcohol intake refrain from smoking)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
