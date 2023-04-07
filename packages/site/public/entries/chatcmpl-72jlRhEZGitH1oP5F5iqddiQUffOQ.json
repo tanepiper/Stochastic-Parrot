@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72jlRhEZGitH1oP5F5iqddiQUffOQ",
+  "object": "chat.completion",
+  "created": 1680886929,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 201,
+    "total_tokens": 208
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Botulinum toxin or botox is a neurotoxin derived from the bacterium Clostridium botulinum. It works by blocking nerve signals that cause muscles to contract, thereby causing relaxation and temporary paralysis of the targeted muscles.\n\nIn cosmetic applications, botox injections are used primarily for the treatment of facial wrinkles - mainly on the forehead and around the eyes (crow's feet). By preventing muscle contractions in these areas, botox can help reduce or eliminate fine lines and wrinkles over time.\n\nApart from cosmetic purposes, botulinum toxin also has therapeutic uses, such as treating chronic migraine headaches, excessive underarm sweating (hyperhidrosis), specific eye disorders like strabismus (crossed eyes) and blepharospasm (eye twitching), spasms in neck muscles (cervical dystonia), bladder dysfunction due to overactive bladder or detrusor sphincter dyssynergia, spasticity caused by conditions like cerebral palsy or multiple sclerosis."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
