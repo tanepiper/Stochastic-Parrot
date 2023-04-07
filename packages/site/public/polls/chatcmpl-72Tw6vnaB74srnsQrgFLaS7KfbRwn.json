@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72Tw6vnaB74srnsQrgFLaS7KfbRwn",
+  "object": "chat.completion",
+  "created": 1680826086,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 50,
+    "total_tokens": 102
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would you want as a roommate?\",\n  \"answers\": [\n    \"Sherlock Holmes\",\n    \"Winnie the Pooh\",\n    \"Lara Croft\",\n    \"Spider-Man\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
