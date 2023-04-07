@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72iq3TYOp8WhnnKTNqVZG6CYXT2jg",
+  "object": "chat.completion",
+  "created": 1680883371,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 56,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would make the best personal assistant?\",\n  \"answers\": [\n    \"Sherlock Holmes\",\n    \"Tony Stark's J.A.R.V.I.S.\",\n    \"Hermione Granger\",\n    \"Mary Poppins\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
