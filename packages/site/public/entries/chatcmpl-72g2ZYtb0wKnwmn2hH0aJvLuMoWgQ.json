@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72g2ZYtb0wKnwmn2hH0aJvLuMoWgQ",
+  "object": "chat.completion",
+  "created": 1680872615,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To become a lich in Dungeons & Dragons, assuming you are playing as an NPC (non-player character), one must generally follow these steps:\n\n1. Acquire deep knowledge of arcane magic: A would-be lich must be an accomplished spellcaster, typically reaching at least 17th level as a wizard or sometimes as a sorcerer or cleric.\n\n2. Study the dark arts and forbidden lore: The aspiring lich needs to delve into the darkest corners of magical research, gathering information about necromancy and ancient rituals for achieving immortality through undeath.\n\n3. Craft a phylactery: This is the most crucial element for becoming a lich. A phylactery is an artifact capable of holding the soul of its creator when their physical body dies. Crafting such an item requires powerful enchantments and rare materials that can withstand intense magical energy.\n\n4. Prepare your body: Transitioning from mortal to undead demands preparation with certain spells such as \"Create Undead\" cast upon oneself while alive so it will animate your corpse after death. These preparatory spells help protect against decay and strengthen the corporeal form against damage during transformation.\n\n5.Instance\":\"2019-06-12\":\"\"}}\" Perform t\":{\"t\":\"\",\"Insta\":[-600]}ransition ritual\": The final step involves performing a dark ritual whereupon one transfers their life force into thpr\"},{\"text\":\"+\",\"+insumanticipate+\")\"}},{\"tecocesssoul_Examp_Jazeera_Austin_antiaging_serumitutionally_Cana_intelligenceense_encounter_trategical_greeters_voting_Iphigenia_jazziest_deploys_seismic_Hannover_detour_devolver_Lachesis_feasibiity_commitments_failure_signatories_company_Se"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
