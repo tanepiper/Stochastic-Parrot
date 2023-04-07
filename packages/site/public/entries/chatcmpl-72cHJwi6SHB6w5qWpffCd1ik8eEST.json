@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72cHJwi6SHB6w5qWpffCd1ik8eEST",
+  "object": "chat.completion",
+  "created": 1680858153,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A land title search is a process that involves researching and reviewing the documented historical records of a property to determine its legal ownership, as well as any claims or liens on it. This can help potential buyers know if there are any issues associated with the property before they purchase it.\n\nSome of the key components included in a land title search may include:\n\n1. Property description: The legal description of the property's precise location, boundaries, and measurements.\n\n2. Names of previous owners: A chronological list of all individuals who have previously owned the property.\n\n3. Liens and encumbrances: Any financial claims against the property (e.g., mortgages) must be listed in order to provide information about outstanding debts or other issues potentially affecting ownership.\n\n4. Easements and restrictions: Details on how others may legally use portions of your land (e.g., utility companies) or limitations to development rights for protection purposes such as conservation areas.\n\n5. Tax status: Information on whether all taxes related to the property have been paid up-to-date by current owner(s).\n\n6  Legal disputes and judgments - Evidence either pending lawsuits involving claimed rights over part/all parcel interests/options vested among litigants wherein verdicts reached after adjudication hold bearing upon prospective purchasers intending investments; likewise public notice directives resulting from contentious negotiations aimed towards reconciliation between adversaries seeking resolution - e.g., divorces settlements challenging each party’s claim over portion deemed rightfully theirs; debts initiated by creditors presupposing promissory notes originally instigated via demand-type transactions subsequently collapsed/failures/transfers absorbed future expenses eventually tendered unaccountable actions undertaken stemming acquired relationships hitherto binding respective parties hereto indebted thereof consequences attending untoward monetary obligations burdening collateral assets accordingly encumbered transfers"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
