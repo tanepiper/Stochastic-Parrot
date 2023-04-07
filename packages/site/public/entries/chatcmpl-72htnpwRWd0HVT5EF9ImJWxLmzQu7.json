@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72htnpwRWd0HVT5EF9ImJWxLmzQu7",
+  "object": "chat.completion",
+  "created": 1680879759,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few ways to answer this question since there isn't one specific person responsible for the final nail in the coffin of Absolute Monarchy.\n\n1. Revolutionaries and thinkers during the Enlightenment: The decline of absolute monarchy can be attributed to various key events and figures during the late 18th century, particularly during the Age of Enlightenment. Philosophers such as John Locke, Voltaire, and Jean-Jacques Rousseau put forth ideas that questioned traditional authority structures like absolute monarchy and paved the way for more democratic systems.\n\n2. Oliver Cromwell: While England did not fully abandon monarchy until later, Oliver Cromwell is often credited with pushing it along its path toward parliamentary democracy. In 1649, he helped bring about King Charles I's execution following their defeat in English Civil War, established republicanism (in which sovereignty resides with citizens) as an alternative form of government through his time as Lord Protector from 1653-58.\n\n3. American Revolution – One could also argue that leaders behind America’s revolt against British rule played crucial roles eliminating absolute monarchy both on domestic soil by creating a new governmental system based upon popular representation after winning war for independence (1775–83) & exerting influence internationally France saw United States had achieved freedom breaking chains they desired themselves leading them ignite French Revolution pursue similar goals abolish Louis XVI’s reign terror across Europe many nations ensued ultimately resulted downfall monarchies replaced constitutional ones less power held singular individuals more dispersed amongst governing bodies elected populace directly involved decision making process exchanging monarchial society egalitarian reflective people’s desires will.\n\n4 Napoleon Bonaparte - Another possible trigger was when he crowned himself Emperor France following Military Coup ended Directory changed trajectory politics dynamic military campaigns accelerated transformation European landscape dismantling Holy Roman Empire imposing reforms"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
