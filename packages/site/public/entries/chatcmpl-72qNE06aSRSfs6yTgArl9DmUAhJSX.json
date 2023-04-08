@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72qNE06aSRSfs6yTgArl9DmUAhJSX",
+  "object": "chat.completion",
+  "created": 1680912336,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 186,
+    "total_tokens": 193
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The ratio of sugar to water in simple syrup typically ranges from 1:1 to 2:1, depending on the desired sweetness. In a 60 oz mixture, we can calculate each possibility as follows:\n\nFor a 1:1 ratio:\n- You would need equal amounts of sugar and water.\n- Divide 60 oz by 2 to find that you need 30 oz each of sugar and water.\n\nFor a 2:1 ratio (sweeter):\n- You would require twice as much sugar compared to water.\n- Divide the total ounces into three parts (because there are two parts for sugar and one part for water).\n   \n   Which is -> (60 ÷3) \n\n   Now multiply this result by two\n\n    &(20 ×2) = \n   \n\nSo for the sweeter syrup with a ratio of 2:1 , you will have :-\n40oz of Sugar\n20oz Water"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
