@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-737BYKkEHLQ0DBHV7fHvQuZi2UYWE",
+  "object": "chat.completion",
+  "created": 1680976960,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 209,
+    "total_tokens": 216
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Are there any places currently hiring serverless architects?\n\nI cannot provide real-time job listings, but various job search platforms like LinkedIn, Glassdoor or Indeed typically have current openings for Serverless Architects. You can check these websites to find the most updated list of open positions. Additionally, you may consider networking opportunities with companies and professionals in the industry who are looking for serverless architect expertise.\n\nHere are some popular and fast-growing companies that frequently look for new talents and might be interested in a Serverless Architect:\n\n1. Amazon Web Services (AWS)\n2. Microsoft Azure\n3. Google Cloud Platform\n4. IBM Cloud Functions\n5. Tencent Cloud\n\nThese tech giants offer cloud computing services with comprehensive support for serverless architectures; hence it's not unusual to see frequent hiring requirements from them related to this field.\n\nTo stay competitive in your job search as a Serverless Architect, remember also to strengthen knowledge on key technologies such as AWS Lambda, Google Cloud Functions, Azure Functions and OpenWhisk to increase chances of landing a good opportunity soon!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
