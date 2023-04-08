@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-732VTMuzKICUo0ZZWxYlH0TWZJMTN",
+  "object": "chat.completion",
+  "created": 1680958975,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 271,
+    "total_tokens": 278
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "List of personal values:\n\n1. Authenticity: Being true to oneself, maintaining honesty and integrity in all aspects of life.\n\n2. Ambition: A strong desire for success, growth, and achievement in one's personal and professional life.\n\n3. Balance: Striving for harmony, stability, and equilibrium in all aspects of life.\n\n4. Compassion: Showing kindness and empathy towards others; being sensitive to the needs of others at both individual and societal levels.\n\n5. Courage: Facing challenges head-on with daringness even when it feels uncomfortable; standing up for what is right despite potential adversity or risk involved.\n\n6. Creativity: Challenging the status quo through innovative thinking, problem-solving abilities, imagination or artistic talent.\n\n7. Curiosity: Seeking out new experiences, knowledge, ideas as a means for personal growth while remaining open-minded about different perspectives or ways of thinking\n\n8. Determination/Perseverance - Pursuing goals relentlessly despite setbacks or obstacles encountered along the way\n\n9. Discipline/Self-Control - Developing self-regulation habits that help maintain a healthy balance between work et+q34rf-hic>and leisure activities without allowing any one aspect to become overly dominant over our lives\n\n10.Empathy – Identifying with shared human emotions felt by another person thereby fostering deeper connections among people who inhabit this world together"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
