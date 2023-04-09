@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73XOqIgdZtfXZrvRJIRS07Daj8Xxo",
+  "object": "chat.completion",
+  "created": 1681077728,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 171,
+    "total_tokens": 178
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several NASA project codes, where each code refers to a specific mission or program. Some of these project codes include:\n\n1. ISS – International Space Station\n2. JWST – James Webb Space Telescope\n3. SLS – Space Launch System\n4. HLS - Human Landing System (Artemis)\n5. MSL – Mars Science Laboratory (Curiosity Rover)\n6. MER – Mars Exploration Rovers (Spirit and Opportunity Rovers)\n7. MAVEN - Mars Atmosphere and Volatile Evolution mission \n8. OSIRIS-REx - Origins, Spectral Interpretation, Resource Identification, Security-Regolith Explorer asteroid sampling mission \n9 .TESS: Transiting Exoplanet Survey Satellite \n\nHowever, it is important to note that some of these projects are ongoing while others have been completed or retired from operation.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
