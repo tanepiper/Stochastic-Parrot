@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73D9GhokcdLbm3dsWLND9DPBS2Z9O",
+  "object": "chat.completion",
+  "created": 1680999882,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 341,
+    "total_tokens": 348
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Hide and Seek - a classic game where one person hides while the others try to find them.\n\n2. Duck, Duck, Goose - children sit in a circle while one child walks around tapping each on the head, saying \"Duck!\" until they eventually say \"Goose!\", initiating a chase as the chosen \"goose\" tries to catch the original tapper before taking their spot in the circle.\n\n3. Red Rover – two teams line up facing each other with locked arms; members take turns shouting “Red rover, red rover, send [player's name] right over!” The designated player then attempts to break through the opposing team’s chain of locked arms.\n\n4. Tag or Freeze Tag – players run and try to avoid being tagged by whoever is \"it,\"; those tagged become frozen (unable to move) until another player unfreezes them by tagging again.\n\n5. Relay races - can involve different challenges such as running with an egg on a spoon or putting on oversized clothing during each lap\n\n6. Capture The Flag – two teams compete trying to steal each other's flag from opposite ends of playing area without being caught/tagged by opponents\n\n7. Simon Says - follow directions if prefaced with 'Simon says'; ignore otherwise\n\n8.The Floor Is Lava – pretend that any surface other than predetermined ones (e.g., furniture cushions) are lava so participants must stay off actual floor\n\n9.Hopscotch- draw squares/rectangles using chalk outside; toss small object across blocks & hop across skipping designated square/block where objects have landed\n\n10.Musical Chairs / Statues: need music source for both games meaning participant cannot be touching chair when music stops"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
