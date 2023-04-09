@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73VXNMYpt1shWOG2kgqPFWyh089Tj",
+  "object": "chat.completion",
+  "created": 1681070569,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 202,
+    "total_tokens": 209
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "According to the World Health Organization (WHO), the five most common causes of death worldwide as of 2021 are:\n\n1. Ischemic heart disease: This occurs when there is an inadequate supply of blood and oxygen to a part of the heart muscle, leading to damage or dysfunction.\n\n2. Stroke: A stroke happens when blood flow is interrupted in areas within the brain, causing loss of function and potentially severe disability if not treated promptly.\n\n3. Chronic obstructive pulmonary disease (COPD): This group includes several progressive lung diseases that cause difficulty breathing, including emphysema and chronic bronchitis.\n\n4. Lower respiratory infections: These include various bacterial and viral infections affecting the lungs, such as pneumonia or bronchiolitis.\n\n5. Neonatal conditions: It refers collectively to health problems faced by newborns during their first month after birth which could be categorized into three subgroups – preterm births complications; intrapartum related adverse events; and neonatal sepsis/infections"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
