@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73E9Rtksm3b3JefgMRvaGC6Sdu0da",
+  "object": "chat.completion",
+  "created": 1681003737,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 115,
+    "total_tokens": 122
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't enough information given for me to tell if this company is reputable or not. I would recommend researching the company, looking for customer reviews and testimonials, checking their website and social media presence, and seeing if they have any certifications or affiliations that indicate trustworthiness. It might also be helpful to reach out to others who work in the same industry as the company in question for recommendations.\n\nIf you can provide more information about this particular e-commerce partner/supplier (their name or a description of what they do), I may be able to help with further research!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
