@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73Rn0zgCJ5AglPCs8y9a2JuMLGSai",
+  "object": "chat.completion",
+  "created": 1681056162,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 90,
+    "total_tokens": 97
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1) Exercise regularly\n2) Eat a healthy, balanced diet\n3) Limit alcohol consumption\n4) Don't smoke or use tobacco products\n5) Maintain a healthy weight\n6) Get plenty of sleep (7-9 hours for adults)\n7) Find ways to manage and reduce stress levels (practice relaxation techniques like meditation, deep breathing exercises or yoga)\n8) Maintain strong social connections with friends and family \n9-out-of-repository"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
