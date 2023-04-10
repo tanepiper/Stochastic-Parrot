@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73nK42Hq7LyblJajfMkgVdFNcxFIN",
+  "object": "chat.completion",
+  "created": 1681138936,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 14,
+    "total_tokens": 21
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The United Nations was established on October 24, 1945."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
