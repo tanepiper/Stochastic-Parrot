@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73d1aFp2o0FIldVH1PKA2OgMbeSic",
+  "object": "chat.completion",
+  "created": 1681099350,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 309,
+    "total_tokens": 316
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In order to attempt a reconciliation with someone, follow these steps:\n\n1. Reflect on the situation and your role in it: Take some time to think about what happened, how you might have contributed to the conflict or misunderstanding, and what could be done differently in the future.\n\n2. Reach out: Make contact with the person you want to reconcile with – whether through phone call, text message, email, or in-person.\n\n3. Acknowledge your role: Start by acknowledging any mistakes you made or issues for which you are responsible. Even if you believe that most of the blame lies with them, taking responsibility for your actions can pave the way toward healing and rebuilding trust.\n\n4. Give a genuine apology: Offer an honest apology without blaming them or making excuses for yourself. Be sincere and express regret for any pain caused by your words or actions.\n\n5. Open up communication channels: Encourage an open dialogue between both parties so that each person gets a chance to share their feelings about what happened while also listening attentively to each other's perspectives.\n\n6. Be empathetic and compassionate: Try understanding things from their point of view; this will help create empathy on both sides which is essential when attempting reconciliation.\n\n7. Work together towards resolution: Discuss possible solutions moving forward as well as how both individuals can contribute towards those solutions\n\n8.Give it time/: Allow enough space necessary before trying reach out again if things don't go as planned immediately upon initial conversation; sometimes people need more space process emotions events occurred first round talks don t work out"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
