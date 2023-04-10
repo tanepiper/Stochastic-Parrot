@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73oGhIMzciMn57DeMfTR9gXkMe9xU",
+  "object": "chat.completion",
+  "created": 1681142571,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 62,
+    "total_tokens": 114
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these movies would you like to watch tonight?\",\n  \"answers\": [\n    \"1. The Greatest Showman\",\n    \"2. A Star is Born\",\n    \"3. La La Land\",\n    \"4. Bohemian Rhapsody\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
