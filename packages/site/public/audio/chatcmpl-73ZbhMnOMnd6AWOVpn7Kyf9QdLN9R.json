@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73ZbhMnOMnd6AWOVpn7Kyf9QdLN9R",
+  "object": "chat.completion",
+  "created": 1681086213,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "write a script for an advertisement for a music school\n\nTitle: Unleash Your Inner Mozart at Symphony Music School\n\n[Background music begins. Soft and soothing classical piece]\n\nScene 1: [Aerial shot of the elegant exterior of Symphony Music School]\n\nNarrator (V.O): Welcome to Symphony Music School, where our passion is turning your musical dreams into reality.\n\nScene 2: [Close-up shots of various instruments being played elegantly by students]\n\nNarrator (V.O): Our world-class faculty are here to offer you individualized instruction on a wide variety of instruments…\n\nText overlay: Piano, violin, guitar, drums & more!\n\nScene 3: [Interior panorama montage featuring well-lit practice rooms bustling with activity]\n\nNarrator (V.O): …in spacious facilities designed to inspire and foster creativity.\n\nScene 4: [Split screen – Left side shows teachers mentoring different age groups in classrooms; Right side displays various notable composers e.g. Mozart, Beethoven, Bach etc.]\n\nNarrator (V.O): From young prodigies-to-be to seasoned pros fine-tuning their talents - We cover it all! Come learn from the masters that shaped the future musicians around them.\n\nText overlay on left side during split-screen scene:\n\n- Beginners\n- Intermediate\n- Advanced\n\nScene 5: [Montage showing one-on-one lessons with positive interactions between instructors and students] \n\nNarratory(V.O.): At Symphony Music School we cater tailored programs just for you - ensuring steady progress while enhancing your natural flair!\n\nText overlay during montage:\n\nOne-On-One Lessons:\n-Personalized Curriculum\n-Skilled Instructors \n-Flexible Schedules\n\n\n\n                        \n             \n[next slide]:\n\n\n    Special Programs\n        ⁃ Choral"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
