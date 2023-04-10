@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73s0taIST6ppiMgVUUW5eHh1aNTyD",
+  "object": "chat.completion",
+  "created": 1681156967,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 295,
+    "total_tokens": 302
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Dear Neighbor,\n\nI hope this letter finds you in good health and high spirits. I am writing to inform you about the upcoming tree-planting day scheduled for [date] on our street. All residents are cordially invited to participate in this activity.\n\nThe primary objective of organizing such an event is to enhance the beauty of our street, as well as offer several benefits that greenery brings with it; including cleaner air, cooler surroundings and increased home value among others.\n\nWe have obtained permission from local authorities and have selected a variety of trees that will be suitable for planting near the sidewalks without causing any inconvenience in terms of their growth or maintenance.\n\nIn order to make this event a success, we were hoping we could come together as neighbors and plant these trees ourselves. This would not only provide us with an opportunity to mingle with one another but also educate our children about environmental conservation.\n\nWe will gather around 9:00 AM at [meeting point]. Gloves, shovels, saplings and necessary tools will be provided; however, feel free to bring extra tools if available. The plan is to work efficiently so everyone can complete their tasks within just few hours – followed by some refreshments afterwards!\n\nYour participation would mean a lot towards turning our neighborhood greener & healthier! Kindly let me know whether you'll be able to join us by [RSVP date].\n\nLooking forward to seeing you there!\n\nWarm wishes,\n[Your Name]\n[Contact Information (if desired)]"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
