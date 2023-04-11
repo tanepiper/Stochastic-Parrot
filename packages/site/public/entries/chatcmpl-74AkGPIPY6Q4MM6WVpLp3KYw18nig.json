@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74AkGPIPY6Q4MM6WVpLp3KYw18nig",
+  "object": "chat.completion",
+  "created": 1681228972,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 247,
+    "total_tokens": 254
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Legal fees to review a contract can vary widely depending on factors such as the complexity of the agreement, the experience and expertise of the attorney, regional differences in pricing for legal services, and whether you are hiring an individual attorney or a law firm. In general, hourly rates for attorneys can range from $150 to over $500 per hour.\n\nIt's important to note that some attorneys may offer flat-fee packages for particular types of contracts (e.g., residential lease agreements), while others may charge separately for negotiations, revisions, and additional services related to your contract.\n\nTo get an accurate estimate of how much it would cost you to have a lawyer review your specific contract:\n\n1. Identify several potential lawyers or law firms specializing in contract law in your area.\n2. Schedule consultations with these potential lawyers. Many law firms offer free initial consultations so be sure to inquire about this beforehand.\n3.Clariy what their hourly rate is during initial consultation.\n4.Get clear information regarding:billing methods \n5.Request final written quote including any disbursements\n\nAn alternative option if budget is limited could look into online contract review services where they may provide lower prices due it being done remotely but also consider trustworthiness,reviews etc regarding that service provided"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
