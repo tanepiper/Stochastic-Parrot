@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-743FnsM6mt1yKMdOrom6TXmq8os8l",
+  "object": "chat.completion",
+  "created": 1681200175,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 58,
+    "total_tokens": 110
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these activities do you enjoy most?\",\n  \"answers\": [\n    \"Hiking in the great outdoors\",\n    \"Binging TV shows and movies\",\n    \"Exploring new foods and recipes\",\n    \"Reading novels or playing games\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
