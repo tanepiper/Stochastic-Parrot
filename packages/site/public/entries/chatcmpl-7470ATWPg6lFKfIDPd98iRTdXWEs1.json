@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7470ATWPg6lFKfIDPd98iRTdXWEs1",
+  "object": "chat.completion",
+  "created": 1681214582,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some examples of electromagnetic waves include:\n\n1. Radio Waves: They have the longest wavelength and lowest frequency among all types of electromagnetic waves. Radio waves are used in communication systems such as television, telephone, and radio broadcasting.\n\n2. Microwaves: With shorter wavelengths than radio waves, microwaves are primarily used for cooking food in microwave ovens and transmitting information between satellites and communication equipment like cell phones.\n\n3. Infrared Waves: Found just below the visible light spectrum on the electromagnetic wave scale, infrared (IR) radiation is emitted by objects as they absorb heat energy from their surroundings. IR cameras can detect this heat signature to produce thermal images, making them useful in night vision technology or monitoring volcanic activity.\n\n4. Visible Light: A tiny portion of the entire EM spectrum that lies between infrared and ultraviolet wavelengths is what we perceive as visible light, which includes all colors – reds with longer wavelengths at one end followed by orange-yellow-green-blue-indigo-violet before transitioning into ultraviolet range with shorter wavelengths at other end.\n\n5. Ultraviolet Rays (UV): These carry more energy compared to visible light rays; therefore UV radiation can cause harm including sunburns when human skin gets overexposed to sunlight (source). When blocked/minimized by ozone layer on earth's upper atmosphere available forms get classified into three separate classes namely UVA/ B / C depending upon respective ranges within initial section containing these energies themselves collectively forming entire group referred earlier here today specifically plus multiple applications further ahead firstly mention about medical imaging techniques secondly utilized treating various conditions linked bacteria reactivation third following specific cases wherein artificial sources might help conducting experiments come together portray importance growing world full changing demands need capable handling subsequently expand reach coinciding simultaneous process understanding regular care prevention"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
