@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-741NGeSV2va6NGzx1pKh7tzn8RD4z",
+  "object": "chat.completion",
+  "created": 1681192950,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 290,
+    "total_tokens": 297
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Accordion is a musical instrument that belongs to the aerophone family, which also includes other wind and reed instruments like bagpipes and harmonicas. It consists of a central body called the bellows, flanked by two keyboards – one for playing melodies on the right hand and another for accompanying with chords or bass lines on the left.\n\nTo play an accordion, you need to strap it over your chest from both sides so that you can press the keys using individual fingers while simultaneously pumping air in and out of its bellows through movement across your chest. Every time you push down on a key while opening or closing (compressing) the bellows, air passes through designated steel reeds inside it causing them to vibrate; resulting in sound production. The pitch of this emitted sound varies according to selected buttons or keys.\n\nIn terms of technique, there are mainly three categories:\n\n1. Bellow Control: This requires properly coordinating bellow compression with selecting notes/buttons/keys.\n2. Keyboard Technique: This deals with proper finger placement & dexterity on both right- hand melody keyboard and left-hand chord/bass keyboard.\n3.Non-keyboard Techniques : In advanced levels , you may use alternate fingerings,such as ornamentations(trills),percussions,vibratos etc.,using additional up-down movements\n\nBy putting these techniques together into practice,you will be able articulate emotion-evoking melordes,chords,and many more expressions of music!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
