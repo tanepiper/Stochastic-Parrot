@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74FPz5tCSoUGLRN5Lo9QLc8KBbdop",
+  "object": "chat.completion",
+  "created": 1681246935,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 87,
+    "total_tokens": 94
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A high school valedictorian is a student who has the highest cumulative grade point average (GPA) in their graduating class. This student usually delivers a speech known as the \"valedictory address\" during the graduation ceremony, which often includes advice and well-wishes for their fellow graduates. Additionally, being high school valedictorian can have significant benefits in terms of college scholarships, admissions preference, and resume building opportunities."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
