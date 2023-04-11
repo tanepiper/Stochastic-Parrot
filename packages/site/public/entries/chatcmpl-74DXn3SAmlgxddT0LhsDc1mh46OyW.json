@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74DXn3SAmlgxddT0LhsDc1mh46OyW",
+  "object": "chat.completion",
+  "created": 1681239731,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 292,
+    "total_tokens": 299
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a set answer for how much someone should give in charity, as it depends on the individual's financial situation, beliefs, and personal values. However, giving to charity is an essential component of many religious and ethical systems.\n\nFor instance, in Islam, one of the Five Pillars is Zakat (almsgiving), which requires Muslims to give 2.5% of their wealth annually to those in need. Similarly, Christianity encourages tithing or donating about 10% of one’s income to church or charities.\n\nFor non-religious individuals or people belonging to other faiths who are interested in charitable giving might consider following common guidelines like these:\n\n1. Give whatever you can: Some may not have enough money to spare but might instead choose volunteering time or assisting local charitable organizations directly.\n \n2. Percentage-based approach: Choosing a fixed percentage (e.g., 1-10%) based on annual income could be another option that makes budget planning easier while still being generous.\n\n3. Effective altruism: This philosophy prioritizes donating your resources— both money and time—where they will make the greatest impact; some proponents allocate extra funds into saving for future donations when even more effective opportunities arise.\n\nUltimately deciding how much you'd like to donate will vary according on various factors including preferences around passion projects/charities supported by person themselves etc.; adjusting type/targeted outreach campaigns featuring personalized donation requests aimed at encouraging increased generosity among potential donors*"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
