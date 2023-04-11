@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73xp1wk1XpSxm5mcEpp9CU6TDIZJ8",
+  "object": "chat.completion",
+  "created": 1681179295,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 319,
+    "total_tokens": 326
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If you're struggling to remember your Gmail password, it's easy to recover it. Just follow these steps:\n\n1. Open your Gmail login page either on a computer or mobile device.\n2. Click on the \"Forgot password?\" link beneath the \"Password\" field.\n3. Enter your email address and click \"Next.\"\n4. Google will prompt you with various methods for recovering account access, depending on which options you have associated with your Gmail account of contact information or previous interactions.\n\nSeveral recovery methods are available:\n\na) Recovery via phone number:\nIf you had a linked phone number with your Gmail account, Google will send a verification code as an SMS text message to that phone number.\n\nb) Recovery through alternate email address:\nGoogle might give the option to send a recovery mail containing verification details and instructions on how to reset your password at an alternate email address associated with the account.\n\nc) Security questions: \nSometimes, users can recover their passwords by answering security questions they created when first setting up their accounts.\n\nd) Account creation date or related emails:\nIn some cases, Google may ask about details like when was the last time you accessed this account? What were some labels/folders in there?\n\n5. Follow any provided steps during one of these recovery processes.\n6- Verify yourself according locationManager prompts\n7- Create a new strong Password if prompted after successful verificación process\n\nWhen creating a new password try using combinations/mixtures alphanumeric characters , special characters ,(uppercase.symbols ) \n\nRemember always keep safe backups good hold onto personal records  from_passwords; AvoidSharingThemWithOthers"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
