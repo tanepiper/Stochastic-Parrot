@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-747xgnEKPhSLdThux2JvwBteaY6PV",
+  "object": "chat.completion",
+  "created": 1681218272,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 320,
+    "total_tokens": 327
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Norway has compulsory military service for both men and women, although the country mainly recruits volunteers to serve in its armed forces. Everyone who is physically fit and aged 19-44 years must complete duty during their lifetime, whether in full-time or part-time service.\n\nThe actual length of compulsory military service varies depending on several factors such as one's role, specialization area, branch of the military etc. The typical duration of full-time basic training for enlisted troops usually ranges from 6-12 months with possible additional supplementary courses that may extend it up to two years.\n\nAfter completing their initial mandatory service period, citizens can choose between entering reserve forces or signing up as a regular professional soldier within specific branches like Army Rangers (typically known as Jegertruppen), special forces (FSK/HJK) among others with longer commitments demanding increased monthly salaries.\n\nOn top of these roles available arrangements related towards civil conscription also exist aiding government agencies such United Nations peacekeeping missions abroad materializing through specialized units devised uniquely by Norway Government Foreign Aid organizations – DDI-GAFTA partnership program encompassing participation over various humanitarian crisis regions worldwide offering extended capacities re-enforcement personnel protecting aid workers/resources during transitory-reinforcements while they conduct relief works under harsh/compromised security-administrative circumstances enabling effective post-crisis rehabilitation measures upon return back home soil ultimately preserving national interests' stake values each time accordingly pursuing defence diplomacy strategies collectively upgrading constitutional social welfare guarantee levels overall continual commitment term fulfilling responsibly carried legacy heritage ahead just like those ancestors predecessors did proudly excel accomplished righteously symbolically respectively together beyond simply maintaining\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
