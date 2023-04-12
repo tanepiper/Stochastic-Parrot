@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74OmuONHiQEwdfXl457LxSbY3P4eC",
+  "object": "chat.completion",
+  "created": 1681282952,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 243,
+    "total_tokens": 250
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, elephants cannot get drunk from fermented fruits. Although many people believe that elephants consume large quantities of naturally fermenting fruit like marula and get intoxicated, studies have shown that this is unlikely.\n\nDr. Steve Morris conducted a study debunking the myth that African elephants become intoxicated on the ripe fruits of marulas (Sclerocarya birrea). He calculated that an elephant would need to consume about 1,400 pieces of extremely fermented fruit in one meal (approximately 7% ethanol) to reach a blood-alcohol level indicative of being drunk.\n\nA significant amount of fruit consumption at such high alcohol content is highly unlikely for several reasons:\n\n1. Fermentation in wild conditions usually results in lower alcohol content than what can be obtained through human beer or wine production.\n2. The rate at which an elephant metabolizes ethanol would prevent it from reaching intoxicating levels even with considerable consumption.\n3. Elephants are more selective eaters and typically avoid consuming overly ripe or fermenting fruits as part of their diet.\n\nOverall, there is no solid evidence for natural drunkenness among elephants due to eating fermented fruits like marula trees' products; hence the idea remains largely anecdotal folklore rather than scientifically verified fact."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
