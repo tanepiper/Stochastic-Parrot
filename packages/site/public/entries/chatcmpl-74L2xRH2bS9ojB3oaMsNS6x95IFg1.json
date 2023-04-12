@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74L2xRH2bS9ojB3oaMsNS6x95IFg1",
+  "object": "chat.completion",
+  "created": 1681268571,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 89,
+    "total_tokens": 96
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is important to provide a citation when you quote, paraphrase or summarize someone else's work to give proper credit, acknowledge the original author and avoid plagiarism. Also, citations help your readers find the sources you used so they can verify your claims and study further if they are interested in the topic. Citation allows academic integrity by providing evidence of research done on a subject, which helps establish credibility and trustworthiness for both authors and their audience."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
