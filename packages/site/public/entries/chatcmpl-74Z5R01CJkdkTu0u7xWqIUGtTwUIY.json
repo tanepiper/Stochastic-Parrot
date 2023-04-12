@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74Z5R01CJkdkTu0u7xWqIUGtTwUIY",
+  "object": "chat.completion",
+  "created": 1681322541,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 262,
+    "total_tokens": 269
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Material design is a design language created by Google in 2014. It combines the classic principles of good design with innovations in technology and science to create a visually appealing interface for users. The main idea behind this movement is to provide better user experiences on various devices, from smartphones to laptops and tablets.\n\nMaterial Design Principles:\n1. Material as metaphor: This concept suggests that the designs should mimic real-world materials (such as paper, ink, shadows) while still embracing digital capabilities that extend beyond physical possibilities.\n\n2. Bold yet intentional: Visual elements like colors, typography, images should be used boldly but intentionally so that they draw attention without overpowering the content.\n\n3. Motion provides meaning: Animation and movement can help guide users through an interface or inform them about interactions within an application.\n\n4 .Flexible layout system: Grid-based layouts make it easier to adapt designs across different screen sizes and orientations while keeping a consistent structure in place.\n\n5 .Use of depth effects such as shading and shadows: Depth cues are included to signal hierarchy among elements creating visual separation between surfaces on your app or website\n\n6 Color palette selection based on specific color harmony rules makes navigation more intuitive\n\n7 Icons play a crucial role in conveying important actions/information at-a-glance; therefore material icons are designed based on its simplicity ensuring accessibility guidelines"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
