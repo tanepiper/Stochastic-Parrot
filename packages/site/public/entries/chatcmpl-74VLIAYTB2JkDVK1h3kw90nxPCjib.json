@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74VLIAYTB2JkDVK1h3kw90nxPCjib",
+  "object": "chat.completion",
+  "created": 1681308148,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several reasons why one might believe that the Illuminati still exists today:\n\n1. The historical existence of the group: The Bavarian Illuminati, an Enlightenment-era secret society founded in 1776 by Adam Weishaupt, aimed to promote rationalism and liberalism among its members. Although it was outlawed in 1785 due to concerns about its influence on politics and religion, some believe that its ideas were simply driven underground.\n\n2. Influence of symbols: Several mainstream symbols allegedly associated with the Illuminati can be found throughout popular culture and architecture (e.g., All-seeing eye/pyramid symbol on US dollar bill), which may suggest their continuing presence or influence.\n\n3. Presence of secret societies: Many other secret groups – such as Freemasons, Skull & Bones Society at Yale University, and Bohemian Grove club – exist today with powerful connections within the upper echelons of government and business worldwide; these groups might give credence to an active underworld network similar to the supposed structure of the Illuminati.\n\n4. Conspiracy theories tying major events to alleged \"Illuminati control\": Whether it's global political turmoil or economic crises attributed to specific organizations like George Soros' Open Society Foundations or Bilderberg meetings/group actions filled with elites deciding world affairs secretly behind closed doors indicating a potential for continued implementation from past orders.\n\n5.remote digital surveillance like social media sites where people willingly provide information about themselves only strengthens those who argue for this limitless percolation!\n\nHowever - It is essential when considering these factors not mistakenly take them as concrete evidence but rather merely suggestions pointing towards conceivable hidden agenda without any definitive smoking gun indicator present proving organization's ongoing function/activity conclusively beyond speculation scrutiny based solely anecdotal hearsay-driven stories dependent loophole saturated leaps logic"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
