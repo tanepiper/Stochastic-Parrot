@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74TaZbDlQrDsFvZDqNQw5UMDGDv9n",
+  "object": "chat.completion",
+  "created": 1681301407,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 13,
+    "total_tokens": 20
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI, I cannot have personal experiences or real emotions."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
