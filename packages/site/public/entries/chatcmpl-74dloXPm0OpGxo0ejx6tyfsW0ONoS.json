@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74dloXPm0OpGxo0ejx6tyfsW0ONoS",
+  "object": "chat.completion",
+  "created": 1681340544,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 249,
+    "total_tokens": 256
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The process of correcting a mistake while knitting is dependent on the type of mistake and how far back in your knitting it occurred. Here are some common mistakes and methods for fixing them:\n\n1. Dropped stitch: If you have dropped a stitch, use a crochet hook to pick up the dropped stitch from the front and pull it through each loop until you reach the current row.\n\n2. Twisted stitches: To correct twisted stitches, knit the affected stitch through its back loop instead of its front loop on your next pass.\n\n3. Missed yarn over (YO): If you missed a YO in your pattern, insert your right-hand needle into the strand between two stitches from front-to-back and place this new \"yarn over\" onto your left-hand needle before continuing with your pattern.\n\n4. Mispurling or mis-knitting: Think about where in these rows did that happen; if close enough just unknit (also called \"tink\"-“Knit” spelled backwards) only those very few rows\n\n5. Mistake several rows down:\n  - For one isolated wrong purl instead of knit directly off to sidecar route with crochet hook route but within same column.\n  guiActive suggestedEdit(Intent=Replace)',\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
