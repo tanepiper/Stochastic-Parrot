@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74KIyXhu3YEnIrhQIYiW2EDZTulae",
+  "object": "chat.completion",
+  "created": 1681265720,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 303,
+    "total_tokens": 310
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Presbycusis, also known as age-related hearing loss, is the gradual decline in hearing ability that occurs as people get older. It typically affects both ears equally and progresses slowly over time. Presbycusis involves changes within the inner ear or cochlea, auditory nerve pathways to the brain or central processing centers of the brain.\n\nPossible causes include:\n\n1. Degeneration of hair cells – these are small sensory structures within the cochlea responsible for converting sound waves into electrical signals that then travel along auditory nerves.\n2. Age-related changes in blood supply to delicate structures in our ears\n3. Accumulated exposure to loud noise throughout life\n4. Genetic factors - some individuals may have a genetic predisposition towards age-related hearing loss\n5. Certain medications which can cause ototoxicity (harmful effects on auditory function)\n6. Chronic medical conditions such as diabetes and cardiovascular diseases might also affect blood supply to your ears\n\nSymptoms of presbycusis include gradual onset with difficulty understanding speech and higher frequencies sounds reduction; often individuals turn up volume levels while watching TV or find conversations challenging by noisy places via background noise interference.\n\nThere currently exists no cure for presbycusis but there are ways you could manage it: wearing digital programmable/analogue button-type behind-your-ear devices considering individual patient preferences/preferences/features usage flexibility will help significantly improving quality daily living activities alongside enhancing audibility thus reducing annoyance factors associated this condition; actively participating rehabilitating programs namely social interactions training complementary accompanying psychotherapy sessions"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
