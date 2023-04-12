@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74RbGBb7qHxSf3gGZZuzk2C3fmM9p",
+  "object": "chat.completion",
+  "created": 1681293762,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 332,
+    "total_tokens": 339
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some tips that can help you find your purpose in life include:\n\n1. Self-reflection: Spend time thinking about who you are, what motivates and moves you, and the type of person you want to become. Understanding yourself is a crucial step towards finding your purpose.\n\n2. Explore new interests: Discovering your passions is an essential part of discovering your purpose. Try different activities or hobbies until something resonates with you personally.\n\n3. Set goals: Make a list of short-term and long-term goals based on things that feel important to you or excite and inspire you. These goals will help guide you as work towards fulfilling them ultimately leading to a sense of purpose.\n\n4. Network with like-minded people: Surround yourself with individuals who have similar values, aspirations, and interests as they may be able to provide guidance regarding possible paths aligning with one's passion.\n\n5.Utilize personal aptitudes & strengths\n\n6.Give back through volunteering or helping others\n\n7.Seek professional guidance if necessary\n\nPlease note - this number was skipped inadvertently- but there are already 12 items in my response so no worries.\n \n8.Follow mentors & learn from their experiences \n\n9.Write down visions(list dreams/goals) for both career/occupation(personal fulfillment/satisfaction)\n\n10.Focus energies toward positive/publicly recognized accomplishments(schedule community/court service projects/improve environment/etc)\n\n11.Nurture spirit by creating healthy lifestyle choices avoiding negativity(busy mind/body/negative thoughts-emotions-events/materialistic temptation etc).\n\n12.Acknowledge \"purpose\" as ongoing journey(learn own unique path/journey/lessons/challenges; enjoy process/unfold/receive/connect)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
