@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74jOQbXz6MTlQffXa6oiAQqUmwDy6",
+  "object": "chat.completion",
+  "created": 1681362158,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 43,
+    "total_tokens": 50
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm not sure what picture you are referring to since I cannot see any images as an AI language model. However, if you could describe the photo or scene, I'd be happy to help with your question."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
