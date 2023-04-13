@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74emp1A3Jv488FBR4tCOP1SlDZ3q6",
+  "object": "chat.completion",
+  "created": 1681344451,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 46,
+    "total_tokens": 98
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these TV shows would you binge-watch first?\",\n  \"answers\": [\n    \"Game of Thrones\",\n    \"Breaking Bad\",\n    \"Friends\",\n    \"Stranger Things\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
