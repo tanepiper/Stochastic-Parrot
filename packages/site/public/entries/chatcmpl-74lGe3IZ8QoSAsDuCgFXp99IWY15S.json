@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74lGe3IZ8QoSAsDuCgFXp99IWY15S",
+  "object": "chat.completion",
+  "created": 1681369364,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 311,
+    "total_tokens": 318
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It's not uncommon for people to feel like others don't understand or appreciate them, particularly when they're experiencing stress or facing challenges in their lives. There could be various reasons why you may feel misunderstood:\n\n1. Communication issues: If you have a hard time expressing your feelings and thoughts articulately, it can lead to misunderstandings.\n\n2. Personality differences: People have different personalities and ways of interpreting emotions, which can make it difficult for some individuals to relate to one another.\n\n3. Social norms: Some might subconsciously suppress certain aspects of themselves due to societal expectations, leading them to believe that other people won't accept who they are.\n\n4. Fear of vulnerability: Opening up about personal struggles and emotions requires vulnerability; if someone is afraid of being hurt or judged by sharing their experiences, they might hold back from connecting with others deeply enough for authentic understanding.\n\n5. Emotional intelligence: Some people simply do not possess the emotional intelligence necessary to empathize with others effectively, making it more challenging for them to understand another person's feelings truly.\n\n6.“Ingroup-Outgroup” phenomenon (Us vs Them): People often perceive other groups as fundamentally different from themselves & thus may interpret actions differently\n\nTo enhance connections and promote understanding within relationships:\n\n1) Take time genuinely express yourself—clearly articulate your thoughts & experiences\n2) Actively listen—Pay complete attention when listening & avoid interrupting\n3) Establish open communication channels where everyone feels comfortable expressing themselves without fear judgment\n4) Seek feedback about how viewed/understood by those around"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
