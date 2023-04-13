@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74kKZOuzaAOl0LmIGXGR7kM3eJbGY",
+  "object": "chat.completion",
+  "created": 1681365763,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 58,
+    "total_tokens": 65
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "That could be due to various reasons such as a change in air pressure, changes in temperature, congestion or blockage of the Eustachian tubes which connect your middle ear and throat, and sometimes even allergies. It is essential to consult a healthcare provider if this persists or becomes severe."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
