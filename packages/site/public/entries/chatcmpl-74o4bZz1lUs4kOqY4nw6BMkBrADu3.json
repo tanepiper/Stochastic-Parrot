@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74o4bZz1lUs4kOqY4nw6BMkBrADu3",
+  "object": "chat.completion",
+  "created": 1681380149,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It seems that there was some confusion with your request. The data you're looking for may not be available at the moment. Please provide more context or specific details about the information you need, and I will do my best to assist you."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
