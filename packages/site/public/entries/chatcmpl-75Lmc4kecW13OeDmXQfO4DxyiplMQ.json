@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75Lmc4kecW13OeDmXQfO4DxyiplMQ",
+  "object": "chat.completion",
+  "created": 1681509730,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 337,
+    "total_tokens": 344
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some popular tourist attractions in Utah include:\n\n1. Zion National Park: Known for its massive sandstone cliffs, narrow canyons, and stunning landscapes.\n\n2. Bryce Canyon National Park: Famous for its unique geological formations called hoodoos, which are tall spires of rock formed by erosion.\n\n3. Arches National Park: Home to more than 2,000 natural sandstone arches including the famous Delicate Arch.\n\n4. Capitol Reef National Park: Offers a variety of outdoor activities such as hiking, biking, and scenic drives through colorful geological features like monoliths and domes.\n\n5. Canyonlands National Park: Features vast expanses of dramatic desert landscape with mesas, buttes, and deep river canyons carved by the Colorado River.\n\n6. Monument Valley Navajo Tribal Park: Iconic red-rock formations on Navajo land that have been featured in many movies and commercials; visitors can take self-guided or guided tours through the park's scenic views.\n\n7. Great Salt Lake & Antelope Island State Park: The largest saltwater lake in the western hemisphere is home to diverse wildlife including bison and antelope; visitors can explore its beaches or spend time kayaking or sailing on-site boating facilities offered at Antelope Island State park.\n\n8. Sundance Resort Village & Ski Area near Provo city is ideal both winter skiing/snowboarding activity destination & summer mountainous recreational place visits\n\n9.Salt Lake City- you may visit Temple Square (the headquarters of Mormon Church), Utah Museum Fine Arts(UMFA)\n\n10.Bonneville Salt Flats - A unique geological area known for land-speed racing events organized there during dry season"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
