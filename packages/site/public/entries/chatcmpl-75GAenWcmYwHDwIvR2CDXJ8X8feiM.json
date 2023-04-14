@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75GAenWcmYwHDwIvR2CDXJ8X8feiM",
+  "object": "chat.completion",
+  "created": 1681488156,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 265,
+    "total_tokens": 272
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Use a tripod: A tripod ensures stability and keeps the camera in place to prevent shaky footage when shooting a video.\n\n2. Keep your movements steady and slow: Sudden or jerky movements can cause shakiness in your video, so make sure to move slowly when changing angles or panning across a scene.\n\n3. Use image stabilization features: Many cameras have built-in image stabilization features that help reduce camera shake. Make sure these settings are enabled before you start shooting.\n\n4. Hold the camera correctly: Hold the camera with both hands, using one hand under the lens for support and keeping your arms close to your body for added stability.\n\n5. Keep low shutter speeds if possible: A faster shutter speed can decrease ISO levels but may add more jittery effect during movement, which could increase overall shakiness of the footage.\n\n6. Weighted stabilizers/gimbals : Using weighted gimbals/stabilisers attach to your DSLR or mirrorless cameras can provide steady shots even in motion\n\n7.Experiences - practice will train up brain & muscle memory , leading you moving smoother after some time practicing filming .\n\n8 Post processing/Stabilization software options like Adobe Premiere Pro's 'Warp Stabilizer' feature allows adding smoothness post-production by analysing then applying correction on shakes/jitters ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
