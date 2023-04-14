@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75DNkXxVjGSdhifmjVirlGUKi1aFg",
+  "object": "chat.completion",
+  "created": 1681477436,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 142,
+    "total_tokens": 149
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "France is a major health tourism destination due to its high-quality healthcare system, renowned medical practitioners, and upscale resorts that cater specifically to the needs of those who travel for medical treatments. French hospitals and clinics offer advanced procedures such as transplants, oncology treatments, in vitro fertilization (IVF), cosmetic surgeries, orthopedics and dentistry.\n\nAdditionally, France offers various wellness retreats which focus on relaxation and rejuvenation while promoting healing through natural therapies combined with cutting-edge medicine. These spa towns provide professional care within a relaxing environment that encourages well-being.\n\nThe combination of excellent medical facilities at competitive prices coupled with a top-notch recuperative environment makes France an attractive option for people who seek quality healthcare overseas."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
