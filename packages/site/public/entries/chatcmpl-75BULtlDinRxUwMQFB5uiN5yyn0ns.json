@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75BULtlDinRxUwMQFB5uiN5yyn0ns",
+  "object": "chat.completion",
+  "created": 1681470157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "An orgasm headache is a type of headache that occurs during or immediately following sexual activity, particularly during orgasm. Orgasm headaches are typically severe and feel like an intense, throbbing pain often described as being on one side of the head or behind the eye. They can last for several minutes up to a few hours.\n\nOrgasm headaches aren't entirely understood, but they may be due to changes in blood flow and pressure in certain parts of the brain during sexual arousal and climax. Some people might experience them regularly while others may only have one occasionally.\n\nIf you experience recurrent orgasm headaches or if they're accompanied by other symptoms such as loss of consciousness, nausea, vomiting, weakness on one side of your body or changes in vision, it's important to consult with a healthcare professional. This could indicate an underlying health problem requiring further evaluation and treatment. However, isolated incidents without any concerning additional symptoms typically don't pose any significant risk to overall health aside from causing discomfort at the time.\n\nTo prevent orgasm headaches from happening: \n\n1. Be mindful of stress levels. Anxiety can contribute to tension-type headaches which might later turn into libido-induced ones.\n2. Stay hydrated throughout the day.\n3 Maintain regular sleep patterns.\n4 Consider trying over-the-counter nonsteroidal anti-inflammatory medications (such as ibuprofen) prophylactically about 30-60 minutes before engaging in sex (but always follow recommendations on dosing). Please keep this action reserved for once-in-a-while situations instead of establishing it as routine behavior; long-term frequent use could produce serious consequences especially considering organ damage potential.\n5 Practice different ways to regulate breathing patterns prior/during/after orgasms — check how fast/shallow/deep/frequent inhalations & exhalations occur then"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
