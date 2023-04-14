@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75I2POh5ZkOeU5oesWZvlpadXjngr",
+  "object": "chat.completion",
+  "created": 1681495333,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Australia, also known as the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. The capital city is Canberra and other major cities include Sydney, Melbourne, Brisbane, Perth and Adelaide.\n\nThe official language spoken in Australia is English but there are various indigenous languages from different groups such as Aboriginal people all around the country. Some common greetings used by Australians include \"G'day\" which means \"Good Day,\" \"How's it going?\", or simply \"Hello.\"\n\nAccording to World Bank data from 2019 (prior to COVID-19), Australia has an excellent economy with a GDP growth rate at 1.8 percent annually thanks to its natural resources such as minerals including coal and iron ore that they export globally along with agricultural products.\n\nAustralia has a diverse ecosystem because it's made up of deserts like The Great Victoria Desert found in central South West Region stretching more than 220 thousand square miles; forests like Daintree Rainforest north-east coast Queensland where you can find many unique plants only native here due their isolation; mountains such Mt Kosciuszko standing over two kilometers high situated southeast New South Wales area near border between Victoria territory just mention few examples within vastness landfalls down under continent itself consist larger mainland Tasmanian Island off lower east side plus hundreds included Greater Barrier Reef Archipelago North Eastern Shoreline surrounding by Pacific Ocean Eastwise Indian oceans Southeast direction Antarctic Temperate Clime Southern Property Lines belongs Australian people among them live approximately 25 million inhabitants most whom urbanized areas abroad countryside.\n\nSome interesting facts about Australia may include:\n\n- It boasts some famous landmarks: Sydney Opera House being one top visited international tourist attractions followed closely Bondi Beach coastal shores"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
