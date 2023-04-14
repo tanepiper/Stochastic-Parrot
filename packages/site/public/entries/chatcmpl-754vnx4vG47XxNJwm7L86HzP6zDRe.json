@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-754vnx4vG47XxNJwm7L86HzP6zDRe",
+  "object": "chat.completion",
+  "created": 1681444951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 209,
+    "total_tokens": 216
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The feeling of being done with something is usually accompanied by a sense of accomplishment, relief, and satisfaction. This emotion may arise when you complete a challenging project, reach a long-sought goal, finish an arduous task, or end a difficult situation.\n\nCommon feelings and emotions associated with being done with something include:\n\n1. Accomplishment: A sense that you have achieved something significant through your efforts.\n2. Relief: Feeling less stress or anxiety upon completion of the task at hand.\n3. Satisfaction: Enjoying the knowledge that you've given your best effort to achieve what you set out to do.\n4. Pride: Taking pride in your ability to overcome challenges and succeed.\n5. Gratitude: Appreciating external support or assistance provided by others during the journey toward completion.\n6.Goal achievement- Deriving immense pleasure as earlier aspirations transition into reality\n7.Perseverance- Recognizing personal resilience demonstrated over time despite setbacks\n\nThese emotions can ultimately contribute to increased self-worth and bolster confidence in one's abilities moving forward"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
