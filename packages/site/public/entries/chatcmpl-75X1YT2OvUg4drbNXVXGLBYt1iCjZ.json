@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75X1YT2OvUg4drbNXVXGLBYt1iCjZ",
+  "object": "chat.completion",
+  "created": 1681552940,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 284,
+    "total_tokens": 291
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Geocentrism is the belief that the Earth is the center of the universe, and all celestial bodies - including the Sun, stars, and planets - revolve around it. This concept was prevalent in ancient astronomy and formed the basis of early models of our solar system.\n\nIn these geocentric models, celestial objects were believed to be embedded within a series of transparent concentric spheres. These gradually moved allowing them to orbit independently from one another.\n\nThe Greek astronomer Claudius Ptolemy (AD 100-170) developed a highly detailed mathematical model for calculating positions of celestial bodies based on this concept called \"Ptolemaic System.\" In this system's version of geocentrism, small circles or epicycles connected each planet to its larger sphere causing unusual motions such as retrograde movement.\n\nHowever, as new astrological observations became more accurate over time unreconcilable complexities arose in these geo centric models severely impairing their capabilities as predictive tools. Eventually Polish astronomer Nicolaus Copernicus challenged Geocentrism with his heliocentric theory during AD1500s asserting it rather than Earth needed positioning at center\n\nAs knowledge advanced other astronomers like Galileo Galilei Johannes Kepler Tycho Brahe contributed further support towards Heliocentrism while disproving aspects-of Geoscience Century later Issac Newton ultimately established sun-centered planetary motion utilizing universal Law Gravitation"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
