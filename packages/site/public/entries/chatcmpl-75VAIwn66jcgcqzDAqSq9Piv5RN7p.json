@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75VAIwn66jcgcqzDAqSq9Piv5RN7p",
+  "object": "chat.completion",
+  "created": 1681545794,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 333,
+    "total_tokens": 340
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several potential causes for the headset's microphone to stop working on a PS4, including:\n\n1. Incompatible headset: Not all headsets are compatible with PS4. Consult your headset’s user manual or the manufacturer’s website to determine if your specific model is compatible.\n\n2. Microphone muted: Ensure that the microphone is not muted using a mute button, slider, or switch on your headset or controller.\n\n3. Volume too low: Some microphones have adjustable volume levels – check that it isn't set too low and adjust accordingly.\n\n4. Incorrect system settings: Verify that correct audio input settings have been selected in the PS4 menu by going to Settings > Devices > Audio Devices and selecting “Adjust Microphone Level.” You should see a bar indicating when sound is detected and can adjust its sensitivity level here as needed.\n\n5.Model-specific issues – For some gaming headsets (such as certain Turtle Beach models), you may need to press-and-hold an exact sequence of buttons during power-on- connecting due to possible firmware issues between devices}. Check online forums/supportive threads specifically related failure} any applicable details suggestions steps others identified addressing issue\n\n6.Damaged hardware – Partial broken connector internally compromised cable result unclear sporadic operation connections wear time subject additional stress rotating/. If find of case immediate replacement advised} prevention worse consequences like short circuiting potentially damaging other connected equipment}\n\n7.Software glitch − Sometimes restarting party chat applications clear up temporary software glitches causing disruptions function properly again resetting happens Or simply turning off }\n\n8.Faulty Controller port - possible receiving sufficient transfer due internal physical connection inside utilize different device complete resolution clarifying whether fault exists within initial itself`"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
