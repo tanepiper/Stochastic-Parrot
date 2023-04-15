@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75fRxp9iFYo4bn88nPulTvAOXtiBv",
+  "object": "chat.completion",
+  "created": 1681585329,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 301,
+    "total_tokens": 308
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "You can create a Facebook poll directly in your personal account or on your page, using the following steps:\n\n1. Open Facebook and log in to your account.\n\n2. If you want to create a poll for your personal profile, go to the \"Create post\" section at the top of your timeline or newsfeed.\n\n3. Click on the three horizontal dots (•••) next to \"Add to Your Story\" button in order to expand more options.\n\n4. Select \"Poll.\"\n\n5. Enter a question for your poll by typing it into the text box that says, \"Ask something.\"\n\n6. Add possible answers/additional choices by clicking on \"+ Option\".\n\n7- You can also set an expiration date for when you want the poll results available by selecting “1 Day”, “Never” or “Custom”.\n\n8- Once created you may choose which audience will see and answer it according preferences as with any other type of posts; then press 'post'.\n\nCreating polls has been removed from pages' posting options so instead group posts are commonly used, even more now after they have become popular since most people interact largely within those zones.\n\nTo Create A Group Poll\n\nFirstly make sure Administration rights over targeted category exist complied either due being Admin/Moderator beforehand; otherwise private messages states inconvenience nevertheless asking person hold power seems logical step forward guaranteed response link given prior approval creator's consent just same second approach usually happens unnoticed towards-public rather focused between experts result gained satisfaction served everyone goal achieved highly productive manner"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
