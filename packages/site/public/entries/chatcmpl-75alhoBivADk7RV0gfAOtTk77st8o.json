@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75alhoBivADk7RV0gfAOtTk77st8o",
+  "object": "chat.completion",
+  "created": 1681567333,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 298,
+    "total_tokens": 305
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A passionate worker is an individual who puts their heart and soul into their job, genuinely loves what they do, and is driven by a deep sense of purpose. This person goes above and beyond the call of duty to ensure that their work is done with excellence, strives for constant improvement, and actively seeks ways to contribute positively to their organization or team. \n\nSome key characteristics of a passionate worker include:\n\n1. Enthusiasm: A passionate worker displays enthusiasm in all aspects of their job.\n\n2. Commitment: They are committed to achieving results and reaching goals set by themselves or others.\n\n3. Perseverance: Passionate workers show resilience in difficult situations and are prepared to overcome obstacles.\n\n4. Initiative: Instead of waiting for tasks or direction from superiors, these individuals take initiative in addressing issues proactively.\n\n5. Creativity: These workers think outside the box when solving problems or coming up with new ideas that can improve operations within the company.\n\n6. Collaboration: Passionate employees understand how important teamwork is for success and eagerly join forces with other colleagues when working on projects together\n\n7.Capacity for Growth - Passionate people embrace change willingly as they want continuous growth & learning experience from everything they do professionally;\n\n8.Great ability engagement skills self-motivated fulfilling significant missions build lasting relationships encourage innovation developing improved methods-\n\nSimply put; lovers passionately addicted lives filled inner fire sharp focus excellent execution extreme dedication insatiable hunger accomplishments achieved belief limits inadequate reach higher planes possibility._"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
