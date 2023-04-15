@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75XxhPy5LABPzE4USRKliqOqaygBZ",
+  "object": "chat.completion",
+  "created": 1681556545,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 123,
+    "total_tokens": 130
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Exposure to loud noises repeatedly or constantly can cause damage to the tiny hair cells in your ears, leading to hearing loss. Moreover, it may result in tinnitus (ringing noise in the ear) and difficulty understanding speech. This damage is cumulative over time and typically does not go away.\n\nAvoiding excessive exposure by using ear plugs or headphones, lowering music volume levels, and taking breaks from noisy environments are some ways of preventing the onset of hearing loss due to loud sounds. It might also be beneficial to get regular check-ups on your hearing ability with a professional audiologist if you work consistently around loud noises."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
