@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75kEDnJAz5WTGIJyoTjJDtMVsb8uC",
+  "object": "chat.completion",
+  "created": 1681603697,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 63,
+    "total_tokens": 115
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which superhero has the best fashion sense?\",\n  \"answers\": [\n    \"A. Iron Man's stylish armor\",\n    \"B. Spider-Man's sleek suit\",\n    \"C. Wonder Woman's iconic outfit\",\n    \"D. Black Panther's regal attire\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
