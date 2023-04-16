@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75kThviaagyKobvG31qf3VJc4U1ql",
+  "object": "chat.completion",
+  "created": 1681604657,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The history of the Democratic Republic of Congo (DRC) dates back to prehistoric times, but its modern political and economic systems largely originated during the Belgian colonial period. The following are highlights from that time period through the present:\n\n1870s-1885:\nEuropean interest in central Africa intensified, particularly by Henry Morton Stanley, a British explorer who had embarked on several expeditions into the region. King Leopold II of Belgium established a private company called International African Society for exploration and colonization.\n\n1885:\nAt the Berlin Conference in 1884-85, European powers discussed strategies for dividing up Africa; they eventually granted King Leopold II control over a large area named \"Congo Free State,\" which was later renamed as Belgian Congo.\n\n1892-94: \nThe Belgians implemented forced labor policies due to their rubber trade expansion efforts, resulting in numerous brutalities inflicted on local populations.\n\n1908: \nFollowing international protests against human rights abuses practiced under Leopold's rule in Congo Free State, Belgian Parliament assumed administration of this territory transforming it into a formal colony known as \"Belgian Congo.\"\n\n1940s - Early 1950s\nAfrican Nationalism began to rise throughout colonized nations worldwide. This led some Congolese elites to establish new associations emphasizing demand for more significant involvement in governance affairs within their country.\n\n1960:\nOn June 30th, DRC gained independence from Belgium under Prime Minister Patrice Lumumba and his political party M.N.C.-Lumumba (National Congolese Movement).\n\n1961:\nAfter struggles among leaders over power-sharing agreements contributed by Cold War dynamics plus post-independence instability led Western countries fearing Soviet influence helped orchestrate Lumumba's assassination enabling Joseph Desire"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
