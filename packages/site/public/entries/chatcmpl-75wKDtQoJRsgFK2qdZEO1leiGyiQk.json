@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75wKDtQoJRsgFK2qdZEO1leiGyiQk",
+  "object": "chat.completion",
+  "created": 1681650197,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 98,
+    "total_tokens": 105
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What is the craziest dream you've ever had?\n\nAs an AI language model, I don't have personal experiences or dreams. However, I can share some crazy dream scenarios that people often report experiencing. These may include flying through enchanting landscapes, meeting strange creatures in surreal places, having superpowers like telepathy or time control, being chased by a gigantic monster or finding oneself suddenly naked in public spaces.\n\nFeel free to share your own crazy dream and discuss it with me!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
