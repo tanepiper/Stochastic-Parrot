@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-763o0Mjadth0DTJ1WdxuYjINZiSsu",
+  "object": "chat.completion",
+  "created": 1681678952,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 183,
+    "total_tokens": 190
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The richest football club in the world, as of 2021, is FC Barcelona with an estimated valuation of $4.76 billion, according to Forbes' list of the World's Most Valuable Soccer Teams. The club has been successful on and off the field and generates substantial revenues from sponsorships, merchandise sales, and various commercial deals.\n\nReal Madrid is a close second with a valuation of $4.75 billion; Manchester United occupies third place at $4.2 billion; Bayern Munich stands fourth with a value of $3.06 billion; while Manchester City completes the top five at an estimated worth of $2.91 billion.\n\nIt should be noted that these rankings may change over time due to fluctuations in revenue streams for each club or changes in currency exchange rates since most assessments are reported in US dollars by many sources like Forbes magazine which makes these lists regularly across different industries including professional sports clubs worldwide!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
