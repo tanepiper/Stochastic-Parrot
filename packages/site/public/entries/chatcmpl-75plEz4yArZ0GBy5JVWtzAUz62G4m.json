@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75plEz4yArZ0GBy5JVWtzAUz62G4m",
+  "object": "chat.completion",
+  "created": 1681624964,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several different types of wills, each designed to meet specific needs and situations. The most common types include:\n\n1. Simple Will: This is the most basic type of will, covering general bequests and designating an executor to carry out the deceased's wishes. A simple will typically only addresses one key issue: how a person's assets should be distributed after their death.\n\n2. Testamentary Trust Will: This type of will  involves creating a trust that comes into effect upon the testator's death. Assets are placed in this trust and managed by a trustee on behalf of beneficiaries, usually minor children or loved ones who may not responsibly manage their inheritance if given outright.\n\n3. Joint Will: A joint will is created by two people together (typically spouses), outlining how they want their shared property to be divided upon their deaths . It locks in place decisions for both parties since neither partner can make changes without the other’s consent once one party dies.\n\n4.Holographic Will: Handwritten documents drawn up outside legal services may still work as legally binding last testament—all depending whether someone lives or not!\n5.Living Wills\n\nThe Living Will forms an integral part of advance care directives which account for discrepancies between medical practices today vs at end stages life when patient capacity isn't established due inability communicate sense ways over audio visual signals rendering capable individuals helpless .\n\n6.Reciprocal Wills (Mirror Wills)\n\nReciprocal or mirror wills are often written from same terms; these closely resemble identical twins also known politely as “multiple counterparts”. These instruments understate differences such copies matching elements contained during merger negotiations including court hearings ultimately culminating narrow distinctions surviving separately permanent existence belonging institutional collections throughout succeeding generations carrying forward momentum adopted genealogical records"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
