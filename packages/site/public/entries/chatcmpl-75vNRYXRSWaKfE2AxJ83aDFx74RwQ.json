@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75vNRYXRSWaKfE2AxJ83aDFx74RwQ",
+  "object": "chat.completion",
+  "created": 1681646553,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 289,
+    "total_tokens": 296
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Open the Microsoft Word application on your computer.\n2. Click on “File” in the top left corner of the window.\n3. From the dropdown menu, click on “Options.”\n4. A new window called “Word Options” will open up. On the left side panel, click on “Proofing.”\n5. Under \"When correcting spelling and grammar in Word\" section, look for a checkbox beside \"Check grammar with spelling.\" Make sure it is checked.\n6. You also can check or uncheck other preferences related to proofing as per your needs (for example: show readability statistics).\n7. After adjusting your settings/preferences, click \"OK\" at the bottom of the \"Word Options\" window to save changes.\n\nNow when you type in Microsoft Word and there's a grammatical error detected by its algorithms, they will be underlined with green or wavy lines based on system color scheme like usual red underlines for mis-spellings where available.\n\nYou also could right-click highlighted words/sentences containing errors to see suggested corrections from word automatically or add them into dictionary exceptions if required using offered contextual menu options individually whenever you want.\n\nHowever keep in mind that relying too much upon built-in checkers tool may not provide comprehensive outcomes regarding complex linguistic connotations hence complement their advice by hand-proofreading before finalizing drafts/documents too sometimes because no virtual mechanism including machine learning ones so far went foolproof yet unfortunately!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
