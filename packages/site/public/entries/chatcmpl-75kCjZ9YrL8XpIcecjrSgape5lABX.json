@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75kCjZ9YrL8XpIcecjrSgape5lABX",
+  "object": "chat.completion",
+  "created": 1681603605,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 182,
+    "total_tokens": 189
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am an AI language model, so I do not have personal emotions or a deep place in my heart. However, I can help you with finding songs that might resonate and touch the hearts of other people.\n\nHere are some suggestions:\n\n1. \"Hallelujah\" by Leonard Cohen\n2. \"Imagine\" by John Lennon\n3. \"Let It Be\" by The Beatles\n4. \"Bridge Over Troubled Water\" by Simon & Garfunkel\n5. \"Heroes\" by David Bowie \n6. \"Angel\" by Sarah McLachlan \n7. \"What A Wonderful World!\" By Louis Armstrong \n8. \"(Sittin' On) The Dock Of The Bay\" By Otis Redding \n\nKeep in mind these are just some examples, and there is a vast variety of music out there for different tastes and emotions that may evoke feelings in someone's heart!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
