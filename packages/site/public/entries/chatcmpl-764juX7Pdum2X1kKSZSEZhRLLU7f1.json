@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-764juX7Pdum2X1kKSZSEZhRLLU7f1",
+  "object": "chat.completion",
+  "created": 1681682542,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 216,
+    "total_tokens": 223
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Eskişehir is a city in northwestern Turkey that lies about 233km (145 miles) southwest of Ankara and roughly 330 km (205 miles) southeast of Istanbul. It is the capital city of Eskişehir Province, situated at an altitude of approximately 784 meters (2,572 feet). This vibrant university town borders the regions Bilecik to the northwest, Kütahya to the south, Afyonkarahisar to the southeast, Ankara to the east/northeast.\n\nEskişehir sits along Porsuk River banks and has many pedestrian-friendly parks such as Kent Park and Sazova Science Art & Cultural Park. The city features historical sites like Odunpazarı Evleri (Odunpazarı Old Houses), annual cultural events like Eskişehir International Festival, educational institutes like Anadolu University, and various other attractions.\n\nAdditionally known for its traditional meerschaum pipe artistry which uses special sepiolite from neighboring mines for carving elaborate designs into smoking pipes."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
