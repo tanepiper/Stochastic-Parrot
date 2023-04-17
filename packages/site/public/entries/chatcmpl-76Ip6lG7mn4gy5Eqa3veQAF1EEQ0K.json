@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76Ip6lG7mn4gy5Eqa3veQAF1EEQ0K",
+  "object": "chat.completion",
+  "created": 1681736680,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 320,
+    "total_tokens": 327
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hugh Lawson Shearer was the third Prime Minister of Jamaica, serving from 1967 to 1972. He was also a trade union leader and one of the founding members of the Jamaican Labour Party (JLP). Born on May 18, 1923 in Martha Brae, Trelawny Parish, he grew up poor and worked hard for his education. He began his political career in the early stages of self-government for Jamaica and played an important role throughout its struggle for independence.\n\nShearer started working as a journalist but eventually turned his attention towards union activism. He became actively involved with the Bustamante Industrial Trade Union (BITU), where he demonstrated exceptional leadership skills which helped him gain prominence within both – BITU and JLP.\n\nIn April 1953, Shearer made history by becoming Jamaica’s first Island Supervisor (Jamaica-wide Secretary) at just age thirty - this underlined that bigger things were yet to come from this rising star.\n\nNow left with little doubt over what direction life would take next; Hugh climbed steadily up ranks until finally occupying position as Prime Minister upon retirement from Alexander Bustamante founder Opposition Leader Sir Donald Sangster room him sworn May eighteenth Nineteen sixty-seven that being fourth decade young country recognize need new generation power invigorated ideals stood alongside those old guard encouraged people work toward improving development economy prioritized securing foreign investment expanding industry infrastructure well social programs healthcare reform order accommodate growth\n\nAlthough faced several domestic challenges during tenure popular figure represented hope today's leaders aspire embody certainly fitting testament accomplishments hold large part thanks example set own rise prominence"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
