@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76PLdibw6a963Nv33hwhl6pGys8cg",
+  "object": "chat.completion",
+  "created": 1681761761,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 59,
+    "total_tokens": 66
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Russian word for \"hello\" is \"Здравствуйте\", which is pronounced like \"Zdravstvuyte\". A less formal and more colloquial way to say hello in Russian would be \"Привет!\", which is pronounced like pree-vyet."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
