@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76FyyVQjMu6aqzunI1UFbzuK6aqpO",
+  "object": "chat.completion",
+  "created": 1681725760,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Sickle cell anemia is a genetic disorder that affects the red blood cells, causing them to take on a sickle shape instead of their normal round structure. In this condition, some of the oxygen-carrying hemoglobin molecules get distorted and form abnormal hemoglobin S (HbS) rather than regular hemoglobin A (HbA). This abnormal HbS causes the red blood cells to become rigid and sticky.\n\nWhen people inherit one copy of the HBB gene with a mutation for sickle cell anemia from each parent, they have two copies of genes carrying mutated instructions for producing HbS. As a result, these individuals develop sickle cell anemia.\n\nSome common symptoms that indicate someone may have sickle cell anemia include:\n\n1. Anemia: Shortage of healthy red blood cells can lead to fatigue, weakness, and paleness due to reduced oxygen supply.\n2. Frequent infections: As sickle-shaped red blood cells damage spleen function making it less able to filter bacteria effectively.\n3. Pain episodes (also called \"pain crises\"): Occur when clumped together sickled RBCs block blood flow in small vessels leading sudden pain through various parts body\n4 .Swelling in hands or feet: Blocked blood flow leads fluid accumulation extremities known as dactylitis affecting infants toddlers primarily \n5.Jaundice eye whites &amp;skin turns yellowish due rapid breakdown haemoglobins processed liver excreted bile which accumulates system if not cleared rapidly enough\n\nDiagnosis : There are several test available diagnosing including Complete Blood Count Based(mb), Hemoglobin Electrophoresis(HBE),and others.Genetic counselling also offered carrier screening especially important high-risk populations ancestry endemic region"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
