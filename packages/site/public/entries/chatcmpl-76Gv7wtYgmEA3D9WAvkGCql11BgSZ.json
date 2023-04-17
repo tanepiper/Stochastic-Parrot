@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76Gv7wtYgmEA3D9WAvkGCql11BgSZ",
+  "object": "chat.completion",
+  "created": 1681729365,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 28,
+    "total_tokens": 35
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, but I cannot directly access information about specific individuals. Please let me know if there's any other way I can help you."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
