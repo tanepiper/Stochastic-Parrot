@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76QHeSGzOOxzSEEplLMtZeNxTj6Hl",
+  "object": "chat.completion",
+  "created": 1681765358,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to rate the top Indian schools because there are various criteria like campus size, curriculum, quality of education, faculty experience and several other parameters that must be taken into account. Each individual might have different preferences when choosing a school for their child.\n\nHowever, some of the well-known and highly reputed schools in India include:\n\n1. The Doon School - Dehradun: Established in 1935, this all-boys boarding school is renowned for its academics and extra-curricular activities.\n\n2. Rishi Valley School - Chittoor: Known for its focus on holistic development of students through academic excellence and social responsibility initiatives.\n\n3. Mayo College Girls' School - Ajmer: Established in 1988 by Maharana Mewar Foundation as a sister institution to Mayo College Boys’ School.\n\n4. Bishop Cotton Boy's & Girl’s Schools – Bangalore: Founded by Rev S T Pettigrew in 1865 with an emphasis on strong educational values and discipline.\n\n5. Welham Girls' High School - Dehradun: An all-girls residential school located at the foothills of the Himalayas with an aim to promote intellectual curiosity among young girls.\n\n6. Shri Ram School – New Delhi/Gurgaon/Moulsari/Ara-vali : Established under the ageis of Shri EducARE Limited offering world-class progressive learning environment grounded within Indian roots built around personal discovery\n\n7.St.Kabir Public Scools – Chandigarh :With motto “Perfection Lies In All Work”,this institute founded by Mr.J P Singh believe in imbibing basic cultural heritage along with modern technologies \n\nRemember that these rankings may vary depending on various benchmarks set while determining rankings such as infrastructure or outcomes from pupils"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
