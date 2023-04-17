@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76RDVVPuZoRmwP4aqTmDmSJaCWDCq",
+  "object": "chat.completion",
+  "created": 1681768945,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 213,
+    "total_tokens": 220
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to accurately estimate what percentage of AI-generated content we consume, as AI-generated content can be found in various forms and industries. Such content includes written articles, videos, music, social media posts, virtual assistants' responses and recommendations curated by algorithms on platforms like YouTube or Netflix.\n\nIn some areas such as news agencies using AI to draft simple financial reports or sports updates, stock photography websites employing machine learning techniques for analyzing their database; the adoption rate may be relatively high. However when it comes to creative work where human emotions are much more nuanced (e.g., features stories), impact of AI would still not that profound\n\nFurthermore, many people might not even be aware that they're consuming AI-generated material because these contents blend with other works seamlessly.\n\nSo while estimating a specific percentage is challenging at this point given rapidly changing landscape and increasing sophistication of tools being developed all around world (making way into mainstream industry) we do know about presence artificial intelligence driven processes within our daily consumption moving ahead its safe assume will only keep on growing higher being an increasingly larger portion."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
