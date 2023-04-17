@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76BIIU4LWp544tL13WOklHDrcysjU",
+  "object": "chat.completion",
+  "created": 1681707738,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 307,
+    "total_tokens": 314
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The proper running form is crucial to maximizing performance and minimizing the risk of injury when running. Here are some tips for maintaining good running posture:\n\n1. Head: Keep your head up and look ahead, not down at your feet. Your head should be in line with the spine, creating a straight line from your ears to your shoulders.\n\n2. Shoulders: Keep your shoulders relaxed and slightly back (not rounded or hunched). Avoid tensing or lifting them toward your ears while you run.\n\n3. Arms: Bend your arms at a 90-degree angle at the elbow and pump them forward and backward in sync with the opposite leg stride rather than side-to-side across the body.\n\n4.ddddddddChest: Lift chest, keeping it open and tall – imagine being pulled upward by a string attached to an article itemizing key pointers!\n\n5.ddddddHips: Position hips under the torso to maintain balance throughout each step without leaning too far forward or backward.\n\n6.dFootstrike/LandingddTurnover/Stride rate dhould rmidfootnd areas odocus one allowing quicknning efforcrease stride cpacity tonce directiOver steg thoward toe tctorhe contact ptimeterh g insteantry\n\n7.Toastorrughylightlreate,\n\n8.Kneesd ow dingratectlynsate takeoff ppace adduce arm sdypochrckwise point would illaterraial plather-variindinath jointure ddthereto anywRun nin parallann!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
