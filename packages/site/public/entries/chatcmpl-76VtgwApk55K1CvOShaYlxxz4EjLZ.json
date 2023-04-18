@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76VtgwApk55K1CvOShaYlxxz4EjLZ",
+  "object": "chat.completion",
+  "created": 1681786936,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As the largest state in India, Rajasthan has a long and rich history, with influences from several different cultures. The culture of Rajasthan is an amalgamation of various elements like music, dance, art, architecture, food and lifestyle.\n\n1. Music:Rajasthan's traditional music consists of a wide variety of folk songs that often narrate stories from history or mythology or describe everyday life. Some famous styles are Maand (sung to welcome guests), Shekhawati Chang Loor (warrior's song) and Pabuji Ra Lath Gaane (devotional). Musical instruments include the sarangi, kamaycha, dholak,tabela sitar bass guitar ,tabla; which create unique harmony through their tunes.\n\n2. Dance:Dance occupies an important place in Rajasthani culture; there are numerous traditional forms suitable for different occasions/emotions e.g., Ghoomar for marriages/religious practices;a kind of swirling round performed by women etc\n\n3. Art:The art scene in Rajasthan includes painting styles such as miniature paintings known worldwide because they depict scenes/stories on small canvases;, Phad depicting folklore/mythology using natural pigments like plant juices &even Indigo extracted out our modern ways will never appreciate Mandna wall paintings done during festive times. Mehndi application is another meaningful thing you could see while visiting homes where ceremonies related events might be taking venue -young girls' palms adorned bride-to-be wears intricate mehendi designs created afarés .the artistic design creation takes about 4 hours minimum;\n\n4.Handicrafts:Cultural aspects prevail handloom work weaved into textileitems called bandhej sarees & odhnis.Apart these crafts category such figurines animals birds shaped items"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
