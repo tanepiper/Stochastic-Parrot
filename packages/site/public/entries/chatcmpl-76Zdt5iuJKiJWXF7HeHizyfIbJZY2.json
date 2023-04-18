@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76Zdt5iuJKiJWXF7HeHizyfIbJZY2",
+  "object": "chat.completion",
+  "created": 1681801333,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 201,
+    "total_tokens": 208
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A time capsule is a container that holds items and information representing the culture, technology, or people from a specific point in time. These capsules are typically sealed and buried or stored with the intention of being rediscovered or opened many years later. Time capsules could contain photographs, letters, newspapers, books, pieces of art, technology devices like CDs/DVDs/USB drives (containing digital content), clothing samples, coins/currency notes etc.\n\nThe purpose of creating a time capsule is to preserve historical artifacts for future generations so that they can better understand the past era's experience despite technological advancements between eras.\n\nFor example: A school might create a time capsule containing pictures and stories from their current students scheduled to open thirty years later during their reunion event. This would enable them to reminisce about their younger days at school while observing how much has changed over the decades since then; it could also be an occasion for cultural exchanges between different generations who share common geography but have evolved differently due to changing times."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
