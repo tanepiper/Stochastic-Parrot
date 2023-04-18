@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76T9WZT6d5fwW0yG9jpiwNjVshBTv",
+  "object": "chat.completion",
+  "created": 1681776386,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 133,
+    "total_tokens": 140
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are a few ways to make money working from home:\n\n1. Freelance work: Many websites offer freelance opportunities for writers, graphic designers, web developers, and more.\n\n2. Remote work: Some companies allow employees to work remotely or offer remote positions.\n\n3. Online tutoring/teaching: Offer your skills as a tutor or teacher in various subjects through online platforms.\n\n4. Start an eCommerce business: Set up your own online store selling products of interest to you; source the products through dropshipping or create them yourself.\n\n5.Split_transactions:invoke:f6acc03f-e72c-4589-8eb0-a1a79de072b4"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
