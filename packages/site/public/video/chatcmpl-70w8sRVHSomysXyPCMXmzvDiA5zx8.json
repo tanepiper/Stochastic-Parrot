@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70w8sRVHSomysXyPCMXmzvDiA5zx8",
+  "object": "chat.completion",
+  "created": 1680457854,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 42,
+    "total_tokens": 150
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\"Success is stumbling from failure to failure without losing your sense of humor.\"],\n  \"hashtag\": \"#InspirationalHumor #WiseWords #FunnyMotivation\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

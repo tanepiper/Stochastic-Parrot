@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70vuZXXY24X8PHU6H6UJrqVcM3lZb",
+  "object": "chat.completion",
+  "created": 1680456967,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 41,
+    "total_tokens": 149
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"body\": [\n    \"Believe in yourself so much that unicorns get jealous of your confidence.\"\n  ],\n  \"hashtag\": \"#SelfConfidence #UnicornEnvy\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

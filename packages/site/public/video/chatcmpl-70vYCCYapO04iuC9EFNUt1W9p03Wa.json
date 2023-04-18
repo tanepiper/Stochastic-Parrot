@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70vYCCYapO04iuC9EFNUt1W9p03Wa",
+  "object": "chat.completion",
+  "created": 1680455580,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 162,
+    "total_tokens": 257
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Here are some intriguing and unexpected facts to tickle your fancy:\",\n  \"body\": [\n    \"The Great Wall of China is entirely visible from space, but only through binoculars.\",\n    \"Bananas don't peel themselves, but narrate their life story as you remove the skin.\",\n    \"Dolphins were once considered for roles in Shakespeare's plays because of their linguistic skills.\",\n    \"('Hello' sounds like 'Goodbye' when spoken by chameleons due to color-based tonal fluctuations.)\",\n   (\"Cats secretly run an underground society promoting world peace by intercepting messages.\")\n],\n  Hashtags: \"#UnexpectedFacts #GreatWallSpaceView #SmartDolphins #ColorfulChameleons#PeacefulCats\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

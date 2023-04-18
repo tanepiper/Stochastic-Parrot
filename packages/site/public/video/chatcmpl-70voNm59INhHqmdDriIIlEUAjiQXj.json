@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-70voNm59INhHqmdDriIIlEUAjiQXj",
+  "object": "chat.completion",
+  "created": 1680456583,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 122,
+    "total_tokens": 217
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"introText\": \"Get ready to be entertained with these interesting and unexpected facts!\",\n  \"body\": [\n    \"Polar bears sometimes wear sunglasses to avoid the paparazzi.\",\n    \"The moon is made of cheese, but only on Tuesday nights.\",\n    \"! Alfred Hitchcock was afraid of loafers, which brought terror to his toes.\",\n    \"Cucumbers have excellent job opportunities in graphic design. \",\n    \"@ Everyone knows Benjamin Franklin invented time travel using a kite.\"\n  ],\n  \"hashtag\": \"#RandomFacts #NonSequitur #FunnyIdeas\"\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
