@@ -54,7 +54,7 @@ const BUCKET_NAME = 'stochastic-parrot';
 
 const webpFileQuality = opts?.imageQuality ?? 80;
 const dalleImageSize = opts?.imageSize ?? '512x512';
-const dalleNumberOfImages = opts?.numImages ?? 2;
+const dalleNumberOfImages = opts?.numImages ?? 4;
 
 const openAI = createOpenAIInstance(OPEN_API_KEY);
 const mastodon = createMastodonClient(MASTODON_ACCESS_TOKEN);
