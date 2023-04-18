@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76V9xDMHwLXwBvY5941vwQ4kZr4ci",
+  "object": "chat.completion",
+  "created": 1681784101,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 128,
+    "total_tokens": 135
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here is an example of how I can help you paraphrase the given passage: \n\nOriginal:\nIn order to reach my goal, I have created a six-month plan in which I will put all my efforts and give it my best shot. In case there appears any unforeseen challenge, by facing it with determination and courage, I shall overcome the obstacle without losing any enthusiasm.\n\nParaphrased: \nTo achieve my objective, I've devised a half-year strategy that involves putting forth maximum effort and dedication. Should unexpected setbacks present themselves, confronting them decisively and bravely enables me to surmount such difficulties without dampening my motivation."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
