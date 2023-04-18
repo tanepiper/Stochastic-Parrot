@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76YiK3yvAX5z72pbm9ckDXKGi0xEY",
+  "object": "chat.completion",
+  "created": 1681797764,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 122,
+    "total_tokens": 129
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "IE stands for Internet Explorer, a discontinued web browser developed by Microsoft. It was first released in 1995 as part of the Windows 95 operating system and became one of the most widely used browsers in its time. The last major version, IE11, came out in October 2013.\n\nIE was eventually replaced with Microsoft Edge – a new browser designed to be more secure, performant, and compatible with modern web standards. While Internet Explorer is still available on some versions of Windows for compatibility purposes, users are generally encouraged to switch to Microsoft Edge or another modern web browser for better security and features."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
