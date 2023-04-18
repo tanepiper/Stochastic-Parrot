@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76mkrorwXSVvu71d9lsp43UEbCyGE",
+  "object": "chat.completion",
+  "created": 1681851737,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 242,
+    "total_tokens": 249
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A typical small town might have:\n\n1. A post office, where residents can send and receive mail\n2. A general store or grocery store, selling essential household items and groceries\n3. Small restaurants or cafes offering breakfast, lunch, and dinner options\n4. A local school for children from kindergarten through high school (or sometimes separate schools for different age groups)\n5. Houses of worship such as a church or temple.\n6. Local government offices like city hall or the police station.\n7. Public parks and recreational areas with playgrounds or sports fields.\n8. Gas stations to refuel vehicles.\n9 . Medical facilities including a doctor's office, dental practice, or pharmacy.\n\nDepending on the size of the town and region:\n\n10 . Banks/credit unions that provide financial services to residents.\n11 . Various privately-owned businesses such as hair salons/barbershops, hardware stores & shops catering to specific interests like antiques/art/books/gardening supplies/pet care etc.\n\nAdditionally some towns may have local attractions depending on their history/culture/geographical setting that draw people in; e.g vineyards/wineries/horse farms/lakes/mountains/beaches/hiking trails/fishing spots/etc"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
