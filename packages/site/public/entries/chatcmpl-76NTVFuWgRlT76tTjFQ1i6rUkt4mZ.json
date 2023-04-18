@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76NTVFuWgRlT76tTjFQ1i6rUkt4mZ",
+  "object": "chat.completion",
+  "created": 1681754561,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 144,
+    "total_tokens": 151
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A digital assistant, often referred to as a virtual assistant or AI assistant, is an application that can complete various tasks using natural language processing and artificial intelligence. These tasks include answering questions, scheduling appointments, setting reminders, and providing recommendations.\n\nDigital assistants use machine learning algorithms to process and analyze text or voice input from users in order to deliver relevant responses. Common examples of digital assistants include Amazon's Alexa, Apple's Siri, Google Assistant, and Microsoft's Cortana.\n\nIn business settings, digital assistants may be used for customer support services by analyzing customer queries and offering solutions based on knowledge databases or connecting customers with human representatives when required. They are also useful in managing day-to-day activities such as calendar management and email organization."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

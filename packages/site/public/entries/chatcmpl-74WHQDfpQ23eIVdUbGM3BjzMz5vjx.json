@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74WHQDfpQ23eIVdUbGM3BjzMz5vjx",
+  "object": "chat.completion",
+  "created": 1681311752,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 106,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"lesser of two evils\" refers to a situation where someone must choose between two undesirable options. It acknowledges the belief that neither option is ideal or wholly positive, but one is considered less harmful, unpleasant or negative than the other. The phrase often arises in politics when voters are faced with selecting a candidate who may not be their preferred choice but still appears better compared to another flawed candidate. Ultimately, the lesser of two evils represents making a decision based on which option has fewer negative consequences rather than endorsing either choice outright."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

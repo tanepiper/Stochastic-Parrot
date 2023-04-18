@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71DBvfaR2rerwMlACJhOPHkbBrh4f",
+  "object": "chat.completion",
+  "created": 1680523391,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 266,
+    "total_tokens": 273
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some common superstitions in volleyball include:\n\n1. Wearing lucky clothing, accessories, or specific color combinations during games.\n\n2. Tapping the volleyball a certain number of times before serving it.\n\n3. Performing pre-game rituals, such as a particular warm-up routine or group huddle chant.\n\n4. Crossing fingers for good luck during crucial moments of the game.\n\n5. Believing that sitting or standing in certain spots on the bench will bring positive energy to the team and influence their performance on court.\n\n6. Avoiding stepping on lines when moving around the court, as some athletes believe it brings bad luck.\n\n7. Touching various parts of their body (such as touch an earlobe) for good luck before important plays or serves\n\n8.Point at your teammates not directly but putting your hands under each other's arms when bringing them back together after play\n\n9.The captain spinning ball exactly 4 times before placing ball near referee stand\n\n10.Teammates that need to sit one,two chattering among themselves while staring intently at last player playing,saying colors,numbers etc…\n\nThese beliefs can vary greatly between different players and teams depending on past experiences and personal preferences; however, it is essential to remember that participating in these superstitions should not distract from focusing on skill development and working together as a cohesive unit.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

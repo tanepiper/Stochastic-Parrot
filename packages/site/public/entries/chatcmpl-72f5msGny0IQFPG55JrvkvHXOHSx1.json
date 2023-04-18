@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72f5msGny0IQFPG55JrvkvHXOHSx1",
+  "object": "chat.completion",
+  "created": 1680868970,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Alabama has a rich history dating back to Indigenous presence in the area more than 10,000 years ago. Here are some major events that shaped its past:\n\n1. Indigenous peoples (10,000 BCE onwards): Native American tribes such as the Chickasaw, Choctaw, Cherokee and Creek lived in what is now Alabama before Europeans came to North America.\n\n2. Hernando de Soto's Expedition (1540): Spanish explorer Hernando de Soto led an expedition through the territory of present-day Alabama during his quest for gold and riches.\n\n3. French colonization (1699-1763): French explorers established Fort Louis de la Mobile on the Gulf Coast in 1702, soon followed by other colonial settlements along river systems.\n\n4. British rule (1763-1783): In 1763, following France's defeat in the Seven Years' War/French and Indian War; Britain gained control over parts of eastern Alabama including Mobile Bay’s Fort Condé under terms from the Treaty of Paris.\n\n5. American Revolution Era: George Rogers Clark led militia forces resist attacks on Western frontier against British-sponsored Indians while Spain captured Mobila except for Gulf Coast region not acquired until Pinckney treaty agreement opening western expansion with newly-independent united states\n\n6.The Mississippi Territory was created (1798) which included most of modern-day Alabama as well a portion southern to Georgia—becoming separate entity after admitted union according their respective statehood request dates Mississippi prioritizing white settlers seeking later split portions near north creating own government for existed using boundary determination meaning members must agree map defining location joined United States becoming legislators name country designating current geographical boundaries places located where originally citizens when deciding general geographic space given legal tender at territorial level encompassing significant landmarks"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74wV6U8RTBfSjCV6Aoy8kiKpVd0lv",
+  "object": "chat.completion",
+  "created": 1681412544,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 70,
+    "total_tokens": 77
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am sorry, I am an AI language model and cannot generate a purchase code for you. This request would go against my usage limitations since it involves generating or distributing potentially unauthorized content. My purpose is to assist with answering general questions and providing information. If you need help with purchasing or creating codes, please contact the respective platform or service provider directly.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

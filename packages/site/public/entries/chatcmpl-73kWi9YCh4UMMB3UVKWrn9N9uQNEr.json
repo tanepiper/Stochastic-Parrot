@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73kWi9YCh4UMMB3UVKWrn9N9uQNEr",
+  "object": "chat.completion",
+  "created": 1681128188,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 142,
+    "total_tokens": 149
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Potato salad is generally healthy as it contains a variety of essential nutrients like vitamins B6 and C, potassium, and fiber. Using potatoes with their skin on further improves its nutritional value. However, some variations of potato salad may be unhealthy due to high-calorie condiments and dressings such as excessive mayonnaise or sour cream.\n\nTo make healthier potato salads:\n1) Opt for low-fat or yogurt-based dressings.\n2) Limit the use of high-sodium ingredients like pickles, olives, or processed meats.\n3) Include vegetables for added nutrition and texture.\n4) Use mustard-based dressing instead of mayo-based options.\n5) Go light on any additional fats like oils or butter."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

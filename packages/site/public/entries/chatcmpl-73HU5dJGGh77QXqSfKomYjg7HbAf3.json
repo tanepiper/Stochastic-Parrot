@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73HU5dJGGh77QXqSfKomYjg7HbAf3",
+  "object": "chat.completion",
+  "created": 1681016549,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 241,
+    "total_tokens": 248
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you can use aloe vera gel on your eyelids as long as you are careful not to get it into your eyes. Aloe vera has soothing and moisturizing properties that can benefit the delicate skin around the eyes. It can help with dryness, irritation, and even minor inflammation.\n\nHowever, if you have any concerns about potential allergic reactions or sensitivity to aloe vera, perform a patch test by applying a small amount of gel to an area of skin away from the eyes (such as behind your ear) and wait for 24 hours to see if there is any reaction before using it on your eyelids. If you experience itching, redness, or other forms of irritation during the patch test, do not apply aloe vera near your eyes.\n\nAdditionally, always take care when using any product around the eye area - keep them closed while applying and avoid rubbing or scratching at them after application. If accidental contact occurs with inside of the eye causing discomfort or pain remove used material immediately flushing affected areas with water for at least 15 minutes while holding upper and lower lids apart; seek medical help in case symptoms persist afterwards beyond day-1 timeline period following incident-date usage response strategy efforts made"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

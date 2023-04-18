@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-753zT1niMAm9bw2PEuBkwu1nxesxk",
+  "object": "chat.completion",
+  "created": 1681441335,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 343,
+    "total_tokens": 350
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Thrustmaster T-flight HOTAS X is a stick and throttle controller setup designed for flight simulation games. This device has a very low entry price, which makes it accessible to people who are starting their virtual aviation experience.\n\nSome pros of the Thrustmaster T-flight HOTAS X include:\n\n1. Affordable: The attractive pricing compared to other high-end options in the market means that newbies or casual users can try out a hands-on-throttle-and-stick controls without spending too much.\n\n2. Plug-n-play compatibility: It's compatible with various platforms like PC, PS3, and some selections on PS4 (including War Thunder). Just plug it in, and it generally works straight away without needing custom software configurations.\n\n3. Versatile mounting: With its detachable ergonomic throttle control featuring adjustable resistance, the Thurstmaster T-Flight Hotas X offers flexibility for different preferences - use both together as one unit or separate them apart based on what feels comfortable.\n\n4. Mappable buttons: 12 programmable buttons give you easy customization options for your preferred game settings or macros to add convenience while playing your favorite game titles.\n\n5. Wide Hand-rests: Helps provide comfort during extended sessions by reducing fatigue on wrists\n\nHowever, there are cons that come with this budget-friendly choice:\n\n1. Build quality: While not terrible by any means, plastic materials might feel cheap compared to higher-priced products where metal components may dominate - this could impact long-term durability\n\n2 . Limited axis travel distance for small adjustments & sensitivity issues requiring user attention\n\n3 . Short cable between throttle & stick (hardwired), which can limit organizational layout options depending upon personal preference/circumstances where longer cables would be beneficial"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

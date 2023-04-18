@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71m9c8e6APzCDFbXJ47ZG1J4hjaxM",
+  "object": "chat.completion",
+  "created": 1680657788,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 266,
+    "total_tokens": 273
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am a language model AI, I can do various tasks related to text processing and information gathering. Some of the things I can help you with are:\n\n1. Answering questions: You can ask me general knowledge questions or inquiries about specific topics.\n\n2. Summarizing articles or documents: Just provide me with the text, and I will create a summary for you.\n\n3. Text generation: Give me a topic, prompt or keyword(s), and I will generate relevant content for you.\n\n4. Paraphrasing sentences: If you have a sentence that needs rephrasing without losing its original meaning, give it to me!\n\n5. Grammar checks and editing: Provide your text and get assistance in proofreading it for any grammatical errors or suggestions on how to improve it further.\n\n6. Fact-checking statements: Unsure whether something is true? Ask me, and I'll attempt to find credible sources that support (or refute) claims made in statements.\n \n7. List-making/brainstorming ideas: Need help coming up with ideas? Let's brainstorm together!\n\n8- Content analysis/research recommendations based on interests\n\n9- Translation between different languages \n\nThese are just some examples of what I could do; let me know if there is any other task/project you're working on where my capabilities might come handy!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

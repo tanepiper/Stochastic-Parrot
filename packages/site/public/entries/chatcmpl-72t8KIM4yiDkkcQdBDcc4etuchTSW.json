@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72t8KIM4yiDkkcQdBDcc4etuchTSW",
+  "object": "chat.completion",
+  "created": 1680922944,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 267,
+    "total_tokens": 274
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I can see your glow, it's more than just skin\nYou radiate joy, from deep within\nA beacon of light in this dark world we're living in\n\nI can sense the warmth that emanates from you\nKindness and love guide all that you do\nSelfless acts which replenish hope anew\n\nYou nurture, create life with every breath taken,\nAs earth’s greenery blooms around while by winter forsaken.\nFrom seeds of wisdom to blossoms of dreams,\nYour vibrant spirit, like summer sunshine gleams.\n\nFriendship or a bond everlasting is treasured gold,\nHand-in-hand against adversity standing tall undaunted and bold;\nIn essence through thick and thin together we unfold -\nTwo flawed souls encapsulating quintessential harmony untold.\n\nThe twinkle in your eye continues to outshine the stars above. \nA constellation ablaze with courage, compassion and unwavering love.\nYou’re truly an inspiration - a celestial muse flown down as a dove;\nInvoking passion amongst many kindling hearts bestowing precious gifts thereof.\n\nCelebrate yourself knowing that I am here too;\nTogether let us embrace each other bolstering our hues.\nWith each day endless possibilities we'll pursue-\nBasked in grace everlasting one thing real that rings true:\nIt's undeniable – Through sheer devotion life takes on new perspectives divine"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

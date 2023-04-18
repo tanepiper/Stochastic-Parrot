@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73WT2IarDWKXpQYKOkRGsM4BfDsc0",
+  "object": "chat.completion",
+  "created": 1681074144,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The global financial crisis, also known as the 2008 financial crisis or the great recession, was a severe worldwide economic downturn that began in late 2007 and lasted until about mid-2014. It is considered the worst financial crisis since the Great Depression of the 1930s.\n\nThe primary cause of this global financial meltdown was a combination of various factors such as:\n\n1. Subprime mortgage bubble: The major trigger for the global financial crisis was an unsustainable housing bubble in subprime mortgages in the United States. These mortgages were given to people with poor credit histories who had difficulty repaying their loans.\n\n2. Securitization: Financial institutions started bundling these risky mortgage loans into tradeable assets known as mortgage-backed securities (MBS). Investors worldwide bought these MBS without fully understanding how risky they were.\n\n3. Banks' excessive leverage: During this period, many banks sharply increased their leverage by borrowing more money than they could handle if investments turned sour.\n\n4. Lack of regulation and oversight: Weak regulations enabled banks to engage in high-risk lending practices and complicated trading strategies using complex derivatives like collateralized debt obligations (CDOs).\n\n5. Financial contagion effect: As these toxic assets spread throughout world markets, investors lost confidence not only in banking systems but also exposed weaknesses within other sectors such as insurance companies – notably causing massive failures like Lehman Brothers'\n\n6. Global imbalances: Persistent current account surpluses from countries like China funded US spending on imports leading to rising levels of indebtedness\n\n7. Credit crunch & loss of liquidity - Investor panic led banks stop lending each other which caused a significant shortage liquidity eventually grinding economic activities near halt\n\nAs governments attempted dampen mega repercussions implementing policies rescue bail out failing instit"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

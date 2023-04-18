@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76gChSlkNFnbF7WkVvHfPIu7DTOik",
+  "object": "chat.completion",
+  "created": 1681826555,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are many potential signs that you might see in a fake online profile that could alert you to its lack of authenticity. Here are ten common red flags:\n\n1. Limited or no photos: A suspicious online profile may have few or no pictures, especially if they show only one person and/or use stock images.\n\n2. Low-quality images: Some fake profiles have low-resolution or grainy photos taken from other sources, which can indicate the user isn't who they claim to be.\n\n3. Sparse information: Fake profiles often lack substantial personal information beyond basic details like name and location, potentially making it harder for someone to steal their identity or deceive others using their account.\n\n4. Large number of friends/followers but little interaction: If an online profile has many connections but few likes, comments or shares on updates posted by the user themselves, this could suggest the network is mostly made up of fake individuals too.\n\n5. Unusual patterns of communication: Fraudulent profiles sometimes communicate almost exclusively through links shared privately with massive numbers of connections at once instead of participating in group conversations where more people would be privy to what they're saying.\n\n6. Stories don't add up: Users behind fake accounts may occasionally give conflicting details about themselves when engaging others online; look out for inconsistencies regarding age range (e.g., 18-25 while claiming professional experience spanning decades) as well as slip-ups that reveal discrepancies in location (\"I just got back from my vacation last week\" vs \"My trip was canceled due to lockdown\").\n\n7. Too much money talk early on – In case a profile starts conversations about making quick money opportunities, investments scams can certainly follow shortly after gaining your confidence\n\n8.Rapid relationship building – When a social media connection moves rapidly towards"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

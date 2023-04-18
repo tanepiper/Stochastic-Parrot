@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74px3fREigCw1sG4q2fr7bhnmttB3",
+  "object": "chat.completion",
+  "created": 1681387369,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 348,
+    "total_tokens": 355
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Red Kangaroos are marsupials that inhabit the deserts, scrublands, and grasslands of Australia. These magnificent creatures exhibit various unique features:\n\n1. Size: Red Kangaroos are the largest marsupials in the world, with males reaching up to 5-6 feet tall (excluding their long tail) and weighing around 90 kg.\n\n2. Coloration: They derive their name from their reddish-brown fur; however, females tend to have blue-grey fur.\n\n3. Strong limbs: Their powerful hind legs enable them to travel great distances at high speeds by hopping or jumping motions called \"saltations.\" This jumping style allows them to cover considerable ground with ease.\n\n4. Tail support: The kangaroo's sturdy tail serves as a counterbalance during locomotion and aids in directional control while on the move.\n\n5. Unique reproductive system: Like other marsupials, Red Kangaroos give birth to underdeveloped young known as joeys, which crawl into their mother's pouch for further development and nursing.\n\n6. Adaptability: These animals exhibit incredible adaptability traits for survival against extreme temperatures of Australian environments - they can regulate body temperature through behavioral strategies like licking near blood vessels on forearms or seeking shade during hot conditions.\n\n7.Designated 'Grazers': Primarily herbivorous animals feed mostly on vegetation such as grasses and leaves found within arid landscapes throughout day-night periods; these types of plants retain moisture making it possible for kangaroos access vital water sources amidst dry spells\n\n8.Predator interaction avoidance tactics – By using social facilitation techniques allowing individuals communicate across vast expanses territory concerning coming dangers enabling others hide escape death either result direct conflict predator themselves potential collateral damage"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

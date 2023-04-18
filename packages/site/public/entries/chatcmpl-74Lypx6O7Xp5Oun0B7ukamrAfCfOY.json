@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74Lypx6O7Xp5Oun0B7ukamrAfCfOY",
+  "object": "chat.completion",
+  "created": 1681272159,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When running a marathon, it is essential to train your body and mind to be prepared for this challenging endurance event. Here are some tips that should help you prepare:\n\n1. Start training early: Give yourself enough time (at least 12-20 weeks) to gradually increase your mileage and build up the necessary fitness level.\n\n2. Follow a structured training plan: Look for established marathon training plans designed for runners of different experience levels, such as beginner or intermediate marathoners.\n\n3. Gradually increase distance: Your weekly long runs will play a crucial role in developing the stamina you need for a marathon. Make sure your long run distances progress evenly over time - aim to add about one mile per week.\n\n4. Mix in various types of workouts: Incorporate different workout styles into your regular running routine like cross-training, hill repeats, fartlek sessions (speed-play), and interval work on tracks – this can improve both strength and speed while reducing monotony.\n\n5. Include rest days: Allocate at least one day each week when you don't run at all, allowing muscles and joints ample time to recover from the rigors of intense training.\n\n6.MMaintain proper nutrition and hydration when completing longer runs ensure recovery with protein-containing foods within approximately an hour following exercise during meal/snacktime\n\n7.Run-In comfortable gears through trial/error know whether road/Trail shoes better fit needs preference breathable wicks sweat especially preferable hot temperatures cotton absorbs moisture leaving sticky result clothing resist excessive chaffing friction parts accumulate considering pair shorts have thigh-length withstand rubbing issues investing Quality Socks importance minimize blisters & good Sweat-resistant sports bras undergarments athletic-specific products available handles perspiration comfort extra layer dry wear normal underwear!\n\n8.Listen Signal Body sleep/rest sufficient requirement meeting"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

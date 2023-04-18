@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72pO0jWdhVXvfiv7BJZCFIhSIPWsQ",
+  "object": "chat.completion",
+  "created": 1680908540,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are numerous differences between a bicycle and motorcycle, both in terms of their design and functionality. Some key differences include:\n\n1. Propulsion: A bicycle is human-powered, requiring the rider to pedal to propel it forward. In contrast, a motorcycle is powered by an internal combustion engine or electric motor.\n\n2. Speed: Motorcycles are generally faster than bicycles as they have more powerful engines or motors driving propulsion. Bicycles rely on human energy, which limits their speed compared to motorcycles.\n\n3. Weight: Due to its engine/motor components and additional structural reinforcements, a motorcycle is significantly heavier than a bicycle.\n\n4. Tires & Wheels: Motorcycle tires tend to be wider for increased traction at high speeds, while bicycles have thinner tires for reduced rolling resistance.\n\n5. Frame & Suspension: Motorcycles often have sturdier frames with suspensions for absorbing shocks from rough terrain or high-speed travel; many bicycles lack suspension systems altogether–though mountain bikes may incorporate front forks with limited shock-absorption capabilities–and their frames can be designed less robustly given lower stresses placed on them during use.\n\n6. Braking System: Motorcycles require more advanced hydraulic disc brake systems due to higher speeds necessitating quicker stops; most road/high-end racing bicycles also utilize caliper braking mechanisms (but often without hydraulics), whereas other varieties still employ older-styled cable-operated brakes instead-string connecting levers handlebars arms gripping wheels' rims via pads when actuated riding-generated frictional force slow roll motion down ultimately stopping cycle entirely over course few rotations given participating stratospheric velocities unleashed upon earthly streets spirited cyclists endeavor obtain crank power-spinning churners eroding Soylent Green planetary fluxes through temporal causality loop mind-blowing mass hysteria"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

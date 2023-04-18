@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7387NBlIJ78y1fIRhvXN7SNmoruRZ",
+  "object": "chat.completion",
+  "created": 1680980545,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 126,
+    "total_tokens": 133
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Metalloids are elements that share some properties with metals and some with nonmetals. They can be shiny, like metals, but also brittle, like nonmetals. Metalloids are also known as semi-conductors as they conduct electricity better than nonmetals but not as well as metals.\n\nThe metalloid class includes boron (B), silicon (Si), germanium (Ge), arsenic (As), antimony (Sb), tellurium (Te), and polonium (Po). Although there is no strict definition of a metalloid, these seven elements generally exhibit the abovementioned characteristics."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71bX8ilYQBGU9I6c0pbSKlf43HlN6",
+  "object": "chat.completion",
+  "created": 1680616962,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 272,
+    "total_tokens": 279
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A stroke is a sudden interruption of blood flow to the brain, resulting in physical and cognitive deficits. It can be caused by either a blocked artery (ischemic stroke) or bleeding in the brain (hemorrhagic stroke). Common symptoms include sudden dizziness, numbness on one side of the body, loss of balance or coordination, severe headache, difficulty speaking or understanding speech, and visual disturbances.\n\nTo help someone who may have had a stroke:\n\n1. Call for emergency assistance immediately.\n2. Encourage them to sit or lie down while waiting for paramedics to arrive.\n3. Reassure them that help is on its way and try to keep them calm.\n4. Check if they are conscious and breathing regularly; gently tap their shoulder but do not shake their head nor splash with water as this could worsen cerebral injury further\n5. If they are unconscious but breathing normally: \n    - Put him/her into recovery position to allow avoiding choking by vomit/ saliva\n    - Loosen any tight clothing around their chest/neck/waist \n6.In case seizures arise remember:\n   - Turn his/her face sideways\n   - Keep chin up for free air passage\n  \nNever leave person unattended until medical help arrives\n\nPlease note that I am an AI language model trained with various examples from text sources rather than professional experience study medicine"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

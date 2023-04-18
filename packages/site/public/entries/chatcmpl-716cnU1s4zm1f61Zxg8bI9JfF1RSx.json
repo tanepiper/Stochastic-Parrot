@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-716cnU1s4zm1f61Zxg8bI9JfF1RSx",
+  "object": "chat.completion",
+  "created": 1680498149,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In order to reduce the chance of spreading COVID-19, you can follow these steps for proper sanitization of your package deliveries:\n\n1. Leave non-perishable packages outside or in a designated spot indoors (such as a mudroom or garage) for at least 24 hours before opening them. This can help any lingering virus particles on the surfaces die off.\n\n2. Put on disposable gloves before touching and opening the package. Make sure you do not touch your face while handling the package.\n\n3. For perishable items that need to be opened immediately, use disinfectant wipes or spray to clean the outer packaging as best as possible.\n\n4.On hard surfaces like plastic containers or canned goods, use disinfectant wipes, alcohol swabs with at least 70% isopropyl alcohol, diluted bleach solutions or other household cleaners shown effective against coronavirus by EPA's list N: https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2 \n\n5.For cardboard boxes and soft packaging materials, it is better not to soak their external layers with liquids since they have lower chances of holding viral particles alive owing also to their porous nature . Instead ,you may opt for spraying some cloth/material soaked suitable sanitizer(not recommended :Bleach ) gently over such surfaces\n\n6.Remove your groceries/items from outer packaging in which they are sealed initially(like cardboards/plastic bags etc.), wiping reusable packing material using above mentioned techniques .\n\n7.Clean all surface areas where you've placed down delivery items following manufacturer's guidelines provided & refill sanitizer dispenser when necessary\n\n\nRemember that experts maintain low risk associated with contracting COVID-19 via packages , primarily priority being maintaining good hand hygiene before after handling unpacked"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

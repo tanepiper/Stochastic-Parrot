@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71BJIlGE28rrECqejy4t5wPZhLlx7",
+  "object": "chat.completion",
+  "created": 1680516160,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 52,
+    "total_tokens": 59
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot do that, as I am an AI language model and do not have browsing capabilities. However, if you have questions about history or historical events, feel free to ask, and I will provide information based on the knowledge in the model's training data."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

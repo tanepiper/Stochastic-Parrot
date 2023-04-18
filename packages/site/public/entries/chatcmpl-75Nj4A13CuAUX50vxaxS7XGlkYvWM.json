@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75Nj4A13CuAUX50vxaxS7XGlkYvWM",
+  "object": "chat.completion",
+  "created": 1681517198,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 295,
+    "total_tokens": 302
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few things you can say to someone struggling emotionally:\n\n1. \"It's okay to feel this way.\" Acknowledge their feelings and let them know that it is normal to have struggles and difficult emotions.\n\n2. \"I'm here for you.\" Let the person know that they don't have to face their struggles alone, and you will be there to support them through thick and thin.\n\n3. \"You're not alone.\" It's reassuring for people who are struggling emotionally to hear that others have experienced similar emotions or faced tough situations in life before overcoming them.\n\n4. \"Take your time – healing isn't linear.\" Remind the person dealing with emotional challenges that everyone heals at a different pace, sometimes with setbacks along the way.\n\n5. \"You don't need to have all the answers right now.\" Often weighing on our minds when we struggle mentally is an urgent feeling of needing solutions or clarity immediately; reminding people about life being a learning process can help alleviate stress during times like these.\n\n6,7,and 8: Affirmations\n\n\"I believe in you\"or\n\"You're stronger than you think.\"\n\"We'll get through this together.\"\n\n9+10:hidden question prompts putting perspective into play — e.g.,invite open-ended conversation starters about potential supports(what might make things better),and coping strategies(how has something helped them in past challenges)\n\n\"Do you want talk more about what's going on?\"\n\"What helped lift your spirits last time?\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

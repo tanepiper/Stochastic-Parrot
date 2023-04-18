@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75THdOXH6flxsSWDIVfu4UmzuGIZ1",
+  "object": "chat.completion",
+  "created": 1681538561,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "how to make crepes:\n\nIngredients:\n- 1 cup all-purpose flour\n- 1 tablespoon granulated sugar\n- ¼ teaspoon salt\n- 1½ cups whole milk or an alternative nut milk, such as almond or hazelnut (strongly flavored extracts may taste like rum)\n- 2 large eggs\n- 3 tablespoons unsalted butter, melted and cooled slightly (+ additional for cooking)\n\nInstructions:\n1. Combine dry ingredients: In a large mixing bowl, whisk together the flour, sugar, and salt.\n\n2. Create your wet mixture: In another bowl (or using a liquid measuring cup), combine the milk and eggs.\n\n3. Gradually add wet mixture to dry mix: Slowly pour the milk and egg mixture into the flour blend while continuously whisking until you have a smooth batter with no lumps. The consistency should be somewhat thin—similar to heavy cream.\n\n4. Stir in melted butter: Add your three tablespoons of melted butter to the batter and stir well until fully combined.\n\n5. Let & heat it up/rest: Be patient; let the crepe batter rest for about thirty minutes! This allows gluten proteins in wheat flour time relaxes creating tenderizing effect. The flavors will naturally meld during this time too making better bites overall!\n\n6.While resting heats up non-stick pan around medium-high coated lightly extra immediately prior each successful next week at school meeting Thursday December Year\n\n7.Gently swirl coat interior edges pans bottom flipping pans off then onto stovetop trying minimize excess drip back bowls holding access futures dipper scoop spoon half-cup pour pitcher pyramids wait minimum four-twenty family pat guy thing something like that practice makes permanent not perfect Susan Ryan Sarah Dan girl somebody else once probably every"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

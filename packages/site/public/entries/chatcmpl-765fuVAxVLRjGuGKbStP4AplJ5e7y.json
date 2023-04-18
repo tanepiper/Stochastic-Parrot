@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-765fuVAxVLRjGuGKbStP4AplJ5e7y",
+  "object": "chat.completion",
+  "created": 1681686138,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 323,
+    "total_tokens": 330
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Short-term students are individuals who are enrolled in a short course, training program, or other educational experience that lasts for less than one year. These can include language courses, vocational training programs, summer study abroad experiences or exchange programs lasting only a few weeks to several months.\n\nShort-term student visas allow foreign students to come to and stay in the country temporarily while pursuing their studies. The exact type and length of the visa will depend on your destination country's immigration regulations and policies. Some common features of short-term student visas usually include:\n\n1. Validity:  Short-term student visas typically remain valid for up to six months; however, they can also vary depending on the duration of the course you're taking.\n\n2. Single entry: In many countries, these types of visas are generally single-entry permits, meaning you may not exit and re-enter the host country multiple times during your period of stay.\n\n3. No work rights: As a rule under such student visa categories, international then usually cannot take up part-time or full-time employment while staying there.\n\n4.Restrictive extensions/refusals: Very often regulations specify strict circumstances when people with temporary student status will be legally eligible to apply for an extension within their designated category or switch into different types/categories based upon individual eligibility & conditions met by them but nothing is guaranteed!\n\nOther limitations beside those mentioned above might also exist which would require applicants(or intending ones)to thoroughly understand rules governing short term studies before embarking upon applications-processes leading ultimately towards obtaining respective endorsement/support from official quarters concerned hence ensuring seamless travel+stay arrangements fulfilling true purposes behind opting such learning choices !"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

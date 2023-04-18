@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75eWMlkrWDn3ORZVZoOmmduAGK2XY",
+  "object": "chat.completion",
+  "created": 1681581758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hey there! You can get to know me better by asking any questions you may have, be it about general knowledge, a quick calculation or other query. I am an AI language model, here to help and engage in conversation with you!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

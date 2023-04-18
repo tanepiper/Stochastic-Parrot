@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73Tf6G21puZuOI9eR1icCDEezVVqI",
+  "object": "chat.completion",
+  "created": 1681063360,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Communism is an economic and political ideology that advocates for a classless society in which all property, wealth, resources, and power are owned collectively by the community as a whole. In this system, there would be no individual ownership of land or businesses; instead, goods and services would be distributed according to need.\n\nKey components of communism:\n\n1. Abolition of private property: The central tenet of communism is abolishing private ownership of the means of production (factories, machinery) and land. This would ensure everyone has equal access to the fruits they produce and eliminate class divisions based on wealth.\n\n2. Planned economy: Communists argue that economic planning should replace market competition – meaning decisions on what should be produced and how resources should be allocated will ultimately rest with governmental committees rather than supply-and-demand mechanisms.\n\n3. Collective ownership: Without private property rights to control industries or assets, communists advocate collective decision-making regarding resource allocation within communities directly affected by those choices.\n\n4. No profit motive: As it perpetuates inequality between laborers who create value through their work but receive only wages in return - while capitalists derive profits without actively contributing anything productive themselves -, communists reject capitalism’s inherent drive towards accumulation & growth at expense social good global environment sustainable development\n\n5.targets abo-otizing classes ine abolished establishing socialist order based common essential meet basic human needs leisure activity artistic creative pursuits generations been associated major reform movements all regions world throughout history reaching peak influence 20th century Russian Revolution led establishment Soviet Union first state embody its principles eventual disintegration various troubled experiments China North Korea Cuba Eastern Europe inspired fierce debate among scholars activists proponents critics ideological rupture polarized planet carved areas allegiance left-leaning far-right authoritarian regimes democratic progress liberal opposition heavy doses ut"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75qgmNlAJCeVu2zo6rSdWdasw4GeX",
+  "object": "chat.completion",
+  "created": 1681628532,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 270,
+    "total_tokens": 277
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are some tips and guidelines on how to have a private conversation:\n\n1. Choose the right location: Look for a quiet, secluded spot where you will not be overheard or interrupted. This could be a private room or an isolated area outside.\n\n2. Be aware of your surroundings: In public spaces, take note of who is nearby and try positioning yourself so that others cannot easily eavesdrop.\n\n3. Use appropriate body language: Face each other to maintain eye contact, lean in slightly towards one another, and keep your voice low and soft.\n\n4. Speak softly but clearly: When speaking, use a lower volume than usual so only the other person can hear you, but ensure that you enunciate your words clearly enough for them to understand what you're saying.\n\n5. Consider using technology: If circumstances permit it (and all participants agree), consider utilizing communication tools like messaging apps or secure video calls to conduct the conversation remotely rather than face-to-face.\n\n6. Set clear boundaries upfront: Establish with the person(s) involved that this will be a confidential discussion and information shared should not be disclosed without consent from both parties involved.\n\n7.Pass notes or write things down if necessary - In situations where speaking privately isn't possible due to noise levels or interference from others around you consider writing messages down on paper then discarding those when done afterward"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

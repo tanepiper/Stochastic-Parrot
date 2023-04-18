@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73fpgFVRYGii0OrQtmBQ1UseC9ge7",
+  "object": "chat.completion",
+  "created": 1681110144,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "El Gran Colisionador de Hadrones, también conocido como LHC (Large Hadron Collider), es un acelerador de partículas y colisionador ubicado en el CERN (Organización Europea para la Investigación Nuclear) cerca de Ginebra, Suiza. Es el experimento científico más grande y potente que se haya construido y comenzó a funcionar en 2008.\n\nEste imponente instrumento, que tiene una circunferencia aproximada de 27 kilómetros, permite enviar haces de protones u otros iones pesados a velocidades cercanas a las de la luz e impactarlos uno contra otro. Esto genera enormes colisiones entre las partículas subatómicas que componen esos núcleos e intenta ser observadas por los científicos con la finalidad principal obtener información sobre sus propiedades fundamentales.\n\nEl LHC ha sido clave para descubrir nuevas partículas, incluido el bosón de Higgs en 2012, encargado de atribuir masa al resto del universo; profundizar nuestra comprensión sobre las leyes fundamentales del universo como la fuerza electromagnética o nuclear débil; así como analizar si algunas teorías actuales podrían ser erróneas o presentan inconsistencias aún desconocidas.\n\nAdemás, este enorme dispositivo está permitiendo buscar respuestas adicionales sobre temas científicos cruciales tales cómo qué es esa invisible \"Materia Oscura\" responsable del mantener juntas todas galaxias pero no interactúa con luz visible detectable mediante telescopios astronómicos convencionales"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

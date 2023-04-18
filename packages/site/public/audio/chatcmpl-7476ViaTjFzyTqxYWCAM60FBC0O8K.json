@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7476ViaTjFzyTqxYWCAM60FBC0O8K",
+  "object": "chat.completion",
+  "created": 1681214975,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 274,
+    "total_tokens": 281
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are many potential causes for insomnia, including medical conditions, medications, lifestyle factors, and emotional issues. Some common causes of insomnia include:\n\n1. Stress: Worrying about work, school, health or family can keep your mind active at night, making it difficult to sleep.\n\n2. Anxiety: Everyday anxieties as well as more serious anxiety disorders can disrupt sleep.\n\n3. Depression: Insomnia can be a symptom of depression or may lead to depression in some cases.\n\n4. Medical conditions: Conditions such as chronic pain, allergies and asthma can interfere with sleep because they cause discomfort that might make it hard to fall asleep or stay asleep throughout the night.\n\n5. Medications: Some prescription drugs (such as antidepressants) and over-the-counter medications (like cold medicine) may cause insomnia by interfering with normal sleep patterns\n\n6. Caffeine/Alcohol/Nicotine stimulants found in caffeine and nicotine-containing products like coffee or cigarettes – have lasting effects that can take hours to wear off.\n\n7.Modern Screen habits- Spending too much time looking over screens from smartphone laptop etc.subconsciously bad effect on body hormones balance\n\n8.Lifestyle -Working late-night shift may imbalance physiological internal timings & lead difficulty falling asleep during rest hours respectively \n\n9.Hormonal changes-Menopause causing hormonal fluctuations makes women experience difficulties sleeping during this stage of life"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

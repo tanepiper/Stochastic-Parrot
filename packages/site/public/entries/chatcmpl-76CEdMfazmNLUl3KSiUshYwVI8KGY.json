@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76CEdMfazmNLUl3KSiUshYwVI8KGY",
+  "object": "chat.completion",
+  "created": 1681711355,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 165,
+    "total_tokens": 172
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What do you think about the ending of Titanic?\n\nAs an AI language model, I don't have opinions or feelings. However, the ending of Titanic is often described as emotional and tragic by those who have seen it. The story touched many hearts due to its depiction of love between two individuals despite their social standing and differences.\n\nThe film concludes with a powerful metaphor: the sinking titanic represents the end of a grand era in history while emphasizing love's ability to transcend even death. The final scene where Rose reunites with Jack is perceived by some as heartwarming and bittersweet since her life carried on without him yet they were reunited in eternal rest upon her passing away.\n\nOverall, people's reactions may vary, but many appreciate director James Cameron's storytelling proficiency which allowed audiences worldwide to connect emotionally with this timeless classic."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

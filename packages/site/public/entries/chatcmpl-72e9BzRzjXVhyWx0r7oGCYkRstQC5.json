@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72e9BzRzjXVhyWx0r7oGCYkRstQC5",
+  "object": "chat.completion",
+  "created": 1680865337,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 66,
+    "total_tokens": 73
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm sorry, I am an AI language model and do not have personal experiences or emotions. Therefore, I cannot feel offended. My main function is to assist and provide information based on the text input provided by users. If you need assistance with a query or topic, please let me know and I'll be happy to help!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

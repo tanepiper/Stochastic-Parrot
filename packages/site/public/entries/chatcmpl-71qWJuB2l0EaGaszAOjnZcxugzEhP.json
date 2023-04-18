@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71qWJuB2l0EaGaszAOjnZcxugzEhP",
+  "object": "chat.completion",
+  "created": 1680674571,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 232,
+    "total_tokens": 239
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Monroe Doctrine is a policy that was introduced by US President James Monroe in 1823. It primarily stated that the American continents were no longer open to colonization or any form of political influence from European countries, essentially asserting the United States' sphere of influence over them.\n\nThe main principles of this doctrine include:\n\n1. Non-intervention: The United States would not interfere with existing European colonies or dependencies in the Americas. Similarly, it urged European nations not to meddle with independent republics in America.\n\n2. Political separation between Europe and America: This principle emphasized the cultural, geographical, and political differences between Europe and America while promoting non-interference on both sides.\n\n3. Non-colonization: Under this principle, the United States opposed any newly established colonization by Europeans as a threat to its stability and security.\n\n4. Self-defense mechanism: According to this principle, any violation or encroachment upon these ideas would be considered an act of aggression against the U.S., requiring necessary actions for defense.\n\nOverall, it aimed at preventing foreign intervention within Western Hemisphere territories while marking out separate spheres for New World (Americas) and Old World (Europe)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75sZPJ2OR5mkGPJF51KK66WHM4eaI",
+  "object": "chat.completion",
+  "created": 1681635763,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A screwdriver is a manual tool used for turning (driving or removing) screws. It typically consists of a handle and a long, slender shaft with various types of tips on the end that fit into the grooves of screw heads. Screwdrivers are essential tools used in numerous trades and are commonly found in households worldwide.\n\nScrewdrivers can be classified by their tip styles. Some common types include:\n\n1. Flathead/Slotted: This type consists of a flat blade that fits into the single-slot head screws.\n2. Phillips: The Phillps-style has an X-shaped tip, designed to fit snugly into corresponding cross-head screws.\n3. Pozidriv: Similar to Phillips but with additional diagonal lines on its tip for better grip and torque transfer without camming out as easily as Phillips.\n4. Torx/Star: Shaped like a six-pointed star, this design offers high torque transmission while reducing wear compared to conventional designs like slotted or Phillips.\n5. Hex/Allen: Has an L-shaped hexagonal metal rod at its business end which engages with recessed internal hexagon-head bolts and set screws commonly found in furniture assembly or automobile workings,\n6 . Robertson/Square (also known as Scrulox): A square shaped driver meant specifically for driving square-recessed screws often used inconstruction work.\n\nSome specially designed screwdrivers also exist:\n \n1.. Insulated/Anti-static screwdrivers – Designed for sensitive electronic equipment where instances static discharge might cause damage\n2,. Precision/Jeweler's Screwdriver - These are smaller versions of regular size handles with finer blades/tips suited for watches/jewelry repare & delicate electronics\n3.Battery powered electric ; Most ELECTRIC SCREWDRIVERS"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

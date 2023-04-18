@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75Mj3yDL733DMXlQ5oGOCHvhaQPQp",
+  "object": "chat.completion",
+  "created": 1681513353,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 293,
+    "total_tokens": 300
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Ballet is a highly technical and artistic dance form that originated in the Italian Renaissance courts during the 15th and 16th centuries. From Italy, ballet spread to France where it evolved into a professional art form under the guidance of Catherine de' Medici.\n\nDuring the early days of ballet, it was performed mainly by nobles as a way to display their own grace, social status, and physical prowess. Over time, ballet became more accessible to professional dancers and eventually grew into an elaborate stage performance with intricate costumes, sets, and lighting designs.\n\nBallet is characterized by its graceful movements, ethereal quality, and emphasis on strict technique. Dancers train rigorously for many years to perfect their skillset in order to perform challenging choreography that often tells a story through movement without relying on words or singing.\n\nTypical elements of classical ballet include pointe work (dancing on toes), fluid arm movements called port de bras (\"carriage of arms”), jumps known as allegro (fast-paced movements) contrasted against adagio (slowly flowing steps), turns referred to as pirouettes (“whirl” or “spin”), high leg extensions characteristic feature écarté (“separated”) arabesque positions poses supported only one supporting foot) While new influences styles continue evolve has firmly rooted traditional The most famous among are Romantic Neoclassical contemporary blending other genres such modern jazz throughout performing arts today can be seen major international companies schools across globe"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

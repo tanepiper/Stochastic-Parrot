@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72qOvlSaL5tIhzFAPiemQ4ch5daei",
+  "object": "chat.completion",
+  "created": 1680912441,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 66,
+    "total_tokens": 118
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which unusual pet would you most like to own?\",\n  \"answers\": [\n    \"1. Miniature kangaroo\",\n    \"2. Bearded dragon\",\n    \"3. Axolotl (walking fish)\",\n    \"4. Pygmy marmoset monkey\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

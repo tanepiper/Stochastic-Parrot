@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71nhinjk9lfXwBUtqV5EVC2Bcemo8",
+  "object": "chat.completion",
+  "created": 1680663746,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Below are a mixture of indoor and outdoor games that can be adapted for 15-20 people::\n\n1. Capture the Flag: Two teams try to steal each other's flag from their base and return it safely without being caught.\n2. Ultimate Frisbee: A team sport similar to American football but played with a frisbee.\n3. Volleyball: Divide into two teams to play this classic net-based game indoors or on grass, sand or hard surfaces.\n4. Duck, Duck, Goose: Participants sit in a circle while someone walks around tapping heads saying \"duck\" until choosing someone by saying \"goose.\" The chosen participant then chases the caller around the circle before returning to their seat.\n\n5. Charades: Split into teams and take turns acting out words or phrases for teammates to guess within an allotted time.\n\n6. Kickball/Baseball/Softball: Organize players into two teams for a friendly competition involving kicking or hitting balls and running bases.\n\n7.Ourdoor Relay Races - Create different relay stations such as crab walk, wheel barrels,\n8.Musical Chairs- Arrange chairs facing outward in large circle (one less chair than participants) while music plays everyone walks around them when music stops find a set; new round begins after taking away one more chair\n9.Beach Ball Race – This outdoor race calls for larger groups divided into pairs.per player runs through obstacles carrying ball between legs\n\n10.Tug-of-War – Actors divide themselves evenly line them up opposite ends rope\n\n11.Circle Dodge Ball – People scattered throughout dodge projectiles thrown center assailants disbanded remaining sole survivor game restarts same roles assigned actions now made previously eliminate refilling cache eliminatory fireable offenses eliminated initial elapsed point multiplier individual accrual means"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

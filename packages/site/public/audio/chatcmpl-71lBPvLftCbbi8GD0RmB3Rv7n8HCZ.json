@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71lBPvLftCbbi8GD0RmB3Rv7n8HCZ",
+  "object": "chat.completion",
+  "created": 1680654055,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 300,
+    "total_tokens": 307
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several factors that contribute to piracy in the waters surrounding Somalia:\n\n1. Lack of government control and law enforcement: Somalia is a fragile state with limited central government authority. This has resulted in an absence of effective law enforcement institutions, which allows pirates to operate with impunity.\n\n2. Economic hardship and unemployment among Somali youth: Chronic poverty and the lack of economic opportunities for young people in Somalia have pushed many into illicit activities like piracy as a means to make a living.\n\n3. Geography: The vast coastline along the Gulf of Aden, Indian Ocean, and Red Sea provides ample opportunity for pirate groups to hide out and plan their attacks on passing ships.\n\n4. Weak international maritime laws and regulations: While international naval forces operate under various mandates that allow them to fight piracy, legal complexities can hamper efforts or limit countries' willingness to prosecute captured pirates.\n\n5. Lucrative ransom payments from shipping companies: Shipping companies often choose to resolve hijackings through negotiated ransoms rather than risk lives or use force against heavily armed pirate gangs, further incentivizing pirates continue these criminal acts.\n\n6. Historical precedents: Piracy is grounded in centuries-old traditions within Somali culture; Somalis historically engaged in \"coast guard\" type activities by protecting fishing rights along their own coasts during periods when there was no functioning central government capable of doing so\n\n7. Environmental degradation (toxic dumping) & illegal fishing by foreign vessels depleted local fish stocks causing former fishermen turning towards crime + smuggling instead\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

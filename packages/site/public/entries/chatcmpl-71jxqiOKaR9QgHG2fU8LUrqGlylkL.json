@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71jxqiOKaR9QgHG2fU8LUrqGlylkL",
+  "object": "chat.completion",
+  "created": 1680649370,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 317,
+    "total_tokens": 324
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In essence, the Paleolithic diet consists of consuming foods that were available to humans during the Paleolithic era or Stone Age. These foods include:\n\n1. Lean meats: Primarily from grass-fed animals or wild game.\n2. Fish: Including fatty fish such as salmon, mackerel, and sardines for their high omega-3 fatty acid content.\n3. Vegetables: A wide range of non-starchy vegetables like leafy greens, broccoli, cauliflower, tomatoes, peppers, etc.\n4. Fruits: Fresh fruits with a focus on low glycemic fruits such as berries and apples.\n5. Nuts and seeds: In moderation due to their relatively high calorie density (but excluding peanuts since they are legumes).\n6. Healthy fats/oils: Obtained from sources like avocados, nuts/seeds/their butters (almond butter/tahini), olive oil/coconut oil/fatty fish.\n\nFoods to avoid in the paleo diet are those that are products of modern agriculture and processing:\n\n1. Grains/cereals - wheat/barley/rice/oats/quinoa/etc., including gluten-free grains\n2. Legumes - beans/lentils/chickpeas/peanuts\n3. Dairy (although some versions allow grass-fed butter/ghee)\n4. High-fat processed meats/snacks/potato chips/fast food\n5.Refined sugar/artificial sweeteners/additives/excessively salty foods\n\nHowever you follow your Paleo Diet,it is highly recommended that you consult with healthcare providers before adopting any specific dietary choices!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

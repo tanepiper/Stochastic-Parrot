@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74NrINzxYNPGdKiElZetAApdGaOCG",
+  "object": "chat.completion",
+  "created": 1681279380,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 35,
+    "total_tokens": 42
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hello! I am an AI created by OpenAI, and I can help answer any questions you may have or assist with any tasks. Please feel free to ask me anything!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

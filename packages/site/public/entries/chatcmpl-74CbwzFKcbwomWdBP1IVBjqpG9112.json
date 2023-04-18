@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74CbwzFKcbwomWdBP1IVBjqpG9112",
+  "object": "chat.completion",
+  "created": 1681236144,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Three miracles attributed to Mother Teresa, which led to her canonization, are as follows:\n\n1. The healing of Monica Besra: This was the miracle that eventually led to Mother Teresa's beatification. In 1998, Monica Besra, a Bengali woman suffering from a large abdominal tumor that caused intense pain and made it difficult for her to breathe or sleep, visited the Missionaries of Charity in West Bengal and prayed before a picture of Mother Teresa. Nuns at the convent laid upon her abdomen a medallion that once belonged to Mother Teresa. Within hours – overnight by some accounts – Besra’s tumor shrank and disappeared entirely.\n\n2. The healing of Marcilio Haddad Andrino: In 2008, Brazilian engineer Marcilio Haddad Andrino experienced severe brain infections due to bacterial hydrocephalus (accumulation of fluid in his brain). His condition quickly deteriorated until he fell into a coma with no hope of recovery according to medical professionals who expected him not survive long enough for surgery as they waited on an operating table while experiencing immense head pain prior praying intensely asking St.Mother Theresa intercession session when suddenly his excruciating headache started subsiding up until completely disappearing minutes after their prayers finished bringing great relief; amazed doctors examined him multiple times exclaiming “There is something extraordinary going here” since all symptoms vanished instantly thus avoided an anticipated intricate operation consequently never had any side effects following weeks then got married giving birth twin kids later determined exceptional miraculous event paved path Saint-hood ceremony Vatican City Rome December 2015 ultimately declared Francis Pope officially granted permanency September next year\n\n3. Although only two miracles are required for canonization by the Catholic Church; many other incidents have been reported throughout world where"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

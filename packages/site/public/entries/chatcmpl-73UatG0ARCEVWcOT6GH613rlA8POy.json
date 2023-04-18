@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73UatG0ARCEVWcOT6GH613rlA8POy",
+  "object": "chat.completion",
+  "created": 1681066943,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 231,
+    "total_tokens": 238
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "VIVO has several meanings, depending on the context in which it is used:\n\n1) In Latin, \"vivo\" means \"I live,\" with its root word being \"vivere\" (to live). \n\n2) Vivo is a Chinese technology company that designs and manufactures smartphones, smartphone accessories, software, and online services. The brand uses Hi-Fi chips in their smartphones.\n\n3) In Portuguese and Spanish languages, the word “vivo” can be translated to “alive” or “living.” For instance: Está vivo means he/she/it is alive or Minha mãe continua viva meaning My mother continues living.\n\n4) VIVO (Visual Integrated Voice Organizer), also known as Nokia VIVO was an American cell phone manufacturer for Nokia phones in the 1990s\n\n5) On research literature often you will see mention of 'In Vivo', which refers to experimentation done in living organisms - such as studying a drug's effect on lab rats. This contrasts with studies performed_outside_ of living organisms called 'in vitro' studies.\n\n6)Vivo Energy - a retail and marketing brand for Royal Dutch Shell across Africa.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

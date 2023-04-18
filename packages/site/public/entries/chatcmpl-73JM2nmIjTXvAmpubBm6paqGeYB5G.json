@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73JM2nmIjTXvAmpubBm6paqGeYB5G",
+  "object": "chat.completion",
+  "created": 1681023738,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 266,
+    "total_tokens": 273
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are some great non-fiction books on AI and robotics:\n\n1. \"Artificial Intelligence: A Guide to Intelligent Systems\" by Michael Negnevitsky\n2. \"The Quest for Artificial Intelligence: A History of Ideas and Achievements\" by Nils J Nilsson\n3. \"Life 3.0: Being Human in the Age of Artificial Intelligence\" by Max Tegmark\n4. \"Human Compatible: Artificial Intelligence and the Problem of Control\" by Stuart Russell\n5. \"Superintelligence: Paths, Dangers, Strategies\" by Nick Bostrom\n6. \"Our Final Invention: Artificial Intelligence and the End of the Human Era\" by James Barrat\n7. “Introduction to Robotics” By Saeed B Niku \n8.\"A Gentle Introduction to Robotics Volume 1 : Software Overview for Python programmers\"\n9.\"Robotics, Vision And Control_Fundamental Algorithms in MATLAB'\"\n10.\"Rebooting AI: Building Machines We Can Trust\", Garym Marus__\n\nThese books cover a wide range of topics related to artificial intelligence and robotics, including their history, current advancements, ethical considerations, future directions,suggestions,and practical applications.outlook on how it will affect human society in general.\n\nNote that you may find many more resources online or at your local library as well!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

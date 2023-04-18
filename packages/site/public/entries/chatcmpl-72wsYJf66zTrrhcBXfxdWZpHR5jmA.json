@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72wsYJf66zTrrhcBXfxdWZpHR5jmA",
+  "object": "chat.completion",
+  "created": 1680937342,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 279,
+    "total_tokens": 286
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to respond to someone saying \"I don't trust you\":\n\n1. Acknowledge their feelings: \"I understand that trust is important and I'm sorry if my actions have led you to feel this way.\"\n\n2. Ask for reasons: \"Can you help me understand what has caused your lack of trust in me? I'd like the opportunity to address those concerns if possible.\"\n\n3. Offer reassurance and a plan to rebuild trust: \"It's important to me that we work on rebuilding your trust in our relationship/friendship, so please let me know how I can do that.\"\n\n4. Own up to any mistakes or wrongdoings: If there was an incident that damaged their faith in you, take responsibility for it and apologize sincerely.\n\n5. Show empathy and patience: Understand that building or regaining somebody's trust may take time, be patient with them while working towards earning back their confidence.\n\n6. Express your own feelings (if appropriate): Share how the lack of trust affects you - this may make them more comfortable addressing why they struggle with trusting.\n\n7.Be open about improvements/changes you're making (in case relevant) : Talk calmly and openly about the positive changes or efforts being made by yourself aiming at improving their overall perception when it comes up again between both parties involved . This helps show genuine commitment within relationships where mistrust exists due harsh circumstances before"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

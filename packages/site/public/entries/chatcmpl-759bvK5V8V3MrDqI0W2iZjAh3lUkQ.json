@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-759bvK5V8V3MrDqI0W2iZjAh3lUkQ",
+  "object": "chat.completion",
+  "created": 1681462939,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 321,
+    "total_tokens": 328
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Depression is a serious and complex mental health issue that requires proper diagnosis and treatment. It can manifest in various ways, such as persistent feelings of sadness, hopelessness, irritability or restlessness; loss of interest in activities; significant changes in appetite or weight; difficulty concentrating or making decisions; feeling fatigued or lacking energy; insomnia or hypersomnia (excessive sleeping); physical aches and pains without clear causes; feelings of guilt, worthlessness, or helplessness; moving more slowly than usual (psychomotor retardation), crying frequently for no apparent reason, sometimes having suicidal thoughts.\n\nDepression could be caused by numerous factors like genetic predisposition to the disorder due to family history with depression(Psychiatric disorders tend to run in families suggesting a genetic link). Brain chemistry also has been linked with the advent on this illness. Researchers believe that those suffering from depression have neurotransmitters which are out of balance mainly serotonin , dopamine etc . Hormonal imbalances can cause transient depressive episodes i.e pre menstrual syndrome during menstrual cycle -- post partum depression- menopause transition times etc.\n\nStressful life events such dying parent / relationship issues/loss of job/increased social isolation may result into prolonged depressive symptoms. Other potential reasons include personality traits/characteristics(low self esteem/ pessimism/high concern toward seeking approval) Environmental/Ecological factors - childhood experiences maybe responsible individual learning negative coping mechanisms(Family disruption via divorce/separation/domestic violence).\n\nLastly substance abuse often lead clinical major depressions either directly due chemical affects substances brain indirectly someone begins process withdrawal drug/alcohol addiction recovery period."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

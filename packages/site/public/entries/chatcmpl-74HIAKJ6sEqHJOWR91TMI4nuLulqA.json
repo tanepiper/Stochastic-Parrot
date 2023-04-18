@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74HIAKJ6sEqHJOWR91TMI4nuLulqA",
+  "object": "chat.completion",
+  "created": 1681254138,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A psychoactive substance is a chemical substance that alters brain function, resulting in changes in perception, mood, consciousness, cognition, or behavior. Psychoactive substances are used for various purposes: medicinal (antidepressants and pain relievers), recreational (alcohol and marijuana), religious ceremonies and rituals (ayahuasca), and performance-enhancing purposes (caffeine).\n\nMost commonly known psychoactive substances include:\n\n1. Stimulants - These increase alertness, attention, energy levels, heart rate, blood pressure; e.g., caffeine from coffee/tea/chocolate; amphetamines like Adderall; cocaine.\n\n2. Depressants - They slow down the activity of the central nervous system inhibiting arousallevelsand resultingin relaxation,ease anxiety,and reduce inhibition:e.g.alcohol(ethanol); benzodiazepines like Xanax(diazipam)or Valium(lorazepam).\n\n3.Hallucinogen-Sesponsestothesize(perception(withornotinsights,)alterexperienceof reality:mushrooms(psilocybin,),Albert Hofmann(LSD)andro-mescal(peyote;cactus-derived.)\n\n4.Cannabinoids –Substances from Cannabis Sativa L.plant includes phytocannabinoid Δ9-tetrahydrocannabinol(THC) responsible marijuana psychotropic effects as well other cannabidiols CBD(non-intoxpeariating active compnents.Medusesvarypain-management,epilepsy-or-easing-chemotherpay-nause-reliving anorexia)\n\n5.Opioids,Pain moderation(byactingon receptorstoactivatesredensitaryresponse(.Heroin,morphine(oxycontin-)fentanyl(e)-codenes\n\n6.Dissociative_an"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

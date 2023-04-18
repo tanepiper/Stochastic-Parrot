@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71w8njnObl0yixA5xuuKKQk5pfsSc",
+  "object": "chat.completion",
+  "created": 1680696177,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 101,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In most cases, the minimum age to rent a car in Canada is 21 years old. However, some rental companies may allow drivers as young as 18 or 19 to rent cars with certain conditions and restrictions, such as an additional daily surcharge.\n\nKeep in mind that drivers under the age of 25 may also face higher insurance rates and might not be allowed to rent luxury or high-performance vehicles. Be sure to check with each individual rental company for their specific requirements and policies regarding young renters."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

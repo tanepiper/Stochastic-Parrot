@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72B7YXWjcTdROSC5JfIs4kj4IXhH7",
+  "object": "chat.completion",
+  "created": 1680753760,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 137,
+    "total_tokens": 144
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "An autograph signature is a person's unique and personal handwriting style, used to sign their name on a document or other item. A celebrity, athlete, author, or any famous person usually use their autograph signature as official acknowledgment for fans or collectors. These signatures often hold some value and are considered collectibles.\n\nA digital signature is an electronic form of authentication that guarantees the integrity of a digital document or message. Digital signatures use encryption algorithms to verify the identity of someone sending data (e.g., emails) and ensure that it has not been altered during transmission. The purpose of using a digital signature is more about security rather than just providing a personal touch like autograph signatures do."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

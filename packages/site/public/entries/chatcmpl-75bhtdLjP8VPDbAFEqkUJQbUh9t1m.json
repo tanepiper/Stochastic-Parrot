@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75bhtdLjP8VPDbAFEqkUJQbUh9t1m",
+  "object": "chat.completion",
+  "created": 1681570941,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 316,
+    "total_tokens": 323
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There can be several reasons why power steering fluid may come out of the reservoir. Some possible reasons include:\n\n1. Fluid Overfill: If too much power steering fluid has been added to the reservoir, expansion of the fluid caused by heat in the system can cause it to overflow or leak out.\n\n2. Damaged Reservoir Cap: A damaged or loose reservoir cap could leave a gap for air and moisture to enter, causing foaming and overflowing of power steering fluid from the reservoir when pressure builds up.\n\n3. Clogged Filter Screen: The filter screen in your power steering system helps prevent contaminants from affecting important components like your pump, but a clogged or dirty filter may induce excess flow back into your reservoir due to increased resistance.\n\n4. Air Trapped In The System: When air gets trapped inside your power steering system while you're replacing or adding fluids, this allows the formation of foam and bubbles that expand with heat build-up – potentially leading them to overflow as they cause pressure swings.\n\n5. Worn Pump Seals Or Seal Bypass System Failure: Damaged seals on some internal components such as valves and pumps might hinder its ability operate properly under normal conditions without any apparent signs during an inspection; however these inconsistencies often result leaking/fluid escapes\n\n6. High Temperature/Rapid Clearance Changes: Power-steering fluids are at risk for excessive thermal expansion as temperatures fluctuate rapidly (bleeds past certain seals), increasing chances there being leaks alongside higher stress levels incurred upon driving through contrasting environments such weather patterns shifts quickly between cold hot creating sudden clearance differences within closed loop systems ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72JZVZNiJHmPknX92wpKN8BxCinZt",
+  "object": "chat.completion",
+  "created": 1680786245,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some activities you can do with a group of people at night include:\n\n1. Stargazing - Head to a spot with minimal light pollution and watch the stars together, using an app or book to help identify constellations.\n\n2. Outdoor movie night - Set up a projector and screen in your backyard (or use a white sheet) and enjoy watching movies under the stars.\n\n3. Game night - Gather around for board games, card games, or party games like charades.\n\n4. Bonfire/s'mores party - Build a fire outside and roast marshmallows for s'mores while sharing stories or playing music.\n\n5. Themed dinner party/cultural food potluck - Decorate according to the theme, prepare dishes from different cultures, and dress in accordance with the chosen place or era.\n\n6. Ghost tour/walking tour - Explore your area's haunted history by going on a guided ghost tour or make it more personal by researching local legends.\n\n7. Trivia/quiz night – Host your trivia game where teams compete against one another answering themed questions on various topics such as pop culture, history, current events etcetera\n\n8.Crafting/DIY workshop – Arrange workshops where interested participants can create art masterpieces collaboratively ranging from painting sessions to DIY-garden decor parties \n\n9.Karaoke/Band Jam Session – Join voices harmoniously celebrating collective love for music either through singing karaoke songs; alternatively gather instruments together jamming creatively as an impromptu band\n10.Escape room adventure/board overnight stay: Seek out establishments providing late-night escape room experiences working synergistically solving brain-challenging puzzles completing corresponding objectives marked within limited time-frames\n\nRegardless of what activity you choose– just remember respecting everyone’s preferences"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

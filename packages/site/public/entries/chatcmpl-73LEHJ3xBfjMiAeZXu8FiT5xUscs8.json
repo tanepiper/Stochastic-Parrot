@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73LEHJ3xBfjMiAeZXu8FiT5xUscs8",
+  "object": "chat.completion",
+  "created": 1681030945,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 333,
+    "total_tokens": 340
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To fix your RC helicopter that won't fly, try the following troubleshooting steps:\n\n1. Check the battery: Ensure that the battery is fully charged and inserted correctly into the helicopter. If the battery is old or damaged, consider replacing it with a new one.\n\n2. Inspect for physical damage: Carefully examine your RC helicopter for any signs of physical damage including broken or bent parts, loose wires or connections, and damaged propellers or tail rotors.\n\n3. Verify proper transmitter pairing: Make sure your transmitter (remote control) is properly paired with your helicopter by turning both devices off, then on again while they are close to each other. The indicator lights should show a solid connection between them.\n\n4. Test channel responsiveness: Try adjusting different channels and/or trims on your transmitter to see if you can regain control of the helicopter's movement. If some controls work but others do not, there may be an issue with either the remote itself or specific electronic components in your aircraft.\n\n5.Remedy mechanical issues: Inspect gears inside main motor assembly carefully for any debris like hair strands wrapped around axle etc stuck in between gear teeth which might cause misalignment and prevent smooth rotation . Remove such obstructions using sharp tweezer ensuring no damage done .\n\n6.Reset Gyro chip calibration - Instructions are :\na.Power Off Helicopter\nb.Set throttle stick at lowest point \nc.Turn On Transmitter \nd.Push Throttle Stick to highest position , wait for beep sound , push back down.\ne.Done \n\nIf these suggestions don't work,request assistance from manufacturer support team as they know their tools best.Based upon detailed description provided ,manufacturer will guide you further "
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73r4etYSUZzQjS5CLffpjxQN2AQEb",
+  "object": "chat.completion",
+  "created": 1681153356,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 245,
+    "total_tokens": 252
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few ways to become emotionally strong and resilient, including:\n\n1. Cultivate self-awareness: Understand your emotions, reactions, and triggers. Be mindful of what you feel and where those feelings come from.\n\n2. Practice emotional regulation: Learn techniques to regulate your emotions in challenging situations such as deep breathing exercises or visualization.\n\n3. Improve communication skills: Open up dialogue with others about your feelings and allow space for them to express theirs as well.\n\n4. Develop healthy coping strategies: Hobbies like writing, art or exercise can help channel negative emotions into more productive activities that promote positive mental health.\n\n5. Maintain a balanced lifestyle: Prioritize sleep, good nutrition, regular exercise and relaxation practices (such as meditation) all contribute to increased emotional strength.\n\n6. Build resilience through adaptationist coping strategies; Practice reframing challenges as learning opportunities instead of viewing confrontation negatively\n\n7. Foster supportive relationships; Surround yourself with friends/family who offer encouragement when faced adversity while also providing honest feedback regarding areas improvement needed within oneself\n\n8 Set realistic goals/expectations towards personal growth accomplishments by breaking down objectives into smaller achievable steps over time span periods before progressing forward toward larger ambitions without becoming overwhelmed immediately after failing initial attempts at success"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

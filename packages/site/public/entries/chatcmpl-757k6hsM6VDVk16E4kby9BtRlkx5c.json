@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-757k6hsM6VDVk16E4kby9BtRlkx5c",
+  "object": "chat.completion",
+  "created": 1681455758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 50,
+    "total_tokens": 57
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What do you mean by VIB? If it represents \"Very Important Person (VIP),\" then a VIB wristband would be a wristband given to those considered VIPs at an event, providing them with special privileges and access during the event."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

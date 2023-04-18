@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74IJQfWxTeQxFCF5fEoGZVmLZ7JHD",
+  "object": "chat.completion",
+  "created": 1681258060,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fruit do you enjoy the most?\",\n  \"answers\": [\n    \"A. Juicy red strawberries\",\n    \"B. Tropical sweet mangoes\",\n    \"-//C. Refreshing green apples\", \n    \"D. Tangy yellow pineapples\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

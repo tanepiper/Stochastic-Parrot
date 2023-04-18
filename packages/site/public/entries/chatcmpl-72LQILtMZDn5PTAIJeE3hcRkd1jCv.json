@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72LQILtMZDn5PTAIJeE3hcRkd1jCv",
+  "object": "chat.completion",
+  "created": 1680793362,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several types of tokens that you can use in your Discord bot. Some common types include:\n\n1. Text tokens: These are simple text messages or strings, which you can send as content to users through your bot.\n\n2. User mentions: This allows the bot to mention a specific user by using their ID and wrapping it with \"<@userId>\". The mentioned user will be notified when this is used in a message.\n\n3. Channel mentions: If you want the bot to mention a channel within the server, use the format \"<#channelId>\" where channelId is the ID of the specific channel.\n\n4. Role mentions: You can make role mentions by using \"<@&roleId>\", replacing roleId with the actual role's ID.\n\n5. Emoji/emojis: To add custom emojis from your server, paste an emoji's name wrapped between two colons like \"::<customEmojiName>::\". For standard emojis, simply copy and paste them into your text message.\n\n6. URL links/embeds: Include URLs for external websites or media files (e.g., images) directly within your text message or via embed blocks containing rich formatting options like titles, descriptions, colors, icons and more - this provides additional interactivity and aesthetics to make content more engaging for users\n\n7. Markdown-style formatting tokens:\n   - Bold markup represented with double asterisks on either side such as \"**strong**\".\n   - Italics markup represented with single underscores around words \"_italicized_\".\n   - Strikethrough involves adding tilde characters \"~text~\" around text \n   \nFinally, there could be tokens related specifically to API usage keys if certain features require connecting to third-party services that need authentication/token access.\n\nRemember that some token combinations have unique effects —"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

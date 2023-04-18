@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74iSQuN2lVsNzYqz1CoEIxwro2Bl9",
+  "object": "chat.completion",
+  "created": 1681358562,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Types of vitamins and their roles:\n\n1. Vitamin A (Retinol)\n- Role: Supports healthy vision, immune function, bone growth, cell division and differentiation, and skin health.\n- Sources: Liver, fish liver oils, egg yolks, dairy products, orange and yellow vegetables like carrots and sweet potatoes.\n\n2. B-vitamins\na) Thiamine (B1)\n- Role: Helps with energy metabolism; nerve function & brain development\n- Source: Whole grains, legumes\n\nb) Riboflavin (B2)\n- Role: Antioxidant that helps protect cells from damage; assists in converting food into energy\n- Source: Dairy products,\n\nc) Niacin (B3)\n- Role : Necessary for the conversion of food to energy; maintaining nervous system functions \n -Sources : Chicken,turkey meat,certain types of fish like tuna \n\nd) Pantothenic Acid(B5):\n    Roles ; Supports nerves,muscles functions  serotonin production \n     source ;Organ meet,fish,brown rice , milk \n     \ne )Vitamin B6(Pyridoxine ):\n        role ; creating new red blood cells,making hemoglobin source   pork poultry ,whole cerals,potatoes  \n\n f)Vitamin B7(Biotin):\t\n            Roles-supports metabolism,blood glucose regulation reproduction  \t\n                sources-almonds,nuts egg yolk\t\n\n g)Folate or Folic acid(B9)\n                             role -Synthesis repair,and functioning DNA,\n                              sources-green leafy vegetables \t\n\nh)Vitianmin b12(CONALAMINE )\n         Roles-red blood cell formation proper lens neurons functioning \t\n                    SOURCES-beef,Fsh,Egg ,\n\n3.Vitamin C("
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

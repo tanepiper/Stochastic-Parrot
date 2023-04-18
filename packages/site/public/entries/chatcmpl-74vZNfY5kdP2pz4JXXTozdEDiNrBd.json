@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74vZNfY5kdP2pz4JXXTozdEDiNrBd",
+  "object": "chat.completion",
+  "created": 1681408965,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 239,
+    "total_tokens": 246
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"3 percenter\" (also written as \"III%er\") refers to an American militia and patriot movement that is deeply rooted in the belief of limited government, individual freedom, national sovereignty, and strict adherence to the U.S. Constitution. The name comes from a claim that approximately 3 percent of colonists fought against England during the American Revolution.\n\nMembers of this group identify themselves as staunch defenders of constitutional rights and often express concerns about perceived encroachments on those rights by the federal government or other entities. Some individuals affiliated with the 3 Percenters have been involved in protests and armed standoffs with law enforcement.\n\nHowever, not all people who identify as 3 Percenters may participate in or endorse violence; many view their role more along the lines of preparedness for potential threats to liberties. They might be partaking in various survivalist activities such as tactical training, disaster preparedness courses, or practicing marksmanship skills.\n\nOverall, while there are undoubtedly some members within this movement who espouse extremist views or engage in criminal acts – which generate negative public perceptions towards them – others maintain a commitment principally focused upon preserving America's founding principles without resorting to violent actions."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

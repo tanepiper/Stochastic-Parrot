@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73x5ve5DIEnefBrqNIZajWw2XI8Z5",
+  "object": "chat.completion",
+  "created": 1681176499,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 54,
+    "total_tokens": 61
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A personal trainer can expect to make an average of $20 - $50 per hour, depending on their level of expertise and location. The total annual income may vary, as it depends on the number of clients they are able to retain and the hours worked each week."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74skodRI3yyxioOjtxdF7JY6zZOYO",
+  "object": "chat.completion",
+  "created": 1681398142,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 112,
+    "total_tokens": 119
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Tone is the attitude expressed through a speaker or writer's words, while mood refers to the emotional atmosphere conveyed in a piece of writing. Tone can reveal an author's feelings towards their subject matter and may also set the reader up for certain expectations. On the other hand, mood allows readers to experience emotions evoked by a work's setting, characters, and overall ambiance.\n\nIn summary:\n\n1) Tone: The author/speaker's attitude toward their topic/subject.\n2) Mood: The emotional 'atmosphere' created within a piece of literature."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

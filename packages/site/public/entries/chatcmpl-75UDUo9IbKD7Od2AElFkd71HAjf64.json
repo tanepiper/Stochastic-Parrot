@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75UDUo9IbKD7Od2AElFkd71HAjf64",
+  "object": "chat.completion",
+  "created": 1681542148,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 36,
+    "total_tokens": 43
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What type of game are you looking for? Board games, video games, card games, or something else? Let me know and I'll provide a suggestion tailored to your interests."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

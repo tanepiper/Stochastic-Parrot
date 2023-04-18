@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76bWGNuetpR9kWwcaLjYx9NDwv0bZ",
+  "object": "chat.completion",
+  "created": 1681808548,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 40,
+    "total_tokens": 47
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The most common meaning for the abbreviation SSC is Staff Selection Commission. It is an organization under the Government of India responsible for recruiting staff for various posts in ministries, departments and organizations of the Indian Government."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

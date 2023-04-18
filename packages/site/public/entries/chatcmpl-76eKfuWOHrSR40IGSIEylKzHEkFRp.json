@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76eKfuWOHrSR40IGSIEylKzHEkFRp",
+  "object": "chat.completion",
+  "created": 1681819361,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 323,
+    "total_tokens": 330
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some of the best things to do in Wales include:\n\n1. Exploring Snowdonia National Park, home to the highest peak in England and Wales, Mount Snowdon.\n2. Visiting Cardiff, the capital city of Wales, which includes attractions such as Cardiff Castle and Bute Park.\n3. Taking a trip through history at Caernarfon Castle, one of Europe's most well-preserved medieval fortresses.\n4. Strolling through Bodnant Garden; its vibrant colors attract thousands of visitors each year.\n\n5. Experiencing Welsh heritage and culture at St Fagans National Museum of History; it consists of more than 40 historic buildings from around Wales that have been relocated to create an open-air museum.\n\n6. Discovering Pembrokeshire Coast National Park on foot or by boat tour – these rugged coastal landscapes are popular for hiking along with seal spotting.\n\n7. Admiring Conwy Castle's impressive architecture; this picturesque castle stands proud alongside other UNESCO World Heritage sites within Edward I's iron ring fortifications built during his conquests in North Wales.\n\n8. Bike riding or walking across Pontcysyllte Aqueduct - completed in 1805, this engineering marvel is Britain’s longest aqueduct stretching over 307 meters long providing spectacular views while crossing River Dee valley below\n\n9 Dan-yr-Ogof caves network showcasses stunning cave formations dating back millions years ago giving you chance awe natural beauty deep beneath our feet\n\n10 Finally enjoying traditional Welsh food unique dishes such as 'Welsh rarebit', 'Glamorgan sausages' fresh seafood pubs restaurants throughout country"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71YiVQM1FNXRYcT0Srslj85n3rwO7",
+  "object": "chat.completion",
+  "created": 1680606135,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The story of the Trojan Horse has been passed down through generations and is a legendary tale from ancient Greek mythology. It took place during the Trojan War, which lasted ten years and was fought between the city of Troy and the numerous Greek kingdoms.\n\nThe tale begins with Paris, Prince of Troy, who kidnapped Helen, Queen of Sparta. This resulted in King Menelaus calling upon his allies to attack Troy and return his wife. The Greeks laid siege on Troy for ten years without any significant success.\n\nTired yet unwilling to surrender, Odysseus – king of Ithaca – came up with an ingenious plan that would ultimately lead to their victory against Troy. He suggested building a giant wooden horse as an offering to Athena, pretending they had accepted defeat in exchange for safe passage home.\n\nIn reality however Odysseus ordered hiding several dozen elite Achaean soldiers within the hollow belly of this massive horse while leaving one man named Sinon behind on purpose so he could convince Trojans (Priam's people) about supposed goodwill gesture by enemy troops withdraws without achieving goals set at war start : ờ restoration measures imposed following capture Princess Helena1 due marriage agreement breach caused political instability throughout region threatened key trade routes connected East Mediterranean Sea coastlines southern Epirus mainland areas controlled closely related monarchial confederation-type rule maintained royal families held centralized power invested jointly shared succession agreements allowed them maintain control over urban population centres refused accept terms marriage alliance brokered peace4 priesthoods religious orders played vital role influencing various decision-making processess state council convened executives directed civic affairs conducted citywide planning strategy negotiations leading statesmanship considering military campaigns proposed setting aside issues diplomacy instead opting diplomatic envoy request peaceful ending hostilities declare amnesty release prisoners commemorate end wars celebrate triumph"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

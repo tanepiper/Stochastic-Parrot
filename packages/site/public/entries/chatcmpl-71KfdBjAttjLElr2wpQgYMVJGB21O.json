@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71KfdBjAttjLElr2wpQgYMVJGB21O",
+  "object": "chat.completion",
+  "created": 1680552141,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 328,
+    "total_tokens": 335
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The periodic table is a chart that organizes chemical elements by their atomic number, electron configurations, and recurring chemical properties. Elements are categorized into 18 vertical columns called groups or families and 7 horizontal rows known as periods.\n\nThe various categories of the periodic table include:\n\n1. Alkali metals: The alkali metals are located in Group 1 (the first vertical column) of the periodic table, with some examples being lithium (Li), sodium (Na), and potassium (K).\n\n2. Alkaline Earth Metals: These elements belong to Group 2 of the periodic table and include beryllium (Be), magnesium (Mg), calcium (Ca), strontium (Sr), barium(Ba) etc.\n\n3. Transition Metals: Groups between 3 to 12 on the periodic table represent transition metals such as iron(Fe) , copper(Cu) , gold(Au). They exhibit variable oxidation states due to presence of unfilled d orbits.\n\n4. Boron group/ Post-Transition Metals : Elements present under group13 ie boron family includes elements like aluminium(Al) gallium(Ga)\n\n5. Carbon Family -Elements present in group14 consisting carbon which lies at top are know carbon family\n\n6.Chalcogens/The oxygen family(Group16): This group consists ofOxygen(O,Sulfur(S)\n7.Halogens(Group17): They are highly reactive non-metals included fluorine(F), chlorine(Cl)\n.Group18 inert gases/noble gases contains helium .all members of this gorup have stable full energy orbit hence no tendency tp react .They dont form molecules readily"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76fIZ16PXkj0fn2GmVCX69N1eIDCt",
+  "object": "chat.completion",
+  "created": 1681823075,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are many factors to consider when choosing the right international school for your child, including location, curriculum, fees, teachers, and extracurricular activities. Here is a guide on what aspects to look into:\n\n1. Location: Consider the distance between the school and where you live or work. Is there easy transportation available? Do they offer bus services? Ensuring that your daily commute to drop off and pick up your child is manageable can help make daily life easier.\n\n2. Curriculum: Investigate which curriculums are offered at each international school in Singapore (e.g., International Baccalaureate (IB), American or British curriculum). Does it align with what you plan for your child’s educational future? You may want continuity from previous education received before moving to Singapore.\n\n3. Teaching quality: Research the credentials of teachers at each school - their experience level, certifications held etc. Schools accredited by recognized education organizations usually maintain high teaching standards.\n\n4.StackTraceError_TRACE 9.stack7.pointshool's campus security measures?\n\n6.StackOverflow_LANG_PARAMSoolsickness\f0.startswithngappropriate faculty/student ratios?\n\n8(Schedulers_SINGLE_A.postgres.execSQLTRCES_FILENO_EOFtracebackschool records break down academically?action-dnstap.comk among top schools nationally/global.accidentally_trampolinevars\n\n11.Acciden_EX_LOC=\"http://ge.ng/en/oaths\"parent reviewsrecommendations regarding specific schoolsinformation about individual experienceschindsight?\n\n12anguage_PROGRAM_COLS={{i[0]}}st language supportchild requiredextraresources-like-tempfilehelplearn bestpossible.translate_url_rli>\n\n13Extracurricular_HITEBOX_DIM={1234567}videdifferentiated contentnativities available.involve children.activities_likesportsorass=:"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

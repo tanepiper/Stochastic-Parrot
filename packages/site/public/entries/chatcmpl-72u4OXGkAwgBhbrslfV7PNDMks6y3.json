@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72u4OXGkAwgBhbrslfV7PNDMks6y3",
+  "object": "chat.completion",
+  "created": 1680926544,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "World War 2 was a global war that lasted from September 1, 1939 to September 2, 1945. The war involved many of the world's nations (over 100 countries), which formed two opposing military alliances: the Allies (led by the United States, Soviet Union, and Great Britain) and the Axis (led by Germany, Italy, and Japan).\n\nThe overall cause of World War II is rooted in unresolved issues stemming from World War I, which ended in an unsatisfactory outcome for many nations. Over time these tensions multiplied and worsened until they contributed to several critical events that ultimately led to full-scale war. Some key causes include:\n\n1. Treaty of Versailles: Signed after World War I as part of peace negotiations between Allied forces and Germany. It put harsh penalties on Germany; it had to accept responsibility for starting WWI and pay heavy reparations for all resulting damages.\n\n2. Economic Depression: Global economic depression during the late 1920s-1930s fueled political discontent across Europe & heightened competition for resources.\n\n3.Marshal Plan : This plan proposed after WWII sought huge sums be given out by USA to help rebuild Europe.So this motivated countries go start war as fast has possible\n\n4-League Of Nation And Appeasement Policy; A policy signifying taking no action against aggressive acts by Fascist Italy or Nazi-Germany inorder solve problems through negotiation thus making both powers bolder leading them to assume western democracies lacked will power.\n\nSome Specific Event That Leads To Start Of WWII;\n\n1-Making Munich Agreement with Hitler promising Sudetenland area if agreed not demand anymore land but broke promise invaded more areas later causing France&Britain declare Austria null & void\n\n2-Oppression On Ethnic"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

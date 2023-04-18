@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74axcwRI6Fn1pQ4eJ5QhwbZlSs69n",
+  "object": "chat.completion",
+  "created": 1681329744,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 291,
+    "total_tokens": 298
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Coronavirus (COVID-19) and the common cold are both viral infections, but they are caused by different types of viruses. COVID-19 is caused by a novel coronavirus called SARS-CoV-2, while the common cold is typically caused by rhinoviruses or other coronaviruses.\n\nSymptoms for both illnesses can be similar, including cough, sore throat, sneezing and/or fever. However, some key symptoms of COVID-19 such as shortness of breath/difficulty breathing/loss of smell/taste tend to not occur in most common colds cases. Additionally, COVID-19 has been noted for its severe complications that have led to hospitalization and even death.\n\nWhile both conditions primarily spread through respiratory droplets from an infected person's coughs/sneezes/mucus secretions on surfaces we touch then eyes/nose/mouth - hand washing & mask wearing is very important in reducing the transmission rate.\n\nLastly there aren't any proven treatments/medications/vaccines available specifically against either virus other than managing symptoms with over-the-counter drugs. Having said that various vaccines do exist whose purpose aim at helping reduce infection risk among population which thereby helps decrease overall complication rates but it still remains sensible advice to try maintain general good hygiene practices where possible throughout life since these two specific illnesses really just represent tip-of-the iceberg regarding potentially harmful pathogens humans may come into contact with throughout daily living praxis.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76TPDrXpZPicIo721gNZG6Ybji1LJ",
+  "object": "chat.completion",
+  "created": 1681777359,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 227,
+    "total_tokens": 234
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The cost of using Google Maps API depends on the usage volume and feature tier. For most small-to-medium applications, there is a free usage tier with 2 million map views per month for web and mobile applications, as well as 50 thousand calls to some APIs (e.g., Geocoding). Above these limits or for additional features not included in the free tier, you will need to pay according to the pricing table provided by Google.\n\nAs of October 2021, here are some examples from Google's Pricing Table:\n\n- Dynamic Maps: $7 per 1000 additional loads beyond the free limit\n- Static Maps: $2 per 1000 additional loads beyond the free limit\n- Directions API: $5 per 1000 requests after reaching daily limit\n- Distance Matrix API: $5 per 1000 elements after reaching daily limit\n- Geolocation API :$5 per 1000 requests after reaching daily limit\n\nKeep in mind that prices may change over time. You can consult this detailed guide on current pricing at [Google’s official documentation](https://cloud.google.com/maps-platform/pricing/)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

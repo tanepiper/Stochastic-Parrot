@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72XbCr1pWjC50JImXL19sbTJEDw90",
+  "object": "chat.completion",
+  "created": 1680840166,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 137,
+    "total_tokens": 144
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In the United States, a cardiologist typically earns an average annual salary of around $410,000. However, this can vary widely depending on factors such as their level of experience, geographical location, and specific subspecialty within cardiology. The top 10% earn over $600,000 annually.\n\nIn Canada, a cardiologist earns an average annual salary range from USD 154K to USD 581K with median in between at about USD367K per year.\n\n\n\nNote: These figures are just estimates and may differ based on various aspects like the organization they work for or area of specialization within cardiology. It is always good to do thorough research when considering a career choice"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-725UuMvrj1rhrqJcrBAETtNQhafSz",
+  "object": "chat.completion",
+  "created": 1680732144,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 222,
+    "total_tokens": 229
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A deposit slip is a small paper form that a bank customer includes when depositing funds into a bank account. Deposit slips provide the necessary information for the bank to process the deposit transaction, ensuring that the money is correctly deposited into the correct account.\n\nA typical deposit slip will include:\n1. The depositor's name and address.\n2. The date of the deposit.\n3. The bank account number where the funds are being deposited.\n4. A list of cash (bills and coins) and checks being deposited, usually with separate spaces to fill in their respective amounts.\n5. Spaces for totaling up your deposits at multiple banks\n6. Subtotals for any cash or checks you're adding together\n7.The grand total amount of all cash, coinage and check deposits listed on one line.\n\nIn many cases, there may also be additional spaces available if you want to make notations about other things during this time like if there was something particular related as well such as paying off loans etcetera so it becomes easier later down road when looking back over what transpired during these specific transactions beforehand too!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

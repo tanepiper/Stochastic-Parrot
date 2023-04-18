@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71U2JNMLN3uY3wemO04aTWYeXSEU0",
+  "object": "chat.completion",
+  "created": 1680588143,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 321,
+    "total_tokens": 328
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Different countries and regions use different plug types based on the adopted national electrical standards. Consequently, it is essential to have a power adapter when travelling to ensure that your electronic devices can be connected and are compatible with the local voltage system.\n\nA power adapter is an accessory that allows you to connect your device's plug (such as a phone charger, laptop charger, or any other electrical device) into outlets in foreign countries. These adapters do not convert voltage; they only help establish a connection between your plug type and the host country's sockets.\n\nThe United States primarily uses Type A and Type B plugs classified by IEC as NEMA 1-15 (Type A) and NAMERA 5-15 (Type B). Therefore, if an American travels outside North America or visits countries like Europe or Asia with different socket systems such as Types C, D E/F etc., they will need a power adapter for their US-based electronic devices.\n\nConversely, if someone from Europe or another part of the world comes to visit the United States with their native European-style plug type C/E/F etc., they would need an appropriate travel adapter for US sockets so their appliances work properly.\n\nHere's a brief overview of some common international connector types:\n\n1. Type A: Primarily found in North & Central America\n2. Type B: Primarily found in North & Central America\n3. Type C: Found throughout Europe (except UK), South America & Africa\n4. Type D: Mostly encountered in India; also used in Nepal & Pakistan.\n5.strip_type_e(e.g.: \"found_across\")"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

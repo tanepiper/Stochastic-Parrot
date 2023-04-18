@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75oogotEmo3WzVVceiqzNS37mipxa",
+  "object": "chat.completion",
+  "created": 1681621334,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 87,
+    "total_tokens": 94
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on the specific genre or type of graphic novel, but generally speaking, the typical length of a graphic novel ranges from 60 to 200 pages. Some may be shorter and classified as novellas, while longer ones might be considered volumes within a series. There is no strict rule about the length of a graphic novel being too long or too short; what matters most is whether it delivers an engaging story with strong visual storytelling."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

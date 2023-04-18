@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74PjHcVTKiRJ4H3ROGWmC69vpes6H",
+  "object": "chat.completion",
+  "created": 1681286571,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 300,
+    "total_tokens": 307
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To test an electrical wiring system in a modern home, follow these steps:\n\n1. Turn off the main electricity supply at the breaker panel or fuse box.\n\n2. Use a digital multimeter or voltage tester to check if there is any residual electricity in the wires.\n\n3. Inspect for any visible damages like cuts, frayed insulation, burnt marks, or loose connections in outlets and switches.\n\n4. Perform continuity tests on each wire using your multimeter to ensure that all circuits are complete and properly connected.\n\n5. Check for any disconnected grounds by testing for continuity between relevant grounding points with your multimeter.\n\n6. Test each switch and outlet using an outlet tester (a device that plugs into a standard wall socket). This will indicate if there is proper polarity, grounding connection, and functionality of receptacles and switches throughout the house.\n\n7. If necessary, test individual circuits by temporarily reconnecting the power supply and turning on breakers one at a time while checking specific appliances or sockets connected to those circuits with your voltage tester—always remember safety first: wear protective gear such as rubber gloves when working near live wires!\n\n8. Examine any light fixtures throughout the home; ensure they are secure without loose connections (including bulb sockets).\n\nNever attempt this type of testing if you're not proficient in handling electrical systems—as it can be dangerous! In case of doubt or suspected issues beyond visual inspection & basic outlet/switch diagnostics obtained through safe testers usage only), always consult a qualified electrician's expertise!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72dDWJMiSkFNQkdWkZYo77oa30eFG",
+  "object": "chat.completion",
+  "created": 1680861762,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 131,
+    "total_tokens": 138
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Fortnite is a popular online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay: Fortnite: Save the World, a cooperative shooter-survival game for up to four players to fight off zombie-like creatures and defend objects with fortifications they can build; Fortnite Battle Royale, a free-to-play battle royale game where up to 100 players fight to be the last person standing; and Fortnite Creative, where players are given complete freedom to create worlds and battle arenas. The game is known for its colorful graphics, fast-paced gameplay, and creative building mechanics."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

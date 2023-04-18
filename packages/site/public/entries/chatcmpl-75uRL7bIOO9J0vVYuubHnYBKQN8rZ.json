@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75uRL7bIOO9J0vVYuubHnYBKQN8rZ",
+  "object": "chat.completion",
+  "created": 1681642951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 7,
+    "total_tokens": 14
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Can you do it for me?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73gmF6IgpF6H1PsV3ODmMYn3nuTk2",
+  "object": "chat.completion",
+  "created": 1681113775,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 69,
+    "total_tokens": 121
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these animals do you like the most?\",\n  \"answers\": [\n    \"1. Playful dolphins at the beach\",\n    \"2. Majestic lions in the savannah\",\n    \"3. Adorable pandas munching bamboo\",\n    \"4. Fascinating octopuses underwater\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

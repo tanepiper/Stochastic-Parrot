@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74cprjgdN4yjJXE119ff7ppo1FZrk",
+  "object": "chat.completion",
+  "created": 1681336951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The easiest way to prepare zucchini for cooking is by washing, trimming it and then slicing or chopping it into the desired size:\n\n1. Rinse the zucchini under cool running water, gently rubbing off any dirt or debris with your fingers.\n\n2. Lay out a cutting board on a stable surface.\n\n3. Place the clean zucchini on the cutting board.\n\n4. Using a sharp knife, trim off each end of the zucchini – slice off about ¼ inch from both tips to discard stem and bottom tip.\n\n5. Decide if you want to peel your zucchini— you can leave its skin: Many recipes call for leaving the skin on as it contains nutrients; however, some people opt to remove their skins due to texture preference or if they're using large-sized matured ones that come with thicker and tougher skins than smaller tender ones.\n\n   -If you decide to peel yours: Use a vegetable peeler or paring knife to gently remove its outer layer in long thin strips lengthwise; apply even pressure so that only its green exterior comes off without removing too much flesh underneath.\n\n6. Slice/Chop/Dice accordingTo recipe requirements\n- For slices: Cut Zucchinis longitudinally (the long way) into halves_ Then place flat sides down & cut crosswise(breadthways); You could switch things up_thickness-wise.\n \n-For Chops: Follow steps done when getting slices above_when at cross-cutting stage_ turn recently sliced pieces horizontally & make parallel cuts downwards across initial_slice lines_zigzag/chopping style_moves work best here(forms similarsize dice like appearancel)\n\n7.Optional; Removing seeds(especially recommended for older/bigger overripe ones)\n-once halved(cut length"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

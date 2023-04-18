@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75tVGssrFM3fES1sTE77HA49IlLyv",
+  "object": "chat.completion",
+  "created": 1681639350,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 92,
+    "total_tokens": 99
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Since exercise helps improve circulation, walking or performing light exercises can help alleviate cold feet. Additionally, try massaging your feet, wearing warm socks or using heating pads on the coldest areas. It's also helpful to keep your entire body warm by dressing in layers and staying active throughout the day.\n\nIf you often have cold feet without an apparent reason, it's crucial to consult with a doctor as there could be underlying issues such as poor circulation or nerve damage."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

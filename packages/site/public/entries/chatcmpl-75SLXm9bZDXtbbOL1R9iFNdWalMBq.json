@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75SLXm9bZDXtbbOL1R9iFNdWalMBq",
+  "object": "chat.completion",
+  "created": 1681534959,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A prologue is an opening to a story that sets the scene, introduces important background information or context, and/or provides insight into characters or events that will occur later in the narrative. In literature, a prologue is often used as an introduction to provide readers with essential details and create anticipation for what is about to happen. A prologue can be written by the author's own voice, but sometimes it may feature a specific character or narrator.\n\nHere are some tips on how to write an effective prologue:\n\n1. Set the tone and mood: The beginning of your story should set the tone for everything else that follows. If your tale is mysterious, start with something enigmatic; if it's tragic, showcase heartache from the onset.\n\n2. Introduce key elements: Reveal aspects of your world without overwhelming readers with too many details. Many successful works begin by introducing crucial setting pieces or glimpses into main characters' backgrounds without fully explaining them yet.\n\n3. Create intrigue: Give just enough information so readers are intrigued and want more - this means not revealing every detail right away! Make sure you leave mysteries unsolved until they unfold later on in your story.\n\n4.range>Evoke emotions from readers early on; ensure they're both hooked emotionally invested quickly since these connections help keep people engaged longer .\n\n5.Strive conciseness once possible being mindful length vital avoid dragging out causing potential boredom confusion among audience members who may lose interest ultimately discard materials altogether before reaching core content matter .\n\n6.Avoid naming all primary figures immediately rather enroll gradual slow familiar characterization revealing pertinent biographical data through well planned gradual exposition relation conflict resolution device employed build dynamic tension sustain drive throughout literary composition work wonder enhance longevity reader’s full attention effectively capturing imagination transporting fantastic imaginary realms"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

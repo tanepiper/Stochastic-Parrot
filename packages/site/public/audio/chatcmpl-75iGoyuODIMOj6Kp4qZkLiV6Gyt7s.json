@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75iGoyuODIMOj6Kp4qZkLiV6Gyt7s",
+  "object": "chat.completion",
+  "created": 1681596170,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 141,
+    "total_tokens": 148
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Alligator meat is farmed and processed primarily in the United States, specifically in states with significant alligator populations like Louisiana, Florida, Georgia, and Texas. It is also consumed to a lesser extent in countries such as China and South Africa where commercial farming exists on a smaller scale.\n\nIn the US, you can purchase it through wholesalers or retailers that sell exotic meats or sometimes local grocery stores. Online shopping platforms also offer alligator meat for purchase from various vendors.\n\nIt should be noted that selling wild-harvested alligator meat may not be legal everywhere, so it's important to ensure you are buying from a reputable source that complies with regulations related to sustainable harvesting of crocodilian species."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

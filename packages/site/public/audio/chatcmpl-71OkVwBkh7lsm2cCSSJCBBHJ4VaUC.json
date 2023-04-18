@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71OkVwBkh7lsm2cCSSJCBBHJ4VaUC",
+  "object": "chat.completion",
+  "created": 1680567819,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Google Glass is an optical head-mounted display designed in the shape of a pair of eyeglasses. It was developed by X (previously Google X), a subsidiary of Alphabet Inc., with the mission to produce a ubiquitous computer that could be worn discreetly and provide hands-free access to information and communication. The glass displayed information in front of the user's eyes, allowing them to perform tasks such as making calls, sending messages, taking pictures or videos, getting directions or simply searching for answers using voice commands.\n\nKey Features:\n\n1) Transparent Heads-up Display: Provides overlaid digital information on top of the real world view through its transparent screen.\n\n2) Voice Command Interface: Users can interact with Google Glass via natural language voice commands by stating \"Okay Glass\" followed by their request.\n\n3) Touch Controls: Allows users to scroll through options, select items and control features by swiping and tapping on the touchpad located on one side of the glasses frame.\n\n4) Connectivity: Integrates wirelessly with smartphones and other devices for internet connectivity using Bluetooth for data exchange between devices.\n\n5) Camera & Video Recorder: Equipped with a 5-megapixel camera capable of capturing photos at 100% field-of-view related resolution and recording high-definition video clips up to 720p resolution without needing additional tools or supports.\n\n6) Notifications Support: Displays notifications about incoming messages, mails or events synced from your phone or Gmail inbox in chronological order right in front your eyes.\n\n7 Wallet Feature - This feature helps you make payments online without providing any extra payment details over-and-over again\n\nGoogle Glass Explorer Edition was released in April 2013 initially available only for developers at a price tag around $1500 USD while May 15th 201"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74f0tdHn7RtteLYtG1gwqu7xYCF8j",
+  "object": "chat.completion",
+  "created": 1681345323,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When you lack motivation, it can be helpful to try various strategies to regain your enthusiasm and drive. Here are some tips that might help:\n\n1. Set clear goals: Define what you want to achieve in the short-term and long-term. Break down larger goals into smaller steps, and make a plan for how to get there.\n\n2. Prioritize tasks: Focus on the most important tasks first, so that you don't waste time on less important activities.\n\n3. Create a schedule: Allocate specific times for each task or goal during your day or week.\n\n4. Break tasks into smaller components: By breaking up your work into smaller pieces, it becomes more manageable and easier to accomplish.\n\n5.Reader_min_rs_ratio_limit_i|min|1:min|maxtimate_fallback_phrase=randoffocusateid=cb5RseSBGxN_amountLr30YKNPta_in_response_to-user=min-fekterten_taskss_into_smaller_componentschances_of_success_r36xrnhcs_by_reiterating_your_objectives_on_a_rewards:majormaprg6attbJaphasimin_k_fxz0min_multiple_-ach_chance_for_small_victories_along_the_way_constant_pathof_old_school_within_you_remind_self_how_another_achie_wrongal_can_impact_your_life_=max37g52fYLent_bh120_downside75_driven_were_acquire_skill_avoid_challenge_positive_outcome_even_motivation_dissolves_time_they_return_back_to_up_roots_maintaining_necessary_changes_or_create_environment_more_conducive_accomplishments_find_empower_sources_urges_retain_desire_forward_from_others_working_toward_in_target_encourage_feeling_excitement_possibility"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

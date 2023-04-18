@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72Q6YZwLeBjQ6dPim6O1laxLbo8R0",
+  "object": "chat.completion",
+  "created": 1680811358,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 180,
+    "total_tokens": 187
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several differences between an American and a British accent. Here are a few primary distinctions:\n\n1. Pronunciation: The most noticeable difference is the pronunciation of certain words or sounds in each dialect. For instance, Americans typically use a hard \"r\" sound while the British have more of a silent \"r.\"\n\n2. Vocabulary: Some terms differ between the two dialects as well; for instance, Americans would say “apartment” while Brits (British people) might say “flat.”\n\n3. Spelling: Certain spellings vary across these two versions of English too – e.g., \"color\" (American) vs. \"colour\" (British).\n\n4. Intonation and stress patterns: Stress on syllables often differs, leading to different speech rhythms.\n\nThese differences extend beyond accents alone into overall linguistic nuances that set apart these distinct types of English expressionism across the Atlantic Ocean!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

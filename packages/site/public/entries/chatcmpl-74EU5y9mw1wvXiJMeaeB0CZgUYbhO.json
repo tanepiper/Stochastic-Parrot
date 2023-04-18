@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74EU5y9mw1wvXiJMeaeB0CZgUYbhO",
+  "object": "chat.completion",
+  "created": 1681243345,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 88,
+    "total_tokens": 95
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What is the most important part of being a human?\n\nThe most important part of being a human is arguably our capacity for empathy, compassion, and forming meaningful social connections. This allows us to build supportive communities, cooperate with one another, and develop an understanding of ourselves as well as others. Additionally, our ability to think critically and problem-solve sets us apart from other species and enables us to adapt to various challenges we face throughout life."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

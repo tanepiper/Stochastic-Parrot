@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73yYtb2eVJ6dWEubWBhJYfz6UJ1Hg",
+  "object": "chat.completion",
+  "created": 1681182139,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Sunfish, also known as Mola mola, is a large and oddly shaped fish that belongs to the family Molidae. It can be found in temperate and tropical waters around the world.\n\nThe sunfish is easily recognizable by its unique appearance. Its body is laterally compressed, meaning it's extremely flat from side to side like a pancake or frisbee. The body shape may range from an almost perfect circle to a more elongated oval form. They have small pectoral fins on the sides of their bodies and tiny anal fins near their tails.\n\nSunfish can grow quite large – some adult specimens reach over 10 feet (3 meters) in length and weigh about 2 tons (4,409 pounds). Their skin color ranges from silver-gray to dark blue or blackish on top with white undersides. Some sunfish have lighter patterns toward their dorsal fin areas.\n\nThese extraordinary creatures are migratory animals that swim across ocean currents worldwide searching for food supplies such as jellyfish, zooplankton, algae-based matter-related material objects know exactly where they need aquatic creatures reside underwater mollusks crustaceans insect larvae seeing things like this makes them very diverse plentiful essential mainly comprised excellent nutritional value giving energy strength both physically externally internally help build grow survive live exist function properly daily basis regular routine habits activities priorities duties tasks objectives goals expectations plans preparations arrangements strategies tactics policies techniques schedules methods mechanisms steps principles formulas systems operations modes ways matters behaviors protocols rules codes manners standards moral ethical values virtues qualities ethics customs core beliefs fundamental mental thoughts ideas concepts understandings ideologies philosophies theories conjectures opinions facts visions views perspectives reflections expressions estimations assessments evaluations analyses critiques judgments decisions engagements commitments promises intentions interests attractions currencies invigoration prompting motivation excitement concerns passions"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75ZqGR6UmdJWrKjFRYRwEvrFSebNl",
+  "object": "chat.completion",
+  "created": 1681563772,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 256,
+    "total_tokens": 263
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Shih Tzu, also known as the Chrysanthemum Dog, is a toy dog breed that originated in Tibet. This small but sturdy and lively dog has a distinctive appearance with its long flowing double coat, short legs, broad head with a pronounced under-bite, large dark eyes, and furry tail curled over its back.\n\nShih Tzus are known for their friendly temperament and adaptability to many living environments. They're affectionate companion dogs that do well with families of all sizes and ages since they typically get along well with children and other pets. These intelligent dogs can be trained relatively easily but can sometimes exhibit stubbornness if not properly motivated.\n\nIt's worth mentioning that Shih Tzus don't require much exercise compared to larger breeds, making them great city or apartment dwellers. Regular grooming is essential owing to their long coat; however,’they're considered 'hypoallergenic,' which means they may be suitable for people suffering from allergies as they generally produce fewer allergens than most other breeds due to lower dander production combined with limited shedding.\n\nIn conclusion, owning a Shih Tzu can bring joy into your life thanks to their beauty,'and affectionate nature – they truly make wonderful companions-cum-loyal friends!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

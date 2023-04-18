@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74ud1wF5kACItiQvWZTtNB5LGjaG5",
+  "object": "chat.completion",
+  "created": 1681405347,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 305,
+    "total_tokens": 312
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To become less socially awkward, consider the following tips:\n\n1. Improve self-confidence: Feeling confident about yourself can help reduce social anxiety and make it easier to interact with others.\n\n2. Practice active listening: Focus on what the other person is saying rather than worrying about how you are coming across or what to say next.\n\n3. Develop conversation topics: Having a mental list of light-hearted topics will ensure that you do not run out of things to talk about during conversations.\n\n4. Make eye contact: Maintaining good eye contact shows that you are engaged, interested, and respectful in conversations.\n\n5. Observe and learn from others who are socially skilled: Surround yourself with people whom you feel embody strong emotional intelligence and use their interactions as learning opportunities\n\n6. Attend social events regularly to practice your skills in real situations\n\n7. Body language awareness: Ensure that your body language is open and approachable – maintain an upright posture, keep arms uncrossed, face toward the person speaking\n\n8.Accept compliments gracefully instead of brushing them off or appearing flustered; this helps build rapport between conversational partners.\n\n9.Mindfulness in approaching difficult situations by focusing strictly on making the best choices possible at critical junctures while remaining grounded emotionally & mentally throughout such instances (prevents excessive rumination over successes/failures & increases appreciative capacity for everyday experiences).\n\nOverall, mindfulness training is considered one technique for improving these aspects apart from concentrating solely within interpersonal relations framework itself through consistent weekly sessions dedicated exclusively towards honing EQ abilities"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

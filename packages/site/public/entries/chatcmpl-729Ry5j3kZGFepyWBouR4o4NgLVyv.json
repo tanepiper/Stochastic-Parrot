@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-729Ry5j3kZGFepyWBouR4o4NgLVyv",
+  "object": "chat.completion",
+  "created": 1680747338,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 30,
+    "total_tokens": 37
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Dog\n2. Spider\n3. Ant\n4. Octopus\n5. Lion\n\n6. Butterfly\n7 Horse\n8 Dolphin"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

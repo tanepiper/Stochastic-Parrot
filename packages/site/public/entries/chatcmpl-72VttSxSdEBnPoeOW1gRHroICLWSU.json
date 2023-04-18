@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72VttSxSdEBnPoeOW1gRHroICLWSU",
+  "object": "chat.completion",
+  "created": 1680833637,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 62,
+    "total_tokens": 69
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Can you understand anything besides English?\n\nAs an AI language model, I can understand and respond in multiple languages other than English. These include but are not limited to Spanish, French, German, Chinese, Japanese, Korean, Portuguese and many more. Please feel free to ask questions or write messages in other languages!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

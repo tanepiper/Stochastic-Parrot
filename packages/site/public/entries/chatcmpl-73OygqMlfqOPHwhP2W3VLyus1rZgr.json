@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73OygqMlfqOPHwhP2W3VLyus1rZgr",
+  "object": "chat.completion",
+  "created": 1681045354,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 26,
+    "total_tokens": 33
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is not entirely clear what specific information you are seeking. Please provide more context or clarify the question to receive an accurate response."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

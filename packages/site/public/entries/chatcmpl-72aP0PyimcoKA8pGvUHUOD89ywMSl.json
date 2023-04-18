@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72aP0PyimcoKA8pGvUHUOD89ywMSl",
+  "object": "chat.completion",
+  "created": 1680850942,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 312,
+    "total_tokens": 319
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are many things that could lead someone to not have any friends. Here are a few possibilities:\n\n1. Social anxiety or shyness: Some people may struggle with social anxiety, making it difficult for them to interact with others and build friendships.\n\n2. Introversion: Being introverted means finding energy through time spent alone rather than in social settings, and this can sometimes make forming new friendships more challenging.\n\n3. Unfriendly demeanor: If a person comes across as unfriendly or unapproachable, others may be less likely to want to engage with them and become friends.\n\n4. High standards for friendship: Some people might have very high standards when it comes to who they consider their friends, which could result in having fewer friends overall.\n\n5. Lack of common interests: It is often more challenging to form strong connections without shared interests or hobbies that bring people together.\n\n6. Moving frequently or changing schools: Consistently being the \"new kid\" can make it tough for children (or even adults)to establish long-term friendships.\n\n7. Having poor social skills: People need effective communication and empathy skills in order to create lasting bonds; those lacking these abilities might find themselves with no true friends over time.\n \n8.Difficult past experiences or trauma can also influence one's ability to trust others and feel secure in relationships leading up having no close friend circle\n\nThis list is not exhaustive but highlights some possible reasons why someone may lack close friendships at a given point in life.\nKeep mind during different stages of life such factors vary increasingly affecting relationships around us"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

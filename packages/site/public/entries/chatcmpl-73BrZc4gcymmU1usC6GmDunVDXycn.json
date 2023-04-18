@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73BrZc4gcymmU1usC6GmDunVDXycn",
+  "object": "chat.completion",
+  "created": 1680994941,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 201,
+    "total_tokens": 208
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to stop unnecessary fear from paralyzing you:\n\n1. Identify the fear: Recognize what is causing the fear and analyze whether it is rational or irrational.\n\n2. Practice mindfulness: Focus on the present moment rather than anticipating a negative future outcome. You can practice mindfulness through meditation or deep breathing exercises.\n\n3. Shift your perspective: Change your thinking pattern by focusing on positive outcomes instead of dwelling on negative possibilities\n\n4. Take action: Break down tasks into smaller steps and start working towards them one at a time, thus overcoming paralysis caused by anxiety.\n\n5. Develop self-confidence: Believe in yourself and foster an attitude of resilience, so that fears don’t hold you back from achieving success.\n\n6.Seek professional help if needed: If these strategies do not relieve the constant feeling of being paralyzed with unnecessary fears, consider seeking professional help from a licensed mental health provider who may have specialized techniques such as cognitive-behavioral therapy (CBT) for treating anxieties and phobias"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

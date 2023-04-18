@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72vwjiw5xxw9lehwHBuZuO3oEwZ4E",
+  "object": "chat.completion",
+  "created": 1680933757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 90,
+    "total_tokens": 97
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Unfortunately, no. There is no official news available as of September 2021 stating that \"Edge\" browser has plans to offer crypto mining support like the unMineable platform.\n\nHowever, you can still use the Microsoft Edge browser to access web-based cryptocurrency mining services or platforms that allow mining through their websites. Please note that using such services might have risks, and it's essential to conduct thorough research before getting involved in any crypto-mining activities."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

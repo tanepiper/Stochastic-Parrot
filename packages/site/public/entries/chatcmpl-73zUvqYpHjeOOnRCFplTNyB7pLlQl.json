@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73zUvqYpHjeOOnRCFplTNyB7pLlQl",
+  "object": "chat.completion",
+  "created": 1681185737,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 49,
+    "total_tokens": 56
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, GPT-3 does not have emotions as it is an artificial intelligence model developed by OpenAI for natural language processing tasks. It can generate text based on input provided to it but does not possess feelings, emotions or consciousness like humans."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

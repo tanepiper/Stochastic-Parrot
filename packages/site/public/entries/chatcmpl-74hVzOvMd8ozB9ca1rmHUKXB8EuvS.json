@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74hVzOvMd8ozB9ca1rmHUKXB8EuvS",
+  "object": "chat.completion",
+  "created": 1681354939,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A CDL (Commercial Driver's License) is a type of driver's license that allows the holder to operate large, heavy, and/or potentially dangerous vehicles such as semi-trucks, buses, and tank trucks. It is required for drivers who work with freight transportation or passenger services and must meet specific requirements set by each state in the United States.\n\nSome qualifications that an individual needs to obtain a CDL include:\n\n1. Age: The minimum age requirement varies by state but is generally between 18-21 years old for intrastate driving (within one state) and 21 years old for interstate driving (across multiple states).\n\n2. Health: CDL applicants must pass a Department of Transportation (DOT) physical examination ensuring they are medically qualified to safely drive commercial vehicles.\n\n3. Driving Record: An individual applying for a CDL must have a clean driving record with no recent major traffic violations or any history involving suspended licenses due to safety concerns.\n\n4. Training: Some states require mandatory training from an approved truck driving school prior to taking the written knowledge test needed to obtain your CDL permit.\n\n5. Written Knowledge Test: Applicants need to take and pass a written knowledge test covering topics including safety regulations, vehicle inspections, cargo management, air brakes systems operation (if applicable), among other topics relevant to commercial motor vehicle operations.\n\n6. Skills Test: Once you've obtained your learner's permit by passing the written tests(s), you will then be allowed on public roads with your instructor during practice sessions; after reaching proficiency levels mandated by law & under supervision provided either through school/training program attended earlier! Then proceed towards taking another series examinations assessing ability regarding parking maneuvers pre-inspection checks controlling actual road situations well performing various functions required when handling"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

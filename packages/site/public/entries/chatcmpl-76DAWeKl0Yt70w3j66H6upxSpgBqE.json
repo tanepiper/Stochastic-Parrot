@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76DAWeKl0Yt70w3j66H6upxSpgBqE",
+  "object": "chat.completion",
+  "created": 1681714944,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 218,
+    "total_tokens": 225
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How much do screenwriters get paid?\n\nThe payment for a screenwriter can vary greatly depending on various factors such as experience, the scale of the project, and whether they are working with an independent production or major studio. A beginner screenwriter may make anything between $60,000 to $100,000 per script in Hollywood's big studios while more established writers can make upward of $1 million per script. On smaller-scale projects or independent films, payments could be much lower.\n\nFor television series, staff writers usually start around $4,500 per episode for entry-level positions and go up to over $6,500 per episode for mid-tier writers. More experienced TV screenwriters can make between $10k - 25k+ USD an episode (some even higher than that).\n\nIt is essential to note that these figures are only rough estimates and not guaranteed rates for every writer out there. The Writers Guild of America sets minimums that must be followed if a production is part of their union agreement but many productions offer amounts above those minimums based on individual negotiations with the writer(s)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

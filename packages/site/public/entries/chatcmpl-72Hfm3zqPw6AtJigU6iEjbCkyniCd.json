@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72Hfm3zqPw6AtJigU6iEjbCkyniCd",
+  "object": "chat.completion",
+  "created": 1680778946,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 39,
+    "total_tokens": 46
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm sorry, I am an AI language model and cannot physically perform tasks or actions. My primary function is to help provide information, answer questions, or engage in text-based conversations with users."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

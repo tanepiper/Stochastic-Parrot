@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73Siq0AoWEzsyrRgi8cyrTdmt6Ebh",
+  "object": "chat.completion",
+  "created": 1681059748,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 73,
+    "total_tokens": 80
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, artificial intelligence has the potential to make reservations at a restaurant. For example, Google Assistant's feature called \"Duplex\" can call and make reservations for you by having a natural conversation with the person who answers the phone at the restaurant. Other virtual assistants like Siri and Alexa also offer similar features using voice commands or integration with supported reservation platforms like OpenTable."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

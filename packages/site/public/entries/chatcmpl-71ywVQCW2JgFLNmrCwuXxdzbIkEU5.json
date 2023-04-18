@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71ywVQCW2JgFLNmrCwuXxdzbIkEU5",
+  "object": "chat.completion",
+  "created": 1680706947,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 117,
+    "total_tokens": 124
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A covert operation is a secret or clandestine military, intelligence, or law enforcement mission designed to achieve specific objectives without publicly revealing its activity. Covert operations typically involve extensive planning and may include surveillance, espionage, sabotage, propaganda dissemination, undercover work, and various forms of deception to conceal their true purpose.\n\nIn simple terms: A covert operation is like playing hide-and-seek in the real world. Some group (usually a government agency) has an objective they want to accomplish discreetly by using spies or agents who perform actions on their behalf behind the scenes without drawing attention to themselves."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

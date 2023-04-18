@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7393KIN99pb6N57sn8KFAClJxeU3Q",
+  "object": "chat.completion",
+  "created": 1680984138,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 238,
+    "total_tokens": 245
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several reasons you may feel a tightness in your chest after eating food, such as:\n\n1. Overeating: Consuming large quantities of food can cause the stomach to expand and press against other organs, leading to discomfort or pain in the chest.\n\n2. Acid reflux: Due to various foods triggering excess acid production in the stomach, it can travel up through your esophagus and cause heartburn or discomfort in the chest region.\n\n3. Food allergy/intolerance: If you are allergic or intolerant to specific foods (such as lactose intolerance), this could lead to increased gas production, inflammation and subsequent tightness around your chest area.\n\n4. Anxiety/stress/panic attacks: Sometimes emotional triggers due to overthinking food/eating habits might result in an overall feeling of anxiety that manifests itself physically with symptoms such as shortness of breath and tightening sensations within your chest cavity.\n\n5. Gallbladder issues: Certain types of high-fat foods may exacerbate gallbladder problems like gallstones if these conditions already exist – potentially causing pressure on surrounding organs including ribs/lungs/etc., creating focused discomfort/pain near those areas affected by inflammation/swelling/cysts-formation)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

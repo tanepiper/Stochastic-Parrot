@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74TTOt3csVPRK7WDAsz53EOqkr9BI",
+  "object": "chat.completion",
+  "created": 1681300962,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 50,
+    "total_tokens": 57
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Eastern coastal states in the United States include Maine, New Hampshire, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Delaware, Maryland, Virginia, North Carolina South Carolina Georgia and Florida. These states have coasts along the Atlantic Ocean."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

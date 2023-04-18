@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76E7ZeUtVcHhVGwEkFgufcZRH79ev",
+  "object": "chat.completion",
+  "created": 1681718605,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 58,
+    "total_tokens": 110
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional city would you rather live in?\",\n  \"answers\": [\n    \"Gotham City from Batman\",\n    \"Metropolis from Superman\",\n    \"Hogwarts from Harry Potter\",\n    \"Westeros from Game of Thrones\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

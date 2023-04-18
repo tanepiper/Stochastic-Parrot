@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-730ci9FEVvRrQ6zGKadRVB44XcGXz",
+  "object": "chat.completion",
+  "created": 1680951736,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 239,
+    "total_tokens": 246
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A sonnet is a type of poem with 14 lines, usually written in iambic pentameter (a metrical pattern with five pairs of unstressed and stressed syllables). There are two main types of sonnets: the Italian or Petrarchan sonnet, which has an octave (first eight lines) followed by a sestet (last six lines), and the English or Shakespearean sonnet, which has three quatrains (four-line stanzas) followed by a couplet.\n\nTypically, a traditional sonnet follows these rules:\n\n1. Contains 14 lines organized into stanzas.\n2. Written in iambic pentameter.\n3. Follows either the Petrarchan or Shakespearean structure and rhyme scheme.\n4. The argument or theme changes after certain sections; for example, in Ian Rankin's most recent Rebus novel 'A Song for the Dark Times' that change takes place between Octave and Sestet.\n5. Usually explores themes such as love, nature, beauty, time and mortality.\n\nHowever, modern poets have experimented with various aspects of sonnets to create contemporary variations while still incorporating some traditional elements."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

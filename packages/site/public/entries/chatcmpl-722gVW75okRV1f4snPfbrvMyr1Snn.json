@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-722gVW75okRV1f4snPfbrvMyr1Snn",
+  "object": "chat.completion",
+  "created": 1680721331,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When you're feeling anxious, it's essential to find ways to calm and ground yourself. Here are nine techniques that can help:\n\n1. Deep Breathing: Slowly inhale deeply through your nose for a count of four, hold the breath for a count of four, and then slowly exhale through your mouth for a count of six. Repeat this pattern until you start to feel calmer.\n\n2. Progressive Muscle Relaxation: Tense each muscle group in your body (starting with your toes and working up to your head) as tightly as possible for five seconds before releasing the tension.\n\n3. Mindfulness Meditation: Sit or lie down comfortably, close your eyes, and pay attention to your breath without judging or controlling it. When thoughts arise, acknowledge them and gently return focus back on breathing.\n\n4. Visualization: Close your eyes and imagine yourself in a peaceful place like a beach or forest; click into all senses- sights, sounds smells -to fully immerse yourself in the scene.\n\n5. The 5-4-3-2-1 Grounding Technique : Identify five things you can see around you right now; notice details about their color/shape/patterns—anything that brings more awareness into the present moment—from there move onto describing out loud,\n• Four distinct sensations experienced with touch\n• Three unique sounds noticed\n• Two scents detected  \n• One taste tasted \n\n6.Aromatherapy Try using naturalessential oils/sources such as lavender,sage lemongrass rosemary eucalyptus bergamot etc-be sureof no allergies-,and let their fragrance create calm atmosphere around\n\n7.Use Self-Soothing Touch Rub hands together massage templesbrow,and extend across across cheeks neck chest shoulders &back"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

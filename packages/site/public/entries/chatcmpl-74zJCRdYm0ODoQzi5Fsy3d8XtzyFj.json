@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74zJCRdYm0ODoQzi5Fsy3d8XtzyFj",
+  "object": "chat.completion",
+  "created": 1681423338,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 345,
+    "total_tokens": 352
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Low self-confidence: People with low self-esteem tend to have a weak sense of their own value and worth, which can cause them to feel anxious, inadequate or embarrassed in social interactions.\n\n2. Fear of embarrassment and humiliation: Social anxiety is often rooted in the fear of being publicly embarrassed or humiliated, causing people to avoid any situations that could lead to these outcomes.\n\n3. Difficulties in conversing with others: Some individuals struggle with finding the right words when talking to others or understanding complex social cues during conversations. This difficulty can contribute to extreme nerves in social settings.\n\n4. Negative thoughts about oneself and one's performance: People who experience social anxiety may be prone to negative thinking patterns that can increase their fears around interacting with other people.\n\n5. Past experiences of bullying or rejection: Those who have been teased, bullied, or rejected consistently throughout their lives may develop heightened levels of social anxiety due to a history of failed interpersonal encounters.\n\n6. Personality traits such as shyness and introversion: Individuals predisposed towards shyness or introversion might naturally feel more uncomfortable engaging socially than those who are inherently extroverted.\n\n7. Overgeneralizing from limited experiences: A single painful instance (e.g., accidentally spilling coffee on someone while chatting) could lead some people into falsely assuming all future encounters will follow suit - leading them down an anxious path for no reason at all!\n\n8.Excessive exposure/worrying over media-perpetuated ideals surrounding appearance/behavior/etc.: Readily available misinformation pertaining image/behavioral norms through mediums like advertisements/movies only fuel unrealistic expectations among vulnerable young audiences struggling accept themselves unconditionally despite physical/social shortcomings often aggravating pre-existing anxieties beyond bearable extents"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

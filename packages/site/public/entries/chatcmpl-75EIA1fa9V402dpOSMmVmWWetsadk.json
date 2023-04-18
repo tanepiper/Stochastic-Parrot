@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75EIA1fa9V402dpOSMmVmWWetsadk",
+  "object": "chat.completion",
+  "created": 1681480934,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is a wide range of computer programming languages available, and the most popular ones are constantly evolving. The top 10 programming languages in 2022 based on their popularity, demand, and versatility may include:\n\n1. Python: A versatile, high-level language widely used for web development, machine learning, artificial intelligence, data analysis, scientific computing, etc.\n\n2. JavaScript: A ubiquitous client-side scripting language used mainly for creating interactive elements on websites but also finds use in backend web development with Node.js.\n\n3. Java: A fully object-oriented and platform-independent programming language widely used for enterprise applications, Android app development and general-purpose software.\n\n4. C#: Developed by Microsoft as part of the .NET framework; commonly used for developing Windows desktop applications and games using Unity game engine.\n\n5. TypeScript: A strict syntactical superset of JavaScript that adds optional static typing to improve code maintainability and predictability while transpiling to JS-compatible code during development (often integrated into modern front-end projects).\n\n6. Kotlin: Emphasizing concision over verbosity compared to Java it has been officially adopted by Google as an alternative first-class language for Android app development along with other platforms/environment compatibility provided through its multiplatform functionality (eg JVM or Native targets).\n\n7.Ruby: Known mostly because of Ruby on Rails -a popular & powerful web application framework- it still boasts features like simplicity encapsulation DSL expressiveness which make worthwhile choice when deciding between different languages especially those scalable solutions\n\n8.Swift Apple introduced designed iOS macOS watchOS tvOS becomes go-to developers focused native apps devices securely efficient easy read syntax improvements Objective challenges met utilizing\n\n9.Go Designed Google Golang open-source statically typed compilable down portable binaries emphasis excellent performance concurrency helpful tool"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73bKnOjFRPVUoTK74mE9gqddNT23Y",
+  "object": "chat.completion",
+  "created": 1681092853,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 203,
+    "total_tokens": 210
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In general, it's considered inappropriate to discuss how much money an individual earns, whether a friend or coworker. These conversations can create tension and comparison between you, leading to jealousies and resentments that may damage your relationship.\n\nSome circumstances where it might be acceptable or necessary to discuss salary:\n\n1. When determining the average salary for your profession - You may want to have this conversation with trusted peers in order to determine if you're being paid fairly based on industry standards.\n\n2. If receiving a job offer from a colleague's company - You could ask about their salary and benefits package as part of deciding whether accepting the new position is right for you.\n\n3. Discussing income disparities within a close group of friends - If all parties are open about discussing financial matters without judgment, sharing wage information can help keep everyone informed about potential earning opportunities they should consider.\n\nHowever, these debates should still always be approached with caution and empathy—you don't want finances becoming the focus solely because y'all know each other’s incomes!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

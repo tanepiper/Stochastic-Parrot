@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-717ZEUGfKhvDVHV9A5EXJZIuo94DX",
+  "object": "chat.completion",
+  "created": 1680501772,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Evaluate Your Current Financial Situation\n- Assess your income, expenses, assets, and liabilities.\n- Calculate your net worth by subtracting liabilities from assets.\n\n2. Define Clear Financial Goals\n- Set clear and realistic financial goals for the short term (1 year), medium-term (3–5 years), and long-term (10+ years).\n- Prioritize those goals according to their importance.\n\n3. Create a Budget Plan\n- Categorize all of your expenses into fixed costs (such as housing) and variable costs (such as groceries).\n- Allocate specific amounts for each type of expense based on your income.\n- Stick to your budget plan consistently.\n\n4. Build an Emergency Fund \n - Save 3–6 months of living expenses in a separate savings account specifically designated for emergencies.\n  \n5. Develop Additional Sources of Income\n - Invest in stocks, bonds or mutual funds with regular contributions.\n - Consider investing in real estate or starting a side business to create passive income streams.\n\n6. Minimize Debt Burden and Enhance Credit Score \n - Pay off high-interest debt first before focusing on other debts such as student loans or mortgages.\n - Utilize only up to 30% credit utilization ratio on credit cards to maintain good credit score.\n\n\n\n7. Review Insurance Policies \n   - Update life insurance policies if there are significant changes like marriage or the birth of children.\n\n\n\n8.Retirement Planning \n    -\nStart contributing early towards retirement accounts(company-sponsored plans like 401(k)or Individual Retirement Accounts(IRAs))\n    \n9 .Proper Tax Planning \n     -\nOptimizing deductions using tax credits available\n\n10.Monitor Progress & Re-evaluate Regularly \n \n      -.Periodically reviewing investment portfolios\n    \n      -.Re-balancing when there"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

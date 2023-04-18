@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-74JZx5BYGT3YcZsqakoEYNpuz5B4c",
+  "object": "chat.completion",
+  "created": 1681262929,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to care for hybrid tea roses\n\nHybrid tea roses are popular garden plants known for their large, elegantly shaped flowers and tall stems. Caring for these beautiful blooms involves a few essential steps:\n\n1. Choose the right planting site: Hybrid tea roses require at least 6 hours of direct sunlight each day, and should be planted in well-draining soil. Ensure that there is enough space between the plants – about 18-36 inches apart – to allow proper air circulation.\n\n2. Water regularly: It’s essential to regularly water your hybrid tea roses, generally offering about an inch of water per week during the growing season, depending on precipitation levels in your area. Be sure to avoid wetting the foliage when watering – aim for the base of the plant – as damp leaves can encourage diseases such as black spot or powdery mildew.\n\n3. Fertilize wisely: Like most rose varieties, hybrid teas will appreciate regular fertilization throughout their growing season (from spring until late summer). Use a balanced fertilizer containing equal portions nitrogen, phosphorus, and potassium along with other micronutrients every four weeks while flowering occurs.\n\n4. Prune vigilantly: Proper pruning encourages vigorous growth and better blooming by removing dead wood or unproductive branches while also preventing overcrowding among shoots. Start by cutting back any dead wood; then remove any thin or weak shoots before moving onto strong canes (leaving about five), aiming for healthy outward-facing buds that develop into spacious branching patterns upon maturity.\n\n5. Keep an eye out for pests & diseases: Aphids love hosing down on new growth from hybrid teas; combat these sap-sucking menaces by controlling them with insecticidal soaps early on in infestations–"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

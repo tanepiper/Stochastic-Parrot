@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72gxZodVBtQR0TkMA2HBYRT8kprww",
+  "object": "chat.completion",
+  "created": 1680876149,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 64,
+    "total_tokens": 71
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Cyclops are giant one-eyed creatures in Greek mythology. They have a single, large eye located in the middle of their forehead and are usually depicted as large, strong humanoids. The most famous Cyclops is Polyphemus, who was blinded by Odysseus during his journey home from the Trojan War."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

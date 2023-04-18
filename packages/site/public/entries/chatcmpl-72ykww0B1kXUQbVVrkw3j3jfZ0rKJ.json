@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72ykww0B1kXUQbVVrkw3j3jfZ0rKJ",
+  "object": "chat.completion",
+  "created": 1680944558,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 258,
+    "total_tokens": 265
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Maldives is a South Asian nation comprised of 26 atolls, which are made up of over 1,000 coral islands. These islands stretch across the Indian Ocean and cover approximately 298 square kilometers (90,000 square miles). The capital city is Malé.\n\nThe Maldives has a population of around 540,000 people according to World Bank data for 2020. The local currency is the Maldivian Rufiyaa (MVR). It has an economic system that mixes tourism with agriculture, fishing and various service sector businesses like construction and retail trade. Tourist resorts account for nearly half its gross domestic product.\n\nIslam is the official religion in the Maldives. Arabic language plays a historical and religious role in society but Dhivehi (or Divehi) remains as their mother tongue, which they use when conversating among themselves.\n\nThe official governing body type in this country is constitutional presidential republic with President Ibrahim Mohamed Solih being elected into office back during September-October general elections held yearly since November16th year prior present day according to constitutionally defined electoral calendar law established firmly there under legal framework known well amongst regional governors who hold jurisdictional governance authority beyond local communities within each individual federal member state across global community nations regionally named \"Federal Member States\"."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

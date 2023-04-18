@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73kd9gMCUWofQlCNNLJHwp0rdAvCi",
+  "object": "chat.completion",
+  "created": 1681128587,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 291,
+    "total_tokens": 298
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to make a decision, including:\n\n1. Pros and Cons list: Write down the pros (advantages) and cons (disadvantages) of each option, then compare them.\n\n2. Decision Matrix: Create a table with rows for each alternative and columns for weighted criteria that matter in the decision-making process. Score each alternative for every criterion, from 0-10, 10 being perfect alignment with the criterion. Multiply these scores by their weights and add up the total points; choose options based on higher total scores.\n\n3. Intuition or Gut Feeling: Reflect on how different alternatives make you feel–what your instincts tell you to do–and act accordingly.\n\n4. Seeking advice from others: Ask friends or colleagues who have experience in similar circumstances about what they think is best before making a judgement call yourself.\n \n5.Coin toss/Random Choice - Allow fate to decide when all other methods fail or when no clear preference emerges.\n\n6.Establish Your Priorities –By setting priorities such as urgency/importance of work helps you weigh which route should be taken first\n\n7.SWOT analysis - Evaluating Strengths, Weaknesses Opportunities & Threats within differing options allows one determine routes prone to success\n\n8.Implement Trial Period – Test out multiple choices over set periods simultaneously comparing results allowing informed decisions \n\n9.Consider Long-term Outcome - Considering greater good/utility path serves longer timeframes compared immediate satisfaction giving balanced choice"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

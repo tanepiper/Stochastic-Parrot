@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-768hRSKx4fDK3AjxzQZxgJKcD7MPe",
+  "object": "chat.completion",
+  "created": 1681697765,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 151,
+    "total_tokens": 158
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "While December is one of the hottest months in Ghana, with temperatures ranging between 24°C-33°C (75.2°F - 91.4°F), it also has high humidity levels that can make the heat feel quite uncomfortable for those who aren't used to it.\n\nGhana's weather during this time varies depending on the location in the country. In regions like Greater Accra and parts of Northern Ghana, sunny days are frequent as opposed to Cape Coast where rainfall occurs more often during December.\n\nAlthough hot and humid, many people consider visiting Ghana in December because there are a series of exciting festivals taking place at this time, such as Farmer's Day or New Year festivities throughout different regions – just be prepared to experience some rain and stay hydrated!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

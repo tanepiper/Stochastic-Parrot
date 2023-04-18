@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73vq1vctZSqrAOHBaPOCyOmGmagW2",
+  "object": "chat.completion",
+  "created": 1681171669,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 62,
+    "total_tokens": 114
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these fictional cities would you like to visit?\",\n  \"answers\": [\n    \"Gotham City from Batman\",\n    \"Hogwarts from Harry Potter\",\n    \"Westeros from Game of Thrones\",\n    \"Panem from The Hunger Games\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75mGj1PosQ7n4grHvfYI9wQre03Wr",
+  "object": "chat.completion",
+  "created": 1681611541,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 103,
+    "total_tokens": 110
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, a person can be allergic to potatoes. A potato allergy, although rare, is caused by the proteins found in potatoes. Symptoms of a potato allergy include itching, swelling, hives and skin irritations as well as gastrointestinal symptoms such as bloating, gas and stomach pain. In extreme cases it may cause anaphylaxis too.\n\nIf you think that you have an allergy to potatoes or any other food substance it is best advisable to consult with a medical professional for proper diagnosis and management of your allergies."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

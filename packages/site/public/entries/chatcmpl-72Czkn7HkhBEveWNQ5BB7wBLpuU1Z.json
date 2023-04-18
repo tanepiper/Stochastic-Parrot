@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72Czkn7HkhBEveWNQ5BB7wBLpuU1Z",
+  "object": "chat.completion",
+  "created": 1680760964,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 58,
+    "total_tokens": 65
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, the AI in the movie Her is an example of artificial general intelligence (AGI), as it demonstrates human-like capabilities, such as understanding emotions and expressing empathy. AGI refers to a machine's ability to understand or apply knowledge across various tasks at a level equal to human intelligence."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

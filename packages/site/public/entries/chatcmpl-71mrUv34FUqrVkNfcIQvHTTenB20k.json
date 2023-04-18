@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71mrUv34FUqrVkNfcIQvHTTenB20k",
+  "object": "chat.completion",
+  "created": 1680660508,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It's difficult to determine who the most valuable contributor is, as it depends on individual contributions and their impact. Some potential nominees include:\n\n1. Nikola Tesla: One of the greatest inventors in history, known for his work on alternating current (AC) technology, which powers much of our modern electrical infrastructure.\n\n2. Albert Einstein: Known for his theory of relativity and its profound implications for physics and cosmology.\n\n3. Isaac Newton: A key figure in the scientific revolution who formulated the laws of motion and universal gravitation that still form a critical foundation in classical mechanics today.\n\n4. Charles Darwin: A naturalist whose observations led him to develop the groundbreaking theory of evolution by natural selection.\n\n5. Galileo Galilei: Known as \"the father of observational astronomy,\" he made significant discoveries about Jupiter's moons and heliocentrism, contributing greatly to modern science during a time when it was difficult to do so due to religious oppression.\n\n6. James Clerk Maxwell: Responsible for foundational equations explaining electromagnetism that were later unified into what we know today as electromagnetic field theory – an essential component within physics controlling devices such as radio communications and cellphones.\n\n7. Marie Curie: The first woman Nobel laureate who played a vital role in understanding radioactivity; her research contributed significantly to medical advancements such as radiation therapy against cancer cells while also expanding knowledge towards atomic units like isotopes or decay assignments across elements encountered periodically throughout chemistry tables worldwide.\n\n8. Ada Lovelace: Often referred to as the world’s first computer programmer because she recognized that Charles Babbage's Analytical Engine could be used not just for numerical calculations but also various applications including creating intricate algebraic solutions through iterative designs via mechanical processes mirroring algorithm-based outcomes observable"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

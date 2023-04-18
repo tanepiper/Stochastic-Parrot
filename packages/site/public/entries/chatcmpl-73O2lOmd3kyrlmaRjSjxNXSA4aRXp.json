@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-73O2lOmd3kyrlmaRjSjxNXSA4aRXp",
+  "object": "chat.completion",
+  "created": 1681041763,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 256,
+    "total_tokens": 263
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to get people to respect you, including:\n\n1. Be honest and transparent: Always tell the truth and be open about your intentions, even if it's difficult. People will appreciate your honesty and candor.\n\n2. Act with integrity: Maintain high moral standards in all aspects of your life—both personal and professional.\n\n3. Show empathy: Listen to others' concerns, value their input, and try to understand their perspective before responding or making decisions.\n\n4. Communicate clearly: Speak confidently and thoughtfully when expressing opinions or providing feedback; avoid aggressive language that can intimidate or offend others.\n\n5- Be reliable: Keep commitments you make; show up on time for meetings/appointments; complete tasks as promised without constant reminders.\n\n6- Demonstrate competence in your field/workplace by continuing learning new things relevant to what you do\n\n7- Treat everyone equally & fairly regardless of status - such treatment would promote collaboration among different employees working together toward common goals\n\n8- Remain calm under pressure-being able handle stressful situations gracefully helps build trust between yourself & those around who may come rely on assistance during times need\n\n9- Accept responsibility mistakes made instead trying shift blame-the ability admit error demonstrates maturity confidence character allows grow professionally personally through experience gained handling negative situations positively effectively"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

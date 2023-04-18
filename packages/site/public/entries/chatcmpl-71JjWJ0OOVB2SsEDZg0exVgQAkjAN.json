@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-71JjWJ0OOVB2SsEDZg0exVgQAkjAN",
+  "object": "chat.completion",
+  "created": 1680548538,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 299,
+    "total_tokens": 306
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A ziggurat is a type of ancient, monumental structure that originated in Mesopotamia (modern-day Iraq). These structures were typically built as terraced step pyramids, with each level having a smaller area than the one below it. The sides of the ziggurats were typically sloping and often lined with staircases or ramps.\n\nZiggurats served various purposes depending on the culture who built them, but many scholars believe they primarily functioned as religious temples. They are thought to have been dedicated to local gods and were believed to be homes for these deities on Earth. It was said that by building these impressive structures closer to the heavens, worshippers could connect more directly with their gods.\n\nMesopotamian kings would often use the construction of new ziggurats, and maintenance of existing ones, as an opportunity for employment and economic prosperity among their subjects. As such areas around ziggurats became vibrant centers populated not just by religious personnel but also traders, artisans and other members from different social classes.\n\nThe most famous example is perhaps Babylon's Great Ziggurat commonly known as Tower of Babel which according to Biblical accounts caused 'God' to scatter humanity across distant lands when king at time commissioned architecturally ambitious project aimed at reaching heaven itself.\n \nOther cultures developed similar stepped pyramid-like constructions like Mayans in Mesoamerica with their stepped pyramids; however,the term \"ziggurat\" specifically refers those ancient Mesopotamian sites.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

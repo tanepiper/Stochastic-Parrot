@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-72R2NLt1NQb3LweHBspi75zgn04OW",
+  "object": "chat.completion",
+  "created": 1680814943,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Go-kart racing is a popular motor sport in which participants race small, lightweight vehicles called go-karts around a track. These karts can reach high speeds and are powered by either gas or electric engines.\n\nGo-kart racing has been around since the 1950s, making its debut in California. It started as a simple backyard activity but grew into an official sport with specialized kart designs and tracks built specifically for it. The American Kart Racing Association was established in 1961 to organize and regulate kart races on a national level.\n\nToday, go-kart racing can be divided into two main categories: recreational and competitive.\n\nRecreational karting is typically performed at amusement parks or local indoor/outdoor entertainment facilities providing rental karts for customers. This type of karting is often referred to as \"arrive-and-drive\" because drivers usually do not need any prior experience or equipment – they simply arrive at the facility, pay for their session, get into their assigned go-kart, and start driving on the track.\n\nCompetitive karting involves more advanced machinery, proper safety gear (such as helmets and suits), technical knowledge of driving techniques (like braking points), vehicle setup adjustments (for better handling), tire management throughout endurance races). Some even describe it as “the first step on the ladder towards becoming professional motorsport drivers.”\n\nKey features that define go-kart racing include:\n\n- Open-wheel design: Go-karts do not have fenders covering their wheels like cars.\n- Low center of gravity: Karts are very close to the ground improving handling by minimizing body roll during cornering.\n- Limited suspension system compared to traditional automobiles - this results in more direct feedback from tire contact patch feel while driving\n- Ability accelerate quickly due smaller"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

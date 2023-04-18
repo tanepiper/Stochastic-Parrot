@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75yBVVPiaqNDGafKqPWDCRPdhYz3m",
+  "object": "chat.completion",
+  "created": 1681657345,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 97,
+    "total_tokens": 104
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The album cover for the 2011 Arctic Monkeys album \"Suck It and See\" features a simple cream background with the band's name and the album title printed in small, bold text in the center. The words are capitalized and appear to be written by hand or using a basic font. There is no artwork, just this minimalistic design on a white background - similar to The Beatles' White Album cover. This was designed by artist Matt Helders of Arctic Monkeys."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

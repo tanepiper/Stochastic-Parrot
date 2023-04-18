@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-749nrtj7FlYgf5WN9GTX5hNugp100",
+  "object": "chat.completion",
+  "created": 1681225351,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 73,
+    "total_tokens": 80
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Harley-Davidson motorcycles are made in several countries, including the United States, where they have manufacturing facilities in Wisconsin, Pennsylvania and Missouri. Additionally, some manufacturing takes place in Brazil for certain South American markets as well as Thailand for the Asia-Pacific market.\n\nPlease note that specific models may be produced at different locations depending on demand and production capabilities within each factory."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
