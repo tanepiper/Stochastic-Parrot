@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76Xm9qrqWhlyOv8rFRtf6MEJ7vkoW",
+  "object": "chat.completion",
+  "created": 1681794157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 260,
+    "total_tokens": 267
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Denmark is a Scandinavian country consisting of the Jutland Peninsula and numerous islands. It's located in northern Europe, northwest of Germany and south of Norway. Denmark borders the Baltic Sea to the east and the North Sea to the west.\n\nThe latitude of Denmark lies between 54°33'N (at its southernmost point on mainland Jutland) and 57°45'14\"N (at Skagen or The Skaw, which is its northernmost point). Its longitude falls between 8°4'E (on Romo – an island off western coast) and 15°9'30\"E (near Sweden's border on Bornholm Island).\n\nDenmark has a total area of around 42,951 square kilometers (16,575 square miles), where land area makes up 42,394 square kilometers (16,369 square miles), while water occupies roughly around 557 square kilometers (~215 square miles).\n\nIn terms of geography and population density variation within Danish territories can be observed:\n\n- Mainland which refers to Jutland\n- Major Islands such as Zealand(Funen), Lolland-Falster ,Bornholm\n- Minor archipelagos like South Funen Archipelago & North-Eastern Zealand\n\nCopenhagen is Denmark's capital city situated on Zealand."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
