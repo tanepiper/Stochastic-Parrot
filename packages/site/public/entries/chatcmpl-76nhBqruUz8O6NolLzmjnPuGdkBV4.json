@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76nhBqruUz8O6NolLzmjnPuGdkBV4",
+  "object": "chat.completion",
+  "created": 1681855353,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 27,
+    "total_tokens": 34
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The population of Switzerland is approximately 8.6 million people, and the population density is about 216 people per square kilometer."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
