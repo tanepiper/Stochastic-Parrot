@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76yvzfKJByjHYLWRIDVtl9BDvh6uC",
+  "object": "chat.completion",
+  "created": 1681898555,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 52,
+    "total_tokens": 59
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am sorry, I cannot provide physical assistance as I am an Artificial Intelligence language model designed to assist you with textual conversations and providing general knowledge through text-based responses. Please let me know if there is any other information or help I can offer in this format."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
