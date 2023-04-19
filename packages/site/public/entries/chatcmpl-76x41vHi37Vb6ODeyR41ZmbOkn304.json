@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76x41vHi37Vb6ODeyR41ZmbOkn304",
+  "object": "chat.completion",
+  "created": 1681891365,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 243,
+    "total_tokens": 250
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Bronze Star Medal is awarded to any person who, while serving in any capacity in or with the military of the United States after 6 December 1941, distinguished themselves by heroic or meritorious achievement or service, not involving participation in aerial flight.\n\nEligibility requirements for a Bronze Star Medal can be divided into five main points:\n\n1. Performing acts of heroism in connection with military actions against an enemy.\n2. Showing outstanding achievements through their initiative and readiness.\n3. Directly participating in operations related to ground combat after 11 September 2001; tasks should involve exposure to hostile action under significant risk.\n4. Meritorious service cannot be limited just to support missions but must include accomplishments that contributed directly to successful battle campaigns.\n5. Wearing a \"V\" device represents valor when exhibiting exceptional bravery during combat situations.\n\nAdditionally, the individual receiving this medal must meet other supplementary criteria set forth by military regulations such as time-in-service requirements and good conduct standards.\n\nIt is worth noting that higher-ranking members may receive additional awards based on their contributions and impact on operational success at various levels - these could range from company-level up through major armed conflicts like World War II or Vietnam War era engagements"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
