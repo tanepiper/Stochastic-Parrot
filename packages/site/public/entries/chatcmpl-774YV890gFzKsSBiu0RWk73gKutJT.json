@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-774YV890gFzKsSBiu0RWk73gKutJT",
+  "object": "chat.completion",
+  "created": 1681920163,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are multiple options for attending a trial as an observer. Some trials may have more restrictions than others, depending on the nature of the case and other factors.\n\nHere are some steps you can take to attend a court trial as an observer:\n\n1. Find out where the trial is taking place: Look up information about the specific court (e.g., county courthouse or federal district court) where the trial will be held. You can find this information through news articles or public records such as online databases. \n\n2. Make sure that it's an open trial: In many jurisdictions, trials are generally open to the public unless there is a compelling reason to close them (such as protecting witnesses' safety or preserving highly confidential information). Check to make sure that the trial you want to observe has not been closed by order of the judge.\n\n3. Attend only during designated hours: Courtrooms typically operate during regular business hours - usually from around 9 am until late afternoon with breaks in between. Arrive at least half an hour before proceedings begin so that there's enough time for security checks and finding your seat.\n\n4.Reliaspectators but subject-specific instructions applies, like no photography etc.\nFollow courtroom etiquette rules/respect decorum/rules set forth relatedly:\n\n- Dress appropriately: Business casual attire should suffice.\n- Be punctual and respectful when entering/leaving-- Try not interruptongoing procedures e.g., while witness tesitifies.judge speaks.spec\n-Turn off/send mobile devices/silent mode avoid disruption.Have note taking materials if plan takes notes.Maintain un biased facial expression/comment volume wise within gallery.Provide ID/security personnel required entrancewise/never argue warrant.\n- Do not discuss facts/case with anyone/particular inside involved"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
