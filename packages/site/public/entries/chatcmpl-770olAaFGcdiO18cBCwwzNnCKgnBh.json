@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-770olAaFGcdiO18cBCwwzNnCKgnBh",
+  "object": "chat.completion",
+  "created": 1681905795,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 332,
+    "total_tokens": 339
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some of the literary devices in William Shakespeare's Macbeth include:\n\n1. Imagery: Shakespeare uses vivid and powerful images throughout the play, particularly related to blood, illness, darkness, and weather. These images create a dark atmosphere as well as reveal the inner workings of the characters.\n\nExamples:\n- \"Out, damned spot! Out, I say!\" (Act 5 Scene 1)\n- \"Is this a dagger which I see before me,\nThe handle toward my hand?\" (Act 2 Scene 1)\n\n2. Alliteration: The repetition of consonant sounds at the beginning of words.\n\nExample:\n- \"Mighty opposites\nMerge into one.'' (Act 5 Scene 7)\n\n3. Metaphor: A figure of speech that compares two things without using 'like' or 'as.'\n\nExamples:\n- Life's but a walking shadow…\" (Act V scene V)\n- \"Look like th' innocent flower,\nBut be the serpent under't.\"( Act I scene V).\n\n4. Personification - Giving human qualities to non-human entities or abstract concepts\n\nExample:\n- “Sleep that knits up the raveled sleeve of care\" (Act II scene II).\n\n5. Dramatic Irony: When an audience knows something that characters do not know; creating suspense or humor.\n\nExample:\nMacbeth does not realize he is being fooled by witches while audiences understand their deceitful nature from early on in play\n\n6. Symbolism: A person/place/thing carrying deeper meaning used to represent ideas/concepts.\n\nExamples:\nBlood symbolizing guilt over time.\nThe weather representing chaos within Scotland due ghosts actions/reactions"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
