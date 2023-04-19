@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76pefmyBSGGAgfi4Pc5sWYFegzoxN",
+  "object": "chat.completion",
+  "created": 1681862885,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 70,
+    "total_tokens": 122
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these animals would you most like to have as a pet?\",\n  \"answers\": [\n    \"1. Miniature Australian Shepherd\",\n    \"2. African Grey Parrot\",\n    \"3. Axolotl (Mexican walking fish)\",\n    \"4. Pygmy Hedgehog\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
