@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76uFd4lFp79gvwNrAEgqHLLiHhSTB",
+  "object": "chat.completion",
+  "created": 1681880553,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The biography of Tiger Woods begins on December 30, 1975 in Cypress, California. Born Eldrick Tont Woods to Kultida Punsawad and Earl Woods Sr., he was nicknamed \"Tiger\" in honor of his father's friend, a Vietnamese soldier. \n\nExceptionally gifted even as a child, Tiger showed an extraordinary talent for golf from an early age. His father introduced him to the sport when he was just two years old and began mentoring him with the help of professional coaches throughout his childhood.\n\nThrough hard work and dedication under the guidance of his parents and mentors, Tiger quickly rose through amateur ranks. He first gained national attention at age six by showcasing his incredible shots on various television shows such as The Mike Douglas Show.\n\nHe won multiple prestigious junior tournaments including three U.S Junior Amateur titles between ages 15 –17 (the youngest player ever to win this title) which led to immense attention from media experts who recognized him as one of golf’s greatest young talents.\n\nIn August 1996, after attending Stanford University for two years where he received several accolades for his performance playing collegiate golf, Tiger turned pro at the tender age of 20 with Nike Golf sponsorship worth $40 million US dollars over five years - which helped pave way towards becoming world’s richest golfer today estimated net worth over $800 million USD!\n\nAt just twenty-one-years-old(APRIL),Less than a year after turning pro-,he entered history books yet again winning by record margin12 strokes in dramatic fashion Masters Tournament held Augusta National Golf Club April(6-13th)1997-first major Golf Title transforming into Sport superstar overnight\n\nThroughout late '90s &early'00s,Dominating Tours While Representing-Nike,B"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
