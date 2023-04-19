@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76rf2nUt1y4v6ketUvjrzhuWQUArr",
+  "object": "chat.completion",
+  "created": 1681870596,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 40,
+    "total_tokens": 47
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "\"What are the primary colors?\"\n\nThe three primary colors are red, blue, and yellow. These are the basic colors that can be mixed together in varying proportions to create a wide range of other colors."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
