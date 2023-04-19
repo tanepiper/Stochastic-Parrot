@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76puyojIOL387vGGrJ05IrSlEXWkL",
+  "object": "chat.completion",
+  "created": 1681863896,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 234,
+    "total_tokens": 241
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some possible side effects of eating too much mustard are:\n\n1. Increased risk of bleeding: Mustard contains vitamin E, which can act as a blood thinner and may lead to increased bleeding in some individuals.\n\n2. Indigestion and stomach cramps: Mustard seeds contain glucosinolates, which your body breaks down into isothiocyanates during digestion. These chemicals can cause indigestion and gastric irritation when consumed in large amounts.\n\n3. Diarrhea: Consuming excessive amounts of mustard may cause diarrhea due to its high fiber content.\n\n4. Allergic reactions: Some people might be allergic to mustard or have an intolerance for it; thus, consuming large amounts could trigger symptoms such as itching, swelling in the mouth or throat, difficulty breathing, hives, and digestive issues like vomiting or diarrhea.\n\n5. Interactions with medications: Eating excessive quantities of mustard might interfere with medications like anticoagulants (blood thinners) due to their contents affecting blood clotting mechanisms.\n\n6- Kidney problems : Due to the presence of oxalate salts , over consumption of mustard could increase kidney stones risks especially for those who are prone"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
