@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77AAp8vHA1MhrF39UnSPahcE4cdBl",
+  "object": "chat.completion",
+  "created": 1681941759,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 269,
+    "total_tokens": 276
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To buy life insurance online, follow these steps:\n\n1. Research and compare different insurance providers: The first step is to research various life insurance companies to find the one that's best for you. This can be done through an online search or by visiting the websites of different insurers.\n\n2. Determine your coverage needs: Once you've selected a few reputable providers, determine how much coverage you need based on factors like your annual income, liabilities (such as loans and mortgages), family expenses and future financial goals.\n\n3. Obtain quotes: After determining your coverage needs, visit each insurer's website to obtain a quote by providing basic personal details such as age, gender, smoking status and desired policy term.\n\n4. Compare quotes: Carefully review the premium rates offered in each quote along with other aspects of the policy such as additional benefits or riders available.\n\n5. Choose a policy: Based on which company offers the most suitable package according to your preferences including cost-effective premiums, pick a policy from one insurer that fits all your requirements.\n\n6.Track health history\n\nOften times they will ask about any pre-existing conditions which may alter terms at this point \n\n7.Make sure all the primary information/input regarding occupation types(role), location ,date range\n.\n8.Generally after choosing they suggest filling out some forms either electronically or sending it via mail if chosen.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
