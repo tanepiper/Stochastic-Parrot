@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76pcid5z25ZhvLmJVEjApfMkh7T52",
+  "object": "chat.completion",
+  "created": 1681862764,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 257,
+    "total_tokens": 264
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some tips for living with roommates include:\n\n1. Establish clear communication\n    - Make sure to talk openly and honestly about expectations, concerns, and any issues that come up.\n\n2. Set ground rules\n    - Decide together on guidelines for things like cleaning duties, quiet hours, and shared expenses.\n\n3. Respect each other's space \n    - It is important to give each other personal space and not invade the privacy of your roommate.\n      \n4. Be willing to compromise\n   - If you disagree on something such as household chores or guests in the house, it is essential to seek a middle ground solution that works best for both parties.\n\n5. Divide responsibilities fairly\n   - Splitting up tasks evenly can help prevent resentment from building over time if one person feels they are doing more than their fair share of work.\n  \n6. Pay bills on time \n   - Avoid conflicts regarding finances by committing to pay your portion of rent or utilities in a timely manner.\n\n7.Files Noise complaints During quiet hours when necessary\n  \n8.Be considerate: respecting how they feel during hard times \n\n9.Cleanliness – Keep shared spaces clean and encourage everyone else do his part\n\n10.Foster a friendly environment by spending quality time together through activities such as movie nights or cooking dinners together regularly"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
