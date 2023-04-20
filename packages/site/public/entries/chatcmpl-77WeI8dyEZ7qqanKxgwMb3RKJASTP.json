@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77WeI8dyEZ7qqanKxgwMb3RKJASTP",
+  "object": "chat.completion",
+  "created": 1682028154,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several famous conspiracy theories involving Hollywood actors and celebrities. Some of these include:\n\n1. The Illuminati: This theory claims that a secret society called the Illuminati, supposedly composed of influential individuals, like politicians and celebrities, controls world events to establish a New World Order.\n\n2. Paul McCartney's death: According to this theory, Paul McCartney died in 1966 from a car accident and was replaced by someone who looked just like him.\n\n3. Avril Lavigne's death: Similar to the Paul McCartney theory, some people believe that the Canadian pop-punk singer Avril Lavigne died in 2003 and was replaced by an imposter named Melissa Vandella.\n\n4. Elvis Presley faked his own death: This popular conspiracy theory suggests that rock legend Elvis Presley didn't die from a heart attack but instead faked his own death to escape life in the public eye.\n\n5. Marilyn Monroe's murder cover-up: Many people believe that actress Marilyn Monroe did not commit suicide as reported but was murdered due to her alleged affairs with John F.Kennedy or Robert Kennedy) because they believed she knew too much confidential information about government secrets.\n\n6. Princess Diana's assassination by British government involvement – A massive range of separate theories suggesting distinct reasons why different groups would have wanted her dead such as royal family resented independence etc;\n\n7.Tupac Shakur is still alive - Tupac’s ‘death’ on September 13th which happened within seven months of Wallace’s , had been trailed with rumors it could be fake - many askedquestions whether was he gunned down at all?;\n\n8.The satanic cult behind music industry responsible for success stories spanning Britney Spears through Lady Gaga until practically every big artist around today;"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
