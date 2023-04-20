@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77KTsiVQ6IVTahdgk07e0I40n8mIG",
+  "object": "chat.completion",
+  "created": 1681981380,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several reasons people might avoid eye contact. Some of the most common ones include:\n\n1. Shyness or social anxiety: People who are shy, introverted, or have social anxiety may feel uncomfortable making eye contact with others due to a fear of being judged or criticized.\n\n2. Low self-esteem: Those with low self-confidence might avoid eye contact because they believe that they're not worthy of attention or don't want to draw attention to themselves.\n\n3. Cultural differences: In some cultures, direct eye contact can be seen as rude, disrespectful, or aggressive. People from these cultures may avoid looking someone in the eyes to show respect and deference.\n\n4. Autism spectrum disorder (ASD): Individuals on the autism spectrum often struggle with nonverbal communication, including understanding and using appropriate eye gaze behaviors during interactions.\n\n5. Guilt/liability consciousness: When someone knows they've done something wrong – whether lying or engaging in dishonest behavior – they might consciously or unconsciously avoid making direct eye contact out of guilt.\n\n6. Disinterest/distractedness: A person could simply be preoccupied with their thoughts or uninterested in what's happening around them; avoiding meeting another's gaze isn’t necessarily intentional but results from their lack of engagement in the conversation at hand.\n\n7. Submissiveness/humbleness/Apprehension/deference - Some people do not maintain constant ey-contact while talking due to feelings of inferiority/submission/apprehension/deference towards/others whatever reason that happened historically/by evolution.\n \n8) Past trauma - Someone who has experienced past trauma related contempt/self-respect/inferiority complex ,may develop avoidance thereof without any trigger/fault(bullying/domestic violence victims survivors etc).\n\nThe"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
