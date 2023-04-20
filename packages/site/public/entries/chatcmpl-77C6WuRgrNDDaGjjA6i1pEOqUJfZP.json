@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77C6WuRgrNDDaGjjA6i1pEOqUJfZP",
+  "object": "chat.completion",
+  "created": 1681949180,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 282,
+    "total_tokens": 289
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Andean Mountain Cat is a small, elusive wild cat species native to the high Andes Mountains in South America, specifically in Argentina, Bolivia, Chile, and Peru. It is one of the least-known and rarest cats globally due to its highly specific habitat requirements.\n\nThe Andean Mountain Cat prefers habitats at elevations between 11,500 feet (3500 meters) and more than 15,750 feet (4800 meters), living primarily in rocky areas with minimal vegetation like Puna grasslands or Polylepis woodland. These cats are well adapted to their harsh environment; their fur coat prevents an excessive heat loss during cold nights while providing excellent camouflage against similar-colored rocks.\n\nThis enigmatic feline has been classified as Endangered by the IUCN since 2002 because of its scarce sightings and limited information. The estimated population size is less than 2,500 mature individuals. Considering these numbers and ongoing threats such as habitat loss due to mining activities or conversion into agricultural lands besides hunting for local superstition or retaliation because of perceived livestock predation generate concerns about their survival prospects.\n\nConservation efforts involve both research programs intended to gather data on ecology aspects –like distribution patterns– must be combined with community-based environmental education work that promotes sustainable land use practices supporting biodiversity conservation values larger than just this poorly known but still distinct felid species inhabiting a unique ecosystem permanently threatened by human impacts.\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
