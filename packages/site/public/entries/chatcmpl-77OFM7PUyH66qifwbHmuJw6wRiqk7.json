@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77OFM7PUyH66qifwbHmuJw6wRiqk7",
+  "object": "chat.completion",
+  "created": 1681995856,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 47,
+    "total_tokens": 54
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am an AI, so I don't have the ability to think or feel. My responses are based on pre-written algorithms and large databases of knowledge that are constantly being updated, but this does not constitute thinking in a human sense."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
