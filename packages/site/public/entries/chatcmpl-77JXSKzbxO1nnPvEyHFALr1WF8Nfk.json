@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77JXSKzbxO1nnPvEyHFALr1WF8Nfk",
+  "object": "chat.completion",
+  "created": 1681977758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 289,
+    "total_tokens": 296
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several strategies to deal with an employee who is always late:\n\n1. Clear communication: Speak with the employee privately and discuss their tardiness. Try to understand the underlying reasons for their habitual lateness, whether it's personal or work-related.\n\n2. Set expectations: Clearly communicate company policies on punctuality and attendance, as well as any consequences for repeated tardiness.\n\n3. Offer support: If there are mitigating factors causing the employee's lateness (such as a long commute or childcare issues), try to find creative solutions that can help them arrive at work on-time, such as flexible start times or remote working options when possible.\n\n4. Monitor progress: Keep track of their arrival times and note any improvements, but also recognize if there continues to be a pattern of lateness.\n\n5. Implement consequences: If the issue persists despite your efforts to address it, begin having conversations about potential consequences for further instances of tardiness (e.g., verbal warnings followed by written warnings).\n\n6. Follow through with disciplinary action: Document incidents of tardiness and follow through with appropriate disciplinary measures according to company policy — this may range from performance improvement plans (PIPs) up until eventual termination if necessary.\n\n7. Consider alternative roles within the organization where possible – perhaps they excel in other areas but struggle due to arriving late frequently.\n\n\nThe most important aspect is clear communication throughout the process since misunderstandings could worsen mistrust between you and your employees"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
