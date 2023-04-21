@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77e94P9nBun8XJr6mUdCJt7m6D6lm",
+  "object": "chat.completion",
+  "created": 1682056970,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 33,
+    "total_tokens": 40
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "This means that a person should always act according to their conscience and do what they believe is morally and ethically correct, regardless of the opinions or expectations of others."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
