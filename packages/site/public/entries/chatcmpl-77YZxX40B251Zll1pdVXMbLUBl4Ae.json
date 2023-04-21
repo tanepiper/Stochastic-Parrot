@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77YZxX40B251Zll1pdVXMbLUBl4Ae",
+  "object": "chat.completion",
+  "created": 1682035573,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 161,
+    "total_tokens": 168
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Appearances can be deceptive because the way someone, something, or a situation appears on the surface doesn't always represent its true nature. People are quick to make judgments based on first impressions and external appearances; however, they may miss essential qualities that lie beneath.\n\nFor instance, an individual who appears shy and quiet might actually have a wealth of untapped talent once given the opportunity to express themselves in their own unique way. Similarly, situations that seem promising at first glance might quickly lose their shine upon further examination.\n\nAppearances can deceive us into making snap judgments without taking the time to understand or differentiate between what is real versus superficial qualities. This is evident in many aspects of life – relationships, work opportunities, friendships - where we need to cultivate patience and discernment before rendering decisions solely based on external factors."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
