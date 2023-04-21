@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77jsIYNI2HcwCjLuelmLfBj6jAvLm",
+  "object": "chat.completion",
+  "created": 1682078994,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 172,
+    "total_tokens": 179
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "According to a 2021 BBC article, the population of Andorra is around 77,000 people. The country measures just over 181 square miles (468 square kilometers) and is located in the eastern Pyrenees mountain range between Spain and France.\n\nIts capital city, Andorra la Vella, has about 22,000 residents. Interestingly, more than half of the nation's inhabitants are foreigners. Due to its limited natural space for agricultural production or other industries from the land – like mining or logging – it relies heavily on imports.\n\nAs a result of its picturesque skiing regions and shopping options (especially as there is no sales tax), tourism plays a significant role in supporting Andorra's economy. Approximately ten million visitors come every year to admire the breathtaking landscapes or participate in various outdoor activities – generating much-needed revenue for this tiny European microstate."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
