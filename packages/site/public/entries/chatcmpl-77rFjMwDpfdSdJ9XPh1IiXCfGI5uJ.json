@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77rFjMwDpfdSdJ9XPh1IiXCfGI5uJ",
+  "object": "chat.completion",
+  "created": 1682107355,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 213,
+    "total_tokens": 220
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no specific date when mankind started using trees. Humans have been utilizing trees and their resources, such as wood, fruit, nuts or leaves for thousands of years. As early humans developed tools and techniques to access these resources, they began using them for various purposes like shelter building, tool making and even consumption.\n\nThe use of wooden materials can be traced back to the Stone Age (approximately 2.5 million years ago), with evidence of crafted stone tools being used on wooden materials to make weapons and other implements. Additionally, there is archaeological evidence suggesting that Neanderthals may have used fallen tree branches as simple shelters over 40 thousand years ago.\n\nIn conclusion, it's impossible to pinpoint a specific time when humanity \"discovered\" the usefulness of trees because our ancestors' interactions with trees have evolved along with human innovation throughout history. The very concept might not be meaningful since modern Homo sapiens did not suddenly discover this - rather our distinctively human ability to adaptively use nature around us has shaped our development alongside many environmental factors including trees in particular habitats"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
