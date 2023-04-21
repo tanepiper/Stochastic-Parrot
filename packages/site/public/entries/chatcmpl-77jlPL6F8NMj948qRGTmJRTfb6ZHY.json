@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77jlPL6F8NMj948qRGTmJRTfb6ZHY",
+  "object": "chat.completion",
+  "created": 1682078567,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to analyze a novel, but here are seven key elements to consider:\n\n1. Plot: What is the main storyline or sequence of events in the novel? Are there subplots that intersect with the main plot? Look for key moments and turning points, as well as any narrative techniques used to create tension, suspense or surprise.\n\n2. Characters: Who are the primary and secondary characters in the story? Examine their roles and motivations, relationships with one another, development throughout the book (character arc), and any symbolisms or themes they may represent.\n\n3. Setting: Where does this novel take place - geographically, socially, historically - also how these settings contribute to mood/theme/ambiance/conflicts/characters?\n\n4. Point of view: From whose perspective is most of story told? How does it change effect on reader's perception/response/group dynamics/dialogue/tone/language/themes)\n\n5. Themes & Motifs: If you could boil down meaning/message/purpose/relevance/atmosphere/dynamics into few concepts what would those be .v.s broad/general exploration through specific personal/emotional/stylistic/narrative approach?\n\n6. Style & language : Analyze author's tone/diction/syntax/formality/informality towards different scenarios/items(structures)/tenses/action/effects/devices/sheer choice\n\n7.Style can encompass devices like rhetorical figures/uses for emotional intensity/irony/metaphor/poetic expressions/utilizing features similar conversation/classic essays/storytelling framework/etc.)\n\n8.Conflict/resolution/types starting creating relieving tensions between various combinations conflict types internal/self person-vs others(family) beings/nature(setting atmosphere etc.)\n  \nRemember that no single analysis will cover every aspect ,but by"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
