@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77u3tZeoHoVmN4RjjwjNPkwAWxJuQ",
+  "object": "chat.completion",
+  "created": 1682118153,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 47,
+    "total_tokens": 54
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is not confirmed whether the Guinea-Bissau Creole language has been passed down to subsequent generations in Portugal. While it is possible that some families may have maintained the linguistic tradition, there isn't readily available information on this subject."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
