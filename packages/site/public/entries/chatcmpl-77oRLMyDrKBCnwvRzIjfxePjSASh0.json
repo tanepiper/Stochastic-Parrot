@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77oRLMyDrKBCnwvRzIjfxePjSASh0",
+  "object": "chat.completion",
+  "created": 1682096543,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 233,
+    "total_tokens": 240
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The concept of political psychology primarily seeks to analyze, understand, and explain the behavior of politicians or political actors. This field draws upon various psychological theories in order to make sense of political processes such as decision-making, leadership styles, public opinion formation, international conflict resolution, and voting behavior.\n\nPolitical culture refers to the set of shared beliefs, values and attitudes that shape a society's views about politics and government. It includes citizens' knowledge about politics (including their understanding of how the system works), trust in government institutions, acceptance of democratic norms like freedom of speech or human rights protection laws; participation in civic activities significant for democracy-building efforts.\n\nBoth concepts are related because they deal with individuals' perception towards politics/government but at different levels:\n\n1. Political psychology typically focuses on individual-level analysis by examining what factors influence people's opinions/actions - this could be anything from personality traits personal experiences.\n2. In contrast-political culture studies aggregate population trends concerning general attitudes/preferences within a specific nation/region which has developed over time/history due to common socio-cultural backgrounds/values being passed down generations collectively-as-a-whole & hence shaping people mindset when approaching matters-of-state/politics involved"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
