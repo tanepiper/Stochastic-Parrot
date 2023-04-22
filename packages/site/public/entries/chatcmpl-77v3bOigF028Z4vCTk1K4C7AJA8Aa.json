@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77v3bOigF028Z4vCTk1K4C7AJA8Aa",
+  "object": "chat.completion",
+  "created": 1682121979,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 340,
+    "total_tokens": 347
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several aspects to consider when choosing a major in college, including:\n\n1. Personal interests: Choose a subject that genuinely interests you and motivates you to learn more.\n\n2. Skills and abilities: Evaluate your strengths to determine which major aligns with your skills – whether it's analytical thinking, problem-solving, or creativity.\n\n3. Career opportunities: Consider the job prospects for different majors, paying attention to both short-term entry-level positions and long-term career potential.\n\n4. Job satisfaction: Research potential careers associated with specific majors to ensure they align with what you're looking for in terms of work environment and daily tasks.\n\n5. Salary expectations: Compare earning potentials for various occupations related to specific majors while keeping in mind that factors like experience, location, education level can impact salary levels as well.\n\n6. Educational commitment: Determine if the time required (e.g., additional certifications or graduate degrees) matches your desired educational commitment level before committing to certain majors or career paths.\n\n7. Flexibility/adaptability: Pursue a degree that may provide some flexibility if deciding on an exact career path is difficult - look into broader undergraduate fields such as business administration or liberal arts studies that offer numerous post-graduate possibilities down the line\n\n8. Alignment with values/passions/lifestyle goals: Seek a major/career path based on personal values - this might be environmental conservation focused careers for ecology-lovers as an example \n\n9. Industry growth/trends/job security/stability : research growth of industries/sectors relevant  points 1–through\n\n10 .relevance  advises     considering    insights\nrelated \nto future workforce needs; choosing respective domains might increase chances at securing stable roles upon graduation"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
