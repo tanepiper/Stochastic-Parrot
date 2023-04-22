@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78GXGeEOCNhhoKjV3VLNnReGaNGcR",
+  "object": "chat.completion",
+  "created": 1682204542,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 177,
+    "total_tokens": 184
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In a four-stroke engine, the \"stroke\" refers to the movement of the piston within the cylinder. The four strokes are:\n\n1. Intake Stroke: During this stroke, the intake valve opens and air-fuel mixture flows into the combustion chamber as the piston moves downward.\n\n2. Compression Stroke: With both valves closed, this motion involves upward movement of the piston which compresses and increases pressure in air-fuel mixture.\n\n3. Power (Combustion) Stroke: A spark from plug ignites fuel-air mix causing great expansion of gases that force down on pistons (transfering energy)\n\n4.The Exhaust stroke starts with exhaust valve opening and closing while releasing burnt gasses caused by power stroke as it moves upwards\n\nThese 4 strokes combine to generate mechanical work in engine crankshaft rotation that drives various other connected components like wheels/gears depending'on its usage+implementation"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
