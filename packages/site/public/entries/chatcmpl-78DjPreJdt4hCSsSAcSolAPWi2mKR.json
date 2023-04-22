@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78DjPreJdt4hCSsSAcSolAPWi2mKR",
+  "object": "chat.completion",
+  "created": 1682193763,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 215,
+    "total_tokens": 222
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, humans are social animals who generally need to interact with others for support, friendship, and a sense of belonging. These interactions can take various forms, such as personal relationships, family bonds, work relationships, and community involvement. Human survival has historically depended on cooperation among individuals to find food and shelter, provide protection from predators or other potential threats.\n\nSocializing also benefits mental health by reducing stress levels and cultivating a positive attitude in life through shared experiences. A supportive network of friends or acquaintances provides comfort during challenging moments in life like job loss or the death of a loved one.\n\nAdditionally, healthy social connections have been linked to improved immune systems and longevity due to decreased feelings of isolation leading lower rates of anxiety depression other physical ailments caused by emotional strain out reduced risk heart disease cognitive decline over time suggested contribute overall quality while encouraging communication skills empathy necessary achieve harmony any relationship type whether romantic platonic professional families communities well being ultimately progress evolution so central iconic innate even consider without would greatly impact world we currently know it impossible imagine modern society which completely stripped away aspects our nature as human beings"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
