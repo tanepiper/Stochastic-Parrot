@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77wL8Ml0gqVpPT9L3nmVn34G6pVWc",
+  "object": "chat.completion",
+  "created": 1682126910,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 180,
+    "total_tokens": 187
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term kinship refers to the system of organizing social relationships and connections based on consanguinity, marriage, or adoption. In other words, kinship is a way to describe the complex web of family ties that bond people together through common ancestry or alliance.\n\nThere are various types of kinship systems across different cultures around the world, but they generally follow certain rules related to blood relations (consanguinity) and marital relations (affinity). Consanguinal kin refers to individuals who are biologically related by sharing a common ancestor, such as siblings or cousins. Affinal kin includes those connected through marriage alliances like in-laws.\n\nThese kinds of relationships can play important roles in determining marriage partners, inheritance rights, economic support networks, and even influencing political structures. Understanding how societies construct their own unique systems for understanding these familial interconnections helps anthropologists better understand human cultural diversity and adaptation over time."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
