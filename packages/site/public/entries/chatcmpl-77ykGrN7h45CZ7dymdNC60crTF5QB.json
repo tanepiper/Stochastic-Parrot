@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77ykGrN7h45CZ7dymdNC60crTF5QB",
+  "object": "chat.completion",
+  "created": 1682136156,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 135,
+    "total_tokens": 142
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, they are two different things. Oceanography is the scientific study of the ocean and its processes, including its chemistry, biology, geology, and physical properties (such as temperature, currents, and tides). Marine science is a broader term that includes oceanography but also covers other aspects related to living organisms in marine environments (marine biology), coastal zones management or environmental policies related to oceans.\n\nOceanography focuses specifically on understanding the unique characteristics and processes within Earth's vast bodies of water. In contrast, marine science incorporates many disciplines which aim at understanding all constituents of the marine ecosystems - from biological organisms living within these waters to human impacts such as pollution or conservation efforts."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
