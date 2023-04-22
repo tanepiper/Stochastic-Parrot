@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78Ef7ILshh27BJiuqKOrVduN7C5cy",
+  "object": "chat.completion",
+  "created": 1682197341,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "\"Dopamine\" is derived from the name \"dopa\", which is an amino acid that serves as a precursor to the neurotransmitter dopamine, and the suffix \"-amine,\" which denotes its chemical classification within the class of amine compounds."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
