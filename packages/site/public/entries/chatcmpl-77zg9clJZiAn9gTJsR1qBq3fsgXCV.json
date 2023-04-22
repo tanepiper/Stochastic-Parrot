@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77zg9clJZiAn9gTJsR1qBq3fsgXCV",
+  "object": "chat.completion",
+  "created": 1682139745,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 92,
+    "total_tokens": 99
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few different ways to say \"cheers\" in Scottish Gaelic:\n\n1. Slàinte mhath! (pronounced: slan-je vah) - Good health!\n2. Mòran taing! (pronounced: mawr-an tine) - Many thanks!\n\nThese two phrases are used interchangeably as a toast or a cheers expression, so you can choose the one that best fits the situation or context."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
