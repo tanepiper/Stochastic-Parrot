@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78SjcZCnOorGr4JvcjvzinhrEhv4v",
+  "object": "chat.completion",
+  "created": 1682251436,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 43,
+    "total_tokens": 50
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm not a person, so I don't have personal experiences or emotions. As an AI language model, my purpose is to assist you by providing helpful information and answering questions based on the text input I receive."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
