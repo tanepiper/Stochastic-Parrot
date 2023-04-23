@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78M9nulnrDLHIGZ3FEbdfxvBGnNQG",
+  "object": "chat.completion",
+  "created": 1682226151,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are numerous possible causes of neck pain, including:\n\n1. Muscle strain: Overuse or sudden movements can cause the muscles in your neck to become strained or fatigued.\n\n2. Poor posture: Slouching while sitting at a desk, using a smartphone for long periods, sleeping with poor head and neck alignment, all contribute to poor posture that can lead to chronic neck pain.\n\n3. Degenerative disc disease: As we age, the discs between our vertebrae lose hydration and begin to break down, which can cause pain in the cervical spine (neck).\n\n4. Herniated disc: A herniated disc occurs when a vertebral disc’s outer layer tears and its inner gel-like core leaks out – this inflamed tissue irritates nearby nerves leading to severe pain radiating from your neck down through the arm.\n\n5. Sprains and strains from accidents or sports injuries\n\n6. Whiplash: Sudden impact due to an automobile accident or other trauma could result in whiplash injury causing muscle strains as well as damage to vertebrae & nerves.\n\n7. Spinal stenosis is also another potential source of serious discomfort; spinal stenosis transpires when the space within your spinal canal narrows putting pressure on nerve roots exiting spinal cord ends- specific symptoms may include numbness & tingling sensations extending into one shoulder/arm region(s).\n\n8) Arthritis - Osteoarthritis (OA) and Rheumatoid arthritis (RA) often affect joints in areas around our heads such as jaws/shoulders thereby making adjacent soft tissues more susceptible towards inflammation + stiffness after prolonged sedentary activities e.g., computer work/job demands requiring repetitive motion patterns affecting upper extremities mainly wrists/elbows/shoulder blade"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
