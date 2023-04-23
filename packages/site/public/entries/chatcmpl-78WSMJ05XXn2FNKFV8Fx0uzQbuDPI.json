@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78WSMJ05XXn2FNKFV8Fx0uzQbuDPI",
+  "object": "chat.completion",
+  "created": 1682265742,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 333,
+    "total_tokens": 340
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, I can show you how to change the age for a TikTok account. Follow these steps:\n\n1. Open the TikTok app on your device and log in to your account.\n2. Tap on \"Profile\" (the icon that looks like a person) at the bottom-right corner of your screen.\n3. Tap on the three horizontal dots in the top-right corner of your profile page to access the \"Settings and Privacy\" menu.\n4. Scroll down and tap on \"Manage my account.\"\n5. You may see an option called \"Edit personal information,\" depending on whether you used a phone number or email address when signing up for Tiktok or if linked through Facebook, Instagram or Google).\n6a - If this option is available:\n- Tap 'Edit personal information.'\n- Then tap “Date of Birth.”\n6b - If this option is not visible:\nThe following steps are more complicated because as default tiktok doesn't let users change birthdays without contacting them).\n\nNote: It's not always possible to change it due to guideline restrictions\n7.Contacting support related with Age calculation:\n\nClick \"?\" Icon > Profile & Account Settings > Update Date Of Birth \n\nYou'll be prompted by an automatic chatbot\n\nSelect Yes (to verify date of birth).\nAnd follow any given instructions.\n\nKeep in mind there are no guarantees that they will update depending upon their policy protocols.\n\nAnother alternative method would unregister from current tik tok and create new one with correct birthday during signup.\n\nHowever, please note that providing incorrect/false age details during signup violates most apps' terms of service, so it's best practice not misleading info regarding real one whenever creating accounts across all platforms"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
