@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78XONnCGs6mqZYR09eCt1KnVXGKTD",
+  "object": "chat.completion",
+  "created": 1682269339,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 302,
+    "total_tokens": 309
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To write a food diary, follow these steps:\n\n1. Select a format: You can either use a physical notepad or journal, or opt for an electronic version through apps like MyFitnessPal, Lose It!, and Cronometer.\n\n2. Set your goals and caloric intake: Before you start writing down your daily meals, set clear objectives on what you want to achieve with this food diary (e.g., losing weight, gaining muscle). To track overall consumption properly, calculate the number of calories required based on gender, age, height, weight and activity level.\n\n3. Date each entry: Make sure to note the date each time you make an entry in your food diary so that it's easy to reference as needed.\n\n4. List all meal times: Break down your day into mealtimes such as breakfast, lunch etc., including snacks if any consumed throughout the day.\n\n5. Document every item consumed at each mealtime: Write down everything you eat and drink during that specific meal/snack-time instance – list individual ingredients of mixed dishes too (annotating quantities/volumes where possible).\n\n6. Note portion sizes or weights instead of volume/how much eaten by-hand; describe servings using common visual cues e.g balls/egg cups online resources/apps can help here\n\n7.Track caloric intake versus expenditure through exercise/workout routines – providing energy-balance overview\n\n8.Identify potential triggers for overeating/unhealthy choices n-patterns outlined response provoking introspection ensuring measurable progress toward end-goals"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
