@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78HXduxANzsGUKHwXFm7pGpjjfkV5",
+  "object": "chat.completion",
+  "created": 1682208409,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several examples of open source databases that you can use:\n\n1. MySQL: A popular relational database management system commonly used with web applications and online environments. It is widely used for its ease of use, flexibility, and speed.\n\n2. PostgreSQL: Another powerful and feature-rich relational database engine designed to handle a wide range of workloads from single machines to data warehouses or web services with many concurrent users.\n\n3. SQLite: A small, fast, self-contained and lightweight SQL engine often embedded in mobile devices or applications that require local storage but not the full power/scale of larger RDBMS systems.\n\n4. MariaDB: An enhanced drop-in replacement for MySQL developed by some original creators of MySQL after it was acquired by Oracle Corporation. It adds new features to improve performance over MySQL while remaining mostly compatible.\n\n5.Projectional Programming-It might be described as a high-level technique based on bidirectional transformation between XML structure (hierarchical sysntax) representing code visualsiation (that could work as an editable notation) tied with program tree-abstraction nodes provided LLVMgraph-based library .\n\n6.MongoDB Originally designed at Facebook.Has both closed source CE repository available on gihub.Cross platform & object oriented model included.SQL Server Based-A Windows Platform.Relational databae popularly known foor corporate apps.Infinit builds dektop , moile & Web Apps.Developer friendly.Solution modern platforms like node.js,golang etc.PhpMyAdmin.Flexible administration panel.Xampp.Server.RegEx.Any languages(pattern matching; filter).ALSQL.\n \n7.Couchbase : An easily scalable NoSQL document-oriented database management system focused on high throughput operations along with replication across clusters for fault tolerance\n\nName| Type | OS-Support\nMySQL -Relational"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
