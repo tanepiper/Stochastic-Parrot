@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78lS7uGTIkOXlEIC3lRWYjxGuGOhh",
+  "object": "chat.completion",
+  "created": 1682323387,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 56,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would you want as a roommate?\",\n  \"answers\": [\n    \"Sherlock Holmes\",\n    \"Hermione Granger\",\n    \"Tony Stark (Iron Man)\",\n    \"Daenerys Targaryen\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
