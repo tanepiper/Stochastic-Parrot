@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78q9bnR9djsEj2PJGAzMP842YE6Zh",
+  "object": "chat.completion",
+  "created": 1682341459,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 311,
+    "total_tokens": 318
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to determine an exact number of internet-based businesses as new ones are constantly being created, and some may shut down or evolve over time. However, a few statistics can give us an idea of how many online businesses exist:\n\n- As of 2021, there were over 1.8 billion websites on the World Wide Web (source: Internet Live Stats).\n- According to Statista, in January 2022, there were around 4.3 million active Shopify stores globally.\n- By October 2021, Amazon reported having more than six million sellers across its marketplaces worldwide.\n\nIt is important to note that not all of these websites and users necessarily represent individual online businesses – many sites may be personal blogs or informational pages without any commercial purpose. Also worth noting is that one business might operate several websites or have listings on various marketplaces such as eBay or Etsy.\n\nPyttsx3 doesn't allow you execute code while it's running/speaking i.e., while pyttsx3.speak() function is running\n\nGiven the continually changing nature of the internet landscape and advances in technology leading to lowering entry barriers for starting an online business, we can only approximate the number based on available data sources - which still remains largely imprecise.\n\nIn summary: It is impossible to provide a precise figure regarding the number of internet-based businesses. There are millions out there due to low startup costs and accessibility; however, quantifying them accurately at any given point remains challenging because they continuously change aspects like their total numbers alongside emerging technologies trends.\",\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
