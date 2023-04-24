@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78yYRPPY2s18ZkhqlEkPPi0Pl8W56",
+  "object": "chat.completion",
+  "created": 1682373751,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 27,
+    "total_tokens": 34
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, I cannot purchase items for you as I am an AI language model and do not have the capability to perform e-commerce transactions."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
