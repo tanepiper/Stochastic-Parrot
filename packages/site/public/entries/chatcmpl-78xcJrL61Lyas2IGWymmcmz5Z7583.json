@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78xcJrL61Lyas2IGWymmcmz5Z7583",
+  "object": "chat.completion",
+  "created": 1682370147,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 101,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It's hard to say exactly when music was invented because it likely developed gradually over thousands of years. The earliest-known musical instruments are flutes made from animal bones, which date back around 40,000 years. However, it is believed that humans were making music even before the invention of these instruments, using their voices and other natural objects like rocks and sticks.\n\nOverall, music probably appeared in various places at different times throughout human history as our ancestors discovered new ways to produce sounds for communication or enjoyment."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
