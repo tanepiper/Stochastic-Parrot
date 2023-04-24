@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78r3kFr6huwdUrSMMj5sCgG4D1eoW",
+  "object": "chat.completion",
+  "created": 1682344940,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 105,
+    "total_tokens": 112
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As a language model AI developed by OpenAI, my primary purpose is to assist users in generating human-like text based on the prompts given. I can help with tasks like answering questions, providing recommendations, writing essays or stories, and offering explanations about various topics.\n\nMy goal is to be as helpful and accurate as possible while using advanced natural language understanding and generation capabilities. However, please note that I am an artificial intelligence program and not a human – hence it's important for you to verify any critical information before relying on it."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
