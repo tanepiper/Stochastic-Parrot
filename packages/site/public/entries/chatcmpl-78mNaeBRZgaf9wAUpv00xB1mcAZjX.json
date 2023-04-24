@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78mNaeBRZgaf9wAUpv00xB1mcAZjX",
+  "object": "chat.completion",
+  "created": 1682326950,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Archery, which is the practice or skill of shooting with a bow and arrows at a target, has been practiced for centuries across various civilizations. However, its origins can be traced back to prehistoric times.\n\n1. Prehistory: The use of bows and arrows dates back to over 10-15 thousand years ago in Africa during the Upper Paleolithic period. Archaeological evidence suggests that they were primarily used as hunting tools by early human ancestors.\n \n2. Ancient Egypt: Archery was an important aspect of Egyptian culture around 5000 BCE, with depictions on tomb walls showing archers using powerful longbows in military contexts or for hunting wild animals.\n \n3. Mesopotamia: In ancient Mesopotamian civilizations such as Sumeria (circa 3000 BCE), Assyria (2500–605 BCE) and Babylon (1895–539 BCE), bows were widely depicted on artifacts and carvings.\n \n4. China: Archery was highly regarded among Chinese nobility around 2000 BCE during the Xia dynasty; people enjoyed watching archery contests regularly held at festivals even amid political turmoil throughout different dynastic periods.\n  \n5. India: Evidence from ancient Indian civilization dating back to Vedic times reveals information about warriors known as “Arjuna” who employed their expertise in archery during conflicts within larger epic narratives like \"Mahabharata\" circa 3200 BCE.\n\n6.Other world cultures including Native American tribes such as Comanche who relied on precise bison hunting techniques utilizing bows tailored specifically for capturing fast-moving prey; Japanese traditions rooted in samurai tradition focusing more heavily upon spiritual purity through Kyudo practices compared nationally recognized martial arts discipline relating weaponry usage extended far beyond simple functional design intended"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
