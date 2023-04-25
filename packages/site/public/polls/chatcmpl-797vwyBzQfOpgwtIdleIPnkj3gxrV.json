@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-797vwyBzQfOpgwtIdleIPnkj3gxrV",
+  "object": "chat.completion",
+  "created": 1682409804,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 88,
+    "total_tokens": 140
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which type of cuisine do you prefer the most?\",\n  \"answers\": [\n    \"1. Italian (Pizza, Pasta, Gelato)\",\n    \"2. Mexican (Tacos, Burritos, Enchiladas)\",\n    \"3. Chinese (Dumplings, Stir-Fry, Fried Rice)\",\n    \"4. Indian (Curry dishes, Biryani, Naan)\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
