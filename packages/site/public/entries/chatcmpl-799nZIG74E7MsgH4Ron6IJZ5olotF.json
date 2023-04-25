@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-799nZIG74E7MsgH4Ron6IJZ5olotF",
+  "object": "chat.completion",
+  "created": 1682416973,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": ", aquí tienes un resumen de la Carta de Derechos del Reino Unido (Bill of Rights) que establece los siguientes derechos y libertades fundamentales:\n\n1. Libertad de expresión y debate en el Parlamento: Los miembros del Parlamento tienen derecho a hablar libremente en los debates parlamentarios sin temor a represalias o demandas judiciales por sus palabras.\n\n2. Prerrogativas reales limitadas: La carta establece límites al poder del monarca, evitando que este pueda suspender las leyes sin el consentimiento del Parlamento.\n\n3. Elecciones libres para el Parlamento: Se garantiza el derecho a realizar elecciones periódicas y libres para elegir representantes en el Parlamento.\n\n4. Prohibición de castigos crueles e inusuales: No se permiten multas excesivas ni castigos crueles e inusuales contra ningún ciudadano británico.\n\n5. Restricciones sobre impuestos no autorizados por ley: No se pueden imponer impuestos sin la previa autorización del Parlamento mediante la promulgación de una ley específica que lo permita.\n\n6. Separación entre iglesia y estado: Pone fin al control papal sobre la Iglesia Anglicana con respecto a su liderazgo religioso, confiriendo ese control al monarca electo.\n\n7. Habeas corpus – Protección contra arrestos arbitrarios o detenciones ilícitas\n\n8.Apelaciones justas (): Se requiere hacer un juicio justo antes ejecutar algún tipo penalidad.\n \n9.Derecho a port"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
