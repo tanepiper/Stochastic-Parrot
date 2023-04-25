@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79Ly07gqBQTX3vWjb35JQBA91JDSY",
+  "object": "chat.completion",
+  "created": 1682463748,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In general, a tubular skylight (also called a solar tube or sun tunnel) is more energy-efficient than traditional skylights because it provides natural daylight to your home without significantly affecting the indoor temperature.\n\nSome reasons why tubular skylights are more energy-efficient include:\n\n1. Design: Tubular skylights use a specially designed reflective tube to channel sunlight from the roof into your home. This allows them to provide light in spaces where traditional windows or conventional large-area skylights cannot be installed, such as interior rooms, hallways, and closets.\n\n2. Daylighting efficiency: The design of a tubular skylight maximizes available daylight by using high-quality reflectors that transmit sunlight even during times when it's not directly overhead (morning and afternoon). This means you'll have access to free illumination over most of the day without needing artificial lighting in areas illuminated by the tubes.\n\n3. Insulation: Tubular skylights feature sealed units with double-glazed insulated glass at both ends that help reduce heat gain during summers and maintain warmth inside during winters. They won't allow for heat exchange like traditional open-air vents may do either since no direct transfer can occur between indoors and outdoors within this configuration.\n\n4. Size: Due to their smaller size compared to conventional broad area floor-to-ceiling windows or classic curbed industrial loft lights, these models will let in fewer air pollens which could increase HVAC burden upon entering residences who need allergen-purging assistance later on especially given poorly filtered units' propensity inefficiencies determining casing depth variations per housing market demand stats chartings alongside customer niche desires mostly steering company growth aim points farther out overall concepts becoming realized forecasts backing loss-handling structural departments layered beneath money-f"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
