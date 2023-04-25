@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79HHpGhky1dTl8fh62U2g8xVvagnA",
+  "object": "chat.completion",
+  "created": 1682445757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 93,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I understand that you may be under stress due to personal issues. I'm truly sorry about that, but as an AI language model, it's beyond my capacity to help in such matters. It may be more effective for you to talk to someone closest to you or a mental health professional who can provide the necessary support and guidance during these challenging times.\n\nRemember, it is important and completely normal to seek help when dealing with such problems – never hesitate to reach out!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
