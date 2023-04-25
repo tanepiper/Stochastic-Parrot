@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79L20Kil0pOeZDcTApRIrddFsWEQN",
+  "object": "chat.completion",
+  "created": 1682460152,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 14,
+    "total_tokens": 21
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1989 is the last year of the 1980s decade."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
