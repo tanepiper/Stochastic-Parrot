@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79Qeo56IlUoWTRGkzJLh3ozAfn3ci",
+  "object": "chat.completion",
+  "created": 1682481778,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 227,
+    "total_tokens": 234
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no clear evidence to prove which country started using spices first. However, the use of spices has been documented in various ancient civilizations such as Egypt, India, and China.\n\nIndia is known for its rich history with a wide variety of spices such as black pepper, cardamom, clove, turmeric and many others that were cultivated thousands of years ago. Indian cuisine heavily relies on these spices even today.\n\nAncient Egyptians used a variety of spices during food preparation and also incorporated them into their religious rituals. Spices like cinnamon have been found in Egyptian tombs dating back to 2000 BCE.\n\nChina's history with utilizing spices dates back over 3 thousand years when they began cultivating crops like ginger and garlic. They expanded their repertoire during the Han dynasty (206 BCE – 220 CE) by importing other exotic ingredients like star anise and black cardamom through trade routes\n\nWhile it is unclear exactly where spice usage originated from or who can claim the title “first users,” it was likely independently discovered in multiple regions due to differing climates providing fertile ground for unique plants around the world at different times throughout human history"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
