@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79axDPTtQBPrYpZfUIcSsD1CSG8DX",
+  "object": "chat.completion",
+  "created": 1682521359,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 120,
+    "total_tokens": 127
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a specific limit on the number of layers in lasagna. However, most traditional recipes call for 3-5 layers. If you plan to make more than five layers, ensure that your dish is deep enough and maintain good spacing between each layer so they cook evenly.\n\nIt's also important to remember that adding too many layers may impact the overall flavor and texture balance, as well as potentially causing structural issues when served (e.g., it might be difficult to cut). Maintaining a reasonable layer count will help achieve an enjoyable dining experience while still enjoying the delicious flavors of lasagna."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
