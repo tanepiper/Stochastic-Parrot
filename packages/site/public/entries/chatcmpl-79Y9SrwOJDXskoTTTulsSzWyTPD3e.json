@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79Y9SrwOJDXskoTTTulsSzWyTPD3e",
+  "object": "chat.completion",
+  "created": 1682510586,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 157,
+    "total_tokens": 164
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When you ask someone, \"Are your ears burning?\" it means that you have overheard a conversation where people were talking about the person in question. It is often used as an informal way of saying that perhaps they should be paying attention because others are discussing them.\n\nThe phrase has its origins in ancient Rome, where people believed that physical warmth or heat in the ears was an indicator that other people were gossiping about them or mentioning their name. This led to the old adage, \"If your left ear burns, somebody talks ill of you; if your right ear burns, somebody talks well of you.\"\n\nAlthough there is no scientific basis for this belief, the expression remains popular today and is mostly used light-heartedly when sharing information about overheard conversations involving friends and acquaintances."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
