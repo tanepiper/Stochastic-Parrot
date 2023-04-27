@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79vZoohvjOAEwjxHLKMwjMokteMYL",
+  "object": "chat.completion",
+  "created": 1682600632,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 247,
+    "total_tokens": 254
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Being emotionally connected means being able to share a deep bond with another person, where both individuals are in tune with each other's feelings, thoughts, and emotions. This connection allows for understanding, support, empathy, and effective communication between the two people involved.\n\nCharacteristics of an emotionally connected relationship may include:\n\n1. Mutual trust: Both parties have complete confidence in one another's intentions and actions.\n\n2. Openness: There is a strong willingness to be open about personal thoughts and feelings without fear of judgment or criticism.\n\n3. Empathy: Each person genuinely understands their partner’s perspective—even if they don’t always agree—and can empathize with their emotional experience.\n\n4. Active listening: Full attention is given during conversations; each individual remains present without distraction or interruption and shows genuine interest in what the other person has to say.\n\n5.Transparency: Honesty comes easily as there is comfortability when discussing hardships or uncomfortable truths that arise within life discussions.\n\n6.Compassion – Genuine care exists towards supporting each individual’s well-being; this includes mental health needs along physical needs such as providing words encouragement through difficult times\n\n7.Support – Emotional connections foster acts kindness giving verbal affirmation backing up those expressions supportive behavior ensuring stable love partnership grows strength"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
