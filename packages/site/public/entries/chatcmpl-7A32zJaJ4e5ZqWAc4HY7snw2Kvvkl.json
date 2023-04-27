@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7A32zJaJ4e5ZqWAc4HY7snw2Kvvkl",
+  "object": "chat.completion",
+  "created": 1682629349,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are various ways you can get seasonal work, including:\n\n1. Online job portals: Look for seasonal jobs on popular employment websites like Indeed, Glassdoor, or SimplyHired. These sites allow you to search for specific types of positions and locations.\n\n2. Company websites: Check the career sections of companies that typically hire seasonally, such as resorts, amusement parks, retail stores or shipping/warehouse companies.\n\n3. Local businesses: If there's a specific local business where you'd like to work for the season (a ski resort or beachside restaurant), reach out directly by visiting their website and looking for any posted job openings.\n\n4. Networking: Make sure people in your network know you're looking for a seasonal job - friends, family members or former colleagues might be aware of opportunities they could share with you.\n\n5. Social media platforms: Job-seekers can use social media channels like Facebook or LinkedIn to find temporary work within their preferred industry by joining industry-specific groups/forums where employers may post about available positions.\n\n6. Seasonal hiring events/job fairs: Attend college/university-based job fairs targeting students during early spring; many holiday-hiring employers will attend these events promoting open positions ahead of their busy seasons (summer/winter).\n\n7.Drop off resumes/applications in person if possible – Some businesses prefer physical applications over online submissions as they can personally meet applicants who show more interest/dedication when presenting themselves directly onsite vs virtual interactions only through an online network system which doesn’t showcase everyone’s abilities efficiently most times causing lack/connection btwn applicants+employer(s)/manager+(s) overseeing tasks essentially pushing them above other candidates easier/faster than normal application processes based solely via generic/general resume files looked at primarily thru web"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
