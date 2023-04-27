@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79yN8LXyFKQzuzROh425k6RraLS36",
+  "object": "chat.completion",
+  "created": 1682611378,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 53,
+    "total_tokens": 105
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which cuisine do you enjoy the most?\",\n  \"answers\": [\n    \"Italian pastas and pizzas\",\n    \"Mexican tacos and burritos\",\n    \"Japanese sushi and ramen\",\n    \"Indian curry dishes\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
