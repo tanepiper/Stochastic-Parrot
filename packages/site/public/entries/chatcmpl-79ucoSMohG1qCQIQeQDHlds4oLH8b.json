@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79ucoSMohG1qCQIQeQDHlds4oLH8b",
+  "object": "chat.completion",
+  "created": 1682596974,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 79,
+    "total_tokens": 86
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, if the receiver or speaker explicitly gives their permission to use their voice for AI training. Additionally, there are some anonymous and public datasets available that have been specifically collected for AI training purposes, ensuring the individuals involved have already provided consent. Using voices without permission raises ethical concerns and potentially violates privacy rights; therefore it is necessary to obtain consent from those whose voices will be used in AI development."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
