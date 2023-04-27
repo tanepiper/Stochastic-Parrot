@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79zIYgsChZUQ2B5nUH7dWTfqnr0kR",
+  "object": "chat.completion",
+  "created": 1682614938,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In a sports team or league, it is common to have different divisions or levels of competition for players of varying skill and experience. The top division, often referred to as the first division, premier league, or elite league in various sports around the world, typically features the highest level of competition with teams playing at their best.\n\nSome examples include:\n\n1. Soccer (association football): In many countries with multiple tiers of soccer leagues (like England, Spain, Italy), the top division is known as the \"Premier League\" or \"First Division.\" It often attracts some of the best talent worldwide.\n\n2. Basketball: While basketball does not generally have separate divisions like soccer does in single countries but rather one professional NBA League globally; however there exists programs like G-League which serves as second-tier minor league system where developing talents can gain exposure before breaking into an NBA Team.\n\n3. Cricket: First-class cricket refers to several domestic competitions amongst top-level teams within a country such as Australia's Sheffield Shield and India's Ranji Trophy Championship game series.\n\n4. Rugby Union: Different countries/competitions use varied titles but across UK you may see terminology including 'Premiership,' referring mainly toward being part games played by clubs consisting pro-am nature rosters along side fully amateur basis'.\n\n5. Ice Hockey: North America has National Hockey League (NHL)- which showcases over 30 club sides possessing unmatched capabilities both physically mentally while Europe comprises from every corner forming Elite Ligaen etcetera thus providing competitive chance athletes who wish participate international sport events like Olympics/The World Championship Series .\n\n6.Baseball- US Major Baseball Leagues(MLB) functions almost similarly hockey giving young prospects develop via Minor Leagues that are affiliated under respective franchises bridging gap between amateurs"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
