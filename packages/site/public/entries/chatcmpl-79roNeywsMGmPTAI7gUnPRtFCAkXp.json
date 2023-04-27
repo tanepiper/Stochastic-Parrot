@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79roNeywsMGmPTAI7gUnPRtFCAkXp",
+  "object": "chat.completion",
+  "created": 1682586159,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 250,
+    "total_tokens": 257
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several possible reasons why someone's leg would swell, including:\n\n1. Injury: If the person has suffered a significant injury to their leg, such as from a sprain, bruise or fracture, it is common for the tissue surrounding the injury to become inflamed and swollen.\n\n2. Infection: An infection in the skin of the leg can also cause swelling. This may be due to an insect bite or a cut that has become infected.\n\n3. Fluid retention: Called edema, this occurs when excess fluid becomes trapped in your body's tissues -- which can lead to swelling in various parts of your body including legs and feet.\n\n4. Vein issues: Problems with veins (such as varicose veins) can also cause fluid buildup within affected limbs leading to lymphedema.\n\n5. Blood clotting disorders (deep vein thrombosis): A blood clot that forms deep within one’s veins could obstruct overall circulatory flow resulting in unilateral limb enlargement/swelling\n\n7). Chronic venous insufficiency - Occurs when valves inside veins hinder adequate return bodily fluids back towards heart likewise causing accumulation & distension thereof\n\nIt is important for anyone experiencing these symptoms consults with qualified health professional promptly investigate causality hence administer accordingly"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
