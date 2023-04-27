@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7A27F0IRzUzLFAPpnboD4Z9f415XH",
+  "object": "chat.completion",
+  "created": 1682625769,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 229,
+    "total_tokens": 236
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Cooking is not just about preparing food. It also involves various topics such as nutrition, culinary techniques, and different cuisines. Here are 10 fantastic books that can help you improve your cooking skills:\n\n1. \"Mastering the Art of French Cooking\" by Julia Child, Louisette Bertholle, and Simone Beck\n2. \"The Professional Chef\" by The Culinary Institute of America\n3. \"Sauces: Classical and Contemporary Sauce Making\" by James Peterson\n4. \"On Food and Cooking: The Science and Lore of the Kitchen\" by Harold McGee\n5.The Joy of Cooking” by Irma S Rombauer & Marion Rombauer Becker \n6.\"The Flavor Bible: The Essential Guide to Culinary Creativity\"\n   By Karen Page and Andrew Dornenburg.\n7.Howie from BasicsEssentials for Cookery - Delia Smith's Complete Illustrated Cookbook”\n8.The Silver PalateNew Cookbook,”by Julee Rossoand Sheila Lukins.\n\n9.Food Labellie Ramen Master Home Yli-López López.”\n10.MichaelRuhlman―in BooksInTheKitchen ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
