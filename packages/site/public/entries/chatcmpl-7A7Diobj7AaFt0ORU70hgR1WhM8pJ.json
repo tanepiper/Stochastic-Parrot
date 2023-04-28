@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7A7Diobj7AaFt0ORU70hgR1WhM8pJ",
+  "object": "chat.completion",
+  "created": 1682645390,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 82,
+    "total_tokens": 89
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is not appropriate to ask someone about their weight. This can be considered a personal and sensitive topic for many people, making it impolite to pry into such information. Only discuss topics related to weight if the other person brings it up themselves or if you have a close relationship where discussing these matters is acceptable without discomfort. Even in these cases, tt's important to prioritize sensitivity and respect during the conversation."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
