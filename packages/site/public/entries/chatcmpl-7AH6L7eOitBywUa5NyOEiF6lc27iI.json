@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AH6L7eOitBywUa5NyOEiF6lc27iI",
+  "object": "chat.completion",
+  "created": 1682683373,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Indonesia is a melting pot of various cultural influences due to its diverse ethnic groups, each with its own traditional clothes. However, some of the most well-known and widely used traditional outfits in Indonesia include:\n\n1. Kebaya: This is one of the most famous Indonesian costumes typically worn by women on formal occasions such as weddings or religious ceremonies. It consists of a blouse made from sheer fabric like fine silk, which can be adorned with elegant embroideries and paired with batik sarong or skirt.\n\n2. Beskap: It is a traditional outfit for Javanese men that includes a long-sleeve shirt called baju martupol, woven pants called surjan lurik, and an additional short jacket known as beskap made out of velvet material.\n\n3. Ulos: A Batak tribe's outfit from North Sumatra involves the use of ulos cloth — hand-woven textile featuring intricate patterns influenced by local mythology — draped over shoulders during formal events.\n\n4. Ikat: Coming from Sumba island in Eastern Nusa Tenggara province, this textile piece features colorful dyeing techniques producing detailed motifs worn by both men and women during special occasions.\n\n5- Papuan tribal attire varies depending upon the region since Papua has numerous tribes spread across West Papua & Papua provinces; However, popular accessories include feather headdresses (koteka) & skirts made out bark fiber (yapong).\n\n6- Bugis-Makassar costume comprising baju boddo for males (smartly tailored shirt with gold embroidery) along with ideal bottom wear i.e., sompel wrapping around the waist; while their female counterparts prefer using similar patterned kabaya accompanied by lipa saree exhibiting distinctive motif-work.\n\n\nThese are just"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
