@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AQSL8o2EiMmuBYjVPPqGn6IDojkg",
+  "object": "chat.completion",
+  "created": 1682719333,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to clean a retainer, including soaking it in cleaning solutions, using soap and water, or ultrasonic cleaners.\n\n1. Soaking your retainer:\na. In denture/retainer cleaner: Mix the cleaner with warm water according to the product's instructions and soak the retainer for the recommended time.\nb. In mouthwash: Some people prefer soaking their retainers in alcohol-free mouthwash diluted with an equal amount of lukewarm water.\nc. In white vinegar mixed with water (50% each): This is another alternative for soaking retainers; do so for about 15-30 minutes.\n\n2. Brushing gently with mild dish soap and warm water - With a soft toothbrush or small brush specifically designed for retainers, gently scrub all parts of your retainer prior to rinsing thoroughly under running warm water.\n\n3. Using an ultrasonic cleaner - These devices create high-frequency vibrations that help remove debris from hard-to-reach areas on your retainer while immersed in warm tap water inside the unit.\n\n4. Do not use bleach or boiling-hot liquids since both can damage certain types/materials used in making some orthodontic appliances like Essix-like clear aligner type retainers or Hawley wire acrylic plates retainers.\n\nNo matter which method you choose, remember always to scratch off any persistent plaque/tartar/calculus by using either dental floss threader tips or specialized interproximal dental picks/claw-type mini-pronged tweezers found at many pharmacies or online retailers without damaging retention options/devices\n\nFinally, rinse your appliance thoroughly before putting it back into storage case/safe container when not worn actively protecting teeth alignment especially against night bruxism/grinding habits(\"nightguard"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
