@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ADLu3s7vVfwfkxBVSKbnnU3qLRzr",
+  "object": "chat.completion",
+  "created": 1682668962,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 319,
+    "total_tokens": 326
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Kumail Nanjiani is a Pakistani-American comedian, actor, screenwriter, and podcast host who gained significant recognition for his role in the HBO comedy series \"Silicon Valley\" as Dinesh Chugtai. He has appeared in numerous television shows and movies since then.\n\nNanjiani was born on February 21, 1978, in Karachi, Pakistan. He later moved to the United States to attend Grinnell College in Iowa where he studied computer science and philosophy.\n\nIn addition to his acting career, Nanjiani has also found success working alongside fellow comedians through various stand-up comedy roles and worked as a writer/performer on Comedy Central's \"The Meltdown with Jonah and Kumail.\"\n\nHis most notable work includes co-writing (with wife Emily V. Gordon) and starring in the romantic-comedy film \"The Big Sick,\" which garnered critical acclaim upon its release; his supporting role as Kingo Sunen în Marvel Cinematic Universe feature Eternals Dir., Chloe Zhao(2021), appearances on hit TV shows such as \"Fargo\" (2017),and currently Raymond Ainsly at tv show adaptation from Paul Feig of Netflix's 'Masterpiece' about diverse young persons navigating prestigious Parisian post-war art scene being adapted by Golden Globe nominee Antonia Allegra Iglesias Santos Christina Martinez O'Toole Sol Friedman Carlo Bernard Chris Brancato Gary Alazraki Scotty Landes Mush Adado-Moa'ddadumu of Santa Clarita Diet(The Hollywood Reporter,:) \"@/BeverleyDiet\";>('"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
