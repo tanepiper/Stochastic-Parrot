@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AAXaKRPeq6jciDxZB8gklG8RoJl6",
+  "object": "chat.completion",
+  "created": 1682658154,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 174,
+    "total_tokens": 181
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI language model, I am trained on vast amounts of text data and have been designed to generate human-like responses based on the input provided. My primary purpose is to assist users in generating coherent and contextually accurate text.\n\nI can help with various tasks like answering questions, providing information, offering suggestions or recommendations, assisting with writing projects, improving a user's grammar and punctuation usage in their text, brainstorming ideas for articles or stories, summarizing content efficiently, translating languages and much more.\n\nHowever, it is important to note that I am a machine learning program and not actually human. Despite being highly advanced by current technology standards; my knowledge has limitations - sometimes my responses might be incorrect or inappropriate due to misunderstanding the underlying context or struggling with complex topics such as personal opinions or very specific technical expertise areas.\n\nAlways double-check any sensitive task before trusting me entirely!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
