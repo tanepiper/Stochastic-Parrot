@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7A8fjqJ3gJiEdpspEGI0csNSX0s5Y",
+  "object": "chat.completion",
+  "created": 1682650971,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 125,
+    "total_tokens": 132
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Why is the sky blue?\n\nThe sky appears blue because of a phenomenon called Rayleigh scattering. This occurs when sunlight interacts with molecules and small particles in the Earth's atmosphere, scattering shorter wavelengths of light (such as blue and violet) more than longer ones (like red, orange, and yellow). Our eyes are more sensitive to blue light, so we perceive the scattered Blue light which makes the sky looks mainly like it has a bluish hue during clear daytime conditions.\n\nParticle sizes responsible for this kind of scattering are smaller than 1/10th wavelength that they scatter; notably upper atmospheric gases such as nitrogen and oxygen."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
