@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AMiRvov3Dn1n3jn6uNZbqqRO5Twl",
+  "object": "chat.completion",
+  "created": 1682704955,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 78,
+    "total_tokens": 85
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am not familiar with any friends of the Portuguese architect Souto de Moura, as I am an AI language model and do not have personal connections or up-to-date knowledge about individuals' social lives. Eduardo Souto de Moura is a renowned architect known for his minimalist style and integration of designs into their natural surroundings, but details about his personal friendships are beyond my scope."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
