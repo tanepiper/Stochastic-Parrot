@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AOaW1Lpmu8xdDRXy6ri6DkwerBOk",
+  "object": "chat.completion",
+  "created": 1682712152,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 211,
+    "total_tokens": 218
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The most common vehicles used for solar power are electric cars, vans, buses, and trucks that use a combination of photovoltaic (PV) solar panels and battery systems to produce electricity for propulsion. Some examples include the Lightyear One solar-powered car, Sono Motors' Sion solar car, the Proterra Electric Bus, and Frito-Lay's all-electric delivery trucks with rooftop solar arrays.\n\nIn some cases, solar panels aren't directly integrated into the vehicle itself; instead they can be placed on infrastructure like buildings or parking structures to charged electric vehicle (EV) batteries through charging stations powered by renewable energy.\n\nSolar boats are also growing in popularity. Examples include commercial ferries like the Solar Star Tûranor PlanetSolar which circumnavigated the globe using only a mix of PV cells on its hull and storage systems as well as smaller personal watercraft fitted with PV modules.\n\nThere have also been prototypes developed for heavier transport such as trains and planes powered by renewable sources including direct integration of photovoltaics to charge their electrical systems."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
