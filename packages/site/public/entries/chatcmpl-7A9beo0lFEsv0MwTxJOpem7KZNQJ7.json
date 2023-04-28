@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7A9beo0lFEsv0MwTxJOpem7KZNQJ7",
+  "object": "chat.completion",
+  "created": 1682654562,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, bees can see UV light. Their vision includes the ultraviolet spectrum that is invisible to humans. It helps them to detect patterns on flowers nectar guides which indicate where the nectar is located and aids in their foraging behavior."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
