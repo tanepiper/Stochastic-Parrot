@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AJuFgIPEIlB5ItIRvk5MvQA6UMyy",
+  "object": "chat.completion",
+  "created": 1682694155,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The American Revolution, also known as the Revolutionary War, was a war fought between Great Britain and its thirteen colonies in North America from 1775 to 1783. The conflict arose over issues of taxation and governance but ultimately led to the establishment of an independent United States of America.\n\nCauses:\n\n1. Taxation without representation - One major cause of the American Revolution was British policies regarding taxation on their colonial subjects. Colonists objected to being taxed by the British government without having any representatives in Parliament.\n\n2. Economic restrictions - As part of their policy toward their colonies, Britain imposed various economic restrictions such as limits on trade and industry that angered many American colonists who were increasingly wanting more control over their own economic affairs.\n\n3. Political interference - Colonial leaders frequently disagreed with decisions made by British governors appointed over them. Over time this resulted in resentment towards what Americans saw as attempts by a foreign power to impose its will upon local citizens.\n\n4.High debt after French Indian War- After winning French Indian war against France ,Britain had high debts which forced itTo maintain a large number troops at borders which burdened british taxpayers.In order raise money they levied taxes on american colonist.They felt shortchanged as They couldn't able elect representaion in Britsh parliment for these taxes they unanimously Chanted “No taxation Without represntaion” \n\nThe Stages:\n\n1) Beginnings (1763–1775): A plethora of new laws spurred conflict between London and the Thirteen Colonies; fear emerged among governmental conservatives regarding radical territorial powers, leading some calling for union within America.\n    \n2) Popular Uprisings (1776–June 19th): Independence had been declared two months prior when armed rebellion broke out-"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
