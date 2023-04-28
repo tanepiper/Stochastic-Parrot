@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AKqwBQUxjWNFCZjgiU39zygLnr0Y",
+  "object": "chat.completion",
+  "created": 1682697794,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 57,
+    "total_tokens": 109
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would you invite to dinner?\",\n  \"answers\": [\n    \"1. Sherlock Holmes\",\n    \"2. Daenerys Targaryen\",\n    \"3. Harry Potter\",\n    \"4. Jay Gatsby\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
