@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AbhZNI4GC3YPjvpw2fLyArqU3M7I",
+  "object": "chat.completion",
+  "created": 1682762561,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 263,
+    "total_tokens": 270
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Is it possible to add a printer to an Android device?\n\nYes, you can add a printer to an Android device by following these steps:\n\n1. Make sure your printer and Android device are connected to the same Wi-Fi network.\n2. On your Android device, go to \"Settings\" > \"Connected devices\" or \"Connections.\"\n3. Tap on \"Printing\" or \"Printer,\" depending on your device model.\n4. If your device supports printing natively, you should see options like \"Default Print Service\" or something similar. Turn this service on.\n5. The system will automatically search for printers available on the same network and display them under the settings menu.\n\nIf not found in some cases, you may need to download additional print service plugins from Google Play Store specific to your printer brand (e.g., HP Print Service Plugin).\n\n6. Once preferred plugin installed open Printing settings turn-on specific brand plugin and tap 'Add Printer,' choose either IP address if already known or let it scan again with app-specific scanning tools/features provided within)\n7.Subsequently connect detected Wireless LAN active target Printer which can be assigned/added after OEM's official plugin-utility scans within moments.\n\nAfter successfully adding/connecting over Wi-Fi enabled functionality upon pairing: Send/request documents/files straight-away up-to its native limits allowed!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
