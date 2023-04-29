@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AiFf0lT1t4Rf4S606JAyvboNbNxf",
+  "object": "chat.completion",
+  "created": 1682787739,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To get a truck driving job, follow these steps:\n\n1. Obtain the necessary licenses and certifications: The first step to becoming a professional truck driver is to obtain your Commercial Driver's License (CDL). This typically involves attending a training program or truck driving school, followed by passing the CDL exams.\n\n2. Gain experience: Employers often look for candidates with some relevant driving experience. You can gain such experience through entry-level jobs like local delivery or transportation services.\n\n3. Research potential employers: Start looking into companies that hire drivers by searching online job boards, joining industry forums/chat rooms, and networking with other drivers.\n\n4. Prepare your resume and cover letter: Highlight any relevant skills you have on your resume such as mechanical abilities, attention to detail, punctuality and time-management skills as well as any special endorsements on your CDL – such as Hazmat or double/triple-trailer qualifications.\n\n5. Apply for positions that match your skills and qualifications: Send out applications to multiple companies so you increase your chances of getting hired.\n\n6.Build connections within the industry - Attend events like trade shows aimed at commercial vehicle professionals where you can network with others in transportation sectors including recruiters from different logistics organizations and make yourself known among them which will offer an added advantage during application process\n\n7.Make sure maintain clean record - having no major traffic violations/accidents keep criminal record clean helps applicant stand better chance landing employment opportunity especially cases employer conducts thorough background check before finalizing hiring decision\n\n8.Prepare Interviews – Get ready answer common interview questions asked specifically openings involving freight transporting trucks be prepare share experiences challenges faced successfully tackled as driver discuss area expertise sector\n\n9.Show willingness undergo additional training programs if needed - Some require complete certain courses part mandatory guidelines employed their organization"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
