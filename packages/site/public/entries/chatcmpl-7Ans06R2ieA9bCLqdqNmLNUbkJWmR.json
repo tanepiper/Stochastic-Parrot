@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Ans06R2ieA9bCLqdqNmLNUbkJWmR",
+  "object": "chat.completion",
+  "created": 1682809336,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 96,
+    "total_tokens": 103
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A money belt is a small, zippered fabric pouch attached to an adjustable strap worn around the waist or chest. It is designed for travelers to keep essential items like cash, passports, and other small valuables close and secure while on-the-go. These belts are usually slim and lightweight so they're easily concealed under and lightweight so they're easily concealed under clothing. The idea is that it not only helps protect possessions from theft but also prevents accidental loss or damage in busy environments."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
