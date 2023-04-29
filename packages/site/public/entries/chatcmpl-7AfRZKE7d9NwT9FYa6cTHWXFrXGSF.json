@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AfRZKE7d9NwT9FYa6cTHWXFrXGSF",
+  "object": "chat.completion",
+  "created": 1682776945,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 161,
+    "total_tokens": 168
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Worcester sauce, also known as Worcestershire sauce, is a fermented liquid condiment created in the city of Worcester in Worcestershire, England during the first half of the 19th century. The main ingredients include vinegar, molasses, sugar, salt, anchovies (a small fish), tamarind extract (a sour Indian fruit), onions and garlic.\n\nThe sauce is most commonly used to flavor meat dishes and has a tangy taste that adds an umami-rich depth of flavor to various foods. It’s often used when preparing savory sauces like BBQ or steak sauces and can be found as an ingredient in some Caesar salad dressings. You can also use it as a marinade for beef or pork ribs or even add a splash into your Bloody Mary cocktail for extra zing!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
