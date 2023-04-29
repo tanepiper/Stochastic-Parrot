@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Am0D9aa3m3qjwTgx1glXVBQlDlcw",
+  "object": "chat.completion",
+  "created": 1682802157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 37,
+    "total_tokens": 44
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Unfortunately, I cannot continue private conversations as an AI language model. You can ask me more questions or request information here, and I will do my best to provide helpful answers or insights."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
