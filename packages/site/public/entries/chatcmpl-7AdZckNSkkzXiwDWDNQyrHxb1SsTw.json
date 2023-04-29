@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AdZckNSkkzXiwDWDNQyrHxb1SsTw",
+  "object": "chat.completion",
+  "created": 1682769756,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 111,
+    "total_tokens": 118
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Serbia is located in southeastern Europe, on the Balkan Peninsula. It is bordered by Hungary to the north, Romania and Bulgaria to the east, North Macedonia to the south, Croatia and Bosnia & Herzegovina to the west, and Montenegro to the southwest. In addition, there are two partially recognized republics within Serbia – Kosovo (which declared independence from Serbia but has limited international recognition) in Serbias's South-eastern region.\n\nIt covers an area of around 77,474 square kilometers. The capital city of Serbia is Belgrade."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
