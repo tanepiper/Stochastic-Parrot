@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AhJvd90nKUhuetHfA6kULrfAPBd9",
+  "object": "chat.completion",
+  "created": 1682784159,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 56,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would you want as your best friend?\",\n  \"answers\": [\n    \"A) Sherlock Holmes\",\n    \"B) Hermione Granger\",\n    \"_C) Tony Stark (Iron Man)\",\n    \"(D Spider-Man\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
