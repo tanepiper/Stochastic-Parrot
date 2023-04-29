@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ASPiiIcO7a4P8i5vUXvQWy4PkEuK",
+  "object": "chat.completion",
+  "created": 1682726858,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 67,
+    "total_tokens": 119
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional city would you like to visit?\",\n  \"answers\": [\n    \"Hogwarts School of Witchcraft and Wizardry\",\n    \"Gotham City from DC Comics\",\n    \"Westeros from Game of Thrones\",\n    \"Wakanda from Marvel's Black Panther\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
