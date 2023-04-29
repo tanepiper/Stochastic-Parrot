@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AeVX1r5TwbdAUNfbrR6Wp3wIGoDl",
+  "object": "chat.completion",
+  "created": 1682773347,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 81,
+    "total_tokens": 88
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, closed captions on a TV can help persons with ADHD focus by providing written dialogue and sounds in addition to the audio. This visual reinforcement of spoken content helps engage their attention better and improve comprehension, especially if they struggle with auditory processing or have difficulty focusing solely on the spoken words. Additionally, having captions on enables them to follow along at their own pace by pausing and rereading when necessary."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
