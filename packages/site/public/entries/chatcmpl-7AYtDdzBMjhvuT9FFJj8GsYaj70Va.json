@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AYtDdzBMjhvuT9FFJj8GsYaj70Va",
+  "object": "chat.completion",
+  "created": 1682751751,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 147,
+    "total_tokens": 154
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A.I. stands for Artificial Intelligence, which refers to machines or computers that mimic human-like thinking and learning processes. It typically involves the development of algorithms and models that enable computers to perform tasks autonomously, without direct human intervention.\n\nThere are two types of AI: narrow (weak) AI, which is designed for specific tasks like playing chess or optimizing traffic signals; and general (strong) AI, which aims at achieving a level of intelligence comparable to humans, capable of understanding any intellectual task.\n\nSome examples of AI include natural language processing (chatbots), image recognition technology (identifying objects in pictures), autonomous driving systems in vehicles, reinforcement learning applied in robotics and gameplay, predictive analytics using big data analysis techniques for decision-making etc."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
