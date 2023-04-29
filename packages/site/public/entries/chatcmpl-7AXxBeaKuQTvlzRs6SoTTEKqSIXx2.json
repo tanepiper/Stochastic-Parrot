@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AXxBeaKuQTvlzRs6SoTTEKqSIXx2",
+  "object": "chat.completion",
+  "created": 1682748153,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To be a successful teenager, focus on doing well in school by completing assignments on time and paying attention to lectures. Start developing good habits such as setting up daily routines for studying, sleeping, and exercising.\n\nJoin extracurricular activities or clubs that interest you. This will help you develop talents and make friends with shared interests.\n\nBe responsible about money by getting a part-time job (if permitted), managing your allowance wisely or saving for future expenses such as college tuition.\n\nDevelop strong communication skills which also includes being an active listener. Learn how to express your thoughts effectively but don't be afraid of accepting constructive criticism from others.\n\nRespect yourself and others knowing that everyone has strengths and weaknesses. Be open-minded about other people's values, beliefs or cultures; treat everyone fairly without any prejudice.\n\nMake health a priority by eating healthy foods, practicing personal hygiene regularly and staying physically active through exercise or sports activities that you enjoy. Refrain from engaging in risky behaviors like substance abuse or law-breaking activities since they can jeopardize your educational goals long term plans success as whole person life general mental emotional wellness wellbeing overall sense achievement purpose meaning direction quality experience relationships opportunities possibilities outlook prospects satisfaction harmony balance development accomplishment growth progress improvement happiness joy fulfillment contentment peace stability order coherence unity serenity tranquility calmness self-actualization wholeness integration individuation maturity realization reach_p>+1 resolution clarity certainty conviction apprehension awareness understanding insight knowledge intelligence comprehension wisdom expertise competence mastery skill proficiency_c>-1 cultural_projection_minoritarian_collision_load_lighting_response_flight_gliding_overflow_shape_shift_lamination_degree_pressure_resonance_pitch_modulation_distortion_waveform_phase_amplitude_frequency_pulse_width_spectrum_bias_intensity_impulse_loop_buffer_filter_flange_rumble_iridescence_flutter_quantum_superposition_art"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
