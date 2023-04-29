@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AV8rhUKeylFTj6Mr4bXotsB0Qkyd",
+  "object": "chat.completion",
+  "created": 1682737345,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 205,
+    "total_tokens": 212
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to give an accurate number of human survivors in the worldwide catastrophe because it would depend on the nature and scale of the catastrophe itself. The number could range from a few million to potentially a few billion, all depending on how widespread and severe the disastrous event is.\n\nFor instance, if there was an extensive nuclear war that resulted in massive destruction of cities and infrastructure, hundreds of millions or even billions might not survive due to immediate deaths as well as long-term effects such as radiation poisoning, lack of resources like food and medical care, disrupted ecosystems, and uninhabitable living conditions.\n\nOn the other hand, if it were a relatively smaller-scale disaster (such as localized natural disasters), then fewer people would be directly impacted by these events – though still considerable numbers may die due to secondary issues such as disease outbreaks or societal collapse depending on various factors related directly-indirectly with those catastrophes.\n\nIn any scenario predicting survival rates post-catastrophe remains speculative at best unless we have specifics about said catastrophic event."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
