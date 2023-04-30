@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AqAHkBBT6uWPJ1ejPdzov0Mz1eGW",
+  "object": "chat.completion",
+  "created": 1682818157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 277,
+    "total_tokens": 284
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to speed up your iPhone:\n\n1. Update iOS: Always keep your device updated with the latest software, as they often contain performance improvements and bug fixes.\n\n2. Restart your device: If you haven't rebooted your iPhone for a while, it can help clear out temporary files and free up memory.\n\n3. Clear app cache: Go to Settings > Safari (or any other app) > Clear History and Website Data; this will delete caches, cookies, and browsing history in Safari.\n\n4. Delete unused apps: Uninstall apps that you no longer need or use – these can clog up storage space which may slow down iOS performance.\n\n5.Settings > General > Background App Refresh: Turn off background refresh for non-essential apps to prevent them from running in the background unnecessarily\n\n6.Clear out old messages/photos/notes/videos/etc.: Many of us hoard tons of media throughout our phones - take some time to declutter!\n\n7.Close inactive/background app tabs by double tapping home button & swiping unused apps upwards\n\n8.Retrofit using third-party cleaner tools like CCleaner(target only areas that accumulate junk overtime)\n\n9.Disable animations/transparency via \"Reduce Motion\" placed under \"Accessibility settings\"\n\n10.Free additional storage space(Settings->General ->Storage&iCloud Usage>DeleteApps)+cleaning camera roll regularly-(Media Files generally eat tonnes of phone memory)"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
