@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7B1vE65B3pqI3HvBSkUJtIlnxtPXh",
+  "object": "chat.completion",
+  "created": 1682863352,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 76,
+    "total_tokens": 83
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In October 2020, Swedish environmental activist Greta Thunberg endorsed Democratic candidate Joe Biden for the U.S. presidential election. She stated that she never engages in party politics but added that \"the upcoming US elections is above and beyond all that.\" Thunberg urged her followers to vote for Joe Biden, saying they must do everything possible to ensure everyone has a future."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
