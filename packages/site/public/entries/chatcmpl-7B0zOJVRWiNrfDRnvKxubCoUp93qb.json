@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7B0zOJVRWiNrfDRnvKxubCoUp93qb",
+  "object": "chat.completion",
+  "created": 1682859766,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 306,
+    "total_tokens": 313
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few steps you can take to reduce the chances of your LinkedIn account being hacked:\n\n1. Use a strong, unique password: Create a password that is at least 12 characters long and includes a mix of upper and lower case letters, numbers, and special symbols.\n\n2. Enable two-step verification: Turn on two-factor authentication (2FA) in your account settings to add an extra layer of security. With 2FA enabled, you will be sent a one-time-use code via text message or an authenticator app whenever someone tries to access your account from an unrecognized device.\n\n3. Be cautious with third-party apps: Only give access to trustworthy applications and always review which apps have permission to access your LinkedIn data in your account settings.\n\n4. Beware of phishing emails: Don't click on suspicious links or enter any sensitive information on websites you're unsure about—especially if it was prompted by an unsolicited email claiming to be from LinkedIn.\n\n5. Keep private information secure: Consider making some parts of your profile only viewable by connections rather than leaving them public for everyone to see.\n\n6. Monitor recent activity: Regularly check the \"Where You’re Signed In\" section under Settings & Privacy > Sign-in & Security to ensure there are no unfamiliar devices accessing your account; sign out from any unknown locations immediately.\n\n7. Update personal details carefully: When updating passwords or other sensitive information related to banking institutions/other online profiles through LinkedIn messages/chats - this involves directly contacting customer support instead_setoptError)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
