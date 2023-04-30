@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AqtPOIk1HHVnm2TAQTWof9LW5qR2",
+  "object": "chat.completion",
+  "created": 1682820955,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 249,
+    "total_tokens": 256
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Friends are important in our lives for various reasons:\n\n1. Emotional support: Friends offer a listening ear and a shoulder to cry on during difficult times. They also celebrate with us during our victories and accomplishments.\n\n2. Social needs: Humans are social beings, and friendships help fulfill our need for companionship, belonging, and connection with others.\n\n3. Personal growth: Friends expose us to different perspectives, ideas, interests, and hobbies that can enrich our lives and help us grow as individuals.\n\n4. Stress reduction: Spending time with friends can lower stress levels by providing fun activities or simply offering comforting support when feeling overwhelmed.\n\n5. Mental health benefits: Healthy friendships have been linked to higher self-esteem levels, greater well-being overall results in fewer mental health issues such as depression or anxiety.\n\n6.Power of presence : Simply being in the company of close friends has a positive impact on one's mood , find comfort n solace knowing those bonds of love surrounding around you .\n\n7 Network-building opportunity : Friendship is built upon mutual respect coupled with warmth results into revelation certain life-changing opportunities further contribute towards shaping up both immediaetly socially & professionally\n\nRemember it’s significant having not number but rather genuine connections shares profound empathy , love entails loyalty incredibly qualitative manner"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
