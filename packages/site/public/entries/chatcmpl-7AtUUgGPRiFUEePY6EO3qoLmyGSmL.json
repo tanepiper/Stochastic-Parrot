@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AtUUgGPRiFUEePY6EO3qoLmyGSmL",
+  "object": "chat.completion",
+  "created": 1682830942,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 274,
+    "total_tokens": 281
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Perseverance is the quality of persisting in a course of action, belief or purpose despite encountering difficulties, obstacles or discouragement. It is a key element to personal and professional success because it allows an individual to maintain focus on their goals even when challenges may arise.\n\nIn order to build perseverance at work, one can follow these tips:\n\n1. Set clear and realistic goals: Start by defining your objectives and make sure they are achievable so that you don't feel overwhelmed.\n\n2. Break down tasks into smaller steps: By dividing larger projects into manageable pieces, it becomes easier for you to stay focused and motivated as you complete each task step-by-step.\n\n3. Develop a routine: Establishing habits that help you work more efficiently can be very helpful in building up your perseverance at work.\n\n4. Look for support: If there are colleagues who share common interests with you, try joining them or forming teams where ideas can be exchanged, problems solved together and mutual motivation given when things become challenging.\n\n5.Face challenges head-on: Don't give up easily when faced with difficulties but rather learn from them as valuable experiences leading towards future successes\n\n6.Track your progress regularly through periodic assessments either taken individually or provided by supervisors so that improvements get recognized while shortcomings seek correction without allowing any room for slackening efforts\n\n7.Appreciate what's been achieved along the way every now"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
