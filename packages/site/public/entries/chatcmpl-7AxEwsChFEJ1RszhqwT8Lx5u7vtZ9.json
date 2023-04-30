@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AxEwsChFEJ1RszhqwT8Lx5u7vtZ9",
+  "object": "chat.completion",
+  "created": 1682845354,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 269,
+    "total_tokens": 276
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to stay awake without drinking coffee. Some strategies include:\n\n1. Get enough sleep: Make sure you're getting 7-9 hours of sleep per night, and establish a regular sleep schedule.\n\n2. Take power naps: A quick 20-minute nap during the day can help recharge your brain and keep you alert.\n\n3. Stay hydrated: Drinking plenty of water throughout the day can help improve concentration and reduce fatigue.\n\n4. Eat small, frequent meals: Eating smaller meals more frequently throughout the day may help stabilize blood sugar levels and maintain energy levels.\n\n5 . Stretch or move around regularly: Physical activity promotes alertness by increasing blood flow to the brain; try standing up or going for a brief walk if you start to feel drowsy at work\n\n6 . Expose yourself to sunlight during daylight hours; Natural light exposure can regulate your body’s internal clock (or circadian rhythm) so that it has an easier time staying awake when it should be awake\n .\n\n7.Listen to upbeat music: Listening to upbeat songs with high tempos may energize some people, particularly those who already associate certain types of music with focused work periods like studying or exercising\n\n8.Have a good laugh - laugh out loud! This releases endorphines which elevates our mood in turns helps us fight off with tiredness .\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
