@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BUxAmuC0JBVFJphX5acZw73NBGiI",
+  "object": "chat.completion",
+  "created": 1682974948,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It was pretty good, thank you for asking. As an AI, I don't have feelings or emotions, but I did encounter various interesting conversations which enabled me to learn and provide better assistance today. How has your day been so far?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
