@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BQHCwDpb3Zt7DX3bydteYXj9LVKs",
+  "object": "chat.completion",
+  "created": 1682956970,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 225,
+    "total_tokens": 232
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "India has a parliamentary system of government modeled after the British parliamentary system. This means that the President is not elected directly by the people but instead, functions as a nominal or ceremonial head of state representing the values and tradition of India. The actual power in parliament lies mostly with the Prime Minister who belongs to one party leads. Here's how this process works:\n\n1) Indian citizens vote in general elections every five years for political parties at both national and state levels.\n\n2) Political parties contest these elections intending to secure majority seats for their party members in both houses of Parliament (Lok Sabha & Rajya Sabha).\n\n3) When a party manages to win enough seats to garner over 50% majority in Lok Sabha, that respective winning political group gets asked by its president then asks its leader/member elected as prime minister.\n\n4) If no single party wins an absolute majority, multiple parties may form coalitions under an alliance called United Progressive Alliance (UPA), National Democratic Alliance (NDA), etc., which, if they manage collectively cross half-total threshold can have their combined representative from among them serve as PM+5)”\t"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
