@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BFyDNBJ4aPQsBXcXVbPpjoD1Yxbq",
+  "object": "chat.completion",
+  "created": 1682917353,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Australia is famous for several things, including:\n\n1. Natural wonders: Australia is home to many unique natural landmarks such as the Great Barrier Reef, Uluru (Ayers Rock), The Twelve Apostles rock formations along the Great Ocean Road, and pristine beaches.\n\n2. Unique wildlife: Australia has a diverse range of flora and fauna that can't be found anywhere else on earth. It's known for its marsupials like kangaroos, wallabies, wombats, koalas and Tasmanian devils; monotremes like platypus; unique bird species like emus and kookaburras; reptiles like crocodiles; venomous snakes, as well as one of the world's highest concentrations of deadly jellyfish and spider species.\n\n3. Sports: Australians are passionate about sports with cricket being their most popular sport followed by Australian rules football (AFL), rugby league/union (NRL) & soccer. Surfing is also very popular among Australians due to its immense coastline.\n\n4. Indigenous culture: Australia is home to one of the world's oldest surviving cultures - Aboriginal peoples have lived on the continent for over 65 thousand years making their art,culture ,history an important aspect today in education,tourism & equal rights .\n\n5.Name Brands-Companies from Australia often take root internationally .Some examples would be Qantas Airlines which showcases Australias connection around globe,Cochlear- inventors&innovators-manufacturing best hearing aids\n\n6.Security council members :Aussies help maintain peace,stability making country respected contributor diplomatically speaking \n\n7.Film industry-Australian films hold international attention both critically acclaimed films during Awards season or movies featuring animal actors.Icons include Cate Blanchett,N"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
