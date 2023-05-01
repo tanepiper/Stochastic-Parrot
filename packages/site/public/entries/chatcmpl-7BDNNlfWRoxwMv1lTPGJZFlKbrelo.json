@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BDNNlfWRoxwMv1lTPGJZFlKbrelo",
+  "object": "chat.completion",
+  "created": 1682907381,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Where can I find a high-quality, printable Discord icon for an invitation?\n\nYou can find high-quality Discord icons on various websites such as Flaticon or Iconfinder. You can also visit the official Discord branding page (https://discord.com/branding) to download their assets, including print-ready logos and icons.\n\n1. Go to Flaticon (https://www.flaticon.com/) and search for \"Discord\" in the search bar.\n2. Explore the available icons and choose one that you like.\n3. Click on the desired icon, then tap on \"PNG\" or \"SVG\" from the format options if you want a higher-resolution image.\n4. Download your selected format.\n\nFor a print-ready logo:\n\n1. Visit Discord's official Branding Guidelines website: https://discord.com/branding\n2. Scroll down until you see \"Download Assets.\"\n3. Click 'Download' and wait until assets file is downloaded in zip format.\n4a . Extract these files using any suitable unzip software or by opening them using Windows Explorer / Mac OS Finder directly by double clicking file \n5b Alternatively right click it). Select destination folder during extraction process (typically same location).\n6 Inside extracted folder named ':BlobSweats: Brand kit - How not guildelines,' inside Locate PNGs + SVG directory which contains several variations/colors types officially endorsed prints apps social platforms sized at 1024 px x width height dimension square shapes rendered bitmaps (.png), Scalable Vector Graphic renditions dataset extensible mark language syntax saved vectorized-ways depict versatile graphics clarity finer scaling display landscape appropriate efficient rendering load times across modern web browsers systems resolution-independent explicit native vendor-source graphic-editors support familiar manipulation toolkits share capability create bespoke unique onboard brand"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
