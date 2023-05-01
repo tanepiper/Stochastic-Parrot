@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BCdku7VYBy7eAlf06uEvSjpR3owd",
+  "object": "chat.completion",
+  "created": 1682904552,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 154,
+    "total_tokens": 161
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "On Facebook, to delete a photo or video from your story, follow these steps:\n\n1. Open the Facebook app on your phone.\n2. Tap the \"Your Story\" icon at the top of your News Feed (it should show your profile picture with a blue circle around it).\n3. Find the photo or video you want to delete and tap it to view it in full screen.\n4. In the bottom-right corner of the screen, tap More (the three-dot icon) and then tap \"Delete Photo\" or \"Delete Video.\"\n5. A prompt will appear asking if you are sure that you want to delete this post from your story; confirm by tapping Delete.\n\nThis will remove only that particular photo/video from Your Story section while keeping other content within intact"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
