@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BOOra3bF9w84VxDGVF6ujyBFi3nW",
+  "object": "chat.completion",
+  "created": 1682949757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are the set roles of a Speaker, Debater, and Timekeeper in a Parliamentary Debate:\n\n1. Speaker:\n- The primary role of the speaker is to present their team's arguments and viewpoints during the debate.\n- They must clearly articulate their ideas, provide evidence supporting their claims, answer questions from other debaters or judges if necessary.\n- Typically there are two teams (government/proposition and opposition), each with three speakers: first speaker establishes opening argument; second continues/extends on these points; third summarizes/reinforces main points presented earlier.\n- In addition to presenting own arguments, it is also crucial for speakers to engage with opposing views through rebuttals/refutations.\n\n2. Debater:\n- While \"speaker\" refers specifically to individuals who deliver speeches during parliamentary debates—\"debater\" encompasses anyone involved in this process—both those giving speeches themselves as well others within their team tasked analyzing opponent's arguments/critiquing competitors' performances throughout event under discussion).\n- A good debater should be skilled at research/preparation beforehand finding credible sources/evidence substantiating one side over another ensuring thorough understanding subject matter before entering contest itself working efficiently collaboratively sharing responsibilities between updating/upholding strategic platform behind debating tier contributing viable counterpoints against opponents where relevant outside just initial presentation many rounds encompass back-forth clashes wits strewn out across allocated time limits per round/session\n(essentially being both listener / active responder).\n\n3. Timekeeper:\n- This person is responsible for keeping track of time spent by each participant throughout every speech segment/opportunity given within competitive scenario unfolding alongside them—as such must monitor clock incumbent gradual progression towards formalized constraints specific topic addressed allowance dictated via format rules concerned).\n - Often using stopwatches/smartphones ("
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
