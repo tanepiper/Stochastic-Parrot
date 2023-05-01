@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BLaUKqaKjMi5cRhZrG0inJfIsyvQ",
+  "object": "chat.completion",
+  "created": 1682938946,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 310,
+    "total_tokens": 317
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"stock\" refers to a type of financial equity investment in which an individual or entity acquires partial ownership of a company through the purchase of shares. These shares, also known as stocks, represent claim on part of a corporation's assets and earnings. There are two main types of stock: common and preferred.\n\nWhen someone owns stock in a company, they become one of its shareholders and thus have certain rights depending on their level of stock ownership. Some common rights include voting rights at shareholder meetings and receiving dividends from the company's profits.\n\nStocks are typically traded on exchanges such as the New York Stock Exchange (NYSE) or NASDAQ, where buyers and sellers can negotiate prices for their shares according to market demand. The price per share will fluctuate based on various factors, including the overall economy, market conditions, news related to specific companies' performance or even public perception.\n\nInvesting in stocks is considered riskier than some other investments like bonds because there is no guarantee that you will make money – if a company goes bankrupt or drastically underperforms expectations due to mismanagement or unexpected developments; you could lose all your investment funds invested into this particular corporate security unless purchased credit default swaps against bankruptcy eventualities but would not hedge operational performance risk usually.\n\nHowever, historically speaking—and particularly when considering long-term investments—stocks frequently offer higher average returns compared with less risky forms investable cash savings accounts/FDIC insured banking products yield minimal return rates over extended periods exceeding three-year maturity terms excluding actual inflation erosion upon interested accrued annually within deposited accounts established+."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
