@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BZ6svQr6dtI1n1CAN3u2YgnNKek7",
+  "object": "chat.completion",
+  "created": 1682990926,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 118,
+    "total_tokens": 125
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The phrase \"on the other hand\" is used as a transition in writing and speech. It is mainly used to introduce an alternative or contrasting idea, fact or opinion from what has been previously stated. For instance, if you are discussing two different opinions on a subject, you might present one opinion first and then say \"on the other hand\" before presenting the opposing view.\n\nHere's an example:\n\n- One advantage of working from home is that it allows for more flexibility; on the other hand, some people find it difficult to stay motivated when they're not in a traditional office environment."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
