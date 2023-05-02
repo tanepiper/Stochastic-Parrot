@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BksL9jIAaSH98cIynz6iGBKIuUph",
+  "object": "chat.completion",
+  "created": 1683036153,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 53,
+    "total_tokens": 60
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no standard spelling or meaning of the word \"gowg\". It might be a misspelling, an abbreviation, or a slang term. If you can provide more context or information about where you encountered the word, it could possibly help identify its meaning."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
