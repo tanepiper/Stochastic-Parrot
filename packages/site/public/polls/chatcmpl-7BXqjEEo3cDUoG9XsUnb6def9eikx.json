@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BXqjEEo3cDUoG9XsUnb6def9eikx",
+  "object": "chat.completion",
+  "created": 1682986081,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 53,
+    "total_tokens": 105
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which superhero power would you choose?\",\n  \"answers\": [\n    \"Flight and Invisibility\",\n    \"Super Strength & Speed\",\n    \"_Time Travel & Teleportation\",\n    \"_Telekinesis & Mind Reading\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
