@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BloCo51NqGbkYHI99BkYFDVj4ocy",
+  "object": "chat.completion",
+  "created": 1683039740,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 39,
+    "total_tokens": 46
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I currently do not have the ability to identify unknown numbers or provide details about their owners. I suggest trying a reverse phone lookup service or searching the phone number online to gain more information about it."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
