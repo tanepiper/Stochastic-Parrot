@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BpZ4WnEYjkFtRixp9g3cDR1zWtGP",
+  "object": "chat.completion",
+  "created": 1683054178,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 303,
+    "total_tokens": 310
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If you want to improve your reading comprehension, there are several strategies you can try:\n\n1. Preview the text: Before diving into the content, take a moment to skim through it and get an idea of its structure and main ideas. This helps prepare your mind for what's coming.\n\n2. Read aloud: Reading the words out loud often makes it easier to understand and retain them.\n\n3. Create mental images: As you read, visualize the content in your head like a movie; this technique enhances understanding by associating ideas with images.\n\n4. Annotate as you read: Take notes on important passages, underline key phrases or write summaries in the margins of books (if permitted). These annotations will serve as handy reference points when reviewing later or discussing with others.\n\n5. Make connections: Relate what you're reading to previous knowledge or personal experiences - this helps anchor new information within existing networks of understanding.\n\n6. Ask questions before, during and after reading: Actively engage with texts by asking yourself questions about why something is happening, how it relates to other topics or what may happen next; these inquiries stimulate critical thinking and deep learning processes.\n\n7- Break down complex sentences into smaller parts so that they are easier tounderstand\n\n8- Paraphrase difficult sections – rewrite them in your own words\n\n9- Focus on one aspect at a time e.g., first look for links between words then pay attentiontoclues within punctuation signs\n\n10- Reread confusing bits until everything makes sense"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
