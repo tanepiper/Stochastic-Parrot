@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BY5yaQEJeAEXtORDIErgrrZJqkM2",
+  "object": "chat.completion",
+  "created": 1682987026,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 314,
+    "total_tokens": 321
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am an AI language model, so I cannot physically make a pizza. However, I can provide you with a simple recipe that you can follow to create your own delicious pizza at home!\n\nIngredients:\n- Pizza dough (store-bought or homemade)\n- Tomato sauce\n- Mozzarella cheese\n- Toppings of your choice (e.g., pepperoni, sausage, mushrooms, onions, peppers)\n\nInstructions:\n\n1. Preheat oven to 475°F (245°C).\n\n2. If using store-bought pizza dough, let it come to room temperature and then follow the package instructions for preparation.\n\n3. Roll out the dough on a lightly floured surface into the desired shape and thickness.\n\n4. Transfer rolled-out pizza dough onto a parchment paper-lined baking sheet or heated pizza stone.\n\n5. Spread tomato sauce evenly over the surface of the dough but leave about half an inch border along it.\n\n6. Add grated mozzarella cheese on top of the sauce layer – use as much or as little as you like depending on how cheesy you want your pizza to be!\n\n7. Finally add your choice toppings all over! Be creative and mix ingredients that complement each other well according to taste preferences Good combinations include: pepperoni-mushrooms-onions; sausage-peppers; olives-tomatoes-feta-arugula etcetera\n\n8 Bake in preheated oven approximately 12 minutes rotating halfway during cooking time if necessary This ensure even distribution heat leading browning crust Remember check closely last few And voilà - Enjoy hot share responsibly friends family members!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
