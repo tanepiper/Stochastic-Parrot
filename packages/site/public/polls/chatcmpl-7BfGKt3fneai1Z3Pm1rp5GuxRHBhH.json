@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BfGKt3fneai1Z3Pm1rp5GuxRHBhH",
+  "object": "chat.completion",
+  "created": 1683014576,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 51,
+    "total_tokens": 103
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which mythical creature would you rather be?\",\n  \"answers\": [\n    \"A fire-breathing dragon\",\n    \"An elusive unicorn\",\n    \"A shape-shifting werewolf\",\n    \"A majestic phoenix\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
