@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BqUgVNuCC2uL8ulJoTDuHcruJDku",
+  "object": "chat.completion",
+  "created": 1683057750,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 298,
+    "total_tokens": 305
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In the Harry Potter series, there are five magical methods of transportation:\n\n1. Apparition: This is a magical form of teleportation that allows witches and wizards to instantly travel from one place to another. To Apparate, one must have a clear mental image of their destination and then turn on the spot while focusing on that location.\n\n2. Broomsticks: Witches and wizards use broomsticks as their primary means of flying transportation. There are different brands and types of brooms for various skill levels, such as the Nimbus 2000 or Firebolt.\n\n3. Floo Powder: A glittery powder made from crushed Floo plants that can be thrown into any fireplace connected to the Floo Network. When traveling by Floo Powder, users must step into the flames in a fireplace after tossing powdered floo powder onto it; they clearly state their desired destination aloud before disappearing in green fire.\n\n4. Portkeys: These enchanted items allow witches and wizards to quickly travel long distances by touching them simultaneously with others who wish to go along on this journey together (often used for group travels). The Portkey will take its passengers directly from point A-B within seconds depending upon contact maintained throughout transit time-span duration\n\n5. Thestral-drawn carriages Hogwarts carriages pulled by black creature called Thestrals which transports students between Hogsmeade Station Platform Nine And Three-Quarters upon arrival at unnamed points during incoming school goers' transfers both ways respectively!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
