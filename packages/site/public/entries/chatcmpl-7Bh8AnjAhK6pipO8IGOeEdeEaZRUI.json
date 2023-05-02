@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Bh8AnjAhK6pipO8IGOeEdeEaZRUI",
+  "object": "chat.completion",
+  "created": 1683021758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Ways to reduce the risk of sudden infant death syndrome (SIDS) include:\n\n1. Placing your baby on their back to sleep: Ensuring that your baby sleeps on their back can significantly lower the risk of SIDS. When babies sleep on their stomach or side, they may have difficulty breathing.\n\n2. Use a firm sleep surface: A firm mattress with a tight-fitting sheet will help keep your baby's airway open and reduce suffocation risks.\n\n3. Keep soft objects and loose bedding out of your baby's crib: Soft objects such as pillows, stuffed animals, and blankets can increase the risk of accidental smothering by blocking an infant's airway during sleep.\n\n4. Share a room with your newborn but avoid bed-sharing: Studies have shown that sharing a room with infants for at least six months reduces SIDS risk without going through potential hazards related to sharing a bed.\n\n5. Avoid overheating due to too much clothing or bedding: Your baby should feel warm but not hot when you touch his skin; dress them in light clothing suitable for the ambient temperature and use appropriate bedding like wearable blanket instead of traditional ones\n\n6. Offer pacifiers properly introduced after breastfeeding is established; some research has suggested this might help protect against SIDS preventive measure that parents can consider carefully based on individual circumstances\n\n7- Breastfeed if possible -  Exclusive breastfeeding has been found linked as recuder chaance experiencing SID having positive impact safety while sleeping\nnitored being reasonable limit reducing drastically consumption alcohol illicit drug medications harmful tobacco passive exposition smoke exposure controlled timely medical supervision check ups information guidances professional adviser wise stay educated unique subject matter awareness building trust family support joining organizations connecting members collective attentiveness true real life situations care others recommendations practice benefit everyone"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
