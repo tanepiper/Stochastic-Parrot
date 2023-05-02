@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BtJCI3t70OqGiG2dEVsXnoEEduxE",
+  "object": "chat.completion",
+  "created": 1683068570,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 111,
+    "total_tokens": 118
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Rice is a gluten-free grain, which means that it does not contain any of the proteins found in wheat, barley, or rye. These proteins are collectively referred to as gluten and can cause digestive issues for people with celiac disease or gluten sensitivity.\n\nTherefore, rice noodles made from 100% rice flour would not have any traces of these harmful substances so they can be considered entirely safe for individuals who cannot consume gluten. However, always check the packaging and ingredients list to ensure there are no hidden sources of gluten or cross-contamination during manufacturing."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
