@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BocNYjDwYyDKu3405R5R5BkDBdWP",
+  "object": "chat.completion",
+  "created": 1683050539,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is possible to load an existing translation model in OpenAI's Codex application using the pre-built functionality of loading a translation API.\n\nOne way to do this is by using OpenAI’s GPT-3 Language Model which supports translating text through their `davinci-codex` model. To achieve this, you'll need access to the `openai` Python library and an API key that enables access to GPT-3 services.\n\nHere's a simple example of how to use Davinci-Codex for translation:\n\n1. Install the `openai` library if it isn't already installed:\n\n```bash\npip install openai\n```\n\n2. Acquire an API key from OpenAI (if you don’t have one). You can sign up for one at https://beta.openai.com/signup/.\n\n3. Set your API key as an environment variable on your system so that it can be used with the library:\n\n```bash\nexport OPENAI_API_KEY=\"your-api-key-here\"\n```\n\n4. Create a Python script or Jupyter Notebook to translate text into another language via GPT-3/Davinci-Codex:\n\n```python\nimport openai\n\ndef translate_text(text, source_lang, target_lang):\n    prompt = f\"Translate the following {source_lang} text '{text}' into {target_lang}:\"\n    response = openai.Completion.create(\n        engine=\"davinci-codex\",\n        prompt=prompt,\n        max_tokens=50,\n        n=1,\n        stop=None,\n        temperature=0.5,\n    )\n    translated_text = response.choices[0].text.strip()\n    \n    return translated_text\n\n# Example usage:\ntranslated_sentence = translate_text(\n"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
