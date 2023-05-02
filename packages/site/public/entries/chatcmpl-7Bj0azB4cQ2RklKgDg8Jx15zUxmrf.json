@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Bj0azB4cQ2RklKgDg8Jx15zUxmrf",
+  "object": "chat.completion",
+  "created": 1683028976,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 134,
+    "total_tokens": 141
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are various ways to answer this question depending on the perspective from which it is approached. Some significant milestones or achievements by human beings include:\n\n1. Use of Tools: The use and crafting of stone tools date back to around 2.6 million years ago during the prehistoric era, marking an important step in our ancestors' transition towards a more intelligent way of interacting with their environment.\n \n2. Control of Fire: Homo erectus was likely the first hominid to control fire deliberately, approximately 1 million years ago, enabling early humans not only to cook food but also providing warmth and light.\n\n3.Keys_or_reminders_for_lock_screen_on_your_phone"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
