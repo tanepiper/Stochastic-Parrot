@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BmkVhiZHNOTfcLNiz3tPWJiKpw18",
+  "object": "chat.completion",
+  "created": 1683043355,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 257,
+    "total_tokens": 264
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some suggestions on addressing flakiness in friendships:\n\n1. Communicate openly: One of the keys to resolving any issue in a friendship is open and honest communication. Address the person's flaky behavior by sharing your feelings about it without sounding harsh or accusatory.\n\n2. Be assertive: When discussing their behavior, be assertive but not aggressive about how their actions have impacted you and your friendships with them.\n\n3. Set boundaries: Discuss clear expectations for your friendship with the person exhibiting flaky behavior, such as committing to planned events and staying in touch regularly.\n\n4. Offer support: Sometimes people are not able to attend social gatherings or maintain contact because they are dealing with personal issues - be sensitive to this possibility, ask if there is anything they need help with, or offer emotional support during difficult times.\n\n5. Give second chances but know when enough is enough: Everybody can make mistakes from time to time; however, if someone consistently continues being unreliable despite making promises that they will change it might be best for both parties involved in the friendship to distance themselves from each other until both individuals mature emotionally/psychologically/etcetera further first (if ever). Remember; healthy relationships are based on mutual respect which includes reliability at least all most of those times rather than exception only!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
