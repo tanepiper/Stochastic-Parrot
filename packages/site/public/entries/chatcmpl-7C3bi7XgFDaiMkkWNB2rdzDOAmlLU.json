@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7C3bi7XgFDaiMkkWNB2rdzDOAmlLU",
+  "object": "chat.completion",
+  "created": 1683108158,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some possible reasons as to why people avoid using Twitter are:\n\n1. Limited Characters: The 280-character limit in tweets can feel restrictive, making it difficult for some users to express their thoughts and ideas properly.\n\n2. Overwhelming Content: Twitter's real-time feed is constantly updating with new information from millions of sources worldwide, which can leave some feeling overwhelmed by the platform's pace and volume.\n\n3. Cyber Harassment/Trolling/Abuse: Online platforms like Twitter have enabled cyber harassment, trolling, and abuse of other users - this type of behavior might deter potential or existing users from engaging on the platform.\n\n4. Inaccurate or Misleading Information: As a fast-paced social media platform that allows instant sharing of news and opinions, false information may spread quickly on Twitter leading to confusion or distrust among its user base.\n\n5.Locked Accounts/Follower Requirements: Some accounts are set to private mode meaning you cannot view their content without approval from the user; others require followers/follows questions before communication – this could discourage genuine conversations between users.\n\n6.Content Quality Control Issues -- With millions engaged each day pumping out character-limited statements there will be variance-quality while posts don't always provide value everyone they're publicly visible potentially crowding feeds unnecessary spam-like communications detracting overall experience enjoyment thereof ultimately resulting avoidance altogether should these become too much handle individuals concerned thus invoking abandonment recursion an all-encompassing issue aforementioned contributing factors collectively add creating less desirable social environment discouraging both current potential participants alike join engage leading either reduced usage abandoned accounts/shadowbanned accounts/unfollowed accounts/etc isn't necessarily bad thing however definitely somewhere line occur often enough warrant consideration word go association preference lack thereof negatives positives good outweigh outweighing perceived reluctance inherent undesirable conditions present prevailing"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
