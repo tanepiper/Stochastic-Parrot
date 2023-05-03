@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7C5Tx2gSX1AJACc39DijfutAEdesK",
+  "object": "chat.completion",
+  "created": 1683115365,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 26,
+    "total_tokens": 33
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot provide personal opinions as I am an Artificial Intelligence programmed to assist users in generating human-like text based on the prompts given."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
