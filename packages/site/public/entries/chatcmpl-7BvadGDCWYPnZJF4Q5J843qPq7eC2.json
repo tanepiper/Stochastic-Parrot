@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BvadGDCWYPnZJF4Q5J843qPq7eC2",
+  "object": "chat.completion",
+  "created": 1683077339,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The causes of the French Revolution can be divided into three main categories: economic, social, and political. \n\n1. Economic factors:\nEconomic hardship was one of the most significant factors that contributed to the French Revolution. France was in financial crisis due to various reasons like:\n\n- Wars: The monarchy invested heavily in wars during the reigns of Louis XIV and Louis XV. Their extravagant spending on wars drained resources from other sectors leading to economic instability.\n\n- Debt: The royal treasury accumulated a substantial amount of debt which continued through numerous generations leading up to King Louis XVI's rule.\n\n- Taxation system: The taxation policies favoured the nobility (upper class) causing an undue burden on commoners, who were already dealing with food shortages due to poor harvests, contributing further towards their poverty and discontentment.\n\n2. Social factors:\nWide disparities between different social classes played a crucial role in provoking dissent among people leading up to the French Revolution:\n\n- Estates system: Society was divided into three estates – clergy (First Estate), nobility (Second Estate) and common people known as 'Third Estate.' In terms of population percentages, it constituted approximately 0.5%, 1% and 98% respectively.\n\n- Privileges enjoyed by higher estates or classes increased tensions amongst Third Estate citizens who bore most tax burdens yet held no real power in governance or decision-making processes concerning issues directly affecting them economically or politically.\n\n3 Politically Factors‎:\nPeople also grew frustrated with monarchy due mainly following reasons\n\n - Inefficient administration & deep-rooted corruption within government institutions.\n \n ‎Rise bourgeoisie led third estate demand representation proportional their numbers society during metting States-general 1789—leading creation National Assembly composed primarily unrepresented middle emerging working-class seeking"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
