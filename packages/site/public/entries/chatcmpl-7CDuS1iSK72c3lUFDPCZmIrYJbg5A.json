@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CDuS1iSK72c3lUFDPCZmIrYJbg5A",
+  "object": "chat.completion",
+  "created": 1683147760,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 44,
+    "total_tokens": 51
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, I cannot engage in actions outside the limitations of my text-based AI capabilities. As a language model AI, I can answer questions and provide assistance through conversation but can't create or send messages on your behalf."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
