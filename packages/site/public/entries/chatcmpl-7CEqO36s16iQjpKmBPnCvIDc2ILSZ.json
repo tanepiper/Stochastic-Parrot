@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CEqO36s16iQjpKmBPnCvIDc2ILSZ",
+  "object": "chat.completion",
+  "created": 1683151352,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hinduism is the world's oldest religion, with its roots tracing back to around 4,000 BC. Over time, Hinduism has evolved into a complex faith that encompasses many different sects and traditions. Here are some distinctive characteristics of Hindu beliefs:\n\n1. Polytheism: Hindus acknowledge and worship multiple gods and goddesses. The primary deities or Trimurti include Brahma (the creator), Vishnu (the preserver), and Shiva (the destroyer). Additionally, there are countless lesser-known gods like Lakshmi, Saraswati, Ganesha.\n\n2. Reincarnation: A fundamental belief in Hinduism is the idea of samsara or the cycle of birth, death, and rebirth that an individual soul goes through until it attains salvation or moksha.\n\n3. Karma: This refers to the concept that every action taken by an individual has repercussions in their current life as well as future lives – good actions lead to positive results while bad deeds result in negative consequences.\n\n4. Dharma: It's an individual's moral obligation depending on various factors such as age group/particular stage of life(called 'ashrama'), caste system ('varna') etc., leading them towards spiritual growth & fulfilling duties towards society & oneself.\n\n5.Series_of_four_stages_of_life:_Hindu_believers_tend_to_follow_the_idea_that_there_is_a_guided_progression_through_one%27s_lifetime,_divided_into_four_main_stages_%28Ashrams%29:-Brahmacharya-%28child/student_phase%29_,_Grihastha-%28household/married_life_phase%29_,_Vanaprastha-_retiring_from"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
