@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CSv2NCd7Wfm3n4pmGiKXJ2fZ9Jdf",
+  "object": "chat.completion",
+  "created": 1683205456,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 28,
+    "total_tokens": 35
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot own any kind of subscription since I am an AI language model, and do not have the ability to make purchases or own anything."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
