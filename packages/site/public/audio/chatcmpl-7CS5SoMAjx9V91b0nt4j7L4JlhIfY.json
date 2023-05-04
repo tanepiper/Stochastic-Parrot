@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CS5SoMAjx9V91b0nt4j7L4JlhIfY",
+  "object": "chat.completion",
+  "created": 1683202258,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Netflix is an American media services provider and production company headquartered in Los Gatos, California. Founded by Reed Hastings and Marc Randolph on August 29, 1997, the company started as a DVD rental-by-mail service before transitioning to a primarily online streaming model. Today, Netflix offers various streaming plans for users across the globe to watch TV series, movies, documentaries and other video content from a wide variety of genres.\n\nInitially starting with popular licensed television shows and movies with its streaming platform in 2007; over time, Netflix has expanded into producing its own original content under the tag \"Netflix Originals\". This includes critically-acclaimed shows like The Crown and Stranger Things which are exclusively available only on Netflix's platform.\n\nUsers can access this vast library of entertainment by paying a monthly fee depending on their plan type - Basic (1 screen), Standard (2 screens) or Premium (4 screens). Additionally one also gets different types of video quality like SD for basic plan & HD/UHD availability in high end plans respectively.Infrastructure-wise they utilize regional datacentres along with deployment via Content Distribution networks(CDN's) to expedite scaling & ease streaming experience\n\nApart from personal computers/ smartphones /tablets applications ,its compatible third-party devices include smart TVs , set-top boxes such as Roku & Apple-TV,gaming consoles etc often preloaded during purchase \n\nToday it has become synonymous with OTT(Over-the-Top) delivery platforms staying ahead globally when compared against Amazon Prime Video,hulu among others.In addition gives back towards society through partnerships such as Connected-Hub(partner schools/devices program increase equitable learning resources)\n\nIn conclusion,it started off as an experimental approach to revolutionize conventional home-viewing industry leveraging technology.Two decades+ later transformed our living-room"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
