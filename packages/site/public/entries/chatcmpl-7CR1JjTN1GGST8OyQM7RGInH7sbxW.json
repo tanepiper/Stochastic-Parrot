@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CR1JjTN1GGST8OyQM7RGInH7sbxW",
+  "object": "chat.completion",
+  "created": 1683198157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 59,
+    "total_tokens": 66
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I have a few questions about motivation.\n\n1. What factors contribute to an individual's level of motivation?\n2. How do intrinsic and extrinsic motivators differ, and what are some examples of each?\n3. How can one maintain or improve their level of motivation over time?\n\nThank you!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
