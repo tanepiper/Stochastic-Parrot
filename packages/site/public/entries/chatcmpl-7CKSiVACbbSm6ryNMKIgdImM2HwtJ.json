@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CKSiVACbbSm6ryNMKIgdImM2HwtJ",
+  "object": "chat.completion",
+  "created": 1683172948,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are numerous reasons people smoke marijuana. Some use it recreationally to relax or simply enjoy being in an altered state, while others may use it due to its potential medical benefits. Here are a few common reasons individuals might consume marijuana:\n\n1. Recreation: Many people like the way marijuana makes them feel – relaxed, euphoric or \"high.\" They often partake socially, similar to how others might have a drink with friends.\n\n2. Pain relief: Marijuana is thought by some users and experts alike to provide pain relief for various conditions such as arthritis, migraines and chronic pain syndromes.\n\n3· Anxiety and stress reduction: Some studies suggest that cannabinoids can help alleviate anxiety symptoms by regulating mood and thoughts, which may be helpful for those struggling with generalized anxiety disorder (GAD), social anxiety or panic disorders.\n\n4· Sleep aid: For some users who struggle with insomnia or other sleep-related problems, consuming marijuana before bedtime can help promote relaxation and induce drowsiness.\n\n5· Appetite stimulation: Cannabis is well-known for inducing \"the munchies,\" so individuals struggling with appetite loss due to illness or medication side effects may benefit from using marijuana as an appetite stimulant.\n\n6· Seizure control: In certain cases of epilepsy where conventional treatments fail, cannabis-derived products like CBD oil have been found effective in reducing seizure frequency and severity.\n\n7· Symptom management in multiple sclerosis (MS): Studies indicate that cannabis-based medicines can improve symptoms of spasticity associated with MS – this includes muscle stiffness and overall movement ability.\n \n8· Easing nausea from chemotherapy treatment in cancer patients\n\n9.Creativity boost/mindfulness enhancement therapy : Though contingent upon one's individual reaction towards getting high on weed , many artists claim usage"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
