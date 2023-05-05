@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CioAggpl3z1h4HKlJ9w8r9GiG6q8",
+  "object": "chat.completion",
+  "created": 1683266534,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 219,
+    "total_tokens": 226
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several laptops that have a built-in webcam and also meet your requirements. Here are five options for you to consider:\n\n1. Acer Aspire 5 (A515-56-50RS)\n   - Intel Core i5-1135G7 Processor\n   - 15.6\" Full HD IPS Display\n   - 8GB DDR4 RAM, expandable up to 20 GB\n   - 256GB NVMe SSD Storage\n\n2. Lenovo IdeaPad Flex 5\n   - AMD Ryzen 5 4500U Processor\n   - Radeon Graphics\n   - Digital Pen Included in the box.\n   - Convertible Laptop/Tablet mode touchscreen\n\n3.Reset ASUS Notebook Starting at $250.\n\n4.Apple MacBook Air M1 Chip (Late2020) Starting at $899.\n\nPrepare bids with confidence\n\nYour bid may be different from estimated price due to coupon availability or offers added by seller.\n\n\nWhen there isn't an exact match available based on your search query, we might show items priced similarly because of their relevance using \"above\", \"below\"."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
