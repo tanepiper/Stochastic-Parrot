@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CdVmVYmHJ0HdU9kKKxObbP9zjw34",
+  "object": "chat.completion",
+  "created": 1683246174,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 305,
+    "total_tokens": 312
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to build a healthy relationship with my mother-in-law:\n\n1. Establish boundaries: From the beginning of your marriage, establish clear boundaries with your husband and mother-in-law about roles and responsibilities in each other's lives.\n\n2. Practice good communication: Make sure there is open and honest communication between you and your mother-in-law. Be willing to listen, express yourself calmly and clearly, avoid accusatory language or tone, be respectful even if expressing disagreement.\n\n3. Show respect: Treat your mother-in-law with kindness and respect by acknowledging her role as the parent of your spouse.\n\n4. Include her in family events: Invite her to join family gatherings when appropriate. This will show that you value her participation in the family unit.\n\n5. Share time together: Try to bond over common interests or activities that will allow for positive memories together.\n\n6. Offer help without being intrusive: If she needs assistance or support, offer – but remain sensitive to respecting personal space or making anyone feel uncomfortable from too much involvement in another’s life.\n\n7. Learn from one another' experience; Let her share parenting advice while acknowledging differences due cultural & generational gaps understanding both sides may have valid points\n\n8.Provide emotional support during tough times- Offer a listening ear when she talks about difficulties that might arise within their own life struggles letting know they're not alone facing these challenges also can foster closeness reinforcing mutual trust acceptance empathy among parties involved thereby reducing tension potential conflict related issues which otherwise might've remained unresolved leading deteriorating relations further down line"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
