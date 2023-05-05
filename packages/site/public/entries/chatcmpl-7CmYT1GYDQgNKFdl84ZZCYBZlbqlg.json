@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CmYT1GYDQgNKFdl84ZZCYBZlbqlg",
+  "object": "chat.completion",
+  "created": 1683280937,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Depression affects millions of people around the world, and many factors contribute to why someone might experience depression. A few principal reasons include:\n\n1. Genetic predisposition: Some individuals may be genetically predisposed to develop depression based on their family history.\n\n2. Biological factors: Chemical imbalances in the brain, such as low levels of neurotransmitters like serotonin and norepinephrine, can influence mood regulation.\n\n3. Hormonal changes: Fluctuations in hormones caused by puberty, pregnancy, menopause or thyroid problems can increase vulnerability to depression.\n\n4. Environmental stressors: Life events and circumstances such as job loss, financial strain, relationship issues or trauma can trigger depressive episodes.\n\n5. Chronic health conditions: Those with chronic medical conditions are more susceptible to developing mental health challenges like depression due to the long-term physical symptoms and emotional frustration that comes with ongoing illness management.\n\n6. Substance abuse/misuse of medication/alcoholism - The use of substances or medications that alter a person's normal cognitive patterns could cause temporary or prolonged depressive states if abused over time for self-medication purposes against stress/anxiety/agitation/pain/other mental disorders/etcetera\n\n7 Posttraumatic Stress Disorder (PTSD) – Intense recurring memories/persistent flashbacks/intrusive thoughts/sleep disruption/emotional distress starting after experiencing extreme trauma/stressful life-threatening event/share similarities with other types but differences also come down how specific triggers are linked particular traumatic causing condition/language accent/conflicting cultural opinions within local communities/\n\n8 Specific Grief And Loss – Loss/grieving/death/divorce diagnosis severe autism child sudden/unexpected mourning transition following career change unemployment retirement significant life-altering circumstances carry heavy burden unresolved feelings regrets ambitions not achieved potentially heightening susceptibility onset"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
