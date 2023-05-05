@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CdFWTCN8VwMGgJSZaqcTciWav7TO",
+  "object": "chat.completion",
+  "created": 1683245166,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 69,
+    "total_tokens": 76
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "\"Bartenders use a jigger to measure the correct amount of alcohol when making drinks. A standard jigger is double-sided, with one side holding 1.5 ounces and the other side holding either .5 or .75 ounces. By using this measuring tool, bartenders ensure that each drink they make will have consistent taste and potency.\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
