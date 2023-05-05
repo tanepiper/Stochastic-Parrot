@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CgwKgk2DAOTYTPLzdkS8T9yjgCth",
+  "object": "chat.completion",
+  "created": 1683259352,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 304,
+    "total_tokens": 311
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The respiratory system is responsible for supplying oxygen to the body through inhalation and removing carbon dioxide from the body through exhalation. Oxygen is vital for cellular respiration, which provides our cells with the energy they need to function. Meanwhile, carbon dioxide is a waste product created during cellular respiration, and it needs to be removed from our bodies in order not to cause harm.\n\nThe major parts of the human respiratory system include:\n\n1. Nose: The nose filters incoming air as it enters the nostrils by using hair and mucus-laden membranes.\n2. Pharynx (throat): This muscular passageway carries both food into the esophagus and air into your windpipe.\n3. Epiglottis: A flap of tissue that moves up and down when swallowing food or breathing, ensuring only air passes through into your larynx.\n4. Larynx (voice box): Contains vocal cords necessary for speech production as well as contributing towards breathing.\n5. Trachea (windpipe): Tube-shaped passage connecting pharynx with bronchi where moistens and warms incoming air before moving along its path\n6. Bronchi: Two branches, one leading left lung or other right lung bringing inhaled gases respective locations within each  lung’s smaller tree-like network create an efficient exchange condition \n7 .Bronchioles: finer subdivisions inside lungs; end at alveoli allowing proper diffusion takes place between blood cells surrounding these microscopic sacs levels breathable environment maintained throughout life cycle specific individual"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
