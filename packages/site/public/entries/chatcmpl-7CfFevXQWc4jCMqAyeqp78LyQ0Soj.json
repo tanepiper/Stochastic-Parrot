@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CfFevXQWc4jCMqAyeqp78LyQ0Soj",
+  "object": "chat.completion",
+  "created": 1683252862,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 230,
+    "total_tokens": 237
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Mushrooms are part of the fungus family, and they can be found growing in various environments such as grassy fields, forests, gardens, decaying wood, and soil. The size of a mushroom can vary greatly depending on its species.\n\nMushrooms have two main parts: the fruiting body (the part you see above ground) and the mycelium (the thread-like structure beneath the surface). The fruiting body is responsible for producing spores that allow mushrooms to reproduce.\n\nThere are thousands of different types of mushrooms. Some can be eaten or used for cooking purposes while others are poisonous or hallucinogenic. It's important to correctly identify any wild mushrooms before consuming them or making contact with their spores since many poisonous varieties resemble edible ones closely.\n\nSome familiar examples include white button mushrooms commonly found at supermarkets; portobello or cremini which are larger brown versions; chanterelles may be yellow-orange color with wavy caps; shiitake typically grown in Asia known for mild smoky flavor when cooked; morel resembles honeycomb pattern cap usually considered rare delicacy due hunted by enthusiasts springtime throughout North America Europe"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
