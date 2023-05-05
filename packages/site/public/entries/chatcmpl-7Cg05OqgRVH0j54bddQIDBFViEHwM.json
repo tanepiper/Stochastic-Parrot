@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Cg05OqgRVH0j54bddQIDBFViEHwM",
+  "object": "chat.completion",
+  "created": 1683255741,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Multiple sclerosis (MS) is a chronic disease that affects the central nervous system (CNS), which includes the brain and spinal cord. MS occurs when the immune system mistakenly attacks the protective covering of nerve fibers, called myelin, causing inflammation and damage.\n\nThe exact cause of MS remains unknown, but it is thought to involve a combination of genetic and environmental factors that lead to an abnormal immune response in susceptible individuals. Some possible causes or risk factors include:\n\n1. Genetic predisposition: While MS is not directly inherited, having a close family member with MS may increase your risk slightly due to shared genes related to immune function.\n\n2. Environmental factors: Multiple studies have suggested that exposure to certain viruses like Epstein-Barr virus (EBV), which causes infectious mononucleosis or \"mono,\" may be linked to an increased risk of developing MS later in life.\n\n3. Vitamin D deficiency: Low levels of vitamin D, often due to limited sunlight exposure, are associated with an increased risk for multiple sclerosis.\n\n4. Smoking: Tobacco smoke has been shown as a contributing factor in altering one’s immune system increasing chances for those who smoke at greater odds of developing this autoimmune condition\n\n5. Age and sex: Most people are diagnosed with MS between ages 20-50 years old; women are approximately two-to-three times more likely than men belonging in these age category groups prone towards being affected by this malady\n\n6. Geography - The prevalence varies greatly depending on country location - living further south lowers your risks while moving north closer noticeably increases its likelihood impacting individuals there accordingly\n\nAlthough we understand some potential triggers now , researchers still aren't precisely sure about what specifically initiates either development nor progression; however continual strides seeking deeper knowledge constantly progress forward promising future"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
