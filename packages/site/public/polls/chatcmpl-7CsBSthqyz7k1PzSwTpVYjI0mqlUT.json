@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CsBSthqyz7k1PzSwTpVYjI0mqlUT",
+  "object": "chat.completion",
+  "created": 1683302574,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which mythical creature would you like to have as a pet?\",\n  \"answers\": [\n    \"A. Fire-breathing Dragon\",\n    \"B. Majestic Unicorn\",\n    \"C. Mischievous Pixie\",\n    \"D. Loyal Griffin\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
