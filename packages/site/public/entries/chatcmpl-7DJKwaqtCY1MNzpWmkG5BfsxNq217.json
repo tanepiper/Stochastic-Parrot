@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DJKwaqtCY1MNzpWmkG5BfsxNq217",
+  "object": "chat.completion",
+  "created": 1683406950,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Jaguar XF is available in various trims, including Standard, R-Sport, Portfolio, and S. The interior of the car also contains premium materials such as leather upholstery, wood or aluminum trim accents.\n\nThe Jaguar XF has an impressive cabin that boasts a comfortable and luxurious setting for passengers. It features a large infotainment screen and high-quality materials throughout the car's design. Some standard features include dual-zone climate control, keyless entry/start system, power-adjustable front seats with lumbar support adjustment on some trims.\n\nA significant feature of higher trims like the R-Sport and Portfolio versions is the styling upgrades that provide sporty appearance cues like larger wheels/brakes/tires along with special badging/additional exterior paint options that distinguish them from their more conservative counterparts.\n\nSome optional amenities include:\n- Heated steering wheel\n- Heated/cooled front seats\n- Rear window sunshade\n- Panoramic glass roof\n\nIn terms of performance updates on different models:\n1) Base Engine: A 2-liter turbocharged inline-four engine comes standard across all models producing sufficient horsepower.\n2) Available Engines: Higher-end variants offer several engine choices depending upon the market – \na) 3-Liter supercharged V6 (either gasoline or diesel)\nb) 5-Liter Supercharged V8\n\nAdditionally, there are adaptive dynamics suspension options coupled with configurable driving modes to cater to your ride preference by adjusting throttle response / gear-shift points / electric steering assist / damper settings etc to optimize either comfort/sportiness/efficiency/etc based on driver inputs/preferences! \n\nOverall - There are many benefits/features/version-packs available for buyers in order to create/configure their ideal spec-version meeting personal tastes/wants"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
