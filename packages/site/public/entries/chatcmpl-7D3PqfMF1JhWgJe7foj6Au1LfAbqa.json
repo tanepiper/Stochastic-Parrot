@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7D3PqfMF1JhWgJe7foj6Au1LfAbqa",
+  "object": "chat.completion",
+  "created": 1683345750,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 337,
+    "total_tokens": 344
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In order to walk from New Haven, Connecticut, to Charleston in South Carolina, follow these steps:\n\n1. Start at the center of downtown New Haven.\n2. Head southwest on Church Street towards George Street.\n3. Turn right onto Columbus Avenue (Route 34).\n4. Continue straight onto Ella T Grasso Boulevard (Route 10).\n5. Bear right where Route 10 splits with Derby Avenue and continues as Route 63.\n6. Remain on Route 63 for roughly more than one mile until you reach Interstate-95 in West Haven.\n\nFrom here, you can start walking south along the I-95 corridor (pedestrians are technically not allowed on highways but we assume it's an exercise). Follow approximately these directions to continue:\n\n7a) Entering through New York \n    b) Proceed via Newark, NJ (-77mi)\n    c) Pass by Philadelphia PA (-100mi)\n\n8a) Acquire Washington DC after crossing Baltimore MD : ~250mi\nb ) Richmond VA will be there around additional -125 mi\n9c.) Raleigh NC which is about another +/-215 miles away \n\nAfter hitting the historic city of Charleston SC (~776 Miles), Enjoy its natural beauty & cuisine!\n\nNote: This is a general guide only; please use map apps like Google Maps or others for finer detail instructions during your walk.\n\nWalking long distances using major roads and highways can pose significant safety risks since they're designed primarily for vehicle traffic rather than pedestrians' perspective so try seeking out local roads/pathways/routes when viable advice + plan rest stops accordingly too Also take into account factors such weather conditions affecting overall journey time needed beforehand ensuring reach-based destination without incident happenings too"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
