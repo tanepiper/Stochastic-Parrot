@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7D7AWlUN6LuDv7jMaBHMMyzlRtTPM",
+  "object": "chat.completion",
+  "created": 1683360176,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 88,
+    "total_tokens": 140
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which type of foreign cuisine do you prefer?\",\n  \"answers\": [\n    \"1. Italian: Pizza, Pasta, and Gelato\",\n    \"2. Japanese: Sushi, Ramen, and Tempura\",\n    \"3. Mexican: Tacos, Enchiladas, and Guacamole\",\n    \"4. Indian: Curry dishes, Biryani & Naan\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
