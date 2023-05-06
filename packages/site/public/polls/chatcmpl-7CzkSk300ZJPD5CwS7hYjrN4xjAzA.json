@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CzkSk300ZJPD5CwS7hYjrN4xjAzA",
+  "object": "chat.completion",
+  "created": 1683331652,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 59,
+    "total_tokens": 111
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"What is your favorite type of vacation?\",\n  \"answers\": [\n    \"Relaxing at a beach resort\",\n    \"Exploring a new city/culture\",\n    \"Outdoor adventures in nature\",\n    \"Visiting theme parks/attractions\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
