@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DHSPhoQ9LyUIY1xSeyeMJfi2P7Bg",
+  "object": "chat.completion",
+  "created": 1683399725,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 251,
+    "total_tokens": 258
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are a few suggestions for games that children can play in their backyard:\n\n1. Hide and Seek - One child closes their eyes and counts aloud while the other children hide in various places around the backyard. Once they finish counting, the seeker tries to find all of the hidden players.\n\n2. Tag - In this classic game, one person is \"it\" and attempts to tag another player by touching them. The tagged player then becomes \"it\" and must chase down someone else.\n\n3. Red Light, Green Light - One child stands at one end of the yard as the \"traffic light,\" calling out \"red light\" or \"green light.\" Players try to move toward the traffic light when it's green but must freeze when red is called; if caught moving on red, they're sent back to start.\n\n4. Duck, Duck, Goose - Sit in a circle with one child walking around tapping others' heads saying \"duck.\" When they tap someone declaring goose instead of duck that person jumps up to chase them around trying catching them before getting back into spot left open during chase\n\n5 Ball Games – Any ball-related activities like soccer kickball dodgeball etc\n\n6 Scavenger Hunt: Create list items within boundaries gather those seeking adventure!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
