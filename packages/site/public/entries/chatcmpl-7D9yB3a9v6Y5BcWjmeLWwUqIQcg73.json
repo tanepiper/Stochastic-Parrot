@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7D9yB3a9v6Y5BcWjmeLWwUqIQcg73",
+  "object": "chat.completion",
+  "created": 1683370943,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 211,
+    "total_tokens": 218
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Dear [Recipient's name],\n\nI hope this email finds you well. I wanted to express my deepest apologies for not attending our scheduled meeting on [date and time]. Unfortunately, circumstances beyond my control caused me to miss the opportunity to discuss important matters with you.\n\nPlease understand that I did not take your time for granted, and the situation was unforeseen. As we all know, sometimes things happen that are out of our hands, even when we try our best to fulfill obligations.\n\nTo make up for my absence and reschedule a new meeting at a convenient time for both parties, please let me know some suitable dates and times in which it would be appropriate for us to meet once again. Alternatively, feel free to contact me through phone or reply by email so we can find an agreeable compromise.\n\nOnce again, I sincerely apologize for any inconvenience this may have caused you. Thank you very much in advance for your understanding and flexibility regarding this matter.\n\nLooking forward to hearing from you soon.\n\nBest regards,\n\n[Your full name]\n[Your contact details]"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
