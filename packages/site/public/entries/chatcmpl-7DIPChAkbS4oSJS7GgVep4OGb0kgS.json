@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DIPChAkbS4oSJS7GgVep4OGb0kgS",
+  "object": "chat.completion",
+  "created": 1683403370,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 227,
+    "total_tokens": 234
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are two main ways to charge your Samsung Galaxy Watch:\n\n1. Using the wireless charging dock:\nThe Samsung Galaxy Watch comes with a wireless charging dock in the box. To charge your watch, follow these steps:\n\n   1. Plug the larger end of the USB cable into a power source (computer, wall charger, or power bank) and plug the smaller end into the charging dock.\n   2. The charging dock has a small concave circle on one side; place your Galaxy Watch onto this circle so that it magnetically aligns with the charger.\n   3. Make sure that you position your watch facing up and centered on top of its wireless charger.\n\nWhen done correctly, an animated battery icon indicating that it is being charged should appear on display along with an indication of how long until fully charged.\n\n2. Using third-party Qi-compatible chargers:\nGalaxy Watches also support any Qi-compatible chargers allowing for great flexibility when choosing how to charge it effectively.\n\nPlease note: It's important not to overcharge devices! Observing any manufacturer warnings contained within posted materials or provided instructions helps ensure proper life expectancy!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
