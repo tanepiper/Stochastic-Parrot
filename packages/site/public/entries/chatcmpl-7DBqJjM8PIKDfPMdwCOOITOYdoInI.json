@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DBqJjM8PIKDfPMdwCOOITOYdoInI",
+  "object": "chat.completion",
+  "created": 1683378143,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 337,
+    "total_tokens": 344
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A rain garden is a shallow, landscaped depression designed to capture and filter stormwater runoff from rooftops, driveways, sidewalks, and other impervious surfaces. It allows water to infiltrate into the ground slowly rather than running off into nearby streams or drainage systems. Rain gardens can improve water quality by removing pollutants from runoff before it enters local bodies of water.\n\nRain gardens consist of native plants that are adapted to wet and dry conditions – these plants help absorb excess nutrients in stormwater like nitrogen and phosphorus, which could otherwise contaminate local aquatic ecosystems. Furthermore, rain gardens also provide habitat for birds, butterflies and other beneficial insects.\n\nHere are some general guidelines for creating your own rain garden:\n\n1. Select an appropriate location: Choose a spot where you observe standing water after rainfall but not too close to building foundations (at least 10 feet away). Ideally, it should be located downhill from any impervious surface area such as roofs or driveways.\n\n2. Determine the size: Measure the square footage of the adjacent impermeable surface(s) that will drain into your garden (roof area contributing runoff + driveway/sidewalks), then multiply that number by about 30%. The depth will ideally vary from six inches on downslope edge down to twelve inches on upslope edge approximately.\n\n3. Test soil permeability: Dig a small hole at the prospective location (about 12\" wide x 18\" deep) then fill with water observing how quickly it drains; if fully absorbed within eight hours it's generally suitable for infiltration purpose needed in rain garden design.\n4\n4.!DOCTYPE html>\n\n4ratulations!\n\n5.\n\n\n\n\n\n\n\n\n\n\n\n5 pick up.\n\n\n\n\n\n\n\n\n\n/\n\n\n\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
