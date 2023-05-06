@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7D6DuGHEnQv21OvIfvuE9OlkCqLpN",
+  "object": "chat.completion",
+  "created": 1683356542,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 101,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To sum up, an income in the United States of $48,000 is just above the median income level for individuals. While this may not be considered a high salary by some people's standards, it is enough to support a modest lifestyle depending on factors such as location and personal expenses. A person earning around $70,000 or more in most parts of the country could be considered having \"a lot\" of money relative to their peers. However, perceptions may vary based on individual expectations and priorities."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
