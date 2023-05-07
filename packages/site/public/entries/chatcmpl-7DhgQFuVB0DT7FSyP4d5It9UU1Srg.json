@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DhgQFuVB0DT7FSyP4d5It9UU1Srg",
+  "object": "chat.completion",
+  "created": 1683500538,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a precise answer to this question, as it depends on the specific country and their laws. Typically, parental rights can be terminated if it is determined that doing so is in the best interest of the child.\n\nSome instances where parental rights may be terminated include:\n\n1. Abandonment: If a parent has abandoned their child or failed to maintain any meaningful relationship with them for an extended period of time.\n2. Abuse or Neglect: If a parent has been found guilty of severe physical abuse, sexual abuse, neglect (including failure to provide basic necessities), or emotional harm.\n3. Parental Incapacity: When a parent suffers from mental illness or another incapacity that interferes with their ability to care for and protect their children.\n4. Drug/Substance Abuse: A history of persistent drug/substance abuse problems by the parents which potentially harms the child's safety and wellbeing.\n5. Failure to support: The willful refusal by a parent over an extended period without justification not only emotionally but also financially like failing to pay required child support.\n6. Involuntary Termination due to Felony Convictions – Some states in countries may terminate parental rights automatically if one becomes convicted of particular felonies such as sexual offenses against minors or homicide involving another biological child.\n\nGenerally, termination requires clear evidence/proof showing that continuation of these legal bonds would pose serious detriment towards protection and well-being of the affected children along with following necessary legal procedures under respective jurisdictions/across various states/countries might differ peculiarities based upon geographical/national/local laws considerations regarding upheld sociocultural practices/frameworks traditions within those turfs per se discretionarily weighed comparatively evaluated judicially circumstantially based situations reasons circumstances individually case-to-case basis subjective nature just judgments"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
