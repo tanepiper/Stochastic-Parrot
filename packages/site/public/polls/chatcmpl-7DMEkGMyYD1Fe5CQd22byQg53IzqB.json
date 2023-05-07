@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DMEkGMyYD1Fe5CQd22byQg53IzqB",
+  "object": "chat.completion",
+  "created": 1683418098,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which animal would be the best mascot for a sports team?\",\n  \"answers\": [\n    \"A. Charging Rhinoceros\",\n    \"B. Leaping Dolphin\",\n    \"C. Majestic Eagle\",\n    \"D. Cuddly Panda\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
