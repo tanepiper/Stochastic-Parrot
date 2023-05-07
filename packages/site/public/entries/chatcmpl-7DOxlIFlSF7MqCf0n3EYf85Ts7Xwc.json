@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DOxlIFlSF7MqCf0n3EYf85Ts7Xwc",
+  "object": "chat.completion",
+  "created": 1683428577,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 263,
+    "total_tokens": 270
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Senate is one of the two houses that make up the United States Congress, with the other being the House of Representatives. The Senate has 100 members, each representing an individual state in a way that ensures equal representation for every state, regardless of its population size. Each Senator serves a six-year term with elections held on a staggered basis so approximately one-third of Senators are elected or re-elected every two years.\n\nThe main responsibilities and roles include:\n\n1. Representation: Senators represent their states by advocating for the interests and needs of their constituents (the citizens who live in those areas).\n\n2. Legislation: Senators collaborate to draft laws governing various aspects of daily life in America – these laws cut across education, healthcare, commerce e.t.c. They can propose new legislation, review existing laws and make necessary changes or amendments.\n\n3. Oversight: Through committees, hearings and investigations carried out by senators ensure compliance from executive branches holding them accountable when making decisions affecting public welfare.\n\n4 Maintain checks balances within Government institutions acts as a stabilizing force against potential abuses power prevents any single branch dominating exercising too much control country\n\n5 Advice consent powers confirmation presidential appointees including ambassadors cabinet positions Supreme court justices\n\n6 Ratifying treaties To enter force internationally negotiated requiring supermajority support vote least 67 senators deem agreement appropriate protecting national interest"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
