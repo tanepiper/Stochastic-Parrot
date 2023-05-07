@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Dc45tdqJ4XzaXGJYZXRwfS2deDvH",
+  "object": "chat.completion",
+  "created": 1683478941,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 39,
+    "total_tokens": 46
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The life expectancy in Ethiopia is approximately 67 years, with males having a shorter life expectancy at 65.5 years and females at 68.7 years (as of 2021)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
