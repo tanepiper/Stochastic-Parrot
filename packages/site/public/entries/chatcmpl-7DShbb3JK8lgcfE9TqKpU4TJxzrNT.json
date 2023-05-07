@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DShbb3JK8lgcfE9TqKpU4TJxzrNT",
+  "object": "chat.completion",
+  "created": 1683442951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The muscular system is a complex network of muscles that are responsible for movement, support, and stabilization of the body. Muscles generate force to allow us to move around and maintain posture while also producing heat to help maintain our body temperature.\n\nThere are three types of muscles in the human body: skeletal muscles, smooth muscles, and cardiac muscle.\n\n1. Skeletal Muscle: These voluntary muscles attach to bones through tendons and produce movement by contracting when they receive signals from the brain via motor neurons. There are over 600 skeletal muscle groups in the human body, accounting for approximately 40% of total body weight. Some examples include biceps (for bending an elbow), quadriceps (for extending the knee), deltoids (raising arms laterally), gastrocnemius (plantarflexion or \"tip-toeing\").\n\n2. Smooth Muscle: Found within many internal organs such as blood vessels, respiratory tract, digestive system organs such as stomach and intestines; these involuntary muscles play essential roles in motions like peristalsis (movement of food material along digestive tract) or dilation/constriction arteries for controlling blood flow/pressure regulation purposes etcetera! Small spindle-shaped fibers intertwine together form sheets that contract simultaneously under control hormonal stimuli/signals received guiding nerve tissue autonomic nervous branch primarily responsible managing most functions unconscious nature.\n\n3- Cardiac Muscle - Similar attributes exist related structure/functionality located heart where myocardial cell layers make up walls pushing vast amounts fluid throughout circulatory organ systems each day providing proper nutrient delivery maintaining optimum homeostatic conditions everywhere possible Both mechanical electrical elements facilitate pumping actions combine co-dependent manner meet respective targeted goals ensures sustaining adequate output necessary accommodate lifetime usage till expiration date eventually arrives inevitably!\n\nIn summary:\n\nSkeletal System – enables"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
