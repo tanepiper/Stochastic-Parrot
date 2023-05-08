@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DpAwVEsA9FqIz2VMCpVBfVkrstr2",
+  "object": "chat.completion",
+  "created": 1683529338,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 303,
+    "total_tokens": 310
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A flat screen TV can be measured in inches or centimeters. To measure the size of your flat screen TV, you will need a tape measure.\n\nFollow these steps:\n\n1. Turn off and unplug your television to ensure safety.\n2. Position the tape measure at the lower left corner of the screen, at the very edge where the visible part of the screen begins (do not include any bezels or framing around it).\n3. Stretch out the tape diagonally across to the top right corner of the screen, again only measuring within the visible boundaries.\n4. Take note of this measurement - this is now your diagonal measurement for your television in either inches or centimeters (whatever unit preference you have on your measuring scale). \n5. To determine width and height measurements while maintaining accuracy for modern widescreen TVs with an aspect ratio 16:9, follow these formulas:\n   Width = Diagonal Measurement / Square Root(337)\n   Height = (Diagonal Measurement * 9) / sqrt((144 + 81))\n6. Rounded numbers might slightly affect results; however, they should provide approximately accurate dimensions.\n\nFor example,\nDiagonal Measurement=55\"\nWidth = 55\" / √337 ≈47-48\"\nHeight=(55\"*9)/√(144+81)≈27-28\"\n\nOverall, use common sense when noting down missing values due to round-off errors if taking those into account seems important for one's purposes like buying suitable furniture mounts etcetera!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
