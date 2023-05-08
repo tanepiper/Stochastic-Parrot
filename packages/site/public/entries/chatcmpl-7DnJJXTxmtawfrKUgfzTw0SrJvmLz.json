@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DnJJXTxmtawfrKUgfzTw0SrJvmLz",
+  "object": "chat.completion",
+  "created": 1683522169,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 297,
+    "total_tokens": 304
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Popular board games from the 1970s include:\n\n1. Mastermind - a game of logic and deduction where one player creates a secret color code, and the other player tries to guess it within a certain number of guesses.\n2. Othello/Reversi - an abstract strategy game with simple rules but deep strategy, played between two players on an 8x8 board with black and white pieces called \"discs.\"\n3. Uno - a classic card game that involves matching colors or numbers, racing to get rid of all your cards, and using special action cards to keep things interesting.\n4. Payday - a family-friendly money management board game in which players move through the days of their month trying to make ends meet while dealing with unexpected expenses.\n5. Backgammon – An ancient strategy board game that has since become popular worldwide involving making moves based on dice rolls while attempting to remove all your checkers before your opponent.\n6. Dungeons & Dragons - Though not technically classified as only a 'board' game; it's probably the most iconic tabletop role-playing game first released in 1974 by Gary Gygax and Dave Arneson where players create fantastic characters for storytelling gameplay exploring dungeons slaying monsters., etc\n7. Connect Four – A play-based tactics vertical checkerboarding match requiring winning four pieces aligned horizontally vertically or diagonally.\n\nAs you mentioned Scrabble earlier we hence assume everyone knows about Scramble so didn't add it here :)"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
