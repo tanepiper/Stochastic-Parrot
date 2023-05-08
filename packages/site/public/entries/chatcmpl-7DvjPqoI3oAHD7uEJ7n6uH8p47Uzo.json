@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DvjPqoI3oAHD7uEJ7n6uH8p47Uzo",
+  "object": "chat.completion",
+  "created": 1683554539,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 7,
+    "total_tokens": 14
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "June 13, 2020"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
