@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DihOvKp9nZkTpMrspkwLMBAeJIij",
+  "object": "chat.completion",
+  "created": 1683504442,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 50,
+    "total_tokens": 102
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"What is your favorite type of landscape?\",\n  \"answers\": [\n    \"Tropical beaches with white sands\",\n    \"Snowy mountains and ski resorts\",\n    \"Green forests full of wildlife\",\n    \"\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
