@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Dr30vh29YEqjqxsdrb808XyEOO1j",
+  "object": "chat.completion",
+  "created": 1683536534,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 348,
+    "total_tokens": 355
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Marco Polo was an Italian merchant, explorer and writer born in Venice, Italy around 1254. He is best known for his travels through Asia and his accounts of those journeys in a book titled \"The Travels of Marco Polo.\" This work introduced Europeans to many previously unknown facets of Chinese culture, trade routes, geography and wealth.\n\nIn 1271, Marco Polo embarked on a journey along with his father Niccolò and uncle Maffeo to the East, which lasted for about 24 years. The route passed through the Middle East along the Silk Road before reaching Kublai Khan's court in China. They reached China around 1275 where they served Kublai Khan – the founder and first emperor of Yuan dynasty (Mongol-ruled China). Their services as confidants included diplomatic missions across Asia.\n\nDuring his time at Kublai Khan's court, Marco Polo became fascinated by Chinese society – it's cities were larger than he'd ever seen before; people used paper money rather than coins; other things like coal as fuel source, compass navigation or gunpowder had peaked interest too.\n\nMarco Polo returned to Venice in approximately 1295. After years back home engaged by Genoa-Venice war as ship commander captured into prison - this is where he dictated descriptive narrative about their journey full detailed observations waiting for return from imprisonment later already famous released after peace treaty decided between two rivals happening sometime around ~1300 AD\n\n\"The Travels of Marco Polo\" helped inspire European exploration during Age gradually being translated multiple times captivating imaginations individuals like Christopher Columbus who upon reading himself went voyaging West towards vastly uncharted territories ironically not even ending up fate led him Americas instead Asia goal unknowingly changing course history"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
