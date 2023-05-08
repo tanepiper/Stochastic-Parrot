@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DyXi9h6fwfSH1XCP6QmEHjrlcdah",
+  "object": "chat.completion",
+  "created": 1683565346,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Clinical diagnostic criteria for autism spectrum disorder (ASD) include deficits in social communication and social interaction, restricted and repetitive patterns of behaviors, interests or activities. These symptoms are present from early childhood and lead to significant impairment in various areas of functioning such as school or work.\n\nSome specific clinical criteria according to the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) that a clinician may look for when making an ASD diagnosis include:\n\n1. Deficits in social-emotional reciprocity: This can manifest as difficulty engaging in age-appropriate back-and-forth conversation, sharing emotions or interests with others, or understanding emotional expressions from others.\n\n2. Deficits in nonverbal communicative behaviors: Difficulty establishing eye contact, understanding body language, facial expressions or gestures can indicate problems with nonverbal communication common among autistic individuals.\n\n3. Difficulties developing and maintaining relationships: People with ASD often struggle to make friends their own age, adjust their behavior depending on the situation they€™re in or share imaginative play experiences with peers.\n\n4. Repetitive motor movements like hand flapping or toe walking\n(patterns of behavior): Autistic children might engage in repetitive self-stimulating behaviors like obsessively lining up toys or following rigid routines around daily activities.\n \n5. Fixated interests that appear abnormally intense: A person with autism might focus intensely on certain objects - be it toy trains cars insects - collecting memorabilia related exclusively those objects spending copious time learning about them transfixing way beyond what considered normal typical child subject matter.\n\n6. Sensory Processing differences – atypical responses sensory stimuli including hypersensitivity under-sensitivity auditory tactile visual olfactory taste sensations example becoming overwhelmed smells sounds textures avoiding overstimulate themselves opting wear clothing"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
