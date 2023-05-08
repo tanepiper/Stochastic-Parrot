@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Dq7OB26XnTgIvGy8ow7XXtXNPsVg",
+  "object": "chat.completion",
+  "created": 1683532962,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 127,
+    "total_tokens": 134
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The phrase \"money is the root of all evil\" originates from a line in the Bible, specifically 1 Timothy 6:10, which states: \"For the love of money is a root of all kinds of evil.\"\n\nThe original meaning behind this verse suggests that excessive desire or obsession for wealth and material possessions can lead to immoral behavior and many social problems. Note that it specifies \"the love of money,\" not simply having or using money itself.\n\nOver time, people have shortened and misappropriated this quote by removing \"the love of\" part—leading to the common belief that 'money' itself is inherently evil instead."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
