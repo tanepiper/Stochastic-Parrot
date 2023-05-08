@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Drzcc7rzWcKDCfhlpr9806DCYSL4",
+  "object": "chat.completion",
+  "created": 1683540168,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 26,
+    "total_tokens": 33
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hello! I am an OpenAI language model trained to help with various tasks and answer questions. How can I assist you today?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
