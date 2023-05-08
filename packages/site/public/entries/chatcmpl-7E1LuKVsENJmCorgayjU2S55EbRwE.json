@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7E1LuKVsENJmCorgayjU2S55EbRwE",
+  "object": "chat.completion",
+  "created": 1683576146,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 245,
+    "total_tokens": 252
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hello! It looks like you will need information on Islay Whisky. Islay is an island in Scotland, and it's famous for producing a distinctive style of single malt Scotch whisky. Here are some key points about Islay whiskies:\n\n1) Peaty Taste: The defining characteristic of Islay whisky is its smoky, peaty taste. This comes from the use of peat to dry the barley used in production.\n\n2) Distilleries: There are currently nine working distilleries on the island: Ardbeg, Bowmore, Bruichladdich, Bunnahabhain, Caol Ila, Kilchoman, Lagavulin, Laphroaig and Ardnahoe.\n\n3) Classic Malts Selection: Some well-known classic malts produced by these distilleries include Lagavulin 16 Year Old; Laphroaig 10/15 Year Old; Caol Ila 12 Year Old; and Ardbeg 10 Year Old.\n\n4) Flavors profiles: Although they all share the common characteristics of being smoky and peated whiskies , each distillery has unique flavor profiles that cater to different preferences among whisky enthusiasts."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
