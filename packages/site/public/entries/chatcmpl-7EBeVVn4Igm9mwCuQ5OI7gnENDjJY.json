@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EBeVVn4Igm9mwCuQ5OI7gnENDjJY",
+  "object": "chat.completion",
+  "created": 1683615739,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several steps to opening a pub in Ireland:\n\n1. Research and planning: Start by researching the market, competition, and potential locations for your pub. Create a business plan that outlines your vision, goals, target audience, marketing strategy, financial projections, etc.\n\n2. Choose a location: Select an ideal location for your pub based on factors like accessibility, visibility, and demographics of the surrounding area.\n\n3. Register your business: You’ll need to choose a name for your pub that isn’t already in use or trademarked by another company. Then register as a sole trader or limited company with the Companies Registration Office (CRO) in Ireland.\n\n4. Obtain necessary licenses and permits:\n   - To operate as a licensed premises you'll need to obtain an Intoxicating Liquor License from the District Court.\n   - Apply for planning permission if needed.\n   - Acquire any additional permits required according to local regulations (e.g., outdoor seating).\n\n5. Design and renovate: Develop an appealing interior design concept that aligns with your theme/branding ideas while ensuring compliance with Irish building standards (fire safety measures). Renovations may be necessary depending on establishing pre-existing conditions on-site when selecting it initially – ensure skilled contractors perform these updates appropriately adhering strictly toward set codes!\n\n6. Stock up on supplies: Purchase all essential items such as beverages (alcoholic & non-alcoholic), glassware/barware utensils; establish agreements concerning product deliveries directly through established links within relevant production organizations responsible regarding vitally indispensable inventory stockage assets upon site establishment- whether pertaining distinctly uniquely alcoholic batch products otherwise additionally incorporating pertinent auxiliary amenities requirements alike crockery servings holdings plate servicing cutlery table dressing methods protocols!\n\n7.Authentication:Register domain"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
