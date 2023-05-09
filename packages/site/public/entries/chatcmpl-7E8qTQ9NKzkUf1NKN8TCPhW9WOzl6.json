@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7E8qTQ9NKzkUf1NKN8TCPhW9WOzl6",
+  "object": "chat.completion",
+  "created": 1683604949,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 245,
+    "total_tokens": 252
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In general, pineapple is safe and healthy for consumption. However, there are a few things to keep in mind before eating it:\n\n1. Allergies: Some people may be allergic to pineapple or its components like bromelain, which can cause itching or swelling of the mouth and throat.\n\n2. Bromelain interaction with medication: The enzyme bromelain found in pineapples may interfere with certain medications like antibiotics (tetracycline) and blood thinners (anticoagulants).\n\n3. Acidic content: Pineapple's acidity can irritate some people's mouths or stomachs.\n\n4. Dental issues: Eating an excessive amount of acidic fruits like pineapple can damage tooth enamel over time.\n\n5. Pregnancy concerns: Pregnant women should avoid consuming excess quantities of unripe/semi-ripe pineapple since the enzyme bromelain might potentially induce labor by softening the cervix.\n\nIt's essential always to eat fruit including pineapple in moderation as part of a balanced diet considering all potential risk factors associated with its regular consumption mentioned above.\n\nIf you have specific health concerns related to your medical history or any pre-existing conditions, consult a healthcare professional before incorporating a significant amount of pineapple into your diet regularly.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
