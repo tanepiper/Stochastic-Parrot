@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EK5XbD9aGd1pZZUbvdy0HiPJYVuE",
+  "object": "chat.completion",
+  "created": 1683648167,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 255,
+    "total_tokens": 262
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Monaco is a tiny independent city-state on France's Mediterranean coastline, known for its upscale casinos, yacht-lined harbor, and prestigious Grand Prix motor race. It covers an area of approximately 2 square kilometers (0.78 square miles), making it the second-smallest country in the world (only larger than Vatican City). Monaco has a population of around 38,000 people and operates under a principality government system with Prince Albert II as head of state.\n\nMonaco's economy relies heavily on industries such as finance, tourism, real estate development services catered towards wealthy individuals who appreciate the low tax regime that Monaco offers to its residents. There is no income or capital gains tax in Monaco; however corporate taxes apply if more than %25 revenue originates from outside Monanco. \n\nThe official language of Monaco is French but other languages like Monegasque (a dialect of Italian) English are spoken given multinational characteritics of residents which consists mostly investors international bussiness owners artists and sports stars those looking financial privacy protection their wealth offered by dedicated infrastructure banking institutions that have made this small principality famous hotspot high net worth global citizens attracted luxurious lifestyle moderate coastal climate year-round cultural events opportunities networking among peers elite social circles residing within boundaries only established exclusive enclaves can offer"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
