@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EPhTMKsQVoNMf2tRPRrOuOZzP4J7",
+  "object": "chat.completion",
+  "created": 1683669739,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 178,
+    "total_tokens": 185
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The simple definition of a mole is that it is a unit of measurement used in chemistry to express amounts of a chemical substance. It represents the amount of any substance containing as many particles, such as atoms or molecules, as there are in 12 grams of pure carbon-12.\n\nEach individual element has its own unique molar mass (often listed on periodic tables) based on its atomic weight. This means that one mole contains an equal number - approximately 6.022 x 10^23 particles (known as Avogadro's number) - regardless of what type of particle it may be.\n\nMoles help scientists bridge the connection between macroscopic samples (what we see and handle in our everyday lives) and microscopic substances made up from these samples by allowing us to calculate crucial information about reaction rates, mixing ratios for solutions, stoichiometry calculations and much more within molecular-level reactions."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
