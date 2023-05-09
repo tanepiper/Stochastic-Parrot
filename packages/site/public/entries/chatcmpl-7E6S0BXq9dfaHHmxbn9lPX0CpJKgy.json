@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7E6S0BXq9dfaHHmxbn9lPX0CpJKgy",
+  "object": "chat.completion",
+  "created": 1683595744,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 78,
+    "total_tokens": 85
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot speak different languages simultaneously, but I can understand and respond to multiple languages. If you would like me to switch between languages in a conversation, simply ask or provide input in the desired language, and I will do my best to follow along. Some of the languages I am familiar with include English, Spanish, French, German, Chinese (Mandarin), Japanese and many more.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
