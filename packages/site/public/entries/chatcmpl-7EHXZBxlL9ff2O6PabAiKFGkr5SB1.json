@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EHXZBxlL9ff2O6PabAiKFGkr5SB1",
+  "object": "chat.completion",
+  "created": 1683638373,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 39,
+    "total_tokens": 46
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I understand that you might need some clarification, but first, can you please provide a question or statement for me to address? This will enable me to give you the most accurate and helpful response."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
