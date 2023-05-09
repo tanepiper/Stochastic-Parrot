@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EGkh4PP5pxtuTS3VWLOb57jQgEKo",
+  "object": "chat.completion",
+  "created": 1683635343,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 320,
+    "total_tokens": 327
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Xavier University is a private Jesuit Catholic university in Cincinnati, Ohio. It was founded in 1831 as a men's college but became co-educational in 1969. Xavier offers undergraduate and graduate degree programs in fields such as Business, Nursing, Education, Computer Science, Psychology, Biology and more. Known for its strong academics and commitment to the development of the whole person through community service and spiritual growth, Xavier is consistently ranked among the top regional universities in the Midwest region by U.S. News & World Report.\n\nSome key features of Xavier University:\n\n1. Programs: Xavier offers more than 90 undergraduate majors and over 30 master-level graduate programs.\n2. Faculty: The faculty at Xavier are dedicated educators who provide personal attention to students due to small class sizes.\n3. Athletics: As a Division I school, Xavier competes in various sports including basketball, soccer,\n   volleyball and cross country within the Big East Conference.\n4. Clubs & Organizations: Students have access to over 160 student-led clubs focused on academics,\n   cultural experiences or recreational activities that foster engagement outside of class hours.\n5. Campus Ministry: Reflecting Jesuit values throughout campus life with opportunities for community\n   engagement regardless of religious affiliation.\n6.Academic Success Center(Student Support): Provides services like tutoring assistance,career coaching &\n    disability support services which help ensuring success at each stage during education journey.\n\nOverall,Xavier focuses on interdisciplinary learning experience built around strong ethical foundation while providing well-rounded program options along with numerous extracurricular activities supporting their mission - \"Educating Whole Person\"."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
