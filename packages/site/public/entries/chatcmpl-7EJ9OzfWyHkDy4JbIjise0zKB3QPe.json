@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EJ9OzfWyHkDy4JbIjise0zKB3QPe",
+  "object": "chat.completion",
+  "created": 1683644562,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 137,
+    "total_tokens": 144
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What happened to Shahidullah Shahid?\n\nShahidullah Shahid, whose real name was Sheikh Maqbool Orakzai, was a senior member of the Pakistani Taliban (Tehreek-i-Taliban Pakistan or TTP) and later joined ISIS’s Khorasan Province (ISIS-K). He served as the spokesman for the Pakistani Taliban and became one of several high-ranking leaders who defected from TTP in favor of ISIS. \n\nShahidullah Shahid reportedly died in July 2015 during a drone strike carried out by US forces in Afghanistan. The drone targeted a group suspected to be plotting attacks on NATO-led troops stationed there at that time."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
