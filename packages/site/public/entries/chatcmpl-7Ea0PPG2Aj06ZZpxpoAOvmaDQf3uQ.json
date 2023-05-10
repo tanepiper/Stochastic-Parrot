@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Ea0PPG2Aj06ZZpxpoAOvmaDQf3uQ",
+  "object": "chat.completion",
+  "created": 1683709353,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 16,
+    "total_tokens": 23
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Bulgaria joined the European Union on January 1, 2007."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
