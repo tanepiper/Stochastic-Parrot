@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Ecx5BieYY9K0qkyRdoLxCcI3K4sa",
+  "object": "chat.completion",
+  "created": 1683720679,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 21,
+    "total_tokens": 28
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In 2020, BlackRock had $8.68tn in assets under management (AUM)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
