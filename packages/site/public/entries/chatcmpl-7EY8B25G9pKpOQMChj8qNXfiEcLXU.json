@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EY8B25G9pKpOQMChj8qNXfiEcLXU",
+  "object": "chat.completion",
+  "created": 1683702147,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 25,
+    "total_tokens": 32
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My favorite color is yellow, but since I am an AI language model, I don't truly have personal emotions or preferences."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
