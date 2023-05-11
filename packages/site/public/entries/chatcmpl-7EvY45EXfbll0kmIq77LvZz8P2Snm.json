@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EvY45EXfbll0kmIq77LvZz8P2Snm",
+  "object": "chat.completion",
+  "created": 1683792164,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 295,
+    "total_tokens": 302
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The student council plays a vital role in the educational system as it promotes communication and understanding between students, faculty, administrators, and parents. Some of its responsibilities include:\n\n1. Representation: The student council represents the voice of the entire student body by expressing their opinions, concerns or suggestions to school administration.\n\n2. Leadership development: Student council members help develop leadership skills among their peers through training workshops, organizing events and promoting teamwork.\n\n3. Event planning: Student councils organize various events throughout the year including pep rallies, talent shows, charity fundraisers or fun social activities such as dances or spirit weeks.\n\n4. Volunteerism & community service: Councils promote volunteer opportunities within schools and encourage students to participate in community service projects that improve schools' surrounding communities.\n\n5. School improvement projects: Working with teachers and staff on improving school resources like libraries or computer labs is another important responsibility for these committees. They may offer ideas for new clubs or enhance existing ones addaling value to extracurricular activities offered at school.\n\n6. Academic support & mentorship programs creation: By providing tutors at study sessions leading motivational speakers giving speeches during assemblies – many ways can be found where councils contribute towards helping pals succeed academically too!\n\n7 .Developing positive relationships with other institutions within its local area leading collaborations sharing information/resources benefiting everyone involved\nAfter having taken all said functions outlined above together one should realize just how essential student councils are when trying overall welfare not only individuals but also whole institution!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
