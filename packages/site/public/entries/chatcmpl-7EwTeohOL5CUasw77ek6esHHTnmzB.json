@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EwTeohOL5CUasw77ek6esHHTnmzB",
+  "object": "chat.completion",
+  "created": 1683795734,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 50,
+    "total_tokens": 57
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm an AI language model, so unfortunately, I don't have personal experiences or a heart. However, I could still try to offer some advice or suggestions if you're going through a tough time or need help. What's on your mind?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
