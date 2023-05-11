@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F32esuNi64mIujkaTpjPB7XolWMO",
+  "object": "chat.completion",
+  "created": 1683820968,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 57,
+    "total_tokens": 109
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these activities do you prefer doing on weekends?\",\n  \"answers\": [\n    \"Solving puzzles with friends\",\n    \"Going for a hike in the woods\",\n    \"Watching movies at home\",\n    \"Trying out new recipes\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
