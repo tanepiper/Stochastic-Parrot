@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EqrWKl69p0y5RU5fCuOjXyGdl2co",
+  "object": "chat.completion",
+  "created": 1683774150,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 252,
+    "total_tokens": 259
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several factors that can contribute to a person being prone to bee stings, including:\n\n1. Location and environment: People who live or work in areas where bees are prevalent may be more likely to encounter them, increasing the chances of getting stung.\n\n2. Activities and occupation: Individuals involved in activities such as gardening, farming, or outdoor sports might come into closer contact with bees, putting them at higher risk for stings.\n\n3. Clothing choices: Wearing brightly colored clothing (especially floral patterns) or scented perfumes can attract bees and make someone more prone to being stung.\n\n4. Allergic predisposition: Although not directly linked to an increased likelihood of being stung itself, individuals who have a known allergy to bee venom will experience more severe reactions if they do get stung.\n\n5. Poor reactions when encountering bees: Panicking and swatting at bees increases the chance of agitating the insect and provoking it into defensive mode which could lead to a sting; staying calm around these creatures is key for avoiding this outcome.\n \nIt's essential for people who know they're at higher risk for bee encounters take precautions like wearing protective clothing or avoiding certain environments during seasons when bees are most active (typically spring through fall)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
