@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F6mtLgPLv29ryFmD3BCMs4vsHroN",
+  "object": "chat.completion",
+  "created": 1683835367,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A multi-level marketing (MLM) sales structure is a type of business model that involves selling products or services through individual sales representatives, often referred to as \"distributors\" or \"members.\" In this kind of organization, distributors earn income not only from their direct sales but also by recruiting new members to sell the product.\n\nThe MLM hierarchy consists of multiple levels:\n\n1. Company level: The company produces and manufactures the products and develops the marketing strategies. They are responsible for creating promotional materials, training programs, pricing strategies, commission payout structures, etc.\n\n2. Top-tier managers/diamonds/leaders: These individuals have recruited many people into their downline and have achieved one of the highest ranks in the company's compensation plan. They usually have large networks earning them significant residual income from a percentage of all sales made by their recruits.\n\n3. Mid-tier managers/gold/silver/platinum members: People at this level may have several layers below them who they've personally sponsored (recruited) or result from others who were brought in by those they started with under certain conditions; they rely more heavily on organizational/team building skills rather than personal sales abilities due to smaller percentages earned per sale further from source/original trainer/member introducer/etc.).\n\n4. Low-tier managers/district/regional directors/managers/trainers/etc.: Multiple lower ranks throughout each chain need lower performing targets being met periodically & consistencies encouraged within short time frames if applicable (eg quarterly).\n\n5 Local sellers/independent enrollments /newer reps/members/introducers/bookings personnel – Bottom rank stay focused on finding customers entailing initial hard laborious work & limited payouts upon completion reportedly majority fall back here reintroduced once potential burns out according financial opportunities/constraints/self-m"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
