@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FH5FyZMtS1NDu4PvUOWRMy8lUiXE",
+  "object": "chat.completion",
+  "created": 1683874945,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several types of onion, including the following:\n\n1. Yellow onions (also called brown or Spanish onions): These are the most common type of onions, with a strong flavor and aroma. Their high sulfur content makes them ideal for cooking, as they caramelize well when sautéed or roasted.\n\n2. White onions: These have a slightly milder flavor than yellow onions and are used in a variety of dishes like stir-fries, salads, salsas, and Mexican cuisine.\n\n3. Red onions: Known for their vibrant purple color and mild to sweet taste, red onions add crunch and visual appeal to salads and sandwiches but can also be grilled or pickled.\n\n4. Sweet onions (such as Vidalia, Maui Sweets or Walla Walla): With their lower sulfur content compared to other varieties, these large bulbs have a delicate flavor that's ideal for eating raw in salads or thinly sliced on burgers.\n\n5. Pearl Onions: Small marble-sized white-creamy colored globes often used in cocktails galore; they're perfect for stews too because there smaller size allows them to hold up better during lengthier cook times over other varietals\n\n6 . Cipollini Onions - small flat-shaped disk-like bulbs that boast an intense sweetness making them great candidates when glazed-roasted side dishes alongside hearty mains like steak dinners!\n\n7 . Shallots : About 2-inches long resembling tiny oval heads piled into papery skin layers— this subtle flavored allium speaks elegance adding sophisticated depth onto sauces & vinaigrettes accompanying fine dining table plates tastefully array garnished dressed atop seared proteins drizzled decadently tying together sumptuously delightful bites extracting appreciative sighs complementing"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
