@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FNda1NfxIFPpx2VAxBRoAe0MhspY",
+  "object": "chat.completion",
+  "created": 1683900138,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 253,
+    "total_tokens": 260
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The total number of professional soccer teams in the world is difficult to determine because there are a vast number of leagues and divisions that change regularly. However, here's an approximate breakdown:\n\nFIFA, the international governing body for soccer, has 211 member associations (national organizations responsible for their respective countries' domestic leagues). Each association usually manages several different soccer competitions, from regional amateur divisions to nationwide professional leagues.\n\nIf we take into account only the top-tier national leagues in each country, there would be more than 200 primary professional men's clubs worldwide. However, most nations feature multiple tiers within their league systems; so when accounting for all men's pro teams around the globe - considering this - thousands of clubs exist.\n\nHaving said that it is important to note that China alone has more than 3000 semi-professional football clubs but they do not count as official professionals under FIFA rankings since they only operate at local or city levels\n\nFor women's soccer, although its popularity and professionalism have grown significantly recently - notably with major nations hosting well-established top-flight leagues such as NWSL (United States) and WSL (England), many other countries lack fully professional structures. Estimates range widely; however generally speaking fewer female pro teams exist compared to male counterparts throughout diverse parts"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
