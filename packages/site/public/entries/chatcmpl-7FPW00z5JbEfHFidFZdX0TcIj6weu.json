@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FPW00z5JbEfHFidFZdX0TcIj6weu",
+  "object": "chat.completion",
+  "created": 1683907356,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 297,
+    "total_tokens": 304
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are various types of eating disorders, including:\n\n1. Anorexia nervosa: This disorder is characterized by the intense fear of gaining weight and a distorted body image, leading to self-starvation and excessive weight loss.\n\n2. Bulimia nervosa: People with bulimia have episodes of binge eating followed by compensatory behaviors such as self-induced vomiting, misuse of laxatives or diuretics, fasting or over-exercising to prevent weight gain.\n\n3. Binge-eating disorder: Individuals with this disorder eat large amounts of food in a short period without any compensatory behaviors like those seen in bulimia. The person may feel a lack of control during these binges and experience feelings of guilt and shame afterward.\n\n4. Other specified feeding or eating disorders (OSFED): These include conditions that don't meet the full criteria for anorexia, bulimia or binge-eating but still involve disordered eating patterns affecting daily functioning and quality life significantly.\n\n5. Avoidant/restrictive food intake disorder (ARFID): Previously known as selective eating disorder; individuals with ARFID avoid certain foods due to taste, texture color or past negative experiences associated with that particular food item — often resulting nutrient deficiencies malnutrition depending extent restrictions imposed their diet choices they make throughout developmental stages in children's development adolescence early adulthood years which influences how young adults perceive themselves view their parents mental health professionals treating them when they seek out professional help later on in life"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
