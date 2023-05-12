@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FUCBDKbxLOqLOuUfIQgMRBar35h6",
+  "object": "chat.completion",
+  "created": 1683925347,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 86,
+    "total_tokens": 93
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The gas mileage of a vehicle is usually represented in miles per gallon (mpg). To calculate it, simply divide the total distance traveled by the number of gallons used.\n\nFor example, if you drove 300 miles and used 10 gallons of fuel:\nGas Mileage = Total Distance Traveled / Number of Gallons Used\nGas Mileage = 300 miles ÷ 10 gallons\nGas Mileage = 30 mpg"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
