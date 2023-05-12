@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FTGACLBn093vecpkfOPUD8cybREo",
+  "object": "chat.completion",
+  "created": 1683921750,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 85,
+    "total_tokens": 92
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, chess is considered a sport by the International Olympic Committee (IOC) and many other organizations. Although it does not involve significant physical activity like most traditional sports, chess requires mental agility, concentration, and strategic thinking – much like how athletes use their physical skills in sporting events.\n\nMoreover, chess competitions are organized worldwide at various levels, including national and international championships. These structured competitive events help support its classification as a sport."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
