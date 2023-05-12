@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FQRkPE23cmVnDnL8rK7Oo7qr7KCz",
+  "object": "chat.completion",
+  "created": 1683910936,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Conduct thorough research: Start by researching the topic you want to write about. This includes going through books, online articles, and other resources related to your subject matter.\n\n2. Outline your content: Create an outline that will help guide you as you write your essay. The outline should include a brief summary of each section and corresponding sub-points within those sections.\n\n3. Develop a strong thesis statement: Your thesis statement is an essential part of any essay because it sets the overall tone for what comes afterward. Make sure it clearly communicates the main argument or point of view that you'll be discussing throughout your essay.\n\n4.Heighten interest with engaging introduction: Begin your essay with an interesting and engaging introduction paragraph that can pique readers' curiosity immediately so they'd want to read on.\n\n5.Write clear body paragraphs: Each body paragraph in your long-form content should focus on one idea or piece of evidence supporting your thesis statement—no more, no less- start them with topic sentences then provide explanation backed up major points suitable examples\n\n6.Use transition words and phrases meticulously - this helps give structure order coherence smooth flow consequently avoiding any confusions abrupt jumps creating better understanding also harmony between varying ideas arguments contained within different parts\n\n7.Provide counterarguments where appropriate to demonstrate the fairness and open-mindedness of their analysis whilst anticipating potential challenges toward their central claims statements viewpoints positions perspectives beliefs assumptions proposals advocacy contention concepts premises;\n\n8.Make thought-provoking connections between theme(s) & real-world implication(s)- too show how depth relevancy significance importance relevance applicability ramifications broader societal cultural contexts impacts consideration consequences implications feasible outcomes interlinkages purposes lessons teachings assessment evaluation reasons behind why things ways connections anecdotes innovative inventive insightful imaginative illustrations allegorical analogies metaphorical representations comparative scenarios narratives"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
