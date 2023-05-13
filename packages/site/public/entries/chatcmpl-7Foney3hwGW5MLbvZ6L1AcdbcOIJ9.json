@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Foney3hwGW5MLbvZ6L1AcdbcOIJ9",
+  "object": "chat.completion",
+  "created": 1684004550,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 62,
+    "total_tokens": 69
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on the size of the lemon and how much juice you need. On average, one medium-sized lemon yields about 2-3 tablespoons (30-45 ml) of juice. If your recipe requires a specific amount of lemon juice, it's always best to measure after juicing to ensure accuracy."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
