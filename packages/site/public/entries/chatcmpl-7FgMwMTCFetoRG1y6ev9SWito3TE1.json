@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FgMwMTCFetoRG1y6ev9SWito3TE1",
+  "object": "chat.completion",
+  "created": 1683972142,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 318,
+    "total_tokens": 325
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are numerous reasons why one might feel the urge to poop after eating:\n\n1. Gastrocolic reflex: It's a natural reflex that occurs during or immediately after eating, causing contractions in your colon to make room for new food coming into your stomach. This reflex can be particularly strong after consuming large meals or especially fatty foods.\n\n2. Food sensitivities and allergies: Some people may have intolerances or allergies to specific types of food, such as lactose intolerance (dairy) or gluten sensitivity, which can lead to digestive issues shortly after consumption.\n\n3. Irritable bowel syndrome (IBS): A common gastrointestinal disorder that often causes increased bowel movements and/or diarrhea, particularly following a meal.\n\n4. Inflammatory bowel diseases (IBD), like Crohn's disease and ulcerative colitis: People with IBD experience inflammation of the intestines which can cause an urgent need to use the bathroom soon after eating.\n\n5. Consuming certain foods: Spicy foods, caffeinated beverages, artificial sweeteners like Sorbitol in sugar-free products all stimulate gut motility and digestion process leading some individuals requiring toilet use afterwards\n\n6. Eating too quickly: Swallowing air when you eat quickly also referred chugging big gulps causing bloating gas production making person require defecatory assistance sooner than usual practice given before opportunity situation is normal \"8 habits that harm health\"\n\n7. Emotional Stress - stress affect body communication between brain & digestive system evoke feelings anxiety nervousness impacting bowel movement pattern create urgency once become affected circumstance completely resolved issue happening somehow less continues gets back possible"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
