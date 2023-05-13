@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FXJHfIMbo397tsx1vOHgqwWGFZ6z",
+  "object": "chat.completion",
+  "created": 1683937319,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Match each outfit with the occasion: \n\n1. Black tie event\n   - Tuxedo for men, floor-length gown or cocktail dress for women\n\n2. Business meeting\n   - Suit and tie for men, pant/dress suit or professional skirt/blouse combo for women\n\n3. Day at the beach\n   - Swimsuit, cover-up or shorts/tank top, flip-flops or sandals\n\n4. Wedding guest attire\n   - Men: Suit & tie (more formal) / Dress pants+sport's coat+tie(semi-formal) / Dress pants+shirt(no tie; casual)\n  Women: Formal dresses/casual fancy day-dresses\n\n5. Night out on the town:\n    Men- A blazer and jeans/lists/sportcoat/combo/well-tailored-jacket/buttoned-shirt/pattern-cashmere-scarf/shawl-collar-cardigan/trousers/loafers/black-leather-belt.html\">jeans/ chinos paired with a casual button-down shirt.\n   \n6.Job interview \n    Men- suit in black/navy-grey/light-blue-button-down-shirt/plain/matching-welt-breast-pocket/watch-cufflinks-contact-lenses-shaved-coordinated-shoes-and-hosiery\"-well-groomed,-clean-cut-appearance-can-make-or-break-your-first-impression-at-an-interview-home-page>d-edication-to-making-a-good-appearance-signals-seriousness-about/\"invest-in-a-good-navy/grey-black-blue-white-neglect-you-straight-points)\">good-quality leather shoes>White/ light blue dress shirt,tie(optional but prefer)\n\n7.Casual Friday office wear -\nMan-Closed-toe-shoes/black-open-neck-shirt/nav"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
