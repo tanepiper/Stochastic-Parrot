@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7G1uQ5v8SWBRi2A475sJx1o73rYqn",
+  "object": "chat.completion",
+  "created": 1684054942,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 49,
+    "total_tokens": 56
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Cataract surgery typically lasts around 20-30 minutes. However, the total time you'll spend at the surgical center may be between two and four hours since it includes preparation, discussion with the surgeon, and recovery time after the procedure."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
