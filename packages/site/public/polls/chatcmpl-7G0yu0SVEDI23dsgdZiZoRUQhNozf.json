@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7G0yu0SVEDI23dsgdZiZoRUQhNozf",
+  "object": "chat.completion",
+  "created": 1684051376,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 62,
+    "total_tokens": 114
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional world would you prefer to live in?\",\n  \"answers\": [\n    \"A) Hogwarts from Harry Potter\",\n    \"B) Middle Earth from LOTR\",\n    \"C) Westeros from Game of Thrones\",\n    \"D) Pandora from Avatar\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
