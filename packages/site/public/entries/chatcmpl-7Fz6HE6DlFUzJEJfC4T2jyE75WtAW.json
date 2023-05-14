@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Fz6HE6DlFUzJEJfC4T2jyE75WtAW",
+  "object": "chat.completion",
+  "created": 1684044145,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 100,
+    "total_tokens": 107
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Great Wall of China is roughly 13,170 miles (21,196 kilometers) long, though its length has changed throughout history due to various factors like erosion and reconstruction. The wall was built during several dynastic periods in China primarily as a defensive structure against invasions by nomadic tribes. It also served other purposes such as marking borders and facilitating communication between military garrisons. Today, it remains an impressive architectural feat and has become one of the most recognizable symbols of Chinese culture worldwide."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
