@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7G4ioAGRbtHIEqZmpGUV3FPs3XWsW",
+  "object": "chat.completion",
+  "created": 1684065754,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 35,
+    "total_tokens": 42
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI language model, I do not personally experience \"feeling\" anything. However, I can understand and analyze the emotions expressed in text or conversation and respond accordingly."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
