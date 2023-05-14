@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FxERecQcT65l9KTYqLEyFxwZu99O",
+  "object": "chat.completion",
+  "created": 1684036963,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 268,
+    "total_tokens": 275
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The average lifespan of an iPhone varies depending on how the device is used, its battery health, and whether it receives necessary software updates. Generally speaking, iPhones can last between 4 to 6 years.\n\nHowever, individual users may experience longer or shorter lifespans for their devices. Some people might have no issues using older iPhones that are even more than six years old as long as they're not heavily relying on new apps and features that require higher processing power.\n\nBattery life is often a critical factor in determining an iPhone's useful lifespan. Over time, batteries lose their capacity and may not hold a charge as efficiently as they once did. Usually, iPhone batteries begin to degrade after about two years of regular usage but can be replaced to extend the device's overall lifespan.\n\nAnother significant factor in determining an iPhone’s lifespan is support from Apple in terms of software updates. As newer models come out with updated hardware and features, older models may eventually become unable to run the latest iOS versions properly or receive important security patches making them less secure over time.\n\nIn summary: While there isn't a definite guideline for how long iPhones last due to multiple factors affecting each device uniquely; generally speaking most iPhones will have usable lifespans ranging from 4-6+ years when given proper care and upgrades where needed (e.g., replacing worn-out batteries)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
