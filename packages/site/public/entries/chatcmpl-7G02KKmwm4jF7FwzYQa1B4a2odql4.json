@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7G02KKmwm4jF7FwzYQa1B4a2odql4",
+  "object": "chat.completion",
+  "created": 1684047744,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 83,
+    "total_tokens": 90
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you can actually ask Google Home to remember things for you. For example, if you're having trouble remembering where something is stored, say \"Hey Google, remember that I put my extra phone charger in the top drawer of my desk.\" Then when you need it later on and are unsure of its location, say \"Hey Google, where did I put my extra phone charger?\" and Google will tell you."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
