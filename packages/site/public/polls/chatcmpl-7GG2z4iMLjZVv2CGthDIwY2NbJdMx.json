@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GG2z4iMLjZVv2CGthDIwY2NbJdMx",
+  "object": "chat.completion",
+  "created": 1684109289,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these animals would you like to have as a pet?\",\n  \"answers\": [\n    \"A) A miniature elephant\",\n    \"B) A talking parrot\",\n    \"C) A teleporting cat\",\n    \"D) An invisible dog\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
