@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GI3qZOutalOvtjDPMGxpIXeXhfKr",
+  "object": "chat.completion",
+  "created": 1684117030,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Treaty of Verdun, signed on August 10, 843, was an agreement among three grandsons of Charlemagne - Lothair I, Louis the German, and Charles the Bald - that divided his Carolingian Empire into three kingdoms. This treaty ended a civil war between them which took place after Charlemagne's death in 814.\n\nThe division created by this treaty laid the foundation for modern European states:\n\n1. West Francia (Modern-day France) was given to Charles the Bald.\n2. East Francia (Modern-day Germany/the Holy Roman Empire) was given to Louis the German.\n3. Middle Francia (Included parts of modern-day Italy, Low Countries and Central Europe) went to Lothair I.\n\nThis division had significant consequences for future generations as various nations began their long historical roots in these territories. It also fueled rivalries between regions that would result in political conflicts and wars throughout European history such as those involving Valois and Habsburg dynasties during Hundred Years' War or French-German rivalry up until World War II. Additionally it emphasized linguistic differences across Europe with Latin traditions flourishing in west parts while Germanic culture held more influence over eastern regions contributing significantly towards development cultural identities still present today within Western civilization framework alongside continuing power struggles are testament enduring legacy left behind by Treaty Of Verdun+emphasizes its importance all aspects life society relations extending beyond borders familiar continental neighbors around globe impacting interests numerous competing forces moments historic triumph tragedy alike constantly reminding collective humanity need balance cooperation ambition competition order achieve harmony lasting peace prosperity greater good inhabitants Earth once again stand united solidarity solidifying shared commitment building brighter sustainable inclusive represent better bolder vision tomorrow than yesterday might ever offer alone face intricate uncertainties yet shape astounding opportunities"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
