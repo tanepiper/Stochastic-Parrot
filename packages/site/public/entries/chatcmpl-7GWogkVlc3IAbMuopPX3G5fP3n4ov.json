@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GWogkVlc3IAbMuopPX3G5fP3n4ov",
+  "object": "chat.completion",
+  "created": 1684173750,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 70,
+    "total_tokens": 77
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A light-year is a unit of distance used in space that measures how far light can travel in one year within the vacuum of outer space. Since the speed of light is approximately 299,792 kilometers per second or about 186,282 miles per second, a light-year represents roughly 9.461 trillion kilometers (5.878 trillion miles)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
