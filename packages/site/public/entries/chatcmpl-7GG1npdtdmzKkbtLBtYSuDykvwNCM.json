@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GG1npdtdmzKkbtLBtYSuDykvwNCM",
+  "object": "chat.completion",
+  "created": 1684109215,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 213,
+    "total_tokens": 220
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Dysphonia is a generic term for any disorder of the vocal folds that affects voice quality, pitch, volume, or resonance. Globus pharyngeus is the medical term for the sensation of having a \"lump\" or tightness in your throat when there's no actual physical obstruction present.\n\nGlobus pharyngeus is often considered a functional symptom, meaning it has no identifiable cause and may be related to stress or anxiety. It can also be associated with gastroesophageal reflux disease (GERD), muscle tension dysphonia, or other conditions affecting the throat muscles and nerves.\n\nOn the other hand, dysphonia refers to changes in voice production leading to hoarseness, breathiness, reduced speech clarity due to various causes like neurological abnormalities such as Parkinson's Disease or stroke event; structural problems including masses on vocal fold tissue from nodules polyps cysts cancer , viral infection eg. laryngitis among others. It could also have functional origin where emotional disturbances affect proper use of mechanical structures involved during phonation ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
