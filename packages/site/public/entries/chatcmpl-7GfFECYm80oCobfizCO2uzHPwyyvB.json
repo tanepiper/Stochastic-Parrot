@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GfFECYm80oCobfizCO2uzHPwyyvB",
+  "object": "chat.completion",
+  "created": 1684206148,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The history of the French press dates back to the late 19th and early 20th century. It is believed that this type of coffee brewing device was first used in France, which is why it's called a \"French\" press.\n\nThere are some theories about how the French press was invented. One suggests that in late-1800s France, soldiers needed a quick and easy way to make coffee while at war. They would heat water over an open flame or portable stove, steep grounds, then use a makeshift plunger or mesh filter to separate the liquid from grounds.\n\nAnother theory credits an Italian man named Attilio Calimani with inventing the modern French press as we know it today around 1929. He applied for a patent for his invention in Italy, describing it as \"a new tool suitable for making tea and other similar beverages.\" Over time, several people improved on Calimani's original design made changes like adding metal bands around glass carafes or enclosing the entire contraption within a stainless steel body.\n\nOne definite mark on its history came in October 1958 when Swiss inventor Faliero Bondanini patented his version named Chambord after Plumpy (belgium), who bought from Melior (swiss) their rights (trademark + machines). This popular model included features such as streamlined aesthetics; thick-walled glass chamber another quality feature saves users stovetop spills by letting gravity hold fuel more safely nestled downward while pot sits firmly against tabletop edge during brewing process awaiting lever action single fluid removal motion handle actuation plunge pressed extraction separating beverage vs dregs phases!\n\nSince then, many companies have produced variations of the classic French press design using different materials like stainless steel instead of glass/plastics"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
