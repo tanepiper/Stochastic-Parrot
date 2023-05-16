@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GuEQ1B1B8PYNDiSfgyMElan4l0o3",
+  "object": "chat.completion",
+  "created": 1684263758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 308,
+    "total_tokens": 315
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are the steps to access Discord Developer Mode on PC, Mac, iOS, and Android:\n\nPC or Mac (Desktop App or Web Browser):\n1. Open the Discord app or visit discord.com in your preferred web browser.\n2. Log into your account if you're not already logged in.\n3. Click on the gear icon located at the bottom-left corner of your screen next to your username and avatar - This will open up your User Settings menu.\n4. Scroll down and click on \"Appearance\" under \"App Settings.\"\n5. Locate \"Developer Mode\" towards the bottom of the page under Advanced settings section.\n6. Toggle the switch for \"Developer Mode\" to turn it ON.\n\niOS:\n1. Open Discord app on your iOS device\n2. Tap on your profile picture/avatar at bottom-right corner\n3- Go to “Appearances” tab through side-scrolling bar below Interface section; appears as a monitor-like icon\n4- Then scroll all way down past Text & Images sub-section; here reveals a toggle button for enabling Developer mode\n\nAndroid:\n1- With opened “Discord” application tap three-line Icon (“Hamburger Menu”) at top-left area then choose cogwheel-shaped “Settings”\n2- Under “APP SETTINGS” category select flag-icon titled“Behavior”\n3: Lastly slide across digital-switch-text-labeled “Developer Options”; doing so should show green incline when activated correctly\n\n\nWith developer mode enabled now further handle selecting/downloading from either an object's context-side-menu copy associated ID(s)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
