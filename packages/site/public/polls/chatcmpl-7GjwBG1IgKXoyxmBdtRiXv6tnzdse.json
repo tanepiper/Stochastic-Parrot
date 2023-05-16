@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GjwBG1IgKXoyxmBdtRiXv6tnzdse",
+  "object": "chat.completion",
+  "created": 1684224187,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 48,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would win in a race?\",\n  \"answers\": [\n    \"Sonic the Hedgehog\",\n    \"The Flash\",\n    \"Road Runner\",\n    \"Lightning McQueen\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
