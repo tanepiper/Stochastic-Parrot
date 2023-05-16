@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Giztirwxnu9UsFYlyL8RKxgVE660",
+  "object": "chat.completion",
+  "created": 1684220573,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The most common types of vaccines used today are:\n\n1. Live-attenuated vaccines: These vaccines use a weakened (attenuated) form of the germ that causes a disease. They create a strong and long-lasting immune response, providing immunity similar to having the actual disease. Examples include measles, mumps, rubella (MMR), yellow fever, and varicella (chickenpox) vaccines.\n\n2. Inactivated or killed vaccines: These vaccines are made from viruses or bacteria that have been inactivated or killed by heat, chemicals, or radiation so they cannot cause illness anymore but can still trigger an immune response. Examples include polio (IPV), hepatitis A, and rabies vaccines.\n\n3. Subunit/recombinant/conjugate/virosomal/polysaccharide/protein-based/ligand-marked/adjuvanted/emulsion-type/toxoid/allergens etc.: - All these fall under 3rd generation design which offers reduced reactogenicity with increased immunological responses utilizing specific constituent(s)/hybrid/part/molecule/domain/synthetic/aposematic complex/bind-on-to/etc.\nThese may provide more focused ‘efficient’ immunities against parts/substance/clouds/confederations/mitiments-packets/the-substrates/or of course now & always? , Antigens (!). \n\n4.Toxoid Vaccines utilize altered toxins producing customized benign supercomputative traits into highly dampened / cautious formats denaturized as being harmless while generating highly potent protective immunities e.g Diphtheria Tetanus etc\n\n5.Conjugate Vaccines involve chemically linking weaker polysaccharides(non protein carbohydrate antigens ) examples bacteria’s capsules / cell-wall / secretions sub"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
