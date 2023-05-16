@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GsMGqXHESGHN0NnoC02Qluzq1jrm",
+  "object": "chat.completion",
+  "created": 1684256556,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 291,
+    "total_tokens": 298
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no limit to how many apprentices an electrician can take simultaneously. However, it depends on the individual electrician's ability to mentor and manage their apprentices effectively while ensuring they gain sufficient hands-on experience. Additionally, some states or localities may have regulations related to the ratio of licensed electricians to apprentices on a job site or within a company. This may influence how many apprentices one can train at once.\n\nTo ensure each apprentice receives proper training and attention, an electrician should be realistic about their capacity for mentorship when bringing in new apprentices. It may be beneficial to focus on quality over quantity – producing well-trained individuals who are prepared for their future careers as journeymen and master electricians.\n\nThe International Brotherhood of Electrical Workers (IBEW) requires that in areas where approved union labor-management committees exist, contractors must follow ratios established by these agreements between IBEW Local Unions and NECA Chapters regarding the number of Journeypersons-to-Apprentices allowed under supervision during work hours.\nFor instance: In New York State there is:\n\n• 1-5 journeymen = 1 Apprentice allowed\n\n• Additional apprentice for every 3 journeymen after:\n--6 through 8 Journeypersons: Up to two Apprentices;\n\nKeep in mind that guidelines will vary depending upon your geographical location so it would best if you contact your nearest regulatory agencies specific rules about this matter.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
