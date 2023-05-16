@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GmjmsBOwsFDz8zVwOu2rrOUqyISD",
+  "object": "chat.completion",
+  "created": 1684234950,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 228,
+    "total_tokens": 235
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Menstruation is the natural process that occurs in females as part of their reproductive cycle. During menstruation, the lining of a woman's uterus (endometrium) sheds and gets expelled through the cervix and vagina in the form of blood and tissue. Menstrual discharge typically lasts for about 3 to 7 days.\n\nPeriods usually begin at puberty, around ages 9-16, depending on genetics, weight, nutritional status, overall health, hormonal balance or other external factors such as stress levels. The average age for first menstruation is around 12 years old.\n\nUsually occurring every month till menopause begins (around ages 45 – 55), it signifies that a woman’s body is preparing itself for potential pregnancy by releasing monthly eggs from one of her ovaries into her fallopian tubes (ovulation); if an egg meets sperm during ovulation it can result in pregnancy; if not fertilized within approximately 24 hours after ovulation then your menstrual period will take place instead indicating no pregnancy has occurred because there was no need to maintain viable uterine wall implantation site since did not get pregnant-."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
