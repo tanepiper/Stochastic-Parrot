@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GvAMlsqTDo5a9D3up0sgK4g9evbE",
+  "object": "chat.completion",
+  "created": 1684267350,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 305,
+    "total_tokens": 312
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To make a turkey wrap, you will need the following ingredients:\n\n- Turkey slices\n- A large tortilla or wrap (such as whole wheat, flour, spinach, or sun-dried tomato)\n- Lettuce (like Romaine or Iceberg)\n- Thinly sliced tomatoes\n- Shredded cheese (like cheddar or mozzarella; optional)\n- Mayonnaise, mustard or your preferred sauce/condiment\n- Salt and pepper\n\nInstructions:\n\n1. Lay out the tortilla on a clean surface or plate.\n2. Smear an even layer of mayonnaise/mustard/etc. onto the wrap's centerline.\n3. Place desired amount of turkey slices on top.\n4. Add lettuce over turkey slices., distributing evenly across them.\n5. Arrange tomato slices atop lettuce.\n6. Sprinkle shredded cheese if utilizing this ingredient.\n7. Add salt and pepper liberally to taste.\n\nAssembly:\n\nA) Tuck-In Method: Fold one end horizontally toward center about 2 inches (~5 cm). Then fold each side lengthwise toward middle and overlap slightly to seal contents into roll shape.\n\nB) Burrito Style: With all components inside the central area of your tortilla sheet, fold bottom up midway over fillings then tightly pulling sides parallel until they encapsulate everything snugly forming it into burrito-like form with both open ends tucked within edges' folds.\n\nOnce assembled by either strategy listed above, enjoy at ambient temperature -or alternatively toasted/warm within panini press!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
