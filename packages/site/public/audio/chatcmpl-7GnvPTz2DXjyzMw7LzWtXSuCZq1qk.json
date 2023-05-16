@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GnvPTz2DXjyzMw7LzWtXSuCZq1qk",
+  "object": "chat.completion",
+  "created": 1684239515,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 79,
+    "total_tokens": 86
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Screen mirroring or screen casting is a technology that allows you to display the content of one device's (such as a smartphone, tablet, or computer) screen on another device's display (like a TV, monitor, or projector), typically using Wi-Fi or an HDMI cable. This can be useful for sharing presentations, streaming videos, playing mobile games on a bigger screen and various other uses."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
