@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GdnEoVhgktPFp7T3REdEVtjH33rC",
+  "object": "chat.completion",
+  "created": 1684200568,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 225,
+    "total_tokens": 232
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some good ways to save the planet are:\n\n1. Conserve energy: Turn off lights, appliances, and electronics when not in use. Use energy-saving light bulbs and invest in energy-efficient appliances.\n\n2. Use public transportation or carpool: Reduce your carbon footprint by taking public transit or participating in a carpool with friends, family members, or co-workers.\n\n3. Recycle: Separate paper, plastics, glass items for recycling pick-up or drop-off facilities near you.\n\n4. Plant trees: Participating in large-scale tree planting efforts or even planting around your home can help absorb carbon dioxide from the atmosphere\n\n5. Save water: Fix leaking faucets and dripping toilets at home; practice simple actions such as turning the tap off while brushing teeth\n\n6. Shop sustainably: Purchase products made from sustainable materials like organic cotton clothing items; avoid plastic bags usage \n\n7. Compost kitchen waste: Convert food scraps into natural fertilizers that enrich garden soil\n\n8.Support clean technologies & alternative fuel options for homes & cars\n\n9.Educate yourself & others about environmental issues towards fostering awareness on preserving Earth's ecosystems"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
