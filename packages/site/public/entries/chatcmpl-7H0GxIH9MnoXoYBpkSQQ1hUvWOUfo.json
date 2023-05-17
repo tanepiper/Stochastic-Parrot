@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7H0GxIH9MnoXoYBpkSQQ1hUvWOUfo",
+  "object": "chat.completion",
+  "created": 1684286979,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 268,
+    "total_tokens": 275
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Farm animals are domesticated animals that are raised for various purposes, such as providing food (meat, milk, and eggs), fiber (wool), or to perform work (such as draft horses). Some common farm animals and their primary roles on the farm include:\n\n1. Cattle: Primarily raised for their meat, called beef. They can also be kept for dairy production (milk) or used as draught animals.\n\n2. Pigs: Raised primarily for their meat called pork. Some pig breeds are also used in agricultural research.\n\n3- Sheep: Kept mainly for wool production but also provide sheep's milk and meat called mutton or lamb.\n\n4- Goats: Used primarily for milk, which can be made into cheese, yogurt or butter but they can also provide meat called chevon.\n\n5- Chickens: The most common poultry species farmed globally both layers breed produce eggs while broilers breed provide poultry meat\n\n6-Ducks & Geese - Ducks mostly reared for consuming ducklings and geese often get included in the world of farming largely due to foie gras \n\n7-Turkeys : provided with egg-based products; however these birds earn main claim inside tables during festive seasons \n\n8-Horses-draft numerous activities including competitions racing pleasure riding therapy police services transportation agriculture building infrastructure throughout history"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
