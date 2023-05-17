@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7H4X6LJi96woZYQRvr1my3EWk4KZf",
+  "object": "chat.completion",
+  "created": 1684303356,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 276,
+    "total_tokens": 283
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Migraine is a severe, recurrent headache that usually affects one side of the head. It can last for hours to days and often causes other symptoms like nausea, vomiting, and sensitivity to light or sound.\n\nTo treat migraine pain effectively:\n\n1. Over-the-counter (OTC) pain relievers: Non-prescription medicines like ibuprofen, naproxen sodium or aspirin can help relieve mild migraines.\n\n2. Prescription medications: Your doctor may prescribe you medication specifically designed for migraines like triptans to alleviate pain and shorten the length of your migraine attacks.\n\n3. Preventive medications: If your migraines are frequent or severe, discuss preventive treatment options with your healthcare provider. These drugs can significantly reduce the frequency of migraine attacks in some individuals.\n\n4. Manage stress levels: Stress is a common trigger for migraines; find techniques to manage stress such as exercise, meditation, or deep breathing exercises.\n\n5. Maintain a consistent sleep schedule: Lack of sleep or an irregular sleep pattern might make you more prone to getting migraines; aim for 7-8 hours of quality sleep each night and avoid napping during the day if possible\n\n6.Networking: Join online forums or support groups where you can connect with others who have firsthand experience dealing with migraine headaches - they may be able provide advice on additional treatment strategies and coping mechanisms that have worked well them personally"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
