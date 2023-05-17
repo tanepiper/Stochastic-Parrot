@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7H7LIkTsBBl0XuUmRogRr8YaBHJpu",
+  "object": "chat.completion",
+  "created": 1684314156,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 109,
+    "total_tokens": 116
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Personal information can be divided into two categories: (1) public personal-information that is openly available and (2) private personal-information which the individual may want to keep hidden from others.\n\nPublic\n1. Full name\n2. Address\n3. Telephone number\n4. Email address \n5. Birth date or age \n6. Public social media profiles \n\nPrivate \n7. Social security number or national identification number \n8. Passport, driver's license, ID card information\n9  Tax file numbers and other government identifiers´╗┐"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
