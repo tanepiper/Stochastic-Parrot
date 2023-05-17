@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7H2elrZ9JH8Hvkj5GdAb2SkxpRSLr",
+  "object": "chat.completion",
+  "created": 1684296143,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hello! It looks like you will be building your first computer. Congratulations on taking up this exciting project. Building a computer can be an enjoyable and educational experience, but it's important to make the right decisions about the components and tools you'll need.\n\nHere are some steps to help guide you through the process:\n\n1. Assess your needs: Before purchasing any components, determine what kind of computer you want to build based on your requirements and budget. Consider factors such as gaming, video editing, office work or general use.\n\n2. Research and choose components: Select each component (CPU, GPU, motherboard, RAM, storage drives) separately based on compatibility with other parts in addition to performance for their value. I would recommend visiting online PC building forums where experts offer advice on various combinations that can optimize performance while staying within a budget.\n\n3. Preparation: Gather all required tools such as screwdrivers (mostly Phillips head), tweezers or needle nose pliers (for cable management), thermal paste spreader/applicator if needed (for attaching CPU cooler) anti-static wrist strap(optional; touching metal chassis works well too). Ensure there is enough free space available at desired location/build site with good lighting conditions as well working surface that won't scratch hardware & furniture beneath underneath it when tightening screws etcetera during assembly time - preferably ESD-safe mat.\n\n4 Assemble/Install Components:\n- First attach aka secure processor onto matching socket found atop mainboard /(motherboard).\n- Follow by clamping down heatsink/fan unit over installed central processing chip ensuring adequate coverage provided from pre-applied antifreeze gel located between them both.\n-Furthermore fasten relevant expansion cards regarding entertainment purpose-specific scenarios i.e including graphics accelerator card(aka GPU);"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
