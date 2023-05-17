@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HKRgm9bKjrB7X78SBGJulUfhpzzg",
+  "object": "chat.completion",
+  "created": 1684364524,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 220,
+    "total_tokens": 227
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Short-term consequences of sleep deprivation can include:\n\n1. Fatigue and drowsiness\n2. Decreased alertness and attention span\n3. Cognitive impairments, including memory problems and difficulty concentrating\n4. Emotional disturbances, such as irritability, anxiety, or depression \n5. Decreased motivation and productivity\n6. Increased risk of accidents due to diminished motor skills and slower reaction times \n7. Weak immune system leading to a greater susceptibility to illness.\n\nLong-term consequences of chronic sleep deprivation may include:\n\n1. Obesity: Insufficient sleep can lead to hormonal imbalances that contribute to weight gain.\n2. Diabetes: Sleep deficiency is associated with poor blood sugar control.\n3. Cardiovascular diseases: Sleep deprivation has been linked to high blood pressure, heart disease, stroke, and other cardiovascular issues.\n4.Out-of-sync circadian rhythm/trouble waking up at desired time – contributing even more sleeping issues in the long-run.\n6.Mood disorders: Poor sleep is often a factor in anxiety and chronic stress along with the development or worsening of mental health conditions such as depression or bipolar disorder.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
