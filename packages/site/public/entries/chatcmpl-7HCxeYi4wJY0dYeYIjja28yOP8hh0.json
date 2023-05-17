@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HCxeYi4wJY0dYeYIjja28yOP8hh0",
+  "object": "chat.completion",
+  "created": 1684335754,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In order to make a bed fit for royalty, follow these steps:\n\n1. Invest in high-quality bedding materials: This includes sheets made from Egyptian or Supima cotton with a thread count of at least 300, a luxurious down comforter or duvet, and plush pillows filled with feathers or memory foam.\n\n2. Start with a clean and comfortable mattress: Make sure your mattress is well-supported and that you have added any necessary padding, such as a mattress pad or mattress topper for extra comfort.\n\n3. Layer the bottom sheet: If using flat sheets, place it over the bed so that it hangs evenly on both sides. Tuck it under the foot end first then beneath each side of the mattress\n\n4. Place the top sheet face-down over the fitted sheet (the decorative edge should be toward the headboard). Position it about six inches below the headboard; this will allow room to fold back later when making up the rest of your royal sleeping quarters.\n\n5.Use hospital corners when tucking in your top sheet. Hold one corner-end adjacent to its corresponding side and lift nearby areas off at approximately 45 degrees angle feeling crease where they separated; Fold right section inside ,along width bed & tug marginally before positioning above folded part again adding finality by preventing unraveling through securing edges underneath soundly going across breadth resting zone including bolstering left crevice extensively also folding remaining sections concurrently repeating previously mentioned processes beautifully swallowing remainder middle stage ensuring neatness securely anchored covering entirety horizontally holding firmly entire length while diligently wrapping all excess material located base facility tightly preserving integrity outermost layer formed tight orderly fashion creating graceful lines directing away lower extremity embody space thus producing perfect alignment giving adequate stability overall adherence surface area offering optimal positioning granting longevity usage thereof"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
