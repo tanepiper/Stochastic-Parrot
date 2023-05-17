@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7H8HBGbm8oppFpKCFw6C6ipnHKaoY",
+  "object": "chat.completion",
+  "created": 1684317745,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, I can talk about Krishna.\n\nKrishna is a major deity in Hinduism and is considered as the eighth avatar of Lord Vishnu. He plays an important role in the epic Mahabharata and is also known for his profound teachings in the sacred text Bhagavad Gita. Krishna's life story and philosophy have had a significant influence on Indian culture, literature, art, music, dance and spiritual thinking.\n\nBorn in Mathura to parents Devaki and Vasudeva around 3228 BCE according to traditional belief, his birth was foretold by divine intervention to destroy evil forces present at that time. Despite frequent attempts made by Kansa (Devaki's brother) to kill Krishna during childhood due to a prophecy which stated that Kansa would be killed by his sister's son (Krishna), he survives these assassination attempts with miraculous interventions or escape plans from his father Vasudeva.\n\nGrowing up among cowherds spent ample time playing pranks with friends like stealing butter from neighbors' homes resulting in earning titles such as \"Makhan Chor\" - 'The Butter Thief'. Besides this playful aspect of early-life experiences has been constantly associated romantic hero who played Rasa Lila dances gopi lovers particular relationship Radha whom shared an eternal bond love devotion represents ideal unconditional revered throughout centuries literary works poetry philosophical texts fine arts performance well wisdom compassion knowledge endeavors establish dharma righteousness world\n\nDuring adulthood participated events described Epics assisting Pandavas war against their cousins Kauravas provided counsel advice Arjuna battlefield recitation considers central message presents essence teachings concerning soul ultimate reality action detachment Yogic ideals practice service devotion duty truth unity humankind\n\nHis widely celebrated festivals include Janmashtami celebrating birth appearance popular ceremony"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
