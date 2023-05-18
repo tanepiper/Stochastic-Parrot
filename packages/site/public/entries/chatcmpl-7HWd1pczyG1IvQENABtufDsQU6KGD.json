@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HWd1pczyG1IvQENABtufDsQU6KGD",
+  "object": "chat.completion",
+  "created": 1684411355,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 202,
+    "total_tokens": 209
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some tips for meal and snack ideas for someone constantly on the go can include:\n\n1. Meal prep: Prepare meals in bulk ahead of time, like sandwiches, salads or wraps that you can easily grab out of the fridge when needed. Store them in individual containers so they are ready to go.\n\n2. Protein bars or shakes: Keep protein bars or shakes handy as they're quick sources of energy and nutrition that require no preparation.\n\n3. Fresh fruit: Apples, bananas, oranges and other fruits travel well without refrigeration or cutting.\n\n4. Trail mix: Create a trail mix using nuts, seeds, dried fruits such as raisins and cranberries - store it in small bags for an easy-to-grab snack option.\n\n5- Greek yogurt cups topped with fresh berries\n\n6- Whole grain granola bars\n\n7- Mixed veggie sticks with hummus dip\n\n8- Ready-made deli-style salads (avoiding those high in dressing)\n\n9- Babybel cheese circles – individually wrapped for convenience"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
