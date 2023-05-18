@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HgviBO4yAep8IuKtnRa9fmXWIBFG",
+  "object": "chat.completion",
+  "created": 1684450954,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "La superstición es la creencia en eventos, acciones y circunstancias que influyen directamente en el resultado de algo a pesar de que no exista una base científica o lógica para sustentar dicha creencia. Las supersticiones son comunes en muchas culturas y pueden variar según la región o país. Algunas personas consideran que las supersticiones son medios para evitar situaciones negativas, mientras que otras dependen de ellas solo por tradición.\n\nLas causas de las supersticiones se deben a varias razones:\n\n1. Miedo e incertidumbre: Muchas personas buscan respuestas o cierto control sobre factores desconocidos y temibles. Recurren a prácticas (superstitivas) como portadores de buena suerte para eliminar sus miedos e inseguridades.\n\n2. Tradición cultural: La herencia cultural puede implicar la transferencia intergeneracional de ciertas creencias y costumbres sin ninguna base lógica.\n\n3. Condicionamiento operante: Cuando algo ocurre después repetidas veces donde seguimos un acto particular, nuestro cerebro relaciona ambos eventos automáticamente aunque no exista relación causal entre ellos.\n\n4. Ignorancia sobre cómo funciona el mundo natural: En algunos casos, los seres humanos atribuyeron fenómenos naturales inexplicables al sobrenaturalismo antes del conocimiento proporcionado por avances científicos.\n\n5. Reforzamiento social positivo/negativo- Si alguien experimenta suceso positivo luego cumplir ritual curioso puede recibir mensajes/oportunidades comparten experiencia favorable otros buenos resultados similares vice"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
