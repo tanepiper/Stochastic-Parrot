@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HRwk2cUr4DO0VzWcGSSJLKI5C0XE",
+  "object": "chat.completion",
+  "created": 1684393358,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several reasons why someone may feel the need to seek validation from others, and they can vary depending on an individual's personal experiences, beliefs, and attitudes. Some possible reasons include:\n\n1. Low self-esteem: A person with low self-esteem might not believe in their own abilities or that they have intrinsic worth. As a result, they may look for approval from others as a way to compensate for their feelings of inadequacy.\n\n2. Past experiences: Negative feedback or criticism from parents, teachers, or other authority figures during childhood could lead one to develop a habit of seeking external validation in adulthood.\n\n3. Social conditioning: Society often reinforces the idea that we need external validation through social norms such as socially acceptable behavior, appearance standards and success metrics like wealth accumulation.\n\n4. Fear of rejection: People who fear rejection may rely heavily on the opinions of others for affirmation because negative responses can be more easily dismissed if shared by only few people rather than taken personally.\n\n5.Relative deprivation theory : If someone generally feels deprived compared to their peers , friends etc it results in lower psychological well being which leads them  further towards seeking constant approval/validation . \n\n6.Feeling invisible/overshadowed : Growing up always feeling invisible (among classmates/siblings/friends) there is internalised longing for attention,reognition due lack those factors when needed most .\n\n7.People-pleasing tendencies: Individuals who aim to please everyone around them may constantly seek validation to ensure they've met those expectations wherever possible.\n \nIt's important also realise none of these mentioned have absolute correlation but rather gives us general insight about tendencies promoted by aforementioned circumstances/personalty traits/issues . Each person is different so emphasis should be upon understanding oneself better then working gradually towards less dependency"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
