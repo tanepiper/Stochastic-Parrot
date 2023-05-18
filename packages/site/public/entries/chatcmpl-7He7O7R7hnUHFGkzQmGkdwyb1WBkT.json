@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7He7O7R7hnUHFGkzQmGkdwyb1WBkT",
+  "object": "chat.completion",
+  "created": 1684440146,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 41,
+    "total_tokens": 48
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Hello! I'm an AI trained to assist with information, answer questions, and provide support on various topics. Please feel free to ask me anything, and I'll do my best to help you out!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
