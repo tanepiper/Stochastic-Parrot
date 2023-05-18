@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HLiY7xAw3lCmaWUFQPGNODScnZZZ",
+  "object": "chat.completion",
+  "created": 1684369414,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 234,
+    "total_tokens": 241
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several guidelines to follow when writing a letter of resignation. Here are some key pointers:\n\n1. Maintain professionalism: Write your letter in a respectful and courteous manner, even if you're leaving due to a negative experience.\n\n2. Be concise: Keep your letter brief and straight to the point without excessive explanation or detail.\n\n3. Provide reasons (optional): You may choose to provide reasons for leaving; however, this is optional.\n\n4. State your intention: Clearly state that you're resigning from the company and provide the specific date of departure.\n\n5. Include relevant information: Mention any pending tasks or responsibilities that need attention before your departure, as well as any necessary preparations for an easy transition.\n\n6. Offer support with the transition period: If possible, offer assistance or training during this time for whoever takes over your role after you leave.\n\n7. Express gratitude: Thank those who have helped or supported you throughout your time at the company—this will help maintain positive relationships post-resignation.\n\n8. Sign off respectfully: Use an appropriate closing statement such as \"Sincerely\" or \"Regards,\" followed by your full name and signature (if submitting physically)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
