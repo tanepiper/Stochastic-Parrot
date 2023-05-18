@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HLTDCZWUuDgmo9NyoF7r0U3dXTqZ",
+  "object": "chat.completion",
+  "created": 1684368463,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional city would you most like to visit?\",\n  \"answers\": [\n    \"Hogwarts School of Witchcraft\",\n    \"Westeros from Game of Thrones\",\n    \"Gotham City from Batman\",\n    \"Pandora from Avatar\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
