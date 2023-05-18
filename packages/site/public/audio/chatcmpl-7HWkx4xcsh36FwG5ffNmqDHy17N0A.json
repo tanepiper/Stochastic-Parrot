@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HWkx4xcsh36FwG5ffNmqDHy17N0A",
+  "object": "chat.completion",
+  "created": 1684411847,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Pantheon in Rome is a Roman temple dedicated to all the gods of pagan Rome. It was built by Emperor Hadrian around 126 AD, replacing an earlier temple commissioned by Marcus Agrippa during Augustus' reign.\n\nThe Pantheon consists of a grand circular portico with Corinthian columns that lead into a cylindrical building capped with a massive concrete dome covered in bronze plates. The dome remains the largest unreinforced concrete dome in the world and has an open oculus at its center, allowing natural light to illuminate the interior. Interestingly, despite being almost two thousand years old, it remains remarkably well-preserved due to its continuous use throughout history.\n\nOriginally used as a religious temple dedicated to every known god (including lesser-known and local deities), after Christianity became widespread in Rome and replaced paganism as the official religion, it ceased functioning as such. Since then, it has had multiple purposes over aging periods like converted into a church for Christian worship or even served as storage spaces for abandoned artifacts/wares/artworks now displayed around premises.\n\nToday ─ apart from still serving functions similar during past times ─ , this architectural marvel played significance especially when researchers gather to study more about Romans' engineering techniques back then or where Classical designers/muralists gained inspiration considering that they drew myriads crucial themes/style-elements observed within later made historic-centric art forms alike nineteenth-century neoclassicism also hallow structures abiding traditional European architecture standards/devices came forth post-Antiquity; examples entail St Peter's Basilica alongside Vatican City onwards medieval castle recreations across continent France or Italy erected contemporarily middle ages onward renaissance influence creating cements basis Baroque masterpieces mimicking early constructed facility-types commonly soon outwatching current trends besides having"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
