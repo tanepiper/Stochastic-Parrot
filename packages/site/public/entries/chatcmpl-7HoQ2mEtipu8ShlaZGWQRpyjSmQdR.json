@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HoQ2mEtipu8ShlaZGWQRpyjSmQdR",
+  "object": "chat.completion",
+  "created": 1684479742,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 96,
+    "total_tokens": 103
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Korean alphabet, Hangul (한글), was created during the 15th century by King Sejong the Great and his scholars. It was introduced in 1443 and officially promulgated in Korea for public use in the late 1440s. Prior to that, most Koreans used Classical Chinese characters to write their language. The creation of Hangul enabled ordinary people from all social classes to easily learn and communicate through writing, which helped increase literacy rates throughout Korea."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
