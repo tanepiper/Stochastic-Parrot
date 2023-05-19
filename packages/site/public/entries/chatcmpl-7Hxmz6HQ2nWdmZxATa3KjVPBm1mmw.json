@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Hxmz6HQ2nWdmZxATa3KjVPBm1mmw",
+  "object": "chat.completion",
+  "created": 1684515761,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 158,
+    "total_tokens": 165
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a specific location where the spirit of love can be found. The concept of love transcends physical locations and is an emotion or feeling that can be experienced anywhere and anytime in your life.\n\nLove surrounds us in various forms, such as romantic relationships with partners, familial bonds between parents and children or siblings, friendships, animal companionships, community connections, etc. You can find love within yourself through self-acceptance and fostering compassion for others.\n\nYou may also encounter feelings of love during events in nature - like sunsets that evoke warmth or walks outdoors that create peaceful moments. Ultimately it comes down to how you cultivate these experiences in daily life.\n\nFocusing on open-heartedness and understanding other perspectives will help ensure that the spirit of love continues to thrive within you wherever you are."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
