@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HmXwXo0njLRe7QCFHEdku0zq1Zw6",
+  "object": "chat.completion",
+  "created": 1684472544,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 326,
+    "total_tokens": 333
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Please see the information below for two Nordic countries, Norway and Sweden.\n\nNorway:\n\n1. Location: Norway is a country situated in Northern Europe that shares borders with Sweden to the east, Finland to the northeast, Russia to the far north-east corner.\n2. Capital City: Oslo\n3. Population (2021): Approximately 5.4 million people\n4. Language(s): Norwegian (official), Sámi and Kven are recognized as minority languages.\n5.Run by constitutional monarchy system under King Harald V.\n6.Currency: Norwegian Krone (NOK)\n7.Natural features: Fjords, mountains, glaciers\n8.Famous landmarks/places to visit:\n   - Geirangerfjord \n   - The Vigeland Sculpture Park                                      \n   - The Pulpit Rock   \n   - Lofoten Islands  \n9.Member of European Free Trade Association but not European Union\n\nSweden:\n\n1.Location: Located in Northern Europe sharing borders with Norway to the west and north; Finland to the East                                      North-East corner                                                                          \n2.Capital City: Stockholm                     \n3.Population (2021): Approximately 10 million people                          \n4.Language(s) spoken Swedish                                               \n5.Run by parliamentary representative democratic constitutional                                        monarchy—King Carl XVI Gustaf                                                            \n6.Currency : Swedish Krona (SEK).\n7.Natural features include numerous lakes forests rivers coastlines                                                               alongside Baltic sea                                                            \n8.Famous landmarks/places-to visit                                                                                                                              )-The Town Of Visby UNESCOWorld Heritage Site-Vasa Museum                                    \n    )Turn ton berries WarshipAttraction-Northern Lights                                                     "
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
