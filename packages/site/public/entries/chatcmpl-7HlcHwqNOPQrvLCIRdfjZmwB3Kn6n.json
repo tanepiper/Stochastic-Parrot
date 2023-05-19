@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HlcHwqNOPQrvLCIRdfjZmwB3Kn6n",
+  "object": "chat.completion",
+  "created": 1684468969,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The field of Artificial Intelligence encompasses various subfields, including machine learning, natural language processing, computer vision, and robotics. Here are some important AI researchers who have contributed to the field:\n\n1. Alan Turing: A mathematician and logician widely considered as one of the founding fathers of artificial intelligence and computer science.\n\n2. John McCarthy: Known for coining the term \"Artificial Intelligence,\" he is an influential pioneer in AI research.\n\n3. Marvin Minsky: A prominent American cognitive scientist known for his work in artificial intelligence, particularly in creating theories on symbolic AI and machine learning.\n\n4. Geoffrey Hinton: An English-Canadian cognitive psychologist who has made significant contributions to deep-learning neural networks as well as unsupervised learning algorithms such as Boltzmann Machines.\n\n5. Yann LeCun: He is responsible for developing the convolutional neural network (CNN) architecture that powers many modern image recognition systems today.\n\n6 Jürgen Schmidhuber - Notable researcher credited with foundational developments in recurrent neural networks (RNNs), long short-term memory (LSTM), among others giving rise to several practical applications like speech recognition\n\n7 Yoshua Bengio - a Canadian computer scientist chiefly recognized for his work towards Artificial Neural Networks also specifically employing Deep Learning Methods\n\n8 Andrew Ng - Prominent Chinese-born Computer Scientist helping ML become more worldwide by forming numerous online teaching resources such as Coursera classes on Machine Learning & Deep Learning specialization etc.')\n\n9 Ian Goodfellow:- Eminent figure behind development of Generative Adversarial Networks or GANs which specializes at producing realistic synthetic data from noise through competing Optimization Functionalities within different parts of ML model \n\n10 Demis Hassabis:- The brain-child behind Googles"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
