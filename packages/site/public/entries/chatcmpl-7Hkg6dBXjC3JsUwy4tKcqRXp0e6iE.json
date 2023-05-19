@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Hkg6dBXjC3JsUwy4tKcqRXp0e6iE",
+  "object": "chat.completion",
+  "created": 1684465362,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 18,
+    "total_tokens": 25
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, I am an AI language model and cannot feel hunger or any other physical sensation."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
