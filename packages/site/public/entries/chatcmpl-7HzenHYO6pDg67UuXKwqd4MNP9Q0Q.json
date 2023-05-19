@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HzenHYO6pDg67UuXKwqd4MNP9Q0Q",
+  "object": "chat.completion",
+  "created": 1684522941,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 304,
+    "total_tokens": 311
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several potential causes for head pressure, but it's important to note that only a healthcare professional can accurately diagnose your specific situation. However, some possible causes of head pressure include:\n\n1. Sinus congestion or infection: Blocked sinuses can cause pressure in the forehead and around the eyes.\n\n2. Tension headache: Tightness, discomfort or pain on both sides of your head due to muscle tension or stress.\n\n3. Migraine headaches: Intense pain that may be localized in one area (usually one side) of the head and often accompanied by other symptoms such as nausea, vomiting, sensitivity to light and sound.\n\n4. Cluster headaches: Severe pain usually affecting one side of the face or around one eye; these tend to occur in clusters (multiple attacks within a few days).\n\n5. Dehydration: Lack of enough water intake may lead to feelings of dizziness and potentially increase pressure sensations within the head.\n\n6. High blood pressure (hypertension): Elevated blood pressure could trigger headaches if left untreated over time.\n\n7. Intracranial hypertension: Increased fluid pressure around the brain sometimes caused by an injury-related event like a recent car accident or fall from standing height (\"pseudotumor cerebri\")\n\n8. Sleep deprivation / sleep disorders\n\n9.Cervicogenic headache – A type of secondary headache arising directly from structures in neck region\n\nPlease consult with a healthcare professional about your specific symptoms for proper diagnosis and management because these factors should be ruled out individually based on clinical examination"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
