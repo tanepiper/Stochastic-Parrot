@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7I1WshyiXL7trzMSzzHDrR2D2LX0z",
+  "object": "chat.completion",
+  "created": 1684530138,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 171,
+    "total_tokens": 178
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Dear [Teacher's Full Name],\n\nI hope this email finds you well. I am writing to inform you that, unfortunately, I will not be able to attend your class tomorrow due to a medical appointment.\n\nI understand the importance of consistent attendance and staying up-to-date with course material. To ensure that I do not fall behind, I plan on obtaining lecture notes from a fellow student or reviewing any slide presentations/taped sessions provided by you.\n\nPlease let me know if there is any other information or resources needed for me to make up for my absence. Additionally, if there are any assignments due tomorrow, please advise me as to when would be the best time for submission.\n\nThank ypou in advance for your understanding regarding this matter, and I look forward to attending your next class session.\n\nSincerely,\n\n[Your Full Name]\n\n[Course Title/Section]"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
