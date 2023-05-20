@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IAtUs5EF3r8pDrrMykdAPwSPZpoq",
+  "object": "chat.completion",
+  "created": 1684566136,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 210,
+    "total_tokens": 217
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some common sources of stray current in a marina include:\n\n1. Faulty electrical wiring or connections on boats and docks\n2. Electrical devices that are improperly grounded or have damaged insulation\n3. Corroded metal parts, such as fittings and fasteners, which can create an electrical connection between the boat's hull and the water\n4. Nearby power lines and underwater cables that may leak electricity into the water\n5. Defective battery chargers, generators or inverters used on boats \n6. Lightning strikes to nearby structures releasing electric energy into the water\n\nThese sources can result in electric shock drowning (ESD) incidents where swimmers come into contact with this stray current while swimming near marinas or docks containing faulty equipment/wiring – making it extremely dangerous for individuals in and around these areas.\n\nTo prevent stray currents from causing harm, regular inspection and maintenance of all marine electrical systems is vital – ensuring they're properly grounded with no defects present – along with adhering to safety guidelines/protocols when installing any new equipment offshore/on vessels themselves"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
