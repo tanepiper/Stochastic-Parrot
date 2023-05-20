@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IFZrox1pHsosnMLuJKj5gVSKYxoM",
+  "object": "chat.completion",
+  "created": 1684584139,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 30,
+    "total_tokens": 37
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am an AI, but I cannot show emotions like love or happiness. My purpose is to assist and provide information based on the input I receive."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
