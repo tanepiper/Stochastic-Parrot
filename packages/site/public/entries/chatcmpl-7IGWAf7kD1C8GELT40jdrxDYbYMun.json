@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IGWAf7kD1C8GELT40jdrxDYbYMun",
+  "object": "chat.completion",
+  "created": 1684587754,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 59,
+    "total_tokens": 66
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Three Gorges Dam is the world's largest hydroelectric dam, located on the Yangtze River in Hubei province, China. The construction of this massive project began in December 1994 and was completed in July 2012, spanning a total of approximately 17 years."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
