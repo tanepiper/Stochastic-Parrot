@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IdvRksI58GMkB0AW5Lr0b6wxB5n2",
+  "object": "chat.completion",
+  "created": 1684677733,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Extraction of caffeine from tea leaves generally involves the following steps:\n\n1. Crushing or grinding: The first step is to crush or grind the tea leaves into a fine powder, which increases the surface area and makes it easier for solvents to extract the caffeine.\n\n2. Choosing a solvent: A suitable solvent must be chosen that will easily dissolve the caffeine without reacting with other components found in tea leaves. Some commonly used solvents include water, dichloromethane (DCM), ethyl acetate, and supercritical CO₂.\n\n3. Soaking or refluxing: The crushed tea leaves are soaked or boiled in the chosen solvent for a specific period of time, allowing all soluble components (including caffeine) to dissolve fully into the liquid phase.\n\n4. Filtration and separation: After soaking/boiling, filtration removes solid residues such as cellulose fibers while leaving behind concentrated caffeinated solution mixed with other soluble chemicals present in tea like polyphenols/tannins etcetera\n\n5. Caffeine purification: Several methods can clean up extracted mixture targeting isolation of pure/purified crystallized/received captured form e.g., precipitating out using another substance/solvent-react; applying chromatography-electrogenic techniques aiding methyl-xanthines' distinction among compounds-matrix constituents/media-adsorbent interaction/strength; distillation allows separation-dependent-boiling points variants-volatile/temporal differences typical property carrying essential applications-objectives-targets-processes-window opened controls on each major-minor factors pulling-pushing roles-in drives simultaneously , utilizing pH adjustments favor selective deposit settles-establishment yield potency control range-partition variation response rate-adjustable parameters inherent select nature by design purpose...\n\n6.Output collection - Final step would be collecting isolated free"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
