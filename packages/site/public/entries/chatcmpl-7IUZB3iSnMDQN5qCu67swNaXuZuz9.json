@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IUZB3iSnMDQN5qCu67swNaXuZuz9",
+  "object": "chat.completion",
+  "created": 1684641757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 274,
+    "total_tokens": 281
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The major differences between Artificial Intelligence (AI) and Expert Systems are:\n\n1. Concept: AI is a broader concept that includes various applications and techniques designed to enable machines to solve problems, learn from experience, and imitate human behavior. On the other hand,Expert Systems are more specific applications of AI developed for addressing particular tasks or problem areas by simulating human expert knowledge.\n\n2. Functionality: While AI seeks to cover a wide range of cognitive functions such as learning, reasoning, perception, speech recognition etc., Expert Systems focus primarily on solving complex problems in a particular domain through pre-programmed rules derived from expert knowledge.\n\n3. Knowledge Representation: In general terms,AI systems use various representation schemes like neural networks, genetic algorithms etc.to represent their knowledge/tasks/expertise.While expert systems typically rely on rule-based representations using IF-THEN clauses or decision trees.\n\n4.Scope of application : Since Artificial Intelligence deals with creating intelligent agents capable of performing multiple tasks efficiently,it has more wider scope when compared to Expert System which covers only limited domains where they’ve been specifically created catered with required expertise level needed for particular task .\n\n5.Techniques Used : Various Machine Learning Techniques are employed based on type/characteristic nature specifics about artificial intelligence utilization.Expert Systems generally employ Principle-Based Reasoning & Case-Based Reasoning depending on nature/targets expected outturns(set parameter)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
