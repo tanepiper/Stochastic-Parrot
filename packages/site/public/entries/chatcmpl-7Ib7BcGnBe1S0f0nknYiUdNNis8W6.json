@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Ib7BcGnBe1S0f0nknYiUdNNis8W6",
+  "object": "chat.completion",
+  "created": 1684666929,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 131,
+    "total_tokens": 138
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, there is a difference in the two. Burnout refers to a state of emotional, mental and physical exhaustion that occurs after an extended period of high stress related to work or personal life. It is characterized by feelings of disinterest, fatigue and lack of motivation.\n\nCompassion fatigue, on the other hand, is a specific type of burnout experienced by healthcare professionals and caregivers who are constantly exposed to the suffering and trauma experienced by their patients or clients. The constant exposure to other people's problems can cause them to develop feelings of hopelessness, helplessness and emotional exhaustion as they struggle with empathizing with their patients while maintaining personal well-being."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
