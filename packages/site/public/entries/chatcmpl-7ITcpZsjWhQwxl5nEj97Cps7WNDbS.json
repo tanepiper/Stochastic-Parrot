@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ITcpZsjWhQwxl5nEj97Cps7WNDbS",
+  "object": "chat.completion",
+  "created": 1684638139,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 178,
+    "total_tokens": 185
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A balance sheet is a financial statement that provides a snapshot of the company's financial position at any given time. It shows the assets, liabilities and owner's equity in a company.\n\nAssets are the resources owned by the company, which have future economic benefits. These can be tangible items like machinery or real estate but also intangible ones such as patents or trademarks.\n\nLiabilities represent claims on the firm's assets by external parties (creditors). These typically arise from borrowing money, purchasing goods on credit, or other obligations set to be paid in the future.\n\nOwner’s Equity refers to funds contributed by owners or investors and represents how much capital they own within an organization. Retained earnings – profits that are not distributed as dividends but reinvested to grow operations – also form part of this category.\n\nThe relation between them is mathematically represented as:\nAssets = Liabilities + Owner's Equity"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
