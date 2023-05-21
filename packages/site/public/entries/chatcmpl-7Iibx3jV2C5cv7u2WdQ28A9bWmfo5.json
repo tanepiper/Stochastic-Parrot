@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Iibx3jV2C5cv7u2WdQ28A9bWmfo5",
+  "object": "chat.completion",
+  "created": 1684695745,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 305,
+    "total_tokens": 312
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A collective bargaining agreement (CBA) is a written legal contract between an employer and a labor union that represents the employees. The purpose of this agreement is to establish terms and conditions of employment, such as wages, hours, safety procedures, grievances processes, etc., that both parties have agreed upon. This CBA helps create a foundation for ongoing negotiation and cooperation between employers and unions throughout the term of the agreement.\n\nThe negotiating process typically begins when either party submits proposals to amend or remove conditions in order to reach common ground. Throughout negotiations, both management and union representatives communicate their concerns about each item outlined in the original proposal until each condition has been addressed accordingly.\n\nOnce an agreement on all proposed changes has been reached—or if sufficient progress on reaching consensus seems unlikely—the signing parties may draft what they believe is amenable language into writing which will then be submitted back-and-forth before finally being approved by relevant membership votes (i.e management's board members granting ratification while rank-and-file employees decide whether or not they agree with employee-representative's decisions). \n\nCollective bargaining agreements differ depending on local laws where those entities are based; however generally speaking: Wage scales - how much workers should receive for various levels/jobs/experience within their industry sector\n\nSome key elements include:\n\n1. Wages/salary structure,\n2. Working hours/shifts\n3. Health benefits\n4.\r\nSafety regulations/policies/rules/procedures \n5. Vacation time\n6\u0000ỗ\u000e\u0007\u0002\u0012!\u0013\u0003\u0004\u0005\u0006"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
