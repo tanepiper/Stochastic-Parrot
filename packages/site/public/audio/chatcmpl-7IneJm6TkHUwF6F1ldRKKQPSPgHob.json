@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IneJm6TkHUwF6F1ldRKKQPSPgHob",
+  "object": "chat.completion",
+  "created": 1684715111,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 235,
+    "total_tokens": 242
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Like most countries, the Philippines also has laws against radio jamming. The National Telecommunications Commission (NTC) is responsible for regulating and enforcing rules around radio frequencies in the country under its mandate.\n\nThe NTC implements Republic Act No. 3846 or \"An Act providing for the Regulation of Radio Stations and Radio Communications in the Philippine Islands\" -- this legislation includes provisions on licensing, frequency allocation, technical requirements, penalties and more.\n\nSection 25 of RA 3846 states that it is unlawful to use any frequency without a duly issued permit from the NTC:\n\n\"No person shall operate any spark-gap transmitting equipment which may interfere with other stations except by special authority issued by Secretary.\"\n\nJamming disrupts communication systems not only for law enforcement but also for essential services like emergency response teams who rely on these systems during times of need. It can lead to confusion during emergencies as well as creating potentially dangerous situations if critical infrastructure is affected.\n\nAny individual caught using radio jamming devices could face legal charges such as revocation of licenses, fines or even imprisonment depending on circumstances involved and severity offense committed under existing telecommunications laws in Philippines including penalties found within RA 3846 itself+"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
