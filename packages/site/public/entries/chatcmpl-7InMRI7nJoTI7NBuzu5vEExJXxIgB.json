@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7InMRI7nJoTI7NBuzu5vEExJXxIgB",
+  "object": "chat.completion",
+  "created": 1684714003,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 101,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The age of an 18-year-old 50 years ago would be 68 years old now. \n\nHere's the math: \n- They were 18 in (current year - 50), or a birth year of (2022 - 50) = 1972\n- Their current age is calculated as (current year - birthyear) \n=Our subject would be (2022 – 1972)\n=They would be, therefore, at present time, aged around ’68’."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
