@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IyfB5B7rIhI6uSa90nPDdZupKJYS",
+  "object": "chat.completion",
+  "created": 1684757449,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 297,
+    "total_tokens": 304
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Make money from your land by engaging in various methods, including:\n\n1. Agricultural activities: If you have fertile land, growing fruits and vegetables can be a lucrative business. Start a small farm or orchard with crops that are in high demand and make a profit selling them to local markets.\n\n2. Livestock farming: Raise animals such as cows, sheep, goats, pigs or poultry on your property to generate income through the sale of meat, eggs and dairy products.\n\n3. Rent out your land for events: Offer space for outdoor weddings, private parties or corporate events.\n\n4. Develop campsites or RV parking facilities: Provide suitable sheltered areas for campers who enjoy spending vacations outdoors.\n\n5. Timber sales: If you have wooded areas within your property stand to benefit greatly from timber sales provided it is sustainably managed\n\n6. Horse-keeping services/Create an equestrian center -If enough land is available this may present another opportunity \n\n7.Set up fishing ponds – utilize any natural sources of water  & turn into commercial venture\n\n8.Solar panel installations & Wind turbines -Depending on amount / type of sunlight may set up solar farms\n\n9.Beekeeping/honey production -Bees need homes too! Adding hives could lead lucrative honey business+ pollinate nearby plants24/10/octet-stream\n10.Educational workshops & courses-Stand-alone workshop weekends/ intensify summer school programs \n\n11.Parcel off unused sections – subdividing-selling houses/sheds.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
