@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IsuyEk4U8yeI9vjytfBH1Vzwvs5l",
+  "object": "chat.completion",
+  "created": 1684735364,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 253,
+    "total_tokens": 260
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Venom is a secretion produced by certain animals, such as snakes, spiders, and some marine creatures like box jellyfish. It typically contains various proteins and enzymes that serve different purposes. Most venomous animals deliver their venom through specialized apparatus like fangs or stingers.\n\nThe purpose of venom varies depending on the animal producing it. In many cases, it serves as a method of defense against predators or competitors; introducing paralyzing agents or harmful chemicals can deter threats effectively. On the other hand, many predatory species also use their venom to subdue prey for easier consumption.\n\nVenom's impact on humans varies widely depending on the type and concentration involved in an encounter. In some cases, exposure may cause relatively mild symptoms like localized pain or swelling; in more extreme examples – such as with bites from highly poisonous spiders or snakes – serious injury or even death can result if immediate medical attention isn't received.\n\nSome venoms have been found to possess unique medicinal properties and are being studied for potential pharmaceutical applications in treating conditions like chronic pain relief (like cone snail venom) and anti-cancer treatments (components from Australian funnel-web spider's peptide). Researchers continue exploring these seemingly untapped resources to gain a full understanding of their potential benefits alongside any hazards they pose naturally."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
