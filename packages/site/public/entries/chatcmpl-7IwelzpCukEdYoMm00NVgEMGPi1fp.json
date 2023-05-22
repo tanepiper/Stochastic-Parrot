@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IwelzpCukEdYoMm00NVgEMGPi1fp",
+  "object": "chat.completion",
+  "created": 1684749735,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to call a lyft:\n\n1. First, download and install the Lyft app from the App Store (iPhone) or Google Play Store (Android).\n\n2. Open the Lyft app and sign up for an account if you haven't already done so. To sign up, enter your phone number, verify it with a code sent via SMS, then provide your email address and create a password.\n\n3. Add a payment method to your account by tapping on the \"Payment\" tab at the bottom of the screen and following the prompts.\n\n4. Once you've set up your account and added a payment method, go back to the home screen in the app.\n\n5. Set your pickup location: The map should show your current GPS location as a blue dot surrounded by a dotted circle with an icon that looks like someone holding luggage above it - this is where Lyft thinks you are currently located based on GPS data from your phone's sensors.Tap anywhere within that detection radius – or long-press anywhere else onscreen – to adjust where exactly would be picked up when ride arrives.\n   \n6. Choose your destination: Tap \"Add Destination\" below address search bar near top-left corner.then type desired destination into input field pops open near top portion entailing business names+individual addresses among assortment intuitively predicted options matching provided text.matched places predictably synced W/ certain other apps e.g Google Maps.Simply select accurately reflects intended journey endpoint ensuring arrival.\n\n7.Select Car Type.Decide preferred vehicle option among diverse array accommodated numerous preferences.Depending regional availability common choices incl.'Lyft'(typical 4-seater car); 'XL'(larger space accommodating parties ≤6 occupants)'Lux'/'Black'/'Black XL'(luxurious black tint"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
