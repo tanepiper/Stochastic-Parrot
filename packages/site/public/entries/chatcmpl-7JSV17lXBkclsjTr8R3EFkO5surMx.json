@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JSV17lXBkclsjTr8R3EFkO5surMx",
+  "object": "chat.completion",
+  "created": 1684872139,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Chumash people are Native Americans who have lived in the coastal regions of southern California, primarily in what is now Santa Barbara, Ventura, and San Luis Obispo counties. Their population is believed to have peaked at around 20,000-25,000 individuals before the Spanish colonization.\n\nThe Chumash culture was complex and had its own social structures. They were governed by chiefs who were inheritable leaders and held authority over a village or group of villages. The Chumash society was hierarchical with elite classes enjoying privileges like control over resources and labor.\n\nTheir religion focused on a pantheon of supernatural beings that helped maintain order in nature and human life. There were several ceremonies throughout the year which persuaded these spirits to continue their support for the world's equilibrium. They also practiced shamanism through which they ventured into spiritual realms after ingesting hallucinogenic plants like jimsonweed (Datura wrightii) for guidance or healing purposes.\n\nChumash men traditionally hunted marine animals such as seals and sea lions while women collected shellfish from rocky shores or fished using nets from plank canoes called tomols made out of redwood planks sewn together with plant fibers. Salmon, steelhead trout, abalone mussels also provided important sources of protein.They cultivated food crops such as maize, beans,squashes,and sunflower seeds\n\nFor clothing materials,the Chuman used tule(a large bulrush) fiber for making skirts.Certain clotheswere createdmade out deer fur hide.Their shoes consisted protection soles that covered directly under their feet\n\nTheir homes referred huts (ap- )constructed using wooden poles arranged conical shape circumvented matted-fashioned plant material.Chief residence known 'ulu'wich typically sized bigger"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
