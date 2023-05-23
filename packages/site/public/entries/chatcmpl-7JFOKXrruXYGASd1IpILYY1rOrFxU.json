@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JFOKXrruXYGASd1IpILYY1rOrFxU",
+  "object": "chat.completion",
+  "created": 1684821752,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are various reasons why you might feel stuck in your career, including:\n\n1. Lack of opportunities for growth or advancement: In some industries or companies, there might be limited opportunities to move up the ladder or gain new skills.\n\n2. Frustration with your current job role: It's possible that you have outgrown your current role and are eager to take on more responsibilities or challenges but don't have the opportunity to do so.\n\n3. Job stagnation: You may have spent years in a job without receiving any promotion, expansion of responsibilities, salary raise or significant increase in responsibility which is leading complex emotions towards a static work life cycle over time.\n\n4. Disillusionment with company culture/leadership: Sometimes an employee can become disillusioned by their company’s management practices or overall direction especially when said practices appear unethical/problematic.An oppressive workplace environment can make it difficult to thrive professionally.\n\n5.Other employees having better/prominent professional growth than one is demoralizing.The comparison aspect develops which makes oneself feel inadequately trapped.\n \n6.Feeling undervalued/underappreciated :When people perceive they're putting more effort/receiving less recognition for what they contribute,the feeling intensifies\n\n7.Lack of motivation/passion Over time,it's possible an individual loses interest/motivation creating a sense of helplessness/dread about one's prospects \n\n8.No clear career path A clearly defined plan/goal is important not just as guiding tools but also assuring employees potential escalation Muddled goals blur future outcomes making people question their choice.\n\n9.Outdated skill set - Rapidly advancing technology has resulted leaving certain roles/skills obsolete pushing professionals into stagnating waters\n\n10.Burnout –Success requires consistent/hard work ,"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
