@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JDWGsk9PKGQ0s2FTJwYPJ288CHQo",
+  "object": "chat.completion",
+  "created": 1684814556,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 256,
+    "total_tokens": 263
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to determine if a business is authentic or trustworthy:\n\n1. Research the business: Look up the company's website, read about their history and values, and search for customer feedback online.\n\n2. Verify contact information: Confirm that the company has a phone number, email address, and physical address listed on their website. Then try calling or emailing them to see if there is an actual person responding.\n\n3. Check reviews and ratings: Look for independent reviews from customers who have worked with the company and check any star ratings available on platforms like Google Reviews or Trustpilot.\n\n4. Assess transparency: Authentic businesses will usually display details about their management team, ownership structure, board of directors (if applicable), policies regarding returns/cancellations, privacy policy/terms of service for using their website/app etc., which indicates they've taken time striving seems professional by putting thought into how customers interact with them digitally & in person\n\n5.Remove emotion from decision making process : It’s easy become emotionally invested potential partners – we want believe that someone isn’t ripping off others after all! But protect yourself better trying make more objective assessments relevant factors instead letting gut feelings sway too heavily either direction; this allows weigh both sides more deliberately before forming an opinion based evidence rather than hunches alone"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
