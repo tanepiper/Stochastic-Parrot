@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JVJM4hsxV6lgisuIISvk2n6kosxt",
+  "object": "chat.completion",
+  "created": 1684882948,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 47,
+    "total_tokens": 54
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, but I am an AI text-based program and don't have the capability to send you a guitar. Please try contacting a music store or shopping on websites that sell musical instruments like Amazon, Guitar Center, or Sweetwater."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
