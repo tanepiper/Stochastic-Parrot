@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7J9piuDXsSiQriu1A1pryzisz2o0x",
+  "object": "chat.completion",
+  "created": 1684800386,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 259,
+    "total_tokens": 266
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "CPM (cost per thousand impressions) and CPC (cost per click) are advertising models used to determine the cost of an advertisement for webpage or social media ads.\n\nCPM: In the CPM model, advertisers pay a fixed amount for every 1,000 times their ad is shown, irrespective of whether anyone clicked on the ad or not. This model is preferred by companies when they want to increase visibility and raise brand awareness. The primary goal here isn't necessarily conversions (clicks), but rather reaching as many people as possible with their message.\n\nCPC: In the CPC model, advertisers only pay when someone clicks on their advertisement. With this paid search marketing method, businesses have tighter control over budgets as they're paying for results – that's clicks – instead of just views like in CPM campaigns. Unlike CPM where exposure takes precedence over interactions, CPC helps specifically target prospects and potential customers interested in a product or service.\n\nIn summary:\n\n- Cost Per Thousand Impressions (CPM): Advertisers are charged based on how many times their ad appears.\n- Cost Per Click (CPC): Advertisers are charged when someone clicks on their ad.\n\nEach advertising model has its own merits depending upon campaign goals and desired outcomes from website owners or digital marketers using these services."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
