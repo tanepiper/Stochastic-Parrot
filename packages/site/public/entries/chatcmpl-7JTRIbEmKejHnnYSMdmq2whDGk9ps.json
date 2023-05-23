@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JTRIbEmKejHnnYSMdmq2whDGk9ps",
+  "object": "chat.completion",
+  "created": 1684875752,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 122,
+    "total_tokens": 129
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Stepping stones are a series of small, flat blocks or stones that allow you to walk across a surface without getting your feet wet or dirty. They are often placed in gardens, on pathways, and across shallow bodies of water such as streams.\n\nThe purpose of these stepping stones is to provide an aesthetically pleasing way to traverse over different surfaces while also minimizing the impact on the natural environment around them. Stepping stones help protect plants and habitats from being trampled upon by providing designated walking areas. Moreover, they can enhance the appearance of outdoor spaces by presenting interesting visual patterns and points of interest within landscapes."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
