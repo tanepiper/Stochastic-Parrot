@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JL11dvO5yXQuM1yvKQNtiHuWNOEu",
+  "object": "chat.completion",
+  "created": 1684843371,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 20,
+    "total_tokens": 27
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Do you want me to create the poem from scratch or use specific words and phrases provided by you?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
