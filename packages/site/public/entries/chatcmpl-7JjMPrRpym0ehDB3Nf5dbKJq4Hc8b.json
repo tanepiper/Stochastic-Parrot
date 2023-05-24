@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JjMPrRpym0ehDB3Nf5dbKJq4Hc8b",
+  "object": "chat.completion",
+  "created": 1684936953,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 208,
+    "total_tokens": 215
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Of course, I'd be happy to help you with that. Here are the steps to perform factory reset on an iPhone:\n\n1. Backup your data: Before performing a factory reset, it's essential to backup your data like photos, contacts and apps using iCloud or iTunes.\n\n2. Open \"Settings\" app on your iPhone.\n\n3. Scroll down and tap on \"General\".\n\n4. Scroll down again and tap on \"Reset\".\n\n5. Tap \"Erase All Content and Settings\". You will see a warning message about deleting all media, data and resetting settings.\n\n6.Save any important information or files as needed, then tap 'Erase Now.'\n\n7.Enter your passcode if prompted.\n\n8.Confirm action by tapping 'Erase [Device]'\n\n9.Your device will now begin the process of erasing itself to its original factory state\n\nAfter completing these steps successfully; Your iPhone should restart automatically with its original settings where you can set up as new or restore from a previous backup via iTunes or iCloud during initial setup process."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
