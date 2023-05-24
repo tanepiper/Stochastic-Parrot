@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Jqr0uwesZRyG2jgsinD7rSAZ3rkc",
+  "object": "chat.completion",
+  "created": 1684965758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 66,
+    "total_tokens": 73
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm really sorry, but I am an AI language model and I cannot use Zoom or participate in a Zoom coaching session as it requires me to be able to hear, see, and interact with real-time video and audio. However, I can help answer questions about coaching techniques or share tips on different topics if you'd like."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
