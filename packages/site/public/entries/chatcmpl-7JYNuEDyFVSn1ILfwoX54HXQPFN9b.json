@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JYNuEDyFVSn1ILfwoX54HXQPFN9b",
+  "object": "chat.completion",
+  "created": 1684894762,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 186,
+    "total_tokens": 193
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The island of Singapore is very densely populated, with a population of about 5.7 million people living in an area of around 725 km² (280 square miles). This makes it one of the most crowded countries globally; however, Singapore's urban planning and infrastructure have managed to accommodate its growing population through efficient public transit systems, as well as high-rise residential and commercial developments.\n\nWith land scarcity being a pressing issue for the city-state, Singapore has employed innovative methods to maximize useable space. These include developing underground facilities and ample green spaces on top or at grade level.\n\nDespite its dense urban fabric, Singapore remains known for clean streets and organized cityscape. Green corridors are interwoven throughout the country which enhances air quality because it permits cool breezes to flow. Consequently making it a livable city even though having such high density in terms of populations per square mile areas(corrigé finalement en virgule)"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
