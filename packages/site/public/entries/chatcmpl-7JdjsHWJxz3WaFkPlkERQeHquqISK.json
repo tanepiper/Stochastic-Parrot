@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JdjsHWJxz3WaFkPlkERQeHquqISK",
+  "object": "chat.completion",
+  "created": 1684915344,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 321,
+    "total_tokens": 328
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Niacin, also known as vitamin B3 or nicotinic acid, is an essential nutrient that helps convert food into energy for the body. It plays a crucial role in maintaining proper cell function and the overall health of various organs such as skin, nerves, and digestion.\n\n- Niacin supports brain function: Vitamin B3 aids in healthy nerve transmission by helping with the synthesis of neurotransmitters. This promotes better cognitive communication among your neurons.\n- Increases HDL cholesterol (good cholesterol) levels: High-density lipoprotein (HDL) protects from cardiovascular disease; niacin can help increase these levels while lowering LDL cholesterol.\n- Supports energy production: Niacin is vital for converting carbohydrates, fats and proteins we consume into usable forms to create ATP molecules which provide energy within all living cells.\n- Antioxidant properties: As a precursor to Nicotinamide Adenine Dinucleotide (NAD), niacin acts indirectly as an antioxidant neutralizing harmful free radicals within your system leading to increased immunity against inflammation & chronic diseases.\n- Improves skin health: By enhancing blood flow beneath skin along with improving cellular rejuvenation process; hence it's used therapeutically in many dermatological disorders like acne vulgaris etc\n\nSone natural sources of niacin include,\n\n- Meat products such as lean beef cuts & chicken breast\n - Fishes rich in omega 3 fatty acids like salmon & tuna varieties\n - Whole grain cereals including wheat bran flakes or oatmeal porridge recipes'\n - Nuts especially almonds walnuts peanut butter '\n-Natural dairy choices low-fat milk yogurt cheese ','"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
