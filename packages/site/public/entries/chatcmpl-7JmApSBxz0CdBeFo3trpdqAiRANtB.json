@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JmApSBxz0CdBeFo3trpdqAiRANtB",
+  "object": "chat.completion",
+  "created": 1684947767,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Get a clear plastic container that is large enough for the ice cream mold or molds you plan to use.\n\n2. Find a flat surface in your freezer where the container can fit and be stable. Clearing any items in its way might help.\n\n3. Fill the container with water, just about an inch deep, then place it back into the flat space inside of your freezer until frozen solid.\n\n4. Next, remove it from the freezer and get ready to prepare your desired ice cream mix.\n\n5. Place cone-shaped molds on top of this first layer - this will give each scoop molded shape when placed into waffle cones later! Make sure they are properly secured so that they sit balanced on top; alternatively, you could use differently shaped silicon custard cups/muffin liners instead of actual molds if those aren't available to you at home!\n\n6. Pour prepared ice cream mixtures gently down each opening slowly without disturbing either their position atop aforementioned layer nor pre-existing icy contents now beneath them - basically aimful dispensing must occur throughout labors lasting anywhere between five minutes onward depending upon our own specific processes incorporated here!.\n\n7 . Once all are filled as needed continue onwards by putting entire contraption (now featuring added beneficiaries!) overnight inside again: ultra-low temperatures ensure penetrative effectiveness taking hold evenly amongst immersed participants alike whilst judicious planning ensures stability maintained therewith despite uneven weight distribution presented seemingly initially upon outset prior full incorporation entailing initial \"settling\"\n\n8 . The next day take special care when unmolding newfound partnerships no doubt clinging tightly together within crystalized domain lest forcible removal results inadvertently broken structural integrity compromising intended final disposition pursuant planned plating presentation meant but specifically only truly realized great haste manifest should allow immediate enjoyment consumable forms"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
