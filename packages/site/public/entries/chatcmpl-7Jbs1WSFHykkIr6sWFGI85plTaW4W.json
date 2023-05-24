@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Jbs1WSFHykkIr6sWFGI85plTaW4W",
+  "object": "chat.completion",
+  "created": 1684908161,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 93,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A millennial is someone who belongs to the generation born from the early 1980s to around 1995-2000, roughly between ages 22 and 40 in 2021. The term \"millennial\" reflects the large number of people from this particular age group who came of age (i.e., turned into adults) during or close to the turn of the millennium (2000). Millennials are also sometimes referred to as \"Generation Y.\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
