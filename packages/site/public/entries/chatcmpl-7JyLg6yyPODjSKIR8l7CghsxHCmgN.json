@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JyLg6yyPODjSKIR8l7CghsxHCmgN",
+  "object": "chat.completion",
+  "created": 1684994568,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Despite advancements and innovations in the field of artificial intelligence, there are still quite a few things that AI cannot do as well as humans. Some of these limitations include:\n\n1. Understanding emotions: While AI can recognize emotion cues based on facial expressions or vocal tones, it lacks the ability to genuinely understand and respond to human feelings with empathy.\n\n2. Creativity: Humans possess an innate ability for creativity and abstract thinking that allows them to develop new ideas, solve problems, and create art forms in ways an AI system may never be able to replicate.\n\n3. Adaptability: Though AI systems have advanced significantly over the years, they often struggle when faced with unexpected situations or when required to apply their knowledge outside of their specific domain.\n\n4. Social skills: Human beings are social creatures who excel at reading non-verbal cues such as body language or context-dependent gestures during social interactions – something which is currently beyond the capabilities of many AI systems.\n\n5. Morality & ethics: It is challenging for an AI system to comprehend complex ethical issues that arise from various cultural backgrounds without imposing any biased viewpoints upon its decision-making process.\n   \n6. Holistic understanding: Despite some progress in natural language processing algorithms recently, most current AIs are unable “to see the forest through the trees” - connecting seemingly unrelated points together into a cohesive whole remains difficult for machines today.\n    \n7. Intuition & gut feelings: Unlike structured data & logic-driven decisions made by computers, humans rely heavily on intuition developed through years' worth experience helping us make quick judgments even when faced incomplete information onstage hand\n    \n8 Common sense reasoning - This important aspect missing majority Artificial Intelligence programs due lack essential background knowledge necessary general problem-solving\n\nIn summary, though great strides have been made in artificial intelligence"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
