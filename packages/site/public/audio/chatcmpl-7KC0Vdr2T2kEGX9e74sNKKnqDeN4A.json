@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7KC0Vdr2T2kEGX9e74sNKKnqDeN4A",
+  "object": "chat.completion",
+  "created": 1685047071,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 350,
+    "total_tokens": 379
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "[Scene: A pet shop, filled with an array of animals in cages. In the center is a lone perch on which sits a vividly colored parrot, utterly motionless.]\n\nCustomers milling about in exaggerated silly walks.\n\nOwner (loud and cheerful): Ladies and gentlemen! May I have your attention please!\n\n[The customers stop moving comically to pay rapt attention]\n\nOwner (dramatically): We are gathered here today to share some profoundly momentous news! This very parrot -\n\n[Gestures grandly at the unmoving bird]\n\n- has officially transitioned into its latest state... as The Dead Parrot!\n\nA customer fakes surprise using overly British movements.\n\nCustomer 1 (incredulously): Why you don’t say? You mean that ex-parrot right there sittin' still?\n\nOwner: Indeed—the very same loafing life-lacker before us all! Be witness to its stunning transformation from energetic avian actor to this most convincingly perished performance!\n\nCustomer 2 joins in confidently;\n\nCustomer 2(pronounced drawl; nods at cage containing live bunny nibbling carrot. Additionally her huge hat requires her left hand place above eyes restrictively so as make sound toward owner below)\n\n\"That's not who couldn't simply could be—your dog?\"\n\nowner(charismatic yet offended by previous question due silliness but also enjoys it) \"And no barks nor treats shall arouse it from his eternal slumber!\"\n\n[Awkward silence for comedic effect]\n\nCue dramatic music\n\n[chopping frame upon frame until wood falling away revealing center stage encasing montys ]\n\nTogether(group chorus form within foundation)\n\"Nevermore adorned with feathers vibrant,\nShall squawk or flutter cloth over - tea pots attainted"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
