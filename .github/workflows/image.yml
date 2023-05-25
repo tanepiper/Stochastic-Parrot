@@ -1,8 +1,6 @@
 name: 'Polly Dreams'
 
 on:
-  schedule:
-    - cron: 30 */4 * * *
   workflow_dispatch:
     inputs:
       pollySays:
