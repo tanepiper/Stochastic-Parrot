@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7K45ysVEPhgEtJMnEmJqxQYFgfU8R",
+  "object": "chat.completion",
+  "created": 1685016658,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several qualities that make a good team player in sports:\n\n1. Commitment: A good team player is committed to their sport and their teammates, which means consistently attending practice sessions, giving maximum effort during games, and continuously working to improve.\n\n2. Communication: Open communication with teammates and coaches is essential for teamwork. A great team player listens to others' ideas and feedback while sharing their own thoughts respectfully.\n\n3. Cooperation: Being cooperative involves supporting your teammates and being willing to compromise when making decisions together as a group.\n\n4. Positive Attitude: Demonstrating a positive attitude boosts morale within the team, making it more enjoyable for everyone involved in the sport – even during challenging moments or losses.\n\n5. Respect: Showing respect towards teammates, coaches, opponents, as well as officials fosters better relationships on-and-off the field of play.\n\n6. Responsibility & Accountability: Great team players own up to mistakes they make without blaming others; they take responsibility for their actions while working hard to correct those mistakes moving forward.\n\n7. Adaptability & Flexibility: Teammates who can adapt quickly under changing circumstances (such as new coaching strategies or lineup shifts) are valuable assets because this flexibility helps teams transition smoothly through challenges or setbacks encountered throughout a season.\n\n8. Humility & Supportiveness: Good sportsmanship includes humility in both victory and defeat – putting oneself second by praising others' achievements before one's own can foster unity among teammates over individual success seeking tactics that could potentially create divides within a group dynamic setting.\n9. Encourage growth/progression - Encouraging fellow athletes when they need lifting psychologically from personal errors made whilst competing levels outstanding human choices taken above self-glorification individuals might attempt utilizing during pivotal game-changing scenarios where tensions inevitably"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}
