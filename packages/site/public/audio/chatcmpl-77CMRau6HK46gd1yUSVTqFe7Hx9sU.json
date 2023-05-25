@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77CMRau6HK46gd1yUSVTqFe7Hx9sU",
+  "object": "chat.completion",
+  "created": 1681950167,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to improve your academic essay writing, including:\n\n1. Read widely and critically.\n\nDoing extensive research is essential for developing a deep understanding of the topic you're writing about. Reading various sources will help you develop an effective argument and ensure that your ideas are well-supported with ample evidence.\n\n2. Plan your essay before you start writing.\n\nBefore beginning to write, make sure you have a clear plan of what information needs to be included in each section of your essay. This will help maintain the structure and flow throughout the paper while preventing unnecessary repetition or irrelevant tangents.\n\n3. Have a clear thesis statement.\n\nYour thesis statement should be concise, specific, and present an argument rather than merely stating facts or opinions on the subject matter. Make sure this message shines through clearly early on so readers know exactly what direction they’ll be following as they read the full text of your essay.\n\n4. Develop strong topic sentences for each paragraph to keep paragraphs focused.\n\nEach paragraph's first sentence should communicate its primary point related directly back to either support or refute aspects presented within that initial thesis statement developed earlier routinely referred-to often maintain consistency across every single passage presented among final complete work produced ultimately creating unified textual whole remaining true central points it claims make conclusion reached end makes perfect logical sense both terms internal consistency also relationship external resources referenced look up themselves verify accuracy statements included would like learn more background details regarding part learning how create actually easy simply remember main idea intended relayed audience means always contains offer kinds notions address meant something significant use example previously obviously never go adding formal structure when working useful technique talk personal experiences introduce rest using incorrect follow proper sequence steps discussed reference list given past essays suitable written every reader knows looked which one best Beginning many conclusions spoken introduction provide brief explanation familiar term"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

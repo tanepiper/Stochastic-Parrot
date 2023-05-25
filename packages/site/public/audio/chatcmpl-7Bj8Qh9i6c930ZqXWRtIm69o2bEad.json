@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Bj8Qh9i6c930ZqXWRtIm69o2bEad",
+  "object": "chat.completion",
+  "created": 1683029462,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Most mushrooms are non-toxic and safe to eat, but there are several species of toxic mushrooms that pose risks for poisoning when consumed. Here is a list of ten poisonous mushroom types you should avoid:\n\n1. Death Cap (Amanita phalloides): One of the most lethal mushrooms known, they contain potent toxins capable of causing severe liver and kidney failure.\n2. Destroying Angel (Amanita bisporigera, A. ocreata, A.virosa): These deadly mushrooms contain amatoxins affecting the liver and kidneys.\n3. Autumn Skullcap (Galerina marginata): Contains similar toxins as death caps; ingestion can lead to acute liver failure or death.\n4. Fool's Mushroom (Amanita verna): Like other toxic Amanitas, it contains alpha-amanitin leading to fatal organ damage if not treated promptly.\n5.Poison Pie / Hebeloma crustuliniforme: Although not typically deadly like others on this list, it causes gastrointestinal symptoms such as vomiting and diarrhea.\n6.Fly Agaric / Fairy Tale Toadstool(Amanita muscaria) - Containing hallucinogenic compounds called ibotenic acid & muscimol that create psychotic episodes in those who consume them\n7.Common Dreadful Mistake(Belladonna Panaeolus) - Psychoactive due its indolic alkaloids these can cause CNS disturbance & hallucinations \n8.Little Brown Mushrooms(Numberous genus/species)-small brownish-colored fungi growing in clusters with unpredictable effects ranging from hallucinations ,delirium up-to death in some cases(erratic amt/combination)\n9.Horrid Webcap(Cortinarius armillatus) :Contains"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

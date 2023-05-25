@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7B4j52B2DE8pzXh1RnHUchef8bLjv",
+  "object": "chat.completion",
+  "created": 1682874131,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 221,
+    "total_tokens": 228
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Democratic Party platform supports social and economic policies such as universal healthcare, environmental regulations, increased spending on public education, raising the minimum wage, equal pay for women, legalizing same-sex marriage, criminal justice reform, expanding access to voting rights and promoting diversity in public offices. Additionally, the party aims to protect safety nets like Social Security and Medicare while also reducing income inequality through tax reforms.\n\nOn the other hand,\n\nThe Republican Party platform generally promotes conservative principles such as limited government intervention in businesses and peoples' lives. They believe in lower taxation rates for individuals and corporations along with deregulation of businesses to foster growth. Republicans oppose abortion rights (Pro-life) and advocate for tightening immigration laws. The party also supports a strong defense system that prioritizes national security over diplomacy.\n\nIn short:\n\nDemocrats tend to prioritize social issues like LGBTQ+ rights/healthcare/education/minimum wage/environmental policies; they prefer more extensive government intervention in these areas.\n\nRepublicans focus on limiting regulation/business-friendly taxes/security/border regulation/traditional family values; they often endorse minimal governmental involvement outside of military/national defense affairs."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HSsxEASUUJ69p3z0iKuoRHb3EK2q",
+  "object": "chat.completion",
+  "created": 1684396967,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Going to the beach is usually a fun and exciting experience, especially if you're with friends or family. Here are some tips for enjoying your time at the beach:\n\n1. Choose the right location: Find a beach that suits your preferences, whether it's a calm and quiet sanctuary or one bustling with activities. Additionally, check if there are amenities nearby such as restrooms, showers, play areas for children, food vendors or restaurants.\n\n2. Check the weather: Before heading out to the beach on any given day, make sure to check the local weather forecast for rain or high winds which might affect your experience.\n\n3. Protect yourself from the sun: Wear sunscreen with an appropriate SPF level according to your skin type and reapply every couple of hours after swimming or sweating. Also consider wearing sunglasses, hats and UV-protective clothing.\n\n4. Stay hydrated: Bring along plenty of drinking water in insulated bottles so that they stay cold throughout your visit.\n\n5. Pack wisely: Among others essentials like towels and snacks also include sand-removing items like baby powder helps getting sand off of feet quickly before you pack up; garbage bags (both keeping vicinity clean & to keep wet/separate clothes), first aid kits (band-aids.compressed instant ice packs etc.).\n\n6.Pick sports / games : Plan ocean-safe games like Beach-volleyball , frisbees/Ultimate plate etc keeping in mind people around you & their age-groups/skill levels\n\n7.Sand safety& creations:Get creative with sandcastles,& sculptures.If going deep,get aware about sinkholes & trenches\n\n8.Shade breaks : Use umbrellas/tents/pop-ups help cover under scorching mid-day suns’ possible impacts avoiding heat-exhaustion symptoms"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

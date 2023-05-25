@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HdBAlShe7aWL1ZAnlGAwXlq88kdB",
+  "object": "chat.completion",
+  "created": 1684436536,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 343,
+    "total_tokens": 350
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to improve your attention to detail:\n\n1. Be organized: Keep a clean and organized workspace, maintain lists, and use calendars or productivity tools to stay on top of tasks.\n\n2. Break tasks down: Dividing larger projects into smaller, manageable parts can help you focus on each aspect with greater attention.\n\n3. Prioritize tasks: Identify the most important tasks first so you can give them the time and energy they require for extra detail.\n\n4. Take breaks: Regular breaks throughout the day prevent burnout and allow your brain to recharge so that it's easier to concentrate when needed.\n\n5. Stay well-rested: Get enough sleep at night as fatigue reduces your ability to focus and notice small details.\n\n6. Limit distractions: Reduce external distractions in your environment by turning off notifications on gadgets like phones or email alerts during focused work-time periods.\n\n7. Slow down & double-check work output – Taking a bit longer pace ensures accuracy in quality control over quantity of outputs done too quickly & haphazardly filled with errors overlooked because one is rushing through them willy-nilly; checking something before submitting helps catches mistakes others might not →\n\n8 . Practice mindfulness meditation - This technique teaches focusing skills that seek mastery over oneself noticing present moment awareness paying close keen acuity additional detail previously donned less importance then stilling thoughts better defining sense directions leading clearer sharper decisions making where attentiveness thrives supremely!\n\n9 . Train with exercises specifically designed increase abilities pay closer heed itemize things seen either physically mentally separated correct listings later reviewed verification only honing said skill set but\n\n10 . Get feedback from peers supervisors ensure meeting expectations perhaps even adjustments accordingly if fell short certain aspects needing more diligence reach desired levels needing"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

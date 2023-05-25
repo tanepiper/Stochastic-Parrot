@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BZqAWCWIUCCXL8WNLTNMcH7nflgH",
+  "object": "chat.completion",
+  "created": 1682993734,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 104,
+    "total_tokens": 111
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "They are completely different words and concepts:\n\n1. 'Irrelevant' is an adjective that refers to something not important, unrelated, or not useful in a particular situation or with respect to certain discussions or issues.\n\nExample: \"Her opinion about the movie was irrelevant since she had not even watched it.\"\n\n2. 'Illicit' is an adjective that means illegal, unlawful, illegitimate, forbidden by law/rules/customs/morality.\n\nExample: \"A large amount of illicit drugs were confiscated during the police raid.\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

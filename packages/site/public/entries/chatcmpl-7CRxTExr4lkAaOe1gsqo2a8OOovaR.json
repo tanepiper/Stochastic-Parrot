@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CRxTExr4lkAaOe1gsqo2a8OOovaR",
+  "object": "chat.completion",
+  "created": 1683201763,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 328,
+    "total_tokens": 335
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Leotards can be made of various materials, but the most common materials used are nylon, spandex or Lycra blend, cotton and polyester. Nylon and spandex blends offer a good balance of durability and elasticity while providing excellent moisture management properties. Cotton and polyester leotards are typically softer with more breathability but may not provide as much stretch or be as durable as their synthetic counterparts.\n\nHere is a brief description of each material:\n\n1) Nylon: This synthetic fabric is known for its strength, resilience, lightweight feel, quick-drying capabilities while still maintaining strong colors over time.\n\n2) Spandex/Lycra: Also called elastane in Europe; this material offers great flexibility and comfort blended with other fabrics such as nylon or polyester to create a comfortable fit that stretches with your body during movement without losing its shape over time.\n\n3) Cotton: A natural fiber derived from the cotton plant provides softness on sensitive skin allowing it to “breathe” making them ideal for individuals who have allergies/sensitivities toward synthetics fibers like those found within nylon- based garments - however these don’t always stay wrinkle-free throughout use which some customers find less appealing than other options available today (like polyester).\n\n4) Polyester: A versatile synthesized fabric known for being strong, lightweight UV resistant – giving it an edge compared runners up when subjected long hours outside beneath scorching conditions around direct sunlight/beach environments etc... although many people choose textiles mixed together types mentioned prior so they receive benefits aspects offered unique individual composition makeup incorporating best worlds quality overall product performance suitable attire style preferences wearers comply popular demand fashionable expectations alike!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

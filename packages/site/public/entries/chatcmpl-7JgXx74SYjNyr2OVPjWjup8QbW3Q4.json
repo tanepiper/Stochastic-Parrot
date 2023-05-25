@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JgXx74SYjNyr2OVPjWjup8QbW3Q4",
+  "object": "chat.completion",
+  "created": 1684926137,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 336,
+    "total_tokens": 343
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Blue Mountains is a mountain range located in New South Wales, Australia. They form part of the Great Dividing Range and are characterized by its blue haze, which comes from the eucalyptus forests that dominate the landscape. This region is known for its stunning natural beauty, including vast cliffs, deep valleys with waterfalls, lush rainforests, and accessible bushwalking trails.\n\nSome attractions within the Blue Mountains include:\n\n1. The Three Sisters: A famous rock formation near Katoomba that represents three sisters who were turned to stone according to Aboriginal legend.\n \n2. Scenic World: A popular tourist destination featuring a cable car with sweeping valley views and unique activities such as riding an inclined railway through ancient rainforest or walking along suspended boardwalks.\n\n3. Wentworth Falls: This picturesque waterfall offers beautiful hiking opportunities in an area surrounded by dense forests and dramatic cliffs.\n\n4. Jenolan Caves: An extensive network of limestone caves offering guided tours through chambers filled with striking stalactite formations and underground rivers.\n\n5 . Leura Village & Waterfall Circuit Walk: Charming village complete with boutique shopping experiences followed up by scenic walks around cascading waterfalls found throughout Leura Forest National Pass\n\n6.Government house lookout atop Govetts Leap overlooking Grose Valley providing panoramic view of awe inspiring landscapes,\n\n7.Mount Tomah Botanic Garden home to huge variety of flora native plants,\n\n8.Blue mountains history museum showcasing regional heritage\n\n9.Bushwalking on various apps like Giant stairway trail\n\n10.Picnicking at serene spots like Horseshoe falls Lookout areas provides opportunity to rejuvenate amidst nature while taking break admiring surrounding beauty"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

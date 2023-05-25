@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Jo2ua6iOByD50tWjAAdDxcNLcqaW",
+  "object": "chat.completion",
+  "created": 1684954964,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several differences between industrial and artisanal chocolate as well as the process of making them. Some key areas to focus on include:\n\n1. Production scale: Industrial chocolate is produced in large-scale factories, whereas artisanal chocolate is made by smaller operations, often with more hands-on techniques and attention to detail.\n\n2. Ingredients quality: Artisanal chocolatiers generally use high-quality cocoa beans sourced from specific regions known for their exceptional flavors. In contrast, industrial chocolate typically uses lower quality beans that may incorporate a blend of sources and can be less flavorful or even bitter.\n\n3. Cacao percentage: Industrial chocolates usually have a lower cacao percentage compared to artisanal chocolates because they prioritize cost efficiency over flavor intensity. As a result, mass-produced chocolates tend to rely on sugar or other additives for taste enhancement which compromises the original essence of cocoa.\n\n4. Processing methods: Many artisans roast their own cocoa beans in small batches to achieve desired flavors during bean-to-bar production processes while factory-made versions involve roasting at high volumes without much control over individual batches.\n\n5. Conching time: Artisans spend longer durations refining their chocolates through conching (grinding) than factories do which results in smoother consistency and enhanced flavors due to friction-induced heat release of volatile compounds associated with pleasant aroma characteristics.\n\n6. Additives & preservatives: Commercially available industrial chocolates often contain additives such as soy lecithin (emulsifier), hydrogenated oils, artificial colors or flavors aiming at cost reduction or prolonged shelf life advantages; consequently sacrificing overall product purity aspects unlike handcrafted counterparts who prefer minimal intervention emphases respecting both ingredient origin transparency along holistic manufacturing values considerations priorities wise sustainable long-term visions encompassing profitability concerns secondary outcomes benefits realizations perspectives bases enduring successes"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

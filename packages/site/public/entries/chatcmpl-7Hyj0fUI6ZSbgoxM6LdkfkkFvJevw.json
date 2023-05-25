@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Hyj0fUI6ZSbgoxM6LdkfkkFvJevw",
+  "object": "chat.completion",
+  "created": 1684519358,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Research the job and the company: Start by researching and understanding as much as you can about the job position, requirements, company culture, values, and industry trends.\n\n2. Match your skills to those required for the position: Analyze the job posting or description and make a list of required skills or qualifications. Then match them to your own abilities; this will help you tailor your answers to what they're looking for during an interview.\n\n3. Dress appropriately for the interview: Select professional attire that is appropriate for their office environment.\n\n4. Prepare well-thought-out responses to common interview questions: This includes answering behavioral questions with examples from previous work experiences employing STAR technique (Situation, Task, Action, Result).\n\n5. Practice answering these sample questions aloud at home before practicing them in front of friends or family members who can provide constructive feedback on body language, eye contact etc.\n\n6.Don't be late – arrive early if possible! Plan ahead so that traffic delays don’t cause unnecessary stress when trying to get there promptly; also remember any materials needed such as resumes/documents/portfolio!\n\n7.Remain calm under pressure - Deep breaths are important not only before stepping into a room but also during conversations throughout interviews themselves!\n\n8.Listen carefully & engage with any follow-up queries after each question has been answered satisfactorily; think positively regardless how difficult things might seem at times.\n\n9.Highlight specific accomplishments relevant within context given earlier i.e highlight projects/results achieved which resonate closely against what potential employers desire most eg teamwork/leadership expertise exposure etc.)\n\n10.Be genuine- Be yourself while showcasing best aspects without exaggerating too much about personal achievements nor taking sole credit where due share success stories confidently yet remain humble-candid communicative style highly appreciated typically lasting"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

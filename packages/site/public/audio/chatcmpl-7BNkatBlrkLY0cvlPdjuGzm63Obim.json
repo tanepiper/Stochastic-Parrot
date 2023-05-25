@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BNkatBlrkLY0cvlPdjuGzm63Obim",
+  "object": "chat.completion",
+  "created": 1682947260,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 128,
+    "total_tokens": 135
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If 7% of the world's population had blue eyes, it would equal approximately 546 million people.\n\nTo calculate this number, we first need the current global population. According to Worldometer (https://www.worldometers.info/world-population/), the current global population is around 7.8 billion.\n\nNow we find 1% of that total by dividing it by 100: \n7,800,000,000 / 100 = 78,000,000\n\nFinally, multiply that result by 7 to get our desired estimate: \n78,0000 x **7500* new layouteparator=\"yes\">"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

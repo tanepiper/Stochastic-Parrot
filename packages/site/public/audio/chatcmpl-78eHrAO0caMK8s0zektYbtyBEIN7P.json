@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78eHrAO0caMK8s0zektYbtyBEIN7P",
+  "object": "chat.completion",
+  "created": 1682295843,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 178,
+    "total_tokens": 185
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't concrete information available about the average percentage of lyrics that people remember from a song, as it varies widely depending on individuals and their familiarity with songs. People's ability to recall lyrics generally depends on factors like listening frequency, personal interest in music or specific songs, lyrical complexity or simplicity, memorization skills, and emotional attachment.\n\nFrequent listeners of specific genres or favorite bands are more likely to be better at remembering most lyrics. Memorizing song lyrics can also depend greatly on individuals' memory capability; some people have strong aural memory and may easily remember words they hear often in songs.\n\nAdditionally, certain lines or phrases can stick out for being unique or catchy. This is why even if someone doesn't know all the lyrics word-for-word in a song but only one line from the chorus might resonate with them instantly upon hearing it again—triggering memories associated with that track."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

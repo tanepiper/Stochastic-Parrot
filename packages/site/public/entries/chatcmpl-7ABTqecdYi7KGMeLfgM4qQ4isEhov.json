@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ABTqecdYi7KGMeLfgM4qQ4isEhov",
+  "object": "chat.completion",
+  "created": 1682661766,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 311,
+    "total_tokens": 318
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few potential reasons for constant sleepiness in the morning, including:\n\n1. Poor sleep quality: If you consistently have trouble falling asleep or wake up multiple times throughout the night, your body may not be getting enough restorative deep sleep.\n\n2. Sleep apnea: Those with obstructive sleep apnea repeatedly stop breathing during the night due to blocked airways, which can cause daytime drowsiness.\n\n3. Insufficient time spent sleeping: Consistently getting less than 7-9 hours of sleep each night can lead to chronic tiredness and impact performance during the day.\n\n4. Sedentary lifestyle: A lack of regular exercise might affect energy levels and make it difficult to feel alert in the mornings.\n\n5. Late-night blue light exposure: Using screens like phones, tablets, or TVs too close to bedtime may interfere with melatonin production—a hormone that regulates your body's natural circadian rhythms—and disrupt normal sleep patterns.\n\n6. Dehydration: Not consuming enough fluids might result in fatigue upon waking since dehydration affects physical and cognitive function.\n \n7. Nutritional deficiencies: Low levels of certain nutrients like iron or vitamin D could contribute to persistent exhaustion.\n \n8. Stress and anxiety: Emotional stress or mental health concerns can interfere with both falling asleep and overall quality of restful slumber.\n \n Seeking medical advice from a professional is important if you continue waking up feeling sleepy regularly despite making efforts to improve your situation—there could be an underlying condition causing this ongoing sense of lethargy that needs assessment by a healthcare practitioner."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

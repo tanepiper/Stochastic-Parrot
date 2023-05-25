@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79ETfgJDQp372MMw4ymF39f08xmNf",
+  "object": "chat.completion",
+  "created": 1682434959,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 13,
+    "total_tokens": 20
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Nelson Mandela established the Nelson Mandela Foundation in 1999."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

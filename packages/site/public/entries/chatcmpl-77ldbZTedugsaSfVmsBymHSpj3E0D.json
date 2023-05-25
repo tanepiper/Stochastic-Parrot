@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77ldbZTedugsaSfVmsBymHSpj3E0D",
+  "object": "chat.completion",
+  "created": 1682085771,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 225,
+    "total_tokens": 232
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Chef: Here's your medium-rare steak and baked potato, sir. I hope you enjoy!\n\nCustomer: Thank you! This dish looks wonderful.\n\nChef: You're very welcome! If there is anything more that I can do or prepare for you, just let me know. Enjoy!\n\nCustomer: Thanks again. Everything looks great so far, but would it be possible to get a side of mushrooms with this?\n\nChef: Absolutely! Do you prefer sauteed or grilled mushrooms?\n\nCustomer: Grilled sounds delicious!\n\nChef: Excellent choice! I'll have our kitchen provide those as soon as possible for you.\n\nCustomer: Great, thank you so much.\n\n(post-meal)\n\nWaiter/Server (not Chef): How was everything today? Did the chef do a fantastic job on your meal?\n\nCustomer (to waiter/server): Yes! The meal was sublime - please pass my compliments onto the chef for their amazing work in creating such a delectable dining experience.\n\nWaiter/Server : Will do – they will appreciate hearing about your satisfaction. It’s always an honor when customers enjoy our culinary creations to such extent!\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

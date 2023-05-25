@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7G2qGycjM3AW9e5oB7X2bpXb59VSk",
+  "object": "chat.completion",
+  "created": 1684058528,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 301,
+    "total_tokens": 308
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Saransk is a city located in the European part of Russia, and it serves as the capital of Mordovia or the Republic of Mordovia. It lies near the southern border between Nizhny Novgorod and Penza provinces. Saransk has an estimated population size of approximately 300,000 people.\n\nThe city was founded in 1641 and served as an important fortress during its early days before developing into a trading center for agricultural products like grain, timber, and iron ore. Today, it remains an influential economic hub within its region with thriving industries such as mechanical engineering, chemical production, metalworking processes like casting light alloys coupled with food processing plants that specialize in producing sugar from local beet crops along mega dairy farms.\n\nSaransk gained global attention when it was chosen to be one of the host cities for FIFA World Cup held in Russia back in June-July 2018. Attracting tourists worldwide who traveled to witness soccer matches at newly built stadiums ready to accommodate tens of thousands- boosting not just income earnings but also trade relations amongst different countries present at these events keen on stimulating both socio-economic development prospects vital infrastructure improvement projects initiated primarily by recipients outside major metropolitan centres like Moscow Saint Petersburg contributing significantly towards decentralization objectives driven through continued regional growth strategies implementation within their respective territories recognizing ideal conditions required alongside available resources & expertise where applicable all while providing opportunities aimed benefitting broader society perhaps even leading potential transformation aspects positively effecting overall living standards area-specific contexts under consideration"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

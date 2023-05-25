@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7A1Ax67ViIC2SkYCaYKqtRrw3ih2i",
+  "object": "chat.completion",
+  "created": 1682622155,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no definitive list of the \"best\" languages to learn since it ultimately depends on an individual's personal interests, goals, and needs. However, some popular and useful languages to consider include:\n\n1. Spanish: Spoken by over 460 million people worldwide as a first language in more than 20 countries across Europe, Central America, South America, the Caribbean, and Africa.\n\n2. Mandarin Chinese: As the official language of China with nearly a billion native speakers globally; Mandarin has immense economic and cultural significance.\n\n3. French: Widely spoken as both a primary and secondary language in numerous countries throughout Europe (especially France), North Africa (Morocco), West Africa (Mali) various islands in the Carribean such as Haiti.\n\n4. German: Germany is among Europe’s largest economies; mastering their native tongue might open up opportunities for business or help enjoy rich literature like works from Nietzsche\n\n5. Portuguese: The official language of Portugal and Brazil which combined have close to 240 million speakers making it one the most widely used western hemisphere Euro-Asiatic creoles besides Latin derivatives ie English/French \n\n6. Russian - Russia spans two continents (both Eastern European/Western Asia); learning this Slavic loquialism could greatly benefit those interested linguistics/acquisition pursuits alongside better understanding complex relations between east/west ideologies that've played scenes out upon global stages via historical contexts/events pre-millennia forward present times onward future generations come soon enough (*see Cold War*)\n\n7. Japanese - Japan ranks high among world economy contributors driving innovation beyond borders –for good reasons too! With its ancient customs so noticeably instilled today within culture/pop-culture alike gaining familiarity local dialect provides outsiders chance glimpse unique lifestyle/values"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

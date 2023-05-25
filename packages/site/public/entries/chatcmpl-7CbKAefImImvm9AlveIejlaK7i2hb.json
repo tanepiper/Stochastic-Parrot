@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CbKAefImImvm9AlveIejlaK7i2hb",
+  "object": "chat.completion",
+  "created": 1683237766,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 3,
+    "total_tokens": 10
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "learn first?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

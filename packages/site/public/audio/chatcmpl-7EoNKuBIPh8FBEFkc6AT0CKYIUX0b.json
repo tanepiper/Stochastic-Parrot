@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EoNKuBIPh8FBEFkc6AT0CKYIUX0b",
+  "object": "chat.completion",
+  "created": 1683764590,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Several tourist attractions in Mexico City include:\n\n1. Museo Nacional de Antropología (National Museum of Anthropology): One of the largest and most extensive anthropology museums in the world, housing a vast collection of pre-Hispanic artifacts and artworks from different Mexican cultural regions.\n\n2. Palacio de Bellas Artes (Palace of Fine Arts): A grand marble building that serves as an opera house, concert hall, and art gallery featuring murals by famous Mexican artists like Diego Rivera.\n\n3. Zócalo / Plaza de la Constitución: The heart of Mexico City is its central square/zocalo – one of the largest city squares in the world – surrounded by historic buildings like Metropolitan Cathedral, National Palace, Old Portal de Mercaderes.\n\n4. Catedral Metropolitana (Metropolitan Cathedral): Built over three centuries between 1573-1813 on top of a sacred Aztec site -Templo Mayor-, this impressive structure combines Gothic, Baroque and Neoclassical architectural styles.\n\n5. Templo Mayor & Zona Arqueológica: An important archaeological site that was once part of the main temple complex for Aztecs; visitors can explore its museum which holds several ancient Mexican artifacts including giant stone carvings representing gods Huitzilopochtli and Tlaloc\n\n6. Bosque de Chapultepec (Chapultepec Park): One of Latin America's largest urban parks covering over 1600 acres with two lakes; home to Chapultepec Zoo, children’s amusement park La Feria, multiple gardens & more museums along Paseo Reforma Avenue\n\n7. Frida Kahlo Museum (\"La Casa Azul\"): Located in Coyo"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

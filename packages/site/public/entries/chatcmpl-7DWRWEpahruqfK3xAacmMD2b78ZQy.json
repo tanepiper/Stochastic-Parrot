@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DWRWEpahruqfK3xAacmMD2b78ZQy",
+  "object": "chat.completion",
+  "created": 1683457330,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 289,
+    "total_tokens": 296
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some tips to transition from high school to college are:\n\n1. Expect change and be prepared: Understand that college is a different experience than high school, with increased independence, responsibility, and academic workload.\n\n2. Develop strong time management skills: In college, you'll have more free time between classes but more work outside of class. Remember to allocate sufficient time for studying, assignments/exams preparation, as well as other non-academic activities.\n\n3. Get involved in campus life early: Join clubs or organizations that interest you – it's an excellent opportunity to meet new people and make friends.\n\n4. Strengthen your study skills: Learn how to take effective notes during lectures and read textbooks efficiently (using techniques like skimming and scanning). Don't hesitate to seek help if you're struggling academically – visit the tutoring center or ask professors for guidance.\n\n5. Build relationships with professors: Attend their office hours when needed; introduce yourself personally; participate actively in class discussions; show them your dedication towards the course material by asking meaningful questions or contributing insightful comments.\n\n6. Utilize available resources on campus – such as advising & counseling centers, career services offices/centers, libraries/study spaces- these resources can assist both academically/socially/personally/emotionally/etcetera...\n\n7 Find balance between academics/friends/social life/self-care - remember important maintaining mental health/'me time' amidst all responsibilities/tasks/events happening during busy semester schedule"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

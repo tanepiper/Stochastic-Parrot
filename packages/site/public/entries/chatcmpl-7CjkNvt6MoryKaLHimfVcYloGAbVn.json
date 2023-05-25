@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CjkNvt6MoryKaLHimfVcYloGAbVn",
+  "object": "chat.completion",
+  "created": 1683270143,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The primary functions of the World Trade Organization (WTO) are as follows:\n\n1. Administering and managing trade agreements: The WTO oversees the implementation, administration, and operation of trade agreements between its member countries. These agreements serve as a rulebook for international commerce and aim to promote fair trading practices.\n\n2. Forum for negotiations: One of the main functions of the WTO is to provide a forum in which member countries can negotiate trade rules, resolve disputes, exchange information on various aspects related to global trade, and discuss issues affecting their economies.\n\n3. Settling disputes among members: The WTO provides a platform for resolving disputes between member nations over matters concerning international trade practices or policies that may be in violation of WTO principles or agreements.\n\n4. Monitoring national trade policies: The organization monitors members’ adherence to its respective commitments under various WTO agreements by regularly reviewing their national legislation and policies connected with global commerce.\n\n5. Ensuring transparency: All negotiations conducted within the framework of the organization must be transparent so that every participant has an equal opportunity to access relevant information about trading procedures during discussions before decisions take shape based on consensus driven outcomes ensures accountability fairness towards proceedings benefiting all participating parties across diverse interest groups\n\n6. Assisting developing countries with technical assistance and capacity building support – Many developing countries have limited resources when it comes competing against more advanced economies; consequently supporting these areas includes providing necessary skill sets expertise specific guidance regarding basic procedural requirements pertaining adherence obligations stemming agreed-upon arrangements aimed aiding ongoing integration into mainstream processes further enhancing economic growth prospects long spanning term implications;;\n\n7.Promoting cooperation among other international organizations — Collaboration unique relationships maintained empowers stake-holders driving change through interconnected frameworks geared collection dissemination valuable insights pertaining delving deeper holistic approaches solving complex interdisciplinary challenges"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

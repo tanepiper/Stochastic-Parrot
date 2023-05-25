@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CrF1PHULbv2R9h7VZTD54W4ObuRx",
+  "object": "chat.completion",
+  "created": 1683298951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 100,
+    "total_tokens": 107
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot provide a URL as I am an AI language model and do not have browsing capabilities. Additionally, posting links to unofficial websites can potentially lead to sharing sensitive or pirated content, which is against my principles.\n\nHowever, I recommend using official distributors and platforms like Netflix, Hulu, Amazon Prime Video or HBO Max where you can find the TV show you are looking for. Alternatively, physical media such as DVDs and Blu-rays are often available for purchase on authorized retail websites like Amazon or Best Buy."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

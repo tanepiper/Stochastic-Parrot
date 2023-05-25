@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77Um2Lt0UZR5ql3drsG0JBTaMRGam",
+  "object": "chat.completion",
+  "created": 1682020946,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 253,
+    "total_tokens": 260
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Kennedy's domestic agenda was known as the \"New Frontier,\" which aimed at improving the economy, education, healthcare, and civil rights. Some of his major initiatives included:\n\n1. Economic growth: Kennedy advocated for economic growth through policies such as tax cuts to stimulate consumer spending, investment in public infrastructure projects to create jobs and spur economic activity.\n\n2. Education reform: Kennedy increased funding for education by creating new programs like Head Start, which provided early childhood education services to low-income families. He also worked towards making higher education more accessible through grants and student loan programs.\n\n3.Civil Rights: The Civil Rights Act of 1964 was proposed under President Kennedy's administration but passed after his assassination during Lyndon B. Johnson's term; it outlawed discrimination based on race, color, religion or national origin.\n\n4.Healthcare reform: He pushed a comprehensive plan that would provide medical insurance coverage options for everyone within a certain income bracket while providing federal aid for elderly citizens and lower-income households who couldn't afford Medicare premiums (the Medicare program).\n\n5.Space exploration: He announced plans in 1961 for landing astronauts on the moon before the end of the decade had arrived; this became one focus area within America’s ambitious space race against Soviet Union during Cold War era"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

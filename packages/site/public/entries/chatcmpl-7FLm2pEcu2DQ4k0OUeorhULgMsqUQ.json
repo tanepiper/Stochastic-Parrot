@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FLm2pEcu2DQ4k0OUeorhULgMsqUQ",
+  "object": "chat.completion",
+  "created": 1683892974,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 143,
+    "total_tokens": 150
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some people claim to see the future through various methods, such as psychic powers or spiritual connection. While a few individuals may seem accurate with their predictions at times, there is no conclusive scientific evidence supporting the existence of true psychics or mediums that can predict the future.\n\nSome explanations for so-called fortune-telling abilities include coincidences and fulfillment of vague predictions (which can be adapted to different situations), as well as cold reading techniques where knowledgeable practitioners gather information from a person's reactions and background without their awareness.\n\nOverall, predicting specific details about an individual's future remains unreliable and scientifically unproven. However, experts in certain fields can make educated projections based on available data and patterns but they cannot guarantee specific outcomes either."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

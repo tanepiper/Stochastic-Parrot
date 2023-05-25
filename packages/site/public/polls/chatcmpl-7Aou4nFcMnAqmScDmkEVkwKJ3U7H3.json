@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Aou4nFcMnAqmScDmkEVkwKJ3U7H3",
+  "object": "chat.completion",
+  "created": 1682813308,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 74,
+    "total_tokens": 126
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which is the best pizza topping combination?\",\n  \"answers\": [\n    \"1. Pepperoni, mushrooms, and onions\",\n    \"2. BBQ chicken and pineapple\",\n    \"3. Spinach, feta cheese, and olives\",\n    \"4. Sausage, green peppers, and black olives\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

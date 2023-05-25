@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7I4eLMVNye5zeTq4b4BgZfHEJ2PXx",
+  "object": "chat.completion",
+  "created": 1684542133,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "You can get Facebook credentials API to access the URL by implementing the following steps:\n\n1. Create a Facebook Developer Account:\n- Go to https://developers.facebook.com/ and sign in using your personal Facebook account.\n- Complete the registration process if you haven't done this already.\n\n2. Create a New App:\n- Once logged in, click on \"Create App\" at the top right corner of the developers' dashboard.\n- Choose an app type (For example: \"For Everything Else\").\n- Fill out your app's display name and contact email, then select 'Create App ID.'\n\n3. Set Up Products:\nAfter creating your new app, you should be redirected to its Dashboard. Now,\n- Click on \"Set Up\" next to 'Facebook Login.'\n    \n4.Submit Required Settings\nNow you are inside the product settings for Facebook Login,\n-Fill out “Valid OAuth redirect URIs”. It will look like “https://YOUR_PROJECT_ID.firebaseapp.com/__/auth/handler” replacing YOUR_PROJECT_ID with project-id which is visible at https://console.firebase.google.com/project/YOUR_APPLICATION/settings/\n-Allow customers from anywhere but restricting them as per choice with countries option.\nClick Save Changes\n\n5.Get Essentials Credentials \n  To find credentials go back into developer homepage or simply follow Setting -> Basic settings where \n   -App-id :which was created while adding facebook-login product\n   -Secret Key:o Obtain it click show button across App secret field followed by verification.\n\n6.Task not yet over! You must submit development apps for review before they become open publicly [visible only when permission given].\n\nPlease note that continuously fetching APIs could lead frequentlying caps breaking & possible Suspected API keys.Please read through documentations linking terms of usage & best practices avoiding malfunction"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BPKwsxQhwGE5RPWggOkeJ7mSkfB7",
+  "object": "chat.completion",
+  "created": 1682953358,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Masonite is a free, open-source web framework for Python that aims to provide an elegant and intuitive toolkit for building web applications. Masonite enables developers to create powerful and sophisticated applications with simplicity, focusing on clean code and maintainability.\n\nMasonite offers features such as:\n\n1. Fast, organized routing: Masonice uses simple syntax that allows you to quickly define routes in your application.\n\n2. Simple Object-Oriented container service providers: This feature enables easy integration of third-party libraries into the core framework.\n\n3. Active Record style ORM via ORM package called Orator: An object-relational mapper (ORM) designed around simplicity and rapid prototyping experience by enabling developers to write database queries using intuitive syntax.\n\n4. MVC architecture support: Provides clear separation of concerns between models, views, and controllers making it easier to understand the structure of your application.\n\n5. Inversion Of Control container (IoC): Allows binding services or objects during the boot process without having to instantiate them well-organized coding standards\n\n6. Powerful command-line helper utility - Craft commands: Simplify common operations like starting a server, running tests or managing models through simple commands\n\n7. Built-in authentication scaffolding templates supporting multiple authentication systems; this provides an excellent starting point when adding user authorization logic within your application while maintaining security best practices\n\n8 .Flexible File Storage System : You can easily switch storage drivers from local storage driver,file system driver etc.This allows you store files either locally,email ,SDK's etc .\n\n9.Builder helpers,caching tools,response handling,QOL features are some other additional things provided which makes developing more enjoyable,easier & efficient+fast,\n\nOverall Masonite serves as a great choice when it comes to choosing Python Web Framework as its functional,dynamic"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-792Vxo0KRxbHwjSGdtMUJhfXXsEQI",
+  "object": "chat.completion",
+  "created": 1682388973,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 93,
+    "total_tokens": 100
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Dairy-free: Almond, soy, or coconut-based yogurt \n2. Dairy-free cheese made from almonds or cashews \n3. Nutritional yeast (it has a cheesy flavor) \n4. Hummus and vegetable sticks recipe (e.g., using chickpeas, tahini, lemon juice and spices) \n5. Vegan pesto sauce with basil, pine nuts or walnuts, garlic and olive oil; serve with pasta\n6.Support_group"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

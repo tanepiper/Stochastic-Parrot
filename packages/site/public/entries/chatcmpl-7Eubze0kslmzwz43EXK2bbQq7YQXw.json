@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Eubze0kslmzwz43EXK2bbQq7YQXw",
+  "object": "chat.completion",
+  "created": 1683788563,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 166,
+    "total_tokens": 173
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "You should aim to have at least three phlebotomy job interviews. This will give you a good sense of the different work environments and allow you to compare and contrast various employers. Remember that there's no set number of interviews that guarantees an offer, so keep looking for opportunities until you find the right fit for your skills and preferences.\n\nIn some cases, candidates may need more than 3 interviews before receiving a job offer due to market conditions or their level of experience. It is important to be proactive in continuing your job search while waiting for interview responses by applying to additional jobs, attending networking events, or seeking out feedback on your resume from professionals within the industry.\n\nOverall, be patient with yourself during the process and continue refining your interview skills through practice and research as they will be crucial in making lasting impressions with hiring managers."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

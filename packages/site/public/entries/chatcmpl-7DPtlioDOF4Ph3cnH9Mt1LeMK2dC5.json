@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DPtlioDOF4Ph3cnH9Mt1LeMK2dC5",
+  "object": "chat.completion",
+  "created": 1683432173,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 322,
+    "total_tokens": 329
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several books that you can read to help improve your interpersonal skills. Here is a list of some popular titles:\n\n1. \"How to Win Friends and Influence People\" by Dale Carnegie: This classic self-help book offers timeless strategies for effective communication, relationship building, and persuasion.\n\n2. \"Crucial Conversations: Tools for Talking When Stakes Are High\" by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler: This book provides practical tools for managing difficult conversations in both personal and professional settings.\n\n3. \"Nonviolent Communication: A Language of Life\" by Marshall B. Rosenberg: An insightful guide on how to communicate empathetically while remaining assertive.\n\n4. \"The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism” by Olivia Fox Cabane - this book explores the science behind charisma and teaches techniques for developing it yourself.\n\n5. “Emotional Intelligence 2.0” by Travis Bradberry & Jean Greaves – A clear step-by-step guide on improving emotional intelligence through increasing self-awareness, empathy, relationship management skills etc.\n  \n6 “Influence: The Psychology of Persuasion” By Robert Cialdini PhD- In-depth information about human behavior’s influence tactics applicable at various aspects like convincing ideas or compliance-seeking purposes.\n \n7.”Difficult Conversations; How To Discuss What Matters Most”: Offers great advice to those who struggle with having hard conversations necessary yet unpleasant but very impactful too\n8 They Just Don't Get It! Changing Resistance Into Understanding (2019)-By Leslie Austin"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

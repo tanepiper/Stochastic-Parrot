@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Hf3iERi5AmSgGjrEsDvbVKMoHEZ5",
+  "object": "chat.completion",
+  "created": 1684443762,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 345,
+    "total_tokens": 352
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A multimeter is an electronic measuring instrument that combines several measurement functions in one unit. A typical digital multimeter (DMM) can measure voltage, current, and resistance as its basic functions. Some advanced multimeters may also include additional measurement features such as frequency, capacitance, temperature, and continuity.\n\nThe main parts of a digital multimeter are:\n\n1. Display: This is where the measured values are shown digitally on the screen.\n\n2. Function/Range selector: This knob or buttons let you choose the specific electrical quantity (voltage, current or resistance) to be measured and set the required range for accurate measurements.\n\n3. Input jacks: These are where test leads are plugged into when making connections to circuits under test. There are generally three primary jacks:\n \n   - COM jack (common): The black lead connects here.\n   - V Ω mA jack: Used for measuring voltage up to a certain limit (~200V), resistance and low-current (< 1-2 Amps).\n   - High Current Jack (usually marked with ‘10A’): Used for measuring high currents over 5~15 Amps.\n   \n4. Test leads(probes): Two wires with probe tips used for connection between DMM input jacks(markings like\"+\" & \"-\")and circuit points being tested(Between \"voltages\" terminal +/- AC/DC).\n\n5. Hold Button(optional): When pressed data stored temporarily displayed before new value recorded thus allowing record view after easy access without constant focus on screen display changes necessary.\n\n6.Range settings(manual/auto mode)selection switch(operation)-manual-used individual(Lower/higher)value selection from multiple 'ranges,'\n\n7.Audible warning system(user preference setting)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

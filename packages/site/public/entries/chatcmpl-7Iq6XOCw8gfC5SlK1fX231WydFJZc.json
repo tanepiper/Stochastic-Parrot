@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Iq6XOCw8gfC5SlK1fX231WydFJZc",
+  "object": "chat.completion",
+  "created": 1684724549,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A character analysis involves breaking down a character's traits, characteristics, motivations, and growth throughout a literary work to better understand their role within the story. In essence, you are studying how the author has crafted this particular character and what they contribute to the overall story arc.\n\nTo do this effectively, follow these steps:\n\n1. Understand the purpose of your analysis: First, determine why you are analyzing this particular character--is it for an assignment? A discussion among friends? Understanding why you're exploring a specific character can help inform which details should be the focus of your analysis.\n\n2. Read or re-read closely: Pay close attention to any scenes where your chosen character appears to ensure that you gain more profound comprehension of them from beginning to end.\n\n3. Take notes on characterization elements: As you read along with each appearance of your subject in mind consider their physical description (age/gender/high/body type), actions/reactions/how-to-do things (achievements/choices/mistakes), dialogue content + delivery style (formal/informal speech patterns used/emotional tone exhibited), internal thoughts/introspection offered by themselves/others at times as well as their relationships with other people present such as family members/professional colleagues/friends/adversaries etc., plus social positions held like class distinctions/political affiliations/status within community groups/org/worldviews entertained towards various subjects including religion/spirituality/science/human progress/culture/nature/ecology+/etc\n\n4.Use evidence from text passages/details to support any assertions made concerning one's own opinions regarding different aspects addressed either directly indirectly via implied subtextual cues/messages thereby strengthening analytical arguments put forth once necessary preparations complete before submitting finished product onto further review later onwards continuing process always refine ideas considering feedback"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

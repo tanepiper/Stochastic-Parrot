@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JMt4YQ7Ev1v7OLTEzZcEWH3G68R3",
+  "object": "chat.completion",
+  "created": 1684850566,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 237,
+    "total_tokens": 244
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is possible to install Windows 10 on MacBook Pro, but you'll need to use a program called Boot Camp Assistant that comes pre-installed in macOS. Here's how:\n\n1. Make sure your MacBook Pro meets the minimum system requirements for running Windows 10 and has at least 64GB of free storage space.\n\n2. Obtain the necessary components:\n- A USB flash drive with at least 16 GB of storage space (optional but recommended).\n- A copy of the Windows 10 ISO file.\n    - To download it, go to Microsoft's website (https://www.microsoft.com/en-us/software-download/windowsISO)\n    - Select \"Windows 10\" as the edition\n    - Choose a language (e.g., English)\n    - Select either \"64-bit Download.\" \n\n3. Plug your USB flash drive into one of your MacBook Pro ports if applicable.\n\n4. Open Boot Camp Assistant from Applications > Utilities folder or search for it using Spotlight Search.\n\n5. In Boot Camp Assistant, click Continue and follow the on-screen instructions.\n\n6.First select “Download latest updates” if prompted\n\n7.Select Create bootable disk from here upload windows iso file downloaded earlier\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

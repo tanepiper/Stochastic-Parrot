@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F4uomGyTTHuYDMCIZqaCzB0PIjmG",
+  "object": "chat.completion",
+  "created": 1683828170,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to write a script for a talk show:\n\n1. Choose the topic: Pick an engaging and relevant topic that will resonate with both your guests and audience. You can choose trendy subjects, social issues, celebrity interviews, or other topics of interest.\n\n2. Outline the structure: Like any good story or piece of content, your talk show script should follow a clear structure – including an introduction/opening monologue, main discussion/interview segment(s), and conclusion/closing remarks.\n\n3. Write a catchy intro: Craft an attention-grabbing opening sequence that sets the tone for your talk show; this could include humor, anecdotes about recent events or news stories related to your theme/topic—anything you think will draw viewers in from the get-go.\n\n4.Create interesting segments:\nBreak up long periods of talking with audience participation games or prerecorded skits featuring guest stars who might not be available during filming times—even consider incorporating live poll results into discussions/debates so audience members have additional opportunities voice their opinions/input on various questions posed throughout program\n\n5.Guest selection:\nChoose guests thoughtfully—are they experts? Entertaining personalities? Have opposing views/positions suitable debate material)?—answer these questions while also ensuring selected individuals share interesting insights/discussion points centered around episode’s theme/topic\n\n6.Develop engaging interview/personalities question:\nWrite list potential inquiries keep development within key themes/subjects specific individuals would feel comfortable answering/addressing—if possible involve anecdotes/connection between host/guests create more compelling interpersonal dynamic/language/dialogue onstage\n\n7.Brush up on improvisation skills:\nWhile it's important prepared/written content beforehand scope/embrace unexpected twists/momentary shifts conversation remember best kind unscripted/raw human emotion/reaction proven"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

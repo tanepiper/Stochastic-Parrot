@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77dCtDjdF09DAflowP2KCKxyemilj",
+  "object": "chat.completion",
+  "created": 1682053363,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 317,
+    "total_tokens": 324
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In everyday language, empathy refers to the ability to understand and share the feelings of another person. Empathy is often seen as an essential component of meaningful connections and relationships with others. It enables people to better support one another and communicate more effectively.\n\nEmpathic communication skills involve actively listening, being sensitive to other's emotions, validating their feelings, providing comfort or understanding when appropriate, and responding in a non-judgmental manner. People who have strong empathic communication skills are usually good at picking up on cues about what someone else is feeling without them having explicit say so.\n\nSome examples of applying empathic communication skills could include:\n\n1. Offering emotional support - If you notice that a friend seems down or upset, use your empathetic listening skills to understand how they're feeling without jumping into \"problem-solving\" mode right away — those experiencing distress often feel better just knowing someone truly understands them.\n2. Reflecting back the speaker’s emotion – If someone shares something emotionally charged with you (like frustration or sadness), try connecting with them by naming their eemotions verbally (\"It sounds like you were really hurt by that.\").\n3. Validating perspectives – To help show that you respect their viewpoint even if it differs from yours (“It makes sense why you would feel that way.”)\n4 .Acknowledging complexity – Recognize nuances in various situations instead dichotomizing; for instance: “I can see how both sides might have points worth considering”\n6 Paraphrasing- summarizing their point briefly before offering any advice helps ensure accuracy comprehension during conversation dialogue between parties involved"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

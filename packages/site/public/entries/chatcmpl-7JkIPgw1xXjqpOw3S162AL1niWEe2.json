@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JkIPgw1xXjqpOw3S162AL1niWEe2",
+  "object": "chat.completion",
+  "created": 1684940549,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 129,
+    "total_tokens": 136
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If you are referring to the term \"Big Data,\" it refers to extremely large sets of data that can be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions. It includes various data sources like social media, communication records, sensor networks, healthcare records, financial transactions etc.\n\nBig Data is characterized by three key attributes: volume (large amounts of data), velocity (rapid accumulation or processing of data), and variety (different types of structured or unstructured data). The analysis and use of Big Data unlock valuable insights for businesses and organizations in areas such as decision making, problem solving, research development etc."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

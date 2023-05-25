@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FBs71t5y7KwHNWrOO3feVEndjBD8",
+  "object": "chat.completion",
+  "created": 1683854911,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A biome is a large ecosystem with a distinct climate, geography, and wildlife. It refers to areas that share similar environmental conditions and characteristic plant and animal communities. Biomes include tropical rainforests, deserts, savannas, tundra, grasslands, mountains or alpines regions.\n\nHere are some examples:\n\n1. Tropical Rainforest: These biomes have warm temperatures and abundant rainfall throughout the year. They support diverse plant life like tall broadleaf evergreen trees which form dense canopies for animal species like monkeys, sloths or colorful birds such as toucans.\n\n2. Desert: Deserts are characterized by low precipitation rates making them extremely dry environments having little vegetation aside from specialized plants such as cacti or succulents adapted to conserve water in their bodies; animals living here also unique features enabling them survive arid conditions including reptiles camouflaged insects mammals kangaroo rats nocturnal activities minimizing exposure harsh daytime heat sun.\n\n3. Savannah (Tropical Grassland): Savannas are found in areas with seasonal rainfall patterns where there's enough moisture for grasses but not sufficient forest development due scattered tree cover more open spaces herbivores grazers predators coexist migratory patterns elephants zebras wildebeest smaller creatures well lions cheetahs hyenas\n\n4 . Temperate Forest: This biome has cool winters warm summers moderate precipitation levels diverse deciduous forests characterized presence flowering hardwood maple oak birch providing habitat various songbirds squirrels hares deer\n\n5 . Tundra: The coldest known on Earth typically receives very little annual snowfall shorter growing seasons dominate landscape limited diversity mosses lichens-only few hardy shrubs dwarf willows surviving despite treacherous weather fauna consists adaptation techniques resisting"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

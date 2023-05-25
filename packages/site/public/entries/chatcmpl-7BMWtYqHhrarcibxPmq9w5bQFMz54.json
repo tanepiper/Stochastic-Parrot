@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BMWtYqHhrarcibxPmq9w5bQFMz54",
+  "object": "chat.completion",
+  "created": 1682942567,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several reasons that may cause your left foot to go numb. Here are some possibilities:\n\n1. Poor circulation: Sitting or standing in one position for a long time could compress the blood vessels and nerves, causing temporary numbness in the feet.\n\n2. Nerve compression: Pressure on nerves from tight shoes, swelling or injury could lead to numbness and tingling sensations in the foot.\n\n3. Sciatica: Compression of the sciatic nerve can lead to pain along with tingling, numbing sensations starting from lower back down through leg upto-foot\n\n4. Peripheral neuropathy - A condition caused by damage to peripheral nerves due to diabetes, alcohol abuse or vitamin deficiency among others giving rise to sensory symptoms like burning pain,numbness & tingling predominantly affecting hands& feet.\n\n5). Tarsal Tunnel Syndrome: Similar to carpal tunnel syndrome; pressure on posterior tibial nerve near ankle joint causes pain,numbess & tingling at bottom of-the-feet\n\n6). Lumbar spine(below waist) conditions such as disc herniations putting- pressure-on-spinal-nerves leading-to extrinsic pressure manifesting_in_lower-extremities.\n\n7). Raynaud's phenomenon where there is abnormal constriction of arterioles(small arteries) reducing blood flow resulting into color changjes along_feet-&-hand based_on temperatue-affects \n\n8)- Peroneal-nerve palsy:- Microtraumatism/of legs 'specifically fibr head'-pressure prompting neurapraxia-peroneal region releatedly overlying fibular_head_typicall-beolw-knee after sitting/or lying-down;leg-crossed eventually getting-complaints-having-\"foot-drop,\" numb,-weak_leg-/"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

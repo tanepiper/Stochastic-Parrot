@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79GLYeAl6mLCuTDsgHgw7d96o1zKn",
+  "object": "chat.completion",
+  "created": 1682442144,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 123,
+    "total_tokens": 130
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Well, there is no exact number of people in the world who are also thinking about you at this specific moment. It could be zero or multiple individuals, depending on various factors such as your social circle, relationships, public presence (i.e., being famous), and recent interactions with others.\n\nHowever, it's essential to remember that people will think of us from time to time when we connect with them or leave an impression on their lives. As long as you continue building meaningful connections and interacting positively with those around you, there will likely be instances where someone may have you in mind during their day-to-day life."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

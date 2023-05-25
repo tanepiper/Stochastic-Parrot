@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-777Mb3lFzrYplmUPAIUx13se0GRv2",
+  "object": "chat.completion",
+  "created": 1681930957,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 256,
+    "total_tokens": 263
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Salutation in the good old days could vary depending on the region, culture, and social class. Here are some common ways people used to greet each other:\n\n1. Bowing: This was a respectful way of greeting someone, particularly those who were considered superior in terms of social status or age.\n\n2. Curtsying: Similar to bowing but performed by women as they slightly bend their knees while holding their skirts.\n\n3. Tipping one's hat/brim: Usually done by men to show respect when passing by someone or meeting them for the first time.\n\n4. Kissing hands: A more intimate salutation practiced mostly among close acquaintances and family where a person kisses the hand of another (usually elders).\n\n5. \"Greetings,\" \"Good day\" or \"Good morrow\": Simple verbal greetings that were popularly used during different parts of the day.\n\n6. Addressing with titles/respectful forms like \"Sir,\" \"Madam,\" or using Mr., Mrs., or Miss combined with last names.\n\n7- Handshake: An ancient form of greeting that can be traced back thousands of years ago and is still in use today as well\n\nIn general, greetings from earlier times often involved displays of reverence and politeness reflecting hierarchical structures within society.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FX51mQv25LdUHuoG9u1pQTlUZlI3",
+  "object": "chat.completion",
+  "created": 1683936435,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 57,
+    "total_tokens": 109
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"What is your favorite way to unwind after a long day?\",\n  \"answers\": [\n    \"Reading a good book\",\n    \"Going for a walk or run\",\n    \"Watching TV or movies\",\n    \"\\\"Cooking a delicious meal\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

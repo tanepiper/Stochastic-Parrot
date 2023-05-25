@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7I3PZpLPGtubJ0KDKOBZqkAEyESbQ",
+  "object": "chat.completion",
+  "created": 1684537373,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The effects of caffeine on the human body typically begin within around 15-45 minutes after consumption and can last for several hours. Caffeine is a natural stimulant that affects your central nervous system, including your brain, spinal cord, and other nerves.\n\nHere are some common ways in which caffeine affects different parts of the body:\n\n1. Brain: Caffeine blocks adenosine receptors in the brain, which leads to increased alertness and reduced feelings of fatigue. It also causes increased focus and possibly improved cognitive function; however, excessive amounts may contribute to anxiety or irritability.\n\n2. Heart: As a stimulant, caffeine can increase heart rate temporarily. This effect might be more pronounced if you're not used to consuming it or if you consume large quantities at once.\n\n3. Metabolism: Caffeine has been shown to increase basal metabolic rate (BMR) by about 3-11%, meaning your body burns more calories while at rest when you've consumed this substance.\n\n4. Breathing: If someone suffers from asthma symptoms or other respiratory issues, an adequate dose of caffeine may provide minor relief because it helps widen airways briefly – but should never replace prescribed medication.\n\n5-6%. Fat Usage & Weight Control: Moderate intake leads towards higher fat oxidation rates because catecholamine production increases significantly when coffee is ingested – hence why people often believe caffeinated beverages aid weight loss efforts due their appetite-suppressing properties too!\n\n7+. Diuretic Effects.: Although working as diuretics promote dehydration among consumers initially triggering frequent urination problem low doses have no significant impact either short term nor long days daily usage revealed difference between control experimental groups i.e., those who didn't include high risk composite features like"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

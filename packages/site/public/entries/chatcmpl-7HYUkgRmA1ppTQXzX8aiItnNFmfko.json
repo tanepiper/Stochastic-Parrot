@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HYUkgRmA1ppTQXzX8aiItnNFmfko",
+  "object": "chat.completion",
+  "created": 1684418530,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 97,
+    "total_tokens": 104
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is difficult to give an exact number, but there are definitely thousands of computer programming languages that have been developed over the years. Some are widely used and popular, while others were created for specific tasks or purposes and may not be as well-known.\n\nSome of the more popular programming languages include Python, Java, JavaScript (for web development), C++, C#, Swift (for iOS applications), Ruby, PHP, Go (created by Google) and Kotlin (official language for Android development)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

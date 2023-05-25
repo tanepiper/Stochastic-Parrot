@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76sNRDAc7mdQXx8SANDbNWSoGFtVW",
+  "object": "chat.completion",
+  "created": 1681873349,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 333,
+    "total_tokens": 340
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are a few tips to save money while furnishing your apartment:\n\n1. Set a budget: Before you start shopping, establish a realistic budget for how much you're willing to spend on furnishings. This will help guide your decisions and prevent overspending.\n \n2. Shop secondhand: Visit thrift stores, consignment shops, and online marketplaces like Craigslist or Facebook Marketplace for discounted furniture items in good condition.\n\n3. Prioritize purchases: Identify the essential pieces of furniture that you need first before spending money on decorative or secondary items.\n \n4. Consider multi-functional furniture: Look for versatile pieces, such as sleeper sofas or tables with built-in storage, which can serve multiple purposes and save space.\n\n5. DIY projects: Get creative by repurposing old or inexpensive furniture into something new using paint, fabric updates, or other materials.\n\n6. Sales and discounts: Keep an eye out for sales events at local furniture stores and online retailers to benefit from reduced prices on selected items.\n\n7. Quality vs quantity: Invest in quality pieces that will last longer rather than settling solely on cheaper options which might break easily.\n\n8 . Ask friends and family for hand-me-downs if they have unwanted furniture available (and offer to help move it).\n\n9 . Garage/estate/tag sales - Go around local neighborhoods looking for garage / estate / tag sales where families often sell their gently used stuff cheaply\n\n10 . Trading/bartering services : Offer up something you’re good at maybe graphic design , writing etc in exchange of some piece people may be looking to get rid off\n\n11 . Don't rush : Wait until right deal comes along don't panic purchase all things together"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

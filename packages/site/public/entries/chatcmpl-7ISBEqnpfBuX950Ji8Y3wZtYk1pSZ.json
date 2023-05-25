@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ISBEqnpfBuX950Ji8Y3wZtYk1pSZ",
+  "object": "chat.completion",
+  "created": 1684632584,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 308,
+    "total_tokens": 315
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Of course! Here are some suggestions for your outdoor party activities:\n\n1. Water balloon fight: A classic summer activity that adds a competitive and refreshing twist to any gathering.\n\n2. Yard games: Set up different gaming stations with popular yard games like horseshoes, cornhole, bocce ball, or ladder toss.\n\n3. Three-legged race: Pair up and have participants tie one of their legs together for an entertaining relay race.\n\n4. Giant bubble station: Provide giant bubble wands for guests to create huge bubbles in the air – always a hit with kids!\n\n5. Obstacle course: Create obstacles out of pool noodles, hula hoops, cones, and other materials for a fun challenge that can work as both an individual event and relay scenario.\n\n6. DIY Slip 'n' Slide: Lay out tarps soaked with water on a grassy surface or slight slope to cool off while sliding around.\n\n7. Miniature Golf Course Setup: If you'd like something similar but easier than mini golf setting is croquet!\n\n8.Sandcastle Building Contest - if near beach run this competition encouraging people's creativity\n\n9.Musical Chairs : Play music stop it randomly , leaving enough time between songs till everybody sits simitanously !\n\n10.Tug-of-War summing these ideas isnt complete without classic tug o-war , bring in two teams pulling wooden block tied on rope passed since its large group splitting into more groups makes sense\n\nThese activities will entertain all ages at your party & foster interactions amongst attendees boosting atmosphere too !"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

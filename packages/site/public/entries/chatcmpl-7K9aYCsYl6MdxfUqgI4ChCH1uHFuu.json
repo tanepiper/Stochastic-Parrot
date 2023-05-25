@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7K9aYCsYl6MdxfUqgI4ChCH1uHFuu",
+  "object": "chat.completion",
+  "created": 1685037774,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 40,
+    "total_tokens": 47
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Is John a doctor?\n\nIf you don't provide any information about John, I cannot determine whether he is a doctor or not. Please provide more context or information about John to help answer your question."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

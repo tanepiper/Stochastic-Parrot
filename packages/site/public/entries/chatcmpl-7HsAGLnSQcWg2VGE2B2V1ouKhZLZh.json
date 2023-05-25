@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HsAGLnSQcWg2VGE2B2V1ouKhZLZh",
+  "object": "chat.completion",
+  "created": 1684494140,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 258,
+    "total_tokens": 265
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "According to WebMD, some possible threats from drinking too much water include:\n\n1. Hyponatremia: Drinking a large amount of water can dilute the levels of sodium in the blood, causing hyponatremia. Sodium is essential for regulating the balance of fluids within and outside your cells.\n\n2. Swelling of brain cells (cerebral edema): The imbalance caused by low sodium levels forces water into brain cells, which leads to swelling and may result in headache, vomiting, seizures, or even coma.\n\n3. Seizures due to electrolyte imbalances: Overhydration causes critical electrolytes such as potassium and sodium to become diluted in the bloodstream leading to abnormal electrical activity which may trigger a seizure.\n\n4. Coma or death: In extreme cases when excess fluid intake severely impacts body's ability function properly it could lead one into coma or even death.Cellular damage caused by cerebral edema could be fatal if not treated on time\n\n.] \n5.Lung problems : Excess fluid can also build up in lungs making breathing difficulty .\n\nRemember that these conditions occur only with excessive amounts of water consumption over short periods  .For an average person ,drinking about 8 glasses(64 ounces) daily distributed throughout day should provide adequate hydration without risk side effects"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

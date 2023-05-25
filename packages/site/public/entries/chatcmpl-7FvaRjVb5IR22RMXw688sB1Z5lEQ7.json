@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FvaRjVb5IR22RMXw688sB1Z5lEQ7",
+  "object": "chat.completion",
+  "created": 1684030639,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It might be more effective to use a variety of communication methods when dealing with clients who have ADHD. This can allow them to absorb information in different ways, which may assist their ability to concentrate and stay focused during the conversation. Some options include:\n\n1. In-person meetings: Schedule regular face-to-face meetings, as this allows for direct eye contact and immediate clarification of any questions or concerns.\n\n2. Written communication: Provide important information in written forms like emails or handouts, so clients have a tangible resource they can refer back to later.\n\n3. Visual aids: Use visual materials such as charts, graphs, infographics, or presentations during conversations to help illustrate points and maintain attention.\n\n4. Phone calls: Conduct phone check-ins or conference calls periodically if necessary but keep them brief and focused.\n\n5. Video conferencing: Utilize video calling tools for remote clients – it combines visual aids with face-to-face interaction and enables screen sharing capabilities for real-time collaboration on documents.\n\n6. Clear agenda/outline: Before each meeting or call provide an outline that highlights key talking points; this keeps discussions organized and structured yet flexible enough for tangents relevant conversations without getting lost due overwhelmed-ness by several topic discussions at once possible overwhelming situations occurrence potential consequences caused thereby leading people out around go far consider everything talk about why things happening see means also make sure everyone knows understand what needs done doing place plan work order wasn’t expected already expect need come new plans want think figured give chance other side which ones know best hope happen maybe better waiting called ask thought whatever decision comes reason given show anyone tell remember try alright could decide right part step others within amount reach certain period available limits outside either types conditions general rather matter personally point view aspect truly seen personal related individual instead well"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CTpZsFgsPOjwckoSvcjOBM5YXomC",
+  "object": "chat.completion",
+  "created": 1683208961,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To make a paper tank, follow these instructions:\n\n1. Gather your materials: You will need 3 sheets of A4 or Letter size paper in any color you prefer and a pair of scissors.\n\n2. Fold the first sheet: Take one sheet of paper and fold it in half from top to bottom (landscape). Then, fold the halves outwards towards yourself so that there is now a central fold with two equal sections on either side—this should create an M shape.\n\n3. Cut small triangles for wheels: Unfold the first sheet completely; using scissors, cut six little equilateral triangles spaced evenly across half along one long edge to serve as wheel treads later on.\n\n4. Begin making turret base: For the second sheet, start by folding it in half again lengthwise initially (the same way as step 2).\n\n5. Roll this folded piece around itself several times until you have formed a tight cylinder shape—the tighter list better since doing so will give added strength to our tank model’s structure overall!\n\n6. Use adhesive tape or glue if necessary at intervals all around where needed for secure attachment while keeping things neat looking without signs showing through gaps between layers afterward too much still intact exposed outwardly visible when finished up then after securing tightly wrapped layer tucked ends together neatly securely attached place end inside other hold opening overlapped overlap stuck down firmly held open tubular portion end rim providing stable foundation upon which position fits atop perfectly centered snugly seated balance properly oriented direction aimed accuracy sized correctly proportioned relative counterparts already completed constructed combined unified whole assemble next section subsection sections subcomponents together interconnected mutually supporting interrelated working functionally effectively efficiently interactively dynamically variably adjustably adaptively flexibly responsive configurable custom tailored specific user requirements preferences cases conditions situations constraints"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

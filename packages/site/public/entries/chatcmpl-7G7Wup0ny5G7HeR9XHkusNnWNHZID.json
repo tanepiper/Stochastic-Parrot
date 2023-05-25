@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7G7Wup0ny5G7HeR9XHkusNnWNHZID",
+  "object": "chat.completion",
+  "created": 1684076548,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few ways to maximize your learning and remain disciplined while using the internet to study. Here are some tips:\n\n1. Create a schedule: Set aside specific times for studying each day, and stick to that schedule as closely as possible. Plan in advance what you want to cover during those study sessions.\n\n2. Eliminate distractions: Close any unrelated tabs, turn off notifications from social media websites and apps, or consider downloading tools such as site blockers (e.g., Cold Turkey) that temporarily block distracting websites.\n\n3. Break tasks into smaller chunks: Divide your study content into smaller topics or sections that you can work through one at a time to promote better focus and retention.\n\n4. Use active learning techniques: Engage with the material actively by taking notes, asking questions, summarizing information, creating flashcards or outlines of important concepts.\n\n5. Utilize reputable resources: Choose high-quality sources of information such as educational platforms (e.g., Coursera), universities' online course materials (e.g., MIT OpenCourseWare), or reliable academic articles to ensure accuracy of content.\n\n6. Participate in forums/communities related to your topic of interest/study area – interacting with others who share the same interests fosters motivation and accountability on staying focused on learning goals\n\n7.Set SMART goals - Specific, Measurable Achievable Relevant Time-bound Goals create clarity over what needs accomplishing which improves self-motivation regarding studying \n\n8.Utilise productivity technique Pomodoro Technique- Involves scheduling 25-minute intervals working on task broken up by short breaks then longer breaks after completing multiple pomodoros increasing productivity & focus.\n \n9.Utilise free technology available such Quizlet-AnkiDroid for creating digital flashcards allowing effective"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

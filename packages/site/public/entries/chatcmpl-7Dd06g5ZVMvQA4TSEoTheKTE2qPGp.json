@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Dd06g5ZVMvQA4TSEoTheKTE2qPGp",
+  "object": "chat.completion",
+  "created": 1683482538,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 303,
+    "total_tokens": 310
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Princess Bride is a 1973 novel by William Goldman. It tells the story of Buttercup, a beautiful young woman who falls in love with Westley, her family's farmhand. When he leaves to seek his fortune and is presumed dead after being attacked by pirates, Buttercup agrees to marry Prince Humperdinck of Florin.\n\nHowever, before she can wed the prince, she is kidnapped by three men: Vizzini (a Sicilian criminal), Fezzik (a gentle giant from Greenland), and Inigo Montoya (a Spanish fencing master seeking revenge for his father's death). The group is pursued by an enigmatic figure in black known as the Man in Black or Dread Pirate Roberts.\n\nThrough various adventures involving sword fights, wrestling matches, and quick wit battles with Vizzini, it becomes apparent that the Man in Black is actually Westley. He has taken on the role of Dread Pirate Roberts after surviving his encounter with pirates years earlier. Together again, Westley and Buttercup join forces against Prince Humperdinck and other enemies they face along their journey.\n\nA sub-plot consists of Inigo Montoya finally getting vengeance against Count Rugen – a six-fingered man responsible for murdering his father when he was younger – during an intense duel at Florin Castle.\n\nThe satirical story explores themes such as loyalty, friendship, true love versus arranged marriages/convenience-based relationships challenges readers' expectations about traditional fairy-tales while blending adventure romance with humor throughout its pages"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7H1io5FkO9WF4Z7SfbU7AqbCEB7HL",
+  "object": "chat.completion",
+  "created": 1684292550,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 47,
+    "total_tokens": 54
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The former president of Zimbabwe is Robert Mugabe. He served as the country's leader from 1980 to 2017, when he was forced out of power by a military coup and replaced by Emmerson Mnangagwa."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

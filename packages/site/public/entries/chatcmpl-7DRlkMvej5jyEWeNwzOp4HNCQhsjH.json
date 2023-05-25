@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DRlkMvej5jyEWeNwzOp4HNCQhsjH",
+  "object": "chat.completion",
+  "created": 1683439364,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you can file a restraining order if someone is threatening or harassing you. A restraining order is a court-issued command to keep the person away from you and stop them from contacting or approaching you in any way, including online communication.\n\nTo obtain a restraining order, here are some steps:\n\n1. Go to your local courthouse and ask for an application form (sometimes called a petition) for a protective or restraining order.\n\n2. Fill out the necessary paperwork with as much detail as possible about why you need an order in place. Be sure to include specific incidents of harassment and threats made against you by the person.\n\n3. Submit your completed paperwork to the court clerk who will then schedule it for review by the judge considering granting orders that day.\n\n4. Attend your hearing where both parties (you and the accused) may be present; however, check whether there are provisions available that allow seeking protection without being physically present at first instances – especially given risks associated with COVID-19 protocols in many jurisdictions today).\n\n5. If granted their requested relief (\"restraining\" action), follow each requirement stipulated within said document having been deemed enforceable since effective upon serving upon other individuals concerned those forms legalized thus far; consequently preventing further targeting throughout validity thereof which may vary contextually dependent aspect legally construed terminologies therein established per governing laws respective area under jurisdiction competent authorities acknowledged such acts warranting injunction pursuant this request initiating process obtaining civil injunctions restrained subject approach contact petitioner determined accordingly instance credibility substantiated henceforth cessation disputes constituted herein due course entitles recipient respect personal space public right intrusions intimidating factors assessed prior determination issuing anticipatory adjudication averting potential risk hazards events transpiring brought attention beforehand anticipation prevention security envisaged foreseeably damaging consequences infringing rights victims"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

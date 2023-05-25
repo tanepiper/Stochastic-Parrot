@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DesQqOUBtIl2UtpC2EAuUmaClUEY",
+  "object": "chat.completion",
+  "created": 1683489750,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 227,
+    "total_tokens": 234
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The ability to conduct electricity in a material is known as electrical conductivity. It refers to the ease with which electric current can flow through a particular substance, depending on its atomic or molecular structure.\n\nIn general, materials can be classified into three main groups based on their electrical conductivity: conductors, insulators and semiconductors.\n\n1. Conductors: These materials have high electrical conductivity because they allow the easy flow of electrons. Some common examples are metals such as copper, aluminum, silver and gold. Additionally, some electrolytes (ions dissolved in a liquid) also show significant levels of conductivity.\n\n2. Insulators: Insulating materials have very low electrical conductivity since they don't support the free movement of electrons necessary for electric current passage. Substances like glass, rubber and plastics are good examples of insulating materials.\n\n3. Semiconductors: This category lies between conductors and insulators as their level of electrical conductivity changes according to external factors such as temperature or light exposure (for instance). Silicon is one primary example; it serves as fundamental base material for many electronic components (like transistors or diodes)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

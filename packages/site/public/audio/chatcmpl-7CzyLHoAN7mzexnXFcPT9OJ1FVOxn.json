@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CzyLHoAN7mzexnXFcPT9OJ1FVOxn",
+  "object": "chat.completion",
+  "created": 1683332513,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 71,
+    "total_tokens": 78
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI, I don't have personal experiences or emotions like a human does. However, I am designed to process information, learn from it and perform tasks that can make peoples' lives easier and more efficient. Some major things that people use me for include answering questions, providing recommendations, automating simple tasks or offering entertainment such as jokes or games."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

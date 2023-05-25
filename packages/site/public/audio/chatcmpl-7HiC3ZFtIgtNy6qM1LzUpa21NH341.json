@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HiC3ZFtIgtNy6qM1LzUpa21NH341",
+  "object": "chat.completion",
+  "created": 1684455811,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Title: \"Embarking on a New Club Experience: How to Start and Manage Your Own House Music Dance Club\"\n\nTable of Contents:\nI. Introduction\n    A. Background and purpose of the guide\n    B. House music genre overview\n\nII. Laying the groundwork \n    A. Developing your club's concept \n        1) Identifying your target market \n        2) Understanding their preferences\n    B. Choosing a location for your house music club \n        1) Researching local competition\n        2) Evaluating accessibility, safety, etc.\n   \nIII. Assembling a team to run the club together with you or hire professional management       \n    A. Staff roles and responsibilities  \n         1) DJs selecting good house tracks that connect to an audience mixed crowd influence his best progressifs mixes quality tape them performers musicians singers dancers sound techs light Sound engineer & technicians, stage designer barmen bartenders wait staff busboys hostesses cleaners security massage therapists visual artist crew marketing team events manager's promoters\n    \nIV.Funding options for opening own danceclub besides building it from scratch or co-ownership    \n       -Bank loans / financial investments.\n\nV.Legal setup of starting a nightblegroup including contracts permits licences business agreements insurances tax requirement    \n\nVI.Club design esthetic branding identity logo menu promotions     \n      - Lighting rigs & sfx specialist designers artists\n\nVII.Sourcing suppliers equipment needed for ideal performance space (DJ booth stage sound mixer PA systems lighting fixtures drinks snacks basic maintenance utilities essential items decor costumes special FX projector screen confetti machines smoke bubbles lasers strobes candles fire effect solutions haze laser projectors gobos fiber optics truss structures)\n      \n VIII.Technical Setup details behind the scenes in backrooms"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

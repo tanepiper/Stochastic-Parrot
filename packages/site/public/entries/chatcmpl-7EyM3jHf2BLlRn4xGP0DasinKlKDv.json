@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EyM3jHf2BLlRn4xGP0DasinKlKDv",
+  "object": "chat.completion",
+  "created": 1683802951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What is the mechanism of action of Bitcoin?\n\nBitcoin is a decentralized digital currency that operates on a peer-to-peer network called blockchain. The main components of this system are cryptographic algorithms, consensus mechanisms, and distributed ledger technology.\n\nHere's an overview of the mechanisms behind Bitcoin:\n\n1. Transactions: Users send or receive Bitcoins by creating transactions. A transaction consists of input (the source address(es) from which funds came), output (the destination address(es) where funds will go), and digital signatures to verify its authenticity.\n\n2. Blockchain: All confirmed transactions are recorded in blocks together within the blockchain—a public ledger that bears all historical cryptocurrency exchanges ever made since bitcoin was created in 2009; hence promoting transparency.\n\n3. Mining: In order to add new blocks into the existing chain, mining takes place where miners compete to solve complex mathematical problems with their computers using Proof-of-Work algorithm securing consensus throughout it(Until Nov 2021). Upon solving those equations first person gets rewarded with additional bitcoins for providing their computing power & resources verifying validity across network nodes regardless of geographical barriers ensuring security against fraudulence & double spending issues arising otherwise upon reliance over central authority/ institution like traditional currencies have been doing so far during past decades especially relating global trade financial systems/platforms governing monetary framework now shifting towards crypto-driven economies being realized through bitcoin implementation thus changing paradigms aspects defining underlying structure functioning operating controlling various domains sectors encompassing overall growth development sphere impacting numerous areas fields revolutionizing profound ways methodologies approaches utilized managed governed till date bringing forth novel inventive groundbreaking solutions transforming conventional customary techniques processes existent prevalent worldwide overcoming challenges faced difficulties encountered restrictions limitations imposed imposed due non-availability proper effective progressive tools available before until recently contributed advent emergence rise utility popularity acceptance emerging increasing exponentially rapidly"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

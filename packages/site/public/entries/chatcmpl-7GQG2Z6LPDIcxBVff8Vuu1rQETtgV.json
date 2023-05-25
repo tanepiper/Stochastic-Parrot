@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GQG2Z6LPDIcxBVff8Vuu1rQETtgV",
+  "object": "chat.completion",
+  "created": 1684148538,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 154,
+    "total_tokens": 161
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A bath bomb is a compacted mixture of wet and dry ingredients that effervesces when immersed in water. Its primary function is to add scent, bubbles, color, and relaxing oils to the bathwater, creating an immersive experience for those who enjoy baths. Ingredients typically include sodium bicarbonate (baking soda), citric acid, salts (such as Epsom salt or sea salt), colors (usually natural dyes or synthetic colorants), essential oils or fragrances for aroma therapy purposes, vegetable oil or plant butter for moisturizing qualities and additional elements like flower petals or herbs for visual appeal.\n\nWhen placed in water it fizzes releasing all these ingredients into the water making the bathing time more pleasurable with added aroma therapy benefits due to presence of essential oils."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

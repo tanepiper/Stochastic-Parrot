@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BwJGhLM6awUZkaWUmUc5LSInj1pt",
+  "object": "chat.completion",
+  "created": 1683080106,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some effective ways to stop anxiety attacks are:\n\n1. Deep Breathing: Focus on taking slow, deep breaths. Breathe in through your nose for a count of four, hold for a count of four, and exhale through your mouth slowly for another count of four. Repeat until you feel more in control.\n\n2. Grounding Techniques: Bring yourself back to the present by using the 5-4-3-2-1 grounding technique - identify five things you can see or touch around you, name four sounds, three scents or smells, two things that taste or feel good (such as water), and one positive thing about yourself.\n\n3. Progressive Muscle Relaxation: This involves tensing up various muscle groups in your body and then releasing them after a few moments; this helps release any physical tension that anxiety may cause.\n\n4. Visualization: Picture yourself somewhere calm and peaceful – like lying on a beach with warm sand beneath you or sitting in front of a roaring fire wrapped up in blankets – think beyond just sight alone such as what would it sound like? How would it smell? By doing so feels immersive enough and can help take focus away from feelings of panic\n\n5. Reach Out to Someone You Trust: Call someone who makes you feel safe or comfortable talking openly with – this could be friends/family/coworkers/teachers etc., Talk about how anxiousness is making them feeling presently.\n\n6. Positive Affirmations & Self-Talk: Remind oneself that having an-time episode won't last forever-they will end eventually-and engage inwardly speaking coping phrases against negative thoughts (\"this too shall pass\")\n\n7.Focus On Something Else: Typically while having an anxiety attack our minds get caught up fixating"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

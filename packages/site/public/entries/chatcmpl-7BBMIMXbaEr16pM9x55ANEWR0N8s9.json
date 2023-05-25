@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BBMIMXbaEr16pM9x55ANEWR0N8s9",
+  "object": "chat.completion",
+  "created": 1682899626,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Identify the purpose of your statement:\nAre you comparing, describing, explaining, persuading or narrating something? Establishing a clear purpose will help guide your language choices and overall structure.\n\n2. Be specific:\nVague statements are less engaging and informative for readers. Use concrete details, specific examples and precise language to communicate clearly and effectively.\n\n3. Start with a strong opening:\nYour thesis statement (an argumentative paper) or introductory sentence (a descriptive/narrative paper) should capture the reader's attention right away by presenting an interesting idea or posing a thought-provoking question.\n\n4. Maintain cohesion throughout:\nEach sentence should logically relate to the one before it as well as those after it – this 'flow' is crucial in making your writing easy to follow.\n\n5. Vary sentence lengths and structures for emphasis\nUsing different types of sentences can make your writing more engaging while allowing emphasis on key points through shorter clauses or compound-complex sentences that express multiple ideas at once.\n\n6 . Choose appropriate vocabulary\nConsider what terms best convey the nuances of your topic – some words may be too jargon-y for certain audiences while others could lack depth if they are overly familiar/commonplace terminology used about other subjects previously discussed within similar contexts .\n\n7.Tone matters: Adjust based on audience/target readership.\nDepending o who/what being addressed impacts different aspects like formality level , colloquial expressions etc adding personal touch enhances bonding between writer-reader thus increasing intake levels espousing desired outcome(s).\n\n8.Avoid clichés when using comparisons/metaphors.\nWhile these literary devices create relatability amongst readers identifying everyday experiences seeing same expressions repeatedly becomes boring; hence try inventing new analogies creating refreshing links capturing attentiveness enhancing comprehension rates"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

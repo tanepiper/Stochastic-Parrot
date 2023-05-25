@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7B9PUtyMuzoeuA7tE1GQeJWU5onmv",
+  "object": "chat.completion",
+  "created": 1682892136,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 321,
+    "total_tokens": 328
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few reasons why you might feel bored in class:\n\n1. Lack of interest or relevance: You may find the subject matter boring because it doesn't align with your interests, passions, or goals. If you cannot connect what you're learning to your life or future plans, it's likely that you'll lose focus and fail to engage with the material.\n\n2. Monotonous teaching style: A teacher who lacks enthusiasm for their subject can make even the most interesting topics seem dull. Furthermore, if they utilize repetitive instructional methods, such as lecturing day after day without incorporating multimedia resources or hands-on activities into lessons, students can quickly become disinterested.\n\n3. Inadequate level of challenge: Boredom often stems from feeling under-challenged by coursework that is too easy for you. When classes don't push students intellectually or require them to develop new skills and apply existing knowledge in novel ways, they can easily become unengaging.\n\n4. Disorganized content presentation: Poorly structured lessons that jump around between topics without clear connections can be difficult to follow and lead to boredom as well; when students struggle to understand why specific information is relevant within broader units of study.\n\n5.Total autonomy while studying difficult subjects require guidance teachers helps us through their experience how do we manage our time better so lectures give us an important checkpoint over which we manage daily work\n\n6.Environment factors like lack of proper sleep,eating healthy food surround yourself with positive thoughts friends family all support a person's emotional & intellectual health ,regular exercise keeps body fit helps retain attention span longer stretches goals & achievements aid this journey"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CQ59oAej9uock12IG1UK5uqBFz41",
+  "object": "chat.completion",
+  "created": 1683194551,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 346,
+    "total_tokens": 353
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several different types of homes that cater to various living situations and preferences. Some common types include:\n\n1. Single-family home: A standalone house designed for one family, typically featuring a yard and garage.\n\n2. Multi-family home: A building with multiple separate housing units, such as a duplex or triplex, where each unit is occupied by a different family or individual.\n\n3. Condominium (condo): An individually owned unit within a larger multi-unit building, often including shared amenities like pools, gyms and community areas managed by an association of owners through monthly fees.\n\n4. Apartment: A rented living space within a larger building owned by the landlord who might also own other units in the same building; can vary from small studio apartments to large luxury penthouses.\n\n5. Co-housing community: Residents live in private homes but share communal spaces (such as kitchens) and resources, with an emphasis on fostering social connections among neighbors.\n\n6. Tiny house: Small standalone structures typically less than 400 square feet designed for simple living.\n\n7. Townhouse/rowhouse/terraced house: Attached single- or multilevel residences that share walls with neighboring properties; can be either privately-owned or rented out as part of an apartment complex set-up\n\n8.FromSeconds_story addition forControlEvents_category_business_ratings_contentLists_version}}}9 {{\nA modular/mobile/manufactured home parks_communityList_home_partner_coupon_emailMatch_ruleTemplates_patchInit_store_distances}: These homes are built off-site then transported onto land either temporarily (mobile home)♀♀ically ofApp_framework_mergField_navigationPrompts_activationCards_rewards-urlencodedRedirect_richDeletes_beforeSubmit_transCaptions_dialogIndices_achable_busTracking_positions_sort_columns_tools_interface_tags_pageFamily_host }}\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

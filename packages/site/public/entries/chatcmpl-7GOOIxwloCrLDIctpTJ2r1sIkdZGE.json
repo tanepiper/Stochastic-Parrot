@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GOOIxwloCrLDIctpTJ2r1sIkdZGE",
+  "object": "chat.completion",
+  "created": 1684141362,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 45,
+    "total_tokens": 52
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As a language model AI developed by OpenAI, I am not capable of having personal emotions or preferences. My purpose is to assist and provide information based on the user's queries. Is there something specific you need help with?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

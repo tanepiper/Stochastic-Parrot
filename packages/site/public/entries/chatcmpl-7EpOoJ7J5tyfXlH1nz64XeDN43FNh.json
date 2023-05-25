@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EpOoJ7J5tyfXlH1nz64XeDN43FNh",
+  "object": "chat.completion",
+  "created": 1683768526,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 36,
+    "total_tokens": 43
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Thank you for the coffee!\n\nI'm not able to consume beverages, but if I could, I would certainly appreciate a nice cup of coffee. Thank you for your kind gesture!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GeX3E9fIOkkojsM0pdVrncds4lje",
+  "object": "chat.completion",
+  "created": 1684203409,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 125,
+    "total_tokens": 132
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I'm not sure specifically what you are asking for, but here are 10 acronyms related to military organizations and operations:\n\n1. NATO - North Atlantic Treaty Organization\n2. UN - United Nations\n3. EU - European Union (not exclusively a military organization but has some security initiatives)\n4. AFSOC - Air Force Special Operations Command\n5. CENTCOM – United States Central Command\n6. NSA – National Security Agency \n7. NORAD – North American Aerospace Defense Command \n8. SOF – Special Operations Forces \n9.CIA- Central Intelligence Agency\n10.JSOC-Joint Special Operations Command"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

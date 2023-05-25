@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BS8xQdBlJ81naYBaAktIHoXMtdat",
+  "object": "chat.completion",
+  "created": 1682964147,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 214,
+    "total_tokens": 221
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Napoleon Bonaparte was a French military and political leader who rose to prominence during the latter stages of the French Revolution as well as the Napoleonic Wars. He became Emperor of France in 1804, led his country through a series of successful wars against various European coalitions, and eventually created an empire that stretched from Spain to Russia.\n\nWhy is he significant?\n\n1. Revolutionary general: Despite being born into high birth himself (technically a minor aristocrat), Napoleon took advantage of the chaos brought about by the French Revolution to rise rapidly through ranks in on merit rather than influence, proving himself both an effective and innovative strategist.\n2. Reforms: Some lasting reforms in France under Napoleon include setting up prefectures (administrative areas covering multiple municipalities) for more efficient administration, implementing new legal codes such as The Code Civil or The Napoleonic Code which still significantly contributes to countries' modern civil law systems today.\n3. Military genius: Napoleon won several brilliant victories over his enemies throughout Europe; his tactics are studied at every level from school textbooks up"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

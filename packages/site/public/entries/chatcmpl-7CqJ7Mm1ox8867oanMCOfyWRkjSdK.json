@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CqJ7Mm1ox8867oanMCOfyWRkjSdK",
+  "object": "chat.completion",
+  "created": 1683295361,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 253,
+    "total_tokens": 260
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to appear more charming and charismatic.\n\n1. Be genuinely interested in others: Show genuine interest in the people you interact with by asking questions about their lives, hobbies, or interests.\n\n2. Smile and maintain eye contact: This helps create a positive energy around you that can make people feel comfortable and at ease when conversating with you.\n\n3. Listen actively: When someone is speaking, give them your full attention and avoid interrupting them or looking away while they're talking.\n\n4. Confident body language: Stand tall, take up space, use engaging gestures while talking, but remain natural- as it projects self-assurance which can be very attractive to others.\n\n5. Give compliments sincerely without expecting anything in return: Complimenting someone on their appearance or character traits should come from an honest place without any ulterior motives attached to it.\n\n6. Be empathetic toward other's emotions or situations – be kind: Demonstrating compassion demonstrates that we understand another person's feelings/situation based on our own experience of similar circumstances\n\n7  Practice good manners - such as holding doors open for others, saying please/thank you/you’re welcome-come across polite/respectful to others makes these individuals seem friendlier likeable overall"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

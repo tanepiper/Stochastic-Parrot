@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77VhxmzheSIvyHfwH64MbQwqenYpo",
+  "object": "chat.completion",
+  "created": 1682024537,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 78,
+    "total_tokens": 85
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't any information available about when Tesla Model E will be released. However, Elon Musk has mentioned in the past that he'd like to create a more affordable electric car, which some have speculated might be called the \"Model E.\"\n\nCurrently, there haven't been official announcements from Tesla regarding this specific model. Keep an eye on Tesla's communication channels for updates and future vehicle plans."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

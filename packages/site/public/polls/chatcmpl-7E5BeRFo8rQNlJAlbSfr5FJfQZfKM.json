@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7E5BeRFo8rQNlJAlbSfr5FJfQZfKM",
+  "object": "chat.completion",
+  "created": 1683590886,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 53,
+    "total_tokens": 105
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"What is your favorite summer activity?\",\n  \"answers\": [\n    \"Going to the beach\",\n    \"Hiking in the mountains\",\n    \"Having a picnic with friends\",\n    \"Swimming in a local pool\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

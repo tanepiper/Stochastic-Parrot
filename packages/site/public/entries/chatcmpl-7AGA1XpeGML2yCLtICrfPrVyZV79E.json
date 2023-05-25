@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AGA1XpeGML2yCLtICrfPrVyZV79E",
+  "object": "chat.completion",
+  "created": 1682679757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 229,
+    "total_tokens": 236
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If a person with great power doesn't use it responsibly, they can potentially cause significant harm to others and the world in general. They may abuse their power for selfish reasons or make decisions without considering the consequences, leading to widespread negative impacts on society, the economy or ecology.\n\nFor instance, a political leader with great power may decide to go to war for personal gains or uninformed decisions. This could lead to thousands of deaths, economic instability for both countries involved and long-term social unrest. Similarly, if an influential business leader uses their power irresponsibly by polluting the environment uncontrolledly or exploiting workers inhumanely just for profiting purposes without care about human rights over profit maximization.\n\nFurthermore, people who have great powers often hold positions where they serve as role models and influence others' behavior. When they act recklessly or irresponsibly because it benefits them personally — rather than upholding ethical standards — they discourage other people from being responsible citizens themselves.\n\nLastly, using your greater powers responsibly means creating sustainable systems that benefits everyone involved: employees thrive; society flourishes; natural resources are protected – ensuring prosperity continues into future generations."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

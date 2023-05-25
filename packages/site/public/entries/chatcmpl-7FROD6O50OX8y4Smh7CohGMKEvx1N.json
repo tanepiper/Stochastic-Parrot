@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FROD6O50OX8y4Smh7CohGMKEvx1N",
+  "object": "chat.completion",
+  "created": 1683914561,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 332,
+    "total_tokens": 339
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The fastest way to build muscle would typically involve a combination of strength training exercises, nutrition and supplementation, and adequate rest. Here is a possible plan for optimizing muscle growth:\n\n1. Strength Training: Engage in compound movements instead of isolation exercises, which work multiple muscle groups at once. These include squats, deadlifts, bench press, pull-ups/chin-ups, overhead press and rows. Aim for 3-5 sets of each exercise with 6-10 reps per set.\n\n2. Progressive Overload: The key is to continually increase the amount of weight or number of reps during your workouts over time so that you are consistently challenging your muscles.\n\n3. Nutrition: Settle on consuming enough calories (especially from proteins) to support recovery and growth without gaining extra fat. Include lean meats like chicken or turkey breast; fish such as salmon or tuna; legumes like black beans; red meat in moderation; protein supplements derived from peas can all be consumed to meet demands.\n\n4. Supplementation: Consuming whey protein as post-workout supplement within an hour would assist in rebuilding/repairing muscles quicker than other forms might do so significantly fastening the process plus it's said creatine monohydrate apparently increases your lifting capacities giving additional opportunity for muscular gains.\n\n5.Rest & Recovery -Assure enough sleep/rest between workouts by-partitioning days off/days apart where not stressing same primary muscles every session.\n \nIt is still necessary to note everyone has different physiological conditions making trials/experimentations essential regardless suggested range being standardized plateau would unquestionably develop working towards customizing while communicating with professionals periodically for safe/maximized progressions"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

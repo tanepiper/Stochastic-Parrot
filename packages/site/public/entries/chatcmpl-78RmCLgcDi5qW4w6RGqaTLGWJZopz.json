@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78RmCLgcDi5qW4w6RGqaTLGWJZopz",
+  "object": "chat.completion",
+  "created": 1682247752,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How much does it cost to become a food vendor?\n\nThe cost of becoming a food vendor depends on various factors such as the type of vending you're planning, location, permits and licenses required, equipment purchase or rental fees, inventory costs and potential startup expenses.\n\nHere are some estimates based on different types of food vending options:\n\n1. Food carts or trucks: Starting a food cart or truck business can cost from $30,000 to more than $100,000 in total. This includes the price for purchasing (or modifying) the vehicle itself with necessary cooking equipment installed.\n\n2. Farmers market stalls: Starting a stall at farmers markets typically requires less capital investment compared to other options - around $3000-$5000. Beyond standard licensing requirements for selling prepared foods at public gatherings like these events vary significantly depending on locale rules set forth by management organizations organizing specific venues every week/year round basis so plan accordingly!\n\n3. Catering services: For folks who want their yummy products delivered straight into people's homes instead through traditional brick-and-mortar establishments they need only invest between about 5 thousand dollars up towards several million bucks!\n\n4.Butterfliesburger stand-alone restaurant space might entail anywhere from 12 thousand dollar range upwards towards over several hundred thousands that's putting money directly into facilities / design aspects along side marketing efforts etcetera which may involve professional assistance teams composed out high-priced strategy coordinators ensuring success throughout course project completion periods time frame predictions becoming feasible realistic expectations met upon future considerations taken carefully prior decision making processes involved discussed before final commitment plans begin taking shape progressing onwards further expansions occurring throughout time period forecasts eventfully eventually leading successfully prosperous outcomes achieved via dedicated focused persistence demonstrated continually effectively utilized.\n\nKeep in mind that ongoing costs such as rent/lease payments if"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

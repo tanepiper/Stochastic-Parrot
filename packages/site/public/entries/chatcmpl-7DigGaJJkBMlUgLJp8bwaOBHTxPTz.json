@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DigGaJJkBMlUgLJp8bwaOBHTxPTz",
+  "object": "chat.completion",
+  "created": 1683504372,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 147,
+    "total_tokens": 154
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What is International Payment Solutions?\n\nInternational Payment Solutions or IPS refers to financial services, tools and technologies that help businesses and individuals make cross-border payments. These solutions enable the transfer of funds between parties located in different countries, often involving the conversion of currencies.\n\nInternational payment solutions provide a convenient way for entities to pay their suppliers, employees or customers abroad, as well as receive payments in foreign currency from clients or partners residing beyond domestic borders. \n\nVarious types of international payment providers offer these services, including banks, credit card companies, digital wallets (such as PayPal) and various online platforms specializing in global transactions (such as TransferWise). The choice depends on factors such as transaction costs, speed of money transfer, ease-of-use and security."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

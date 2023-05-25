@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HVgoQfR7LvgubgrM19FK5rMUK7Fz",
+  "object": "chat.completion",
+  "created": 1684407746,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 252,
+    "total_tokens": 259
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to save a Wordle:\n\n1. Screenshot: One of the easiest methods is to take a screenshot of your completed puzzle and save it as an image file on your device. On most computers, you can press \"PrtScn\" or \"Cmd+Shift+4\" (Mac) to capture the screen.\n\n2. Save as PDF: If using Wordle from a browser, click on \"Print\" in Wordle's toolbar or press \"Ctrl + P.\" Then, instead of selecting a printer, choose \"Save as PDF\" from the dropdown menu.\n\n3. Export as SVG: Right-click on the completed puzzle and select \"Inspect element.\" Look for an '<svg>' tag containing all elements related to the puzzle board; right-click that tag and choose 'Copy outerHTML.' Next:\n    - Open text editor\n    - Paste content copied previously\n    - Save file with \".svg\" extension\n\nPlease note you may need an SVG viewer/editor like Adobe Illustrator or Inkscape(open-source alternative) to view/edit this format.\n\nThese are some common ways people save their puzzles on various devices. The best method depends on what tools/apps are available for each user/device/browser combo they're working with at that time.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FmvTKKdc06RjWy7XfDe9XVaOMpWU",
+  "object": "chat.completion",
+  "created": 1683997347,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 181,
+    "total_tokens": 188
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Grocery stores are establishments primarily engaged in retailing a wide variety of food products, including fresh fruits, vegetables, dairy products, baked goods, meats and poultry. In addition to perishable items like produce and meat, they also sell non-perishable household products such as canned foods, dried grains/pastas/beans/tuna packaged snacks/beverages cleaning or decor items/Pets food/etc.\n\nSupermarkets are large self-service stores that sell groceries as well as other product lines like clothing accessories/cosmetics/kitchen appliances/small electronics/household objects/shoes/books etc., depending on the country's habits.\n\nThese two terms may be used interchangeably at times due to their similarities in function; however grocery store's main focus is on selling basic necessary items for everyday use while supermarket provides assorted range of both functional and life-style based luxuries catering every need smaller according population age demographics / economic levels ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

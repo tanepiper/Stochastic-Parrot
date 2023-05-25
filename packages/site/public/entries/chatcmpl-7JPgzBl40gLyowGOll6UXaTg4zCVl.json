@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JPgzBl40gLyowGOll6UXaTg4zCVl",
+  "object": "chat.completion",
+  "created": 1684861349,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 177,
+    "total_tokens": 184
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is very unlikely that you accidentally consumed mold spores when eating old microwaved food. Mold spores are common in the environment, and we're regularly exposed to them through the air we breathe, as well as on surfaces and in our food.\n\nHowever, ingesting mouldy food can cause an upset stomach or allergic reactions for some people because of mycotoxins - toxic substances produced by certain molds. If you do experience symptoms like nausea or diarrhea after consuming such food, it could be due to your body responding to these toxins.\n\nIn general, it's best to discard visibly mouldy items before they spoil further; however, if concerns about potential adverse effects persist after consumption despite feeling entirely fine now (and assuming no pre-existing medical conditions), consulting with a healthcare professional might provide peace of mind related risks at hand- which remain quite low overall given circumstances described here!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

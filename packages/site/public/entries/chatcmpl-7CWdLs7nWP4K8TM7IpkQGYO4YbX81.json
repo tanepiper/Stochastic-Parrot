@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CWdLs7nWP4K8TM7IpkQGYO4YbX81",
+  "object": "chat.completion",
+  "created": 1683219735,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 242,
+    "total_tokens": 249
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several factors that can cause conduct disorder in children:\n\n1. Genetics: Research has shown that children with a family history of mental health disorders, especially antisocial personality disorder or substance use disorders, may have an increased risk for developing conduct disorder.\n\n2. Neurobiological factors: Some studies suggest that there might be differences in the structure and function of the brain among those who develop conduct disorder, leading to difficulties in impulse control and decision-making.\n\n3. Environmental factors: Factors like growing up in poverty, being exposed to violence or abuse at home, experiencing neglect or inconsistent parenting can increase a child's chances of developing conduct disorder later on.\n\n4. Social factors: Poor relationships with peers and school-related problems such as poor academic performance and low achievement levels could affect a child’s self-esteem which may lead them toward developing this kind of behavior problem.\n\n5. Parenting style: A lack of discipline or affection from parents may contribute to problematic behavior patterns present in those with conduct disorders Uninvolved, restrictive or excessively harsh parental practices might exacerbate these maladaptive traits even further.\n\n6. Trauma/history of abuse/neglect - Children who experience physical/sexual abuse or neglect may become emotionally dysregulated leading"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

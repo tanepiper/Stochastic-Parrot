@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JHGjjXupWXwI8L1ggLDme576SwnT",
+  "object": "chat.completion",
+  "created": 1684828969,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 190,
+    "total_tokens": 197
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no direct or indirect connection between 5G internet and the COVID-19 pandemic. The coronavirus, which causes COVID-19, is a virus that spreads from person to person through respiratory droplets when an infected individual coughs, sneezes, or talks. It has nothing to do with the electromagnetic waves used in 5G technology.\n\nMisinformation about this alleged link began spreading on social media with claims that 5G weakens people's immune systems or transmits the virus itself – both of which are not scientifically supported.\n\nThe World Health Organization (WHO) and other leading health organizations have emphasized that viruses like COVID-19 cannot travel on radio waves or mobile networks. Additionally, numerous countries without any active 5G networks have reported cases of infection.\n\n\nIt's essential for public health that people rely on accurate information from reputable sources like WHO and Centers for Disease Control and Prevention (CDC), rather than unverified rumors circulating online.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

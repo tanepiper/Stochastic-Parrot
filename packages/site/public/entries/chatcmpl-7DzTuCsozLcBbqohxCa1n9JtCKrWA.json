@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DzTuCsozLcBbqohxCa1n9JtCKrWA",
+  "object": "chat.completion",
+  "created": 1683568954,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 191,
+    "total_tokens": 198
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Denmark is a relatively small country in Northern Europe, covering an area of approximately 42,951 square kilometers (16,577 square miles) and has a population of about 5.8 million people. It is located to the north of Germany and to the south-west of Sweden.\n\nCopenhagen, Denmark's capital city, is situated on the eastern coast of Zealand – one of Denmark's largest islands – and borders Sweden via the Øresund Bridge. Other significant cities in Denmark include Aarhus in Jutland and Odense on Funen island.\n\nThe Kingdom of Denmark also includes two autonomous territories: Greenland – which lies between North America and Europe's Arctic region with an area larger than Algeria; Faroe Islands - situated between Norway and Iceland consists around 18 sparsely inhabited islands.\n\nThe Danish landscape comprises mostly flat lands where agriculture serves as their major economy contributor followed by offshore wind power energy production that helped it become a stable economic nation."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

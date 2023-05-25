@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7K55Yr0MeaLqdbupqkYUPjDjekFQq",
+  "object": "chat.completion",
+  "created": 1685020476,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 84,
+    "total_tokens": 91
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you can ask anything you want. Some examples of questions might include:\n\n1. What are the major problems facing society today?\n2. How do we address climate change and its effects?\n3. How can we work to reduce global poverty and inequality?\n4. What technological advancements have had the greatest impact on our lives in recent years?\n5. What is an effective way to improve education for all students worldwide?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HXaX4m6VA1GLLMxSxn3Q8z3FHFYP",
+  "object": "chat.completion",
+  "created": 1684415045,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Attraction basically refers to the desire or appeal that someone has towards another person, place, object, or concept. There are various factors at play when it comes to attraction. Some well-known forms of attraction include physical and emotional attractions.\n\nPhysical attraction is often based on certain characteristics such as appearance, symmetry, body proportions or scent – attributes deemed attractive by cultural norms and personal preferences. This can cause an individual's interest in another human as a mate or partner.\n\nEmotional attraction pertains to a deeper connection with an individual based on their personality, values, sense of humor and other character traits. It arises from getting to know someone better through communication and bonding over shared experiences.\n\nApart from these two primary types of attractions; romantic love comprises both physical attractiveness (sexual desire) and emotional ATTRACTIVENESS (deep connections). Physical appeal might be considered superficial because it relies primarily on appearances while deep social bonds signify genuine relationships with substance built during close interactions together throughout time spent closely connectedly experiencing life side-by-side unified despite challenges faced along the way today's society offers opportunities for different varieties conforming respective unique individuals seeking particular differences they perceive appealing distinctive special others value highly regards potential partners encounters unknown situations unfamiliar surrounds them excitement traversing previously uncharted terrain seeking validation elucidating meaningful partnership acceptance mutually beneficial acknowledgment understanding effective efforts necessary longevity successful engaging companionships appreciating each provides essential nourishment symbolic figurative representatives elements shape defines essential components dynamics objective harmonic resonance reciprocal exchange ensuring continual growth positive progression evolution maturation relative stability prevailing core similarities associated inherent linkages maintaining overall balance equation eternity metaphorically compelling complementary increases available resources reservoir diverse pool collective cognition accumulated wisdom prescribed trident perspective shapes derivative alternative reality encompassed within boundaries parameters constraints defining metamorphosed existence combining excellent outcome enriching lives"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ImMPjm8PZeSpFdKadxbF4mIKkI2O",
+  "object": "chat.completion",
+  "created": 1684710157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several potential causes of blurry vision, including the following:\n\n1. Refractive errors: The most common cause of blurry vision is a refractive error, meaning that the shape of your eye does not bend light properly to focus on the retina. This results in an out-of-focus image formation leading to blurred vision. Types of refractive errors include myopia (nearsightedness), hyperopia (farsightedness), and astigmatism.\n\n2. Presbyopia: As people age, usually after 40 years old, their eyes lose some flexibility which can make it more difficult for them to focus on nearby objects. This condition is called presbyopia and often requires reading glasses or bifocals to correct the issue.\n\n3. Cataracts: A cataract occurs when the lens inside your eye becomes cloudy or opaque, causing decreased visual acuity and increased blurriness.\n\n4. Glaucoma: Increased pressure within the eye damages optic nerves over time resulting in glaucoma – this may lead to blind spots develop within your field of vision initially but progress into completely blurry sight if left untreated.\n\n5. Diabetic retinopathy: Blurry vision can be a result of diabetes damaging blood vessels in your retina, leading to swelling and scar tissue formation affecting clarity - this is known as diabetic retinopathy.\n\n6. Dry eyes or excessive tearing may also cause temporary blurriness by disrupting light entering the cornea unevenly\n\n7.Macular degeneration involves deterioration central portion(retina)-macula-resulting loss sharp fine detail in center field view while peripheral remains intact making things directly appear fuzzy-distorted characterized age-related macular degeneration(AMD) progressive disease primary older adults\n\n8 Infectious conjunct"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

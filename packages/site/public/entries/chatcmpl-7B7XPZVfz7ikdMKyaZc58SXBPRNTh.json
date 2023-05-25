@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7B7XPZVfz7ikdMKyaZc58SXBPRNTh",
+  "object": "chat.completion",
+  "created": 1682884939,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 187,
+    "total_tokens": 194
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A dream catcher is a traditional Native American object usually handmade, which consists of a wooden hoop, covered in woven or plaited thread and decorated with feathers and beads. They were originally made by the Ojibwe people (also known as Chippewa) but later adopted by other tribes.\n\nThe hoop represents unity and strength, while the web-like pattern in the center supposedly protects from bad dreams. Dream catchers are hung over a person's bed or sleeping area to protect them from negative energies that might enter their sleep, such as nightmares. The belief is that good dreams will pass through the delicate network of threads while bad ones will be trapped in it until they perish at dawn with sunlight.\n\nDream catchers typically have spiritual significance for many Indigenous peoples today, symbolizing protection and connection to nature. They have also become popular among non-Native cultures worldwide as decorative items and talismans for promoting positive energy within homes."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

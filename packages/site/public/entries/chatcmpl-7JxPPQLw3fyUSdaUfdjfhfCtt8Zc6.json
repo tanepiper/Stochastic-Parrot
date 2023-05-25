@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JxPPQLw3fyUSdaUfdjfhfCtt8Zc6",
+  "object": "chat.completion",
+  "created": 1684990955,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 295,
+    "total_tokens": 302
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few reasons why a woodpecker might peck on your house:\n\n1. Searching for food: Woodpeckers primarily eat insects, particularly wood-boring insects and larvae found under the bark of trees. If the woodpecker detects insect activity beneath the siding or trim of your house, it may be seeking to extract those insects.\n\n2. Establishing territory or attracting mates: Male woodpeckers often create \"drumming\" noises by rapidly tapping their beaks against resonant surfaces like metal gutters or wooden siding during mating season (typically from late winter to early summer). This sound helps them establish territories and attract potential mates.\n\n3. Building nests: Some species of woodpeckers excavate cavities in softwood for nesting purposes. While they typically prefer dead trees for this task, they can sometimes mistakenly choose softer sections of residential buildings as well, such as cedar siding or insulation boards.\n\n4. Storing food: Certain types of woodpeckers also cache food in small crevices created by drilling into tree trunks – sometimes using similar human-made structures instead.\n\nTo discourage them from damaging your property:\n\n- Regularly check and maintain exterior surfaces with paint and sealants\n- Eliminate standing water that may attract insects to decayed areas.\n- Use visual deterrents like reflective tape or scare devices that move with wind gusts\n- Put up protective netting between tall supports so birds cannot access structural elements close up"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

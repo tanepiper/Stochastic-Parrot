@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CkgriBQ5o4fjgB1ImyszFxGeccSw",
+  "object": "chat.completion",
+  "created": 1683273769,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 254,
+    "total_tokens": 261
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The dimensions of a UTV (Utility Task Vehicle) vary depending on the specific model and manufacturer. However, most UTVs are designed to be compact enough for off-road trails while providing ample storage space and seating capacity.\n\n1. Length: The average length of a UTV is usually between 9-14 feet (274 - 426 cm) from front bumper to rear.\n2. Width: Most full-sized UTVs have widths ranging from 4-6 feet (122 - 183 cm).\n3. Height: Typical height measurements can lie anywhere between 6-7.5 feet (183 -229 cm), including the roof or roll cage.\n4. Wheelbase: The wheelbase refers to the distance between the center points of the front and rear wheels giving stability during operation; it often lies in a range of around 75 inches up to about over 100 inches (190 cm – over254cm).\n\nPlease note that these figures provide an approximate idea about typical Utility Task Vehicles' sizes, but they may not universally apply across all models/manufacturers.\n\nEssentially, utility vehicles come in various shapes and sizes tailored for diverse applications such as recreational use, agricultural work, or industrial maintenance tasks—leading to numerous differences in their dimensions worldwide."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

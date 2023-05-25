@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IzUYEKXyyxoFfwWhc38CeTcJ69ZM",
+  "object": "chat.completion",
+  "created": 1684760634,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 275,
+    "total_tokens": 282
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no definitive answer as to which exercise bike brand is the best, as it largely depends on personal preference and individual needs. However, some popular and highly-rated exercise bike brands include:\n\n1. Peloton: Known for its innovative technology and interactive home cycling experience, Peloton has become a household name in recent years.\n\n2. NordicTrack: This brand offers a diverse range of exercise bikes with varying features and price points.\n\n3. Schwinn: A well-established brand in the fitness industry, Schwinn has been producing high-quality biking equipment for over a century.\n\n4. ProForm: With strong reviews and user-friendly designs, ProForm offers several different models of exercise bikes that cater to various levels of experience and budgets.\n\n5. Keiser: The Keiser M Series bikes are used by professional athletes due to their durability; hence they offer exceptional quality machines designed for intense workouts.\n\n6. Sole Fitness: Known for producing durable equipment built to last, Sole's stationary bikes often receive strong reviews from users praising their smooth rides and resistance ranges.\n\n\nUltimately, the best exercise bike brand for you will depend on your budget, preferred workout style (e.g., spinning classes or self-led training), tech preferences like apps / live-streaming availability (or lack thereof), size preferences (folding/expendable types) etc., but these are just some good start off options!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

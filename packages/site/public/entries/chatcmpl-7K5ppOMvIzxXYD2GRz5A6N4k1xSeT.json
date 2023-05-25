@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7K5ppOMvIzxXYD2GRz5A6N4k1xSeT",
+  "object": "chat.completion",
+  "created": 1685023345,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 288,
+    "total_tokens": 295
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A Gastroenterologist is a doctor who specializes in the diagnosis, treatment, and prevention of diseases related to the digestive system, which includes the esophagus, stomach, intestines (small and large), liver, gallbladder, pancreas, bile ducts, and rectum. \n\nThese specialists undergo extensive medical training – after completing medical school and an internal medicine residency program they must complete a gastroenterology fellowship program that usually lasts three years.\n\nGastroenterologists treat various conditions such as abdominal pain or discomfort; ulcers or gastritis; gastrointestinal bleeding; colon cancer screening with colonoscopy; acid reflux (GERD); irritable bowel syndrome (IBS); inflammatory bowel disease (Crohn's disease & ulcerative colitis); gastrointestinal infections like food poisoning; Swallowing disorders or achalasia;\n\nThey also manage patients suffering from chronic liver diseases such as cirrhosisand hepatitis B/C , blockage of bile ducts by stones (choledocholithiasis) requiring specialized interventions known as ERCP (endoscopic retrograde cholangiopancreatography), pancreatic cysts/ pseudo-cysts/growths .\n\nIn addition to treating patients in clinic consultation settings often they may perform minimally invasive endoscopic procedures when required for conditions like Colonoscopy/Sigmoidscopy for polyp removal/screening ; EGD/OGDS( upper GI intestine Endoscope )for Ulcer/infection diagnosis ."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

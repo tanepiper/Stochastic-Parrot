@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76y01mamHRYO0xConakl64NyUrtRX",
+  "object": "chat.completion",
+  "created": 1681894961,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 225,
+    "total_tokens": 232
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is possible to make your voice sound robot-like by using a vocoder or a voice changer software. Here are some steps you can follow:\n\n1. Find a suitable voice changer app or software, such as Voicemod, Clownfish Voice Changer, MorphVOX Pro, etc. Make sure it is compatible with your device (PC, smartphone).\n\n2. Download and install the chosen application.\n\n3. Open the application and explore its features to find the robotic voice effect option.\n\n4. Adjust various settings like pitch shift or modulation depth according to your preferences.\n\n5. Record your voice using the built-in recorder in the app/software while speaking through the microphone of your device with appropriate permissions granted for microphone access.\n\n6. Playback & listen to how you have transformed into an unrecognizable robotic-sounding version of yourself!\n\n7.Connect/disconnect from video calls/desktop applications/game chatrooms depending on compatibility where required within setup options provided by specific applications\n\nRemember that different applications might vary slightly in terms of functionality; hence do familiarize yourself with instructions provided within each platform via tutorials/offline guidance/help option after installing them"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

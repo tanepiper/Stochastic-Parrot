@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FdYnHCtUkdqdv1F5H5N6UEFzbWeZ",
+  "object": "chat.completion",
+  "created": 1683961345,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 149,
+    "total_tokens": 156
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The average lifespan of an elephant in the wild ranges from 60 to 70 years, although some may live up to 80 years or more under ideal conditions. This figure also varies depending on the species; African elephants typically have somewhat shorter lifespans than Asian elephants.\n\nIn captivity, however, their lifespans can be significantly reduced due to factors such as stress, inadequate living conditions, and health issues. Captive elephants may live only between 20 and 40 years.\n\nIt is important to note that these figures are just averages – individual elephants' lifespans will differ based on various factors like genetics, habitat quality, diet, predation risks (in case of calves), and access to healthcare (in cases for captive individuals)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GcleGLgRx21Sq9hIcjTmGw4LNNaj",
+  "object": "chat.completion",
+  "created": 1684196626,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 234,
+    "total_tokens": 241
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A hydrogen engine is an internal combustion engine that uses hydrogen as its primary fuel instead of the more common fossil fuels like gasoline, diesel or natural gas. Hydrogen can be burned in a similar way to other fuels, creating energy through a chemical reaction between hydrogen and oxygen.\n\nIn a hydrogen engine, the fuel (hydrogen) is mixed with air (which contains oxygen) in a cylinder. This mixture is then compressed by a piston and ignited by either a spark plug (;in case of Spark Ignition Engine.) or high temperature achieved due to compression (;in case of Compression Igniton Engine). The explosion caused by this ignition generates heat and pressure which pushes back the pistons thereby converting it into mechanical energy responsible for moving vehicle. \n\nThe only exhaust produced from burning hydrogen is water vapor (H2O), making it an environmentally friendly alternative to traditional engines that emit pollutants such as carbon dioxide, hydrocarbons and oxides of nitrogen. However, there are still some challenges associated with using hydrogen engines on larger scale like high costs involved in producing , storing & transporting Hydrogen; lesser efficiency when compared to electric vehicles ; safety concerns due to its highly reactive nature etcetera"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

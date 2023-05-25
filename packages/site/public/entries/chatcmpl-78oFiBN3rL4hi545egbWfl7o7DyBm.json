@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78oFiBN3rL4hi545egbWfl7o7DyBm",
+  "object": "chat.completion",
+  "created": 1682334150,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Kilauea volcano, located on the Big Island of Hawaii, is one of the most active volcanoes in the world. It has been continuously erupting since 1983, with varying intensity and frequency over time.\n\nSome reasons why Kilauea is so active include:\n\n1. Hotspot Volcanism: The Hawaiian Islands were formed by a volcanic hotspot beneath the Earth's crust. This hotspot continually generates molten rock called magma due to its proximity to a not-so-rigid piece of mantle directly on top. Magma then rises through cracks in the Earth's surface and leads to periodic eruptions that build up skeletal structures known as shield volcanoes such as Kilauea.\n\n2. Low viscosity lava: More mafic lavas tend to have lower viscosities, meaning they are more fluid than other types like their felsic counterparts - this contributes significantly towards heightened ferocity during eruptions containing copious amounts liquid hot stuff; again ensuring frequent outpourings at locations where tectonic activity factors combine effectively alongside particular geological conditions.\n\n3.Embedded within easternmost rift region inside influence zone: The overall layout encompasses two distinct “zones”; Western (Southwestern) Rift serves primarily as primary conduit between mantle-derived basalt-fed ocean sector originating near summit area whilst Eastern/Southeastern version focuses instead purely upon communication lines converging down slope – an amalgamation leading inevitably...towards increased likelihood breakouts occurring externally outside core elements constituting central caldera surrounds/association wider scale disruptive events prevalent throughout general vicinity associated ring fractures being present aside from major fault complexes seen elsewhere around globe causing instability surrounding terrain represent another significant driver behind regular occurrences bringing unwanted consequences native communities residing close-by continents continental margins alike (by way"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

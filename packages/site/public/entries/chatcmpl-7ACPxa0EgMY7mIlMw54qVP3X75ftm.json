@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ACPxa0EgMY7mIlMw54qVP3X75ftm",
+  "object": "chat.completion",
+  "created": 1682665369,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 276,
+    "total_tokens": 283
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few factors to consider when determining the cost of an Uber from one place to another. Typically, the price is affected by:\n\n1. Base fare: This is a fixed amount charged at the beginning of every ride.\n\n2. Time spent in the vehicle: The longer it takes for you to get from point A to point B, the higher your fare will be.\n\n3. Distance traveled: Your fare increases with distance traveled during your trip.\n\n4. Surge pricing/Uber rates: During periods of high demand for rides (like rush hour or bad weather), prices may increase because demand exceeds supply.\n\n5. Service type: Rideshare services typically offer different levels, with each tier having its own pricing structure (e.g., UberX vs UberXL).\n\nTo get an estimate for your specific journey and service level desired, you can use the 'Fare Estimate' feature in the Uber app or visit websites that calculate ride fares based on location data.\n\nHere's how you can do it using Google Maps:\n\n1) Open Google Maps and enter both pickup and destination locations.\n2) Tap on ‘Directions’.\n3) Select any public transportation mode.\n4) Scroll down in options where various ride-sharing apps like Lyft and UBER along with approximate travel cost should be visible.\n5) Click/tap UBER car sign for more details about UBER listing if required"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

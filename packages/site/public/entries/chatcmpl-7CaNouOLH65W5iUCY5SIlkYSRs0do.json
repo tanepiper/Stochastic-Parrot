@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CaNouOLH65W5iUCY5SIlkYSRs0do",
+  "object": "chat.completion",
+  "created": 1683234148,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Flying fish are a type of ray-finned fish that have evolved to be able to leap or glide out of the water and into the air, hence their name. These unique fish possess large, wing-like pectoral fins which they use to propel themselves out of the water at high speeds. Once airborne, these fins help them glide above the surface for short distances in search for food or escape from predators.\n\nThere are approximately 64 different species of flying fish found across all major oceans but mostly inhabiting tropical and subtropical waters. Flying fishes belong to the family Exocoetidae within the same order (Beloniformes) as needlefish and halfbeaks.\n\nThe typical diet of a flying fish consists mainly of plankton and small crustaceans, while their predators include larger marine animals such as tuna, swordfish, dolphins, sea birds and marlins.\n\nFlying Fish can reach speeds up to around 35 miles per hour (56 kilometers per hour). This speed helps them build enough momentum to propel themselves out from under the waves' surface tension. When launching itself into flight mode successfully escaping its predator's grasp underwater—a classical survival mechanism founded over an evolutionary period — some species may travel upwards almost fifty feet higher than sixty meters long depending on wind conditions altitude measurement used concurrently during physical extension episodes referenced throughout various sources consulted hereinbefore presenting relevant facts regarding said inquiry submitted herewith lastly finally concluding summation described narrative presented form answered questions inquiries posed initial outset onset commencement introduced opening introductory explanatory elucidation explanation clarification detailed response answer ordered fashion chronologically related explanatorily discussed manner format structure organization communication conveyance publication expression elucidated expanded according clarity thoroughness detail accuracy preciseness correctness truthfulness honesty reliability dependability conformity precision factual understanding coherent logically"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

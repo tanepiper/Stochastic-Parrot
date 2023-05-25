@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BaZT1WbmYuDGzg4XLYXwEeKFTOdJ",
+  "object": "chat.completion",
+  "created": 1682996543,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 226,
+    "total_tokens": 233
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Korean War began on June 25, 1950, when North Korea invaded South Korea. The war lasted until July 27, 1953, when the United States, China, and North and South Korea signed an armistice agreement. Although the fighting stopped in 1953 with a cease-fire agreement and established the creation of the Demilitarized Zone (DMZ), no peace treaty was ever signed to formally end it.\n\nThe Korean War is often called \"the forgotten war\" because it has been overshadowed by other conflicts such as World War II and Vietnam War. This conflict also signaled an escalation in Cold War tensions between communist countries led by China and the Soviet Union against capitalist countries led by the United States.\n\nIn total, about five million people died during this three-year conflict – approximately three million civilians from both South Korea (1 million)and North Korea(2 millions) were casualties along with nearly two million military personnel from various nations including around 36K American soldiers who lost their lives while participating in active combat or due to injuries sustained during hostilities under UN Command(Mostly U.S.)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

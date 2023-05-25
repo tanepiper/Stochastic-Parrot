@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7InOEtBxh7oWk9X9GzK2M2x52L4DH",
+  "object": "chat.completion",
+  "created": 1684714114,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 64,
+    "total_tokens": 116
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional city would you like to live in?\",\n  \"answers\": [\n    \"Gotham City from DC Comics\",\n    \"Hogwarts School of Witchcraft\",\n    \"Westeros from Game of Thrones\",\n    \"Pandora from the Avatar movie\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

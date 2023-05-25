@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FhJ4GmbaCihF1K0QiWqyUcVt78B9",
+  "object": "chat.completion",
+  "created": 1683975746,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I cannot browse the internet or search for specific topics, but I can provide general information and answer questions based on my pre-loaded knowledge. If you have a question about something, feel free to ask and I will try my best to help!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

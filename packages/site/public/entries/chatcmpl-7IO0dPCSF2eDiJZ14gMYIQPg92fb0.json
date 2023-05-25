@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IO0dPCSF2eDiJZ14gMYIQPg92fb0",
+  "object": "chat.completion",
+  "created": 1684616551,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 235,
+    "total_tokens": 242
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The invention of gunpowder can be traced back to ancient China around the 9th century. The Chinese alchemists, while trying to discover an elixir for immortality, accidentally created a mixture that was highly flammable – potassium nitrate (saltpetre), sulfur, and charcoal. This would later become known as gunpowder or black powder.\n\nThe exact date of its invention is debated among historians but it's generally believed to have occurred sometime during the Tang Dynasty (618-907). Early uses for gunpowder in China were primarily focused on creating fireworks and pyrotechnic displays.\n\nAs knowledge about gunpowder began to spread throughout Asia and then Europe via trade routes such as the Silk Road, it became clear that this substance had great potential as a weapon. By the late 13th century, early rockets called \"fire arrows\" containing tubes filled with gunpowder began appearing in Asia.\n\nBy the mid-14th century, gunpowder technology had arrived in Western Europe. Experimentation and refinement led to more advanced weaponry incorporating manually loaded firearms such as cannons and rudimentary handheld guns; these weapons greatly affected warfare tactics going forward.\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

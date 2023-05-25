@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GxyEsWbYYH9ykComeldJMoLLhPei",
+  "object": "chat.completion",
+  "created": 1684278130,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 298,
+    "total_tokens": 305
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The main difference between ice cream and frozen yogurt is their base ingredients. Ice cream is made from dairy products, including milk, cream, and sugar. Frozen yogurt or froyo has a similar texture to ice cream but is made primarily with cultured yogurt or fermented milk.\n\nHere are some other differences between ice cream and frozen yogurt:\n\n1. Fat content: In general, ice cream has more fat compared to frozen yogurt since it uses more heavy whipping creams compared to the lower-fat yogurts used in making froyo.\n\n2. Calories: Ice-cream generally contains higher calories than frozen treats because of its higher fat content.\n\n3. Texture: The churning process during freezing adds air to both products; however, as mentioned earlier most brands have less creamy consistency due to fewer fats present in them as opposed to the ones found in traditional versions of each product type respectively\n\n4.Tartness: While plain flavors may be quite similar among others offered at shops for giveaway sample tastings (if available), fruit-based concoctions should technically not elicit discernable distinction either!\n\n5-Nutritional value-Due largely upon added sugars across otherwise naturally occurring ones normally present within both primary food sources themselves respective core substances possess significantly differing healthful attributes when mixed together forming dessert foods marketed under popular section headings typically containing less beneficial forms thereof such amounts consumed determine act binging out unhealthy side effects contributing toward major insipid outcomes those doing so resulting morbid details surrounding obesity ratings America today revealing trends across"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

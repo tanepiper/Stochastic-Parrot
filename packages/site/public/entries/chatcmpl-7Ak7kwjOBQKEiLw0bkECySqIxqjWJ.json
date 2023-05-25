@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Ak7kwjOBQKEiLw0bkECySqIxqjWJ",
+  "object": "chat.completion",
+  "created": 1682794936,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 165,
+    "total_tokens": 172
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI, I cannot provide personal preferences or opinions. Instead, I can help you by sharing some of the top ramen restaurants in Chicago based on ratings and reviews:\n\n1. Strings Ramen Shop: A popular spot for ramen serving a variety of broths and toppings.\n2. Furious Spoon: Known for their unique approach to traditional Japanese ramen, they also offer hip-hop music at this upbeat eatery.\n3. High Five Ramen: With limited seating underground location is known to be cosy it's a great place for tonkotsu-style bowls.\n4. Kinton Ramen: This vibrant chain serves up various types of ramens with customizable options like noodle texture and spice levels.\n\nRemember that tastes may vary, so make sure to check out online reviews from different sources before visiting these locations!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

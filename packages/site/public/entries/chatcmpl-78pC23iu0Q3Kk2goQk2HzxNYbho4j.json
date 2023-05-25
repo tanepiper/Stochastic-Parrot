@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78pC23iu0Q3Kk2goQk2HzxNYbho4j",
+  "object": "chat.completion",
+  "created": 1682337766,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 15,
+    "total_tokens": 22
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Abraham Lincoln was assassinated on April 14, 1865."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

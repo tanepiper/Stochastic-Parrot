@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7C8I9XtIRpV7fOaDDPjtWNnHke9qc",
+  "object": "chat.completion",
+  "created": 1683126165,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 50,
+    "total_tokens": 57
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Thank you for the compliment! As an AI language model, I constantly strive to improve my understanding and provide helpful responses. It's great to receive positive feedback from users like you! If you have any questions or need assistance, feel free to ask."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

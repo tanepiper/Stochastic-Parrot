@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GXkbbjyAwR6MCpOyehNCQ2mNPOea",
+  "object": "chat.completion",
+  "created": 1684177341,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 113,
+    "total_tokens": 120
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on factors such as the type of silage, moisture content, fermentation quality, and storage conditions. In general, properly fermented and stored silage can last for 18 months or more if it remains unexposed to air. Once exposed to oxygen by opening the storage structure (e.g., bunker or silo), the quality of silage will start deteriorating within a few weeks due to spoilage from aerobic microorganisms. Ensuring good compaction during ensiling and proper sealing of storage structures will help preserve the shelf life of your silage."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

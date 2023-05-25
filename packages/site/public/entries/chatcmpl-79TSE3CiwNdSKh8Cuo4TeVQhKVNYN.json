@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79TSE3CiwNdSKh8Cuo4TeVQhKVNYN",
+  "object": "chat.completion",
+  "created": 1682492530,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 296,
+    "total_tokens": 303
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to get rid of cockroaches in a microwave, including:\n\n1. Cleaning the microwave: Unplug the microwave and give it a thorough cleaning. Mix equal parts water and white vinegar in a spray bottle or bowl. Apply this solution to a clean cloth or sponge and wipe down the entire interior surface of your microwave. Pay special attention to corners, crevices, and vents.\n\n2. Using natural repellents: Certain substances like bay leaves, catnip, or diatomaceous earth work as natural cockroach repellents. Place these wherever you've seen roaches inside or around your microwave.\n\n3. Set traps: You can set baited traps near infested areas to catch the pests while discouraging them from entering your kitchen appliances again.\n\n4. Seal gaps around appliances: Cockroaches usually sneak into microwaves through window seals or small cracks found at the back of these devices, so seal any entry points with caulk or foam sealant.\n\n5) Eliminate their food source – Clean up crumbs and other food debris on surfaces surrounding electrical equipment daily since insects could be attracted by leftover human meals stored nearby when they’re hungry enough–especially after dark hours!\n\n6) Call an exterminator: If all else fails (or if you have severe infestation), call professional help! They can apply effective measures that deal with current bugs at hand but also provide long-lasting solutions against future invasions into vital device territories within household interiors alike.”"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

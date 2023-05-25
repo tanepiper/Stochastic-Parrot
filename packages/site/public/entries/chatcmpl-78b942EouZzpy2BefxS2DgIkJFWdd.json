@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78b942EouZzpy2BefxS2DgIkJFWdd",
+  "object": "chat.completion",
+  "created": 1682283766,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Montfort family was a French noble family whose members played an important role in the politics and wars of their time. The most famous member of this family, Simon de Montfort, is known for leading the Crusade against the Albigensians in southern France and later for his involvement in English politics.\n\nThe origins of the Montfort family can be traced back to Amaury I de Montfort (died 1053), who held lands around the town of Montfort-l'Amaury in what is now northwestern France. His descendants continued to hold these lands but gradually gained more titles and influence.\n\nAmaury III de Montfort (died 1136) became Count of Évreux after marrying Agnès d'Évreux. Their son Simon II (born between 1117 and 1121; died about 1188) would further expand the holdings through marriage and inheritance.\n\nSimon IV de Montfront had two sons: Guy, who inherited his father's lands in France, and Simon V (c.1175-1218), who has become one of history’s most notorious military leaders as leader of Albigensian crusade from1209 until his death at Toulouse on June 25th during siege he led against last stronghold those opposed him there­by becoming inspiration modern terrorism!\n\nAfter Simon V's death at Toulouse, many other members left their mark on either side Channel - perhaps none so momentously than Earl Leicester VI by seizing crown third Plantagenet king Henry III also attempting pass it lord Edward Longshanks eldest grandson England thus threatening rekindle dynastic feud with Stuart branch royal house which emerged central Ireland when Brian Boru expelled Vikings early eleventh century before spreading"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

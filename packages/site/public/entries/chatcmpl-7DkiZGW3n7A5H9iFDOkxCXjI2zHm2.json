@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DkiZGW3n7A5H9iFDOkxCXjI2zHm2",
+  "object": "chat.completion",
+  "created": 1683512203,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 91,
+    "total_tokens": 98
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Sunflowers, belonging to the genus Helianthus, do not possess any deadly toxins like many other plants. Therefore, they are considered safe and non-toxic for humans and animals alike. The seeds of sunflower are consumed by people as well as birds because of their nutritional value. However, it is always a good idea to practice caution while introducing new food items in one's diet since some individuals may be allergic to certain plant material or its pollen."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

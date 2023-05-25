@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AalJrairlhuHfBM0VSgFgwUSBMkR",
+  "object": "chat.completion",
+  "created": 1682758949,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several career options related to human genetics that an individual can explore, including the following:\n\n1. Genetic Counselor: A genetic counselor is a healthcare professional who specializes in helping patients understand and adapt to their genetic risks for various health conditions. They assist individuals and families affected by or at risk for inherited conditions, offering information about potential treatments, reproductive choices, psychosocial support and referral to other medical services.\n\n2. Clinical Geneticist: A clinical geneticist is a physician specializing in diagnosing and managing patients with genetic disorders or birth defects. They may work directly with patients or provide consultative services to other physicians.\n\n3. Research Scientist: Human genetics research scientists study the genes responsible for specific diseases and investigate ways to prevent, treat and cure them through biotechnology advances.\n\n4. Molecular Biologist: Molecular biologists concentrate on understanding cellular processes at the molecular level, such as gene expression patterns or DNA replication mechanisms involved in hereditary diseases.\n\n5. Bioinformatician/Computational Biologist: These professionals combine computer science skills with biology knowledge to develop new tools for analyzing complex genomic data sets related to inherited traits and disease mutations.\n\n6. Forensic DNA Analyst: Forensic analysts use advanced DNA testing methods to identify criminal suspects from biological evidence found at crime scenes or verify family connections during paternity disputes.\n\n7 Public Health Specialist: Professionals working in public health organizations often focus on improving population-wide access to preventive screenings like newborn screening programs aimed at early detection of certain inheritance-based conditions\n\n8 Genetics Educator: Teachers instruct university students about cutting-edge areas within genomics research while training future generations of practitioners within this rapidly-evolving field\n\n9 Pharmaceutical Industry Professional – Researchers employed by drug development companies frequently conduct investigations into novel therapies designed specifically targeting human"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-782UOdQIKnZiHbsV1McP7DfFeBfbS",
+  "object": "chat.completion",
+  "created": 1682150548,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 285,
+    "total_tokens": 292
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The primary purpose of the United Nations (UN) is to maintain international peace and security, develop friendly relations among nations, achieve international cooperation in solving global problems, and be a center for harmonizing the actions of nations.\n\nSome key functions of the UN are:\n\n1. Peacekeeping: The UN deploys peacekeeping missions around the world to help countries transition from conflict to peace by monitoring ceasefires, disarming and demobilizing combatants, supporting elections processes, and fostering dialogue between opposing parties.\n\n2. Humanitarian assistance: The UN provides humanitarian aid through its various agencies like UNICEF (children), WFP (food program), or WHO (world health organization). These organizations provide support in areas affected by natural disasters or armed conflict by delivering food, healthcare services, water supply systems and more.\n\n3.officeholder=status-holder//25/?check=oda+parliament&odikey 63b47eaaa0d83172e8bb4c194a1336edbcdf362d-Disposition\">Economic development:\n\n5.Settling disputes\nThrough negotiations;\n\n7.Impact on individual rights;\n Through committees\";\n\n9.address human rights abuses;\n Through investigative or prosecutorial measures)\";\n\n11.Promoting regional integration\n By encouraging cross-border cooperation amongst neighbouring states.\";\n\n13.Support reform\";\n With technical expertise.\";\n\n15.Cross-cutting issues such as gender equality;\n In decision-making structures.ModelFormAssistant<|im_sep|>and policy implementation.\";"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

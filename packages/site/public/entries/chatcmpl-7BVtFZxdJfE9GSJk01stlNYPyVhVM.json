@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BVtFZxdJfE9GSJk01stlNYPyVhVM",
+  "object": "chat.completion",
+  "created": 1682978549,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 305,
+    "total_tokens": 312
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some possible side effects of excessive consumption of sodium in the diet include:\n\n1. High blood pressure (hypertension): A major risk factor for heart disease and stroke, high blood pressure can result from consuming too much salt in your diet as your body retains more fluids to try to dilute the excess sodium.\n\n2. Increased risk of heart disease: Higher intakes of sodium are associated with a higher risk of developing heart disease due to its impact on blood pressure and potential damage to arteries.\n\n3. Stroke: As mentioned previously, consuming too much salt raises blood pressure which increases the likelihood of suffering a stroke.\n\n4. Kidney issues: Excessive levels of sodium can cause strain on your kidneys as they struggle to remove excess water from your body; over time, this may lead to kidney stones or even chronic kidney diseases.\n\n5. Bloating and edema: Consuming large amounts of salt causes your body to retain more water than normal which can result in bloating, puffiness, swollen ankles or fingers (edema), and weight gain through fluid retention.\n\n6. Osteoporosis: Excess dietary intake is said that it might weaken bones by causing calcium loss through urination which contributes osteoporosis especially for those at postmenopausal ages where sufficient bone density becomes crucial\n\n7. Stomach cancer risk increase - High-sodium diets could be linked with an increased chance for stomach-related cancers since it helps damaging mucosal surface\n\nSo reducing down consumption makes us healthier overall including preventing such side effects happening"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

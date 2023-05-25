@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IWRH0gXqTqB5DGplrJrpl0oxOfTI",
+  "object": "chat.completion",
+  "created": 1684648955,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 63,
+    "total_tokens": 70
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How many states in India have a coastline?\n\nThere are 9 Indian states that have a coastline. These are:\n\n1. Gujarat\n2. Maharashtra\n3. Goa\n4. Karnataka\n5. Kerala \n6. Tamil Nadu \n7. Andhra Pradesh \n8. Odisha\n9. West Bengal"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CwrEabyF7oQIV6QNaxkPmrUBps6y",
+  "object": "chat.completion",
+  "created": 1683320540,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 293,
+    "total_tokens": 300
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some of the most common and widely known supernatural beings in Latin American folklore are:\n\n1. La Llorona (The Weeping Woman) - A legendary apparition who is said to wander near rivers or lakes, weeping for her drowned children.\n\n2. El Chupacabra - A creature that supposedly attacks animals, particularly goats and cattle, sucking their blood and leaving them dead.\n\n3. Duendes / Gnomes - Small humanoid creatures associated with forests or jungles, sometimes believed to perform mischievous acts.\n\n4. La Lechuza (The Owl Witch) - A shape-shifting witch who can transform into an owl and stalks victims at night.\n\n5. El Silbón (The Whistler) - A wandering vengeful spirit said to roam rural areas of Venezuela and Colombia heralded by his eerie whistles.\n\n6. Nahual/Nagual/Naual – In Mesoamerican beliefs a \"witch\" or \"shape-shifter,\" someone with the ability to turn into animal form after making a pact with dark forces\n\n7: Tlanchana – This Mexican water nymph lures men by combing her hair in bodies of water like rivers & lakes; upon capturing them she dives into water taking them along \n\n8: Cadejo – Good white cadejo protects travelers from harm whereas evil black cadejo brings danger on one’s journey Seen across Central America they resemble large shaggy dog-like creatures"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

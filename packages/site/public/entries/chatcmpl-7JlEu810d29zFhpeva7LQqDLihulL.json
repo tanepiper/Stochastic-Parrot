@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JlEu810d29zFhpeva7LQqDLihulL",
+  "object": "chat.completion",
+  "created": 1684944176,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A paternity test, also known as a DNA test, is a scientific analysis of genetic material to determine if a specific individual is the biological father of another person. This test can provide conclusive results for determining the paternity of a child by comparing the child's DNA with that of the presumed father.\n\nTo carry out paternity testing:\n\n1. Sample collection: The first step involves collecting DNA samples from both the presumed father and the child using buccal swabs. A buccal swab looks like an oversized cotton bud and collects cheek cells which contain DNA when rubbed on inside your cheek.\n   \n   It is possible to use other sample types such as blood or even hair follicles, but these are less common due to their more invasive nature.\n\n2. Laboratory analysis: The collected samples are sent to an accredited laboratory that specializes in forensic genetics.\n\n3. DNA extraction: Once received by laboratory professionals, they will extract high-quality genomic deoxyribonucleic acid (gDNA) from each participant's cells.\n\n4. Genetic Markers Analysis: Appropriate regions called short tandem repeats (STR) within each gDNA sample will be amplified via polymerase chain reaction (PCR). After amplification, PCR products undergo capillary electrophoresis separation followed by sizing and genotyping through advanced software systems - Applied Biosystems GeneMapper ID-X v1.5 Software System with DYS1249Y included in Yfiler Plus kit-analysis used specifically for identification purposes including predisposition studies related at crime detection levels employing standard multisite workflows adopted worldwide concerning single nucleotide polymorphism evaluation assessing simultaneously 27 locale man-liable haplotypes International Register Haplotype Association-affiliated absolute-scale Hardy–Weinberg equilibrium validations confirmed regularly monitored validated peer"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

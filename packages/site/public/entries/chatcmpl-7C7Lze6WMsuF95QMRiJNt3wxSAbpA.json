@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7C7Lze6WMsuF95QMRiJNt3wxSAbpA",
+  "object": "chat.completion",
+  "created": 1683122559,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 31,
+    "total_tokens": 38
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If you are looking for a random question to start a conversation, here's one:\n\nDid you have any childhood hobbies or interests that you still enjoy today?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

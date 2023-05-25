@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79ehPzu4A7CNd66WoNAL3E8NUR5ro",
+  "object": "chat.completion",
+  "created": 1682535755,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 132,
+    "total_tokens": 139
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Campari is a bitter Italian liqueur that is made from a base of alcohol infused with different herbs, fruits, and spices. Its exact recipe is kept secret, but key ingredients include oranges, rhubarb, ginseng root, bergamot oil, pomegranate peels and cascarilla bark. The bright red color comes from cochineal insects which have historically been used as coloring agents.\n\nThe taste of Campari can be described as bittersweet with prominent citrus notes and a slightly herbal undertone that complement the bitterness. Campari is traditionally served over ice or mixed in cocktails like the classic Negroni or Americano."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

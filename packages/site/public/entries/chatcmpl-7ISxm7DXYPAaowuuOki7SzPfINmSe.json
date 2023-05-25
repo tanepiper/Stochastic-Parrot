@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ISxm7DXYPAaowuuOki7SzPfINmSe",
+  "object": "chat.completion",
+  "created": 1684635594,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 166,
+    "total_tokens": 173
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The basic salary in India varies greatly depending on the industry, work experience, job position, and level of expertise. As of January 2021:\n\nEntry-level professionals (0-3 years experience) can expect a monthly average salary ranging from INR 10,000 to INR 30,000.\n\nMid-level professionals (~5+ years experience) could earn between INR 25,000 to INR 50,000 per month or more.\n\nSenior-level professionals with considerable expertise and work experience could earn over INR 60k -100k or much higher.\n\nIt's important to note that these figures represent general trends; actual salaries might be lower/higher. In industries like IT/software development or finance where demand for skilled employees is high-paying jobs tend to offer well-above-average wages compared to other sectors."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

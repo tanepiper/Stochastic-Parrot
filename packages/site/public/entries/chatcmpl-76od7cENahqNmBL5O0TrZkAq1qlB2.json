@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76od7cENahqNmBL5O0TrZkAq1qlB2",
+  "object": "chat.completion",
+  "created": 1681858945,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "New technologies and advancements have revolutionized the way people receive medical care. In recent years, there has been a rapid advancement in telemedicine-powered by various new technologies- which allows patients to consult with healthcare professionals remotely through video calls, phone calls, or messaging apps.\n\nSome of these novel methods of delivering healthcare include:\n\n1. Telehealth: Patients can now consult doctors through secure video conferencing platforms on their computers and smartphones. This means that patients don't need to physically visit hospitals for minor health concerns or follow-up consultations - which is both convenient for them and also frees up valuable resources at the hospital.\n\n2. Remote monitoring: IoT (Internet of Things) devices like wearable fitness trackers, glucometers, blood pressure monitors enable continuous tracking of vital signs from home releasing pressure on the overwhelmed medical services.\n\n3. Electronic health records (EHRs): With EHR systems, patient files are digitized for easy access and sharing across various healthcare providers with proper security measures ensuring data privacy while enhancing coordination among different members involved in patient’s treatments fostering connected care ecosystem\n\n4. Artificial Intelligence (AI) & Machine Learning (ML): AI-enabled chatbots provide instant answers to common queries increasing efficiency in therapy delivery.AI powered analytics assists physicians with skilled decision support leveraging tools like predictive disease risk identification based improving preventive medicine approaches\n\n5.AI-based imaging diagnostics help aiding clinicians identify potential diseases more accurately reducing error rates.\n \n6.Big Data & Analytics: Data mining helps identifying patterns from large databases enabling appropriate interventions.Not just diagnosis but prognosis predictions assist doctors in crafting better treatment plans base on recorded trends \n\n7.Personalised Medicine: Genetic profiling providing specific guidance towards targeted medication plan optimizing individualized intervention methods.\n\n8.VR/AR : Virtual Reality/Augmented Reality simulations"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

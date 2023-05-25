@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GGJrkg4XYhMms0omaILiMoaQe9nh",
+  "object": "chat.completion",
+  "created": 1684110335,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 345,
+    "total_tokens": 352
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A good hotel should have the following features:\n\n1. Clean and well-maintained rooms: This is one of the most important factors for any guest. The hotel rooms should be clean, including fresh linens and towels, spotless bathrooms, and comfortable beds.\n\n2. Friendly and helpful staff: A welcoming and attentive staff can make or break a guest's experience at a hotel. They should be able to answer questions about the property, local attractions, dining options, etc., as well as provide prompt service when needed.\n\n3. Convenient location: Depending on the purpose of your stay (vacation vs business trip), proximity to nearby attractions or transportation hubs can make all the difference in whether you enjoy your stay at a particular hotel.\n\n4. Amenities such as WiFi connection, complimentary breakfasts or similar meal deals can greatly enhance guests' stays by adding convenience that saves both time\n\n5 High-quality food options plays an important role since undoubtedly people look forward to enjoying delicious meals during their stay \n\n6 Safety measures: Ensuring security measures are placed i.e cameras in common areas & reliable key-card systems today ensuring guest's privacy\n\n7 Reliable online reviews & ratings allow future guests get accurate representation allowing them feel confident that choosing lodging wisely\n8 Accessibility for disabled individuals makes it essential hotels required provide ramps,elevators,wider doorways& accessible washrooms \n.\n9 On-site facilities like gymnasiums,pools,enjoy leisure activities while staying without making much travel arrangements around town-only if feasible from management point.\n\n\n\nOther minor details like available parking spaces,hair dryer,mineral water bottles also hold small but impressive weightage contributing towards betterment providing enjoyable facilities enabling pleasant surroundings keep remembering every time found themselves looking arranging shelter away home"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

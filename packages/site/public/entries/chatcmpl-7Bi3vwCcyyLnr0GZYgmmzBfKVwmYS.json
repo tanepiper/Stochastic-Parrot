@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Bi3vwCcyyLnr0GZYgmmzBfKVwmYS",
+  "object": "chat.completion",
+  "created": 1683025339,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a direct algorithm to determine emotion from text, as understanding emotions is quite complex and subjective. However, techniques like sentiment analysis or natural language processing (NLP) can help in estimating the emotion of a given piece of text.\n\nHere are some steps you could use to implement such an algorithm:\n\n1. Pre-process the text: Clean the input by removing punctuations, stopwords (common words like 'the', 'is', etc.), and converting all characters to lowercase for uniformity.\n2. Tokenize the Text: Break down the pre-processed sentences into individual words.\n3. Stemming/Lemmatization: Convert each word into its root form so that similar words aren't considered different (\"running\" would become \"run\").\n4. Utilizing a pre-trained model/corpus/database with emotional scores assigned for each word or creating one on your own using existing human-annotated datasets for sentiments/emotions.\n5. Use machine learning algorithms or rule-based systems to create a classifier which maps emotions onto textual data based on features derived during tokenizing/vectorizing step even MLPs(mutli layer perceptrons) work well here\n6. Assign an emotion label/score for each input sentence/phrase within your given dataset utilising combinations of various classifiers\n \nMost importantly these models usually include Recurrent Neural Networks(RNNs), Long Short-Term Memory networks(LSTMs), Transformers and context-dependent neural architectures which automatically accounts large-scale semantic properties necessary when deciphering true content\n\nKeep in mind that this topic is still under active research, and new methods are being developed daily so its always tough but not impossible task-to-detect\nand yes in part! Emotion detection algorithms success varies upon texts complexity; while proficient at discerning"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

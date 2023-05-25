@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JNp3Ue54zT2KjqYS4PiW20XnaLyM",
+  "object": "chat.completion",
+  "created": 1684854161,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 280,
+    "total_tokens": 287
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some popular museums in Madrid include:\n\n1. The Prado Museum - The Museo del Prado is considered one of the finest art galleries in the world, featuring a collection of over 9,000 artworks ranging from the Romanesque period to the 19th century.\n\n2. Reina Sofia Museum - Also known as Museo Nacional Centro de Arte Reina Sofía, this museum features modern and contemporary art with a focus on Spanish artists such as Pablo Picasso and Salvador Dalí.\n\n3. Thyssen-Bornemisza Museum - This private museum features an extensive collection of European and American paintings from the 13th to mid-20th century by some renowned masters like Vincent van Gogh and Hieronymus Bosch.\n\n4. CaixaForum Madrid - A cultural center that hosts temporary exhibitions covering various genres like art, science, history; also offers social projects programs.\n\n5. Sorolla Museum - Dedicated to Joaquín Sorolla y Bastida's life and work; showcases his beautiful impressionist-style paintings showcasing beach scenes and landscapes\n\n6. National Archaeological Museum: Houses prehistoric artifacts along with ancient Greek, Roman, Visigothic treasures\n\n7. Royal Palace of Madrid (Palacio Real) – Not exactly a museum but worth visiting for its lavish décor inside more than 3400 rooms including artwork collected by Spanish monarchs from Goya to Caravaggio"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

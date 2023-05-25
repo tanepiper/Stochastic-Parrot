@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7I5gzTVfMCgo26iKEiAh9s0Wsohyc",
+  "object": "chat.completion",
+  "created": 1684546141,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 117,
+    "total_tokens": 124
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no specific time limit for how long it lasts, but generally speaking, nitrous oxide (commonly known as laughing gas) used for dental procedures wears off within minutes after the administration has ended. The effects usually last just long enough to allow a dentist to complete their work without the patient experiencing pain or discomfort.\n\nThe length of time that nitrous oxide remains in effect can vary depending on factors such as dosage and individual response. Most patients feel completely normal within 10-15 minutes after stopping inhalation of the gas, though some may take slightly longer to return to baseline."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

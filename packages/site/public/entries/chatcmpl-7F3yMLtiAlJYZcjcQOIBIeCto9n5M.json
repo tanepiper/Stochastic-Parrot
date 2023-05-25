@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F3yMLtiAlJYZcjcQOIBIeCto9n5M",
+  "object": "chat.completion",
+  "created": 1683824546,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 154,
+    "total_tokens": 161
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A bifold wallet is a type of wallet characterized by its folding mechanism. It consists of two equal sections that fold together in half, hence the term \"bifolds.\" One side typically has slots for credit cards, IDs and other essential items, while the other features a compartment for paper currency.\n\nBifold wallets are designed to be slim and compact, making them ideal for carrying essentials without creating extra bulk in one's pocket or purse. They have been a popular choice among both men and women worldwide due to their versatile design.\n\nWhile there is no standard size for bifold wallets, they generally measure around 3-4 inches wide (when folded) by 3-5 inches tall. Some variations may include additional pockets or compartments on either side before folding shut."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

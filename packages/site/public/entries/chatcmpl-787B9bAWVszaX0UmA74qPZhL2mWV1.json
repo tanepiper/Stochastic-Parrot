@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-787B9bAWVszaX0UmA74qPZhL2mWV1",
+  "object": "chat.completion",
+  "created": 1682168575,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 230,
+    "total_tokens": 237
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some people might ask, \"if we evolved from monkeys, why are there still monkeys?\" This question stems from a misunderstanding of how evolution works.\n\nFirst and foremost, humans did not evolve directly from monkeys. Instead, both humans and modern monkeys share a common ancestor that lived about 25-30 million years ago. Over time, various species emerging from this ancestor evolved in different directions due to factors such as geographical separation, adaptation to specific environments or diets, competition for resources or mates, selection pressures like predators or disease availability.\n\nAnother factor is that the process of evolution does not simply replace one species with another more advanced one. Evolution occurs through branching off into multiple lineages where some go extinct while others adapt and continue evolving.\n\nMoreover, just because two species may have shared a common ancestor doesn't mean that either should necessarily outcompeted the other entirely in their natural habitats. Each would have occupied its own ecological niche; each possesses unique adaptations that equip it to survive under particular environmental conditions faced by its immediate ancestors several generations back who reproduced successfully enough times allowing those descendants alive today (i.e., us) maintained viable populations over thousands millennia-long periods"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

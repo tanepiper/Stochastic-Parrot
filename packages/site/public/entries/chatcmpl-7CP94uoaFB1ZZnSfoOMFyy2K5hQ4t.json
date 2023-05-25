@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CP94uoaFB1ZZnSfoOMFyy2K5hQ4t",
+  "object": "chat.completion",
+  "created": 1683190950,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Then he got an idea. An awful idea. The Grinch got a wonderful, awful idea.\n\n\"I know just what to do!\" the Grinch laughed in his throat,\nAnd he made a quick Santy Claus hat and a coat.\nAnd he chuckled and clucked, \"What a great Grinchy trick!\nWith this coat and this hat, I'll look just like Saint Nick!\n\n\"All I need is a reindeer,\" the Grinch looked around.\nBut since reindeer are scarce, there was none to be found.\nDid that stop old Grinch? No! The Grinch simply said,\n\"If I can't find a reindeer, I'll make one instead!\"\n\nSo he called his dog Max. Then he took some red thread,\nAnd tied big horn on top of poor Max's head.\n\nThen the two loaded up bags full of ponderous presents\nIn their corrupt ruse to create false merriments\n\nThey rode toward Whoville with suspicious glee\nWith hopes all those Whovilles would look upon see!\n\n\"Pooh-pooh to the Whos!\"' He was grinch-ish-ly humming:\n\"They're finding out now that no Christmas is coming!\n\"They're just waking up! Their mouths will hang open for',\n\"And then the small denizens down in Who-town\nWill all cry boo-hoo!\n\n\"That's right,\" sneered tliat meanest of meanies—The GRINCH!' \n\"Now let's ride from our mountain-top hidjiiway hutch!\"\nLikewise paraphras'd: we go soon as we finish .This punch!\"\n\n\"We must time things correctly!\" That G-r-i-n-c-h purred \"\n\"When those ho\"iii,-lif '---"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

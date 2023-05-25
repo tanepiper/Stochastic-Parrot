@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ANeak8G6D77WubxE2V7ioDwVcgBI",
+  "object": "chat.completion",
+  "created": 1682708560,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 116,
+    "total_tokens": 123
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several types of plants that survive in a desert environment. Some common examples include:\n\n1. Cacti: These plants have adapted to store water in their thick stems, and may have small or no leaves to reduce water loss through transpiration. Common examples include the Saguaro, Barrel cactus, Hedgehog cactus, etc.\n\n2. Succulents: Like cacti, succulents can store water in their fleshy stems or leaves for use during drought periods. Examples include Aloe Vera and Agave species.\n\n3.Language youtuber"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

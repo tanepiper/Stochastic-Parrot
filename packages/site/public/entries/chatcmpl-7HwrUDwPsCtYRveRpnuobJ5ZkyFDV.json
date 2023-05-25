@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HwrUDwPsCtYRveRpnuobJ5ZkyFDV",
+  "object": "chat.completion",
+  "created": 1684512196,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several traditional foods commonly eaten in the Navajo Nation, which is a Native American territory spanning portions of Arizona, New Mexico, and Utah. Here are some typical foods:\n\n1. Frybread: One of the most well-known Navajo dishes, made from fried dough (flour, water, salt, and shortening). It can be served sweet with honey or powdered sugar or savory as a base for tacos or stews.\n\n2. Blue Corn Mush: A simple porridge-like dish made from blue cornmeal and hot water. It can be flavored with juniper tree ash to create Níyalki'jyaadę́ę́', often served with mutton stew.\n\n3. Mutton Stew: A hearty dish usually consisting of chunks of mutton (sheep meat) cooked slowly in a broth with vegetables such as potatoes and carrots.\n\n4. Kneel Down Bread/Tamales: Known as Kłéésh'betsąąs in Navajo language; these involve boiling corn leaves filled with ground fresh corn masa mixture before peeling and eating them like tamales.\n\n5. Dried Meat: Pemmican-style dried beef or venison could be a food source used by many indigenous tribes throughout North America for centuries because it preserves well without refrigeration.\n\n6. Steam Corn Stew - Also called Nādaláílchiníńdęhígíída’ígí; this humble stew involves steamed white hominy mixed with more giant kernels obtained during stage harvesting known as 'corn milk.'\n\n7.Sumac Berries essential sauce – Sumac berries were also turned into thick sauce occasionally consumed alongside meat dishes after being mashed down using boiling water then seeping overnight"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7956WeEUDTHkr9gcQID2xjbfahbzO",
+  "object": "chat.completion",
+  "created": 1682398928,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 152,
+    "total_tokens": 159
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If you are talking about a scenario wherein someone is worshipping Satan, the act of worship could be called \"Satan worship\" or \"Satanism.\" However, it's important to note that there are various forms of Satanism, with some being atheistic and not actually practicing any form of worship.\n\nIf you mean someone who is devoted to evil in general, they might be referred to as evil-doers or malevolent individuals. Still, these terms don't strictly imply that they actively practice any type of religious belief or prayer associated specifically with malicious entities like demons.\n\nThe term \"demonolatry\" refers specifically to rituals and beliefs centered around demonic spirits. A person who practices these rites may also be referred to as a demonolater."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

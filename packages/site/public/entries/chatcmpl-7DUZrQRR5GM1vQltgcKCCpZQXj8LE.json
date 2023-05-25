@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DUZrQRR5GM1vQltgcKCCpZQXj8LE",
+  "object": "chat.completion",
+  "created": 1683450159,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 218,
+    "total_tokens": 225
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Thank you so much for giving me a chance to work as XYZ intern at ABC company in the summer. I am extremely grateful for this opportunity and commitment to supporting my professional growth.\n\nDuring my time here, I have gained valuable knowledge and experience working with different teams while contributing towards projects. My mentors have been incredibly supportive and helped me understand various aspects of the industry better.\n\nI appreciate all the guidance provided by everyone, such as providing constructive feedback on my work, teaching me new skills, and sharing insights about current trends. This internship has not only allowed me to apply what I learned in school but also encouraged me to broaden my horizons by learning from professionals like yourself.\n\nAs I conclude my internship with ABC Company, please know that your support has made a significant impact on shaping my career path moving forward; hence it's an invaluable experience that will stay with me throughout my life.\n\nOnce again, thank you very much for everything I've gained during this internship – greater confidence in myself as well as immense gratitude for being part of such a dynamic team.\n\nWarmest Regards,\n[Your Name]"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

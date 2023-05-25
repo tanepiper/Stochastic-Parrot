@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HAHW6JBKPabkegjga3SptxF0kwS6",
+  "object": "chat.completion",
+  "created": 1684325454,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 168,
+    "total_tokens": 175
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several languages spoken in Barbados. Here is a list of some of them:\n\n1. English: English is the official language of Barbados and is widely spoken by most people on the island.\n2. Bajan Creole: Also known as “Barbadian dialect” or simply “Bajan”, this creole language, based mainly on English but influenced by West African languages, prevails predominantly among its residents with local accents differing in varying parts of the Island.\n3. Portuguese: Spoken mostly due to descendants from Madeiran settlers who immigrated to Barbados during certain periods.\n4. Spanish and French may also be encountered from regional tourists or expatriates living in Barbados.\n\nHowever, if you visit Barbados, knowing English would practically be enough for communication purposes since it's the official and widely used language there"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

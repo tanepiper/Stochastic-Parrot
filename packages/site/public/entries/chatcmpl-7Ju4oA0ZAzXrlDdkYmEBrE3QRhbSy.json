@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Ju4oA0ZAzXrlDdkYmEBrE3QRhbSy",
+  "object": "chat.completion",
+  "created": 1684978146,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 258,
+    "total_tokens": 265
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "You can become more creative by following these tips:\n\n1. Identify your passion: Find out what interests you and where your strengths lie. This might involve trying out new things or rediscovering old hobbies.\n\n2. Challenge yourself: Pushing yourself to take risks and step outside of your comfort zone is essential for creativity.\n\n3. Learn from others: Engage in conversations with people who are experts in their field or explore the work of other creatives, such as artists, writers, thinkers, or designers.\n\n4. Develop a habit of curiosity: Creative people ask questions and look for connections between seemingly unrelated topics or ideas.\n\n5. Practice mindfulness: Becoming aware of our thoughts and emotions without judging them helps cultivate creativity.\n\n6. Experiment with different tools and mediums: Try working on several projects at a time using varying techniques or styles – this can inspire fresh perspectives in thinking about problems non-linearly\n\n7.Remain open-minded.: Be willing to receive feedback from others on how they approached an issue differently may generate new insight\n\n8.Schedule time off & periods dedicated solely towards incubating thought processes that aren't tied directly back into any one specific project; disconnect entirely when possible so as not encumbered by existing parameters surrounding current endeavors which could potentially hinder innovative impulses otherwise surfacing during downtime sessions"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

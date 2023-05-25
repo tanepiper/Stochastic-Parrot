@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77SuBxbVHgWtbTUafxTOZiCaGXA6P",
+  "object": "chat.completion",
+  "created": 1682013763,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Black holes and neutron stars are both compact, dense objects that remain after the death of a massive star. Although they share some similarities, there are significant differences between these two celestial bodies.\n\nBlack Holes:\n\n1. Formation: A black hole forms when a very massive star collapses in on itself after exhausting its nuclear fuel and undergoing core collapse into an extremely dense object. The gravitational force is so strong that not even light can escape from it.\n\n2. Density: Black holes have infinite density, as all their mass is concentrated at an infinitely small point called singularity.\n\n3. Event Horizon: This invisible surface marks the boundary beyond which nothing can escape the pull of gravity inside the black hole (including light).\n\n4. Gravitational Pull: Black holes have immense gravity due to their extreme concentration of mass and energy packed within infinitesimally tiny dimensions relative to other astronomical phenomena - this makes them extraordinarily warping spacetime surrounding them considerably more than other astronomical objects like neutron stars\n\n5. Accretion Discs & Jets: As matter falls towards black holes through processes such as accretion disc formation under certain conditions get accelerated along magnetic field lines generating jets moving outwards at relativistic speeds perpendicular to disk resulting in various Phenomenons \n\nNeutron Stars:\n\n1. Formation: When a massive star runs out of nuclear fuel but doesn’t become massive enough for core-collapse, It explodes in supernova pushing stellar material away leaving behind remnant companion which been crushed under its own weight turning atoms into neutrons,Nucleus made up almost entirely Neutrons– now called ‘neutron star’\n\n2.\nDensity : Compared to blackholes ,A typical neutron Star has radius around ~ 10 km with average densities being few times greater than Atomic nuclei"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

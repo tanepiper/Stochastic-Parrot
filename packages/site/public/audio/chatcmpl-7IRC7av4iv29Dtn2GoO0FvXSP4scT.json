@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IRC7av4iv29Dtn2GoO0FvXSP4scT",
+  "object": "chat.completion",
+  "created": 1684628795,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 103,
+    "total_tokens": 110
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is impossible to definitively determine when cows and other animals first began producing milk, as this evolutionary process likely occurred over millions of years. However, scientists believe that mammals started producing milk around 210 million years ago during the Mesozoic era.\n\nMilk production evolved in some mammals as a way to provide nourishment for their offspring without exposing them to external food sources or environments that could be harmful. Over time, different mammal species developed unique methods of nursing their young with specialized glands called mammary glands."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JvXU090uEIKQo6d5ILy45JP5ABA6",
+  "object": "chat.completion",
+  "created": 1684983768,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several tips for your first date:\n\n1. Choose a comfortable location: Pick a spot that you're familiar with and feel comfortable in, so you're relaxed and can focus on getting to know the other person.\n\n2. Dress appropriately: First impressions matter, which is why dressing smartly yet comfortably is essential. You don't want to be too formal or overdressed; go for something casual but presentable.\n\n3. Arrive on time: Punctuality shows respect for the other person's time and sets a good tone for the evening. Make sure to factor in traffic or transport delays when planning your route to the venue.\n\n4. Be yourself: Trying too hard to impress can often come across as forced or insincere; being genuine will always make you more attractive and interesting.\n\n5. Good hygiene: Take care of yourself - brush your teeth, take a shower, put on some deodorant before heading out - it’s important to look (and smell) clean when meeting someone new.\n\n6.\". Engage in active listening\": Pay attention while they speak! Respond thoughtfully instead of interrupting them constantly while they’re speaking—it’s respectful & shows sincere interest\n\n7\". Ask open-ended questions\": Keep conversation flowing by asking questions that require more than just \"yes\" or \"no\" answers (ex.”What attractions else do enjoy visiting?”)\n\n8.\". Avoid controversial topics': It's generally best not bring up subjects like politics/religion' might cause disagreement/heated discussions—rather discuss lighter/fun hobbies/\n\n9'. Use positive body language ': Smile maintain eye contact', uncross arms- these gestures show approachability friendly attitude -\n\n10''. Relax': Remember dating supposed enjoyed — rather pressuring perfect / try have fun"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

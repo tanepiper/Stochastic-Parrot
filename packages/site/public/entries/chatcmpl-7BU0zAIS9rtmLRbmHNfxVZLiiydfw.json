@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BU0zAIS9rtmLRbmHNfxVZLiiydfw",
+  "object": "chat.completion",
+  "created": 1682971341,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 348,
+    "total_tokens": 355
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several factors that may influence the price of a movie ticket, although the list will not be exhaustive:\n\n1. Location: The geographical location of the theater plays a major role in determining movie prices. For instance, prices are often higher in large cities because rents and other business costs may be more expensive.\n\n2. Time: Prices usually vary depending on whether it is a matinee showing (usually lower-priced) or evening showtimes when most people tend to visit theaters.\n\n3. Day of the week: Ticket prices also depend on weekdays versus weekends, with weekends typically having higher costs due to increased demand.\n\n4. Theater type/imax/standard 3D: Different types of theater experiences such as standard projections, Imax projection theaters, and standard 3D screenings can impact pricing.\n\n5. Chains vs Independent theaters: Chain movie theaters usually have standardized pricing while independent cinemas might set their own ticket rates offering unique viewing experiences or promotions for regular patrons.\n\n6. Film Popularity: New releases generate high-interest levels leading exhibitors to bump up their ticket pricing since they anticipate increased weekend footfalls at their facilities to see these blockbusters\n\n7. Movie Ratings & Genre- Family-friendly films like kids’ animation features might draw parents who would then need tickets for themselves AND their accompanying children influencing premium seating sales strategies\n\n8.Strictness Of Government Regulators/Government Policies who have oversight power over some aspects including deciding what tax rates apply & monopoly control allowing single/theater operator groups status.\n \n9.Royalty charges determined by film contracts/handling fees per mutually agreed deal terms between distributor/studio supplying content <=> theatrical rentals tied back %age paid via exhibitor <= various outcomes ex base/rooted performance scales per box office success level"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

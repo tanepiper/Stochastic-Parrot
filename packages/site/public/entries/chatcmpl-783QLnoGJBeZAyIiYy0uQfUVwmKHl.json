@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-783QLnoGJBeZAyIiYy0uQfUVwmKHl",
+  "object": "chat.completion",
+  "created": 1682154141,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 41,
+    "total_tokens": 48
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "An octopus has three hearts: two branchial (gill) hearts that pump blood through each of its gills, and a central systemic heart responsible for circulating blood to the rest of the body."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

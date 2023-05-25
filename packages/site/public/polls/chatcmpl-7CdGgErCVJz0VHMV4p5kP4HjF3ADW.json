@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CdGgErCVJz0VHMV4p5kP4HjF3ADW",
+  "object": "chat.completion",
+  "created": 1683245238,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 54,
+    "total_tokens": 106
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which time of day do you enjoy the most?\",\n  \"answers\": [\n    \"Early morning sunrise\",\n    \"Breezy afternoon delight\",\n    \"Golden hour sunset vibes\", \n    \"Starry nighttime serenity\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

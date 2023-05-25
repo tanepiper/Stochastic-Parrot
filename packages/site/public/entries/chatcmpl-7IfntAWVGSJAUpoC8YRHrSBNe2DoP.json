@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IfntAWVGSJAUpoC8YRHrSBNe2DoP",
+  "object": "chat.completion",
+  "created": 1684684953,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 181,
+    "total_tokens": 188
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In the Harry Potter series, a wizard's wand is made of various types of wood and contains a magical core from a magical creature. The cores used in making wands can be phoenix feathers, unicorn hairs or dragon heartstrings.\n\nThe above combination typically grants specific traits that tailor to an individual's personality and characteristics. For instance:\n\n1. Phoenix Feather: Powerful and highly capable wands, difficult to master as they are independent-minded with strong allegiance once given.\n2. Dragon Heartstring: Produces powerful spells quickly, has greater abilities than other cores but also more prone to turning to darker magic.\n3. Unicorn Hair: Consistent in magic output and bonds strongly with their owner; less likely to turn towards dark arts.\n\nSome factors like geography may come into play when considering availability of specific materials for wand crafting too. Ultimately, it is up to you how these resources factor into your world-building decisions!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

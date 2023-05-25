@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IKGOaLAr1bCEQag5rNPxVg8TMowk",
+  "object": "chat.completion",
+  "created": 1684602152,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate Strait, the entrance to the San Francisco Bay from the Pacific Ocean. It connects San Francisco on California's northern tip with Marin County to its north.\n\nConstruction of this iconic American landmark began on January 5, 1933 and ended with completion on April 19, 1937. The bridge opened to pedestrians for the first time on May 27th, 1937 and then to vehicles on May 28th, both in celebration of its completion.\n\nFamed for its distinctive orange color (International Orange), it was chosen over navy blue and gray because it provided better visibility for passing ships during foggy conditions that are common in San Francisco Bay area. At a cost of approximately $35 million at that time (equivalent to about $1.2 billion today adjusted for inflation) it was an astounding architectural feat considering there were no federal or state funds used; financing came primarily from bonds issued by The Golden Gate Bridge Authority.\n\nDesigned by engineer Joseph Strauss in collaboration with Leon Moisseiff as Chief Engineer and Charles Alton Ellis doing most calculations needed for stresses curves moment producing forces spans modulus elasticity etcetera necessary designing such bridges huge dimensions few had ever been attempted before much less built successfully given massive funding hurdles initially encountered groundbreaking took place only after lobbying political struggle win approval enough money be raised through bond issues private capital just when Great Depression reached worst depths upon decided going greatly underestimating how many people would use taxpaying motorists who each paid dollar cents round trip their first year equal six seventy three dollars these days total some nine-point-two-million soon down quarter still making enormously profitable source revenue authority well city helped pay off debts caused construction ahead schedule even went purchase additional assets like neighboring"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

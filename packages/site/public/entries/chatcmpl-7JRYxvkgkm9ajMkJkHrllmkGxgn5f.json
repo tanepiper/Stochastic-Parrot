@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JRYxvkgkm9ajMkJkHrllmkGxgn5f",
+  "object": "chat.completion",
+  "created": 1684868539,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There could be a few reasons why your wife may not want to have sex with you, including:\n\n1. Emotional disconnect: It's possible that she no longer feels emotionally connected to you, which can make it difficult for her to feel interested in having sex. Trying to reestablish emotional intimacy through communication and shared experiences might help.\n\n2. Stress or fatigue: Work, finances, children—many factors contribute to both physical and mental exhaustion. This strain can affect your wife's desire for sex significantly.\n\n3. Medical issues: A hormonal imbalance or other medical problems affecting her libido could lower her sexual desire.\n\n4. Pain/discomfort during intercourse: If your wife is experiencing pain or discomfort during sex (e.g., due- as a result of menopause), she might understandably avoid it.\n\n5.Regular Arguments / Unresolved Conflicts -- Constant fights/arguments between partners are often turn offs when it comes down the intimate moments\n\n6.Body Image Issues - Incorrect self-perception of body image sometimes act against intimacy among couples \n7.Boredom within relationship/spontaneity -: Any monotonous routine eventually gets tiresome after time passes . Routine kills the passion; add little spice by coming up with unexpected surprises\n8.Lack of Communication- Intimacy requires loads of candid transparency secrets/held-up emotions build barriers between co-partners\n\n\nTo resolve this issue without persuading her against her will first try addressing the underlying causes mentioned above,. Openly communicate about both yourself nand what shefeelz , Listen attentively too as well', Try building stronger' `, `emotional connections ensuring trust & commitment towards eachother-& maybe consider seeking professional advice like marriage therapy+medical assistance/.\n\nTake small steps together working upon discussing bottlenecks fix them"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

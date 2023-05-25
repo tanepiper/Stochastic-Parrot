@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77sBeiPhnKIHrZVdPDlgdnhOIwHPf",
+  "object": "chat.completion",
+  "created": 1682110946,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 153,
+    "total_tokens": 160
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "DHT stands for dihydrotestosterone, a hormone derived from testosterone. It is responsible for the development of secondary male sexual characteristics such as facial and body hair growth, deepening of the voice, and muscle mass increase. DHT also plays a role in male pattern baldness by affecting hair follicles on the scalp, leading to thinning or loss of hair.\n\nHowever, 5-alpha reductase inhibitors like Finasteride (Propecia) are commonly used to prevent this conversion process from taking place.Basically it blocks DHT production which results in slowing down or stopping hair loss. Some users may also experience modest regrowth of their lost hairs after consistent usage.Taking finasteride generally lowers serum levels of DiHydroTestosterone(DHT)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

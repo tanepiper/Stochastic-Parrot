@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78Ptp0lZrng9vqNjqscUD67zRGUxp",
+  "object": "chat.completion",
+  "created": 1682240537,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 227,
+    "total_tokens": 234
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Best 10 educational apps for kids:\n\n1. ABCmouse.com: Offers over 10,000 activities covering all subject areas, including reading, math, science and art.\n\n2. Epic!: An extensive digital library with over 40,000 books and educational videos for children up to age 12.\n\n3. PBS Kids Video: Offers a range of high-quality children's programming from PBS.\n\n4. BrainPOP Jr.: Designed for K-3 students, this app has animated videos on various subjects with supporting interactive quizzes and games.\n\n5. Starfall Learn To Read: A well-loved early literacy website that has been expanded into an app offering interactive stories and learning activities focused on phonics skills.\n\n6. Todo Math: Covers over 700 math concepts tailored to individual’s skill levels through engaging missions and challenges\n\n7.startwriteIndia:\nHelps in improving Handwriting by providing proper guidelines for enhancing writing skills.\n8.Codelearn :\nIt will educate the bases of code easily from mobile \n\n9.GrayLab Elements\nFree Tablet App Supports Chemistry Education using Periodic Table\n\n10.Jigsaw Puzzle Free Game Helps Develop Their Matching Skills.."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

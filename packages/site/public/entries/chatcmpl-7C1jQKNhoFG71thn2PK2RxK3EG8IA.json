@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7C1jQKNhoFG71thn2PK2RxK3EG8IA",
+  "object": "chat.completion",
+  "created": 1683100948,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Official descriptions of countries, such as on government websites or in international organizations' documents, often include the following five main elements:\n\n1. Geographic location and size: This includes a brief overview of the country's geographic position (such as whether it is landlocked or coastal), neighboring countries, natural features like mountain ranges or bodies of water that define its borders, and its total land area.\n\n2. Population and ethnic composition: The official description usually mentions the country's total population, along with some information about its demographic makeup – for example, major ethnic groups and languages spoken within the country.\n\n3. Political structure and governance: This part of an official description typically notes the type of political system in place (e.g., parliamentary democracy or presidential republic), the general organization of power between branches of government (executive, legislative and judiciary), relevant legislation to know about; if appropriate- their relationship to supra-national entities / other sovereign nations.\n\n4. Economy: Brief information regarding economic indicators such as GDP per capita is provided here underlines key industries driving national production/a substantial share more than 50 percent services sector serves tourism exports primary commodities agriculture mining extractive resources growth sectors potential development opportunities foster advances innovation manufacturing consumption strength stability currency exchange rates inflation interest monetary regulatory fiscal policy relations trading partners regional agreements investments foreign direct portfolio constraints infrastructure poverty wealth distribution disparities budget deficit surplus debts liabilities access credit risk factors sustainability prospects indicators projections\n\n5. Culture & History:\nHistorical context sometimes makes up an important feature mentioned generally based around significant events—the transition from colonial rule or a nation-level civil war—shaping current social conditions aspects society culture mentioning typically education religion arts sports holidays festivals symbols flag emblem anthem motto narrative depicts how beliefs values manifests themselves customs traditions rules norms demonstrates differences uniqueness shared traits"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

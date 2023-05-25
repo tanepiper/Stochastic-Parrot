@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GU0dL2KpKiAuB4FKPsXMWXJx8Rdp",
+  "object": "chat.completion",
+  "created": 1684162959,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Tincture of iodine is a solution containing about 2-7% elemental iodine, alongside potassium iodide or sodium iodide. This water-based solution has antiseptic properties and can be used to disinfect skin before injections or other surgical procedures, as well as to treat minor cuts and abrasions.\n\nTo make tincture of iodine, you will need the following ingredients:\n\n1. Elemental iodine\n2. Potassium iodide (or sodium iodide) \n3. Distilled water\n\nHere's how to prepare tincture of Iodine at home:\n\n1. Measure out approximately 2-7 grams of elemental iodine for every 100 milliliters (ml) distilled water.\n  \n   Note: You can use a lower concentration if desired; however, this may reduce its effectiveness as an antiseptic.\n   \n2. In a separate container, dissolve around 4-22 grams potassium (or sodium)iodide crystals in about 30 ml distilled water.\n\n3. Carefully add the dissolved potassium/sodium/iodate(ion)(I)+(+)-mixed halides-water(uid)((25))-iodate-potassium/carbonate-water//-(carbon/oxygen))/in-oils(-roan)/water_-%6_IODEX_ido_to_your_solution-the_with(ml)_from__potassium/ion(solution)-to_powd_pura/addition_of_sti-/of_the_whit_and_/50_salt_a(colorless/clear_form_sol)\n\n   Wear gloves when handling elemental into mixing it with the centegra-determination process concentration\n\n6-prod_health_now-of_atomic/releasing_recor_I,_at/approximately_safe_for_topical_applications(o/w/home_iprod"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

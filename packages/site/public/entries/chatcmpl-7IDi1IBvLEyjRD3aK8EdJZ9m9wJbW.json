@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IDi1IBvLEyjRD3aK8EdJZ9m9wJbW",
+  "object": "chat.completion",
+  "created": 1684576957,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 208,
+    "total_tokens": 215
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The term \"beat around the bush\" means to avoid talking about something directly or not getting straight to the point, usually because it is an uncomfortable topic or might involve admitting guilt or unpleasant consequences. This idiom can sometimes imply a sense of procrastination, reluctance, teasing, stalling for time, hinting at something without explaining explicitly.\n\nThe origin of this phrase dates back to medieval hunting practices in England when hunters would beat bushes and trees with sticks in order to flush out game birds like pheasants. People standing by would wait for these animals so they could immediately capture them once they were disturbed from their hiding spots. In this context, beating around the bush refers to preparing for what they are actually after – capturing these birds – instead of getting directly involved in that action itself.\n\nOver time, this metaphor came to signify avoiding direct confrontation with an issue and became widely used as an idiomatic expression across many cultures and countries worldwide. Today we use it generally suggest someone should stop evading a subject and start speaking openly about it."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

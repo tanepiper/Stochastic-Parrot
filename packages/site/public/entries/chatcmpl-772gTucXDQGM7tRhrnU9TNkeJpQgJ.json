@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-772gTucXDQGM7tRhrnU9TNkeJpQgJ",
+  "object": "chat.completion",
+  "created": 1681912969,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There can be several reasons why your left elbow hurts when you try to lay down. Here are some potential explanations:\n\n1. Trauma or injury: You may have experienced an injury or trauma without realizing it, such as falling on your arm or bumping it against a hard surface.\n\n2. Tendinitis: This is the inflammation of tendons that attach muscles to bones and can cause pain in the elbow area.\n\n3. Bursitis: Inflammation of bursae, small fluid-filled sacs near joints, can also contribute to elbow pain and discomfort while laying down.\n\n4. Arthritis: If you suffer from osteoarthritis or rheumatoid arthritis, these conditions could lead to pain in the joint area during rest.\n\n5. Nerve compression (Cubital Tunnel Syndrome): The ulnar nerve passes through a tunnel behind the inner part of your elbow called the cubital tunnel; sometimes this nerve becomes compressed due to prolonged bending at the wrist resulting in numbness & tingling sensation along with muscular weakness around fingers which might cause extra strain on elbows leading them susceptible towards experiencing more chronic pains like yours upon lying down\n\n6. Referred Pain: Sometimes pain from other parts of our body manifest within our elbows instead because specific areas share common nerves clusters between multiple regions - examples being neck & shoulder injuries transmitting their painful sensations via cervical spine downwards into arms/elbows/hands etcetera too often causing similar uncomfortable experiences while resting horizontally besides lying asleep as well!\n\n7) Muscle Strain/Tension- Overworking certain muscle groups throughout one day could potentially induce localized soreness about its origin+insertion points; forearm muscles attaching themselves onto medial epicondyle via flexor tendonimus alonis hence explains why when"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

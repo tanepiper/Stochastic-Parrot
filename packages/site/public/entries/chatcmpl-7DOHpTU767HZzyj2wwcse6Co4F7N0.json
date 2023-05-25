@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DOHpTU767HZzyj2wwcse6Co4F7N0",
+  "object": "chat.completion",
+  "created": 1683425977,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 43,
+    "total_tokens": 50
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I am unable to provide real-time information on bus arrival times. However, I hope you can use an app like \"Google Maps\" or your local transportation agency's website for more accurate and up-to-date information."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79qsCOAjry3AOZ1i7K2NDnewtQUtN",
+  "object": "chat.completion",
+  "created": 1682582552,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 264,
+    "total_tokens": 271
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on the person, their weight, metabolism and body type. On average, a healthy adult usually burns approximately 50-100 calories per mile while walking at a moderate pace. Factors such as age, sex and terrain also play a role in determining the number of calories burned during any physical activity.\n\nSlower walkers may burn slightly fewer calories than those who walk briskly due to less effort expended over the same distance. However, walking longer distances or up hills will naturally increase caloric expenditure.\n\nTo determine how many miles you need to walk to burn off your favorite dessert or meal, first find out roughly how many calories are in that particular food item (this information can often be found online). Then divide this amount by 50-100 (the average range of calories burned per mile) to estimate the number of miles required for you specifically.\n\nFor illustration purposes:\n\nIf a chocolate bar contains around 250 calories and you generally walk at an intensity where you burn about 75 calories/mile:\n\n250 ÷ 75 = Approximately 3.33 miles needed\n\nSo in this scenario one would need to walk around ~3.33 miles (about three and one-third)milea-)nto fully offset consuming that dessert's calorie content based on this rough estimation method.Of course every case individual results might vary.by"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

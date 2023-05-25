@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77xoIq8TlQZ9cXkQDvnVU9N72yFfB",
+  "object": "chat.completion",
+  "created": 1682132562,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are numerous ways to cope with stress, anxiety and daily challenges. Here are some tips:\n\n1. Practice mindfulness: Engage in activities that promote relaxation and focus on the present moment. Try deep breathing techniques, progressive muscle relaxation or meditation.\n\n2. Improve time management: Create a daily schedule or set priorities for tasks to help you manage your time effectively.\n\n3. Seek social support: Share your concerns with friends, family members or join a support group where you can express emotions openly and get feedback from others facing similar situations.\n\n4. Take care of yourself physically: Maintain a healthy diet, exercise regularly and ensure you're getting enough sleep each night to keep stress levels low.\n\n5.Settings realistic expectations and breaking larger tasks into smaller steps can make it easier to handle overwhelming situations.\n\n6.Create boundaries between work (or school) life balance by scheduling dedicated \"me \"and \"us\" times; this helps maintain personal relationships as well as give space for self-reflection when things get tough emotionally / mentally throughout these difficult periods isn’t uncommon at all break up big goals smallest manageably !\n\n7.Prioritize mental health - This means seeking professional assistance if need be taking advantage any resources available such counseling services offered online forums discussing issues faced today learning healthier coping mechanisms overall striving alleviate general sense uncertainty surrounds everyday existence knowing there many individual-scaled problem unique living 21st century age technological advancements super-fast-paced lives us lead combined plethora choices decisions unlimited access information overload being bombarded constantly changing society puts enormous amount pressure people navigating navigate through chaos emotional vulnerability becomes more essential than ever before!\n\n8.Stay connected — While genuine face-to-face interaction matters human beings feel worth connection established friends loved ones virtually too phone call text message event together visiting important does INCREASE decrease isolation"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

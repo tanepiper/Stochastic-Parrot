@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78SpePhfuK56LugExGmQ1wor60sdv",
+  "object": "chat.completion",
+  "created": 1682251810,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is not exactly possible to stop producing oil on your face, as it is a natural process that helps keep your skin moisturized and protected. However, you can take steps to reduce excess oil production and manage oily skin:\n\n1. Wash your face regularly: Use a gentle cleanser twice daily, in the morning and evening, to remove dirt and excess oil from your skin.\n\n2. Choose the right products: Look for skincare products specifically formulated for oily or combination skin types. These often contain ingredients that help balance sebum production without over-drying the skin.\n\n3. Exfoliate weekly: Use an exfoliating product once or twice per week to remove dead skin cells and unclog pores, which will help reduce excessive oiliness.\n\n4. Avoid over-washing: Too much washing can strip away essential oils needed by the facial nerves; limit washing sessions if necessary.\n\n5.Cancel out heavy makeup application with a matte finishing spray after everything has dried naturally on its surface instead of using powder compacts full time since clogged follicles could constrict vital blood flow underneath causing redness/inflammation leading towards breakouts resulting directly from compact pressed powders sitting atop open sore spots caused by said repeated rubbing action (i.e., retouching).\n\n8.Eating healthy: Consume nutritional supplements containing vitamins A_,_ D&K within specified ranges established according multiple clinical trials conducted worldwide showing significant decreases both subjective & objective measures evaluating general condition human subjects diagnosed initially possessing excessively greasy faces prone pimples blackheads whiteheads this scenario because likely lacking correct balanced diet requirements met aforementioned study findings.Restrict fried foods as well other providers saturated fats trans raise lipid levels therefore intensifying accumulation sebaceous glands outcome subsequential secretion cellular combustive release pro-acne"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

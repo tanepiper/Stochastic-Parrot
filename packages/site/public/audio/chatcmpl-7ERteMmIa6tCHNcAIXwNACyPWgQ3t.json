@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ERteMmIa6tCHNcAIXwNACyPWgQ3t",
+  "object": "chat.completion",
+  "created": 1683678182,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several potential reasons why you might be experiencing an upset stomach every evening, including:\n\n1. Food sensitivities or intolerances: Consuming foods that your body has difficulty digesting can cause an upset stomach. Common culprits include lactose (found in dairy products), gluten (found in wheat and other grains), and some artificial sweeteners.\n\n2. Overeating or eating too quickly: Consuming large quantities of food at once, especially if done quickly, can overwhelm your digestive system and lead to discomfort.\n\n3. Eating high-fat or spicy foods: Some people may experience gastrointestinal distress after consuming greasy, fatty foods or those containing significant amounts of spice.\n\n4. Gastroesophageal reflux disease (GERD): This condition occurs when the lower esophageal sphincter fails to close properly, allowing stomach acid to flow back into the esophagus, causing discomfort.\n\n5. Functional dyspepsia: This is a chronic disorder characterized by bouts of indigestion and occasional abdominal pain without any identifiable underlying cause; it often occurs during periods of stress or anxiety.\n \n6. Constipation: An inadequate diet low in fiber may lead to constipation which causes uncomfortable bloating and gas pains.\n\n7. Irritable bowel syndrome (IBS): IBS affects the functionality of the colon muscles that cause cramping pain as they contract spasmodically for longer durations than normal.\n \n8. Gastritis - Inflammation caused either caused by bacteria infection(Helicobacter Pylori)or excessive use NSAIDs(Non-steroidal anti-inflammatory drugs)\n\n9.Stress and Anxiety could also play a role considering these symptoms happens regularly only at evening times\n\nIf you continue experiencing regular evening stomach upsets, it"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

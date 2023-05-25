@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77vK35Jhcor4AFDFv0dRHyd2p1dxG",
+  "object": "chat.completion",
+  "created": 1682122999,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 92,
+    "total_tokens": 99
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The idiom \"a pretty kettle of fish\" typically means a difficult or awkward situation, a mess, or a muddle. It refers to an unpleasant circumstance that someone is dealing with or has created for themselves. This phrase often implies that the situation in question could have been avoided if better choices had been made.\n\nFor example: \"Sarah said she was going to fix the computer, but now it's in worse condition than before—a pretty kettle of fish!\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CIn8vM1Gvjlvw8erlD1MsQfa5FpC",
+  "object": "chat.completion",
+  "created": 1683166526,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 121,
+    "total_tokens": 128
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I think that dogs are indeed cleaner than humans in some aspects. For example, they groom themselves multiple times a day and have self-cleaning mechanisms like shaking off dirt or dust. Additionally, their saliva contains enzymes that help to break down bacteria and clean wounds.\n\nHowever, humans have access to many hygiene products and practices such as soap, toothpaste, showers, laundry detergent, etc., while dogs do not typically receive the same level of consistent cleanliness maintenance.\n\nIt can be said that both species can be quite clean in their own ways but comparing them requires considering different cleaning methods and relying less on overall comparisons."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

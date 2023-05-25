@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7C2fb9x9vlJC5D7l5KLy4odiJtpF4",
+  "object": "chat.completion",
+  "created": 1683104555,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 72,
+    "total_tokens": 79
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, Emus are native to Australia. Their scientific name is Dromaius novaehollandiae, which means \"fast-footed New Hollander.\" Emus are the second-largest living bird in the world by height and are found throughout most of the Australian mainland. They thrive in a variety of habitats including forests, grasslands, and wetlands."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

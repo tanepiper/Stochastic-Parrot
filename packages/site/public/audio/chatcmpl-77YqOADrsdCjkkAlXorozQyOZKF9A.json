@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77YqOADrsdCjkkAlXorozQyOZKF9A",
+  "object": "chat.completion",
+  "created": 1682036592,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few ways to create suspense in writing:\n\n1. Foreshadowing: Hint at something significant that will happen later in the story, sparking curiosity and anticipation in your readers.\n\n2. Withholding Information: Intentionally keep certain details or important facts hidden from the characters or reader, which increases tension as they try to figure out what's going on.\n\n3. Unpredictability: Have surprising plot twists or unexpected events occur throughout your narrative; keeping readers guessing can help maintain a sense of uncertainty and excitement.\n\n4. Pacing: Be purposeful with how you structure and time events in your story – space them apart so that suspense can build between major turning points or moments of revelation.\n\n5. Cliffhangers: End chapters, sections, or scenes with unresolved situations that compel readers to want to find out what happens next when they turn the page.\n\n6. Increase Obstacles and Conflict for Characters: Your protagonist should face escalating challenges and high stakes while trying to accomplish their goal(s); this further creates stress and apprehension around whether they will succeed or not.\n\n7. Relatability/ Empathy/Connections Between Readers And Characters - Make sure that the characters facing danger are multi-dimensional individuals who have endearing qualities (or traits people generally identify with). When you feel emotionally attached towards these personas living under great threat (of any sort), it heightens anxiety levels concerning their fates – sustaining heightened focus shortly thereafter+1\n\n8 Raise Stakes Of Situations – Ramp up intensity across suspenseful parts by using detailed descriptions/narration altering degrees precariousness character undergoes episodically+\n\n9 Use Multiple Points Of View- Switching perspective among different cast members illustrates various angles simultaneously fostering states unease amid contrasting"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

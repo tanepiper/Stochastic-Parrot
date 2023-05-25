@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78Br0Ytc46UD8140NliXZ1XS8RgAR",
+  "object": "chat.completion",
+  "created": 1682186546,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Back pain can be a symptom of various conditions, some of which may require medical attention. Here are five possible reasons for back pain:\n\n1. Muscle strain or soft tissue injury: Lifting heavy objects, sudden movements, or poor body posture can cause the muscles and ligaments in your back to stretch too much or tear.\n\n2. Herniated disc: The discs between the vertebrae of your spine act as cushions that maintain space between the bones while also providing flexibility and shock absorption. A herniated disc occurs when part of its gel-like interior protrudes outward through a small crack in its outer layer, pressing on nearby nerves and causing pain.\n\n3. Osteoarthritis: This degenerative joint disease usually affects people over 50 but is becoming more prevalent among younger individuals due to sedentary lifestyles and other factors such as obesity. It typically causes low back pain due to wear-and-tear damage on spinal joints.\n\n4. Spondylolisthesis: In this condition, one vertebra slides forward onto another lower down your spine's natural curvature (usually at the base), compressing nerve roots along the way resulting in lower back pain radiating leg discomfort known sciatica.\n\n5. Vertebral fractures: Spinal compression fractures occur in weakened bone from osteoporosis that cannot support normal stress loads leading cracks severe localized mid-back pains with certain body positions like standing straight up sitting down getting out bed would aggravate symptoms significantly while lying flat help alleviate them some cases conservative treatment options fail provide adequate relief doctors suggest minimally invasive surgical interventions stabilize fractured reduce inflammation restore overall function daily activities regain independence early mobility sign approval form see chapter-specific guidelines perioperative management patients undergoing elective lumbar fusion please return office after completion review education days office"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FKpSWzREV3w51V9nC4tU57O55cef",
+  "object": "chat.completion",
+  "created": 1683889342,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 105,
+    "total_tokens": 112
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A standard pool table size is 8 feet by 4 feet, with a playing surface measuring approximately 92 inches long and 46 inches wide. There are other sizes available as well:\n\n- Bar-size tables (7-foot) measure around 78 inches by 39 inches for the playing area.\n- Professional or tournament-sized tables (9-foot) have a playing area of approximately 100 inches by 50 inches.\n\nThese dimensions may vary slightly depending on the manufacturer, but these are generally accepted measurements for standard pool tables."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

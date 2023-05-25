@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78e27rA5wzQgg4OG2ZAjUAxR9sMIl",
+  "object": "chat.completion",
+  "created": 1682294867,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 61,
+    "total_tokens": 113
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these animals would you prefer as a pet?\",\n  \"answers\": [\n    \"1. Miniature donkey\",\n    \"2. Pygmy hedgehog\",\n    \"3. Baby chinchilla\",\n    \"4. Sugar glider\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

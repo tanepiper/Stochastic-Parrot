@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JwTNBbv5oQJuT0IwYbk0cJfgCK8b",
+  "object": "chat.completion",
+  "created": 1684987357,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 95,
+    "total_tokens": 102
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on the specific situation, but some measures that could be taken include wearing a mask when in public spaces or crowded places, practicing good hand hygiene by washing hands regularly and using hand sanitizer, maintaining social distance from others (at least 6 feet), avoiding touching your face (eyes, nose, and mouth), covering any coughs or sneezes with a tissue or elbow (not your hands), getting vaccinated against COVID-19 if eligible and recommended by health authorities."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

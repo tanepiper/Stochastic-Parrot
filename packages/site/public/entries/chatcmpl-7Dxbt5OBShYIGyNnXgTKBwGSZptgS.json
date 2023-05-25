@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Dxbt5OBShYIGyNnXgTKBwGSZptgS",
+  "object": "chat.completion",
+  "created": 1683561761,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 271,
+    "total_tokens": 278
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The most common exterior paint colors for a house include:\n\n1. Whites and off-whites: Classic and timeless, white exteriors work well with almost any architectural style.\n\n2. Grays: Light or dark grays are popular choices as they provide a neutral backdrop that complements various landscaping elements.\n\n3. Beiges/Tans: These warm hues add visual warmth to the home's facade and blend seamlessly with natural surroundings.\n\n4. Blues: From soft baby blue shades to deep navy tones, blue is an appealing color choice that adds character to the exterior of a house.\n\n5. Greens: Earthy greens evoke feelings of tranquility, making them ideal for homes surrounded by lush foliage or those looking to create a harmonious appearance with nature.\n\n6. Reds/Bricks/Browns: Deep reds, brick shades, and rich browns bring warmth and depth to stucco finishes, wood siding or brick facades while providing an organic look that exudes charm.\n\n7. Yellows/Golds/Ochre: Warm yellows evoke happiness and sunshine, perfect for houses in sunny regions looking to stand out among their surroundings vividly.\n\n8. Charcoals/Dark Gray/Black: Bold charcoals or blacks make striking statements on modern architecture while also adding sophistication when used alongside lighter-colored accents like trimwork around windows and doors"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

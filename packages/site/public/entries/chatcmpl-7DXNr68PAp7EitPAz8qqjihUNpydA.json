@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DXNr68PAp7EitPAz8qqjihUNpydA",
+  "object": "chat.completion",
+  "created": 1683460947,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 266,
+    "total_tokens": 273
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few ways to stop feeling nauseous immediately, but keep in mind that each person may respond differently to various methods. Here are some techniques you can try:\n\n1. Deep breathing: Take slow, deep breaths through your nose and exhale through your mouth. This helps regulate the oxygen flow in your body and can alleviate nausea.\n\n2. Eat slowly: Eating too quickly or overeating can cause indigestion and nausea.\n\n3. Peppermint: Suck on peppermint candy, chew mint leaves, or drink peppermint tea for temporary nausea relief.\n\n4. Ginger: Chew raw ginger or consume it as tea to ease stomach issues related to nausea.\n\n5. Apply pressure on specific acupressure points like Nei-Kuan point (P6): Locate press firmly- 3 finger widths down from the bottom wrist crease between the two forearm tendons\n\n6.Drink ice-cold water.\n \n7.Change positions - Lie down if it's more comfortable than sitting up;\n\n8.Take medications such as antiemetics under medical supervision only; \n\n9.Try taking small sips of clear beverages like spring water and herbal teas;\n  \n10.Avoid triggers or odors exacerbating worse\n\nHowever, If you frequently experience prolonged episodes of nausea without any apparent cause consider seeking professional help these techniques fail constantly"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DfoZu0EZaF039ap5b3koLldDnq4n",
+  "object": "chat.completion",
+  "created": 1683493355,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 50,
+    "total_tokens": 57
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "As an AI, I am not physically present in the real world and therefore do not have a \"body\" to work out. However, I can provide you with various workouts and exercises that may interest you or answer your questions about fitness and exercise."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

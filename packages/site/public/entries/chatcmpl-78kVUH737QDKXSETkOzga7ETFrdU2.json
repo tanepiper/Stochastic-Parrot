@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78kVUH737QDKXSETkOzga7ETFrdU2",
+  "object": "chat.completion",
+  "created": 1682319752,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are various ways to know if a spark plug is good or bad. Here are some steps to help you determine the condition of your spark plugs:\n\n1. Visual Inspection: Remove the spark plug from the engine and carefully inspect its appearance. A good and functioning spark plug should have light brown, gray, or tan deposit on the insulator (the ceramic part). If a plug is fouled with excessive deposits, covered in oil, or heavily corroded, it may be an indication that it's not in a good state.\n\n2. Check for Cracks and Damage: Another sign of a faulty spark plug is when there are visible cracks on its porcelain insulator or damage to any other component of the device.\n\n3. Measure Spark Plug Gap: The distance between two electrodes at the end of a spark plug should meet manufacturer specifications for your vehicle’s make and model upon inspection/using feeler gauge tool measurements.\n\n4. Use Ohmmeter To Test Resistance: Test electrical resistance using an ohmmeter across both ends; compare readings with information stated by manufacturers- most standard copper-based sparks should possess around 6000 to 15000 Ω range compatibility. Too high resistance might indicate internal rusting/inadequate connections while too low ensures damaged wiring/unwanted power shortage affects overall performance ability within connected engines assembly places during driving usages periods onwards accordingly later beforehand unforeseen circumstances possible areas chances probabilities examples options solutions endings causes reasons scenarioss meetings contemplations conclusions talks conversations statements approvals agreements suggestions balances perspectives assumptions ideas varieties alternatives privileges preliminaries prerequisites foundations bases rationales combinations structures formats systems specimens models standards institutions formations blocks components elements constructs provisions arrangements organizations configurations orders apparatuses instruments mechanisms machines materials agents supplies components settings parts adjustments levers buttons switches relationships correlations"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FwI4enPLGdzM45DNjwwpJHFK3Yuf",
+  "object": "chat.completion",
+  "created": 1684033344,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 334,
+    "total_tokens": 341
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to reduce energy consumption in households, which can result in significant energy and cost savings. Here are some practical tips that you can consider:\n\n1. Proper insulation: Ensure that your home is well-insulated, as this helps maintain a comfortable temperature without requiring excessive heating or cooling.\n\n2. Upgrade to energy-efficient appliances: When replacing old appliances, choose ones with an ENERGY STAR rating for optimal efficiency.\n\n3. Unplug devices when not in use: Appliances and chargers continue drawing electricity even when turned off if they remain plugged in. Consider unplugging them or using power strips with switches so that you can easily turn everything connected to it off at once.\n\n4. Use programmable thermostats: These help regulate the temperature of your home according to the time of day or whether anyone is present, reducing unnecessary energy usage from heating or cooling systems.\n\n5. Install LED lighting: Replace incandescent light bulbs with LEDs since they consume less energy and last longer than traditional bulbs.\n\n6. Wash clothes on cold setting: Using cold water instead of hot water for laundry cuts down on electricity consumed by heating water and still effectively cleans clothes.\n\n7.Store food efficiently:: Organize refrigerated items where air can circulate freely around them; don't overfill freezers because it makes them work harder than necessary\n\n8- Seal drafts:- Locate any drafty areas around doors or windows and seal them up using weatherstripping\n\n9.. Hang blackout curtains:- These block sunlight during summer months thereby preventing solar heat gain thus helping decrease reliance on air conditioning--;\n\n10 Overhead fan installation)- This could provide cooling effects sufficient enough without having additional units like A/Cs operating"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

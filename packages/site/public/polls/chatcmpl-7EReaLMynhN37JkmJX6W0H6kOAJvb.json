@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EReaLMynhN37JkmJX6W0H6kOAJvb",
+  "object": "chat.completion",
+  "created": 1683677248,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 72,
+    "total_tokens": 124
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which of these exotic fruits would you like to try?\",\n  \"answers\": [\n    \"Mangosteen: Queen of Tropical Fruits\",\n    \"Salak: The Snake Fruit\",\n    \"Cherimoya: The Ice Cream Fruit\",\n    \"]Rambutan: An Odd Hairy Cousin\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

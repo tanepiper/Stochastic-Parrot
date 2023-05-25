@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FDL7DnSQ9U7xxqu6mJHyGHenFjh0",
+  "object": "chat.completion",
+  "created": 1683860553,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 349,
+    "total_tokens": 356
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Presently, there are several popular programming languages in the tech industry that developers can learn. Here is a list of some top options:\n\n1. Python: Widely used for web development, scripting, data analysis, artificial intelligence (AI), and machine learning.\n\n2. JavaScript: Primarily used for building web applications by providing interactivity to websites through features like animations and form validation.\n\n3. Java: A versatile language mainly designed for application development (web apps, mobile apps) but also flexible enough to create standalone applications (e.g., games).\n\n4. C/C++: C is an imperative system programming language to help build low-level systems such as operating systems or embedded devices; C++ offers high performance with object-oriented and generic programming capabilities.\n\n5. Swift/Objective-C: Often seen together because of their use in iOS app development - Objective-C has been traditionally employed while Swift—a newer alternative—is more modern and easier to learn.\n\n6. Kotlin/Java: Both run on the JVM or Android platform; Kotlin's popularity has risen quickly due, in part, to its adoption by Google as the preferred language for Android app development.\n\n7- Ruby/Ruby on Rails – This beginner-friendly dynamic scripting language powers popular websites like Airbnb and Shopify using its full-stack web-application framework called Rails.\n\n8- PHP – Although it faces waning popularity in recent years compared with alternatives like Node.js or Go-lang platforms—this server-side scripting language remains relevant thanks largely again from WordPress support\n\n9– TypeScript/JavaScript – TypeScript serves as a superset that adds strong typing features onto JavaScript codebases making them less error-prone/typesafe & scalable across large organizations such Google/Microsoft employ these frequently within many projects since 2012 inception/release timeframe onwards"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

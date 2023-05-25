@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EZ4YLAdwx9rASuLK04pTxdXX1q8O",
+  "object": "chat.completion",
+  "created": 1683705766,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 246,
+    "total_tokens": 253
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Blockchain technology has several potential applications in the real estate industry, primarily focused on improving efficiency, transparency and security. Some of these applications are:\n\n1. Property search and verification: Blockchain can create a decentralized database containing all property records, ensuring easy access to accurate information for buyers and sellers. This would eliminate fraud due to falsified documents or multiple ownership claims.\n\n2. Financing and payments: Blockchain-based smart contracts can enable fast, secure transactions without intermediaries such as banks or lawyers, reducing transaction time and cost.\n\n3. Management of land registry systems: A blockchain-powered system could streamline title registration processes by providing a tamper-proof digital record of property ownership changes.\n\n4. Streamlining the leasing process: Smart contracts could facilitate lease agreement drafting with automatically enforceable terms based on predefined parameters (i.e., start date, end date) while also allowing seamless escrow services for deposit handling.\n\n5.Systematized due diligence process: Blockchain technology can help speed up the time-consuming diligence process when purchasing properties by maintaining immutable records related to financial history ,legal approvals/permissions etc\n\nThese applications have great potential in revolutionizing how we conduct real estate transactions; however there are still obstacles—like regulatory resistance—that need addressing before widespread adoption takes place"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

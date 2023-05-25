@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FsXv47U0MF36YfRWcIOMmt9ys1kg",
+  "object": "chat.completion",
+  "created": 1684018951,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 292,
+    "total_tokens": 299
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few things you can do in order to set up your LG TV for optimal video quality. Here are some steps to follow:\n\n1. Select the right picture mode: Depending on the content you're watching, changing the picture mode can improve picture quality. For example, choose Cinema or Movie mode for watching movies, and Game mode if you're gaming.\n\n2. Adjust aspect ratio: Make sure that your TV is displaying the correct aspect ratio (e.g., 4:3, 16:9) depending on what's being watched.\n\n3. Turn off motion smoothing: Motion smoothing creates an artificial sense of smoothness but may look unnatural at times; turning this feature off often results in more natural-looking images.\n\n4. Fine-tune color settings:\n   a) Set color temperature to \"Warm\" or \"Medium\".\n   b) Experiment with adjustments like brightness, contrast, saturation and tint until you find settings that suit personal preferences.\n   \n5. Ensure source device connection quality:\n- Use high-quality HDMI cables\n- Check resolution settings from connected devices (like Blu-ray players/streaming devices)\n  \n6. Calibrate your display with professional tools\n\nIt is recommended using a calibration software like Spears & Munsil HD Benchmark or AVS Forum’s free calibration guide for beginners offering step-by-step instructions on how adjust individual TV controls most accurately using test patterns provided by these resources.\n\n7.REGULAR MAINTENANCE – Keep updated firmware VERSION"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

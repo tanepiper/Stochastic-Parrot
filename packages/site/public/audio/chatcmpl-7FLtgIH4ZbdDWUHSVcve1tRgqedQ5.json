@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FLtgIH4ZbdDWUHSVcve1tRgqedQ5",
+  "object": "chat.completion",
+  "created": 1683893448,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 168,
+    "total_tokens": 175
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways you can get funding for your non-profit organization:\n\n1. Grants: Many foundations, corporations, and government agencies offer grants to non-profit organizations. Research potential grant opportunities by using resources like the Foundation Directory Online, GrantStation, or GuideStar.\n\n2. Individual Donations: Fundraising campaigns targeting individuals can be a great source of support. Develop a strong case for support and create compelling marketing materials that inspire people to donate. Utilize social media platforms, email marketing campaigns, and crowdfunding websites like Kickstarter or GoFundMe.\n\n3. Corporate Sponsorships: Establish partnerships with businesses in your community that share similar goals or interest in your cause to provide financial support through sponsorships.\n\n4. Special Events: Host fundraising events such as galas or charity auctions to raise funds from ticket sales and silent auctions donations.\n\n5.Exit%%*/"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

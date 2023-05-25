@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IFhlJUrmLkOem7Zw6TPzg2VRg76P",
+  "object": "chat.completion",
+  "created": 1684584629,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 96,
+    "total_tokens": 103
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is impossible to view the actual text messages of another person's phone without physically accessing the their device or having some kind of spyware installed. Even if you could, it would be an invasion of someone's privacy and illegal in most jurisdictions.\n\nTo protect yourself from potential legal consequences and avoid breaching someone else's trust, it is best not to attempt viewing someone else's text messages. Instead, communicate openly with your family members or friends if there are concerns that need addressing."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AosOAQWeFtVYNLl0cd7BhcTW0yJZ",
+  "object": "chat.completion",
+  "created": 1682813204,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some potential risk factors for a stroke are:\n\n1. Age: Stroke can occur at any age, but the risk increases as one grows older. Most strokes affect people over 65 years old.\n\n2. Gender: Men have a higher risk of having a stroke than women. However, women are more likely to die from a stroke.\n\n3. Heredity and race: People with a family history of stroke have an increased risk of experiencing one themselves, particularly if there is genetic predisposition towards certain conditions that contribute to the development of strokes like high blood pressure, diabetes or heart disease.\n\n4. Personal or medical history: Individuals who have had strokes in the past face higher risks for subsequent ones; likewise, anyone with other cardiovascular conditions (coronary artery disease), diabetes or transient ischemic attacks (“mini-strokes”) may be at heightened vulnerability for critical problems later on down the line.\n\n5. Smoking and tobacco use: Smokers face up to double their likelihoods when compared alongside non-smokers - this includes cigarettes as well! In addition nicotine usage greatly worsens overall vascular health leading ultimately into coronary artery blockages which could result disastrously depending upon circumstances present within individual users' lives\n\n6 . Alcohol use – Drinking large amounts quantities regularly has been known throughout time denigrate organ function though some studies suggest moderate consumption might actually lower chance encounter serious injury following brain mishap given context appropriate behaviors beforehand avoiding binge sessions altogether thereof sustaining healthier options perhaps even engaging occasional indulgence sobering moments transition better lifestyle choices alternative methods seeking reprieve momentary distress alleviate unwanted ailments arising continuation neglected abusive practices neglectful array consequence derived maladaptive coping mechanisms disassociation source reality drives motivational purposes pursuit satisfactory outcomes social gatherings interpersonal relationships personal achievements maintaining independence responsibility scope ability attributions belief"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

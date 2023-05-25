@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Bxz8hEfCsOn16RZRzMYh9S1GwwzQ",
+  "object": "chat.completion",
+  "created": 1683086546,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Although Botswana is a predominantly Christian country, there are still people following traditional religions and beliefs. Traditional religion in Botswana encompasses ancestral reverence or worship, divination, use of traditional healers (called \"sangomas\" or \"witchdoctors\"), and various rituals associated with important stages in human life.\n\nSome aspects of traditional religion include:\n\n1. Ancestor Worship: Many Batswana believe that the spirits of their ancestors protect and guide them in their daily lives. They might offer sacrifices to placate the spirits or ask for blessings from these ancestors.\n\n2. Divination: The Batswana traditionally practice divination using bones to communicate with the spirit world to find solutions to personal problems, seek advice on future decisions related to marriage, career choices, health issues etc.\n\n3. Rituals: To mark significant events like birth, circumcision ceremonies (for male children), initiation rites into adulthood for both boys and girls known as “bogwera”(boys)and “bojale”(girls).\n\n4.Traditional Medicine: Traditional healers play an essential role in communities as herbalists who diagnose and treat illnesses using indigenous plant knowledge combined with divine healing powers they claim to possess from their ancestral lineage.\n\n5.Rainmaking ceremony – Rainmakers hold crucial roles within communities by undertaking spiritual duties involving communicating with ancestors through song & dance which over time has developed intricate steps passed down generations leading up prayers intended appease natural phenomena bring drought relief being main aim during annual held rituals nowadays uncommon sight modern-day society yet still practiced some regions where livestock farming remains prevalent livelihood source majority living resource poor rural households especially northern central parts botswanas territory close cultural ties akin neighboring ”KALAHARI DESERT DWELLERS”.\n\nHowever it"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

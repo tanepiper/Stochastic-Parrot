@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Ernhea1f1QL8RU4dEL9OZY8GWSjr",
+  "object": "chat.completion",
+  "created": 1683777757,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 321,
+    "total_tokens": 328
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here is an example of a persuasive essay outline:\n\nI. Introduction\n    A. Hook: Start with an attention-grabbing sentence or question to engage the reader.\n    B. Background information: Briefly explain the issue being discussed and provide context.\n    C. Thesis statement: Clearly state your opinion on the matter in one concise sentence.\n\nII. Body\n   A. Paragraph 1 - First supporting argument\n        1.Topic sentence: State your first major point in support of your thesis.\n        2.Explanation and evidence:\n            a.Provide relevant examples, statistics, or expert quotes to back up this point.\n            b.Explain how these sources support your argument.\n       3.Counter-argument refutation (if applicable):\n             a.Acknowledge potential opposing viewpoints regarding this point.\n             b.Discount those views by providing solid counterarguments to refute them.\n\n   B.Paragraph 2 - Second supporting argument\n        (Repeat steps from paragraph 1.)\n\n   C.Paragraphs 3 (and additional paragraphs as needed) – Further supporting arguments\n\nIII.Addressing opposing viewpoints \n     (If not included within each body paragraph)\n     A.Introduce opponent's position honestly and fairly.\n     B.Refute points made by opposition using strong evidence.\n\nIV.Conclusion\n      A.Reiterate thesis statement without directly restating it word-for-word; show why it matters!\n      B.Summarize main points concisely and compellingly, so readers won't forget what you said about issues at stake \n      C.Call for action or present possible future implications related topics covered throughout essay"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7K25xzJKeQyksXw8H5m4YMvBnSSMp",
+  "object": "chat.completion",
+  "created": 1685008969,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It is important to maintain a healthy diet during pregnancy for both the mother and the baby's well-being. Here are some food options that are packed with essential nutrients:\n\n1. Dairy products: rich in calcium, protein, and probiotics, such as yogurt, milk, and cheese.\n\n2. Legumes: excellent source of plant-based protein, fiber, iron, folate (vitamin B9), and potassium; examples include lentils, peas, beans.\n\n3. Sweet potatoes: filled with beta-carotene (antioxidants), vitamin A vital for the baby's growth & development; also contain fiber & other nutrients.\n\n4. Whole grains: provides energy through complex carbohydrates; oatmeal or whole-grain bread for dietary fiber;\n\n5. Lean animal proteins: chicken breast or turkey without skin to minimize fat content; fish like salmon – good source of omega 3 fatty acids crucial for brain development;\n\n6. Fruits and vegetables - variety of colors & types offer vitamins/minerals/antioxidants boosts immune system health;\n\n7-Omega-3-rich foods:wild-caught oily fish( e.g.,sardines,herring,mackerel,salmon) supplemented by nuts/seeds(e.g.,walnuts,chia seeds);\n\n8.Dark leafy greens;(e.g., kale,collards,bok choy,broccoli);highly nutritious-promoting proper fetal eye/bone/connective tissue formation(source:vitamin K+C,A,folate,potassium)\n\n9.Whole eggs/source:vital brain-boosting-choline/neural tube defect prevention considering doctor recommendations\n\n10.Avocado-excellent alternative fats/manages sugar levels/satiated/full/have vitamin C,E,K/potentiate absorption fibrous/plant-produced"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77LPUQiE3FNW1xinX9IS2XDoGWQjJ",
+  "object": "chat.completion",
+  "created": 1681984952,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Festival of Colors, Holi, is an ancient Hindu festival that predominantly takes place in India and Nepal but is also celebrated by people around the world in various forms. It usually occurs between late February and mid-March, depending on the lunar calendar. The festival signifies the victory of good over evil and marks the arrival of spring after winter.\n\nHoli festivities typically start with a Holika bonfire on Holi eve. People gather around a massive fire to burn wood and cow dung cakes, which symbolize burning away any negative energy or impurities from their lives.\n\nOn the day of Holi itself, participants throw dry powders called \"gulal\" or colored water at each other using water guns or balloons. These colors are said to represent love, happiness, prosperity, forgiveness or friendship between loved ones. On this day no one remains clean; everyone ends up drenched in multicolored paint!\n\nIn some parts of India like Mathura-Vrindavan (Uttar Pradesh), Lathmar Holi sees women playfully hitting men with sticks while they try to shield themselves with shields as part of fun-filled rituals related to Lord Krishna's mythological stories.\n\nApart from all these traditions & revelries during holi which enjoys mass participation both genders participate in equal numbers without age barrier , there are special foods prepared for this occasion as well like gujiya (sweet pastry filled with mawa- milk solids),malpua(Indian style pancakes),sweets made out ofsugar syrup soaked jalebi/sweet pretzel etc\n\nToday it even extends beyond cultural boundaries where numerous communities across globe organizes special events so closely resembling festive scene back home albeit catered specifically overseas diaspora who misses essence traditional event firsthand thus making"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

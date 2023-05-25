@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DiwfcF6xoZuLaEMa3n053XwaAtja",
+  "object": "chat.completion",
+  "created": 1683505389,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 239,
+    "total_tokens": 246
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A bed sheet is a large, rectangular piece of fabric that covers and protects the mattress. It is typically used as part of bedding in combination with other items like blankets, duvets or comforters, pillows and pillowcases. Bed sheets come in various materials such as cotton, linen, silk and polyester.\n\nThere are two types of bed sheets: \n\n1. Flat sheet: Also known as a top sheet, it lays flat on the mattress between the sleeper and any outer layers like blankets or duvets. A flat sheet provides an extra layer of cleanliness by keeping sweat, dirt and body oils off the blanket or cover.\n\n2. Fitted sheet: This has elasticized corners designed to wrap around the four corners/top edges of a mattress snugly so that it stays put during sleep hours. The edge may have elastic all around (also called \"full encasement\") or just at corners (\"head/foot attachment\"). The fitted sheet gives your sleeping surface a smooth feel while protecting your mattress from stains and general wear.\n\nA good quality bedsheet not only improves comfort but can also enhance overall hygiene levels within one's sleeping environment - particularly when chosen wisely based on personal preferences for materials used"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HTooRWeRSR7tibPN39w68IOKVvIW",
+  "object": "chat.completion",
+  "created": 1684400554,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 125,
+    "total_tokens": 132
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Yes, chocolate contains flavonoids that may help protect the heart. These flavonoids have antioxidant properties and can help lower blood pressure, improve blood flow to the heart and brain, reduce inflammation, and prevent blood clots.\n\nHowever, not all chocolates are equal when it comes to their health benefits. Dark chocolate with at least 70% cocoa content is considered best since it contains more beneficial compounds than milk or white chocolate. Keep in mind that consuming too much chocolate can lead to weight gain due to its high sugar and fat content; moderation is key for enjoying its potential health benefits without negative effects on your overall health."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

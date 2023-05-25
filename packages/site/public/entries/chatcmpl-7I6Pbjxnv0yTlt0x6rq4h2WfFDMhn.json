@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7I6Pbjxnv0yTlt0x6rq4h2WfFDMhn",
+  "object": "chat.completion",
+  "created": 1684548907,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 160,
+    "total_tokens": 167
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on the type of surgery and the complexity of your case, but generally, you can expect some form of improvement in terms of pain relief or function after orthopedic surgery. Positive outcomes depend on various factors such as proper diagnosis, surgical technique, rehabilitation protocol, and patient compliance with post-operative instructions.\n\nHowever, note that results may vary from person to person. While many people experience great improvements in their condition after orthopedic surgery, there is always a risk that it might not work as expected for others due to unforeseen complications or individual differences.\n\nIt's crucial to have open communication with your surgeon regarding expectations about your recovery and any potential risks associated with the procedure. Follow all guidelines provided by your healthcare provider and attend all recommended follow-up appointments to increase the chances of a successful outcome."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EAisEA72UV2m7d91H9P228v1Qf1L",
+  "object": "chat.completion",
+  "created": 1683612166,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 343,
+    "total_tokens": 350
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In the Milky Way galaxy, there are various types of celestial bodies like stars, planets, and moons. \n\n1. Stars: Celestial objects that generate light and heat through nuclear fusion reactions in their core. For example:\n  - The Sun (our own star)\n  - Proxima Centauri,\n  - Alpha Centauri A & B\n  - Betelgeuse\n\n2. Planets: Large celestial objects that orbit a star i.e., which do not have any energy production by thermonuclear reactions in their interior.\n  \n   In our solar system we have majorly two families: inner planet family (terrestrial planets) and outer planet family(gas giant ones):\n\n   Terrestrial planets:\n\n    a) Mercury \n    b) Venus   \n    c) Earth    \n    d) Mars  \n\nGiant Gas Planets:\n\n     e ) Jupiter\n     f ) Saturn\n     g ) Uranus                   \n      h ) Neptune\n\nPluto-It comes under the category of dwarf planet due to its size.\n\n3. Moons: Natural satellites that orbit around a planet; usually these are smaller than the planet itself.\n\na few examples from our Solar System include:- Moon(Earth), Europa(Jupiter's moon), Titan(Saturn's moon), Ganymede(Jupiter's moon)\n\n4 .Exoplanets or Extrasolar Planets- These are those beyond just our local neighborhood.\n\n\n\n5.Asteroids – Small rocky bodies in space primarily found within asteroid belt located between MARS&JUPITER.\nCeres is considered both as an asteroid being largest body amongst them inside this region also included into SPHERICAL DWARF PLANETS group now with unqualified mutual approval\n\n\n\n\n\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

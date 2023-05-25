@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FpjyukrXLZ7K79YcPa8c3v34xxUd",
+  "object": "chat.completion",
+  "created": 1684008166,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 36,
+    "total_tokens": 43
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, I am an AI language model and cannot make phone calls or send texts. However, if you need help with a written response or question, feel free to ask."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

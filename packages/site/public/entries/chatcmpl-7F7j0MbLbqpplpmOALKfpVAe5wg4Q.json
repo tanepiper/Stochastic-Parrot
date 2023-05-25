@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F7j0MbLbqpplpmOALKfpVAe5wg4Q",
+  "object": "chat.completion",
+  "created": 1683838970,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 110,
+    "total_tokens": 117
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, I cannot provide you with a free version of the IGI Genealogy Database since it is not within my abilities as an AI to access or distribute copyrighted materials. You may have to visit official websites that offer genealogical records for a fee or explore other platforms that allow free access with limited features.\n\nOne such platform that offers some genealogical information for free is FamilySearch (https://www.familysearch.org/), which was originally created by the Church of Jesus Christ of Latter-day Saints but contains records from all around the world."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

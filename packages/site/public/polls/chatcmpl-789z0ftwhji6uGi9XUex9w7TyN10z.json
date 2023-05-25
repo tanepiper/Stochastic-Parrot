@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-789z0ftwhji6uGi9XUex9w7TyN10z",
+  "object": "chat.completion",
+  "created": 1682179354,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 41,
+    "total_tokens": 93
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which superpower would you choose?\",\n  \"answers\": [\n    \"Invisibility\",\n    \"Time travel\",\n    \"Flight\",\n    \"Telekinesis\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

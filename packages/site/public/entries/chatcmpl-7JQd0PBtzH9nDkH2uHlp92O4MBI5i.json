@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JQd0PBtzH9nDkH2uHlp92O4MBI5i",
+  "object": "chat.completion",
+  "created": 1684864946,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 172,
+    "total_tokens": 179
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no exact number of Hindi speakers in the world, as it varies depending on factors such as population growth and migration. However, according to various sources like Ethnologue and World Population Review, there are roughly 615-630 million people who speak Hindi either as a first or second language. Additionally, Hindi is recognized to be one of the most spoken languages in the world, with over 341 million native speakers.\n\nIndia constitutes a large majority of these speakers (approximately 525 million), but other countries also have significant numbers of Hindi speakers because many Indians live outside India. These countries include Nepal (8.1 million), Bangladesh (543 thousand), Uganda (408 thousand), South Africa (890 thousand), Pakistan (425thousand) Mauritius(422 Thousand) and elsewhere across Southeast Asia, Europe, North America and Oceania where Indian migrants reside"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

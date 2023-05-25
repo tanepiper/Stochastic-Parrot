@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GgBhtWvoj3vEI8LMltGrW41FilBY",
+  "object": "chat.completion",
+  "created": 1684209773,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 266,
+    "total_tokens": 273
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There could be a few reasons why your text may not appear as ASCII:\n\n1. The file encoding is different: Your text file might have been saved with a character encoding other than ASCII, such as UTF-8 or UTF-16. These encodings can include non-ASCII characters, which would cause the text to appear differently when viewed as ASCII.\n\n2. Non-printable characters are present: Some non-printable control characters in the ASCII standard (such as tabs and line breaks) may alter how the text appears on screen, even though it is still technically an ASCII-encoded document.\n\n3. Corrupted file or data transfer issues: It's possible that your text has become corrupted during storage, transmission or editing processes, leading to unexpected appearance of some elements within it.\n\n4. Software compatibility issues: Different software programs handle character sets in various ways, so you might experience formatting issues if attempting to open an otherwise valid file with ill-suited software for this specific purpose.\n\nTo resolve these problems:\n\n1. Check your source editor settings and/or re-save the document using correct encoding.\n2. Make sure there aren't any problematic control characters interfering with readability by checking everything thoroughly.\n3. Make certain that data transmission occurred properly without corruption by trying multiple methods of retrieving content from original environment; repeated testing will help isolate issue further\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

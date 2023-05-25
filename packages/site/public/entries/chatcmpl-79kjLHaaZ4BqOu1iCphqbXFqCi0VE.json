@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79kjLHaaZ4BqOu1iCphqbXFqCi0VE",
+  "object": "chat.completion",
+  "created": 1682558939,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 101,
+    "total_tokens": 108
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There isn't a single answer to this question as the ideal temperature for sleep can vary from person to person. However, most experts agree that a bedroom temperature between 60-67 degrees Fahrenheit (15-19 degrees Celsius) is optimal for most people.\n\nA cooler room helps your body's natural cooling process while you sleep, which also plays a role in improving the quality of your sleep. If you feel too cold, you can always adjust the thermostat within this range to find what makes you most comfortable."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

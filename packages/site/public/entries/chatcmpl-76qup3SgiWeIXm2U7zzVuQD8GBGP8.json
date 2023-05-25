@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-76qup3SgiWeIXm2U7zzVuQD8GBGP8",
+  "object": "chat.completion",
+  "created": 1681867731,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 56,
+    "total_tokens": 63
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "No, Ben Stiller did not die during the filming of \"Tower Heist.\" There were no incidents or accidents reported that show any serious harm coming to him while shooting the movie. As of now, Ben Stiller is still alive and actively involved in acting and filmmaking."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

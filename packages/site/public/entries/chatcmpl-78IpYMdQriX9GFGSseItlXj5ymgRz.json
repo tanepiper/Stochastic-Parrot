@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78IpYMdQriX9GFGSseItlXj5ymgRz",
+  "object": "chat.completion",
+  "created": 1682213364,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 348,
+    "total_tokens": 355
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Italian composer and violinist Antonio Lucio Vivaldi (1678-1741) is often remembered for his many concertos, particularly \"The Four Seasons,\" a series of four violin concertos. Here are some other important titles in his work:\n\n1. Gloria RV 589: A choral piece composed as part of the sacred music genre.\n2. Magnificat RV 610/611: Another renowned choral composition, that has multiple versions with various styles.\n3. L'estro armonico Opus 3 – A collection of twelve instrumental concertos showcasing harmonic invention and intricate solo parts\n4. La Stravaganza Opus 4 - This set consists of another twelve concerti for violin, strings, and continuo\n5. Il cimento dell'armonia e dell'inventione Opus 8 – The famous set to which \"The Four Seasons\" belongs; it contains eight additional concerts illustrating diverse technical challenges \n6. Griselda RV 718 - An opera in three acts based on a libretto by Apostolo Zeno\n7. Orlando furioso RV 728 - This three-act opera was derived from Ludovico Ariosto's epic poem bearing the same name \n8. Bajazet (Il Tamerlano) RV703 - Based on Francesco Silvani's libretto \"Il Tamerlano,\" this tragic opera revolves around themes of love and power struggles.\n\nVivaldi produced over five hundred concerto compositions throughout his career, further cementing his position as one of Baroque music's most significant contributors due to his lyricism and virtuosity in both composing & playing the violin instrumentations within these works alike"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

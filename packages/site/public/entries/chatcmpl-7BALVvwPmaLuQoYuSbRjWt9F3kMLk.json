@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BALVvwPmaLuQoYuSbRjWt9F3kMLk",
+  "object": "chat.completion",
+  "created": 1682895733,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 238,
+    "total_tokens": 245
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The worst response to I love you would be anything that might hurt or belittle the person expressing their feelings. Some examples include:\n\n1. Silence or completely ignoring the sentiment.\n2. \"Oh... okay.\"\n3. Laughing and saying, \"Really? Are you serious?\"\n4. \"I'm sorry, but I just don't feel the same way about you.\"\n5. \"Is this a joke?\" \n6. Comparing them to someone else: \"Yeah well, so does my ex.\"\n7. Responding with sarcasm: “Wow! That only took forever.”\n8. Being excessively cruel: “Well I don’t—and never will—love you back!”\n\nRemember that people's feelings are vulnerable when they express love for someone, so it's important to respond in a gentle and compassionate manner if those feelings aren't reciprocated or if there is any sort of reluctance towards discussing romantic emotions at that given time.\n\nNote: This should have answered your question as per the original wording asking for worst responses; however, if by worst answer means something which could harm relationship then let me know i.e., #5 in list currently is an example from your edit video\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

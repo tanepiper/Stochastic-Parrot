@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Eq80qDuxSIGxt6NJ54Wk2SIMDv4S",
+  "object": "chat.completion",
+  "created": 1683771328,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 330,
+    "total_tokens": 337
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The process to convert photos into text is called OCR (Optical Character Recognition). It involves using special software or apps to recognize and extract the text from scanned documents, photographs, or printed materials. Here's how you can do this:\n\n1. Choose an OCR tool: There are many tools available online for free as well as commercial ones that you can download on your computer or smartphone.\n\nSome popular options include:\n\n- Adobe Acrobat Pro\n- Google Docs\n- Microsoft Office Lens (for smartphones)\n- ABBYY FineReader\n- Tesseract\n\n2. Scan the image: If your photo is in hard copy form, scan it with a scanner at high resolution to produce a good quality digital image for better results.\n\n3. Open the OCR software/app: Download and install any of these applications on your device if not already installed.\n\n4. Import the scanned image/photo: Open your chosen application and import your image file by either dragging it into the program window or selecting 'Open' from within the application's menu.\n\n5. Apply OCR technology: In most programs, there will be an option like 'Recognize Text,' 'OCR Capture,' or similar terms that will apply optical character recognition to analyzing letters and numbers in an image file.\n\n6.Request output format>Select from popular formats such as TXT , PDF , DOC .\n\n6.Review and verify : Proofread all recognized texts which may contain mistakes sometimes .Correct where required .\n\n7.Save / export desired  format once corrected , You now have converted photo into editable text \n\nNote : Some conversions might not be perfect depending on several factors including poor lighting conditions / language setup etc .Always Review before finalizing"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

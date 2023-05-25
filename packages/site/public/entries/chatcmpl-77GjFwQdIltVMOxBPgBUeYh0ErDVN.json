@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77GjFwQdIltVMOxBPgBUeYh0ErDVN",
+  "object": "chat.completion",
+  "created": 1681966957,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 65,
+    "total_tokens": 72
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I understand that you are excited about turning 21, and I appreciate your enthusiasm. However, as an AI language model, my main function is to provide helpful support and information. If you have any questions or need assistance with a specific topic related to your upcoming birthday celebration or any other subject matter, feel free to ask!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7E5R9SDtTPPQtPLMiVTuRMyjEjHGy",
+  "object": "chat.completion",
+  "created": 1683591847,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several steps to take in order to become a Biostatistician.\n\n1. Obtain a strong foundation in mathematics and statistics: To start, you will need to have a solid understanding of advanced mathematics and statistical techniques. This can be achieved by pursuing relevant coursework during high school or earning an undergraduate degree in Mathematics, Statistics, or another related field.\n\n2. Earn a Bachelor's Degree: The first formal step towards becoming a biostatistician is obtaining an undergraduate degree in one of the above-mentioned fields, such as Mathematics or Statistics (often with courses focused on biology taken as well). An undergraduate program typically takes 4 years to complete.\n\n3. Pursue graduate-level education: After completing your bachelor's degree, it is usually necessary to obtain further education at the graduate level - either through pursuing a Master's degree (typically lasting for around two years) or even better – earning Ph.D., which may take anywhere from 4-6 additional years of study.\n\nA Ph.D. provides more job opportunities within academia and research organizations compared to holding just a master’s degree but bear in mind that doctoral programs sometimes require applicants already hold M.S./M.A degrees even before applying due their specialization nature\n\nDuring these studies expect focus heavily upon applied statistical methods specifically tailored application biological sciences domain thus look medical schools public health institutions offering Bio-/ ‌in addition general course offerings\n\n4. Gain practical experience while studying: Throughout your educational journey ensure gain some exposure real-world scenarios -- whether internships summer work experiences part-time whole duration Make sure variety projects diverse range areas e.g epidemiology genetic clinical trial design present yourself well-rounded candidate potential employers\n\n5. Develop programming skills: It important comfortable handling large data sets analyzing graphing visualizing"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

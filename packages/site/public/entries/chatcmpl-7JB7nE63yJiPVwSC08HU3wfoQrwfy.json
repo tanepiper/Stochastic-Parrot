@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JB7nE63yJiPVwSC08HU3wfoQrwfy",
+  "object": "chat.completion",
+  "created": 1684805351,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 306,
+    "total_tokens": 313
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Tonal system is a method of organizing and analyzing music based on the principles of tonality, which is the arrangement of pitches in a hierarchical manner. In this system, one note (called the tonic) is considered central to a musical piece or section, and all other notes are related to it.\n\nThe key concepts in tonal music include:\n\n1. Scales: A sequence of ordered pitch classes that provides a basis for melody and harmony. The most common scales used in tonal music are major and minor scales.\n\n2. Keys: Sets defining the relationship between pitches by establishing a hierarchy with one pitch (the tonic) as its center from which other notes derive their significance. Keys can be described by their specific combination of whole steps (W) and half steps (H), like W-W-H-W-W-W-H for major keys.\n\n3.Commmon practice period: An era which generally refers to Western European classical music written during roughly 1600-1900 where composers adhered closely to tonal rules, although many exceptions exist.\n\n5.Harmony: Tradition has it that western classical is known for it's overt harmonic structures through progressions like an I-IV-V-I cadence or II-V-I cadence.\n \n6.Modulation:A change within a composition from one key to another.Typically,it involves shifting centers among different modulating key chords while retaining smooth transitions using similar connecting chord patterns.This enriches any piece without jeopardizing unity,reinventing melodic motifs alternatively till stable sonority resumes\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

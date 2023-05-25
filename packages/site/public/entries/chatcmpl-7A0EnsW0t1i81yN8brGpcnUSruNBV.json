@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7A0EnsW0t1i81yN8brGpcnUSruNBV",
+  "object": "chat.completion",
+  "created": 1682618549,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 245,
+    "total_tokens": 252
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To make a banana milkshake, follow these easy steps:\n\nIngredients:\n- 2 ripe bananas\n- 1 cup (240 milliliters) of cold or room temperature milk (whole, low-fat, or dairy-free alternative)\n- 1/4 cup crushed ice(optional but recommended for a thicker shake)\n- Sugar or sweetener to taste\n\nInstructions:\n\n1. Peel the bananas and break them into smaller pieces.\n\n2. In a blender, add the bananas along with the milk and sugar/sweetener to your preferred level of sweetness.\n\n3. If you want a thicker consistency in your shake, add some crushed ice at this point.\n\n4. Blend everything together until smooth; it should be creamy without any chunks from the fruit remaining.\n\n5. Taste your banana milkshake and adjust sweetness if necessary – feel free to blend again with added sugar or sweetener if needed.\n\n6. When satisfied with the taste of your freshly prepared drink, pour it into glasses ready to be served right away as it is best consumed immediately when still fresh!\n\nYou can also get creative by customizing with extra ingredients such as cinnamon powder for additional flavors or different berries combined in equal parts along with the banana during blending for fruity variations!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

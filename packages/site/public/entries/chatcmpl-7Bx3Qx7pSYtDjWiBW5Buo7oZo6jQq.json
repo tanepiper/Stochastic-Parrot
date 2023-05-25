@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Bx3Qx7pSYtDjWiBW5Buo7oZo6jQq",
+  "object": "chat.completion",
+  "created": 1683082968,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "the recipe for homemade French fries? Here's a simple one:\n\nIngredients:\n- 4 medium russet potatoes (about 2 pounds)\n- Vegetable oil or peanut oil, enough to fill your pan about three inches high\n- Kosher salt\n\nInstructions:\n\n1. Peel the potatoes if you prefer, but leaving the skin on gives extra flavor and texture.\n2. Cut each potato lengthwise into even-sized strips about 1/4-inch to 3/8-inch thick.\n3. Rinse the cut potatoes under cold water to remove excess starch, then pat them thoroughly dry with paper towels. This step helps prevent splattering when frying and ensures crispiness.\n4. Fill a large heavy-duty pan or Dutch oven with about three inches of vegetable or peanut oil over medium-high heat until it reaches around 350°F (use a deep-fry thermometer).\n5. Carefully add the potato strips in small batches without crowding them together, stirring occasionally to ensure they don't stick together.\n6. Fry each batch for around four minutes until very lightly golden brown; this is called blanching the fries which ensures they cook through evenly and become crispy later in the process.\n7. Use a slotted spoon or spider skimmer utensil to transfer fried potato pieces onto paper towel-covered plates or wire racks suspended over cookie sheets - this will help absorb any residual grease.\n\n8.Once all initial batches have been blush fried and are drained now increase temperature of oil between\n365 -370 Fahrenheit \n\n9.Cascade all previously blush fried potatos gently ( avoid splatter) back inside hot oil for second fry .\n\n10.Fry until desired coloring has occured , some like lightly Gold others might like Golden Brown \n\n11.Carefully again remove Fries From"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7CpNtmzbLU9bOvBRY5WmXbgU8FmYn",
+  "object": "chat.completion",
+  "created": 1683291813,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 51,
+    "total_tokens": 58
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "My apologies, but I am an AI language model and cannot see your source or any documents attached. If you have a question about the document or need assistance interpreting it, please provide specific information or excerpt from the content so that I can adequately help you."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-790VfbdhFUCPABaVgdNZf8njaB9yw",
+  "object": "chat.completion",
+  "created": 1682381267,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 68,
+    "total_tokens": 120
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which cuisine do you prefer?\",\n  \"answers\": [\n    \"1. Italian (Pizza, Pasta)\",\n    \"2. Chinese (Dumplings, Noodles)\",\n    \"|ൺ Japanese (Sushi, Ramen)\",\n    \"]ߴ Indian (Curry, Biryani)\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

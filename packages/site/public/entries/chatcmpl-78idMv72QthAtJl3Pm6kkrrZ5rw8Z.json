@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78idMv72QthAtJl3Pm6kkrrZ5rw8Z",
+  "object": "chat.completion",
+  "created": 1682312552,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 128,
+    "total_tokens": 135
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Toothpaste is safe to use on patent leather in small, diluted amounts to help clean it. Ensure that you are using non-gel, non-abrasive white toothpaste. Apply a small amount of toothpaste onto a soft cloth or cotton swab, then gently rub on the patent leather surface in circular motions until the dirt or stain starts to lift. Wipe off excess with a damp cloth and let dry completely away from direct sunlight.\n\nHowever, keep in mind that using toothpaste is not always recommended because there are specialized cleaning products available explicitly designed for patent leather care that may yield better results without causing potential damage over time."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79iRko634Z0zMWII0GgJIQmNqff0L",
+  "object": "chat.completion",
+  "created": 1682550160,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Diet of Worms was an assembly (diet) of the Holy Roman Empire held in Worms, Germany in 1521. It was called by the Emperor Charles V to address the growing religious and political tensions caused by Martin Luther's teachings, which challenged the authority and teachings of the Roman Catholic Church.\n\nDuring this diet, Martin Luther was asked to recant or explain his writings that criticized aspects of Catholicism. Despite being threatened with excommunication from the Church - essentially condemning him as a heretic –Luther refused to recant his views. In response to demands for a simple \"yes\" or \"no\" answer on whether he would retract his works or not, Luther famously replied: \"Here I stand; I can do no other.\"\n\nAfter much debate, on May 25th, 1521, Charles V issued an edict known as Edict of Worms (Wormser Edikt), declaring that Martin Luther was now an outlaw subject under imperial ban (an decree stating that someone is outside legal protection). This forbade anyone from aiding or supporting him and allowed for either arrest or execution if caught. However, Prince Frederick III ('Frederick The Wise'), Elector Saxony protected and hid him away at Wartburg Castle where he continued working on translating Bible into German while stay hidden.\n\nThe Diet of Worms marked a critical point in both Reformation theological debates within Western Christianity has also intensified political conflicts between various regions within Holy Roman Empire ultimately leading up European Wars Religion during next couple centuries culminating Thirty Years War(1618-1648). Now Protestants faced severe restrictions imposed by Imperial legislation but could be saved due royal support from some territories including those governed dukes members Free Cities similar developments entities outside"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

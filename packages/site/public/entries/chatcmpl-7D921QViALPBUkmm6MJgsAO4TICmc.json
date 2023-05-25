@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7D921QViALPBUkmm6MJgsAO4TICmc",
+  "object": "chat.completion",
+  "created": 1683367337,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 133,
+    "total_tokens": 140
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A meme is a humorous image, video, or text that is shared across the internet and typically becomes popular very quickly. They often get altered through replication and spread rapidly through social media platforms. \n\nMemes can have an impact on society by providing entertainment value, reflecting cultural norms or trends, critiquing aspects of society like politics or social behavior, fostering online communities around shared interests, sparking conversation about current events, and potentially even influencing public opinion.\n\nHowever, it's essential to remember that not all memes are useful; some can be offensive or inappropriate. Nevertheless, numerous individuals enjoy engaging with memes as a source of amusement and fun subculture within various internet circles."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

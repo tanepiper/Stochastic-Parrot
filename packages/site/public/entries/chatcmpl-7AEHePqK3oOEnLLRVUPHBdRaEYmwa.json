@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AEHePqK3oOEnLLRVUPHBdRaEYmwa",
+  "object": "chat.completion",
+  "created": 1682672542,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 193,
+    "total_tokens": 200
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on the specific comic book in question, as they can vary greatly in terms of value. Here are some factors that could affect a comic's value:\n\n- Age: Older comics tend to have more historical significance and are usually considered more valuable.\n- Scarcity: If fewer copies of a particular issue exist, then it is likely to be worth more than one that was printed in higher quantities.\n- Condition: The better condition a comic is in (i.e., no tears, wrinkles or creases), the greater its potential resale value.\n- First appearances or significant storylines: A first appearance of a major character or an iconic storyline often adds value to the collector market.\n\nValuing your Huckleberry Hound #1 (Moby Duck) would require specific information about its condition and other relevant factors. You can use resources like ComicBookRealm.com for general valuation guidance or consult with professionals who specialize in buying, selling, and evaluating vintage comics."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

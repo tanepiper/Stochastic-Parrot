@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FFD71hkpCTJJR1n9WQJyLMcgmI4N",
+  "object": "chat.completion",
+  "created": 1683867745,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to say \"I love you\" in Russian, depending on the level of formality and the type of relationship. Here are some common expressions:\n\n1. Я тебя люблю (Ya tebya lyublyu) - This is a classic, straightforward way to say \"I love you,\" suitable for romantic relationships.\n\n2. Ты мне нравишься (Ty mne nravish'sya) - This phrase translates more closely to \"I like you\" or \"You please me.\" It would be appropriate for expressing affection at the beginning stages of a relationship or when referring to a friendly attraction.\n\n3. Меня к тебе тянет (Menya k tebe tyánet) - Literally meaning “I’m drawn to you,” this expression also implies a powerful emotional connection between people that goes beyond simple infatuation.\n\n4. Моё сердце принадлежит тебе (Moyo serdce prinadlezhit tebe)- This phrase means \"My heart belongs to you,\" emphasizing your dedication and commitment to someone.\n\n5. Любимая / Любимый (Lyúbimaya/Lyúbimyj) – Referring respectively as darling, these endearments can be used informally among friends, family members, and couples who have been together for some time but still feel very attached emotionally.\n\n6 . Дорогой/Дорогая [Dorogoj/Dorogaja] – A term often used in correspondence; it conveys tenderness primarily directed towards persons with whom we share an intimate attachment.\n \n"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

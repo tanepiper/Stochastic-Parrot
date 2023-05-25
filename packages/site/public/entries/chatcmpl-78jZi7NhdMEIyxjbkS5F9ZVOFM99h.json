@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78jZi7NhdMEIyxjbkS5F9ZVOFM99h",
+  "object": "chat.completion",
+  "created": 1682316170,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 209,
+    "total_tokens": 216
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few types of attention deficit disorder (ADD):\n\n1. ADHD, Predominantly Inattentive Type: Formerly known as ADD or Attention Deficit Disorder without Hyperactivity, this type is characterized by symptoms like forgetfulness, disorganization, and difficulty sustaining attention. Those with predominantly inattentive type do not exhibit significant hyperactive or impulsive behaviors.\n\n2. ADHD, Predominantly Hyperactive-Impulsive Type: People with this type have more pronounced symptoms of hyperactivity and impulsivity but may still experience problems related to attention.\n\n3. ADHD, Combined Type: This type includes individuals who display significant difficulties in all three domains – inattention, hyperactivity, and impulsivity.\n\nIt's worth noting that ADD is now considered an outdated term; the American Psychiatric Association updated their diagnostic criteria such that \"attention-deficit/hyperactivity disorder\" (ADHD) has become the umbrella term for any attention-related disorders regardless of whether someone presents primarily with inattention or hyperactive/impulsive behavior as well."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

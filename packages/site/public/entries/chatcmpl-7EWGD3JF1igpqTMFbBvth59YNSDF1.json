@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EWGD3JF1igpqTMFbBvth59YNSDF1",
+  "object": "chat.completion",
+  "created": 1683694957,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 320,
+    "total_tokens": 327
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The process of design thinking generally follows several stages, including:\n\n1. Empathy: The first stage involves understanding the users or audience for whom you are designing a product, service, or solution. This can involve conducting interviews, observations, and other research methods to gather insights into the users' needs and challenges.\n\n2. Define: After gathering information about your target user group's desires and pain points, consolidate these findings into clear problem statements that summarize the most pressing issues that need to be addressed.\n\n3. Ideate: With a clear understanding of the problems faced by your target user group, brainstorm potential solutions without being confined by realistic constraints initially. Encourage out-of-the-box thinking and diverse input from team members during this phase.\n\n4. Prototype: Once several promising ideas have been generated and refined through discussion among team members (and perhaps even some preliminary feedback from users), create simple mock-ups or prototypes to test their viability in providing an effective solution.\n\n5.Include actual customers/users within this ideation process   early on as it helps ensures those using your final design will find it beneficial\n\n6.Implement.Plan An iteratively optimize key aspects such as visual elements ,content,strategy  so that final version is likely provides more value than original “MVP”\n\n7.Test.Compile result ,\nAnalyze gathered data together with customer/user perspectives then cross-check against overall project assumptions.if necessary at any given point refine hypotheses/projects goals \n\n8.Commit\nGet things running along side everyday operations track & maintain app stability ;gather use-cases onboard new bugs/constantly evolve alongside its evolving Customers/Users.eqlIsk Base"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

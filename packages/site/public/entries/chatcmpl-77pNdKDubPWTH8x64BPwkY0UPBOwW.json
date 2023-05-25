@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77pNdKDubPWTH8x64BPwkY0UPBOwW",
+  "object": "chat.completion",
+  "created": 1682100157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 226,
+    "total_tokens": 233
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "\"La Ciudad Perdida\" or \"The Lost City\" is an ancient archaeological site located in the Sierra Nevada mountains of northern Colombia. It was built by the indigenous Tayrona people around 800 CE, making it about 650 years older than Machu Picchu.\n\nThe city consists of a series of terraces carved into the mountainside with stone staircases connecting them. The circular plazas and dwellings are mostly hidden by jungle vegetation but can still be explored today. La Ciudad Perdida was rediscovered in 1972 when local treasure hunters stumbled upon the site, prompting further exploration and excavation by archaeologists.\n\nVisiting La Ciudad Perdida requires joining a guided trek through dense rainforest for approximately four to six days (depending on the tour operator). The trek involves challenging terrain, including steep ascents and descents as well as river crossings.\n\nIt is essential to book your trip through a licensed tour agency, which will take care of all necessary permits and provide you with experienced guides who know how to get there safely while also sharing their knowledge about the history and culture surrounding this mysterious ancient city."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

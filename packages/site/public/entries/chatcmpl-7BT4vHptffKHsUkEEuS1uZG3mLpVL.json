@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BT4vHptffKHsUkEEuS1uZG3mLpVL",
+  "object": "chat.completion",
+  "created": 1682967741,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Types of car insurances vary depending on the coverage they offer. Here are some common types of vehicle insurance policies:\n\n1. Liability insurance: This type of insurance covers damages and injuries that you (as a driver) cause to other people or their property in an accident that is your fault.\n\n2. Collision coverage: This policy covers expenses to repair or replace your car if it gets damaged in an accident, regardless of who is at fault.\n\n3. Comprehensive coverage: This type of policy covers damages to your car resulting from non-collision events such as theft, vandalism, natural disasters, falling objects, animal strikes, or fire.\n\n4. Personal injury protection (PIP): Also called no-fault insurance in some states; this coverage pays for medical bills and lost wages due to a car accident for yourself and any passengers involved in the accident without considering who was at fault.\n\n5. Medical payments (MedPay) coverage: Similar to PIP but with fewer benefits, MedPay helps cover medical expenses related to an auto accident for anyone inside the insured vehicle regardless of whose fault the collision was.\n\n6. Uninsured/underinsured motorist (UM/UIM) coverage: This option provides financial protection when you're faced with bodily injury caused by another driver who either lacks adequate automobile liability insurance or has insufficient limits on their policy compared with your damage requirements/claims filed against them during recovery proceedings post-accident situations where respective parties' physical condition renders further legal action impossible until potential avenues have been agreed upon between insurers within dispute resolution periods specified beforehand through agreements made prior under state law regulations governing these matters called tortfeasor principles outlined throughout relevant sections concerning verification processes regarding uninsured drivers'/vehicles.'\n\n7. Gap insurance — also known as loan/lease"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

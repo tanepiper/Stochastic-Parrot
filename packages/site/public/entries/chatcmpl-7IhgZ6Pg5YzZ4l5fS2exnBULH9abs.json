@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IhgZ6Pg5YzZ4l5fS2exnBULH9abs",
+  "object": "chat.completion",
+  "created": 1684692187,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 232,
+    "total_tokens": 239
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some possible consequences of untreated depression include:\n\n1. Worsening depression: Without treatment, feelings of sadness, despair, and hopelessness can worsen over time.\n\n2. Difficulty with relationships: Untreated depression can lead to relationship problems due to withdrawal from social situations and lack of interest in activities that were previously enjoyable.\n\n3. Substance abuse problems: People with untreated depression may turn to drugs or alcohol as a way to cope with their symptoms, which can lead to addiction and other health issues.\n\n4. Poor work or school performance: Depression can result in difficulties concentrating or making decisions leading to struggling at work or school.\n\n5. Physical health problems: The stress associated with untreated depression has been linked to numerous physical ailments such as heart disease, diabetes, obesity and gastrointestinal problems.\n\n6. Decreased quality of life: People who suffer from untreated depression often experience diminished enjoyment and satisfaction in multiple aspects of their lives like career achievement or personal relationships\n\n7.Impaired ability for self-care & daily functioning for an individual\n\n8.Suicidal thoughts / suicidal attempts : If left untreated severe cases might cause the person think about suicide leading up extreme step of suicical attempts"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78Hq5y7ACcMyvBXJvIZJNbZCBCv2o",
+  "object": "chat.completion",
+  "created": 1682209553,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 185,
+    "total_tokens": 192
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to develop and improve critical thinking skills. Here are some suggestions:\n\n1. Challenge assumptions: When faced with a problem, question or situation, ask yourself \"What assumptions am I making?\" and \"Are these assumptions reasonable?\". This helps you recognize your own biases and evaluate the strength of different arguments.\n\n2. Evaluate evidence: Look at any evidence presented critically. What is its source? Does it align with other sources? Are there potential limitations or flaws in the data or methods used?\n\n3.Warn others about fake news as possible.\n4.Reflect on personal experiences: Consider past events in which you made decisions based purely on emotion rather than rational analysis\n\n5.Ask open-ended questions that encourage deeper thought.\n\n6.Listen actively\n\n7.Be curious by nature\n8.Resolve conflicts by considering all points-of-view\n\n9.Consistently seek new knowledge- Keep learning \n\n10.Develop effective problem –solving techniques"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

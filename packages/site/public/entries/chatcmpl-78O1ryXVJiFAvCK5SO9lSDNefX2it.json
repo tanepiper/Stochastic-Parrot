@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78O1ryXVJiFAvCK5SO9lSDNefX2it",
+  "object": "chat.completion",
+  "created": 1682233347,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 24,
+    "total_tokens": 31
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Billie Eilish was born on December 18, 2001. She is now 20 years old."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

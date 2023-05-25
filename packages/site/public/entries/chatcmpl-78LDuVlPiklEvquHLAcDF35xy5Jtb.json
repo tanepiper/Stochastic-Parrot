@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78LDuVlPiklEvquHLAcDF35xy5Jtb",
+  "object": "chat.completion",
+  "created": 1682222562,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are various ways to describe the location of a place, including using landmarks, cardinal directions, map coordinates and postal addresses.\n\n1. Landmarks: Give reference points that are easy to recognize near the place you're describing. For example, \"The library is next to the city park and across from the movie theater.\"\n\n2. Cardinal directions: Use North, East, South or West as descriptors for locations. For example, \"The gas station is on the East side of town off the main highway.\"\n\n3. Map coordinates (latitude and longitude): If you want a precise location description for geographic purposes or GPS navigation services like Google Maps or Waze use map coordinates. Example: The Mall of America's latitude is 44°51'12\"N while its longitude is 93°14'31\"W.\n\n4.Create your own grid system when there’s no proper street name allocated by dividing an area into distinct regions marked with cross streets etc., then give detailed verbal descriptions based on this division laid out-grid style; neighborhood grids serve especially useful within urban environments where navigating can be difficult due impending structures such large complexes/buildings etcetera making visualization less predictable thus more confusing/confounding overall experience leading ultimately disappointment frustration arise attempting locate specific locale missing crucial details essential identification acquisition thereafter process completion purchase transaction settlement procedure confirmation document filing closure finalization resolution termination cessation detoxification cleanse purification cleanse purify sanitize sterilize decontaminate disinfect fumigate pasteurize delouse depollute deterge depurate suffocate smother drown submerge swamp engulf inundate overflow drench pour rain soak souse steep saturate wet bathe irrigate gush flush swill deluge sluice cover permeate immerse fill pervade envelop surround pervade envelope enc"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79PiPJbXajPgQl0d8gSf5ziK2hkOu",
+  "object": "chat.completion",
+  "created": 1682478157,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 178,
+    "total_tokens": 185
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Emoticons, which are also called emojis or kaomojis, are textual representations of emotions and expressions. They use keyboard characters like punctuation marks, numbers, letters, and symbols to convey feelings such as happiness, sadness, anger or even an action in a visual way. Emoticons can be seen frequently in online communication via social media platforms like Facebook and Twitter.\n\nASCII art is a more complex form of emoticon that uses various combinations of the same 128 ASCII (American Standard Code for Information Interchange) characters to create larger images or designs resembling pictures by arranging text symbols into patterns on the screen. These could range from simple shapes like hearts to elaborate illustrations made with alphanumeric characters. \n\nFor example:\n\nEmoticon: :) (Happy face)\n\nASCII Art:\n```\n   ,d88b.d88b,\n   88888888888\n     jY888P\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

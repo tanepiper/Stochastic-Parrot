@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7J0Psbz9FmRcVH18r0wKJEduEvv11",
+  "object": "chat.completion",
+  "created": 1684764188,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 202,
+    "total_tokens": 209
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There is no definitive answer to this question as people develop crushes for various reasons. Some may develop a crush on someone because they find them physically attractive, while others are drawn to their personality or shared interests. As human beings, we can't always control our emotions and sometimes simply being around someone creates an emotional bond that leads to developing feelings for that person.\n\nIn some cases, having a strong emotional connection with a friend might lead to romantic feelings. This could happen if you share deep conversations or bonding experiences with your friend that make you feel close and connected.\n\nAnother reason people might develop romantic feelings towards friends is being in constant exposure and proximity over time (like classmates or coworkers). It doesn't necessarily mean there's something extraordinary about the person; rather, it's often due to prolonged exposure fostering intimacy between two individuals.\n\nMoreover, hormones also play a role in attraction - the release of certain chemicals like oxytocin or dopamine during positive interactions can create an attachment which may fuel deeper affection towards the other individual."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

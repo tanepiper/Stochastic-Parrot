@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-794AxSREjfQs7cnI8JkFnS9qEzu8d",
+  "object": "chat.completion",
+  "created": 1682395359,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 28,
+    "total_tokens": 35
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "What animal would you like me to describe? There are many fascinating animals in the world, so please specify which one you're curious about."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

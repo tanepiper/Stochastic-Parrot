@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79mCH33EhUJVr3aCN12LLGuBoUSE5",
+  "object": "chat.completion",
+  "created": 1682564577,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 318,
+    "total_tokens": 325
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several poker hand rankings, starting with the highest and progressing to lowest. They are:\n\n1. Royal Flush - Consists of A, K, Q, J, 10 all belonging to the same suit.\n2. Straight Flush - Five consecutive cards in one suit (for example: 5-6-7-8-9 of clubs)\n3. Four-of-a-kind or Quads – Four cards of the same rank\n4. Full house – Three cards of one rank along with two cards from another rank\n5. Flush – Any five non-consecutive cards from a single suit.\n6. Straight – Five consecutive ranked cards without being suited (example: 3-4-5-6-7)\n7. Three-of-a-kind or Trips/Set - Three matching-ranked poker cards accompanied by two unmatched/unrelated sidecards \n8.Two pair - Two distinct pairs in one hand accompanied by a fifth card as kicker \n9.One Pair– contains just a single pair along with three unrelated sidecards\n10.High Card– A hand that does not have any other higher-ranking combination and is named for its highest value card\n\nThe best possible respective hands vary significantly depending on whether you prefer playing games with wild-card options or bring various variables into play such as hi-lo split pot specifications.\n\nIt's important to note that these rankings generally apply when comparing individual hands in most poker games including Texas Hold'em and Omaha hold 'em among others; however some variations may have alternate rulesets which results different ranking systems emerging throughout history due their contextually driven popularity within unique cultures"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

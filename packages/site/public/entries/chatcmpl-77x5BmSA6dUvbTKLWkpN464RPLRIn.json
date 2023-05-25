@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77x5BmSA6dUvbTKLWkpN464RPLRIn",
+  "object": "chat.completion",
+  "created": 1682129765,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are various car sharing companies available in the United States, with different services and pricing models. Here are six popular ones:\n\n1. Zipcar\nZipcar is one of the most well-known car sharing services in the U.S., operating in numerous cities across 28 states and Washington D.C. They provide a wide selection of cars that users can reserve by the hour or day, typically with insurance and gas included.\n\n2. Turo\nTuro operates as a peer-to-peer car-sharing marketplace where individuals can list their own vehicles for rent to others within their vicinity. The company provides insurance coverage for both hosts and renters during each booking period.\n\n3. Enterprise CarShare\nEnterprise CarShare belongs to long-standing rental agency, Enterprise Rent-A-Car, but focuses specifically on short-term rentals for members located primarily in college campuses or urban residential areas.\n\n4. Getaround\nGetaround also uses a peer-to-peer model allowing users to rent private vehicles from participating owners that have enrolled their automobiles onto the platform; it currently has a presence limited to select US cities.\n\n5-6. Car2Go & Share Now (formerly ReachNow)\nCar2Go was initially launched by German automaking titan Daimler AG as an innovative new subsidiary featuring exclusively Mercedes-Benz Smart cars for two-passenger journeys mainly suited toward dense urban settings.\nReachNow (or DriveNow) began under BMW Group’s ownership nurturing similar intentions using Mini Coopers alongside other BMW electric/hybrid models.\nThese pair of ventures merged into ShiftMobility GmbH's controller then rebranded “SHARE NOW” striving earnestly toward environmentally-friendly commuting alternatives spanning global markets encompassing parts Europe/America alike.”\n\nDetermine which option best suits your needs based on vehicle preferences/service requirements/"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

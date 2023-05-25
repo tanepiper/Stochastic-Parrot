@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IryrQYRA1OxCvkWaZhVbZoWD7MrB",
+  "object": "chat.completion",
+  "created": 1684731761,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Chicken marsala is an Italian-American dish made of seared chicken breasts that are simmered in a Marsala wine reduction sauce. The sauce typically features mushrooms, shallots or onions, garlic, butter, and sometimes heavy cream. The rich flavors of the sweet Marsala wine help to create a delicious and elegant dinner choice that can be served over pasta, rice or with vegetables on the side.\n\nOverall cooking time for chicken Marsala depends on how thick your chicken breasts are and may vary between 25-40 minutes but can be divided into these simple steps:\n\n1. Pound chicken: Trim any existing fat from the boneless skinless chicken breasts, then pound them thin using a meat mallet (to about 1/2-inch thickness). This ensures even cooking.\n \n2. Season & dredge: Season the flour with salt and pepper before lightly coating each piece of pounded chicken.\n\n3. Sear: Brown each side of the floured cutlets in olive oil for around 4-5 minutes per side until golden brown (Not entirely cooked). Remove from heat after browning\n\n4. Prepare mushrooms: In same pan add more olive oil if needed! Then cook sliced mushrooms till they turn tender followed by addition diced garlic/shallots/onions\n\n5. Deglaze & make Sauce base : Stir in marsala wine along with some culinary use-worthy unsalted/salted butter ensuring all 'fond residue' pieces transfer into it properly \n\n6.Simmer chickens back till Cooked through!: Add seared chicken back to skillet with marsala-mushroom mixture ensuring proper submersion so flavor penetrates deep throughout while also letting it fully cook while managing medium-low flame bringing whole mix to occasional boil killing off any bacteria present!\n\n"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

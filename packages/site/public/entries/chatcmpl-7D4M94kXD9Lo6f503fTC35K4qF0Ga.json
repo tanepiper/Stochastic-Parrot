@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7D4M94kXD9Lo6f503fTC35K4qF0Ga",
+  "object": "chat.completion",
+  "created": 1683349365,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 347,
+    "total_tokens": 354
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When vegans and vegetarians get married, they often desire a menu that aligns with their dietary preferences. Here is a sample vegetarian/vegan wedding dinner menu:\n\nAppetizers:\n1. Caprese Skewers (vegetarian) - cherry tomatoes, bocconcini cheese, fresh basil leaves; drizzled with extra virgin olive oil\n2. Vegan Spring Rolls - rice paper filled with julienned vegetables and avocado, served with a soy dipping sauce\n\nSalad Course:\n3. Mixed Greens Salad (vegan) - mixed greens tossed in a citrus vinaigrette and topped with dried cranberries, sunflower seeds or candied pecans\n\nSoup Course: \n4. Tomato Basil Bisque (can be vegan if made without cream) or Roasted Cauliflower Soup (vegan)\n\nMain Entrees:\n5a . Eggplant Parmesan Lasagna (vegetarian): layers of roasted eggplant slices instead of pasta sheets combined with marinara sauce and cheese mixture\nb . Stuffed Bell Peppers (vegan) : bell peppers stuffed with quinoa mixed-vegetable pilaf spiced up featuring sundried tomato pesto on top.\n\nSide Dishes for Main Entrees :\n6a . Caramelized Balsamic-Glazed Brussels Sprouts.\nb . Rosemary Garlic Mashed Potatoes/Vegan Sour Cream Garlic Mashed Yukon Gold Potatoes/Cauliflower mash.\nc . Grilled asparagus/Green beans almondine seasoned lightly \n\nDesserts:\n7a  Strawberry shortcake(buffalo milk dairy products can be subbed for vegan).\nb  Seasonal fruit tarts(gluten-free). \nc   Chocolate fondue fountain w fruits(display centerpiece)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

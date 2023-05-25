@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BzrU5PrbXgI16Tts4NdIaLmKe4Qi",
+  "object": "chat.completion",
+  "created": 1683093760,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 34,
+    "total_tokens": 41
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "According to my knowledge, I am designed and trained by OpenAI. My purpose is to assist users in generating human-like text based on the writing prompts given to me."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

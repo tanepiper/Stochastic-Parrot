@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JpuqVcgUIHYLQprFXWbeBD5djgWx",
+  "object": "chat.completion",
+  "created": 1684962152,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 343,
+    "total_tokens": 350
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are many factors that can contribute to job burnout. Some common reasons include:\n\n1. Excessive workload: Working long hours without enough breaks or time off can lead to exhaustion and a lack of motivation.\n\n2. Insufficient control: If employees don't have the autonomy to make decisions related to their work, it may cause frustration and dissatisfaction leading to burnout.\n\n3. Poor management: A poor manager who lacks support, recognition, or encouragement for employees' efforts increases stress levels often resulting in job burnout.\n\n4. Difficult workplace relationships: Strained relationships with colleagues or supervisors due to conflicts or miscommunication negatively affect mental well-being and increase the risk of job burn out.\n\n5. Workplace bullying or harassment: Continuous negative behavior from coworkers, such as verbal abuse or gossiping about one another creates a hostile work environment contributing greatly towards job burnout.\n\n6. Lack of role clarity: When an employee's responsibilities aren't clearly defined or they receive conflicting messages about expectations at work can lead them feeling overwhelmed and disoriented leading them towards burning out quickly under pressure.\n\n7. Inadequate compensation: Being paid less than deserved based on skills and sacrifices working people do daily leads feelings undervalued which might eventually cause general unhappiness growing into full blown career-related anxiety disorder like professional fatigue syndrome e.g complete collapse careerwise where there is no need arising anymore\n\n8 . Unbalanced workers regard their own lives v/s their obligation professionally : A severe imbalance between staying online constantly connected via personal mobile gadgets laptop etcetera therefore unable setting right benchmark regarding how much time should actually get dedicated profession wise will trigger notable occupational breakdown features among most occurring originally within generations X millennials Gen Z making depressive condition worsened undoubtedly!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

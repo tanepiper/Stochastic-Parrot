@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7FW4OtILFvhebaFWgwwBOFOsUNYYU",
+  "object": "chat.completion",
+  "created": 1683932552,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 180,
+    "total_tokens": 187
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The main responsibility of a copy editor is to review written content and correct errors in grammar, punctuation, formatting, and spelling. They also ensure the consistency of language, style, tone and overall readability of the text. Copy editors are often responsible for rephrasing sentences or making suggestions for better word choice as needed.\n\nSome additional tasks that a copy editor might perform include:\n\n- Ensuring that written content adheres to established editorial guidelines.\n- Fact-checking information within the text.\n- Editing headlines and subheadings.\n- Maintaining consistency throughout all copies on specified projects by working closely with writers and other members of an editorial team.\n- Collaborating with authors to make improvements without changing their intended message or altering their unique voice.\n- Reviewing design/layout elements such as captions, tables, graphs/charts or callout boxes to ensure they align with overall theme/content/message/target audience/brand voice."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

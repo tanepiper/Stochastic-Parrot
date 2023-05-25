@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BuJqWAUUuRYJB7H6xeMREgRpE1cp",
+  "object": "chat.completion",
+  "created": 1683072454,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 50,
+    "total_tokens": 102
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would you most like to meet?\",\n  \"answers\": [\n    \"Sherlock Holmes\",\n    \"Harry Potter\",\n    \"Lara Croft\",\n    \"Tony Stark (Iron Man)\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

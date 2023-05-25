@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DKGgyfmMiKIDBoglEoQVqmvDNxXw",
+  "object": "chat.completion",
+  "created": 1683410530,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 218,
+    "total_tokens": 225
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The Andalusian is a mixed breed of dog which originated in the Andalusia region of Spain. It is believed to have developed from local Spanish dogs, as well as various other breeds brought by nomadic tribes and peoples who settled in this area over time. The exact ancestry of the Andalusian dog is uncertain, but it's likely that ancient hunting and herding breeds such as Greyhounds and Molossers played a role in their development.\n\nAndalusian dogs are typically medium-sized with lean yet muscular bodies. They have long legs, deep chests, strong necks, and tapered muzzles. Their heads are generally large with broad skulls, while their ears may flop down or stand upright depending on genetics or individual preference. Their short coats come in colors like red fawn or golden yellow brindle patterns.\n\nThese versatile working animals make great family pets due to their intelligence and loyalty towards people they're familiar with; however can be quite wary around strangers if not properly socialized during puppyhood days onward into adulthood life - this especially holds true for males within any given litter"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

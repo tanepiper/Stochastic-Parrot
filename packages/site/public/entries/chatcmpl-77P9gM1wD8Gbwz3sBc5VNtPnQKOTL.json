@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77P9gM1wD8Gbwz3sBc5VNtPnQKOTL",
+  "object": "chat.completion",
+  "created": 1681999348,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 258,
+    "total_tokens": 265
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Sunbutter is a spread made from sunflower seeds that has a similar taste and texture to peanut butter. It is created by grinding the sunflower seeds into a paste, often with added oil, salt, and sweetener.\n\nSunbutter has several benefits compared to traditional nut butters like peanut or almond butter:\n\n1. Nut-free: Since it's made from sunflower seeds instead of nuts, Sunbutter is an excellent alternative for people with nut allergies who want to enjoy the taste and texture of nut butter without risking allergic reactions.\n\n2. High in vitamin E: Sunbutter contains more than twice as much vitamin E as peanut butter per serving. Vitamin E acts as an antioxidant which helps protect cells from damage caused by free radicals and supports immune function.\n\n3. Good source of protein: Like other seed- and nut-butters, Sunbutter provides a significant amount of protein (6-7 grams per serving) making it suitable for vegans or vegetarians seeking plant-based protein sources\n\n4. Lower in saturated fats: Compared to peanut or almond butter, Sunbutter tends to contain less saturated fat – though it’s essential not to overconsume any type of high-fat product.\n\n5. Provides healthy fats: The primary fat found in sunflower seeds (and thus"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

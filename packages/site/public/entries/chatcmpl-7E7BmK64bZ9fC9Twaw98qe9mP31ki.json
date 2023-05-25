@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7E7BmK64bZ9fC9Twaw98qe9mP31ki",
+  "object": "chat.completion",
+  "created": 1683598582,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "To dye your dark hair purple without bleaching, you can try the following methods:\n\n1. Temporary Hair Dye or Spray:\nChoose a temporary hair color spray or dye in a bright purple shade. These products are usually available at beauty supply stores and online. Follow the instructions on the package to apply it to your dry, clean hair.\n\n2. Semi-permanent Hair Dye:\nSemi-permanent dyes typically last up to six weeks and will fade more gradually than temporary options. Look for a semi-permanent dye specifically formulated for darker hair colors that will show up on dark brown to black shades.\n\n3. Overtone Deep Treatment:\nOvertone offers deep treatment conditioners specifically designed for coloring dark hair various colors including purple; they work by depositing colored pigments onto your strands while conditioning them at the same time.\n\n4. DIY Purple Conditioner:\nMix some crushed blueberries or beet juice with conditioner and apply this mixture as you would any other conditioner after shampooing your hair; leave it in for a few minutes before rinsing out thoroughly.\n\n5. Food Coloring Method:\nCombine food coloring (typically several drops of red mixed with one drop of blue) into white conditioner creating desired shade of purple then saturate washed dampened dyed sections allow sit 30-45-minutes rinse cool water continue doing least 3-7min underneath all-over eventually achieving hue prefer silicone-based natural vegan highest-quality strongest longest-lasting results generally best avoid inexpensive water-based store-bought varieties contain acidic vinegar hydrogen peroxide removing already weakened present chemical structure could easily wash break down remaining bonds causing inconsistency & rapid breakdown essentially becoming transparent once properly individually wrapped stored sunlight exposure run tests first note possible allergies reactions always comply follow labels turn professional licensed stylist love product"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

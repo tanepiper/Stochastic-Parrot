@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7EsjbExMOaZf6pXBzj0myk8dOZBPV",
+  "object": "chat.completion",
+  "created": 1683781347,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 33,
+    "total_tokens": 40
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I understand that you may be frustrated or confused. Please feel free to provide more information, and I will do my best to assist you with your question or problem."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

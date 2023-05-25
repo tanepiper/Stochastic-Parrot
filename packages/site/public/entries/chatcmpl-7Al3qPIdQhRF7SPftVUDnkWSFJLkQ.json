@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Al3qPIdQhRF7SPftVUDnkWSFJLkQ",
+  "object": "chat.completion",
+  "created": 1682798538,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 293,
+    "total_tokens": 300
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are a few important principles to consider when designing user interfaces for people with disabilities:\n\n1. Universal Design: This principle aims at creating products and environments that are accessible to everyone regardless of their abilities or disabilities. Ensure that your content is clear, easy to read, and intuitive.\n\n2. Visibility: Low-vision users struggle with reading texts in very low contrast values (e.g., light gray text on white background), so it's important to provide high-contrast color combinations in your design.\n\n3. Keyboard Access: Make sure all functionality is achievable using the keyboard alone without requiring mouse input for those who can't use a mouse due to mobility or vision impairments.\n\n4. Screen Reader Compatibility: Make sure your interface works well with screen readers used by blind and visually impaired users by providing appropriate alternative text descriptions for images, buttons, links, forms and other UI elements using ARIA tags.\n\n5. Adjustable Font Sizes & Zooming Support: Allow users to adjust font sizes or zoom levels easily if they require larger text for easier legibility.\n\n6.Scalability of Text size support when increasing/decreasing fontsize\n\n7.Understand Standards compliance like WCAG(Web Content Accessibility Guidelines)\n\n8.Affordance i.e single functions should have single action/effects \n\n9.Give Users Control – Allow them change features such as magnification,resizing etc based on individual need\n\n10.Consider Multiple Disabilities - Integrated solutions addressing multiple needs (visual impairments/motor complications)"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

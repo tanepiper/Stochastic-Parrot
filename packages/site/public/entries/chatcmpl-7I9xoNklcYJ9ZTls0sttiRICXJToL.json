@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7I9xoNklcYJ9ZTls0sttiRICXJToL",
+  "object": "chat.completion",
+  "created": 1684562560,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 238,
+    "total_tokens": 245
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several potential causes for feeling nauseous after eating fruits:\n\n1. Fruit allergies: Some people might be allergic or intolerant to certain components in fruits such as fructose or specific proteins, leading to nausea and other gastrointestinal symptoms.\n\n2. Consumption of unripe or contaminated fruits: Unripe fruits can contain higher levels of certain chemicals that may cause digestive issues when eaten, while contaminated fruit may harbor bacteria that could make you sick.\n\n3. Eating too much fruit at once: Consuming large quantities of fruit in a short period can lead to queasiness due to the high sugar content, causing the stomach muscles to work harder than usual during digestion.\n\n4. Acidic reaction from specific fruits: Foods with higher acidity levels such as citrus fruits, pineapples, or tomatoes can sometimes cause irritation in the stomach lining and lead to feelings of nausea.\n\n5. Food combinations might not suit your system well; some individuals experience sensitivity when combining different types of foods and face difficulty digesting them together properly without experiencing discomfort afterwards\n\n6. An underlying health issue might be present- some persons have chronic conditions like irritable bowel syndrome (IBS) which results in sensitivities towards various food items"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

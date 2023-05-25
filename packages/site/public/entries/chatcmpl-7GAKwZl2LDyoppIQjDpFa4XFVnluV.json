@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GAKwZl2LDyoppIQjDpFa4XFVnluV",
+  "object": "chat.completion",
+  "created": 1684087338,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 255,
+    "total_tokens": 262
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to cover the pasta and prevent it from sticking without oil. Here are a few options:\n\n1. Stir the pasta frequently: Keep an eye on your boiling pasta and make sure to give it regular stirs, especially during the initial stages of cooking when most sticking tends to occur.\n\n2. Use ample water: When boiling pasta, be sure you're using enough water so that each piece has plenty of room to move around in the pot as it cooks. A good rule of thumb is 4-6 quarts of water per pound of dry pasta.\n\n3. Salt the water generously: Adding salt not only imparts flavor but also helps keep pieces from clumping together by changing the texture of the starch released into your cooking liquid.\n\n4. Do not overcook or overcrowd: Cooking at too high heat will cause sticky noodles simply because they become mushy and bound together in one large mass.\n\n5.Rinse with cold or warm water after draining (especially for long-strand noodles such as spaghetti): Pouring some cold or warm (not hot) water over cooked al dente noodles may help further remove any residual surface starch coating them, which will theoretically decrease their overall stickiness factor later when reheated again within sauces etcetera where desired"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

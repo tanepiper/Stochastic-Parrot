@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IQuv2VOrrODRKrdOIrVk4RjEbKWw",
+  "object": "chat.completion",
+  "created": 1684627729,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 51,
+    "total_tokens": 103
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which unusual pet would you rather have?\",\n  \"answers\": [\n    \"A miniaturized elephant\",\n    \"A rainbow-colored python\",\n    \"An invisible chameleon\",\n    \"A laughing hyena\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

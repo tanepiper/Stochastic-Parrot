@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77ht9GZgabfb2qEYeLtLFmX7uhxwQ",
+  "object": "chat.completion",
+  "created": 1682071359,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Most resumes include the following sections:\n\n1. Contact information: At the top of your resume, include your full name, current address or city and state, phone number, and email address.\n\n2. Objective statement (optional): A brief 2-3 sentence summary of your professional goals or career objectives. This is best used for entry-level candidates who need to introduce themselves to potential employers.\n\n3. Professional summary/Profile (optional): This can replace an objective section if you have significant experience in your field. It's a concise overview of your skills, qualifications, experiences relevant to the job being applied for.\n\n4. Experience/Employment history: List all jobs held during the last 10 to 15 years in reverse chronological order with company names, locations dates employed.\n\n5. Education: Include any degrees you may hold as well as graduation year(s). Depending on level/type/scope may also list relevant coursework/certifications/licenses obtained through training programs apprenticeships etcetera\n\n6.Skills Section: Here highlight hard specific technical tools languages technologies packages etcetera software/hardware knowledge use/ levels proficiency good specialized competences like project management social media expertise example soft transferable collaboration negotiation communication problem-solving adaptability coaching mentoring employees open direct feedback analytical think critically solve complex problems ability collaborate others make informed decisions leadership lead teams take ownership motivation-autonomous highly motivated self-starters time great attention detail multitasking stress tolerance strong values integrity honesty respect commitment work ethic resilience determination perseverance empathy support creativity innovation fresh perspectives critical thinking outside box adapt respond rapid change agility flexibility embrace ambiguity willingness learn help grow develop organizational cultural operational strategic plans vision strategy building stakeholder engagement influencing managing conflicts difficult conversations resolution tough decision making results driven excel achieving results exceed expectations deliver results high-quality quickly effectively efficiently"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

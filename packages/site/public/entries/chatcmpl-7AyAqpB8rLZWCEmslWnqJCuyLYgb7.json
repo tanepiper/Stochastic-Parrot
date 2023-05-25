@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AyAqpB8rLZWCEmslWnqJCuyLYgb7",
+  "object": "chat.completion",
+  "created": 1682848944,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 297,
+    "total_tokens": 304
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "In the animal kingdom, there are many clever animals that often rank the highest in intelligence. Here are nine of them:\n\n1. Chimpanzees - They share nearly 99% of human DNA and display advanced problem-solving skills and social behavior.\n\n2. Dolphins - Known for their sophisticated communication, dolphins work together to accomplish tasks like hunting or escaping predators.\n\n3. Elephants - Highly emotional and intelligent animals who demonstrate self-awareness, empathy, mourning rituals over deceased family members, and even an understanding of simple arithmetic.\n\n4. Ravens & Crows (Corvids) - These birds not only use tools but can also recognize faces (including humans), plan for future events, and remember specific patterns.\n\n5. Octopuses – Extremely adaptable creatures that exhibit complex problem-solving abilities including using shells as armor or coconut halves as mobile homes\n\n6. African Grey Parrots - Exceptional linguistic capabilities allow them to learn a vast vocabulary throughout their lives while understanding some aspects of basic grammar rules.\n\n7- Pigs – Research proves pigs have excellent long-term memory recall abilities and can quickly solve intricate problems placed before them during experiments in laboratories settings\n\n8- Rats – Known for mazes navigating skill echolocation used within rodent species detect gaps crevices surrounding environment combined ability hide tunnels survive hazardous emissions natural disasters makes one ingenious mammals living Earth today9's difficult specifically pinpoint most clever ranking subjectivity depend specializations each organism exhibits particular niche However overall shared common trait mentioned includewww"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

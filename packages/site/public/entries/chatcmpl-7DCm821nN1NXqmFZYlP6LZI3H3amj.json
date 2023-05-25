@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DCm821nN1NXqmFZYlP6LZI3H3amj",
+  "object": "chat.completion",
+  "created": 1683381728,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 272,
+    "total_tokens": 279
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several ways to celebrate National Trivia Day. Some ideas include:\n\n1. Host a trivia night with friends or family: Gather your loved ones and host a fun-filled game night, complete with snacks, drinks, and plenty of exciting trivia questions.\n\n2. Visit a local quiz or trivia night: Many bars and restaurants host weekly or monthly quiz nights as an entertaining way for guests to socialize while testing their knowledge on various topics.\n\n3. Follow along online or through apps: There are several mobile apps like QuizUp and Trivia Crack that offer thousands of diverse topics for avid fans who wish to prepare for National Trivia Day by practicing solo in their spare time.\n\n4. Join group chats based on similar interests: If you're passionate about specific subjects such as history or sports, seek out niche chat rooms where members gather to share intriguing facts regarding the topic matter at hand.\n\n5. Create your own trivia quiz game show-style videos!: Using multimedia platforms like YouTube allows one the creative freedom to generate unique content related quizzes they can then share online with others around the world wishing likewise quality entertainment within this category - all focused upon favorite themes central enjoyed commonly together between shared followers alike concerning any detail worthy enough disclosure overall among peers attention solely concentrated similarly altogether following pursuit absolutely specifically targeted connected accordingly throughout remaining preoccupied additionally constant anticipation primarily exclusively essentially principally chiefly nearly mainly predominantly"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Eo78EGJV9ogvKfAI0UZwptkgzpXd",
+  "object": "chat.completion",
+  "created": 1683763586,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 28,
+    "total_tokens": 35
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "I will need more information to provide an appropriate answer. What is your project about, and what are the specific goals you want to reach?"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77FnLD9fkILix16kAtcCveYU6RVnT",
+  "object": "chat.completion",
+  "created": 1681963367,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 192,
+    "total_tokens": 199
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The All-India Institute of Medical Sciences, or AIIMS, was established in 1956 through an Act of Parliament. It is located in New Delhi, India.\n\nAIIMS has the primary objective to develop patterns of teaching for undergraduate and postgraduate medical education in all its branches. The institution aims to provide high-quality educational facilities for the training of personnel in all essential fields of health-related activities, besides providing comprehensive healthcare services to its patients.\n\nAIIMS consists of a vast campus with multiple departments and research centers that focus on various areas such as cardiology, neurology, oncology (cancer care), gastroenterology (gut disorders), ophthalmology (eye diseases), orthopedics (bone disorders), pediatrics (child healthcare) and many others.\n\nThe institution is ranked among India's top medical colleges and attracts students not only from different parts of India but also internationally due to its handling complex surgeries effectively together with an excellent survival rate too."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7ECb7OwJZVAShlrey7QrmjFs8aSCz",
+  "object": "chat.completion",
+  "created": 1683619373,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "When a person becomes homeless, their life undergoes numerous changes and challenges. The most immediate concern is finding shelter and safety on a day-to-day basis. This can involve sleeping in public spaces, such as parks or under bridges, staying with friends or family temporarily, or seeking refuge in emergency shelters.\n\nThe lack of stable housing makes it difficult for homeless individuals to maintain physical health and personal hygiene. They may struggle to find places to shower or access medical care when needed. As a result, they are more vulnerable to infections, illnesses, injuries from accidents or violence.\n\nFinding food is also a major challenge for the homeless population. They often need to rely on soup kitchens or food banks so as not always able buy groceries themselves due persistent unemployment problems that homelessness usually brings along with it.\n\nHomeless people face increased risk of mental health problems because having no home fundamentally affects one's emotional wellbeing safety net society connection all other aspects daily existence which leads stress anxiety depression rates skyrocketing during times without homes however crime involvement danger even higher these desperate situations cope mechanisms required just survival extreme addiction helping numb pain being alone abandoned out casted experiencing childhood trauma hitting rock bottom poverty losing everything love ones job outlook self esteem feeling hopelessness despair replaced drugs alcohol smoking prostitution theft-try stay alive basically means running away bad habits creativity music art eventually wear thin run course fade disappear altogether leaving identity normally part what defines us culture societal norm language communication interaction way we express ourselves simply communicating there opportunity live grow prosper amongst citizens contributing country participating dreams achievements economic growth instead living shadows corners dark alleyways wanted thought lesser than rest humanity based judgement looks actions backgrounds education level dictate lives treat physically emotionally mentally spiritually finally realizing truth path destiny whether choose hard believe its currently trap deserve another chance start over heal wounds past move forward"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7GF1ILX5Yh78DdiWAnkSJZeJ3pA6j",
+  "object": "chat.completion",
+  "created": 1684105340,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There are several reasons why the public have become more demanding of businesses and other organizations:\n\n1. Awareness and access to information: With the rise of the internet, social media, and various communication platforms, people today have greater access to a wide range of information about products, services, and company policies. They also can compare different providers easily before making decisions.\n\n2. Social responsibility: As awareness about global issues such as climate change, labor rights, human rights abuses and unethical practices increase over time, people demand more transparency from companies in terms of their contributions to mitigating these problems.\n\n3. Personalization: People now expect highly personalized experiences tailored according to their needs or preferences when engaging with brands or using services on digital platforms.\n\n4. Quality improvement: Businesses face stronger competition due to globalization; consequently prompting customers to anticipate improved products/services consistently in terms of quality & performance at relatively competitive prices.\n\n5. Changing demographics: A younger generation who grew up surrounded by rapid technological advancements has different expectations compared with those held previously; compelling businesses adapt accordingly through innovation designed towards meeting modern demands/preferences for maintaining relevance moving forward into future markets successfully long-term wise gaining customer loyalty overall worldwide effectively assuring continued growth prospects essentially securing ongoing profitability hence successful sustainability long-haul ultimately altogether generally speaking overall basically pertinent considerable attention necessary reflection bearing significance importance consideration effect impact influence consequence weight implication value merit account substance relevancy note interest capital import prominence moment concern authority meaning gravity seriousness eminence distinction materiality stress priority worth noteworthiness standing esteem estimation renown magnitude power sway usefulness compass faith credit notability fame mark-believed name belief trust-confide depend rely confide suppose presume assume lean hope reckon suspect count hang bank calculate build plan conceive bargain look deem be sure that buy figure maintain bet take"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

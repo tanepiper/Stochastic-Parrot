@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BGuPsP1PYeGVJXMnCLx2lTK26iiX",
+  "object": "chat.completion",
+  "created": 1682920961,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It can vary depending on what definition of \"technology\" one is using, but telecommunications and technology have often been closely linked in the history of technological development.\n\nThe invention of the telegraph in the early 19th century was arguably one of the first major technological advances for telecommunications. The optical telegraph (a series of mechanical semaphores) was created by Claude Chappe in France around 1790-91. In 1837, Samuel Morse invented an electrical version - Morse Code, which used a system of dots and dashes to represent letters that could be transmitted over long-distance telegraph lines.\n\nNext came another significant leap would be Alexander Graham Bell's invention of telephone in 1876. Telephones enabled direct voice communication between two parties over long distances through electric current transmission using wires, making global connections possible.\n\nIn the early-to-mid-20th century: Wireless radio communications were pioneered – these led to further growth with broadcast radio stations becoming widespread alongside developments like radar systems during World War II. Commercial television broadcasting emerged as a new platform for disseminating content across larger audiences than just those within earshot or vision range limitations previously dictated by wired connections alone existed before them–this changed societal landscapes dramatically both entertainment-wise but also how information quick would travel too when news events occurred/exploded worldwide almost instantaneously where otherwise unknown if it weren't thanks this mix media available at such short notice today upon happening now all interconnected digitally speaking largely unison!\n\nNowadays we continue advancing data-driven networks including internet fiber optic broadband satellite-based mobile services & countless digital technologies integrated day life daily basis already well-positioned beyond mere imagination ever seemingly limitless horizon akin science fiction fantasy become reality mainstream society infiltrated every aspect human civilization existence shortly following seeing no slowdown signs"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

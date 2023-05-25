@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77MLWAODxsXaAyfOifGgiaZmV9viQ",
+  "object": "chat.completion",
+  "created": 1681988550,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 317,
+    "total_tokens": 324
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Market opportunity analysis is a process that businesses use to identify, evaluate, and prioritize potential opportunities in their target markets. This analysis helps companies determine the most attractive options for growth, expansion or investment within specific market segments.\n\nThe goal of market opportunity analysis is to support better decision-making by providing an understanding of various factors that can impact the success of a new product or service. These factors may include customer preferences, competitive landscape, technological advancements, regulations and macroeconomic conditions.\n\nTypically there are main five steps involved in market opportunity analysis:\n\n1. Define your business objectives: Clearly state your organization's goals related to promoting growth through new products or services.\n\n2. Identify potential opportunities: Carry out research targeted at uncovering possible areas where you can create unique value proposition compared to competitors.\n\n3. Analyze external factors: Examine variables outside your control such as emerging trends affecting supply chains (e.g., technology), changing consumer preferences (e.g., demand side) and increasing government regulation levels (e.g., constraints).\n\n4. Evaluate internal competencies: Assess how effectively existing resources align with identified opportunities; this includes staff skills/expertise plus infrastructure needs & capabilities required for successful execution/participation within given sector(s).\n\n5.Evaluate each opportunity against clear criteria – make comparisons/assess data gathered vs predetermined strategic objectives- select best fit based on risk / return profile assessment.\n  \nUltimately , Market Opportunity Analysis should help decision makers redirect company resources towards areas with highest likelihood of achieving sustained revenue gains while avoiding those unlikely to be highly-profitable over time ,thus optimizing resource allocation among competing options available today"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

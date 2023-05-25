@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78Oz1OIfxz1srf2DuFm2ZmzeMccJ3",
+  "object": "chat.completion",
+  "created": 1682237015,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 326,
+    "total_tokens": 333
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The impact of the invention of the cell phone on society has been immense. It changed how we communicate, access information, and interact with each other.\n\n1. Communication: The primary function of cell phones is to make communication quicker and more accessible. People no longer have to wait for letters or use landlines to stay in touch - they can now reach out to anyone at any time via calls, texts, email or social media.\n\n2. Instant Access to Information: With smartphones, we now have instant access to news updates, weather forecasts, sports scores and much more through apps and web browsing. This availability of information has made us better informed about current events and trends.\n\n3. Social Media Connectivity: Cell phones allowed individuals all around the world to connect on platforms like Facebook, Twitter or Instagram as long as they had a mobile device connected to the internet.\n\n4.Camera Integration: \u001fCell phones evolved into devices equipped with digital cameras enabling people capturing important moments from their daily lives without having a separate camera equipment.\n\n5.GPS Capability\u001e:-Having GPS integrated into our smartphones essentially replaced physical maps providing accurate positioning\u0013information for navigation purposes as well directions\u0011to points-of-interest such as restaurants\u0007or attractions nearby your location.`\n\n6.Mobile Commerce : Mobile payments provide an easy way\u0002for consumers¯to purchase\u0005 goods\u0003and services directly\u0007from their\u001d smartphones.Much reducing fraud risk for retail industry by adopting encrypted transaction.\n \n7.Portable Entertainment\u0010-Mobile game streaming services offering various content music videos movies podcasts\u0014 help\u0012entertain users\u001dat any\u0017time anywhere\u0016 especially duration traffic delays waiting times appointments\u0006 etc"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

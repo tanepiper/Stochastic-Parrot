@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7HR0zaCukwwQzAL0TkVIinHTRUZIj",
+  "object": "chat.completion",
+  "created": 1684389777,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 290,
+    "total_tokens": 297
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some ways for seniors to stay active during quarantine include:\n\n1. Go for daily walks: Going for a short walk outside every day is great for both physical and mental health. Ensure that the area has low foot traffic and make sure to follow social distancing guidelines.\n\n2. Home workouts: Senior-friendly exercises can be done at home, such as seated leg lifts, seated marches, or upper-body stretches with resistance bands.\n\n3. Yoga or Tai Chi: Practicing gentle movements through yoga or tai chi routines designed for seniors can help improve balance, strength and flexibility.\n\n4. Gardening: A small container garden on a patio or balcony can provide physical activity, fresh air and sunlight while staying within their own space.\n\n5. Staying mentally active: Encourage your senior loved one to engage in mind-stimulating activities like jigsaw puzzles, crossword puzzles, sudoku or reading books.\n\n6. Establishing a routine - A maintained schedule of exercises helps in forming habits which would last long even after Quarantine times are over\n\n7.Video Conferencing- Join online classes where you interact either 1x1 sessions or group therapy sessions/classes\nremain very much engaged keeping interest intact\n\n8.Focus on Nutrition-taking steps towards eating healthy meals & avoiding Sodium-rich salty snacks\n\n9.Make use of technology-download Apps curated specifically focusing on fun elements helping elderly+\n\n10.Stay connected socially-Quarantine doesnot mean isolation \ninvest time engaging talking family friends grandchildren"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

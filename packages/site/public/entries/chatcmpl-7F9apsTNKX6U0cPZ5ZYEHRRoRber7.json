@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F9apsTNKX6U0cPZ5ZYEHRRoRber7",
+  "object": "chat.completion",
+  "created": 1683846151,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "\"Motorboat\" typically refers to a boat powered by an internal combustion engine, with either an inboard or outboard motor. These engines propel the boat through the water using one or more propellers. Motorboats can vary widely in size, design, and purpose; they may be small dinghies for recreation or larger vessels used for transportation, commercial fishing, or military purposes.\n\nThere are also some key terminologies related to motorboat usage:\n\n1. Bow: The forward part of the boat.\n2. Stern: The rear part of the boat.\n3. Starboard: The right side of the boat when facing forward.\n4. Port: The left side of the boat when facing forward.\n5. Throttle: A control that regulates engine speed on a motorboat (similar to a gas pedal in a car).\n6. Propeller (or \"prop\"): Device attached to an engine shaft that uses rotational motion to generate thrust and move water behind it.\n7. Inboard motor/engine: A type of marine propulsion system where an internal combustion engine is mounted inside the hull; these often use driveshafts with propellers at their ends as opposed to outboards which have integral props directly on their lower units/part of their entire assembly outside/underneath boats' transoms/hulls themselves\n8 Outboardmoter/engine:bolt-on/removeable(whereaseinboardsare'inbetweenthestringers'=fibeglasspockets/channelsusedtooutput/maintransverselinearkeel_stiffeners)unitsdeployedoftensince1920's'Maier'-electrics==1937Kie+Westermoore1947UnitedDiver1968Catermaran1974Knight1983-'43runs130"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

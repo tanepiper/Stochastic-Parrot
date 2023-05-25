@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7Dtru9Ir0xA9YvQrEBB7imhNP6kLN",
+  "object": "chat.completion",
+  "created": 1683547378,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 317,
+    "total_tokens": 324
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "If you want to resign from your job for personal reasons, it is best to talk to your employer in a respectful and professional manner. Here is a sample letter of resignation that you can use as a template:\n\n[Your name]\n[Your address]\n[City, State, Zip Code]\n[Phone number]\n\n[Todays Date]\n\n[Employer's Name]\n[Company Name]\n[Address]\n[City, State, Zip Code]\n\nDear [Employer's Name],\n\nI am writing to formally inform you about my decision to resign from my position at [Company Name], effective two weeks from now on [last day of employment]. For personal reasons, I have decided that this course of action is necessary at this time.\n\nOver the years working with the team at [Company Name], I have grown tremendously both personally and professionally. I would like to take this opportunity to express my deep appreciation for all the opportunities given during my tenure with the company. It has been an honor and joy being part of such a dedicated and talented team.\n\nPlease let me know how we can work together in ensuring a smooth transition over these last two weeks.  If there are specific tasks or projects that require attention before my departure date, please do not hesitate in letting me know so we can make appropriate arrangements.\n\nFrom the bottom of my heart: thank you! My heartfelt gratitude goes out not only for what I've learned from being under your leadership- but also because knowing everyone here made every day special throughout our journey together.\n\nSincerely,\n\n_ _ _ _ _\n\nReplicate above pattern by entering your details"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

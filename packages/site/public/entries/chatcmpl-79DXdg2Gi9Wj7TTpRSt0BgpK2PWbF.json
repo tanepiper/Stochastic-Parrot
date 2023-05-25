@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-79DXdg2Gi9Wj7TTpRSt0BgpK2PWbF",
+  "object": "chat.completion",
+  "created": 1682431361,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 141,
+    "total_tokens": 148
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Lilacs have a strong, sweet fragrance that is often associated with the arrival of spring. The scent has been described as fresh, floral, and slightly fruity or candy-like. It is somewhat similar to that of jasmine, but softer and less intense. Some people also say it smells like powder or soap.\n\nThe scent of lilacs can evoke nostalgic feelings for many individuals as it is commonly used in perfumes, lotions and candles for its calming effects. In aromatherapy terms,lilac's fragrance aims at promoting relaxation and soothing anxiety.\n\nIt's worth considering that different species/varieties can have their specific small variations in smell characteristics , but the overall profile remains quite similar from one to another."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

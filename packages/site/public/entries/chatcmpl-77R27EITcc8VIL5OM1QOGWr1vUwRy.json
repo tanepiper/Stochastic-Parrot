@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77R27EITcc8VIL5OM1QOGWr1vUwRy",
+  "object": "chat.completion",
+  "created": 1682006567,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 267,
+    "total_tokens": 274
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "How to Apologize Properly\n\n1. Take responsibility for your actions: Acknowledge that you made a mistake, and express genuine remorse for the harm or inconvenience it has caused others.\n\n2. Be specific about what you did wrong: Describe exactly what happened so the other person knows that you understand the situation fully.\n\n3. Show empathy: Put yourself in their shoes to better understand how they feel as a result of your actions, and acknowledge those feelings.\n\n4. Offer amends or restitution, if appropriate: Attempt to make up for any damage caused by offering kind gestures such as replacing damaged items or stepping up in another area where they need help.\n\n5. Learn from the experience and commit to not repeating it again, which may involve making changes in your behaviour or practices to ensure this doesn't happen again moving forward.\n\n6. Practice humility when apologizing – don't be defensive or try justifying your action; focus on understanding their perspective and validating their feelings instead.\n\n7. Keep it private (if possible): Depending on the situation, apologizing privately can be more respectful than doing so publicly where others can witness vulnerability without contributing any value themselves through support or constructive criticism.\\\n\n8 Do not wait too long before apologizing – Addressing problems sooner is often best for both parties since unresolved issues tend stay emotionally charged over time\n"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

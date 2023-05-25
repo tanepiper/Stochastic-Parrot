@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JGKE1w11bp4iDXoswBGAdz6uDMe9",
+  "object": "chat.completion",
+  "created": 1684825342,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 44,
+    "total_tokens": 51
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Unfortunately, I cannot physically accompany you as I am an AI language model. However, if you have any questions or need help with anything online, feel free to ask me and I will do my best to support you!"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

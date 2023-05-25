@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7E0PqUMK4pb9sjZ7vVg8SohPaGA1I",
+  "object": "chat.completion",
+  "created": 1683572546,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Here are some possible causes of weight fluctuations on a daily basis:\n\n1. Changes in fluid intake: Drinking more or less water, eating salty foods, and consuming caffeinated or alcoholic beverages can lead to temporary changes in body weight due to fluctuations in water retention.\n\n2. Food intake: The time of day you eat, the type of food you consume (high vs low calorie), portion sizes, and digestion rates all contribute to daily weight fluctuation.\n\n3. Pooping and peeing: Your bathroom habits affect your weight since fecal matter and urine account for part of your total mass.\n\n4. Exercise/activity level: Weight may vary after an intense workout session since calories burned often result from both fat loss (leading to decreased bodyweight) and muscle gains/inflammation (which might increase bodyweight temporarily).\n\n5. Hormones/menstrual cycle: For women especially, hormonal changes throughout their menstrual cycle can cause water retention ranging between 2-8 pounds leading to temporary increases/decreases in overall bodyweight averages typically lasting several days per month's duration.\n\n6. Sleep patterns/stress levels: Both lack/interrupted sleep plus increased stress hormone cortisol production have been identified as contributing factors causing individuals' metabolic rates that regulate caloric consumption/utilization ratios becoming unstable producing unpredictable variations within individuals' weights according gotten satisfaction dependencies/preferences settled engagement consumptions performances response systems variables common effective regards implicative subjective needs further example continuity accessibility options prescribed appropriate interaction constant relations values established consistent provision available required guidelines instances conditions circumstances relation prospects contract indicative appearance limitations obligations prerequisites management validations submission solutions representatives competences verifications confirmation protection correspondence registration engagements arrangements cooperation procedures implications presentation identification modification completion classification enhancement suitability recommendation acknowledgment improvement accommodation assistance verification agreement implementation documentation investigation notification demonstration obligation assignments responsibility assumption"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AIyHPELBaPThvXtwNPgfQ78DgEeU",
+  "object": "chat.completion",
+  "created": 1682690561,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 223,
+    "total_tokens": 230
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The legal age to work in most industries in the United States is 14 years old. However, certain jobs may have different age requirements or restrictions, and child labor laws will vary from state to state.\n\nAt the federal level, there are exceptions for those younger than 14 who want to work as newspaper carriers or actors/actresses if they meet specific conditions established by The Fair Labor Standards Act (FLSA).\n\nGenerally, as a young worker's age increases, so does the variety of jobs they can perform and the hours they can work per week. For instance:\n\n- At 14-15 years old: Teens can usually take on retail positions such as cashier or stocking shelves; many also start lifeguarding with appropriate certifications.\n- At 16-17 years old: More opportunities open up, with possibilities including construction-related jobs or other positions involving machinery operation.\n- At 18+ years old: Almost all employment options are open since these individuals are considered adults under U.S. law.\n\nIt's essential to research your specific job sector and local labor regulations before applying for any position at a young age."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

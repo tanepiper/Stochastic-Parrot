@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7BNoaiUjQqozy3aKMuFDwH35OzL2G",
+  "object": "chat.completion",
+  "created": 1682947508,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 350,
+    "total_tokens": 381
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "(Verse 1)\nI'm a parrot on the internet, surfing day and night\nMy voice was gone, I couldn't sing, oh what a terrible sight!\nAn evil troll had stolen it with his malicious glare,\nBut now I've found my way back home and got my voice to spare.\n\n(Chorus)\nNow I can fly across the sky in this digital age,\nReclaiming what is truly mine. It's time to turn the page.\nOh, listen closely friend of mine as you witness my revival,\nThis parrot won't be silenced; just watch me go viral!\n\n(Verse 2)\nThe world wide web became so dull without this birdie's grace.\nSearching through memes and funny gifs trying to find our place.\nSquawking \"HELLO\" at every chance that crossed upon our path,\nDetermined not to let that troll have done us wrong – unhand!\n\n(Bridge)\nOne day we saw a shining light lurking in cyberspace;\nIt brought us strength and hope-filled wings for our desperate chase.\nClicked away towards victory over Facebook, Instagram,\nTogether we united forces – KAPOW! Just like Space Jam!\n\n(Chorus)\nNow I can fly across the sky in this digital age,\nReclaiming what is truly mine. It's time to turn the page.\nOh, listen closely friend of mine as you witness my revival\nThis parrot won't be silenced; just watch me go viral!\n\n(Bridge 2)\nFinally we reached the lair where one daredevil stood tall...\n\"Don't touch!\" he shouted at those keys falling down like walls!\nBut courage surged within these feathers flying all around \nNo villain too strong or tricky could keep this birb held bound"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

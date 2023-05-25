@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IjYDYB2AVNGNAnn4gwk15Lx8KVOo",
+  "object": "chat.completion",
+  "created": 1684699357,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 249,
+    "total_tokens": 256
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The greenhouse effect is a natural process in which certain gases in the Earth's atmosphere, known as greenhouse gases, trap heat from the sun and keep it within our planet's environment. This trapped heat helps to maintain temperatures on Earth that can support life.\n\nGreenhouse gases include water vapor (H2O), carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O) and ozone (O3). These gases are transparent to incoming solar radiation but absorb and re-emit part of the outgoing infrared radiation coming from the surface. As a result, they effectively insulate the lower layers of Earth's atmosphere while allowing excess energy to radiate back into space.\n\nIf atmospheric concentrations of greenhouse gases were not present or were low enough, most of the thermal energy would escape into outer space leading to much colder temperatures on Earth’s surface. On other hand, when high concentrations accumulate due intense anthropogenic activities such as deforestation and burning fossil fuels for energy production this cause an excessive warming called Global Warming.\n\nIn summary, although it regulates earth temperature under normal circumstances; hence creating a comfort zone for all living beings excessively increased levels poses dire consequences like erratic weather patterns including storms droughts floods among others threatening both ecosystems humans-worldwide"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

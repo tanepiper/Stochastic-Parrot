@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77qJkb3FUs57nQfpzMNFlAN6zmmXG",
+  "object": "chat.completion",
+  "created": 1682103760,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 350,
+    "total_tokens": 357
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "El dúo musical Daft Punk, compuesto por Guy-Manuel de Homem-Christo y Thomas Bangalter, se formó en París a principios de 1993. La pareja es conocida por su estilo distintivo y futurista que combina música house electrónica con elementos visuales espectaculares. Antes de que adoptaran el nombre \"Daft Punk\", eran miembros del trío guitarrero Darlin', pero luego decidieron seguir adelante como un dueto.\n\nEn 1997, lanzaron su álbum debut bajo el título \"Homework\", que incluía algunas canciones famosas como \"Around the World\" y \"Da Funk\". Desde entonces han producido varios éxitos más conocidos mundialmente, entre ellos:\n\n1. One More Time (2000) - Perteneciente al álbum Discovery.\n2. Harder, Better, Faster, Stronger (2001) – También del álbum Discovery.\n3. Digital Love (2001) – Otro sencillo destacado del álbum Discovery.\n4. Technologic (2005): Esta canción forma parte del disco titulado Human After All.\n5. Robot Rock (2005): Otra importante pieza presente en Human After All.\n\nA lo largo de los años han colaborado con artistas diversos e incluso contribuyeron con música original para la película TRON: Legacy estrenada en 2010.\n\nEl más reciente éxito destacable fue Get Lucky ft Pharrell Williams and Nile Rodgers presentada en su aclamado álbum Random Access Memories lanzado en mayo de 2013.\n\nEl dúo Daft"
+      },
+      "finish_reason": "length",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7DmNRAXyNmMwx2ai2j1GBsEra8Hr4",
+  "object": "chat.completion",
+  "created": 1683518581,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 25,
+    "total_tokens": 32
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Please provide me with the url of the article that you want summarized so I can provide you with key points and important information."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

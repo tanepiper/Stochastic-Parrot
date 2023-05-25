@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-77abDSWfpy5JbfvY0ZatTDpVVAPQk",
+  "object": "chat.completion",
+  "created": 1682043339,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 349,
+    "total_tokens": 356
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "A limoncello spritz is an Italian alcoholic beverage made with limoncello liqueur, prosecco (Italian sparkling wine), and soda water or club soda. It's a refreshing, sweet-and-sour cocktail that is easy to make at home.\n\nIngredients:\n- 2 oz (60 ml) Limoncello\n- 4 oz (120 ml) Prosecco\n- Soda water or club soda\n- Fresh lemon slices for garnish\n\nInstructions:\n\n1. Fill a large wine glass or tumbler with ice.\n\n2. Pour the limoncello over the ice.\n\n3. Add the prosecco into the glass slowly, allowing it to combine gently with the limoncello without losing its effervescence.\n\n4. Top off your drink by adding a splash of soda water or club soda to taste; you can adjust this based on how fizzy and diluted you prefer your cocktail to be.\n\n5. Gently stir the mixture once more without disturbing too much of its fizziness from combining carbonated beverages in one glass — doing so helps distribute flavors evenly throughout each sip!\n\n6. Garnish your cocktail by either placing straight onto ice inside glasses themselves before serving guests OR threading them thinly around long skewers then hanging these across rims atop tall drinking vessels holding mixed libations already prepared & ready-to-drink upon arrival at gatherings where strangers might strike up conversation as they quench their thirst together all evening long amid candlelight flickering softly against marbled countertops nearby adorned elegantly w/large platters piled high w/generous portions piping hot homemade garlic breadsticks sure tantalizing anyone walking past involuntarily drawn closer during these moments’ linger touches f/color dance playfully over everyone present"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7IJKWUnXMrtHUFbfHZ6sZzJqmhCCD",
+  "object": "chat.completion",
+  "created": 1684598564,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 49,
+    "total_tokens": 101
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which fictional character would make the best president?\",\n  \"answers\": [\n    \"Sherlock Holmes\",\n    \"Tyrion Lannister\",\n    \"Atticus Finch\",\n    \"Wonder Woman\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

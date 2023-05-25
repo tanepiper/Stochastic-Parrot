@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7JhUk841kPoUcdAe9uK81crJH740d",
+  "object": "chat.completion",
+  "created": 1684929782,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 283,
+    "total_tokens": 290
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "It depends on several factors like the material used, construction quality, usage and maintenance practices. High-quality shoes from reputable manufacturers usually last longer than cheap, low-quality ones.\n\n1. Material: Shoes made from high-quality materials tend to be more durable and long-lasting. Leather can be quite resilient if cared for properly, while synthetic materials may wear out more quickly.\n\n2. Construction: The way a shoe is constructed plays a major role in its lifespan. A well-made pair of shoes with reinforced stitching will likely last longer than those held together by glue or poor-quality stitches.\n\n3.Options for repair: Brands offering repair-service prolong the life of their products significantly since soles can be replaced when they wear out\n\n4.Usage habits: Factors like regular use (how often you wear them), conditions (intense workouts vs walking), surfaces (rough terrain vs paved roads) and how well you maintain your shoes also contribute to their longevity.To ensure that your footwear lasts as long as possible keep them clean & dry, avoid over-wearing one pair of sneakers continuously etc\n \nApproximately 300-400 miles for sports and running sneakers(accommodates various body weights)\n\nFor casual everyday use sneakers - If worn only occasionally then should hold up fairly well assuming not put through strenuous situations\n\nGenerally speaking, high-quality running athletic shoes in most cases don't stay usable beyond 400miles at max since cushioning element diminishes"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

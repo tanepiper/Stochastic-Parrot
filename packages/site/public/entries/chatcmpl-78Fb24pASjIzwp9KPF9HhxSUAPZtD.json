@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78Fb24pASjIzwp9KPF9HhxSUAPZtD",
+  "object": "chat.completion",
+  "created": 1682200932,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 136,
+    "total_tokens": 143
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "On July 4th, Americans celebrate their country's independence from Britain. The day is known as Independence Day and is considered a national holiday in the United States.\n\nThe celebration dates back to 1776 when British settlers living in the then-13 American colonies declared their independence from Great Britain. This was done through an important document called the Declaration of Independence, which detailed why colonists were breaking away from British rule due primarily to oppressive taxes and lack of representation in Parliament.\n\nSince that momentous occasion, every year on July 4th people across America come together for parades, fireworks shows, family gatherings, barbecues and other festivities to celebrate American freedom and unity."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

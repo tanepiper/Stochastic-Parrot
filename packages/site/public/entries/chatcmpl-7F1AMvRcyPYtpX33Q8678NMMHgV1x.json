@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F1AMvRcyPYtpX33Q8678NMMHgV1x",
+  "object": "chat.completion",
+  "created": 1683813758,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 300,
+    "total_tokens": 307
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Some tips to improve your debating skills are:\n\n1. Research and know your topic: Understand the subject matter you will be debating thoroughly. Spend time researching the various aspects of the issue, including different viewpoints and perspectives.\n\n2. Structure your argument: Organize your thoughts logically with a well-thought-out introduction, body, and conclusion. Make sure to clearly articulate each point you wish to make and avoid jumping from one idea to another without a proper transition.\n\n3. Use evidence effectively: Support your arguments with relevant facts, statistics, examples or expert opinions. Citing reliable sources not only helps bolster your case but also demonstrates that you have done thorough research on the subject.\n\n4. Be clear and concise: Express yourself in a simple manner so as not to leave any room for confusion or misinterpretation.\n\n5. Rebuttal skills: Anticipate opposing arguments and prepare logical counterarguments that address those points directly.\n\n6. Maintaining composure under pressure: Stay calm even while being criticized or challenged by others during debate; maintain respectful tone-and-manner when addressing opponents' counterarguments\n\n7 Learn effective communication techniques like persuasive language usage (e.g., metaphors), employing active listening strategies such keeping eye contact listeners remaining silent allowing them fully express themselves before responding-lastly never interrupting speaker mid-sentence.'\n\n8 Focus-critical thinking approach through identifying fallacies presented within opponent's case pointing inaccuracies premises conclusions drawn providing alternative perspective based factual real-life scenarios/experiences thereby ensuring holistic representation given context"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7F0G2TLhvTMhu17VoqtNMDG02ro2Q",
+  "object": "chat.completion",
+  "created": 1683810266,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 189,
+    "total_tokens": 196
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "\"Creepypasta\" refers to short, horror stories that are shared on the internet. They often feature gruesome, disturbing or supernatural elements and may have originated as urban legends. The term \"creepypasta\" is a combination of \"creepy,\" referring to the scary nature of the stories, and \"copypasta.\" Copypasta is an internet slang term for text or content that has been copied and pasted from one website to another.\n\nMany creepypastas revolve around fictional characters like Jeff the Killer or Smile Dog, though others focus on real-life events that have been twisted into darker tales. Users will typically encounter these stories in online forums, social media sites like Reddit's /r/nosleep subreddit, or dedicated websites such as Creepypasta.com.\n\nSimilar examples include cryptids (folkloric creatures such as Bigfoot) and SCP Foundation entries (paranormal objects contained by a secret organization)."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

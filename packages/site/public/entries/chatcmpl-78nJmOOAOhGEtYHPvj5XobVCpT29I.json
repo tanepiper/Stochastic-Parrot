@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-78nJmOOAOhGEtYHPvj5XobVCpT29I",
+  "object": "chat.completion",
+  "created": 1682330558,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 48,
+    "total_tokens": 55
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Generate a motivational quote about success for startup founders:\n\n\"Success is not built overnight; it's forged in the late nights, early mornings, and countless cups of coffee. Embrace the journey and let your relentless passion guide you to greatness.\""
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7G3mWy2QAfPT0vVF4fWlCAYI4JMbl",
+  "object": "chat.completion",
+  "created": 1684062140,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 82,
+    "total_tokens": 89
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Overall, the Texas Longhorns football program has a historical winning percentage of about 70.8%. The team's all-time record through the end of the 2020 season is approximately 923-375-33 in more than 125 years since its inception.\n\nThe exact win-loss numbers and winning percentages can change each year as new games are played, but this gives an idea of their historical performance."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7AFDu7RQPmcKaiIjEc58hVrR3R68P",
+  "object": "chat.completion",
+  "created": 1682676154,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 302,
+    "total_tokens": 309
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "1. Elon Musk: The entrepreneur behind Tesla, SpaceX, Neuralink, and more has been impacting the future with his focus on clean energy solutions and space exploration.\n\n2. Jeff Bezos: The founder of Amazon.com also established Blue Origin to develop reusable rockets for future commercial use in space travel and colonization.\n\n3.Delete this,\n\n4. Tim Cook: As Apple's CEO, Cook has led one of the most successful companies globally in creating innovative devices such as iPhones, iPads, Macs, Apple Watches.\n\n5. Sundar Pichai: Leading Alphabet Inc., Google’s parent company, Pichai oversees a range of technologies like self-driving cars (Waymo), AI research (DeepMind), internet access projects (Project Loon), among others.\n\n6. Satya Nadella: Microsoft's CEO focuses on cloud computing services through Azure while continuing to expand its product offerings in gaming platforms like Xbox and VR/AR technology such as HoloLens goggles.\n\n7.Mark Zuckerberg : Facebook founder Mark Zuckerberghas transformed how people communicate over social media platforms by introducing products like Instagram , Whatsapp & Oculus VR .\n\n8.Larry Page : Co-founderof Google  which continues its impact on various organizational aspects from search engines to artificial intelligence\n\n9.Sergey Brin : Larry Pages Partner is working on disruptive technologies ranging from autonomous vehicles using Waymo subsidiary along with air-levitated transportation system \n\n10.Ginni Rometty : IBM'S first ever woman CEO known for steering innovation towards quantum computing & AI"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
