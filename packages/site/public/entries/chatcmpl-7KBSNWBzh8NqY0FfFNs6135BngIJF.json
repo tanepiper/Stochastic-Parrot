@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7KBSNWBzh8NqY0FfFNs6135BngIJF",
+  "object": "chat.completion",
+  "created": 1685044955,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 256,
+    "total_tokens": 263
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The most common reasons for chest pain and difficulty breathing in teenagers are:\n\n1. Anxiety or panic attacks: These can cause chest pain, rapid heart rate, shortness of breath, and a feeling of impending doom.\n\n2. Asthma: Teenagers with asthma often experience chest tightness, wheezing, coughing, and shortness of breath.\n\n3. Precordial catch syndrome (PCS): This is a benign condition that usually causes sudden sharp chest pain on one side under the breastbone or ribs. It may last a few seconds to minutes before suddenly stopping.\n\n4. Muscle strain or injury: Chest wall muscles can get strained due to sports activities or heavy lifting leading to discomfort during movement and breathing.\n\n5. Costochondritis: An inflammation of the cartilage connecting your ribs with your sternum causing localised soreness around the rib cage which becomes more severe when deep-breathing or stretching\n\n6. Indigestion/gastrointestinal problems: Acid reflux (GERD) causes irritation by bringing stomach acid into the esophagus leading burning sensations in the chest along other symptoms like bloating difficulties swallowing etc\n\n7 Heart-related issues such as palpitations– although they're rare among this age group unruly lifestyle previous family history could increase chances developing conditions involving cardiovascular system"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
