@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7KC73FimBLJTL7AJU2WeXfLX8aykt",
+  "object": "chat.completion",
+  "created": 1685047477,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 71,
+    "total_tokens": 135
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question\": \"Which dead bird was your favourite?\",\n  \"answers\": [\n    \"Parrot – A Unique and Colorful Character\",\n    \"Dodo – The Lost World of Mauritius\",\n    \"Passenger Pigeon – The Fast Fliers'\",\n    \"Great Auk – The Sophisticated Swimmer\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
