@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7K3yJ05JT3h3zPLRK8rrFriWy14ho",
+  "object": "chat.completion",
+  "created": 1685016183,
+  "model": "gpt-4-0314",
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 213,
+    "total_tokens": 220
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "There could be several reasons why your voice sounds different to others than it does to you. The main two factors are:\n\n1. Internal resonance: When you speak, the sound waves produced by your vocal cords travel not only out into the external environment, but also through various internal structures in your head and body. Your inner ear experiences sound vibrations differently because they're resonating inside bones and soft tissues before being translated as electrical impulses by your brain. This creates an \"internal voice\" that is lower in pitch and has a richer timbre compared to what others hear externally.\n\n2. Sound interaction with environment: As a speaker, you sometimes can't hear how reflections from walls or other objects affect the way your voice navigates through space; hence placement of ears relative to these obstacles have significant effect on perception of words/phrases being spoken aloud..\n\nOthers potential factors include:\n- Human hearing range varies between individuals so subjective interpretations may occur during communication.\n- Psychological bias plays part when assessing one's own performances since we often tend criticize ourselves harshly due self-consciousness etc."
+      },
+      "finish_reason": "stop",
+      "index": 0
+    }
+  ]
+}
