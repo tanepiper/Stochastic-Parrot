@@ -20,7 +20,7 @@ export const elevenLabsConfig = {
 
 export const openAIConfig = {
   chat: {
-    model: 'gpt-4',
+    model: 'gpt-4-1106-preview',
     max_tokens: 500,
     frequency_penalty: 1,
     presence_penalty: 1,
