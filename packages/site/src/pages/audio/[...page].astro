@@ -1,4 +1,5 @@
 ---
+import { withBase } from '../../libs/url.mjs';
 import AudioListing from '$ui/AudioListing.astro';
 import Layout from '../../layouts/Layout.astro';
 import { createEntriesLoader } from '../../libs/entries.mjs';
@@ -30,7 +31,7 @@ const entries = page.data.map((entry) => entry.props);
       <div class='controls'>
         {
           page.url.prev ? (
-            <a class='button' href={page.url.prev}>
+            <a class='button' href={withBase(page.url.prev)}>
               Previous
             </a>
           ) : (
@@ -39,7 +40,7 @@ const entries = page.data.map((entry) => entry.props);
         }
         {
           page.url.next ? (
-            <a class='button' href={page.url.next}>
+            <a class='button' href={withBase(page.url.next)}>
               Next
             </a>
           ) : (
