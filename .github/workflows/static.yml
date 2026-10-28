@@ -37,7 +37,6 @@ jobs:
       - name: 🛎️ Checkout
         uses: actions/checkout@v6
         with:
-          token: ${{ secrets.GH_PAT }}
           ref: 'main'
           clean: true
       - name: Setup Moon
