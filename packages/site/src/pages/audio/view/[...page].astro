@@ -1,4 +1,5 @@
 ---
+import { withBase } from '../../../libs/url.mjs';
 import { Markdown } from '@astropub/md';
 import Layout from '../../../layouts/Layout.astro';
 import { createEntriesLoader } from '../../../libs/entries.mjs';
@@ -24,11 +25,11 @@ const { item } = Astro.props;
 >
   <main>
     <div class='item-list-container'>
-      <p class='intro'><a href='/audio' class='go-back'>Go Back</a></p>
+      <p class='intro'><a href={withBase('/audio')} class='go-back'>Go Back</a></p>
       <div class='item'>
         <p>
           <code>
-            <a href={`/audio/view/${item.id}`}>permalink</a> | created: {
+            <a href={withBase(`/audio/view/${item.id}`)}>permalink</a> | created: {
               item.created
             } (
             {new Date(item.created * 1000).toISOString()}) | model: {item.model}

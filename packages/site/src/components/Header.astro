@@ -1,13 +1,14 @@
 ---
+import { withBase } from '../libs/url.mjs';
 import '$styles/glitch.css';
 import cx from 'classnames';
 
 const navItems = [
-  { name: 'Home', url: '/' },
-  { name: 'Posts', url: '/entries' },
-  { name: 'Images', url: '/images' },
-  { name: 'Audio', url: '/audio' },
-  { name: 'Video', url: '/video' },
+  { name: 'Home', url: withBase('/') },
+  { name: 'Posts', url: withBase('/entries') },
+  { name: 'Images', url: withBase('/images') },
+  { name: 'Audio', url: withBase('/audio') },
+  { name: 'Video', url: withBase('/video') },
   {
     name: 'Mastodon',
     url: 'https://botsin.space/@StochasticEntropy',
@@ -23,8 +24,8 @@ const navItems = [
 
 <header class='header sticky'>
   <div class='logo-title-container'>
-    <a href='/'>
-      <img src='/images/avatar.png' alt='Logo' class='logo' />
+    <a href={withBase('/')}>
+      <img src={withBase('/images/avatar.png')} alt='Logo' class='logo' />
 
       <h1 class='title magic'>Polly The Stochastic Parrot</h1>
     </a>
@@ -41,7 +42,7 @@ const navItems = [
               target={item.url.includes('http') ? '_blank' : '_self'}
             >
               {item?.icon ? (
-                <img src={`/images/${item.icon}.svg`} alt={item.icon} />
+                <img src={withBase(`/images/${item.icon}.svg`)} alt={item.icon} />
               ) : (
                 item.name
               )}
